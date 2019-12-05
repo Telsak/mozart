@@ -5,9 +5,9 @@ CH <000><faa>
 CP <138>
 CR <fff>
 
-F 139
+F 138
 
-I 841
+I 202
 
 L * # # # | # x          
 
@@ -570,7 +570,7 @@ E {  139} {d} {d} {32} {0} {}
 R {  139} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  140} {e} {e} {2} {0} {}
 
-R {  140} {0} {} {The Temple Catacombs} { } {The charnel stench of death pervades this room.  A yellowish haze in the air limits your visibility, but you can discern passageways to the east and south. As far as you can see, alcoves line the walls} {Nevrast} {} {Inside} {} {1.000}
+R {  140} {0} {<afa>} {The Temple Catacombs} { } {The charnel stench of death pervades this room.  A yellowish haze in the air limits your visibility, but you can discern passageways to the east and south. As far as you can see, alcoves line the walls; once, they overflowed with skulls, but most have been swept to the ground and now lie in shattered fragments.  A spiral staircase ascends into the darkness. } {Nevrast} {} {Inside} {} {1.000}
 E {  149} {e} {e} {2} {0} {}
 E {  146} {s} {s} {4} {0} {}
 E {  157} {u} {u} {16} {0} {}
@@ -594,23 +594,25 @@ E {  143} {n} {n} {1} {0} {}
 R {  145} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  141} {d} {d} {32} {0} {}
 
-R {  146} {0} {} {The Temple Catacombs} { } {The musty corridor turns from north to east here and continues into the haze.  Simple statues occasionally join the skulls, both in the alcoves and underfoot, but all detail on them has long since worn away.  A distant sound of metal hitting stone can be heard. } {Nevrast} {} {Inside} {} {1.000}
+R {  146} {0} {<afa>} {The Temple Catacombs} { } {The musty corridor turns from north to east here and continues into the haze.  Simple statues occasionally join the skulls, both in the alcoves and underfoot, but all detail on them has long since worn away.  A distant sound of metal hitting stone can be heard. } {Nevrast} {} {Inside} {} {1.000}
 E {  150} {e} {e} {2} {0} {}
 E {  140} {n} {n} {1} {0} {}
 
-R {  147} {0} {} {A Small Crypt} { } {A squat pedestal sits in the middle of this room with an ornate stone coffin resting on top.  The lid of the coffin has been shattered, and fragments are strewn throughout the room.  Old and worn drawings representing characteristics of knighthood are carved into the walls. } {Nevrast} {} {Inside} {} {1.000}
+R {  147} {0} {<afa>} {A Small Crypt} { } {A squat pedestal sits in the middle of this room with an ornate stone coffin resting on top.  The lid of the coffin has been shattered, and fragments are strewn throughout the room.  Old and worn drawings representing characteristics of knighthood are carved into the walls. } {Nevrast} {} {Inside} {} {1.000}
 E {  151} {e} {e} {2} {0} {}
 
-R {  149} {0} {} {The Temple Catacombs} { } {This is an old and twisty passage winding its way from east to west.  Bones crunching beneath your feet and loud scraping noises from afar echo strangely off the uneven walls.  To the north lies a small crypt. } {Nevrast} {} {Inside} {} {1.000}
+R {  148} {0} {} {} { } {} {} {} {} {} {1.000}
+
+R {  149} {0} {<afa>} {The Temple Catacombs} { } {This is an old and twisty passage winding its way from east to west.  Bones crunching beneath your feet and loud scraping noises from afar echo strangely off the uneven walls.  To the north lies a small crypt. } {Nevrast} {} {Inside} {} {1.000}
 E {  140} {w} {w} {8} {0} {}
 E {  153} {e} {e} {2} {0} {}
 E {  156} {n} {n} {1} {0} {}
 
-R {  150} {0} {} {The Temple Catacombs} { } {The catacombs bend sharply from west to south.  A half-faded mural on the eastern wall depicts the Temple in its early days.  The broken bones littering the ground have formed a large pile here. } {Nevrast} {} {Inside} {} {1.000}
+R {  150} {0} {<afa>} {The Temple Catacombs} { } {The catacombs bend sharply from west to south.  A half-faded mural on the eastern wall depicts the Temple in its early days.  The broken bones littering the ground have formed a large pile here. } {Nevrast} {} {Inside} {} {1.000}
 E {  151} {s} {s} {4} {0} {}
 E {  146} {w} {w} {8} {0} {}
 
-R {  151} {0} {} {The Temple Catacombs} { } {Dust is kicked into the air as you make your way through the catacombs.  The corridor curves from the north to the east, and seems to get gloomier as you proceed.  A small crypt can be seen off to the west. } {Nevrast} {} {Inside} {} {1.000}
+R {  151} {0} {<afa>} {The Temple Catacombs} { } {Dust is kicked into the air as you make your way through the catacombs.  The corridor curves from the north to the east, and seems to get gloomier as you proceed.  A small crypt can be seen off to the west. } {Nevrast} {} {Inside} {} {1.000}
 E {  150} {n} {n} {1} {0} {}
 E {  147} {w} {w} {8} {0} {}
 E {  155} {e} {e} {2} {0} {}
@@ -618,87 +620,88 @@ E {  155} {e} {e} {2} {0} {}
 R {  152} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  147} {e} {e} {2} {0} {}
 
-R {  153} {0} {} {The Temple Catacombs} { } {The catacombs form a sharp corner from west to south.  The eastern wall is nothing more than a pile of thick rubble, apparently from a recent cave-in. Cracking bones are heard in the distance. } {Nevrast} {} {Inside} {} {1.000}
+R {  153} {0} {<afa>} {The Temple Catacombs} { } {The catacombs form a sharp corner from west to south.  The eastern wall is nothing more than a pile of thick rubble, apparently from a recent cave-in. Cracking bones are heard in the distance. } {Nevrast} {} {Inside} {} {1.000}
 E {  149} {w} {w} {8} {0} {}
 E {  154} {s} {s} {4} {0} {}
 
-R {  154} {0} {} {The Temple Catacombs} { } {Rotten flesh lingers in the musty air.  The yellow haze is thicker than usual here, but you can still see exits to the north and south.  Rodents scurry at your feet as you creep cautiously along. } {Nevrast} {} {Inside} {} {1.000}
+R {  154} {0} {<afa>} {The Temple Catacombs} { } {Rotten flesh lingers in the musty air.  The yellow haze is thicker than usual here, but you can still see exits to the north and south.  Rodents scurry at your feet as you creep cautiously along. } {Nevrast} {} {Inside} {} {1.000}
 E {  153} {n} {n} {1} {0} {}
 E {  155} {s} {s} {4} {0} {}
 
-R {  155} {0} {} {The Temple Catacombs} { } {The twisty passage curves tightly from the west to the north.  Spider webs cover most of the passage, and limit your visibility significantly.  A soft moaning is heard in the distance. } {Nevrast} {} {Inside} {} {1.000}
+R {  155} {0} {<afa>} {The Temple Catacombs} { } {The twisty passage curves tightly from the west to the north.  Spider webs cover most of the passage, and limit your visibility significantly.  A soft moaning is heard in the distance. } {Nevrast} {} {Inside} {} {1.000}
 E {  154} {n} {n} {1} {0} {}
 E {  151} {w} {w} {8} {0} {}
 
-R {  156} {0} {} {A Cobwebbed Crypt} { } {Inlaid to the wall are several cubbies that contain an assortment of magical trinkets and mystical objects.  A plethora of bones and decaying material litter the floor, some of them still fresh with blood. } {Nevrast} {} {Inside} {} {1.000}
+R {  156} {0} {<afa>} {A Cobwebbed Crypt} { } {Inlaid to the wall are several cubbies that contain an assortment of magical trinkets and mystical objects.  A plethora of bones and decaying material litter the floor, some of them still fresh with blood. } {Nevrast} {} {Inside} {} {1.000}
 E {  149} {s} {s} {4} {0} {}
 
-R {  157} {0} {} {A Spiral Staircase} { } {You are on a rickety spiral staircase that heads up and down.  Light seeps faintly in from above, providing only enough illumination to find the next step.  The moaning is getting louder, and you can now hear the shuffling of feet from below as well. } {Nevrast} {} {Inside} {} {1.000}
+R {  157} {0} {<afa>} {A Spiral Staircase} { } {You are on a rickety spiral staircase that heads up and down.  Light seeps faintly in from above, providing only enough illumination to find the next step.  The moaning is getting louder, and you can now hear the shuffling of feet from below as well. } {Nevrast} {} {Inside} {} {1.000}
 E {  140} {d} {d} {32} {0} {}
 E {  158} {u} {u} {16} {0} {}
 
-R {  158} {0} {} {A Spiral Staircase} { } {This dusty alcove appears unused based on the cobwebs that cover the upper corners.  An old rickety spiral staircase drops into the floor, from which faint groaning noises can be heard.  The vaulted chamber is to the west. } {Nevrast} {} {Inside} {} {1.000}
+R {  158} {0} {<afa>} {A Spiral Staircase} { } {This dusty alcove appears unused based on the cobwebs that cover the upper corners.  An old rickety spiral staircase drops into the floor, from which faint groaning noises can be heard.  The vaulted chamber is to the west. } {Nevrast} {} {Inside} {} {1.000}
 E {  157} {d} {d} {32} {0} {}
 E {  159} {w} {w} {8} {0} {}
 
-R {  159} {0} {} {A Vaulted Chamber} { } {A thick carpet covers most of the floor in this corner of the chamber.  It is severely worn with multiple tears disrupting its simple but elegant pattern. A narrow passage exits to the east, and a polished silver arch covers a doorway to the north. } {Nevrast} {} {Inside} {} {1.000}
+R {  159} {0} {<afa>} {A Vaulted Chamber} { } {A thick carpet covers most of the floor in this corner of the chamber.  It is severely worn with multiple tears disrupting its simple but elegant pattern. A narrow passage exits to the east, and a polished silver arch covers a doorway to the north. } {Nevrast} {} {Inside} {} {1.000}
 E {  158} {e} {e} {2} {0} {}
 E {  160} {n} {n} {1} {0} {}
 E {  162} {s} {s} {4} {0} {}
 E {  165} {w} {w} {8} {0} {}
 
-R {  160} {0} {} {A Bright Place of Worship} { } {Polished white marble floors and walls shine like mirrored surfaces. Sconces line each wall and hold lit torches that burn brightly.  An immaculate marble altar stands in the middle of the room, gleaming in the torchlight.  The vaulted chamber is to the south, and a small sanctuary can be seen to the west. } {Nevrast} {} {Inside} {} {1.000}
+R {  160} {0} {<afa>} {A Bright Place of Worship} { } {Polished white marble floors and walls shine like mirrored surfaces. Sconces line each wall and hold lit torches that burn brightly.  An immaculate marble altar stands in the middle of the room, gleaming in the torchlight.  The vaulted chamber is to the south, and a small sanctuary can be seen to the west. } {Nevrast} {} {Inside} {} {1.000}
 E {  159} {s} {s} {4} {0} {}
 E {  161} {w} {w} {8} {0} {}
 
-R {  161} {0} {} {The Paladin Guildmaster's Sanctuary} {Pal} {A dazzling beam of sunlight shines through a skylight directly onto a small shrine of polished stone flecked with gold highlights.  Blue and white banners line the walls, charged with the insignia of various orders of knighthood. } {Nevrast} {} {Inside} {} {1.000}
+R {  161} {0} {<afa>} {The Paladin Guildmaster's Sanctuary} {Pal} {A dazzling beam of sunlight shines through a skylight directly onto a small shrine of polished stone flecked with gold highlights.  Blue and white banners line the walls, charged with the insignia of various orders of knighthood. } {Nevrast} {Paladin} {Inside} {} {1.000}
 E {  160} {e} {e} {2} {0} {}
 
-R {  162} {0} {} {A Vaulted Chamber} { } {The southeast corner of the chamber is set up for worship or presentations for a medium to large group.  Benches are arranged in rows and face the southern wall where a raised platform supports a podium.  To the east a tapestry is pulled to the side of a domed entryway, from which a narrow red carpet runs up to the platform. } {Nevrast} {} {Inside} {} {1.000}
+R {  162} {0} {<afa>} {A Vaulted Chamber} { } {The southeast corner of the chamber is set up for worship or presentations for a medium to large group.  Benches are arranged in rows and face the southern wall where a raised platform supports a podium.  To the east a tapestry is pulled to the side of a domed entryway, from which a narrow red carpet runs up to the platform. } {Nevrast} {} {Inside} {} {1.000}
 E {  159} {n} {n} {1} {0} {}
 E {  163} {e} {e} {2} {0} {}
 E {  164} {w} {w} {8} {0} {}
 E {  400} {s} {s} {4} {0} {}
 
-R {  163} {0} {} {Clerics' Inner Sanctum} { } {This is the inner sanctum of the Temple of Nevrast, and what appears to be an administrative office more than anything.  An elaborate desk built into the southeastern corner has neatly organized stacks of papers resting on top.  A fine brass lantern burns brightly and lights up the workspace.  Many simple paintings of scenes around Nevrast hang on the walls.  A small shrine in the northeastern corner of the room goes almost unnoticed. } {Nevrast} {} {Inside} {} {1.000}
+R {  163} {0} {<afa>} {Clerics' Inner Sanctum} {Cle} {This is the inner sanctum of the Temple of Nevrast, and what appears to be an administrative office more than anything.  An elaborate desk built into the southeastern corner has neatly organized stacks of papers resting on top.  A fine brass lantern burns brightly and lights up the workspace.  Many simple paintings of scenes around Nevrast hang on the walls.  A small shrine in the northeastern corner of the room goes almost unnoticed. } {Nevrast} {Cleric} {Inside} {} {1.000}
 E {  162} {w} {w} {8} {0} {}
 
-R {  164} {0} {} {A Vaulted Chamber} { } {Tall and narrow stone columns support a vaulted ceiling that covers this massive chamber.  There is nothing much of interest in the immediate area sans a few wooden benches.  You could return to the Temple entrance to the west, or exit through a blackened stone archway to the south.  The chamber also expands to the north and east. } {Nevrast} {} {Inside} {} {1.000}
+R {  164} {0} {<afa>} {A Vaulted Chamber} { } {Tall and narrow stone columns support a vaulted ceiling that covers this massive chamber.  There is nothing much of interest in the immediate area sans a few wooden benches.  You could return to the Temple entrance to the west, or exit through a blackened stone archway to the south.  The chamber also expands to the north and east. } {Nevrast} {} {Inside} {} {1.000}
 E {  162} {e} {e} {2} {0} {}
 E {  165} {n} {n} {1} {0} {}
 E {  167} {w} {w} {8} {0} {}
 E {  402} {s} {s} {4} {0} {}
 
-R {  165} {0} {} {A Vaulted Chamber} { } {High above you a domed ceiling arches from wall-to-wall, providing an impressive spatial backdrop to this part of the Temple of Nevrast.  While this vaulted chamber is typically quiet, the sounds of conversation and clanking dishes can be heard coming from the heavy wooden doors to the west. } {Nevrast} {} {Inside} {} {1.000}
+R {  165} {0} {<afa>} {A Vaulted Chamber} { } {High above you a domed ceiling arches from wall-to-wall, providing an impressive spatial backdrop to this part of the Temple of Nevrast.  While this vaulted chamber is typically quiet, the sounds of conversation and clanking dishes can be heard coming from the heavy wooden doors to the west. } {Nevrast} {} {Inside} {} {1.000}
 E {  164} {s} {s} {4} {0} {}
 E {  166} {w} {w} {8} {0} {}
 E {  159} {e} {e} {2} {0} {}
 
-R {  166} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  166} {0} {<afa>} {Frothy Benevolence} { } {The bar is quite simple, but generally known as one of the finest in the land.  Luckily for you its patrons are hospitable and violence here is a rare occurrence.  Comfortable furniture is set all around the room.  A small sign is hanging on the wall. } {Nevrast} {} {Inside} {} {1.000}
 E {  165} {e} {e} {2} {0} {}
 
-R {  167} {0} {} {Entrance to the Temple Proper} { } {The entrance hall is a modest room, reflecting the true nature of those on the divine path.  The ceiling fades between black and white along a central axis.  It symbolizes the acceptance of all types of faith in the Temple of Nevrast.  The hall continues to the east and the western exit leads to the main Temple.  A banner is mounted to the ceiling near the entrance. } {Nevrast} {} {Inside} {} {1.000}
+R {  167} {0} {<afa>} {Entrance to the Temple Proper} { } {The entrance hall is a modest room, reflecting the true nature of those on the divine path.  The ceiling fades between black and white along a central axis.  It symbolizes the acceptance of all types of faith in the Temple of Nevrast.  The hall continues to the east and the western exit leads to the main Temple.  A banner is mounted to the ceiling near the entrance. } {Nevrast} {} {Inside} {} {1.000}
 E {  164} {e} {e} {2} {0} {}
 E {  168} {w} {w} {8} {0} {}
 
-R {  168} {0} {} {By the Temple Altar} { } {You are by the temple altar, centered in the front hall of the Temple of Nevrast.  The huge altar made from white polished marble is standing in front of you, and behind it is a ten foot tall sitting statue of Odin, the King of the Gods. } {Nevrast} {} {Inside} {} {1.000}
+R {  168} {0} {<afa>} {By the Temple Altar} { } {You are by the temple altar, centered in the front hall of the Temple of Nevrast.  The huge altar made from white polished marble is standing in front of you, and behind it is a ten foot tall sitting statue of Odin, the King of the Gods. } {Nevrast} {} {Inside} {} {1.000}
 E {  167} {e} {e} {2} {0} {}
 E {  169} {n} {n} {1} {0} {}
 E {  185} {s} {s} {4} {0} {}
 
-R {  169} {0} {} {The Temple of Nevrast} { } {You are in the northern end of the front hall of the Temple of Nevrast.  The temple has been constructed from giant marble blocks, eternal in appearance, and most of the walls are covered by ancient wall paintings picturing Gods, giants, and peasants.    Large steps lead north through the grand temple gate, descending the huge mound upon which the temple is built and ending at the city's northern gates. Southwards, an intricate statue is placed near a large, marble altar. } {Nevrast} {} {Inside} {} {1.000}
+R {  169} {0} {<afa>} {The Temple of Nevrast} { } {You are in the northern end of the front hall of the Temple of Nevrast.  The temple has been constructed from giant marble blocks, eternal in appearance, and most of the walls are covered by ancient wall paintings picturing Gods, giants, and peasants.    Large steps lead north through the grand temple gate, descending the huge mound upon which the temple is built and ending at the city's northern gates. Southwards, an intricate statue is placed near a large, marble altar. } {Nevrast} {} {Inside} {} {1.000}
 E {  168} {s} {s} {4} {0} {}
 E {  170} {n} {n} {1} {0} {}
 
-R {  170} {0} {} {Inside the Northern Gates of Nevrast} { } {You are just inside the northern gates of the City of Nevrast.  Through the gates to the north, a road heads through a series of fields into the distance. Large steps climb to the Temple of Nevrast to the south, and a small wooden archway stands just to the west with lettering carved into it. } {Nevrast} {} {City} {} {1.000}
+R {  170} {0} {<afa>} {Inside the Northern Gates of Nevrast} { } {You are just inside the northern gates of the City of Nevrast.  Through the gates to the north, a road heads through a series of fields into the distance. Large steps climb to the Temple of Nevrast to the south, and a small wooden archway stands just to the west with lettering carved into it. } {Nevrast} {} {City} {} {1.000}
 E {  169} {s} {s} {4} {0} {}
 E {  171} {w} {w} {8} {0} {}
 E {  172} {n} {n} {1} {0} {}
 
-R {  171} {0} {} {Monastery Entrance} { } {You stand beneath a wooden archway that opens to a beautiful series of gardens in the monastery.  Bright flowers and sculpted hedges seem to bring you immediate peace.  Eastward and up the rise to the south stands an imposing building, the Temple of Nevrast. } {Nevrast} {} {Field} {} {1.000}
+R {  171} {0} {<afa>} {Monastery Entrance} { } {You stand beneath a wooden archway that opens to a beautiful series of gardens in the monastery.  Bright flowers and sculpted hedges seem to bring you immediate peace.  Eastward and up the rise to the south stands an imposing building, the Temple of Nevrast. } {Nevrast} {} {Field} {} {1.000}
 E {  170} {e} {e} {2} {0} {}
+E {  966} {w} {w} {8} {0} {}
 
-R {  172} {0} {} {Outside the Northern Gates of Nevrast} { } {You are directly outside the northern gates of the City of Nevrast.  Peering through the steel bars, you can see, not the action of the city, but the serenity of the Temple of Nevrast.  From here, the view is not as pompous, but just as impressive as what you will see inside.  To the north, a well-traveled road leads off into the distance. } {Nevrast} {} {Forest} {} {1.000}
+R {  172} {0} {<afa>} {Outside the Northern Gates of Nevrast} { } {You are directly outside the northern gates of the City of Nevrast.  Peering through the steel bars, you can see, not the action of the city, but the serenity of the Temple of Nevrast.  From here, the view is not as pompous, but just as impressive as what you will see inside.  To the north, a well-traveled road leads off into the distance. } {Nevrast} {} {Forest} {} {1.000}
 E {  170} {s} {s} {4} {0} {}
 E {  173} {n} {n} {1} {0} {}
 
@@ -755,7 +758,7 @@ R {  184} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  173} {s} {s} {4} {0} {}
 E {  181} {n} {n} {1} {0} {}
 
-R {  185} {0} {} {The Temple of Nevrast} { } {You are in the southern end of the front hall of the Temple of Nevrast. The temple has been constructed from giant marble blocks, eternal in appearance, and most of the walls are covered by ancient wall paintings picturing gods, giants, and peasants} {Nevrast} {} {Inside} {} {1.000}
+R {  185} {0} {<afa>} {The Temple of Nevrast} { } {You are in the southern end of the front hall of the Temple of Nevrast. The temple has been constructed from giant marble blocks, eternal in appearance, and most of the walls are covered by ancient wall paintings picturing gods, giants, and peasants; one standing out from the others.    Large steps lead south through the grand temple gate, descending the huge mound upon which the temple is built and ending on Temple Avenue.  Down the steps leads to the Temple Basement, a passageway leading to the board rooms. } {Nevrast} {} {Inside} {} {1.000}
 E {  168} {n} {n} {1} {0} {}
 E {  186} {d} {d} {32} {0} {}
 E {  187} {w} {w} {8} {0} {}
@@ -768,31 +771,31 @@ E {  195} {w} {w} {8} {0} {}
 E {  196} {s} {s} {4} {0} {}
 E {  197} {e} {e} {2} {0} {}
 
-R {  187} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  187} {0} {<afa>} {Donation Way} { } {You are on a pathway that leads to the many donation rooms of Nevrast.  To your north and south are donation rooms, and to the west the path continues. The Temple of Nevrast lies eastwards. } {Nevrast} {} {Inside} {} {1.000}
 E {  185} {e} {e} {2} {0} {}
 E {  188} {n} {n} {1} {0} {}
 E {  189} {s} {s} {4} {0} {}
 E {  190} {w} {w} {8} {0} {}
 
-R {  188} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  188} {0} {<afa>} {Newbie Equipment Donation Room} { } {This is the room where generous people donate their equipment to their fellow mortals.  You notice a sign on the wall stating, "Please do not sell any equipment taken from this room.  When one sells equipment from the donation room, fewer people tend to donate equipment." } {Nevrast} {} {Inside} {} {1.000}
 E {  187} {s} {s} {4} {0} {}
 
-R {  189} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  189} {0} {<afa>} {Weapon Donation Room} { } {This is the room where generous people donate their equipment to their fellow mortals.  You notice a sign on the wall stating, "Please do not sell any equipment taken from this room.  When one sells equipment from the donation room, fewer people tend to donate equipment." } {Nevrast} {} {Inside} {} {1.000}
 E {  187} {n} {n} {1} {0} {}
 
-R {  190} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  190} {0} {<afa>} {Donation Way} { } {You are on a pathway that leads to the many donation rooms of Nevrast.  To your north and south are donation rooms, and to the east the path continues. Parth's appraisal shop lies off to the west. } {Nevrast} {} {Inside} {} {1.000}
 E {  187} {e} {e} {2} {0} {}
 E {  191} {n} {n} {1} {0} {}
 E {  192} {s} {s} {4} {0} {}
 E {  193} {w} {w} {8} {0} {}
 
-R {  191} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  191} {0} {<afa>} {Armor Donation Room} { } {This is the room where generous people donate their equipment to their fellow mortals.  You notice a sign on the wall stating, "Please do not sell any equipment taken from this room.  When one sells equipment from the donation room, fewer people tend to donate equipment." } {Nevrast} {} {Inside} {} {1.000}
 E {  190} {s} {s} {4} {0} {}
 
-R {  192} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  192} {0} {<afa>} {General Donation Room} { } {This is the room where generous people donate their equipment to their fellow mortals.  You notice a sign on the wall stating, "Please do not sell any equipment taken from this room.  When one sells equipment from the donation room, fewer people tend to donate equipment." } {Nevrast} {} {Inside} {} {1.000}
 E {  190} {n} {n} {1} {0} {}
 
-R {  193} {0} {} {} {ID} {} {} {} {} {} {1.000}
+R {  193} {0} {<afa>} {The Appraiser's Shop} {ID} {It is unclear whether this is a shop or a dwelling at first glance.  A dusty and grimy plank of wood has been set atop four nearly level rocks, forming a makeshift desk in the southern end of the room, while a cot rests along the western wall.  Behind the desk is a poorly made stool, most likely taken from the Grunting Boar.  The room is bathed in a yellowish glow coming from several torches adhered to the walls.    A battered sign hangs on the south wall. } {Nevrast} {Indentify} {Inside} {} {1.000}
 E {  190} {e} {e} {2} {0} {}
 
 R {  194} {0} {} {} { } {} {} {} {} {} {1.000}
@@ -811,87 +814,90 @@ E {  198} {n} {n} {1} {0} {}
 R {  198} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  197} {s} {s} {4} {0} {}
 
-R {  199} {0} {} {Temple Avenue} { } {You are on the broad Temple Avenue that splits Nevrast in half going north and south.  A marble pathway leads to the steps of the temple in the north, and to the south you see the Temple Square. } {Nevrast} {} {City} {} {1.000}
+R {  199} {0} {<afa>} {Temple Avenue} { } {You are on the broad Temple Avenue that splits Nevrast in half going north and south.  A marble pathway leads to the steps of the temple in the north, and to the south you see the Temple Square. } {Nevrast} {} {City} {} {1.000}
 E {  185} {n} {n} {1} {0} {}
 E {  200} {s} {s} {4} {0} {}
 
-R {  200} {0} {<aaf>} {The Temple Square} { } {You are standing in the Temple Square.  In the center of the square sits a large marble fountain spraying a fine mist of water in the air.  A marble path heads north along Temple Avenue, ultimately leading to the Temple's entrance. Nevrast Lane and the beginnings of the old Grunting Boar Inn can be seen to the east.  To the south, Temple Avenue continues towards the Market Square. } {Nevrast} {} {City} {} {1.000}
+R {  200} {0} {<afa>} {The Temple Square} {~} {You are standing in the Temple Square.  In the center of the square sits a large marble fountain spraying a fine mist of water in the air.  A marble path heads north along Temple Avenue, ultimately leading to the Temple's entrance. Nevrast Lane and the beginnings of the old Grunting Boar Inn can be seen to the east.  To the south, Temple Avenue continues towards the Market Square. } {Nevrast} {} {City} {} {1.000}
 E {  199} {n} {n} {1} {0} {}
 E {  201} {e} {e} {2} {0} {}
 E {  205} {s} {s} {4} {0} {}
 
-R {  201} {0} {} {Nevrast Lane} { } {You are standing at the end of Nevrast Lane.  A small path leads north to the Nevrast Inn, which is known to have the most comfortable beds in town. From the east you can hear and smell the happenings at the Grunting Boar Tavern, a great spot to relax after a day's worth of adventuring. } {Nevrast} {} {City} {} {1.000}
+R {  201} {0} {<afa>} {Nevrast Lane} { } {You are standing at the end of Nevrast Lane.  A small path leads north to the Nevrast Inn, which is known to have the most comfortable beds in town. From the east you can hear and smell the happenings at the Grunting Boar Tavern, a great spot to relax after a day's worth of adventuring. } {Nevrast} {} {City} {} {1.000}
 E {  200} {w} {w} {8} {0} {}
 E {  202} {n} {n} {1} {0} {}
 E {  203} {e} {e} {2} {0} {}
 
-R {  202} {0} {} {The Nevrast Inn} {Inn} {A cheery fire in a wide stone fireplace along the west wall lights up this Inn.  It is comfortably furnished with cozy-looking wooden chairs that have matching footstools, inviting you to rest and socialize a while.  The receptionist stands behind a counter of deep, reddish wood that runs along the northern wall.  A small brass sign is fixed to the top of the counter. } {Nevrast} {} {Inside} {} {1.000}
+R {  202} {0} {<afa>} {The Nevrast Inn} {Inn} {A cheery fire in a wide stone fireplace along the west wall lights up this Inn.  It is comfortably furnished with cozy-looking wooden chairs that have matching footstools, inviting you to rest and socialize a while.  The receptionist stands behind a counter of deep, reddish wood that runs along the northern wall.  A small brass sign is fixed to the top of the counter. } {Nevrast} {Inn} {Inside} {} {1.000}
 E {  201} {s} {s} {4} {0} {}
 
-R {  203} {0} {} {The Grunting Boar Tavern} { } {Test;Test} {Nevrast} {} {Inside} {} {1.000}
+R {  203} {0} {<afa>} {The Grunting Boar Tavern} {Ale} {You are standing in the Grunting Boar tavern.  The bar is set against the northern wall; old archaic writing, carvings, and symbols cover its top.  A fireplace is built into the eastern wall, and through the western windows you can see the temple square.  A small spiral staircase rises up from the southeast corner to a short balcony, and music can be heard from above.  A small sign with big letters is fastened to the bar. } {Nevrast} {Ale} {Inside} {} {1.000}
 E {  201} {w} {w} {8} {0} {}
 E {  204} {u} {u} {16} {0} {}
 
-R {  204} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  204} {0} {<afa>} {Grunting Boar Balcony} { } {A long and narrow balcony extends from the western wall and provides just enough space for a handful of people to stand comfortably and view the tavern below.  A small platform towards the end of the balcony provides a spot for a performer or orator to entertain or address the patrons below. } {Nevrast} {} {Inside} {} {1.000}
 E {  203} {d} {d} {32} {0} {}
 
-R {  205} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  205} {0} {<afa>} {Temple Avenue} { } {Temple Avenue is wide and consists of very well-maintained cobblestone. The Temple Square can be seen to the north, and the hustle and bustle of Nevrast's Market Square is immediately south. } {Nevrast} {} {City} {} {1.000}
 E {  200} {n} {n} {1} {0} {}
 E {  206} {s} {s} {4} {0} {}
 
-R {  206} {0} {} {Market Square} {=M=} {} {Nevrast} {} {} {} {1.000}
+R {  206} {0} {<afa>} {Market Square} {=M=} {You are standing in the Market Square, the famous centerpiece of Nevrast.  A large, peculiar-looking statue is standing in the middle of the square.  Roads lead in every direction; Temple Avenue goes to the north and south, and Main Street heads to the east and west. } {Nevrast} {Market Square} {City} {} {1.000}
 E {  205} {n} {n} {1} {0} {}
 E {  207} {e} {e} {2} {0} {}
 E {  229} {w} {w} {8} {0} {}
 E {  253} {s} {s} {4} {0} {}
 
-R {  207} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  207} {0} {<afa>} {The Main Street} { } {You are on the main street crossing through town.  To the north is the General Store, where you can purchase miscellaneous useful gear for your travels; while to the south lies the Guild of Mapmakers.  Main Street continues to the east, and to the west you see a large crowd and hear the sounds of the marketplace. } {Nevrast} {} {City} {} {1.000}
 E {  206} {w} {w} {8} {0} {}
 E {  208} {n} {n} {1} {0} {}
 E {  209} {s} {s} {4} {0} {}
 E {  210} {e} {e} {2} {0} {}
 
-R {  208} {0} {} {} {Gen} {} {} {} {} {} {1.000}
+R {  208} {0} {<afa>} {Nor'Seya's General Store} {Gen} {You are inside the general store.  All sorts of items are stacked on shelves behind the counter, safely out of your reach.  A small note hangs on the wall. } {Nevrast} {General} {Inside} {} {1.000}
 E {  207} {s} {s} {4} {0} {}
 
-R {  209} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  209} {0} {<afa>} {Ringletoes' Cartography} { } {The Mapmakers' Guild bustles with activity; scribes scurry about carrying bundles while guild members carefully detail beautiful maps.  Perhaps you should learn more about the Realm outside the safe haven of Nevrast.  A door leads northward onto Main Street.    A pair of large maps hang on the southern wall.  One is elegantly labeled, "The City of Nevrast", and the other, "Surrounding Areas". } {Nevrast} {} {Inside} {} {1.000}
 E {  207} {n} {n} {1} {0} {}
 
-R {  210} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  210} {0} {<afa>} {The Main Street} { } {You are on the main street crossing through the center of Nevrast.  To the north is Zerick's House of Armor.  Main Street continues to the east and west, and in the distance you can see the eastern gate. } {Nevrast} {} {City} {} {1.000}
 E {  207} {w} {w} {8} {0} {}
 E {  211} {n} {n} {1} {0} {}
 E {  212} {e} {e} {2} {0} {}
 
-R {  211} {0} {} {} {Arm} {} {} {} {} {} {1.000}
+R {  211} {0} {<afa>} {Zerick's House of Armor} {Arm} {The armory is stocked with various types of armors from around the world of Mozart.  A selection of this week's specials are on the walls and in the window.  The open doorway leads south to Main Street.  On the wall is a small note. } {Nevrast} {Armor} {Inside} {} {1.000}
 E {  210} {s} {s} {4} {0} {}
 
-R {  212} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  212} {0} {<afa>} {The Main Street} { } {You are walking along Main Street.  To the north is the weaponry shoppe and to the south is the Hall of Swordsmen.  To the east you can leave town through the East Gate, and Main Street continues to the west. } {Nevrast} {} {City} {} {1.000}
 E {  210} {w} {w} {8} {0} {}
 E {  213} {s} {s} {4} {0} {}
 E {  217} {e} {e} {2} {0} {}
 E {  228} {n} {n} {1} {0} {}
 
-R {  213} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  213} {0} {<afa>} {Entrance to the Hall of Swordsmen} { } {This is the entrance to the Hall of Swordsmen, a place where one has to be careful to not say the wrong thing as tempers can be delicate.  To the east is the bar, to the west is a guard station, and a wide hallway extends to the south. } {Nevrast} {} {City} {} {1.000}
 E {  212} {n} {n} {1} {0} {}
 E {  214} {s} {s} {4} {0} {}
 E {  215} {e} {e} {2} {0} {}
 E {  216} {w} {w} {8} {0} {}
 
-R {  214} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  214} {0} {<afa>} {A Wide Hallway} { } {The walls hold a variety of wonders including mounted heads of strange and exotic beasts, tapestries from a forgotten era, and old weapons of all sort and size.  The hallway runs north and south and there is a reinforced iron door set in the eastern wall. } {Nevrast} {} {Inside} {} {1.000}
 E {  213} {n} {n} {1} {0} {}
+E { 1350} {e} {e} {2} {0} {}
+E { 1351} {s} {s} {4} {0} {}
 
-R {  215} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  215} {0} {<afa>} {The Slaughtered Goblin} { } {You have entered the bar of the guild, the Slaughtered Goblin, which is, by necessity, sturdily furnished: brawling is all too common here.  A small spiral staircase provides access to the kitchen below. } {Nevrast} {} {Inside} {} {1.000}
 E {  213} {w} {w} {8} {0} {}
+E { 1362} {d} {d} {32} {0} {}
 
-R {  216} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  216} {0} {<afa>} {Guard Station} { } {This relatively small alcove represents the first real responsibility for new guild members.  Two wooden platforms allow guards to monitor the entrance effectively, and a horn mounted to the northern wall can be used to alert the guild of trouble. } {Nevrast} {} {Inside} {} {1.000}
 E {  213} {e} {e} {2} {0} {}
 
-R {  217} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  217} {0} {<afa>} {Inside the East Gate of Nevrast} { } {You are by two small towers that have been built into the city wall and connected with a footbridge across the heavy wooden gate.  Main Street leads west from here, and a white stone road leads north.  The road east leads out of the city of Nevrast, heading towards the crossroads and the Great Eastern Mountains beyond. } {Nevrast} {} {City} {} {1.000}
 E {  212} {w} {w} {8} {0} {}
 E {  218} {e} {e} {2} {0} {}
 E {  227} {n} {n} {1} {0} {}
 
-R {  218} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  218} {0} {<afa>} {Outside the East Gate of Nevrast} { } {You are by two small towers that have been built into the city wall and connected with a footbridge that runs across the heavy wooden gate.  To the east the plains stretch out into the distance.  The road continues west into Nevrast. } {Nevrast} {} {City} {} {1.000}
 E {  217} {w} {w} {8} {0} {}
 E {  219} {e} {e} {2} {0} {}
 
@@ -930,60 +936,60 @@ R {  226} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  225} {s} {s} {4} {0} {}
 E {  500} {n} {n} {1} {0} {}
 
-R {  227} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  227} {0} {<afa>} {Palace Road} { } {A bit further to the north along this lovely white stone road you can see the First Bank of Nevrast, and beyond it the Palace.  South lies the eastern gate, and to the west is the side of the weapons shop. } {Nevrast} {} {City} {} {1.000}
 E {  217} {s} {s} {4} {0} {}
 E {  289} {n} {n} {1} {0} {}
 
-R {  228} {0} {} {} {Wpn} {} {} {} {} {} {1.000}
+R {  228} {0} {<afa>} {Kal'Kata's Weaponry Shoppe} {Wpn} {Lethal instruments of iron and steel from the far corners of the world crowd the walls of Kal'Kata's establishment.  The gleam of polished metal makes your fists clench with expensive fantasies of aggression.  A small note is placed on the counter. } {Nevrast} {Weapon} {Inside} {} {1.000}
 E {  212} {s} {s} {4} {0} {}
 
-R {  229} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  229} {0} {<afa>} {The Main Street} { } {You are on the main street passing through the city of Nevrast.  To the north is Micah's Bakery from which the smell of fresh bread is detected.  Main Street continues to the west, and to the east you see the Market Square. } {Nevrast} {} {City} {} {1.000}
 E {  206} {e} {e} {2} {0} {}
 E {  230} {n} {n} {1} {0} {}
 E {  231} {w} {w} {8} {0} {}
 
-R {  230} {0} {} {} {Eat} {} {} {} {} {} {1.000}
+R {  230} {0} {<afa>} {Micah's Bakery} {Eat} {You are standing inside Micah's Bakery.  The sweet scent of freshly-baked bread wafts through the room.  Bundles of standard and iron rations are arranged on the shelves, and seem to be of the finest quality.  A small sign is on the counter. } {Nevrast} {Baker} {Inside} {} {1.000}
 E {  229} {s} {s} {4} {0} {}
 
-R {  231} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  231} {0} {<afa>} {Main Street} { } {You are on the main street passing through the city of Nevrast.  To the north lies what appears to be a humble, single-story dwelling.  A sign is posted beside its entrance. } {Nevrast} {} {City} {} {1.000}
 E {  229} {e} {e} {2} {0} {}
 E {  232} {n} {n} {1} {0} {}
 E {  233} {w} {w} {8} {0} {}
 
-R {  232} {0} {} {} {Hlr} {} {} {} {} {} {1.000}
+R {  232} {0} {<afa>} {Divine Incantations} {Hlr} {This simple dwelling is much larger on the inside than it appeared from the street outside.  The walls are constructed of simple carved stone and have dozen or so small, nondescript tapestries hanging on them, and the floors are a clean white.  Healers walk from station to comfortably-furnished station, assisting customers with their particular needs. } {Nevrast} {Healer} {Inside} {} {1.000}
 E {  231} {s} {s} {4} {0} {}
 
-R {  233} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  233} {0} {<afa>} {Main Street} { } {You are at the end of the main street of Nevrast.  South of here is the entrance to the Tower of Magic and a magic shop is directly north.  The street continues east, and to the west you see the West Gate. } {Nevrast} {} {City} {} {1.000}
 E {  231} {e} {e} {2} {0} {}
 E {  234} {s} {s} {4} {0} {}
 E {  235} {n} {n} {1} {0} {}
 E {  236} {w} {w} {8} {0} {}
 
-R {  234} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  234} {0} {<afa>} {The Tower of Magic} { } {The entrance to the Tower of Magic is small and poorly lit by a strange orb that swirls on a pedestal, casting shadows all about.  Pictures of noble mages, past and present, line the walls.  A small spiral staircase rises up into the ceiling. } {Nevrast} {} {City} {} {1.000}
 E {  233} {n} {n} {1} {0} {}
 E {  425} {u} {u} {16} {0} {}
 
-R {  235} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  235} {0} {<afa>} {The Magic Shop} {Mag} {A lone black candle obscures the proportions of this windowless shop.  The scent of tallow is strong, heightening the aura of arcane mystery.  Behind the counter you see sundry items, neatly placed in racks; presumably, most of them are magical. } {Nevrast} {Mage} {Inside} {} {1.000}
 E {  233} {s} {s} {4} {0} {}
 
-R {  236} {0} {} {} { } {} {Nevrast} {} {} {} {1.000}
+R {  236} {0} {<afa>} {Inside the West Gate of Nevrast} { } {You are by two small towers that have been built into the city wall and connected with a footbridge across the heavy wooden gate.  Main Street leads east and Wall Road starts south of here.  The road west leads out of Nevrast. } {Nevrast} {} {City} {} {1.000}
 E {  233} {e} {e} {2} {0} {}
 E {  237} {s} {s} {4} {0} {}
 E {  296} {w} {w} {8} {0} {}
 
-R {  237} {0} {} {} { } {} {Nevrast} {} {} {} {1.000}
+R {  237} {0} {<afa>} {Wall Road} { } {The wide and well-built Wall Road runs north and south here along the city's western boundary.  To the north you can see the inside of the West Gate of Nevrast. } {Nevrast} {} {City} {} {1.000}
 E {  236} {n} {n} {1} {0} {}
 E {  238} {s} {s} {4} {0} {}
 
-R {  238} {0} {} {} { } {} {Nevrast} {} {} {} {1.000}
+R {  238} {0} {<afa>} {Wall Road} { } {You are along the western city wall and the road continues to the north and south.  While most of it is quite clean, some letters have been written on the wall here. } {Nevrast} {} {City} {} {1.000}
 E {  237} {n} {n} {1} {0} {}
 E {  239} {s} {s} {4} {0} {}
 
-R {  239} {0} {} {} { } {} {Nevrast} {} {} {} {1.000}
+R {  239} {0} {<afa>} {Wall Road} { } {The Wall Road heads north and south here, skirting the city's western wall. Wall Road intersects Copper Way just to the south. } {Nevrast} {} {City} {} {1.000}
 E {  238} {n} {n} {1} {0} {}
 E {  240} {s} {s} {4} {0} {}
 
-R {  240} {0} {} {} { } {} {Nevrast} {} {} {} {1.000}
+R {  240} {0} {<afa>} {Wall Road} { } {You are walking along the western city wall.  Wall Road continues to the north and south, while the narrow Copper Way leads east into a significantly worse part of town. } {Nevrast} {} {City} {} {1.000}
 E {  239} {n} {n} {1} {0} {}
 E {  344} {e} {e} {2} {0} {}
 E {  342} {s} {s} {4} {0} {}
@@ -991,115 +997,115 @@ E {  342} {s} {s} {4} {0} {}
 R {  241} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  267} {s} {s} {4} {0} {}
 
-R {  242} {0} {} {} { } {} {Nevrast} {} {} {} {1.000}
+R {  242} {0} {<afa>} {Copper Way} { } {You are near the western end of Copper Way, named for the large number of beggars which frequent it.  This is one of the darker sections of town, but it's not forgotten by the city guards.  Copper Way intersects Wall Road just to the west. } {Nevrast} {} {City} {} {1.000}
 E {  344} {w} {w} {8} {0} {}
 E {  243} {e} {e} {2} {0} {}
 
-R {  243} {0} {} {} { } {} {} {} {test} {} {1.000}
+R {  243} {0} {<afa>} {Copper Way} { } {You are in the middle of Copper Way.  Trash is strewn about, clogging drains and causing pools of stagnant water to gather and add to the street's pungent aroma.  It continues to the east and west, and a narrow alley exits to the north. } {Nevrast} {} {City} {} {1.000}
 E {  242} {w} {w} {8} {0} {}
 E {  244} {n} {n} {1} {0} {}
 E {  257} {e} {e} {2} {0} {}
 
-R {  244} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  244} {0} {<afa>} {Poor Alley} { } {This narrow alley is a much poorer version of the street to the south.  It is entirely covered in sludge - likely mud mixed with urine and other sewage. Straw and worn blankets used as beds lie in piles on the sides of the alley. It continues to the north, or there is an open lot to the west. } {Nevrast} {} {City} {} {1.000}
 E {  243} {s} {s} {4} {0} {}
 E {  245} {w} {w} {8} {0} {}
 E {  247} {n} {n} {1} {0} {}
 
-R {  245} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  245} {0} {<afa>} {An Empty Lot} { } {Between the smell of burnt wood and the blackened stone stem-wall, you figure that this lot wasn't always empty.  Several firepits dot the area and smolder with a dull glow.  The Poor Alley lies east, and a path to the north leads to a cluster of shanties. } {Nevrast} {} {City} {} {1.000}
 E {  244} {e} {e} {2} {0} {}
 E {  246} {n} {n} {1} {0} {}
 
-R {  246} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  246} {0} {<afa>} {Shanty Town} { } {Rows upon rows of makeshift shelters make up this entire area.  They are built from all kinds of materials with varying depth of complexity.  Despite the very meager living conditions here, there is a surprising level of activity all around. } {Nevrast} {} {City} {} {1.000}
 E {  245} {s} {s} {4} {0} {}
 
-R {  247} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  247} {0} {<afa>} {Poor Alley} { } {The Poor Alley corners here, heading east and south.  Almost all of the visible buildings are completely boarded up and are inaccessible.  It appears that the only residents here are the ones living in the alley.  An overgrown courtyard lies to the north. } {Nevrast} {} {City} {} {1.000}
 E {  244} {s} {s} {4} {0} {}
 E {  248} {n} {n} {1} {0} {}
 E {  249} {e} {e} {2} {0} {}
 
-R {  248} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  248} {0} {<afa>} {An Overgrown Courtyard} { } {Tall grass and dense shrubs line this courtyard, which has clearly been left unmaintained for years.  A central fountain covered with vines has only dark sludge in its basin.  A stone platform to the north holds a rickety old wooden frame that may fall over at any moment.  Just below it a small sign is barely readable. } {Nevrast} {} {City} {} {1.000}
 E {  247} {s} {s} {4} {0} {}
 
-R {  249} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  249} {0} {<afa>} {Poor Alley} { } {There is an overwhelming transition from the beauty of the Central Square in the east and this Poor Alley.  The smell, specifically, is overwhelming.  You tread though an ankle-high layer of sludge as you make your way.  A house to the south has a door that is slightly ajar, and the door to a larger building north is completely missing. } {Nevrast} {} {City} {} {1.000}
 E {  247} {w} {w} {8} {0} {}
 E {  250} {s} {s} {4} {0} {}
 E {  251} {n} {n} {1} {0} {}
 E {  252} {e} {e} {2} {0} {}
 
-R {  250} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  250} {0} {<afa>} {An Empty House} { } {The original house had been mostly destroyed, but its current inhabitants have gone through a great deal of trouble to make it livable space.  A series of straw beds along the southern wall seem somewhat comfortable.  A wash bin in what used to be a kitchen is full of potable water.  The warm glow from the burning fireplace heats the house. } {Nevrast} {} {Inside} {} {1.000}
 E {  249} {n} {n} {1} {0} {}
 
-R {  251} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  251} {0} {<afa>} {An Abandoned Inn} { } {There is debris and trash everywhere causing you to forge your own path in order to explore.  The wooden structure has a musty, rotten smell, but at least it seems mostly intact.  A shattered staircase in the rear of the building provides access to the second floor, but you would need some skill to climb it. } {Nevrast} {} {Inside} {} {1.000}
 E {  249} {s} {s} {4} {0} {}
 
-R {  252} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  252} {0} {<afa>} {Nevrast's Central Square} { } {You are standing at the Central Square of Nevrast, which is a stunning collection of fountains and interesting sculptures.  A foul smell can be detected from an alley to the west, and an arch to the east allows access to the Nevrast Cemetery.  Temple Avenue exits to the south and north from here. } {Nevrast} {} {City} {} {1.000}
 E {  249} {w} {w} {8} {0} {}
 E {  253} {n} {n} {1} {0} {}
 E {  254} {e} {e} {2} {0} {}
 E {  255} {s} {s} {4} {0} {}
 
-R {  253} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  253} {0} {<afa>} {Temple Avenue} { } {Lamp-posts line either side of the avenue and are decorated with an iron- forged representation of the Temple's symbol.  Immediately to the north you see the Market Square, while to the south Nevrast's beautiful Central Square can be } {Nevrast} {} {City} {} {1.000}
 E {  252} {s} {s} {4} {0} {}
 E {  206} {n} {n} {1} {0} {}
 
-R {  254} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  254} {0} {<afa>} {Nevrast Cemetery Entrance} { } {A wrought iron arch holding "Cemetery" lettering spans two pillars at the entrance.  The Nevrast Central Square can be seen through the arch to the west. Headstones are organized by family and in rows.  One grave is covered in loose dirt and appears as if it has been tampered with recently. } {Nevrast} {} {City} {} {1.000}
 E {  252} {w} {w} {8} {0} {}
 E {  424} {e} {e} {2} {0} {}
 
-R {  255} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  255} {0} {<afa>} {Temple Avenue} { } {The avenue here has gotten noticeably worse this far south, and is beginning to blend in to the more common sections of Nevrast.  To the north is the Central Square of Nevrast, and to the south Temple Avenue ends at the Common Square. } {Nevrast} {} {City} {} {1.000}
 E {  252} {n} {n} {1} {0} {}
 E {  256} {s} {s} {4} {0} {}
 
-R {  256} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  256} {0} {<afa>} {The Common Square} { } {This is the Common Square.  People pass by, talking to each other.  To the west is Copper Way and to the east is an entryway to a bar.  To the north Temple Avenue runs all the way to the Temple in the northern section of town. A very shady street runs south from here, and a manhole is set into the ground off to one side. } {Nevrast} {} {City} {} {1.000}
 E {  255} {n} {n} {1} {0} {}
 E {  257} {w} {w} {8} {0} {}
 E {  258} {s} {s} {4} {0} {}
 E {  350} {e} {e} {2} {0} {}
 E {  590} {d} {d} {32} {0} {}
 
-R {  257} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  257} {0} {<afa>} {Copper Way} { } {You are at the eastern end of Copper Way.  South of here is the Grubby Inn, and to the east you see the commotion of the Common Square.  The alley continues further west. } {Nevrast} {} {City} {} {1.000}
 E {  256} {e} {e} {2} {0} {}
 E {  243} {w} {w} {8} {0} {}
 E {  349} {s} {s} {4} {0} {}
 
-R {  258} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  258} {0} {<afa>} {Smuggler's Road} { } {Smuggler's Road is known throughout Nevrast to be the most dangerous stretch of road in town.  It runs straight north to south, but there are dozens of nooks and alcoves where a cutpurse could be waiting for an ambush.  The Common Square is to the north, and the road continues south. } {Nevrast} {} {City} {} {1.000}
 E {  331} {s} {s} {4} {0} {}
 E {  256} {n} {n} {1} {0} {}
 
 R {  259} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  260} {s} {s} {4} {0} {}
 
-R {  260} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  260} {0} {<afa>} {The Nevrast Bazaar} { } {This marketplace is chaotic, to say the least.  The air is heavy with the smells of a thousand different destinations, and of the noise from the throng of merchants, hawkers, and poor all trying to have their voices heard above the others.  Worn wooden fronts of warehouses run along the northern side of the square and the Warehouse District continues to the east and south.  To the west you can leave onto Smuggler's Road. } {Nevrast} {} {City} {} {1.000}
 E {  261} {e} {e} {2} {0} {}
 E {  262} {s} {s} {4} {0} {}
 E {  331} {w} {w} {8} {0} {}
 
-R {  261} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  261} {0} {<afa>} {Warehouse District} { } {A stack of crates stands off to one side of the northern warehouse door awaiting transport within the structure.  In the west, the roar from the merchants and customers of the Nevrast Bazaar originates.  Very strong fish smells seem to be coming from the south. } {Nevrast} {} {City} {} {1.000}
 E {  260} {w} {w} {8} {0} {}
 E {  294} {e} {e} {2} {0} {}
 E {  332} {n} {n} {1} {0} {}
 E {  333} {s} {s} {4} {0} {}
 
-R {  262} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  262} {0} {<afa>} {Warehouse District} { } {Barrels and crates of packed goods stand in neat rows, allowing workers to move about between them.  Smaller wooden storage buildings dot the area but are but a shadow of the larger warehouses that can be seen to the northeast.  The docks line the riverbank to the south, and the roar of the Nevrast Bazaar can be heard from the north. } {Nevrast} {} {City} {} {1.000}
 E {  260} {n} {n} {1} {0} {}
 E {  333} {e} {e} {2} {0} {}
 E {  335} {s} {s} {4} {0} {}
 
-R {  263} {0} {} {Intersection of Smuggler's Road and River Lane} { } {River Lane and Smuggler's Road come to an end here in this small square. The backs of warehouses can be seen over the wall to the east.  Facing you to the south is a small boat ramp. } {Nevrast} {} {City} {} {1.000}
+R {  263} {0} {<afa>} {Intersection of Smuggler's Road and River} { } {Lane    River Lane and Smuggler's Road come to an end here in this small square. The backs of warehouses can be seen over the wall to the east.  Facing you to the south is a small boat ramp. } {Nevrast} {} {City} {} {1.000}
 E {  348} {w} {w} {8} {0} {}
 E {  331} {n} {n} {1} {0} {}
 E {  334} {s} {s} {4} {0} {}
 
-R {  264} {0} {} {River Lane} { } {River Lane continues to dip down as it heads east, and you can see a small city square in that direction.  A forge stands to the north, filling your ears with the din of metal clanging on metal.  A rushing river can also be heard beyond the short stone wall to the south. } {Nevrast} {} {City} {} {1.000}
+R {  264} {0} {<afa>} {River Lane} { } {River Lane continues to dip down as it heads east, and you can see a small city square in that direction.  A forge stands to the north, filling your ears with the din of metal clanging on metal.  A rushing river can also be heard beyond the short stone wall to the south. } {Nevrast} {} {City} {} {1.000}
 E {  348} {e} {e} {2} {0} {}
 E {  265} {w} {w} {8} {0} {}
 E {  338} {n} {n} {1} {0} {}
 
-R {  265} {0} {} {River Lane} { } {You are standing on River Lane, a narrow stone street in southern Nevrast. Wall Road can be seen to the west.  The lane dips here and descends slowly as it continues to the east. } {Nevrast} {} {City} {} {1.000}
+R {  265} {0} {<afa>} {River Lane} { } {You are standing on River Lane, a narrow stone street in southern Nevrast. Wall Road can be seen to the west.  The lane dips here and descends slowly as it continues to the east. } {Nevrast} {} {City} {} {1.000}
 E {  264} {e} {e} {2} {0} {}
 E {  266} {w} {w} {8} {0} {}
 
-R {  266} {0} {} {Wall Road} { } {Wall Road continues to the west and south, and a smaller street heads off to the east.  The street to the east appears to get significantly less traffic compared to Wall Road. } {Nevrast} {} {City} {} {1.000}
+R {  266} {0} {<afa>} {Wall Road} { } {Wall Road continues to the west and south, and a smaller street heads off to the east.  The street to the east appears to get significantly less traffic compared to Wall Road. } {Nevrast} {} {City} {} {1.000}
 E {  265} {e} {e} {2} {0} {}
 E {  339} {w} {w} {8} {0} {}
 E {  340} {s} {s} {4} {0} {}
@@ -1197,15 +1203,15 @@ R {  288} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  287} {e} {e} {2} {0} {}
 E {  276} {n} {n} {1} {0} {}
 
-R {  289} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  289} {0} {<afa>} {Palace Road} { } {Palace Road continues to stretch to the north and south.  The way east is blocked by the city wall, and to the west you can see the First Bank of Nevrast. } {Nevrast} {} {City} {} {1.000}
 E {  227} {s} {s} {4} {0} {}
 E {  290} {w} {w} {8} {0} {}
 E {  291} {n} {n} {1} {0} {}
 
-R {  290} {0} {} {} {$$$} {} {} {} {} {} {1.000}
+R {  290} {0} {<afa>} {First Bank of Mozart} {$$$} {You are standing inside the First Bank of Mozart.  The walls are made of the finest oak, and rich rugs carpet the floor.  Fine tapestries line the walls and numerous tellers stand behind marble counters.  You begin to suspect where your money really goes....  But there's no need to worry: your investment is insured by Tempest and Cheeba.  A bronze sign demands your attention. } {Nevrast} {Bank} {Inside} {} {1.000}
 E {  289} {e} {e} {2} {0} {}
 
-R {  291} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  291} {0} {<afa>} {Palace Courtyard} { } {The palace courtyard is here.  White marble steps lead north into the palace, and to the east and the west are beautiful lawns and gardens.  To the south you can see Palace Road. } {Nevrast} {} {City} {} {1.000}
 E {  289} {s} {s} {4} {0} {}
 
 R {  292} {0} {} {} { } {} {} {} {} {} {1.000}
@@ -1214,11 +1220,11 @@ R {  293} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  447} {s} {s} {4} {0} {}
 E {  452} {n} {n} {1} {0} {}
 
-R {  294} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  294} {0} {<afa>} {Warehouse District} { } {Great stacks of boxed goods stand before a rotten wooden door that leads into one of the district's massive warehouses.  The walls of large buildings prevent travel to the south and east.  The roar of the bazaar can be heard far to the west. } {Nevrast} {} {City} {} {1.000}
 E {  261} {w} {w} {8} {0} {}
 E {  295} {n} {n} {1} {0} {}
 
-R {  295} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  295} {0} {<afa>} {A Warehouse} { } {Grain sits in carts along the western wall, awaiting unloading into one of the adjacent storage areas.  Barrels of unknown contents line the east wall.  A door to the warehouse stands along the wall in the south, and it has almost rotted off its hinges. } {Nevrast} {} {Inside} {} {1.000}
 E {  294} {s} {s} {4} {0} {}
 
 R {  296} {0} {} {} { } {} {} {} {} {} {1.000}
@@ -1355,52 +1361,52 @@ E {  328} {e} {e} {2} {0} {}
 R {  330} {0} {} {} { } {} {} {} {} {} {1.000}
 E {   64} {n} {n} {1} {0} {}
 
-R {  331} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  331} {0} {<afa>} {Smuggler's Road} { } {The road is poorly lit with shadows dancing about, and this puts you on edge.  The noise from the Warehouse District to the east is quite loud and distracting.  Smuggler's Road continues to the north and south. } {Nevrast} {} {City} {} {1.000}
 E {  258} {n} {n} {1} {0} {}
 E {  260} {e} {e} {2} {0} {}
 E {  263} {s} {s} {4} {0} {}
 
-R {  332} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  332} {0} {<afa>} {A Warehouse} { } {This warehouse is surprisingly well-kept.  Large rectangular groups of goods stand in neat rows within the warehouse.  Skylights help supplement the light provided by the lanterns that line the walls.  The southern wall is dominated by a reinforced door that opens to the Warehouse District. } {Nevrast} {} {Inside} {} {1.000}
 E {  261} {s} {s} {4} {0} {}
 
-R {  333} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  333} {0} {<afa>} {The Fish Market} { } {Flies buzz about in the ripe humid air as a sea of motion is all around you. Merchants stand behind carts that are set up in a circular pattern to allow patrons to browse the daily catch efficiently.  Porters hustle carrying product between the southern docks and their merchant employers.  The doors of an abandoned warehouse to the east have been ripped off their hinges and lie flat on the ground.  The Warehouse District continues to the north and west. } {Nevrast} {} {City} {} {1.000}
 E {  261} {n} {n} {1} {0} {}
 E {  262} {w} {w} {8} {0} {}
 E {  336} {e} {e} {2} {0} {}
 E {  337} {s} {s} {4} {0} {}
 
-R {  334} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  334} {0} {<afa>} {A Boat Ramp} { } {You are at a small boat ramp.  South of here you see the river gently flowing to the east.  The river bank is very low, making it possible to enter the water.  A trail leads north to a small city square, or you can climb a few steps up to the Nevrast docks to the east. } {Nevrast} {} {City} {} {1.000}
 E {  263} {n} {n} {1} {0} {}
 E {  335} {e} {e} {2} {0} {}
 
-R {  335} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  335} {0} {<afa>} {Nevrast Docks} { } {The constant sound of water lapping is nearly muffled by the barrage of sounds emanating from the patrons of the dock and from the Warehouse District beyond.  The cold water of the Rilghorn River flows swiftly by to the south. To the west, you can climb down a few steps to a gentle ramp leading directly onto the river, allowing smaller boats to launch. } {Nevrast} {} {City} {} {1.000}
 E {  334} {w} {w} {8} {0} {}
 E {  262} {n} {n} {1} {0} {}
 E {  337} {e} {e} {2} {0} {}
 
-R {  336} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  336} {0} {<afa>} {An Abandoned Warehouse} { } {Thick dust covers most of the floor of this empty warehouse.  Its wooden walls show the cracks and water stains of long neglect.  The light is poor, filtering in through half-shuttered windows, and the musty smell of rotting produce hangs heavy in the air.    The roof has caved in in the southeast corner of the building, leaving a thick pile of beams and shingles leaning against the wall at a crazy angle. } {Nevrast} {} {Inside} {} {1.000}
 E {  333} {w} {w} {8} {0} {}
 
-R {  337} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  337} {0} {<afa>} {Nevrast Docks} { } {The fetid stink of decaying fish floats up from the dark waters of the Rilghorn River.  All around, the bustle of activity fills the air with a cacophony of sound.  The city wall looms to the east, and the waters of the river splash up against it.  The fish market can be seen to the north, and the docks continue to the west. } {Nevrast} {} {City} {} {1.000}
 E {  333} {n} {n} {1} {0} {}
 E {  335} {w} {w} {8} {0} {}
 
-R {  338} {0} {} {Weyland's Forge} {Rep} {Sweltering heat pervades this room along with a clangorous sound.  A forge, glowing brightly red, lies in one corner.  Several anvils of varying sizes lie close to the forge. } {Nevrast} {} {Inside} {} {1.000}
+R {  338} {0} {<afa>} {Weyland's Forge} {Rep} {Sweltering heat pervades this room along with a clangorous sound.  A forge, glowing brightly red, lies in one corner.  Several anvils of varying sizes lie close to the forge. } {Nevrast} {Repair} {Inside} {} {1.000}
 E {  264} {s} {s} {4} {0} {}
 
-R {  339} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  339} {0} {<afa>} {Wall Road} { } {You are at the southwest corner of the city wall.  Wall Road turns smoothly from north to east. } {Nevrast} {} {City} {} {1.000}
 E {  266} {e} {e} {2} {0} {}
 E {  341} {n} {n} {1} {0} {}
 
-R {  340} {0} {} {Wall Road} { } {The towering city wall to the west hangs over this road and gives you a sense of security.  A bulge in the road to the south is likely a stone bridge, and the South Gate can be seen in the distance beyond that. } {Nevrast} {} {City} {} {1.000}
+R {  340} {0} {<afa>} {Wall Road} { } {The towering city wall to the west hangs over this road and gives you a sense of security.  A bulge in the road to the south is likely a stone bridge, and the South Gate can be seen in the distance beyond that. } {Nevrast} {} {City} {} {1.000}
 E {  266} {n} {n} {1} {0} {}
 E {  345} {s} {s} {4} {0} {}
 
-R {  341} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  341} {0} {<afa>} {Wall Road} { } {You are at the northern edge of the southern district of Nevrast.  To the north, Wall Road returns to Nevrast proper; to the west, the city wall continues north and south.  A boarded-up entrance to the east used to access a large building that appears to be abandoned now. } {Nevrast} {} {City} {} {1.000}
 E {  339} {s} {s} {4} {0} {}
 E {  342} {n} {n} {1} {0} {}
 
-R {  342} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  342} {0} {<afa>} {Wall Road} { } {You are standing on the road next to the western city wall, which continues north and south.  The neighboring road is well-kept and built of durable cobblestone.  Carts rumble as they make their way down the road. } {Nevrast} {} {City} {} {1.000}
 E {  341} {s} {s} {4} {0} {}
 E {  240} {n} {n} {1} {0} {}
 
@@ -1411,12 +1417,12 @@ R {  344} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  240} {w} {w} {8} {0} {}
 E {  242} {e} {e} {2} {0} {}
 
-R {  345} {0} {} {Bridge Over the Rilghorn} {<aaf>~<fff>|<aaf>~} {Wall Road ends at a stone bridge that arches over a swift-flowing river below.  From the top of the bridge you can see the Warehouse District and docks far to the east along the river, and you have a good view of the city gate just south of here. } {Nevrast} {} {City} {} {1.000}
+R {  345} {0} {<afa>} {Bridge Over the Rilghorn} {<aaf>~<fff>|<aaf>~} {Wall Road ends at a stone bridge that arches over a swift-flowing river below.  From the top of the bridge you can see the Warehouse District and docks far to the east along the river, and you have a good view of the city gate just south of here. } {Nevrast} {} {City} {} {1.000}
 E {  340} {n} {n} {1} {0} {}
 E {  346} {s} {s} {4} {0} {}
 E {  353} {d} {d} {32} {0} {}
 
-R {  346} {0} {} {Inside the South Gate of Nevrast} { } {The mighty southern gate of Nevrast looms above you.  Two small towers built into the city wall are connected by a footbridge that runs across the heavy wooden gate.  North of here you can see the beginning of a bridge, and in the distance the skyline of Nevrast proper.  A dirt road heads south and leads through fields of crops.  It looks well traveled and somewhat safe from here. } {Nevrast} {} {City} {} {1.000}
+R {  346} {0} {<afa>} {Inside the South Gate of Nevrast} { } {The mighty southern gate of Nevrast looms above you.  Two small towers built into the city wall are connected by a footbridge that runs across the heavy wooden gate.  North of here you can see the beginning of a bridge, and in the distance the skyline of Nevrast proper.  A dirt road heads south and leads through fields of crops.  It looks well traveled and somewhat safe from here. } {Nevrast} {} {City} {} {1.000}
 E {  345} {n} {n} {1} {0} {}
 E {  347} {s} {s} {4} {0} {}
 
@@ -1428,19 +1434,20 @@ R {  348} {8} {} {} { } {} {Nevrast} {} {} {} {1.000}
 E {  263} {e} {e} {2} {0} {}
 E {  264} {w} {w} {8} {0} {}
 
-R {  349} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  349} {0} {<afa>} {The Grubby Inn} { } {You are inside the old Grubby Inn.  Loud voices and clattering dishes make the smarmy dive seem busier than it really is.  Coils of greasy steam rise from a cauldron bubbling over a roaring hearth.  The vile smell makes you dizzy, but as you sit down to catch your breath, the chair breaks. } {Nevrast} {} {Inside} {} {1.000}
 E {  257} {n} {n} {1} {0} {}
 
-R {  350} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  350} {0} {<afa>} {The Drunken Goon} { } {This is the infamous bar of southern Nevrast.  Once this place was beautifully decorated, but now it it mostly sparse with broken furnishings. This doesn't seem to have hurt business, however, as the staff is extremely busy serving customers.  You can return to the Common Square in the west, or an opening in the eastern wall leads to the Gambling Hall. } {Nevrast} {} {Inside} {} {1.000}
 E {  256} {w} {w} {8} {0} {}
 E {  351} {e} {e} {2} {0} {}
 
-R {  351} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  351} {0} {<afa>} {A Gambling Hall} { } {The room is filled with rowdy patrons huddled around tables playing different games of chance.  Continual curses and celebrations echo throughout, but generally a good time is had by all.  Casks of ale line the back wall; those who still have money to lose are allowed to drink as much as they want. One cask is broken, likely at the hands of a sore loser. } {Nevrast} {} {Inside} {} {1.000}
 E {  350} {w} {w} {8} {0} {}
 E {  352} {d} {d} {32} {0} {}
 
-R {  352} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  352} {0} {<afa>} {Entrance Hall to the Thieves' Guild} { } {You have stumbled into the darkened entrance hall of the Thieves' Guild, a place where you can lose both your life and your money if you aren't careful. A small ladder runs up the western wall to a trapdoor cut out of the ceiling. A dark passage exits to the east. } {Nevrast} {} {Inside} {} {1.000}
 E {  351} {u} {u} {16} {0} {}
+E { 1332} {e} {e} {2} {0} {}
 
 R {  353} {0} {} {} { } {} {Nevrast} {} {} {} {1.000}
 E {  345} {u} {u} {16} {0} {}
@@ -1458,7 +1465,7 @@ E {  355} {n} {n} {1} {0} {}
 E {  357} {e} {e} {2} {0} {}
 E {  358} {s} {s} {4} {0} {}
 
-R {  357} {0} {} {Entrance to Meadow} { } {You are at the entrance to a peaceful and serene meadow.  You see grass and flowers all the way to the limits of your vision.  In the distance towards the east you can barely see the hint of a stream past the main part of the meadow. Overall, this entire area fills you with a sense of peace and tranquility. } {Meadow} {} {Field} {} {1.000}
+R {  357} {0} {<afa>} {Entrance to Meadow} { } {You are at the entrance to a peaceful and serene meadow.  You see grass and flowers all the way to the limits of your vision.  In the distance towards the east you can barely see the hint of a stream past the main part of the meadow. Overall, this entire area fills you with a sense of peace and tranquility. } {Meadow} {} {Field} {} {1.000}
 E {  356} {w} {w} {8} {0} {}
 E {  359} {n} {n} {1} {0} {}
 E {  368} {e} {e} {2} {0} {}
@@ -1468,178 +1475,178 @@ R {  358} {0} {} {} { } {} {Southern Road} {} {} {} {1.000}
 E {  356} {n} {n} {1} {0} {}
 E {  399} {s} {s} {4} {0} {}
 
-R {  359} {0} {} {Grassy Field} { } {There is a lot of grass here and there are animals of prey wandering through trying to find a small meal.  Every once in a while you see one spring onto something, a small rodent, you suspect. } {Meadow} {} {Field} {} {1.000}
+R {  359} {0} {<afa>} {Grassy Field} { } {There is a lot of grass here and there are animals of prey wandering through trying to find a small meal.  Every once in a while you see one spring onto something, a small rodent, you suspect. } {Meadow} {} {Field} {} {1.000}
 E {  357} {s} {s} {4} {0} {}
 E {  360} {n} {n} {1} {0} {}
 E {  366} {e} {e} {2} {0} {}
 
-R {  360} {0} {} {Grassy Field} { } {You are in a small, grassy field full of nothing but grass.  As the wind blows gently all the grass blows in the same direction at once and it makes it look like wind blowing water on the ocean. } {Meadow} {} {Field} {} {1.000}
+R {  360} {0} {<afa>} {Grassy Field} { } {You are in a small, grassy field full of nothing but grass.  As the wind blows gently all the grass blows in the same direction at once and it makes it look like wind blowing water on the ocean. } {Meadow} {} {Field} {} {1.000}
 E {  359} {s} {s} {4} {0} {}
 E {  361} {n} {n} {1} {0} {}
 E {  367} {e} {e} {2} {0} {}
 
-R {  361} {0} {} {Grassy Field} { } {You are at the northwesternmost corner of the meadow which ends at the base of the large city wall to the north.  At this point you hear all manner of sounds from animals.  Birds chirping and foxes barking after catching a meal, it is a very peaceful and serene sight indeed. } {Meadow} {} {Field} {} {1.000}
+R {  361} {0} {<afa>} {Grassy Field} { } {You are at the northwesternmost corner of the meadow which ends at the base of the large city wall to the north.  At this point you hear all manner of sounds from animals.  Birds chirping and foxes barking after catching a meal, it is a very peaceful and serene sight indeed. } {Meadow} {} {Field} {} {1.000}
 E {  360} {s} {s} {4} {0} {}
 E {  362} {e} {e} {2} {0} {}
 
-R {  362} {0} {} {Grassy Field} { } {The grassy pasture runs along the base of the large city wall to the north. The foliage is dense here and there are many animals wandering throughout in search of food.  Every once in a while you see a scared rodent dart into a hole in order to escape a possible predator. } {Meadow} {} {Field} {} {1.000}
+R {  362} {0} {<afa>} {Grassy Field} { } {The grassy pasture runs along the base of the large city wall to the north. The foliage is dense here and there are many animals wandering throughout in search of food.  Every once in a while you see a scared rodent dart into a hole in order to escape a possible predator. } {Meadow} {} {Field} {} {1.000}
 E {  361} {w} {w} {8} {0} {}
 E {  363} {e} {e} {2} {0} {}
 E {  367} {s} {s} {4} {0} {}
 
-R {  363} {0} {} {Gardens} { } {This is a very large garden at the base of the city wall to the north and there is almost every kind of vegetable growing here.  There are carrots, beans, peas, and tomatoes but there is one large patch with nothing but okra. As you take a closer look at this one patch there are a lot of holes dug into } {Meadow} {} {ground.Terrain:} {} {1.000}
+R {  363} {0} {<afa>} {Gardens} { } {This is a very large garden at the base of the city wall to the north and there is almost every kind of vegetable growing here.  There are carrots, beans, peas, and tomatoes but there is one large patch with nothing but okra. As you take a closer look at this one patch there are a lot of holes dug into } {Meadow} {} {ground.Terrain:} {} {1.000}
 E {  362} {w} {w} {8} {0} {}
 E {  364} {s} {s} {4} {0} {}
 
-R {  364} {0} {} {Grassy Field} { } {You are walking upon a grassy field and you can hear the usual noises of nature all about you.  You see birds flying in the sky, insects fluttering, buzzing, and flying about and the occasional predator stalking a weaker and } {Meadow} {} {animal.Terrain:} {} {1.000}
+R {  364} {0} {<afa>} {Grassy Field} { } {You are walking upon a grassy field and you can hear the usual noises of nature all about you.  You see birds flying in the sky, insects fluttering, buzzing, and flying about and the occasional predator stalking a weaker and } {Meadow} {} {animal.Terrain:} {} {1.000}
 E {  363} {n} {n} {1} {0} {}
 E {  365} {s} {s} {4} {0} {}
 
-R {  365} {0} {} {Scarred and Marked Tree} { } {You are standing at the base of a large and blackened tree.  Smeared with graffiti that resembles the symbols of drow clerics it has a plaque secured to it's burnt surface.  Large fragments of boulders, out of place in this meadow, lie strewn around the circumference of the tree. } {Meadow} {} {Field} {} {1.000}
+R {  365} {0} {<afa>} {Scarred and Marked Tree} { } {You are standing at the base of a large and blackened tree.  Smeared with graffiti that resembles the symbols of drow clerics it has a plaque secured to it's burnt surface.  Large fragments of boulders, out of place in this meadow, lie strewn around the circumference of the tree. } {Meadow} {} {Field} {} {1.000}
 E {  364} {n} {n} {1} {0} {}
 E {  366} {w} {w} {8} {0} {}
 E {  369} {s} {s} {4} {0} {}
 
-R {  366} {0} {} {Bushes} { } {There are a lot of bushes here, many of them are green but there are others of various colors.  Every bush seems to have a different aura of nature surrounding it.  It's as if they all glow with a different color aura, and the rustling noise they make seems to call at you, giving you a sense of peace and tranquility. } {Meadow} {} {Field} {} {1.000}
+R {  366} {0} {<afa>} {Bushes} { } {There are a lot of bushes here, many of them are green but there are others of various colors.  Every bush seems to have a different aura of nature surrounding it.  It's as if they all glow with a different color aura, and the rustling noise they make seems to call at you, giving you a sense of peace and tranquility. } {Meadow} {} {Field} {} {1.000}
 E {  365} {e} {e} {2} {0} {}
 E {  367} {n} {n} {1} {0} {}
 E {  359} {w} {w} {8} {0} {}
 E {  368} {s} {s} {4} {0} {}
 
-R {  367} {0} {} {Tree} { } {You are standing at the base of a large and blackened tree.  It seems it was burned not too long ago, since you can still smell burned wood.  When you step closer to the tree to examine it, pieces of the bark fall off from the slightest vibration in the ground. } {Meadow} {} {Field} {} {1.000}
+R {  367} {0} {<afa>} {Tree} { } {You are standing at the base of a large and blackened tree.  It seems it was burned not too long ago, since you can still smell burned wood.  When you step closer to the tree to examine it, pieces of the bark fall off from the slightest vibration in the ground. } {Meadow} {} {Field} {} {1.000}
 E {  366} {s} {s} {4} {0} {}
 E {  362} {n} {n} {1} {0} {}
 E {  360} {w} {w} {8} {0} {}
 
-R {  368} {0} {} {Ranger Post} { } {You have come upon a small wooden building in the middle of the clearing. This is the western ranger post where the ranger sits and watches for anything out of the ordinary.  While his main job is to arrest poachers, he will attack anyone who threatens him or any part of the meadow. } {Meadow} {} {Field} {} {1.000}
+R {  368} {0} {<afa>} {Ranger Post} { } {You have come upon a small wooden building in the middle of the clearing. This is the western ranger post where the ranger sits and watches for anything out of the ordinary.  While his main job is to arrest poachers, he will attack anyone who threatens him or any part of the meadow. } {Meadow} {} {Field} {} {1.000}
 E {  366} {n} {n} {1} {0} {}
 E {  357} {w} {w} {8} {0} {}
 E {  369} {e} {e} {2} {0} {}
 E {  397} {s} {s} {4} {0} {}
 
-R {  369} {0} {} {Field of Flowers} { } {This entire area is covered with flowers of every shape, type, and color you can possibly dream of.  The collective scent of all the flowers give you a woozy feeling and more than once you stumble while you walk through the patch of flowers. } {Meadow} {} {Field} {} {1.000}
+R {  369} {0} {<afa>} {Field of Flowers} { } {This entire area is covered with flowers of every shape, type, and color you can possibly dream of.  The collective scent of all the flowers give you a woozy feeling and more than once you stumble while you walk through the patch of flowers. } {Meadow} {} {Field} {} {1.000}
 E {  368} {w} {w} {8} {0} {}
 E {  365} {n} {n} {1} {0} {}
 E {  370} {e} {e} {2} {0} {}
 E {  386} {s} {s} {4} {0} {}
 
-R {  370} {0} {} {Meadow} { } {You are in the heart of the meadow itself, here in this spot is every type of plant life you can think of.  There are many bloomed flowers here giving off their sweet smell and to the east you can see the glint of sunlight off the stream.  This is the most serene and peaceful area in the entire meadow. } {Meadow} {} {Field} {} {1.000}
+R {  370} {0} {<afa>} {Meadow} { } {You are in the heart of the meadow itself, here in this spot is every type of plant life you can think of.  There are many bloomed flowers here giving off their sweet smell and to the east you can see the glint of sunlight off the stream.  This is the most serene and peaceful area in the entire meadow. } {Meadow} {} {Field} {} {1.000}
 E {  369} {w} {w} {8} {0} {}
 E {  371} {n} {n} {1} {0} {}
 E {  374} {e} {e} {2} {0} {}
 E {  382} {s} {s} {4} {0} {}
 
-R {  371} {0} {} {Meadow} { } {You are in the heart of the meadow itself, here in this spot is every type of plant life you can think of.  There are many bloomed flowers here giving off their sweet smell and to the east you can see the glint of sunlight off the stream.  This is the most serene and peaceful area in the entire meadow. } {Meadow} {} {Field} {} {1.000}
+R {  371} {0} {<afa>} {Meadow} { } {You are in the heart of the meadow itself, here in this spot is every type of plant life you can think of.  There are many bloomed flowers here giving off their sweet smell and to the east you can see the glint of sunlight off the stream.  This is the most serene and peaceful area in the entire meadow. } {Meadow} {} {Field} {} {1.000}
 E {  370} {s} {s} {4} {0} {}
 E {  372} {n} {n} {1} {0} {}
 
-R {  372} {0} {} {Meadow} { } {You are in the heart of the meadow itself, here in this spot is every type of plant life you can think of.  There are many bloomed flowers here giving off their sweet smell and to the east you can see the glint of sunlight off the stream.  This is the most serene and peaceful area in the entire meadow. } {Meadow} {} {Field} {} {1.000}
+R {  372} {0} {<afa>} {Meadow} { } {You are in the heart of the meadow itself, here in this spot is every type of plant life you can think of.  There are many bloomed flowers here giving off their sweet smell and to the east you can see the glint of sunlight off the stream.  This is the most serene and peaceful area in the entire meadow. } {Meadow} {} {Field} {} {1.000}
 E {  371} {s} {s} {4} {0} {}
 E {  373} {n} {n} {1} {0} {}
 
-R {  373} {0} {} {Meadow} { } {You are in the heart of the meadow itself.  Here in this spot is every type of plant life you can think of.  There are many bloomed flowers here giving off their sweet smell and to the east you can see the glint of sunlight off the stream.  This is the most serene and peaceful area in the entire meadow.  A large stone wall halts your progress to the north. } {Meadow} {} {Field} {} {1.000}
+R {  373} {0} {<afa>} {Meadow} { } {You are in the heart of the meadow itself.  Here in this spot is every type of plant life you can think of.  There are many bloomed flowers here giving off their sweet smell and to the east you can see the glint of sunlight off the stream.  This is the most serene and peaceful area in the entire meadow.  A large stone wall halts your progress to the north. } {Meadow} {} {Field} {} {1.000}
 E {  372} {s} {s} {4} {0} {}
 
-R {  374} {0} {} {Field of Flowers} { } {You are standing in a very huge patch of flowers, there are many different varieties here ranging from daisies to daffodils to tulips.  The combined smell of the sweet fragrances makes your head spin. } {Meadow} {} {Field} {} {1.000}
+R {  374} {0} {<afa>} {Field of Flowers} { } {You are standing in a very huge patch of flowers, there are many different varieties here ranging from daisies to daffodils to tulips.  The combined smell of the sweet fragrances makes your head spin. } {Meadow} {} {Field} {} {1.000}
 E {  370} {w} {w} {8} {0} {}
 E {  375} {n} {n} {1} {0} {}
 E {  378} {s} {s} {4} {0} {}
 
-R {  375} {0} {} {By a Stream} { } {Here at the bank of the small stream you feel awed at the complete silence. Standing next to the stream is a very large and dark oak tree.  It seems as if it is weeping from all the dripping sap coming from two holes right next to each other. } {Meadow} {} {Shore} {} {1.000}
+R {  375} {0} {<afa>} {By a Stream} { } {Here at the bank of the small stream you feel awed at the complete silence. Standing next to the stream is a very large and dark oak tree.  It seems as if it is weeping from all the dripping sap coming from two holes right next to each other. } {Meadow} {} {Shore} {} {1.000}
 E {  374} {s} {s} {4} {0} {}
 E {  376} {n} {n} {1} {0} {}
 
-R {  376} {0} {} {By a Stream} { } {As you walk past the quiet part of the bank, you start to hear a thundering sound and feel the ground beneath you tremble.  The bubbling of the stream is louder and looks as if it moves faster. } {Meadow} {} {Shore} {} {1.000}
+R {  376} {0} {<afa>} {By a Stream} { } {As you walk past the quiet part of the bank, you start to hear a thundering sound and feel the ground beneath you tremble.  The bubbling of the stream is louder and looks as if it moves faster. } {Meadow} {} {Shore} {} {1.000}
 E {  375} {s} {s} {4} {0} {}
 E {  377} {n} {n} {1} {0} {}
 
-R {  377} {0} {} {By a Stream} { } {You are still on the bank of the stream but you have also come to a dead end, and the base of the large city wall to the north.  It is smooth at this point and impossible to climb.  The meadow extends back to the south. } {Meadow} {} {Shore} {} {1.000}
+R {  377} {0} {<afa>} {By a Stream} { } {You are still on the bank of the stream but you have also come to a dead end, and the base of the large city wall to the north.  It is smooth at this point and impossible to climb.  The meadow extends back to the south. } {Meadow} {} {Shore} {} {1.000}
 E {  376} {s} {s} {4} {0} {}
 
-R {  378} {0} {} {By a Stream} { } {You are standing upon the bank of a small and slow moving stream.  The stream bubbles quietly as it flows onward.  Every once in a while you hear a splash as a bird of prey dives to grab a fish for dinner. } {Meadow} {} {Shore} {} {1.000}
+R {  378} {0} {<afa>} {By a Stream} { } {You are standing upon the bank of a small and slow moving stream.  The stream bubbles quietly as it flows onward.  Every once in a while you hear a splash as a bird of prey dives to grab a fish for dinner. } {Meadow} {} {Shore} {} {1.000}
 E {  374} {n} {n} {1} {0} {}
 E {  379} {s} {s} {4} {0} {}
 
-R {  379} {0} {} {By a Stream} { } {You are at the edge of a small, clear water stream that is east of you.  You can hear the bubbling of the stream as it flows by and you can hear the friendly sound of birds chirping.  Every once in a while a bird will land on the ground in front of you and study you. } {Meadow} {} {Shore} {} {1.000}
+R {  379} {0} {<afa>} {By a Stream} { } {You are at the edge of a small, clear water stream that is east of you.  You can hear the bubbling of the stream as it flows by and you can hear the friendly sound of birds chirping.  Every once in a while a bird will land on the ground in front of you and study you. } {Meadow} {} {Shore} {} {1.000}
 E {  378} {n} {n} {1} {0} {}
 E {  380} {s} {s} {4} {0} {}
 
-R {  380} {0} {} {By a Stream} { } {You are standing on the bank of a small stream which is located just east of you.  There are small rocks and the bank side is covered with wet sand and every once in a while you trip over one of the larger rocks. } {Meadow} {} {Shore} {} {1.000}
+R {  380} {0} {<afa>} {By a Stream} { } {You are standing on the bank of a small stream which is located just east of you.  There are small rocks and the bank side is covered with wet sand and every once in a while you trip over one of the larger rocks. } {Meadow} {} {Shore} {} {1.000}
 E {  379} {n} {n} {1} {0} {}
 E {  381} {s} {s} {4} {0} {}
 
-R {  381} {0} {} {By a Stream} { } {You are on the bank of small, clear water stream.  To the east of you is the stream itself which is flowing very slowly and smoothly.  Every once in a while you see a fish jump out of the water to land back in. } {Meadow} {} {Shore} {} {1.000}
+R {  381} {0} {<afa>} {By a Stream} { } {You are on the bank of small, clear water stream.  To the east of you is the stream itself which is flowing very slowly and smoothly.  Every once in a while you see a fish jump out of the water to land back in. } {Meadow} {} {Shore} {} {1.000}
 E {  380} {n} {n} {1} {0} {}
 
-R {  382} {0} {} {Meadow} { } {You are in the heart of the meadow itself, here in this spot is every type of plant life you can think of.  There are many bloomed flowers here giving off their sweet smell and to the east you can see the glint of sunlight off the stream.  This is the most serene and peaceful area in the entire meadow. } {Meadow} {} {Field} {} {1.000}
+R {  382} {0} {<afa>} {Meadow} { } {You are in the heart of the meadow itself, here in this spot is every type of plant life you can think of.  There are many bloomed flowers here giving off their sweet smell and to the east you can see the glint of sunlight off the stream.  This is the most serene and peaceful area in the entire meadow. } {Meadow} {} {Field} {} {1.000}
 E {  370} {n} {n} {1} {0} {}
 E {  383} {s} {s} {4} {0} {}
 
-R {  383} {0} {} {Meadow} { } {You are in the heart of the meadow itself, here in this spot is every type of plant life you can think of.  There are many bloomed flowers here giving off their sweet smell and to the east you can see the glint of sunlight off the stream.  This is the most serene and peaceful area in the entire meadow. } {Meadow} {} {Field} {} {1.000}
+R {  383} {0} {<afa>} {Meadow} { } {You are in the heart of the meadow itself, here in this spot is every type of plant life you can think of.  There are many bloomed flowers here giving off their sweet smell and to the east you can see the glint of sunlight off the stream.  This is the most serene and peaceful area in the entire meadow. } {Meadow} {} {Field} {} {1.000}
 E {  382} {n} {n} {1} {0} {}
 E {  384} {s} {s} {4} {0} {}
 
-R {  384} {0} {} {Meadow} { } {You are in the heart of the meadow itself, here in this spot is every type of plant life you can think of.  There are many bloomed flowers here giving off their sweet smell and to the east you can see the glint of sunlight off the stream.  This is the most serene and peaceful area in the entire meadow. } {Meadow} {} {Field} {} {1.000}
+R {  384} {0} {<afa>} {Meadow} { } {You are in the heart of the meadow itself, here in this spot is every type of plant life you can think of.  There are many bloomed flowers here giving off their sweet smell and to the east you can see the glint of sunlight off the stream.  This is the most serene and peaceful area in the entire meadow. } {Meadow} {} {Field} {} {1.000}
 E {  383} {n} {n} {1} {0} {}
 E {  385} {s} {s} {4} {0} {}
 
-R {  385} {0} {} {Meadow} { } {You are in the heart of the meadow itself, here in this spot is every type of plant life you can think of.  There are many bloomed flowers here giving off their sweet smell and to the east you can see the glint of sunlight off the stream.  This is the most serene and peaceful area in the entire meadow. } {Meadow} {} {Inside} {} {1.000}
+R {  385} {0} {<afa>} {Meadow} { } {You are in the heart of the meadow itself, here in this spot is every type of plant life you can think of.  There are many bloomed flowers here giving off their sweet smell and to the east you can see the glint of sunlight off the stream.  This is the most serene and peaceful area in the entire meadow. } {Meadow} {} {Inside} {} {1.000}
 E {  384} {n} {n} {1} {0} {}
 
-R {  386} {0} {} {Grassy Field} { } {There is a lot of grass here and there are animals of prey wandering through trying to find a small meal.  Every once in a while you see one spring onto something, a small rodent, you suspect. } {Meadow} {} {Field} {} {1.000}
+R {  386} {0} {<afa>} {Grassy Field} { } {There is a lot of grass here and there are animals of prey wandering through trying to find a small meal.  Every once in a while you see one spring onto something, a small rodent, you suspect. } {Meadow} {} {Field} {} {1.000}
 E {  369} {n} {n} {1} {0} {}
 E {  387} {south} {south} {0} {0} {}
 E {  388} {s} {s} {4} {0} {}
 
 R {  387} {0} {} {} { } {} {} {} {} {} {1.000}
 
-R {  388} {0} {} {Bushes} { } {Bushes, bushes, bushes...  you can't stand all the bushes in this place. There are so many bushes here that they could form a forest of their own if they were all lumped together in one place.  The collective rustling of all the bushes serves to irritate you even further. } {Meadow} {} {Field} {} {1.000}
+R {  388} {0} {<afa>} {Bushes} { } {Bushes, bushes, bushes...  you can't stand all the bushes in this place. There are so many bushes here that they could form a forest of their own if they were all lumped together in one place.  The collective rustling of all the bushes serves to irritate you even further. } {Meadow} {} {Field} {} {1.000}
 E {  386} {n} {n} {1} {0} {}
 E {  389} {w} {w} {8} {0} {}
 E {  390} {s} {s} {4} {0} {}
 
-R {  389} {0} {} {Grassy Field} { } {You are walking on a plain and grass covered field.  There is nothing out of the ordinary here except that the grass grows very thickly and very tall.  All the other fields you have seen in the meadow are only half as tall and half as thick. } {Meadow} {} {Field} {} {1.000}
+R {  389} {0} {<afa>} {Grassy Field} { } {You are walking on a plain and grass covered field.  There is nothing out of the ordinary here except that the grass grows very thickly and very tall.  All the other fields you have seen in the meadow are only half as tall and half as thick. } {Meadow} {} {Field} {} {1.000}
 E {  388} {e} {e} {2} {0} {}
 E {  396} {w} {w} {8} {0} {}
 E {  392} {s} {s} {4} {0} {}
 E {  397} {n} {n} {1} {0} {}
 
-R {  390} {0} {} {Field of Flowers} { } {There are many flowers here and the collective perfume like smell from them all make you woozy.  As you walk through the flowers you notice that insects of every kind are invading the flowers trying to collect as much pollen as they can get. } {Meadow} {} {Field} {} {1.000}
+R {  390} {0} {<afa>} {Field of Flowers} { } {There are many flowers here and the collective perfume like smell from them all make you woozy.  As you walk through the flowers you notice that insects of every kind are invading the flowers trying to collect as much pollen as they can get. } {Meadow} {} {Field} {} {1.000}
 E {  388} {n} {n} {1} {0} {}
 E {  391} {s} {s} {4} {0} {}
 E {  392} {w} {w} {8} {0} {}
 
-R {  391} {0} {} {Field of Flowers} { } {You are in a field of flowers; there are flowers of every kind, some you have seen and others you have never seen.  The beautiful scent given off from the collective smell of all the flowers makes you woozy.  You also see many bees and other insects collecting pollen from the flowers. } {Meadow} {} {Field} {} {1.000}
+R {  391} {0} {<afa>} {Field of Flowers} { } {You are in a field of flowers; there are flowers of every kind, some you have seen and others you have never seen.  The beautiful scent given off from the collective smell of all the flowers makes you woozy.  You also see many bees and other insects collecting pollen from the flowers. } {Meadow} {} {Field} {} {1.000}
 E {  390} {n} {n} {1} {0} {}
 
-R {  392} {0} {} {Grassy Field} { } {The grass in this area of the field is brown, perhaps from the chill, icy wind that seems only to occur in this one spot.  As you stand around for a bit, the chill, icy wind bites deeper into your flesh making you jump. } {Meadow} {} {Field} {} {1.000}
+R {  392} {0} {<afa>} {Grassy Field} { } {The grass in this area of the field is brown, perhaps from the chill, icy wind that seems only to occur in this one spot.  As you stand around for a bit, the chill, icy wind bites deeper into your flesh making you jump. } {Meadow} {} {Field} {} {1.000}
 E {  390} {e} {e} {2} {0} {}
 E {  393} {s} {s} {4} {0} {}
 E {  389} {n} {n} {1} {0} {}
 
-R {  393} {0} {} {Bushes} { } {You are at the edge of a bushy field.  The bushes are all packed together in the center of this small area, each one rustling differently and acting differently when the wind blows it.  Every once in a while you spot a rabbit or other small animal hop through the bushes. } {Meadow} {} {Field} {} {1.000}
+R {  393} {0} {<afa>} {Bushes} { } {You are at the edge of a bushy field.  The bushes are all packed together in the center of this small area, each one rustling differently and acting differently when the wind blows it.  Every once in a while you spot a rabbit or other small animal hop through the bushes. } {Meadow} {} {Field} {} {1.000}
 E {  392} {n} {n} {1} {0} {}
 E {  394} {w} {w} {8} {0} {}
 
-R {  394} {0} {} {Bushes} { } {Before you is a clump of bushes all lumped together forming a small forest of green.  Every bush is different in appearance and size.  As the wind starts to blow, the leaves of the bushes rustle against each other making a peaceful sound. } {Meadow} {} {Field} {} {1.000}
+R {  394} {0} {<afa>} {Bushes} { } {Before you is a clump of bushes all lumped together forming a small forest of green.  Every bush is different in appearance and size.  As the wind starts to blow, the leaves of the bushes rustle against each other making a peaceful sound. } {Meadow} {} {Field} {} {1.000}
 E {  393} {e} {e} {2} {0} {}
 E {  395} {n} {n} {1} {0} {}
 
-R {  395} {0} {} {Bushes} { } {All these bushes are scattered about making them look like large heads of lettuce growing unevenly is a farmer's field.  They all rustle with the wind and every once in a while a strong gust of wind will knock a leaf off of one of the bushes. } {Meadow} {} {Field} {} {1.000}
+R {  395} {0} {<afa>} {Bushes} { } {All these bushes are scattered about making them look like large heads of lettuce growing unevenly is a farmer's field.  They all rustle with the wind and every once in a while a strong gust of wind will knock a leaf off of one of the bushes. } {Meadow} {} {Field} {} {1.000}
 E {  394} {s} {s} {4} {0} {}
 E {  396} {n} {n} {1} {0} {}
 
-R {  396} {0} {} {Bushes} { } {There are a lot of bushes here, many of them are green but there are others of various colors.  Every bush seems to have a different aura of nature surrounding it.  It is as if they all glow with a different color aura and the rustling noise they make seem to call at you giving you a sense of peace and tranquility. } {Meadow} {} {Field} {} {1.000}
+R {  396} {0} {<afa>} {Bushes} { } {There are a lot of bushes here, many of them are green but there are others of various colors.  Every bush seems to have a different aura of nature surrounding it.  It is as if they all glow with a different color aura and the rustling noise they make seem to call at you giving you a sense of peace and tranquility. } {Meadow} {} {Field} {} {1.000}
 E {  395} {s} {s} {4} {0} {}
 E {  389} {e} {e} {2} {0} {}
 E {  398} {n} {n} {1} {0} {}
 
-R {  397} {0} {} {Tree} { } {You are standing yet upon another grassy field.  It is the same as the others, with one exception - there is a lone tree standing in the middle of this patch of grass.  From inside the tree you can hear the chirping of birds as they rest in their nests or in the process of building a nest. } {Meadow} {} {Field} {} {1.000}
+R {  397} {0} {<afa>} {Tree} { } {You are standing yet upon another grassy field.  It is the same as the others, with one exception - there is a lone tree standing in the middle of this patch of grass.  From inside the tree you can hear the chirping of birds as they rest in their nests or in the process of building a nest. } {Meadow} {} {Field} {} {1.000}
 E {  389} {s} {s} {4} {0} {}
 E {  368} {n} {n} {1} {0} {}
 E {  398} {w} {w} {8} {0} {}
 
-R {  398} {0} {} {Bushes} { } {As you enter this field, you see a tremendous sight before you: the entire area is filled with bushes.  It is hard for you to walk anywhere without getting tangled in one of the bushes.  Soon as you get free from one bush another catches you in its branches. } {Meadow} {} {Inside} {} {1.000}
+R {  398} {0} {<afa>} {Bushes} { } {As you enter this field, you see a tremendous sight before you: the entire area is filled with bushes.  It is hard for you to walk anywhere without getting tangled in one of the bushes.  Soon as you get free from one bush another catches you in its branches. } {Meadow} {} {Inside} {} {1.000}
 E {  397} {e} {e} {2} {0} {}
 E {  357} {n} {n} {1} {0} {}
 E {  396} {s} {s} {4} {0} {}
@@ -1648,19 +1655,19 @@ R {  399} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  358} {n} {n} {1} {0} {}
 E {  732} {s} {s} {4} {0} {}
 
-R {  400} {0} {} {A Plain Place of Worship} { } {You are in a squat, square, unmarked room built of precisely-chiseled granite blocks.  The only concession to formality is the pure silver altar in the exact center of the room.  Even that is totally unadorned, its faces and edges completely smooth and featureless.  The vaulted chamber is north of here, and a small sanctuary lies to the east. } {Nevrast} {} {Inside} {} {1.000}
+R {  400} {0} {<afa>} {A Plain Place of Worship} { } {You are in a squat, square, unmarked room built of precisely-chiseled granite blocks.  The only concession to formality is the pure silver altar in the exact center of the room.  Even that is totally unadorned, its faces and edges completely smooth and featureless.  The vaulted chamber is north of here, and a small sanctuary lies to the east. } {Nevrast} {} {Inside} {} {1.000}
 E {  162} {n} {n} {1} {0} {}
 E { 1298} {e} {e} {2} {0} {}
 
-R {  401} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  401} {0} {<afa>} {Halls of Honor} { } {You have entered the fabled Halls of Honor.  Here, large statues made of platinum depicting famous paladins stand and stare at you imposingly.  A red, carpeted passageway leads to the east, and grand oaken doors to the west head back towards Raven's Court. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  906} {w} {w} {8} {0} {}
 E {  963} {e} {e} {2} {0} {}
 
-R {  402} {0} {} {A Dark Place of Worship} { } {The stone walls of this small square room are coarse and blackened. Tapestries hang on the northern and western walls that outline the Inquisitor's primary tenets, stressing power and implacable judgement above all.  An ominous altar made of black marble rests in the center of the room. } {Nevrast} {} {Inside} {} {1.000}
+R {  402} {0} {<afa>} {A Dark Place of Worship} { } {The stone walls of this small square room are coarse and blackened. Tapestries hang on the northern and western walls that outline the Inquisitor's primary tenets, stressing power and implacable judgement above all.  An ominous altar made of black marble rests in the center of the room. } {Nevrast} {} {Inside} {} {1.000}
 E {  164} {n} {n} {1} {0} {}
 E {  403} {w} {w} {8} {0} {}
 
-R {  403} {0} {} {The Inquisitor Guildmaster's Sanctuary} { } {A small black shrine trimmed with silver stands at the heart of the sanctuary.  Black velvet hangings enshroud the walls, soaking up what light the lone tallow candle on the shrine provides.  An overwhelming feeling of darkness overcomes you. } {Nevrast} {} {Inside} {} {1.000}
+R {  403} {0} {<afa>} {The Inquisitor Guildmaster's Sanctuary} {Inq} {A small black shrine trimmed with silver stands at the heart of the sanctuary.  Black velvet hangings enshroud the walls, soaking up what light the lone tallow candle on the shrine provides.  An overwhelming feeling of darkness overcomes you. } {Nevrast} {Inquisitor} {Inside} {} {1.000}
 E {  402} {e} {e} {2} {0} {}
 
 R {  404} {0} {} {} { } {} {} {} {} {} {1.000}
@@ -1747,9 +1754,12 @@ E {  428} {e} {e} {2} {0} {}
 R {  424} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  254} {w} {w} {8} {0} {}
 
-R {  425} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  425} {0} {<afa>} {A shadowmage walks up.} { } {H:316/316 M:120/120 V:221/224 XP:164841 C:*> The Singing Sage    The bar is one of the weirdest in the land.  Mystical images float around in the air above you, and illusions of fine furniture appear and disappear all around the room.  A narrow staircase rises out of the floor along the northern wall, and continues up into the ceiling.  The Hall of Crafting can be seen to the southeast, and there is a lounge off to the west. } {Nevrast} {} {Inside} {} {1.000}
 E {  234} {d} {d} {32} {0} {}
 E { 1216} {u} {u} {16} {0} {}
+E { 1313} {w} {w} {8} {0} {}
+E { 1314} {e} {e} {2} {0} {}
+E { 1316} {s} {s} {4} {0} {}
 
 R {  426} {0} {} {} { } {} {} {} {} {} {1.000}
 
@@ -3384,178 +3394,178 @@ R {  836} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  835} {n} {n} {1} {0} {}
 E {  837} {s} {s} {4} {0} {}
 
-R {  837} {0} {} {Outside the Northern Gates of Raven's Bluff} {} {} {} {} {} {gate south} {1.000}
+R {  837} {0} {<afa>} {Outside the Northern Gates of Raven's Bluff} {} {You are standing outside of the large, impressive-looking gates which allows entry to the city-state of Raven's Bluff.  A long, ancient-looking road lies to your north, and you can see a wide array of hustle and bustle coming from the inside of the city to your south.  A small sign is mounted near the gate. } {Raven's Bluff} {} {City} {gate south} {1.000}
 E {  836} {n} {n} {1} {0} {}
 E {  838} {s} {s} {4} {0} {}
 
-R {  838} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  838} {0} {<afa>} {Inside the Northern Gate} { } {You are standing before the large, imposing northern gate of Raven's Bluff. Made of steel and surrounded by tall stone, the gates are clogged with people entering the splendor of the city.  To your south, you can see a bustling square, and a long, ancient looking road is outside of the gates to your north. } {Raven's Bluff} {} {City} {} {1.000}
 E {  837} {n} {n} {1} {0} {}
 E {  839} {s} {s} {4} {0} {}
 
-R {  839} {0} {<aaf>} {} { } {} {} {} {} {} {1.000}
+R {  839} {0} {<afa>} {Grand Plaza} { } {You are standing in the middle of the large, ancient Grand Plaza.  A large, venerable looking Inn lies to your east, and is a welcome sight for the weary travelers coming off the Great Road.  You see a large square intersection to your south, and large gates are to your north. } {Raven's Bluff} {} {City} {} {1.000}
 E {  838} {n} {n} {1} {0} {}
 E {  840} {e} {e} {2} {0} {}
 E {  871} {s} {s} {4} {0} {}
 
-R {  840} {0} {} {} {Inn} {} {} {} {} {} {1.000}
+R {  840} {0} {<afa>} {The Leering Gargoyle Inn} {Inn} {You are in the common room of the venerable Leering Gargoyle Inn.  Here, various bar patrons and city dwellers converse pleasantly, while several bartenders and serving maids keep the drinks flowing.  A large, glowing fireplace illuminates the room and you see a well-worn stone staircase leading up.  A door to the west leads to the Grand Plaza Square. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  839} {w} {w} {8} {0} {}
 E {  841} {u} {u} {16} {0} {}
 
-R {  841} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  841} {0} {<afa>} {The Leering Gargoyle Reception} { } {You are standing in the reception area of the Leering Gargoyle Inn.  Here, several plush chairs and comfortable benches line the walls, and a large wooden desk with a carefully lettered sign is against the northern wall.  A large stone staircase leads downwards to the common room of the Inn. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  840} {d} {d} {32} {0} {}
 
-R {  842} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  842} {0} {<afa>} {Plaza Square} { } {You are standing in the middle of the busiest street in Raven's Bluff, Plaza Square.  Countless numbers of city dwellers crowd around you, impairing your progress and obstructing your view.  You can barely make out the ornate and decorated Grand Plaza to the north, and Main Street stretches towards both the east and west.  You also notice another intersection to the south. } {Raven's Bluff} {} {City} {} {1.000}
 E {  871} {n} {n} {1} {0} {}
 E {  843} {w} {w} {8} {0} {}
 E {  869} {s} {s} {4} {0} {}
 E {  870} {e} {e} {2} {0} {}
 
-R {  843} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  843} {0} {<afa>} {West Main Street} { } {You are walking on the western end of Raven's Bluff's Main Street.  To the east, you see the hustle and bustle of Plaza Square, and the road stretches on towards the west.  You can smell the fragrant aroma of bread coming from a shop to your north, and a rundown building to the south bears the symbol of a large compass. } {Raven's Bluff} {} {City} {} {1.000}
 E {  842} {e} {e} {2} {0} {}
 E {  844} {n} {n} {1} {0} {}
 E {  845} {s} {s} {4} {0} {}
 E {  846} {w} {w} {8} {0} {}
 
-R {  844} {0} {} {} {Eat} {} {} {} {} {} {1.000}
+R {  844} {0} {<afa>} {The Bakery} {Eat} {You are standing in the Raven's Bluff Bakery.  The fragrant aroma of baking bread surrounds you and you can see wooden shelves lined with baskets and assorted grain products.  A counter is in the middle of the Bakery, and a small oak-door leads to the south. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  843} {s} {s} {4} {0} {}
 
-R {  845} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  845} {0} {<afa>} {Cartographer's Guild} { } {This branch of Ringletoes' Guild has fallen on hard times.  The remnants of furniture in this dormant office are now blanketed by a thick layer of dust. Sadly, only a few, well-thumbed volumes remain in the sparse collection of an antiquated bookcase.  To the east, an unstable wall is dominated by a tattered map of the city, both in much need of repair. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  843} {n} {n} {1} {0} {}
 
-R {  846} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  846} {0} {<afa>} {West Main Street} { } {You are walking on the western end of Raven's Bluff's Main Street.  The road stretches on towards the east and west, and you see a shady-looking pawn shop to the south.  To your north, an unpleasant aroma from a beat-up looking shop wafts towards your nose. } {Raven's Bluff} {} {City} {} {1.000}
 E {  843} {e} {e} {2} {0} {}
 E {  847} {n} {n} {1} {0} {}
 E {  848} {s} {s} {4} {0} {}
 E {  849} {w} {w} {8} {0} {}
 
-R {  847} {0} {} {} {Pot} {} {} {} {} {} {1.000}
+R {  847} {0} {<afa>} {Enuk's Curio Shop} {Pot} {Tendrils of incense swirl in the air as you pass through the doorway and into the shop.  All around the room are shelves crammed with all sorts of odds and ends from all over the world.  There are bottles of spices and cages of strange and unusual creatures from the far reaches of the realms and beyond. Visible through a curtain, concealing an area at the back of the shop, is a collection of beakers and various liquids that Enuk makes with varying degrees of success.  The blackened walls near the curtain exhibit testimony to his failures. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  846} {s} {s} {4} {0} {}
 
-R {  848} {0} {} {} {Pwn} {} {} {} {} {} {1.000}
+R {  848} {0} {<afa>} {The Pawn Shop} {Pwn} {You have entered a shady, slightly rundown building whose main clientele appears to be scowling city dwellers who are muttering with each other in low tones.  Plenty of 'previously used' items sit in long glass display cases, and a counter has been set up at the end of the shop.  A swinging door leads off to the north. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  846} {n} {n} {1} {0} {}
 
-R {  849} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  849} {0} {<afa>} {West Main Street} { } {You are walking on the western end of Raven's Bluff's Main Street.  The road stretches on towards the east and west, and you see a shop with a large quill pen symbol to the north.  To the south you can see a large blacksmith shop. } {Raven's Bluff} {} {City} {} {1.000}
 E {  846} {e} {e} {2} {0} {}
 E {  850} {n} {n} {1} {0} {}
 E {  851} {s} {s} {4} {0} {}
 E {  852} {w} {w} {8} {0} {}
 
-R {  850} {0} {} {} {Scr} {} {} {} {} {} {1.000}
+R {  850} {0} {<afa>} {Scribe's Parlor} {Scr} {You are standing in a long, vast shop lined with shelves groaning under the weight of books and scrolls.  The air is dusty and stale, and you can see a long, wooden counter in the middle of the shop.  A small, nondescript door leads south to West Main Street. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  849} {s} {s} {4} {0} {}
 
-R {  851} {0} {} {} {Rep} {} {} {} {} {} {1.000}
+R {  851} {0} {<afa>} {The Blacksmith} {Rep} {You are standing in a sweaty, blistering hot shop whose dominating feature is a large, iron anvil.  Assorted parts of various weapons, armor, and incomplete projects.  To the north a small wooden door leads to West Main Street. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  849} {n} {n} {1} {0} {}
 
-R {  852} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  852} {0} {<afa>} {West Main Street} { } {You are walking on the western end of Raven's Bluff's Main Street.  The road stretches on towards the east, and to the west you see a large, sturdy-looking gate.  A mystical magic shop is to the north, and a large butchery sits to the south. } {Raven's Bluff} {} {City} {} {1.000}
 E {  849} {e} {e} {2} {0} {}
 E {  853} {n} {n} {1} {0} {}
 E {  854} {s} {s} {4} {0} {}
 E {  855} {w} {w} {8} {0} {}
 
-R {  853} {0} {} {} {Mag} {} {} {} {} {} {1.000}
+R {  853} {0} {<afa>} {Grand Emporium} {Mag} {You have entered a huge, wondrous chamber filled with all manner of magical implements and devices.  Complex, impossibly-intricate machines and dazzling items of power overload your senses, and you can see a large, crystal-colored counter in the middle of the Emporium.  To the south you see a door which leads back to West Main Street. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  852} {s} {s} {4} {0} {}
 
-R {  854} {0} {} {} {Eat} {} {} {} {} {} {1.000}
+R {  854} {0} {<afa>} {The Butcher Shop} {Eat} {Racks and racks of meat greet anyone who enters this shop.  Raw meat, fresh meat, cooked meats, cured meats, and more line shelves on every wall and hang from hooks in the ceiling.  Behind a counter to the south, even more meat is being carved, cooked, and packaged before your very eyes. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  852} {n} {n} {1} {0} {}
 
-R {  855} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  855} {0} {<afa>} {Western Gate} { } {You are standing at the large, iron-wrought gates of Raven's Bluff.  Here, large guard towers have been built into the top of the walls, carefully manned to protect the city's inhabitants against invaders.  A large, grassy plain lies outside the city to the west, and to the east you can see the hustle of West Main Street. } {Raven's Bluff} {} {City} {} {1.000}
 E {  852} {e} {e} {2} {0} {}
 E {  856} {w} {w} {8} {0} {}
 E {  860} {s} {s} {4} {0} {}
 
-R {  856} {0} {} {Outside the Western Gate} { } {You are standing directly outside of the main western gate of Raven's Bluff.  A large, plush field surrounds the walls of the city, and you can see the hustle and bustle of a busy street just inside the gates to your east.  A small road leads from here to the west.} {} {} {} {} {1.000}
+R {  856} {0} {<afa>} {Outside the Western Gate} { } {You are standing directly outside of the main western gate of Raven's Bluff.  A large, plush field surrounds the walls of the city, and you can see the hustle and bustle of a busy street just inside the gates to your east.  A small road leads from here to the west. } {Raven's Bluff} {} {Field} {} {1.000}
 E {  855} {e} {e} {2} {0} {}
 E {  970} {w} {w} {8} {0} {}
 
-R {  857} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  857} {0} {<afa>} {Wall Road} { } {You are standing at an intersection of Wall Road.  To the east, you can see the western end of the busy Swordsman's Way, and western Main Street is to your north.  Wall Road also continues to the south.  Large, solidly-built stone walls protect the city to the west. } {Raven's Bluff} {} {City} {} {1.000}
 E {  858} {n} {n} {1} {0} {}
 E {  859} {e} {e} {2} {0} {}
-E {  892} {s} {s} {4} {0} {}
+E { 1303} {s} {s} {4} {0} {}
 
-R {  858} {8} {} {} { } {} {} {} {} {} {1.000}
+R {  858} {8} {} {} { } {} {Raven's Bluff} {} {} {} {1.000}
 E {  857} {s} {s} {4} {0} {}
 E {  860} {n} {n} {1} {0} {}
 
-R {  859} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  859} {0} {<afa>} {Swordsman's Way} { } {You are walking along the western end of Swordsman's Way.  The road continues to the east and west, and you can see a silversmith's shop to the north.  Further down the western road, you can see the large, stone walls which surround the city. } {Raven's Bluff} {} {City} {} {1.000}
 E {  857} {w} {w} {8} {0} {}
 E {  861} {n} {n} {1} {0} {}
 E {  862} {e} {e} {2} {0} {}
 
-R {  860} {8} {} {} { } {} {} {} {} {} {1.000}
+R {  860} {8} {} {} { } {} {Raven's Bluff} {} {} {} {1.000}
 E {  858} {s} {s} {4} {0} {}
 E {  855} {n} {n} {1} {0} {}
 
-R {  861} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  861} {0} {<afa>} {The Silversmith's Shop} { } {The heat of a forge presses against your face as you enter the Silversmith's Shop.  This heat comes from where the silversmiths work, at a small anvil in the northwestern corner of the store.  Throughout the rest of the shop are display cases, in which the Silversmith's finest works are kept.  Perhaps if you approached the Silversmith, you could get him to sell you a piece or two... Of course, if you're not interested, you can exit out of the open door to the south. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  859} {s} {s} {4} {0} {}
 
-R {  862} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  862} {0} {<afa>} {Swordsman's Way} { } {You are walking along the western end of Swordsman's Way.  To the south, you see a large wooden building bearing a multitude of heraldry, and the road continues to both the west and east. } {Raven's Bluff} {} {City} {} {1.000}
 E {  859} {w} {w} {8} {0} {}
 E {  863} {s} {s} {4} {0} {}
 E {  864} {e} {e} {2} {0} {}
 
-R {  863} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  863} {0} {<afa>} {Cross Swords Inn} { } {You have entered a wide, open tavern which smells of steel and sweat.  A large fireplace casts a cheery light over the tavern, and an incredibly huge bartender keeps the drinks coming.  There are several wooden benches and chairs placed around the floor area, and a large, swinging door exits towards the north. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  862} {n} {n} {1} {0} {}
 
-R {  864} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  864} {0} {<afa>} {Swordsman's Way} { } {You are standing on one of the busiest streets in Raven's Bluff, Swordsman's Way.  The road continues to the west, and to the east you see the Central Square.  A large, marble building bearing the crest of the Bluff's Hall of Swordsmen is to the north. } {Raven's Bluff} {} {City} {} {1.000}
 E {  862} {w} {w} {8} {0} {}
 E {  865} {n} {n} {1} {0} {}
 E {  868} {e} {e} {2} {0} {}
 
-R {  865} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  865} {0} {<afa>} {Hall of Swordsmen} { } {You have entered a large, spacious chamber lined with a multitude of weapons and armor.  Various portraits of many famous swordsmen cover the walls, and a large sign saying 'Training Room' points downwards.  South takes you back to Swordsman's way. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  864} {s} {s} {4} {0} {}
 
-R {  866} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  866} {0} {<afa>} {Raven's Bluff Central Square} { } {You are standing within the busiest section of town, the Raven's Bluff Central Square.  Various city dwellers pass by you, intent on their current the west.  The richness of Mystic Avenue is to the east, and you see the wide lanes of Raven's Court to the south.  tasks.  You see the chaos of Plaza Square to the north, and Swordsman's Way to the west. } {Raven's Bluff} {} {City} {} {1.000}
 E {  867} {n} {n} {1} {0} {}
 E {  868} {w} {w} {8} {0} {}
 E {  905} {s} {s} {4} {0} {}
 E {  927} {e} {e} {2} {0} {}
 
-R {  867} {8} {} {} { } {} {} {} {} {} {1.000}
+R {  867} {8} {} {} { } {} {Raven's Bluff} {} {} {} {1.000}
 E {  866} {s} {s} {4} {0} {}
 E {  869} {n} {n} {1} {0} {}
 
-R {  868} {8} {} {} { } {} {} {} {} {} {1.000}
+R {  868} {8} {} {} { } {} {Raven's Bluff} {} {} {} {1.000}
 E {  864} {w} {w} {8} {0} {}
 E {  866} {e} {e} {2} {0} {}
 
-R {  869} {8} {} {} { } {} {} {} {} {} {1.000}
+R {  869} {8} {} {} { } {} {Raven's Bluff} {} {} {} {1.000}
 E {  867} {s} {s} {4} {0} {}
 E {  842} {n} {n} {1} {0} {}
 
-R {  870} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  870} {0} {<afa>} {East Main Street} { } {You are walking on the eastern end of Raven's Bluff's Main Street.  The road stretches on to the east, and you see the commotion of Market Square to the west.  A weaponsmith lies to the north, and you see a leather-workers shop to the south. } {Raven's Bluff} {} {City} {} {1.000}
 E {  842} {w} {w} {8} {0} {}
 E {  872} {n} {n} {1} {0} {}
 E {  874} {e} {e} {2} {0} {}
 E {  915} {s} {s} {4} {0} {}
 
-R {  871} {8} {} {} { } {} {} {} {} {} {1.000}
+R {  871} {8} {} {} { } {} {Raven's Bluff} {} {} {} {1.000}
 E {  839} {n} {n} {1} {0} {}
 E {  842} {s} {s} {4} {0} {}
 
-R {  872} {0} {} {} {Wpn} {} {} {} {} {} {1.000}
+R {  872} {0} {<afa>} {The Weaponsmith} {Wpn} {You are standing in a hot, cramped shop lined with swords, daggers, hammers, and other weapons of destruction.  A solid looking iron table sits in the middle of the main room, and you can see East Main Street to the south.  A small opening to the east allows easy access to the Raven's Bluff Armory. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  870} {s} {s} {4} {0} {}
 E {  873} {e} {e} {2} {0} {}
 
-R {  873} {0} {} {} {Arm} {} {} {} {} {} {1.000}
+R {  873} {0} {<afa>} {The Armorer} {Arm} {You have entered the Raven's Bluff Armory.  Thousands of different types of suits of armor, helmets, leggings, and other protective items have been carefully lined up on sturdy wooden shelves, and a long counter is in the middle of the room.  An opening to the west allows easy access to the weaponsmith, and to the south you can see East Main Street. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  872} {w} {w} {8} {0} {}
 E {  874} {s} {s} {4} {0} {}
 
-R {  874} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  874} {0} {<afa>} {East Main Street} { } {You are walking on the eastern end of Raven's Bluff's Main Street.  The road stretches on towards the east and west, and an armory lies to the north.  A branch of the Raven's Bluff Post Office is to the south. } {Raven's Bluff} {} {City} {} {1.000}
 E {  873} {n} {n} {1} {0} {}
 E {  870} {w} {w} {8} {0} {}
 E {  875} {e} {e} {2} {0} {}
 E {  916} {s} {s} {4} {0} {}
 
-R {  875} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  875} {0} {<afa>} {East Main Street} { } {You are walking on the eastern end of Raven's Bluff's Main Street.  The road stretches on towards the east and west, and a new, sparkling white building lies to the north.  To the south you see a small, plain-looking shop. } {Raven's Bluff} {} {City} {} {1.000}
 E {  874} {w} {w} {8} {0} {}
 E {  876} {n} {n} {1} {0} {}
 E {  877} {s} {s} {4} {0} {}
 E {  917} {e} {e} {2} {0} {}
 
-R {  876} {0} {} {} {Hlr} {} {} {} {} {} {1.000}
+R {  876} {0} {<afa>} {Raven's Bluff General Hospital} {Hlr} {You are standing in a relatively new building to Raven's Bluff, this one being the latest franchise of the vast DocWagon Healer's Guild.  Pure, clean, and whitewashed, you can see various counters and cots lining the floor.  A revolving door to the south leads you back towards East Main Street, and a small, carefully lettered sign is on the wall. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  875} {s} {s} {4} {0} {}
 
-R {  877} {0} {} {} {Gen} {} {} {} {} {} {1.000}
+R {  877} {0} {<afa>} {Spalos' Dry Goods} {Gen} {You are standing in a plain looking and rather uninteresting shop which obviously specializes in various types of dry goods.  Barrels, bottles, sacks, and other adventuring equipment line the walls, and a large wooden door leads north. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  875} {n} {n} {1} {0} {}
 
 R {  878} {0} {} {} { } {} {} {} {} {} {1.000}
@@ -3616,37 +3626,37 @@ E {  889} {w} {w} {8} {0} {}
 
 R {  891} {0} {} {} { } {} {} {} {} {} {1.000}
 
-R {  892} {0} {} {} { } {} {} {} {} {} {1.000}
-E {  857} {n} {n} {1} {0} {}
-E {  966} {s} {s} {4} {0} {}
+R {  892} {0} {<afa>} {Wall Road} { } {You are walking on Wall Road, along the western walls of Raven's Bluff.  The road continues to the north and south, and to the east you see the side of a large building. } {Raven's Bluff} {} {City} {} {1.000}
+E { 1303} {n} {n} {1} {0} {}
+E {  893} {s} {s} {4} {0} {}
 
-R {  893} {0} {} {} { } {} {} {} {} {} {1.000}
-E {  966} {n} {n} {1} {0} {}
+R {  893} {0} {<afa>} {Wall Road} { } {You are walking on Wall Road, along the western walls of Raven's Bluff.  The road continues to both the north and the south, and you can see the corner of the city walls to the south.  The side of a large, run-down looking building is to the east. } {Raven's Bluff} {} {City} {} {1.000}
+E {  892} {n} {n} {1} {0} {}
 E {  894} {s} {s} {4} {0} {}
 
-R {  894} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  894} {0} {<afa>} {Wall Road} { } {You are standing at the corner of the city's walls, at an intersection where Wall Road combines with Shadow Boulevard.  Aptly named, Shadow Boulevard extends in it's run-down, gloomy atmosphere to the east.  Wall Road continues to the north. } {Raven's Bluff} {} {City} {} {1.000}
 E {  893} {n} {n} {1} {0} {}
 E {  895} {e} {e} {2} {0} {}
 
-R {  895} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  895} {0} {<afa>} {Shadow Boulevard} { } {You are walking along the squalid conditions of Shadow Boulevard.  Piles of trash line the road here, which continues to the east and west.  The few city dwellers which are walking along this road eye you and your money pouch suspiciously. } {Raven's Bluff} {} {City} {} {1.000}
 E {  894} {w} {w} {8} {0} {}
 E {  896} {e} {e} {2} {0} {}
 
-R {  896} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  896} {0} {<afa>} {Shadow Boulevard} { } {You are walking along the squalid, run-down back streets of Shadow dark, sinister-looking alley leading from here to the north.  Boulevard.  The road continues to the west and to the east, and you can see a } {Raven's Bluff} {} {City} {} {1.000}
 E {  895} {w} {w} {8} {0} {}
 E {  897} {n} {n} {1} {0} {}
 E {  903} {e} {e} {2} {0} {}
 
-R {  897} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  897} {0} {<afa>} {Smugger's Alley} { } {You are standing on a small, dark alley which has a very unpleasant smell to it.  Large piles of trash rot along the crumbling building walls, and you see light coming from a run-down looking building to the west.  Shadow Boulevard is towards the south.  A large, heavy-looking manhole is here on the ground.  Near the manhole some hand has scratched marks into the paving stones. } {Raven's Bluff} {} {City} {} {1.000}
 E {  896} {s} {s} {4} {0} {}
 E {  898} {w} {w} {8} {0} {}
 E {  900} {d} {d} {32} {0} {}
 
-R {  898} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  898} {0} {<afa>} {Red Dagger Inn} { } {You have entered a tiny, cramped bar filled with rough and ragged individuals.  Thieves, beggars, assassins, smugglers, and a whole slew of other shady city dwellers engage in muffled conversation while various strong-arm type bartenders keep them all in line.  Amidst the crowds of people you can see a small wooden staircase heading upwards. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  897} {e} {e} {2} {0} {}
 E {  899} {u} {u} {16} {0} {}
 
-R {  899} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  899} {0} {<afa>} {Back Room} {Thi} {You have entered a small, cramped back room which is lined with chests and shelves.  A large oaken desk sits against the back wall, and you feel as if you are being watched from some unknown source.  A tiny wooden staircase leads back down to the bar. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  898} {d} {d} {32} {0} {}
 
 R {  900} {0} {} {} { } {} {} {} {} {} {1.000}
@@ -3660,150 +3670,151 @@ E {  902} {n} {n} {1} {0} {}
 R {  902} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  901} {s} {s} {4} {0} {}
 
-R {  903} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  903} {0} {<afa>} {Shadow Boulevard} { } {You are walking along the squalid conditions of Shadow Boulevard.  Towards the east, you can see a large square filled with people, while the twisting street continues to the west.  The few city dwellers which are walking on this road eye you and your money pouch suspiciously.  Graffiti mars the walls of the buildings lining the street. } {Raven's Bluff} {} {City} {} {1.000}
 E {  896} {w} {w} {8} {0} {}
 E {  907} {e} {e} {2} {0} {}
 
-R {  904} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  904} {0} {<afa>} {} { } {} {Raven's Bluff} {} {} {} {1.000}
 E {  907} {w} {w} {8} {0} {}
 E {  906} {n} {n} {1} {0} {}
 E {  934} {e} {e} {2} {0} {}
 E {  937} {s} {s} {4} {0} {}
 
-R {  905} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  905} {0} {<afa>} {Raven's Court} { } {You are traveling on the wide, open street which makes up Raven's Court.  Large, shady oak trees line the sides of the street, and it continues on towards the south.  To the north, you hear the chaos of Raven's Bluff's Central Square, and a tall, majestic-looking building lies to the west.  To the east, you see a solidly built, fortress-like building which has bars on the windows. } {Raven's Bluff} {} {City} {} {1.000}
 E {  866} {n} {n} {1} {0} {}
-E {  965} {s} {s} {4} {0} {}
+E { 1304} {s} {s} {4} {0} {}
 E {  908} {w} {w} {8} {0} {}
 E {  964} {e} {e} {2} {0} {}
 
-R {  906} {0} {} {} { } {} {} {} {} {} {1.000}
-E {  965} {n} {n} {1} {0} {}
+R {  906} {0} {<afa>} {Raven's Court} { } {You are walking on the wide, open street which makes up Raven's Court. Large, shady oak trees line the sides of the road, and they continue towards the north.  You see more large trees towards the south.  A large, humble looking building bearing the sign of a cross is towards the west, while the famed paladin's refuge, the Halls of Honor, are to the east. } {Raven's Bluff} {} {City} {} {1.000}
+E { 1304} {n} {n} {1} {0} {}
 E {  904} {s} {s} {4} {0} {}
-E {  910} {w} {w} {8} {0} {}
+E {  909} {w} {w} {8} {0} {}
 E {  401} {e} {e} {2} {0} {}
 
-R {  907} {8} {} {} { } {} {} {} {} {} {1.000}
+R {  907} {8} {} {} { } {} {Raven's Bluff} {} {} {} {1.000}
 E {  904} {e} {e} {2} {0} {}
 E {  903} {w} {w} {8} {0} {}
 
-R {  908} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  908} {0} {<afa>} {Highrock Towers} { } {You are standing at the lobby of the plush Highrock Towers.  Nobles dressed in expensive clothing scoff at your presence and uniformed bellhops escort them and their baggage upstairs towards their rooms.  A swinging door exits the lobby to the east. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  905} {e} {e} {2} {0} {}
-E {  909} {u} {u} {16} {0} {}
+E {  148} {u 1299 both} {u 1299 both} {0} {0} {}
 
-R {  909} {0} {} {} { } {} {} {} {} {} {1.000}
-E {  911} {s} {s} {4} {0} {}
-E {  912} {w} {w} {8} {0} {}
-E {  913} {e} {e} {2} {0} {}
-E {  914} {n} {n} {1} {0} {}
-
-R {  910} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  909} {8} {} {} { } {} {Raven's Bluff} {} {} {} {1.000}
+E {  910} {w} {w} {8} {0} {}
 E {  906} {e} {e} {2} {0} {}
+
+R {  910} {0} {<afa>} {Monastery} { } {You are standing in a small, humble-looking lobby.  Other than a large statue of a popular Mozartian immortal and a few wooden benches, the only feature of this room is a wooden staircase leading upwards.  To the east, large oaken doors lead back to Raven's Court. } {Raven's Bluff} {} {Inside} {} {1.000}
+E {  909} {e} {e} {2} {0} {}
 E {  911} {u} {u} {16} {0} {}
 
-R {  911} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  911} {0} {<afa>} {Upstairs Landing} { } {You are standing at the upstairs landing of a small, simple monastery. Other than a passageway to the north and a staircase leading down, this room is featureless. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  910} {d} {d} {32} {0} {}
-E {  909} {n} {n} {1} {0} {}
+E {  912} {n} {n} {1} {0} {}
 
-R {  912} {0} {} {} { } {} {} {} {} {} {1.000}
-E {  909} {e} {e} {2} {0} {}
+R {  912} {0} {<afa>} {Grand Hallway} { } {You are walking on a great hallway on the upstairs of a small monastery.  A large, oaken door leads off to the north, and you see two smaller doors to the east and west. } {Raven's Bluff} {} {Inside} {} {1.000}
+E {  911} {s} {s} {4} {0} {}
+E {  913} {w} {w} {8} {0} {}
+E {  914} {n} {n} {1} {0} {}
+E {  965} {e} {e} {2} {0} {}
 
-R {  913} {0} {} {} { } {} {} {} {} {} {1.000}
-E {  909} {w} {w} {8} {0} {}
+R {  913} {0} {<afa>} {Meditation Chamber} {WMo} {You have entered a small, cramped meditation chamber.  Other than a simple altar at the western end of this room, this chamber is featureless.  An exit leads to the east. } {Raven's Bluff} {} {Inside} {} {1.000}
+E {  912} {e} {e} {2} {0} {}
 
-R {  914} {0} {} {} { } {} {} {} {} {} {1.000}
-E {  909} {s} {s} {4} {0} {}
+R {  914} {0} {<afa>} {Humble Altar} {Cle} {You are standing before a simple, humble-looking altar fashioned of wood and iron.  A great sense of peace overcomes you here, and you see an exit leading from here to the south. } {Raven's Bluff} {} {Inside} {} {1.000}
+E {  912} {s} {s} {4} {0} {}
 
-R {  915} {0} {} {} {LAr} {} {} {} {} {} {1.000}
+R {  915} {0} {<afa>} {Leather-Worker's Shop} {LAr} {You have entered a large leather-workers shop.  Various branding tools and pieces of leather cover the walls, and you can hear the commotion of Main Street through an open door to the north. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  870} {n} {n} {1} {0} {}
 
-R {  916} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  916} {0} {<afa>} {Raven's Bluff Post Office} { } {You have entered a large, chaotic-looking but strangely quiet building. Various lock-boxes line the walls, and hundreds of different blue-uniformed city dwellers race back and forth importantly.  A large swinging door exits towards Main Street to the north. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  874} {n} {n} {1} {0} {}
 
-R {  917} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  917} {0} {<afa>} {East Main Street} { } {You are walking on the eastern end of Raven's Bluff's Main Street.  The road stretches on towards the west and east, and the bank of Raven's Bluff lies to the north.  To your south, the building is silent and empty, though strange markings mar the freshly built wall. } {Raven's Bluff} {} {City} {} {1.000}
 E {  875} {w} {w} {8} {0} {}
 E {  918} {n} {n} {1} {0} {}
 E {  919} {s} {s} {4} {0} {}
 E {  920} {e} {e} {2} {0} {}
 
-R {  918} {0} {} {} {$$$} {} {} {} {} {} {1.000}
+R {  918} {0} {<afa>} {The Bank of Raven's Bluff} {$$$} {You have entered a very secure and heavily guarded building, and after noticing it's function you know why.  Various tellers and armed guards are transferring money to and from a large, metal-bound safe and a small sign is on the eastern wall.  A door to the south leads you back to East Main Street. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  917} {s} {s} {4} {0} {}
 
-R {  919} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  919} {0} {<afa>} {A city guard looks at you.} { } {Skarlett's Pet Shop    Dried blood covers the walls and floor of the small, unfinished store.  Bits of gore still cling to the walls in places, the sole remaining sign of the body that was torn to shreds within these walls.  Broken cages and unfinished shelves litter the floor, wood chips and splinters mixing with the blood to form a dark brown, sticky mess.  The only sound in the room is the faint murmur of the city of Raven's Bluff through the door on the north. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  917} {n} {n} {1} {0} {}
 
-R {  920} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  920} {0} {<afa>} {Eastern Gate} { } {You are standing at the large, iron-wrought gates of Raven's Bluff.  Here, large guard towers have been built into the top of the walls, carefully manned to protect the city's inhabitants against invaders.  You see a long, dusty road outside of the gate to the east, and towards the west you see the hustle of Main Street. } {Raven's Bluff} {} {City} {} {1.000}
 E {  917} {w} {w} {8} {0} {}
 E {  924} {s} {s} {4} {0} {}
 E {  957} {e} {e} {2} {0} {}
 
-R {  921} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  921} {0} {<afa>} {Wall Road} { } {You are walking on Wall Road, along the eastern walls of Raven's Bluff. Wall Road intersects with the mysterious streets of Mystic Avenue here, which begins towards the west.  To the north, you see the eastern end of Main Street, and Wall road continues to the south. } {Raven's Bluff} {} {City} {} {1.000}
 E {  922} {n} {n} {1} {0} {}
 E {  923} {w} {w} {8} {0} {}
-E {  929} {s} {s} {4} {0} {}
+E { 1302} {s} {s} {4} {0} {}
 
-R {  922} {8} {} {} { } {} {} {} {} {} {1.000}
+R {  922} {8} {} {} { } {} {Raven's Bluff} {} {} {} {1.000}
 E {  921} {s} {s} {4} {0} {}
 E {  924} {n} {n} {1} {0} {}
 
-R {  923} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  923} {0} {<afa>} {Mystic Avenue} { } {You are walking on the well-lit, mysterious-looking streets which make up Mystic Avenue.  Here, various robed individuals walk past you slowly, muttering strange incantations under their breath.  You can see the city walls to the east, and Mystic Avenue also continues to the west. } {Raven's Bluff} {} {City} {} {1.000}
 E {  921} {e} {e} {2} {0} {}
 E {  925} {w} {w} {8} {0} {}
 
-R {  924} {8} {} {} { } {} {} {} {} {} {1.000}
+R {  924} {8} {} {} { } {} {Raven's Bluff} {} {} {} {1.000}
 E {  922} {s} {s} {4} {0} {}
 E {  920} {n} {n} {1} {0} {}
 
-R {  925} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  925} {0} {<afa>} {} { } {} {Raven's Bluff} {} {} {} {1.000}
 E {  923} {e} {e} {2} {0} {}
 E {  926} {n} {n} {1} {0} {}
 E {  928} {w} {w} {8} {0} {}
 
-R {  926} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  926} {0} {<afa>} {Madame Zilda's Fine Antiques} { } {You find yourself choking on dust as you enter Zilda's Fine Antiques. Ancient objects can be seen peeking out of dark corners of the shop, and you get the feeling that these are unlike any items that exist in your time.  You can vaguely make out a small counter, resting on the creaky wooden floor to the left of you.  An open door leads south, out onto Mystic Avenue. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  925} {s} {s} {4} {0} {}
 
-R {  927} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  927} {0} {<afa>} {} { } {} {Raven's Bluff} {} {} {} {1.000}
 E {  928} {e} {e} {2} {0} {}
 E {  866} {w} {w} {8} {0} {}
 
-R {  928} {8} {} {} { } {} {} {} {} {} {1.000}
+R {  928} {8} {} {} { } {} {Raven's Bluff} {} {} {} {1.000}
 E {  927} {w} {w} {8} {0} {}
 E {  925} {e} {e} {2} {0} {}
 
-R {  929} {0} {} {} { } {} {} {} {} {} {1.000}
-E {  921} {n} {n} {1} {0} {}
-E {  967} {s} {s} {4} {0} {}
+R {  929} {0} {<afa>} {} { } {} {Raven's Bluff} {} {} {} {1.000}
+E { 1302} {n} {n} {1} {0} {}
+E {  930} {s} {s} {4} {0} {}
 E {  941} {w} {w} {8} {0} {}
 
-R {  930} {0} {} {} { } {} {} {} {} {} {1.000}
-E {  967} {n} {n} {1} {0} {}
+R {  930} {0} {<afa>} {Wall Road} { } {You are walking on Wall Road, along the eastern walls of Raven's Bluff.  To the south you see the corner of the city, and the road continues towards the north.  A large, iron manhole is here on the ground.  Marks have been scratched into the stone beside the manhole. } {Raven's Bluff} {} {City} {} {1.000}
+E {  929} {n} {n} {1} {0} {}
 E {  931} {s} {s} {4} {0} {}
 E {  936} {d} {d} {32} {0} {}
 
-R {  931} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  931} {0} {<afa>} {} { } {} {Raven's Bluff} {} {} {} {1.000}
 E {  930} {n} {n} {1} {0} {}
 E {  932} {w} {w} {8} {0} {}
 
-R {  932} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  932} {0} {<afa>} {Noble's Lane} { } {You are walking along the wealthy cobblestone streets which make up Noble's Way.  Guards and well-dressed city-dwellers pass by you, glancing casually at your petty clothing.  The road continues to the east and west. } {Raven's Bluff} {} {City} {} {1.000}
 E {  931} {e} {e} {2} {0} {}
 E {  933} {w} {w} {8} {0} {}
 
-R {  933} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  933} {0} {<afa>} {Noble's Lane} { } {You are walking along the gilded, wealthy streets which make up Noble's armed guards.  The road continues to the west and to the east.  Way.  The well- lit, cobblestone road is heavily patrolled by all manner of } {Raven's Bluff} {} {City} {} {1.000}
 E {  932} {e} {e} {2} {0} {}
 E {  935} {w} {w} {8} {0} {}
 
-R {  934} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  934} {0} {<afa>} {Noble's Lane} { } {You are walking along the gilded, wealthy streets of Noble's Way.  The street is well-lit and you notice many guards patrolling the area.  You see the large, open space of Park Square to the west, and the road continues to the east. } {Raven's Bluff} {} {City} {} {1.000}
 E {  935} {e} {e} {2} {0} {}
 E {  904} {w} {w} {8} {0} {}
 
-R {  935} {8} {} {} { } {} {} {} {} {} {1.000}
+R {  935} {8} {} {} { } {} {Raven's Bluff} {} {} {} {1.000}
 E {  934} {w} {w} {8} {0} {}
 E {  933} {e} {e} {2} {0} {}
 
-R {  936} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  936} {0} {<afa>} {Under the Manhole} { } {You are standing beneath a large, metal manhole in the sewers of Raven's illuminates your surroundings, although to your west you cannot penetrate Bluff.  Light from the city above streams though the opening and the darkness. The air is very musty and has a sweet, rotting under-tone to it.  You hear several sounds echoing off the sewer's walls, distorting and and confusing your sense of direction.  A small, metal stepladder leads upwards. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  930} {u} {u} {16} {0} {}
 E {  944} {w} {w} {8} {0} {}
 
-R {  937} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  937} {0} {<afa>} {Southern Gate} { } {You are standing at the large, iron-wrought gate of Raven's Bluff.  Here, large guard towers have been built into the top of the walls, carefully manned to protect the city's inhabitants against invaders.  The stone of the towers and gate gleam a bright white, the gate itself a freshly completed addition to the city due to recent troubles.  Despite the newness of the stone, some hand has already carved something upon the lightly polished surface.  A large forest lies outside the city to the south, and to the north you can see the hustle of Park Square. } {Raven's Bluff} {} {City} {} {1.000}
 E {  904} {n} {n} {1} {0} {}
 E {  938} {s} {s} {4} {0} {}
 
@@ -3822,15 +3833,15 @@ E {  938} {n} {n} {1} {0} {}
 E { 1017} {s} {s} {4} {0} {}
 E { 1275} {e} {e} {2} {0} {}
 
-R {  941} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  941} {0} {<afa>} {Tower of Sorcery} { } {You are standing at the main lobby of a strange, enchanted tower.  Though from the outside it appears to be nothing more than a squat, unremarkable looking building, it is now that you realize it's true dimensions.  The ceiling and walls, fashioned from some form of pure, white marble are shrouded with mists and you can see various forms out of the corner of your eye whisking past you.  A large, spiral staircase leads both up and down from here, and a small door exits the Tower to the east. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  929} {e} {e} {2} {0} {}
 E {  942} {d} {d} {32} {0} {}
 E {  943} {u} {u} {16} {0} {}
 
-R {  942} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  942} {0} {<afa>} {Shifting Chamber} {SMa} {You have entered a strange, enchanted chamber at the bottom of the Tower. Many different images appear on the walls, only to shift and change moments later, giving everything a very disorienting appearance.  A staircase which has just recently transformed into a strange looking stagecoach exits this room upwards. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  941} {u} {u} {16} {0} {}
 
-R {  943} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  943} {0} {<afa>} {Vast Library} {Mag} {You have entered a huge, vast library whose ceiling is lost in mist. Millions upon millions of books of every size, shape, and color cover shelves which line every square inch of this room.  The smell of dust and old leather pervades this room, and you see a large spiral staircase leading downwards. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  941} {d} {d} {32} {0} {}
 
 R {  944} {0} {} {} { } {} {} {} {} {} {1.000}
@@ -3863,7 +3874,7 @@ E {  949} {s} {s} {4} {0} {}
 E {  951} {e} {e} {2} {0} {}
 E {  964} {u} {u} {16} {0} {}
 
-R {  951} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  951} {0} {<afa>} {Alas, you cannot go that way.} { } {} {Raven's Bluff} {} {} {} {1.000}
 E {  950} {w} {w} {8} {0} {}
 E {  952} {n} {n} {1} {0} {}
 
@@ -3910,31 +3921,30 @@ E { 1237} {e} {e} {2} {0} {}
 R {  962} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  960} {n} {n} {1} {0} {}
 
-R {  963} {0} {} {} {T} {} {} {} {} {} {1.000}
+R {  963} {0} {<afa>} {The Platinum Altar} {Pal} {You are standing before a grand shrine and altar fashioned from pure platinum at the end of the Halls of Honor.  A strong sense of personal self- right and valor overcomes you, and you can see a long, red carpet lead back to the Halls to the west. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  401} {w} {w} {8} {0} {}
 
-R {  964} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  964} {0} {<afa>} {Raven Bluff's Correctional Facility} { } {You are standing in the Raven's Bluff Correction Facility.  Armed guards pass by you, some escorting chained prisoners, while others innocently chomping on pastries.  A door south leads to the Captain's office, though someone has placed a small sign hastily by the door.  The noise of the city drifts in through the open foyer to the west, while a guard room lies to the east. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  905} {w} {w} {8} {0} {}
 E {  950} {d} {d} {32} {0} {}
 E {  968} {s} {s} {4} {0} {}
 E {  969} {e} {e} {2} {0} {}
 
-R {  965} {8} {} {} { } {} {} {} {} {} {1.000}
-E {  906} {s} {s} {4} {0} {}
-E {  905} {n} {n} {1} {0} {}
+R {  965} {0} {<afa>} {Meditation Chamber} { } {You have entered a small, cramped meditation chamber.  Other than a simple wooden altar against the eastern end of this room, this chamber is barren. } {Raven's Bluff} {} {Inside} {} {1.000}
+E {  912} {w} {w} {8} {0} {}
 
-R {  966} {8} {} {} { } {} {} {} {} {} {1.000}
-E {  893} {s} {s} {4} {0} {}
-E {  892} {n} {n} {1} {0} {}
+R {  966} {0} {<afa>} {Beautiful Gardens} { } {A small path winds around and heads toward a slender, almost delicate shrine built into the city's northern wall.  Flowers dot the edge of the pathway's cleanly swept stones, and small bushes give the path a pleasantly close feeling. } {Nevrast} {} {Field} {} {1.000}
+E {  171} {e} {e} {2} {0} {}
+E {  967} {s} {s} {4} {0} {}
 
-R {  967} {8} {} {} { } {} {} {} {} {} {1.000}
-E {  930} {s} {s} {4} {0} {}
-E {  929} {n} {n} {1} {0} {}
+R {  967} {0} {<afa>} {Beautiful Gardens} { } {You stand in the center of the gardens with bright flowers and neatly arranged hedges all around you.  A network of paths weave between sections of shrubbery.  You can see a courtyard to the west, and just beyond, the main gate. } {Nevrast} {} {Field} {} {1.000}
+E {  966} {n} {n} {1} {0} {}
+E { 1300} {w} {w} {8} {0} {}
 
-R {  968} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  968} {0} {<afa>} {The Hunter's Lair} { } {The walls of the office are stark and bare, though a large map of Raven's Bluff and the immediate surrounding area dominates the far wall from the door. A box of items lies near the door, a plaque sticking out over the lip of the container.  A large desk dominates the center of the room, its surface covered with reports and notes.  A collection of tomes frame a small bookshelf behind the desk, while atop the shelves sits the skull of a strange creature mounted as some sort of trophy. } {Raven's Bluff} {} {Inside} {} {1.000}
 E {  964} {n} {n} {1} {0} {}
 
-R {  969} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  969} {0} {<afa>} {} { } {} {Raven's Bluff} {} {} {} {1.000}
 E {  964} {w} {w} {8} {0} {}
 
 R {  970} {0} {} {} { } {} {} {} {} {} {1.000}
@@ -4951,8 +4961,12 @@ E { 1215} {w} {w} {8} {0} {}
 R { 1215} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1214} {e} {e} {2} {0} {}
 
-R { 1216} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1216} {0} {<afa>} {The Central Staircase} { } {A hallway leads off the staircase to the west.  From that direction you can hear the sounds of magical combat and feel an occasional blast of hot air.  The walls here are made of carved stone that have been mostly blackened by fire. The staircase continues upwards to the top, and downwards toward the base of the tower. } {Nevrast} {} {Inside} {} {1.000}
 E {  425} {d} {d} {32} {0} {}
+E { 1318} {u} {u} {16} {0} {}
+E { 1327} {w} {w} {8} {0} {}
+E { 1328} {e} {e} {2} {0} {}
+E { 1330} {s} {s} {4} {0} {}
 
 R { 1217} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1001} {s} {s} {4} {0} {}
@@ -5287,5 +5301,258 @@ E {  177} {e} {e} {2} {0} {}
 R { 1297} {0} {} {A Small Cave} { } {This cave is cramped and quickly reaches a dead end.  Simple drawings carved on the northern wall don't make any sense to you, and a simple straw bed is laid along the southern wall} {Nevrast} {} {Underground} {} {1.000}
 E { 1296} {e} {e} {2} {0} {}
 
-R { 1298} {0} {} {The Arbiter Guildmaster's Sanctuary} { } {This is a small, circular room is built from perfectly chiseled stone.  A grey carpet faces a small shrine which is embedded into the western side of the curved wall.  The shrine has a subtle gradient where the left side is a dark grey that fades into a lighter grey on the right.  There is otherwise nothing of note in this room. } {Nevrast} {} {Inside} {} {1.000}
+R { 1298} {0} {<afa>} {The Arbiter Guildmaster's Sanctuary} {Arb} {This is a small, circular room is built from perfectly chiseled stone.  A grey carpet faces a small shrine which is embedded into the western side of the curved wall.  The shrine has a subtle gradient where the left side is a dark grey that fades into a lighter grey on the right.  There is otherwise nothing of note in this room. } {Nevrast} {Arbiter} {Inside} {} {1.000}
 E {  400} {w} {w} {8} {0} {}
+
+R { 1299} {0} {} {} { } {} {} {} {} {} {1.000}
+
+R { 1300} {0} {<afa>} {Monastery Courtyard} { } {You are in a beautiful courtyard in front of the monastery's main gate. Stone benches are arranged in a circular pattern around a central fountain which gurgles with a modest flow of water.  A narrow stream trickles from the fountain to a pond just south of here.  A lush garden is to the east. } {Nevrast} {} {Field} {} {1.000}
+E {  967} {e} {e} {2} {0} {}
+E { 1305} {s} {s} {4} {0} {}
+E { 1306} {w} {w} {8} {0} {}
+
+R { 1301} {0} {<afa>} {#MAP UNDO: Deleting room 1300.} { } {} {Raven's Bluff} {} {} {} {1.000}
+E {  908} {d} {d} {32} {0} {}
+
+R { 1302} {8} {} {} { } {} {Raven's Bluff} {} {} {} {1.000}
+E {  929} {s} {s} {4} {0} {}
+E {  921} {n} {n} {1} {0} {}
+
+R { 1303} {8} {} {} { } {} {Raven's Bluff} {} {} {} {1.000}
+E {  892} {s} {s} {4} {0} {}
+E {  857} {n} {n} {1} {0} {}
+
+R { 1304} {8} {} {} { } {} {Raven's Bluff} {} {} {} {1.000}
+E {  905} {n} {n} {1} {0} {}
+E {  906} {s} {s} {4} {0} {}
+
+R { 1305} {0} {<afa>} {A Small Pond} { } {Reeds and lilies grow on the fringe of this small and peaceful pond.  A small wooden boardwalk allows the members of the monastery to walk along the water's edge and reflect upon their spirituality.  The only sound you hear is a tiny stream that flows in from the north. } {Nevrast} {} {Water} {} {1.000}
+E { 1300} {n} {n} {1} {0} {}
+
+R { 1306} {0} {<afa>} {} { } {} {Nevrast} {} {} {} {1.000}
+E { 1300} {e} {e} {2} {0} {}
+E { 1307} {n} {n} {1} {0} {}
+E { 1310} {s} {s} {4} {0} {}
+
+R { 1307} {0} {<afa>} {Meditation Platform} {Mon} {This is an open, quiet area that is set up for the monks of the monastery to meditate.  Thatched mats rest rolled up in rows facing the western wall.  A ladder in the northwest corner allows access to a platform above. } {Nevrast} {} {Inside} {} {1.000}
+E { 1306} {s} {s} {4} {0} {}
+E { 1308} {e} {e} {2} {0} {}
+E { 1309} {u} {u} {16} {0} {}
+
+R { 1308} {0} {<afa>} {A Simple Dormitory} { } {Uncomfortable straw beds are organized in three rows and cover most of this living space.  At the base of each bed is a footlocker.  There are no windows in this room, and a curtain covering the entrance to the west keeps it relatively dark all the time. } {Nevrast} {} {Inside} {} {1.000}
+E { 1307} {w} {w} {8} {0} {}
+
+R { 1309} {0} {<afa>} {The Master's Sanctuary} { } {This meditation chamber is very confined and feels strangely warm.  A thin straw mat provides a spot to kneel in front of a mural on the northern wall that outlines the virtues of monastery credence.  Smoldering coals in a brazier in the corner heat the room. } {Nevrast} {Monk} {Inside} {} {1.000}
+E { 1307} {d} {d} {32} {0} {}
+
+R { 1310} {0} {<afa>} {Monastery Dojo} { } {A wooden platform raised a foot off the floor covers most of this space. The western wall is covered in writing that explains basic instruction for the martial artist.  The eastern wall is covered in mounted weapons of all sorts. } {Nevrast} {} {Inside} {} {1.000}
+E { 1306} {n} {n} {1} {0} {}
+E { 1311} {s} {s} {4} {0} {}
+
+R { 1311} {0} {<afa>} {Monastery Dojo} {WMo} {Wooden practice dummies and specialized training stations are positioned around this room.  A padded mat is laid out in the middle of the platform for group demonstrations.  On the southern wall hang tapestries that lay out the primary principles of a monastery member.  A wooden ladder in the southwest corner provides access to the level above. } {Nevrast} {} {Inside} {} {1.000}
+E { 1310} {n} {n} {1} {0} {}
+E { 1312} {u} {u} {16} {0} {}
+
+R { 1312} {0} {<afa>} {The Master's Quarters} { } {This is a nondescript room without any nonessentials.  A straw bed lies in the corner next to a small chest.  Strange red lettering is written all over the northern wall, and a tatami mat is positioned for those wishing to kneel and study. } {Nevrast} {Warriormonk} {Inside} {} {1.000}
+E { 1311} {d} {d} {32} {0} {}
+
+R { 1313} {0} {<afa>} {Sage's Rest} { } {This small alcove of the Singing Sage is used as a lounge for the weary wizard.  Couches and padded chairs cover most of the floor.  Magical lanterns give the room a warm and relaxing feel. } {Nevrast} {} {Inside} {} {1.000}
+E {  425} {e} {e} {2} {0} {}
+
+R { 1314} {0} {<afa>} {Hall of Crafting} { } {The northeast corner of the Hall of Crafting is dedicated to alchemy.  There is a bitter, caustic smell that makes you think of an experiment gone awry. Tables along the walls hold an array of alchemical equipment, primarily glassware and a variety of apparatus.  A series of shelves above the tables hold vials and brightly-colored potions, mostly unlabeled and all of dubious provenance. } {Nevrast} {} {Inside} {} {1.000}
+E {  425} {w} {w} {8} {0} {}
+E { 1315} {s} {s} {4} {0} {}
+
+R { 1315} {0} {<afa>} {Hall of Crafting} { } {This part of the Hall of Crafting is given over to the creation and understanding of enchanted items.  Stocks of unenchanted staves and wands are in one cabinet, weapons in another, and various types of crafting components in yet another.  A large tome on imbuing items with permanent magic lies open on a central table.  The aura of residual magic radiating from the walls is almost palpable. } {Nevrast} {} {Inside} {} {1.000}
+E { 1314} {n} {n} {1} {0} {}
+E { 1316} {w} {w} {8} {0} {}
+
+R { 1316} {0} {<afa>} {Hall of Crafting} { } {This area of the Hall of Crafting is dedicated to scrollcraft.  Pieces of parchment are scattered over several tables.  Bookshelves line the southern wall, full of tomes of various shapes and sizes.  A freestanding rack is designed to hold scrolls, and has a special container on top to store different types of magical ink. } {Nevrast} {} {Inside} {} {1.000}
+E { 1315} {e} {e} {2} {0} {}
+E {  425} {n} {n} {1} {0} {}
+E { 1317} {w} {w} {8} {0} {}
+
+R { 1317} {0} {<afa>} {Majestic Materials} { } {A long glass counter runs the full width of this room from north to south. It contains mostly trinkets and jewelry of a magical nature, along with a section on crafting components.  The shelves on the western wall hold potions and empty vials, and another section has staves.  An open cabinet on the southern wall holds different types of paper and what appear to be jars of ink. As you move to examine these materials more closely, a magical field keeps you from reaching beyond the counter. } {Nevrast} {} {Inside} {} {1.000}
+E { 1316} {e} {e} {2} {0} {}
+
+R { 1318} {0} {<afa>} {The Top Landing} { } {The spiral staircase ends here at a small platform.  A desk is built into the wall to host some sort of receptionist, but it is not being used at the moment.  Two comfortable-looking chairs sit next to the desk.  There are exits to the east and west. } {Nevrast} {} {Inside} {} {1.000}
+E { 1216} {d} {d} {32} {0} {}
+E { 1319} {u} {u} {16} {0} {}
+E { 1322} {w} {w} {8} {0} {}
+E { 1326} {e} {e} {2} {0} {}
+
+R { 1319} {0} {<afa>} {The Top Landing} { } {The spiral staircase ends here at a small platform.  A desk is built into the wall to host some sort of receptionist, but it is not being used at the moment.  Two comfortable-looking chairs sit next to the desk.  There are exits to the east and west. } {Nevrast} {} {Inside} {} {1.000}
+E { 1318} {d} {d} {32} {0} {}
+E { 1320} {e} {e} {2} {0} {}
+E { 1321} {w} {w} {8} {0} {}
+
+R { 1320} {0} {<afa>} {The Mage's Study} {Mag} {The walls in this room are made of polished stone and sparkle unnaturally. The northern wall is dominated by a large fireplace.  The rest of the walls are lined with bookshelves that are completely full, covering a variety of subjects from abstract mathematics to siege warfare.  A narrow bed rests in the corner. } {Nevrast} {Mage} {Inside} {} {1.000}
+E { 1319} {w} {w} {8} {0} {}
+
+R { 1321} {0} {<afa>} {Hall of Shadow} {SMa} {The room does not appear to have conventional walls, ceiling, or floor, instead fading at the edges into mysterious shadow.  The simple furniture that is here looks as if it hovers on a small black cloud.  A pedestal in the center of the room holds a sphere that glows with a dull light, illuminating the room adequately, but no more. } {Nevrast} {Shadowmage} {Inside} {} {1.000}
+E { 1319} {e} {e} {2} {0} {}
+
+R { 1322} {0} {<afa>} {Hall of Fire} { } {Immediately upon entering, a force field is erected that keeps you from returning to the east.  The walls here smolder red-hot and give the appearance of lava downward-flowing.  Periodic bursts of fire from a central flaming pillar keep you on edge.  It is very hot in here and your concentration begins to strain.  This begins a series of rooms that are designed to hone the apprentice mage's mastery of the elements. } {Nevrast} {} {Inside} {} {1.000}
+E { 1318} {e} {e} {2} {0} {}
+E { 1323} {s} {s} {4} {0} {}
+
+R { 1323} {0} {<afa>} {Hall of Ice} { } {The walls of this room are frozen solid and give off a creeping cold mist that covers the floor.  There is a pillar made of ice sitting in middle of the room, sending gusts of cold air swirling all around. } {Nevrast} {} {Inside} {} {1.000}
+E { 1322} {n} {n} {1} {0} {}
+E { 1324} {e} {e} {2} {0} {}
+
+R { 1324} {0} {<afa>} {Hall of Electricity} { } {The floor here is lined with a metallic mesh to enhance its conductivity.  A pillar in the center of the room crackles with electricity, sending pulses out to the adjacent walls and standing your hair on end. } {Nevrast} {} {Inside} {} {1.000}
+E { 1323} {w} {w} {8} {0} {}
+E { 1325} {e} {e} {2} {0} {}
+
+R { 1325} {0} {<afa>} {Hall of Earth} { } {Crumbling rocks of various minerals make up the walls and floor of this room.  Walking is difficult not only because of the uneven terrain, but due to constant tremors pulsing out from the singular pillar in the center of the room. } {Nevrast} {} {Inside} {} {1.000}
+E { 1324} {w} {w} {8} {0} {}
+E { 1326} {n} {n} {1} {0} {}
+
+R { 1326} {0} {<afa>} {Hall of Energy} { } {The northern half of this room is covered in a bright shimmering light and radiates a powerful positive energy.  The southern half of the room is covered in a dark absorbing blackness and radiates a powerful negative energy.  Flashes of dark and bright tendrils ripple between a central pillar and their respective sources. } {Nevrast} {} {Inside} {} {1.000}
+E { 1325} {s} {s} {4} {0} {}
+E { 1318} {w} {w} {8} {0} {}
+
+R { 1327} {0} {<afa>} {Sage's Rest} { } {This small alcove of the Singing Sage is used as a lounge for the weary wizard.  Couches and padded chairs cover most of the floor.  Magical lanterns give the room a warm and relaxing feel. } {Nevrast} {} {Inside} {} {1.000}
+E { 1216} {e} {e} {2} {0} {}
+
+R { 1328} {0} {<afa>} {Hall of Crafting} { } {The northeast corner of the Hall of Crafting is dedicated to alchemy.  There is a bitter, caustic smell that makes you think of an experiment gone awry. Tables along the walls hold an array of alchemical equipment, primarily glassware and a variety of apparatus.  A series of shelves above the tables hold vials and brightly-colored potions, mostly unlabeled and all of dubious provenance. } {Nevrast} {} {Inside} {} {1.000}
+E { 1216} {w} {w} {8} {0} {}
+E { 1329} {s} {s} {4} {0} {}
+
+R { 1329} {0} {<afa>} {Hall of Crafting} { } {This part of the Hall of Crafting is given over to the creation and understanding of enchanted items.  Stocks of unenchanted staves and wands are in one cabinet, weapons in another, and various types of crafting components in yet another.  A large tome on imbuing items with permanent magic lies open on a central table.  The aura of residual magic radiating from the walls is almost palpable. } {Nevrast} {} {Inside} {} {1.000}
+E { 1328} {n} {n} {1} {0} {}
+E { 1330} {w} {w} {8} {0} {}
+
+R { 1330} {0} {<afa>} {Hall of Crafting} { } {This area of the Hall of Crafting is dedicated to scrollcraft.  Pieces of parchment are scattered over several tables.  Bookshelves line the southern wall, full of tomes of various shapes and sizes.  A freestanding rack is designed to hold scrolls, and has a special container on top to store different types of magical ink. } {Nevrast} {} {Inside} {} {1.000}
+E { 1329} {e} {e} {2} {0} {}
+E { 1331} {w} {w} {8} {0} {}
+E { 1216} {n} {n} {1} {0} {}
+
+R { 1331} {0} {<afa>} {} { } {A mage walks west.  H:316/316 M:120/120 V:222/224 XP:164841 C:*> Majestic Materials    A long glass counter runs the full width of this room from north to south. It contains mostly trinkets and jewelry of a magical nature, along with a section on crafting components.  The shelves on the western wall hold potions and empty vials, and another section has staves.  An open cabinet on the southern wall holds different types of paper and what appear to be jars of ink. As you move to examine these materials more closely, a magical field keeps you from reaching beyond the counter. } {Nevrast} {} {Inside} {} {1.000}
+E { 1330} {e} {e} {2} {0} {}
+
+R { 1332} {0} {<afa>} {A Dark Passage} { } {This dimly lit passage enters from the west and turns quickly north.  Quite a bit of commotion can be heard from that direction.  A small room is off to the south of here as well. } {Nevrast} {} {Inside} {} {1.000}
+E {  352} {w} {w} {8} {0} {}
+E { 1333} {n} {n} {1} {0} {}
+E { 1349} {s} {s} {4} {0} {}
+
+R { 1333} {0} {<afa>} {Around the Corner} { } {The passage curves smoothly from south to east.  It is designed so that any noise here will echo throughout the guild.  None but a master of sneaking could proceed without those ahead becoming aware. } {Nevrast} {} {Inside} {} {1.000}
+E { 1332} {s} {s} {4} {0} {}
+E { 1334} {e} {e} {2} {0} {}
+
+R { 1334} {0} {<afa>} {Thieves' Den} { } {This is the beginning of a very large common area that expands out to the south and east.  Straw beds and couches are scattered about between sets of tables and chairs, and an occasional bank of crude wooden lockers.  These living quarters appear to be home for the members of the Thieves' Guild.  There are also exits to the north and west. } {Nevrast} {} {Inside} {} {1.000}
+E { 1333} {w} {w} {8} {0} {}
+E { 1335} {n} {n} {1} {0} {}
+E { 1337} {e} {e} {2} {0} {}
+E { 1345} {s} {s} {4} {0} {}
+
+R { 1335} {0} {<afa>} {A Crumbling Passage} { } {This narrow passage is extremely rough and probably quite unstable.  Chunks of stone from the porous walls and ceiling litter the floor.  The passage snakes in from the south and bends westward. } {Nevrast} {} {Inside} {} {1.000}
+E { 1334} {s} {s} {4} {0} {}
+E { 1336} {w} {w} {8} {0} {}
+
+R { 1336} {0} {<afa>} {A Dead End} { } {The crumbling passage from the east comes to a dead end here.  Footprints in the dusty floor lead up to the western wall, where a round portal is embedded into the rock.  It has hinges on the right side and opens towards you. } {Nevrast} {} {Inside} {} {1.000}
+E { 1335} {e} {e} {2} {0} {}
+
+R { 1337} {0} {<afa>} {Thieves' Den} { } {A large portion of the den here has been cleared of beds and furniture, and has been replaced by a short wooden platform.  The platform appears to be used for group activities such as demonstrations or entertainment for the guild. The den expands to the south and west, and a hallway can be seen exiting to the east. } {Nevrast} {} {Inside} {} {1.000}
+E { 1334} {w} {w} {8} {0} {}
+E { 1338} {e} {e} {2} {0} {}
+E { 1343} {s} {s} {4} {0} {}
+
+R { 1338} {0} {<afa>} {A Narrow Hallway} { } {Lanterns hang from the ceiling and illuminate this hallway.  The stone here is carved and smooth from being polished.  The hallway originates from the den to the west, and curves north towards a waiting area of sorts.  An office also lies to the east. } {Nevrast} {} {Inside} {} {1.000}
+E { 1337} {w} {w} {8} {0} {}
+E { 1339} {n} {n} {1} {0} {}
+E { 1342} {e} {e} {2} {0} {}
+
+R { 1339} {0} {<afa>} {Waiting Room} { } {The hallway from the south opens up into this small circular waiting room. Two complete sets of tables and chairs are on either side with a short couch in between them.  There are doorways exiting to the north and east, both with sheets hanging over them to hide what is inside. } {Nevrast} {} {Inside} {} {1.000}
+E { 1338} {s} {s} {4} {0} {}
+E { 1340} {n} {n} {1} {0} {}
+E { 1341} {e} {e} {2} {0} {}
+
+R { 1340} {0} {<afa>} {The Antipaladins' Guild} {AnP} {You are in the inner sanctuary of the Antipaladin guildmaster.  Blood stains its stone walls and a gruesome altar.  If you don't delve in the black arts, you should leave, or the walls may soon wear your blood as well. } {Nevrast} {Antipaladin} {Inside} {} {1.000}
+E { 1339} {s} {s} {4} {0} {}
+
+R { 1341} {0} {<afa>} {The Secret Yard} {Thi} {You have found the alcove of the Thieves' guildmaster.  A group of flickering candles in the corner of a desk along the northern wall lights up most of the room and creates even more shadows.  Strange, personal trophies line the shelves representing jobs he has pulled.  A bookcase in the rear of the room holds the historian's account of the guild's activity. } {Nevrast} {Thief} {Inside} {} {1.000}
+E { 1339} {w} {w} {8} {0} {}
+
+R { 1342} {0} {<afa>} {Office of the Fence} { } {This office is a mess with trinkets and miscellaneous items of interest strewn about.  Notes are piled high on a desk along the northern wall.  A map on the wall of regional trade routes has been written over so many times it is barely discernible.  Whomever works here is clearly in his own unique element. } {Nevrast} {} {Inside} {} {1.000}
+E { 1338} {w} {w} {8} {0} {}
+
+R { 1343} {0} {<afa>} {Thieves' Den} { } {Posters hang on the eastern wall with drawings that represent notable feats by members of the Thieves' Guild.  Straw beds and wooden chairs are scattered about, providing a place for the weary cutpurse to regroup.  The den continues to the north and west, and a hallway exits to the south. } {Nevrast} {} {Inside} {} {1.000}
+E { 1337} {n} {n} {1} {0} {}
+E { 1344} {s} {s} {4} {0} {}
+E { 1345} {w} {w} {8} {0} {}
+
+R { 1344} {0} {<afa>} {A Short Hallway} { } {This hallway off of den to the north ends abruptly at a junction.  Wooden signs are mounted above three archways indicating which skill-set that room's training is focused on.  The sign to the east reads, "Stealth"; the sign to the south reads, "Thievery"} {Nevrast} {} {Inside} {} {1.000}
+E { 1343} {n} {n} {1} {0} {}
+E { 1346} {w} {w} {8} {0} {}
+E { 1347} {e} {e} {2} {0} {}
+E { 1348} {s} {s} {4} {0} {}
+
+R { 1345} {0} {<afa>} {Thieves' Den} { } {A fireplace in the southwest corner smolders and generates heat for the den. Piles of straw surround it, making a small lounging area of sorts.  The den continues to the north and east. } {Nevrast} {} {Inside} {} {1.000}
+E { 1343} {e} {e} {2} {0} {}
+E { 1334} {n} {n} {1} {0} {}
+
+R { 1346} {0} {<afa>} {Chamber of Assault} { } {In the back of the room are racks with every type of stabbing, slashing, and bludgeoning weapon a thief might be able to wield.  Fairly realistic mannequins positioned around the room are complex enough to teach points of vulnerability in anatomy.  Some are armored with leather, chain, and plate.  Tapestries on the wall spell out simple instructions on dispatching a victim, knocking him to the ground, and the art of escape. } {Nevrast} {} {Inside} {} {1.000}
+E { 1344} {e} {e} {2} {0} {}
+
+R { 1347} {0} {<afa>} {Chamber of Stealth} { } {This odd chamber is a mix of different terrains, lighting, and obstacles. Fabricated sections of the floor simulate everything from forested areas to city streets.  In some areas there is flickering torchlight, while in others a bright lantern burns.  Wall partitions are scattered about to section off the room, but also to allow the aspiring sneak opportunities to shield his body. } {Nevrast} {} {Inside} {} {1.000}
+E { 1344} {w} {w} {8} {0} {}
+
+R { 1348} {0} {<afa>} {Chamber of Thievery} { } {Thievery training covers all aspects of a thief's planning and execution of the theft of whatever it is he desires.  Along the eastern wall you see a variety of different containers and money pouches, all which can be strung to a person's belt, and the means of cutting them loose by small wearable blades.  A series of locks lining the western wall exhibit a variety of complexity and design.  The southern wall hosts interview booths which are intended to allow the thief to work on the arts of "persuasion", subtle and otherwise. } {Nevrast} {} {Inside} {} {1.000}
+E { 1344} {n} {n} {1} {0} {}
+
+R { 1349} {0} {<afa>} {} { } {} {Nevrast} {} {} {} {1.000}
+E { 1332} {n} {n} {1} {0} {}
+
+R { 1350} {0} {<afa>} {Guild Armory} { } {An impressive array of war instruments is before you.  Armor stands are arranged along the northern wall and include everything from chain mail to full plate.  Shields are mounted directly onto the eastern wall, covering every inch of stone to be seen.  The weapon racks along the southern wall hold every type of weapon imaginable, from halberds to punch daggers.  An inventory of guild arms and armor rests on the counter right in front of you. } {Nevrast} {} {Inside} {} {1.000}
+E {  214} {w} {w} {8} {0} {}
+
+R { 1351} {0} {<afa>} {A Wide Hallway} { } {A large glass cabinet containing many trophies adorns the eastern wall, and demonstrates the success of the guild throughout the land.  After the cabinet the hallway bends east to a ramp that slowly ascends up to the second floor. There is also a set of double doors in the southern wall. } {Nevrast} {} {Inside} {} {1.000}
+E {  214} {n} {n} {1} {0} {}
+E { 1352} {e} {e} {2} {0} {}
+E { 1361} {s} {s} {4} {0} {}
+
+R { 1352} {0} {<afa>} {A Spiraling Ramp} { } {A short hallway from the west ends at a broad ramp that spirals up to the second floor.  It wraps in a wide semi-circle, exiting in the opposite direction on the floor above. } {Nevrast} {} {Inside} {} {1.000}
+E { 1351} {w} {w} {8} {0} {}
+E { 1353} {u} {u} {16} {0} {}
+
+R { 1353} {0} {<afa>} {The Sparring Arena} { } {A straw mat covers the entire floor of this large room built specifically for sparring.  Despite it being a practice area, blood stains are common throughout.  A sweeping ramp descends to the first floor. } {Nevrast} {} {Inside} {} {1.000}
+E { 1352} {d} {d} {32} {0} {}
+E { 1354} {s} {s} {4} {0} {}
+E { 1356} {w} {w} {8} {0} {}
+E { 1358} {n} {n} {1} {0} {}
+
+R { 1354} {0} {<afa>} {The Sparring Arena} { } {You are in the corner of this large room that provides a place for the members of the guild to spar and work on technique.  You smell a strong odor of sweat mixed in with the sweet smell of straw coming from the large mat on the floor. } {Nevrast} {} {Inside} {} {1.000}
+E { 1353} {n} {n} {1} {0} {}
+E { 1355} {w} {w} {8} {0} {}
+
+R { 1355} {0} {<afa>} {A Warrior Focus} {War} {This area of the sparring arena is specifically for warriors.  Many recruits surround you, seeking approval from the guildmaster.  The sessions here are highly technical, covering such topics as group tactics, advanced parrying techniques, and maximizing shield coverage. } {Nevrast} {Warrior} {Inside} {} {1.000}
+E { 1354} {e} {e} {2} {0} {}
+E { 1356} {n} {n} {1} {0} {}
+
+R { 1356} {0} {<afa>} {The Sparring Arena} { } {Brightly lit, this room provides a sparring area in which the guild members can work on their forms.  Deep black blood stains cover the floor in some areas, demonstrating that sometimes the sparring can be a little rough. } {Nevrast} {} {Inside} {} {1.000}
+E { 1355} {s} {s} {4} {0} {}
+E { 1353} {e} {e} {2} {0} {}
+E { 1357} {n} {n} {1} {0} {}
+
+R { 1357} {0} {<afa>} {A Barbarian Focus} {Bar} {The straw mat here is extra bloody and the smell of sweat is even stronger than in the rest of the arena.  The combat training here focuses on specific barbarian techniques such as maximizing internal rage.  The yells and screams from this area of the room seem to be louder than the rest.  There is a splintered wooden door set in the northern wall. } {Nevrast} {Barbarian} {Inside} {} {1.000}
+E { 1356} {s} {s} {4} {0} {}
+E { 1358} {e} {e} {2} {0} {}
+E { 1360} {n} {n} {1} {0} {}
+
+R { 1358} {0} {<afa>} {The Sparring Arena} { } {In this corner of the sparring arena a section has been cut out of the straw mat to allow for chairs and a large weapons cabinet to be placed against the wall.  The arena continues to the south and west, and light shines in from a bright room to the north. } {Nevrast} {} {Inside} {} {1.000}
+E { 1357} {w} {w} {8} {0} {}
+E { 1353} {s} {s} {4} {0} {}
+E { 1359} {n} {n} {1} {0} {}
+
+R { 1359} {0} {<afa>} {The Infirmary} { } {Polished white stone covers the floor and bright wood paneling sides the walls, giving the room a healthy glow.  Various instruments lay on trays around the room, from the unrecognizable to the simple scalpel.  Lanterns are mounted on the walls above sick beds.  The floor stays amazingly clean regardless of the amount of blood that is lost in this room. } {Nevrast} {} {Inside} {} {1.000}
+E { 1358} {s} {s} {4} {0} {}
+
+R { 1360} {0} {<afa>} {Lecture Hall} { } {Several weapon racks lean against the northern wall for use by the higher guild members to instruct students on attaining multiple attacks in combat, wielding two weapons, switching weapons, and similar techniques.  Chairs line the other walls for pupils to sit, and the center of the lecture hall is used for all demonstrations. } {Nevrast} {} {Inside} {} {1.000}
+E { 1357} {s} {s} {4} {0} {}
+
+R { 1361} {0} {<afa>} {A Large Dormitory} { } {This whole room is filled with bunk beds, cabinets, and the powerful smell of sweaty woolen socks.  By each bunk bed there are two lockable cabinets to store precious equipment in.  A reception counter at the north end of the room assigns a bed and cabinet to each member of the guild when he or she joins. } {Nevrast} {} {Inside} {} {1.000}
+E { 1351} {n} {n} {1} {0} {}
+
+R { 1362} {0} {<afa>} {Kitchen} { } {With pots and pans everywhere, this kitchen is a mess.  Crusted bits of food and dirt on preparation tables reminds you not to order anything of substance at the bar.  A thick green slop fills most of the larger pots - apparently this is what the guild members eat to bulk up. } {Nevrast} {} {Inside} {} {1.000}
+E {  215} {u} {u} {16} {0} {}
