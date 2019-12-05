@@ -1,0 +1,258 @@
+#ACTION {sends you sprawling with a powerful bash!}
+{
+	stand
+}
+{5}
+
+#ACTION {you topple over and fall to the ground}
+{
+	stand
+}
+{5}
+
+#ALIAS {delroom}
+{
+	#map delete %0
+}
+{5}
+
+#ALIAS {findarea}
+{
+	#map find {} {} {} {%0} {};
+	#path show
+}
+{5}
+
+#ALIAS {findnote}
+{
+	#map find {} {} {} {} {%0};
+	#path show
+}
+{5}
+
+#ALIAS {findroom}
+{
+	#map find {%0} {} {} {} {};
+	#path show
+}
+{5}
+
+#ALIAS {getplayer}
+{
+	#script playerpos {cat mozart.plr}
+}
+{5}
+
+#ALIAS {goto}
+{
+	#map goto %0
+}
+{5}
+
+#ALIAS {listarea}
+{
+	#map list {} {} {} {%0} {} {}
+}
+{5}
+
+#ALIAS {listnote}
+{
+	#map list {} {} {} {} {%0} {}
+}
+{5}
+
+#ALIAS {listroom}
+{
+	#map list {%0} {} {} {} {} {}
+}
+{5}
+
+#ALIAS {login}
+{
+	#session mozart ymca.cnap.hv.se 4500
+}
+{5}
+
+#ALIAS {logout}
+{
+	save;
+	rent
+}
+{5}
+
+#ALIAS {mapoff}
+{
+	#map {flag} {static} {on};
+	#echo {Room writes disabled!};
+	#event {MAP ENTER ROOM} {#MAP get ROOMVNUM playerpos}
+}
+{5}
+
+#ALIAS {mapon}
+{
+	#event {MAP ENTER ROOM} {#log {overwrite} tinlog;#map set roomarea ${roomarea};#DELAY {0.3} {#SCRIPT {head -n1 ~/mud/tinlog | sed 's/.*> //' | cat ~/mud/roomnameheader -}};#DELAY {0.3} {#SCRIPT {grep Terrain ~/mud/tinlog | cut -f2 -d ' ' | cat ~/mud/roomterrainheader -}};#DELAY {0.3} {#SCRIPT {awk 'NR==2,/Exits:/' ~/mud/tinlog | head -n-1 | tr '\n' ' ' | sed 's/\;/\\\;/' | cat ~/mud/roomdescheader -}};#DELAY {0.3} {#LOG {off}};#DELAY {0.33} {#MAP name ${roomname}};#DELAY {0.33} {#MAP set roomdesc ${roomdesc}};#DELAY {0.33} {#MAP set roomterrain ${roomterrain}};#MAP get ROOMVNUM playerpos};
+	#echo {Mapping enabled! Room Area = <229>${roomarea}<099>. Update with 'zone' command.};
+	#map {flag} {static} {off}
+}
+{5}
+
+#ALIAS {msr}
+{
+	#map set roomname
+}
+{5}
+
+#ALIAS {note}
+{
+	#map set roomnote %0;
+	#echo {RoomNote = <229>%0}
+}
+{5}
+
+#ALIAS {rinfo}
+{
+	#map info
+}
+{5}
+
+#ALIAS {save}
+{
+	#showme "Map saved.";
+	#map write mozart.map;
+	#showme "Player saved.";
+	saveplayer
+}
+{5}
+
+#ALIAS {saveplayer}
+{
+	#system echo $playerpos > mozart.plr
+}
+{5}
+
+#ALIAS {setup}
+{
+	#split;
+	#map read mozart.map;
+	#split 16 1;
+	#map flag vtmap on;
+	getplayer;
+	#map goto $playerpos[1]
+}
+{5}
+
+#ALIAS {symbol}
+{
+	#map set roomsymbol %0;
+	#echo {RoomSymbol = <229>%0}${refresh.minimap}
+}
+{5}
+
+#ALIAS {undo}
+{
+	#map undo
+}
+{5}
+
+#ALIAS {walk}
+{
+	#path walk
+}
+{5}
+
+#ALIAS {zone}
+{
+	#variable {roomarea} {%0};
+	#echo {Zone set to:<229> ${roomarea}}
+}
+{5}
+
+#CONFIG           {256 COLORS}  {ON}
+#CONFIG           {AUTO TAB}  {5000}
+#CONFIG           {BUFFER SIZE}  {20000}
+#CONFIG           {CHARSET}  {ASCII}
+#CONFIG           {COLOR PATCH}  {OFF}
+#CONFIG           {COMMAND COLOR}  {<078>}
+#CONFIG           {COMMAND ECHO}  {ON}
+#CONFIG           {CONNECT RETRY}  {15}
+#CONFIG           {HISTORY SIZE}  {1000}
+#CONFIG           {LOG}  {PLAIN}
+#CONFIG           {PACKET PATCH}  {0.00}
+#CONFIG           {REPEAT CHAR}  {!}
+#CONFIG           {REPEAT ENTER}  {OFF}
+#CONFIG           {SCROLL LOCK}  {ON}
+#CONFIG           {SPEEDWALK}  {OFF}
+#CONFIG           {TINTIN CHAR}  {#}
+#CONFIG           {VERBATIM}  {OFF}
+#CONFIG           {VERBATIM CHAR}  {\}
+#CONFIG           {VERBOSE}  {OFF}
+#CONFIG           {WORDWRAP}  {ON}
+#EVENT {MAP ENTER ROOM}
+{
+	#map get ROOMVNUM playerpos
+}
+
+#EVENT {PROGRAM START}
+{
+	#script {touch ~/mud/roomnameheader && echo -n '#VARIABLE {roomname} ' > ~/mud/roomnameheader};
+	#script {touch ~/mud/roomdescheader && echo -n '#VARIABLE {roomdesc} ' > ~/mud/roomdescheader};
+	#script {touch ~/mud/roomterrainheader && echo -n '#VARIABLE {roomterrain} ' > ~/mud/roomterrainheader}
+}
+
+#MACRO {\e0u}
+{
+	look
+}
+
+#MACRO {\eOr}
+{
+	s
+}
+
+#MACRO {\eOs}
+{
+	d
+}
+
+#MACRO {\eOt}
+{
+	w
+}
+
+#MACRO {\eOu}
+{
+	look
+}
+
+#MACRO {\eOv}
+{
+	e
+}
+
+#MACRO {\eOx}
+{
+	n
+}
+
+#MACRO {\eOy}
+{
+	u
+}
+
+#PATHDIR          {d}  {u}  {32}
+#PATHDIR          {e}  {w}  {2}
+#PATHDIR          {n}  {s}  {1}
+#PATHDIR          {ne}  {sw}  {3}
+#PATHDIR          {nw}  {se}  {9}
+#PATHDIR          {s}  {n}  {4}
+#PATHDIR          {se}  {nw}  {6}
+#PATHDIR          {sw}  {ne}  {12}
+#PATHDIR          {u}  {d}  {16}
+#PATHDIR          {w}  {e}  {8}
+#VARIABLE         {playerpos}  {841}
+#VARIABLE         {refresh}  {{minimap}{#MAP {map} {40x12} {map.txt} {a}}}
+#VARIABLE         {result}  {}
+#VARIABLE         {roomarea}  {Meadow}
+#VARIABLE         {roomdesc}  {You are on the bank of small, clear water stream.  To the east of you is the stream itself which is flowing very slowly and smoothly.  Every once in a while you see a fish jump out of the water to land back in. }
+#VARIABLE         {roomname}  {By a Stream}
+#VARIABLE         {roomterrain}  {Shore}
