@@ -5,9 +5,9 @@ CH <000><faa>
 CP <138>
 CR <fff>
 
-F 139
+F 138
 
-I 1173
+I 1002
 
 L * # # # | # x          
 
@@ -929,11 +929,11 @@ E {  223} {s} {s} {4} {0} {}
 E {  225} {n} {n} {1} {0} {}
 E {  491} {e} {e} {2} {0} {}
 
-R {  225} {0} {<fff>} {End of the Path} { } {The Stoneforge Mountains rise to your north, while the path bends from the south to the west, leading further into their foothills.  There is a dark cave to the north. } {NotYetSet} {} {Hills} {} {1.000}
+R {  225} {0} {<afa>} {End of the Path} { } {The Stoneforge Mountains rise to your north, while the path bends from the south to the west, leading further into their foothills.  There is a dark cave to the north. } {Mac Mordain Cadal} {} {Hills} {} {1.000}
 E {  224} {s} {s} {4} {0} {}
 E {  226} {n} {n} {1} {0} {}
 
-R {  226} {0} {<fff>} {Entrance to a Dark Cave} { } {The road from the south terminates into a wide, dark cave to the north. The dirt road is covered with ancient wagon ruts as though the road was once well used, but has since seen little traffic.  An ancient and moss covered plaque is affixed to the mountain side next to the cave mouth. } {NotYetSet} {} {Hills} {} {1.000}
+R {  226} {0} {<afa>} {Entrance to a Dark Cave} { } {The road from the south terminates into a wide, dark cave to the north. The dirt road is covered with ancient wagon ruts as though the road was once well used, but has since seen little traffic.  An ancient and moss covered plaque is affixed to the mountain side next to the cave mouth. } {Mac Mordain Cadal} {} {Hills} {} {1.000}
 E {  225} {s} {s} {4} {0} {}
 E {  500} {n} {n} {1} {0} {}
 
@@ -1049,7 +1049,7 @@ R {  253} {0} {<afa>} {Temple Avenue} { } {Lamp-posts line either side of the av
 E {  252} {s} {s} {4} {0} {}
 E {  206} {n} {n} {1} {0} {}
 
-R {  254} {0} {<afa>} {Nevrast Cemetery Entrance} { } {A wrought iron arch holding "Cemetery" lettering spans two pillars at the entrance.  The Nevrast Central Square can be seen through the arch to the west. Headstones are organized by family and in rows.  One grave is covered in loose dirt and appears as if it has been tampered with recently. } {Nevrast} {} {City} {} {1.000}
+R {  254} {0} {<afa>} {Nevrast Cemetery Entrance} {!!!} {A wrought iron arch holding "Cemetery" lettering spans two pillars at the entrance.  The Nevrast Central Square can be seen through the arch to the west. Headstones are organized by family and in rows.  One grave is covered in loose dirt and appears as if it has been tampered with recently. } {Nevrast} {} {City} {} {1.000}
 E {  252} {w} {w} {8} {0} {}
 E {  424} {e} {e} {2} {0} {}
 
@@ -2080,7 +2080,7 @@ R {  499} {0} {<afa>} {The Calf Pen} { } {This is a smaller version of the cattl
 E {  498} {s} {s} {4} {0} {}
 E {  497} {w} {w} {8} {0} {}
 
-R {  500} {0} {<fff>} {A Dark Cave} { } {The cave here has rough hewn walls that wear numerous chisel marks from the labor of the dwarves that created it.  To the south, there is a fresh breeze and the sky can still be glimpsed outside the cave mouth.  The floor is mostly stone, but with patches of dirt in places. } {NotYetSet} {} {Underground} {} {1.000}
+R {  500} {0} {<afa>} {A Dark Cave} { } {The cave here has rough hewn walls that wear numerous chisel marks from the labor of the dwarves that created it.  To the south, there is a fresh breeze and the sky can still be glimpsed outside the cave mouth.  The floor is mostly stone, but with patches of dirt in places. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E {  226} {s} {s} {4} {0} {}
 E { 1381} {n} {n} {1} {0} {}
 
@@ -3076,7 +3076,7 @@ E {  752} {n} {n} {1} {0} {}
 E {  754} {w} {w} {8} {0} {}
 E {  755} {s} {s} {4} {0} {}
 
-R {  754} {0} {} {Garden} { } {} {} {} {} {} {1.000}
+R {  754} {0} {<afa>} {Garden} { } {You enter the grounds of an old estate.  You can see that what was once a beautiful formal garden has not been kept up.  A cracked fountain is in the center overgrown with weeds.  The main path stretches to the south, where it turns to the west toward the house a bit further on; another leads west towards a gazebo.  A road to the east runs north and south. } {Abandoned Manor} {} {Field} {} {1.000}
 E {  753} {e} {e} {2} {0} {}
 E {  786} {s} {s} {4} {0} {}
 E {  788} {w} {w} {8} {0} {}
@@ -3210,26 +3210,26 @@ R {  785} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  783} {e} {e} {2} {0} {}
 E {  978} {w} {w} {8} {0} {}
 
-R {  786} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  786} {0} {<afa>} {Garden} { } {You are at the easternmost corner of the garden.  Weeds are starting to overrun the path.  The path turns west here, leading up to the house, while to the north you can see the entrance to the grounds. } {Abandoned Manor} {} {Field} {} {1.000}
 E {  754} {n} {n} {1} {0} {}
 E {  787} {w} {w} {8} {0} {}
 E {  789} {s} {s} {4} {0} {}
 
-R {  787} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  787} {0} {<afa>} {You realize that it's already open.} { } {[MAPON] H:413/413 M:116/128 V:270/270 XP:296321 C:*> Front Door     The grand entrance is now in disrepair.  The wood is all weathered and worn while the steps crumble beneath your feet.  To the north at the edge of the garden you spy a gazebo.  Another garden path goes south or you can go east to the entrance. } {Abandoned Manor} {} {Field} {} {1.000}
 E {  786} {e} {e} {2} {0} {}
 E {  788} {n} {n} {1} {0} {}
 E {  790} {s} {s} {4} {0} {}
 E { 1001} {w} {open door;w} {8} {0} {}
 
-R {  788} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  788} {0} {<afa>} {Gazebo} { } {You stand before a rickety gazebo.  The floor is rotting away and the trellises are laden with rambling roses.  The air is heavy with the sweet scent and as you lean closer to sniff at one you notice some carved writing on the gazebo post.  You can go south towards the front door or to the eastern part of the garden. } {Abandoned Manor} {} {Field} {} {1.000}
 E {  787} {s} {s} {4} {0} {}
 E {  754} {e} {e} {2} {0} {}
 
-R {  789} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  789} {0} {<afa>} {Garden} { } {You are in the southeastern corner of the garden.  The high vegetation muffles all sound, making it strangely quiet.  To the southwest you can see the beginnings of an old orchard.  To the north is the garden entrance. } {Abandoned Manor} {} {Field} {} {1.000}
 E {  786} {n} {n} {1} {0} {}
 E {  790} {w} {w} {8} {0} {}
 
-R {  790} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  790} {0} {<afa>} {Garden} { } {You are in the southwestern corner of the garden.  To the south you can see an orchard.  One path goes north towards the front door of an abaondoned estate while another one leads east. } {Abandoned Manor} {} {Field} {} {1.000}
 E {  789} {e} {e} {2} {0} {}
 E {  787} {n} {n} {1} {0} {}
 E { 1000} {s} {s} {4} {0} {}
@@ -3855,7 +3855,7 @@ E {  938} {e} {e} {2} {0} {}
 E { 1013} {w} {w} {8} {0} {}
 E { 1015} {s} {s} {4} {0} {}
 
-R {  940} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  940} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  938} {n} {n} {1} {0} {}
 E { 1017} {s} {s} {4} {0} {}
 E { 1275} {e} {e} {2} {0} {}
@@ -3928,16 +3928,16 @@ R {  957} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  920} {w} {open gate;w} {8} {0} {}
 E {  958} {e} {e} {2} {0} {}
 
-R {  958} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  958} {0} {<fff>} {The East Road} { } {The road passes between lush, uncultivated grassy fields. The sound of insects buzzing is somewhat muted by the swish of wind through the grass. Small weeds have invaded the edge of the road, and occasional animal prints can be seen in the soft mud. } {NotYetSet} {} {Field} {} {1.000}
 E {  957} {w} {w} {8} {0} {}
-E {  959} {e} {e} {2} {0} {}
+E { 2022} {e} {e} {2} {0} {}
 
-R {  959} {0} {} {} { } {} {} {} {} {} {1.000}
-E {  958} {w} {w} {8} {0} {}
-E {  960} {e} {e} {2} {0} {}
+R {  959} {0} {<fff>} {The East Road} { } {The road passes between lush, uncultivated grassy fields. The sound of insects buzzing is somewhat muted by the swish of wind through the grass. Small weeds have invaded the edge of the road, and occasional animal prints can be seen in the soft mud. } {NotYetSet} {} {Field} {} {1.000}
+E { 2022} {w} {w} {8} {0} {}
+E { 2020} {e} {e} {2} {0} {}
 
 R {  960} {0} {<fff>} {A Fork in the Road} { } {The road forks here, going north into a thick, low mound of vegetation and south along the western edge of a sharp bank of rock. Directly to your east is a flat face of chalky gypsum, the westernmost face of the White Mountains. } {NotYetSet} {} {Field} {} {1.000}
-E {  959} {w} {w} {8} {0} {}
+E { 2020} {w} {w} {8} {0} {}
 E {  961} {n} {n} {1} {0} {}
 E {  962} {s} {s} {4} {0} {}
 
@@ -3945,7 +3945,7 @@ R {  961} {0} {<fff>} {The Old Forest Road} { } {Thick brambly underbrush blocks
 E {  960} {s} {s} {4} {0} {}
 E { 1237} {e} {e} {2} {0} {}
 
-R {  962} {0} {<fff>} {The East Road} { } {The East Road bends to the south along the western face of the White Mountains.  Small wild flowers grow along the base of the steep rise to the east, and grassland stretches west toward a high walled city in the west. } {NotYetSet} {} {Field} {} {1.000}
+R {  962} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  960} {n} {n} {1} {0} {}
 E { 1580} {s} {s} {4} {0} {}
 
@@ -4009,71 +4009,71 @@ E {  976} {s} {s} {4} {0} {}
 R {  978} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  785} {e} {e} {2} {0} {}
 
-R {  979} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  979} {0} {<afa>} {Orchard} { } {You are underneath a spreading apple tree.  The lower branches are just within reach and you can climb into the tree.  To the west you see another apple tree while you can go further into the orchard to the south.  Just as you are about to leave you spot a hole at the base of the trunk big enough for you to wiggle through. } {Abandoned Manor} {} {Forest} {} {1.000}
 E { 1000} {n} {n} {1} {0} {}
 E {  980} {w} {w} {8} {0} {}
 E {  991} {s} {s} {4} {0} {}
 E {  992} {d} {d} {32} {0} {}
 E {  998} {u} {u} {16} {0} {}
 
-R {  980} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  980} {0} {<afa>} {Orchard} { } {You are under a large apple tree.  The trunk looks like it has plenty of hand and foot holds so that you can climb into the tree.  You see apple trees to the east and west while to the south you spot other kinds of trees.  To the north you see the side of the house. } {Abandoned Manor} {} {Forest} {} {1.000}
 E {  979} {e} {e} {2} {0} {}
 E {  981} {w} {w} {8} {0} {}
 E {  988} {s} {s} {4} {0} {}
 E {  999} {u} {u} {16} {0} {}
 
-R {  981} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  981} {0} {<afa>} {Orchard} { } {You stand beneath an ancient apple tree with branches far overhead.  Other apple trees are to the east or you can continue deeper into the orchard to the south.  To the north you can see the southern wall of the house. } {Abandoned Manor} {} {Forest} {} {1.000}
 E {  980} {e} {e} {2} {0} {}
 E {  982} {s} {s} {4} {0} {}
 
-R {  982} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  982} {0} {<afa>} {Orchard} { } {The branches are heavy with cherries, lowering them within reach.  Fallen fruit litters the ground.  You can see another cherry tree to the east while the orchard continues to the north and south.  To the west you can see the stables. } {Abandoned Manor} {} {Forest} {} {1.000}
 E {  981} {n} {n} {1} {0} {}
 E {  983} {w} {w} {8} {0} {}
 E {  987} {s} {s} {4} {0} {}
 E {  988} {e} {e} {2} {0} {}
 E { 1236} {u} {u} {16} {0} {}
 
-R {  983} {0} {<fff>} {At the Stables} { } {You stand outside the stables.  A hitching post stands before it and there is hay strewn about the ground making your nose itch.  You can enter the stables to the west.  You can see what looks like a small garden to the north while to the east is a large grove of trees.  To the south is a small shed. } {NotYetSet} {} {Field} {} {1.000}
+R {  983} {0} {<afa>} {At the Stables} { } {You stand outside the stables.  A hitching post stands before it and there is hay strewn about the ground making your nose itch.  You can enter the stables to the west.  You can see what looks like a small garden to the north while to the east is a large grove of trees.  To the south is a small shed. } {Abandoned Manor} {} {Field} {} {1.000}
 E {  982} {e} {e} {2} {0} {}
 E {  984} {n} {n} {1} {0} {}
 E {  985} {w} {w} {8} {0} {}
 E {  986} {s} {s} {4} {0} {}
 
-R {  984} {0} {} {Kitchen Garden} { } {} {} {} {} {} {1.000}
+R {  984} {0} {<afa>} {Kitchen Garden} { } {You are in the small kitchen garden where they grow fresh vegetables and herbs for cooking.  The rows of plants look quite orderly.  You can enter the house through the back door to the north.  There is a building to the south. } {Abandoned Manor} {} {Field} {} {1.000}
 E {  983} {s} {s} {4} {0} {}
 E { 1005} {n} {open door north;n} {1} {0} {}
 
-R {  985} {0} {<fff>} {Inside the Stables} { } {It is a bit dim inside the stables and as your eyes adjust to the light you can see two long rows of empty stalls.  Reins and saddles are stored in a corner against the wall but it doesn't look like they have been used in some time. } {NotYetSet} {} {Inside} {} {1.000}
+R {  985} {0} {<afa>} {Inside the Stables} { } {It is a bit dim inside the stables and as your eyes adjust to the light you can see two long rows of empty stalls.  Reins and saddles are stored in a corner against the wall but it doesn't look like they have been used in some time. } {Abandoned Manor} {} {Inside} {} {1.000}
 E {  983} {e} {e} {2} {0} {}
 
-R {  986} {0} {<fff>} {Gardener's Shed} { } {The shed stands in this corner of the yard looking a bit ramshackle. However the plant box under the window is full of cheerful flowers and everything is tidy.  The door to the shed is to the west.  You can see the stables to the north or enter the orchard to the east. } {NotYetSet} {} {Field} {} {1.000}
+R {  986} {0} {<afa>} {You realize that it's already open.} { } {[MAPON] H:365/413 M:102/128 V:200/270 XP:325088 C:*> Gardener's Shed     The shed stands in this corner of the yard looking a bit ramshackle. However the plant box under the window is full of cheerful flowers and everything is tidy.  The door to the shed is to the west.  You can see the stables to the north or enter the orchard to the east. } {Abandoned Manor} {} {Field} {} {1.000}
 E {  983} {n} {n} {1} {0} {}
 E {  987} {e} {e} {2} {0} {}
 E { 1599} {w} {open shed;w} {8} {0} {}
 
-R {  987} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  987} {0} {<afa>} {Orchard} { } {You are in the southwestern corner of the orchard.  You can see trees going to the north and east.  To the west you spy some kind of shed. } {Abandoned Manor} {} {Forest} {} {1.000}
 E {  986} {w} {w} {8} {0} {}
 E {  982} {n} {n} {1} {0} {}
 E {  989} {e} {e} {2} {0} {}
 
-R {  988} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  988} {0} {<afa>} {Orchard} { } {You are deep within the orchard and the trees surround you on all sides. The tree you stand under is so gnarled it would be easy to climb.  To the east and west you see more cherry trees, while to the north and south are other types of trees. } {Abandoned Manor} {} {Forest} {} {1.000}
 E {  982} {w} {w} {8} {0} {}
 E {  980} {n} {n} {1} {0} {}
 E {  989} {s} {s} {4} {0} {}
 E {  991} {e} {e} {2} {0} {}
 E { 1235} {u} {u} {16} {0} {}
 
-R {  989} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  989} {0} {<afa>} {Orchard} { } {You stand beneath a lemon tree.  Sounds are muffled by the trees and make it strangely quiet.  It is gloomy since the overhead branches block out so much light.  You can go east and west along the lemon stand or north back into the orchard. } {Abandoned Manor} {} {Forest} {} {1.000}
 E {  988} {n} {n} {1} {0} {}
 E {  987} {w} {w} {8} {0} {}
 E {  990} {e} {e} {2} {0} {}
 E { 1233} {u} {u} {16} {0} {}
 
-R {  990} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  990} {0} {<afa>} {Orchard} { } {You are in a corner of the orchard in the deep shade of a large lemon tree. The leaves rustle overhead and the scent of citrus surrounds you.  To the west you see additional lemon trees while to the north is another stand of trees. An overgrown tangle stops you from going south or east. } {Abandoned Manor} {} {Forest} {} {1.000}
 E {  989} {w} {w} {8} {0} {}
 E {  991} {n} {n} {1} {0} {}
 
-R {  991} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  991} {0} {<afa>} {Orchard} { } {You are at the edge of the orchard.  Branches hung with Spanish moss are overhead.  Tangled brush blocks the way east while trees stretch out before you in all other directions. } {Abandoned Manor} {} {Forest} {} {1.000}
 E {  990} {s} {s} {4} {0} {}
 E {  979} {n} {n} {1} {0} {}
 E {  988} {w} {w} {8} {0} {}
@@ -4111,39 +4111,39 @@ E {  980} {d} {d} {32} {0} {}
 E { 1234} {n} {n} {1} {0} {}
 E { 1235} {s} {s} {4} {0} {}
 
-R { 1000} {8} {} {} { } {} {} {} {} {} {1.000}
+R { 1000} {8} {} {} { } {} {Abandoned Manor} {} {} {} {1.000}
 E {  979} {s} {s} {4} {0} {}
 E {  790} {n} {n} {1} {0} {}
 
-R { 1001} {0} {} {Entrance Hall} { } {} {} {} {} {} {1.000}
+R { 1001} {0} {<afa>} {You realize that it's already open.} { } {[MAPON] H:413/413 M:128/128 V:270/270 XP:296321 C:*> Entrance Hall     The entrance hall is made from the finest materials but everything is now dingy.  The marble floors are cracked and the tapestries on the wall are dusty and worn.  A graceful stairway curves upwards or you can continue with the hallway to the west.  Through the glass doorway to the south you catch a glimpse of a parlor while there is a wooden doorway to the north. } {Abandoned Manor} {} {Inside} {} {1.000}
 E {  787} {e} {open door east;e} {2} {0} {}
 E { 1002} {s} {open glass;s} {4} {0} {}
 E { 1217} {n} {open wooden;n} {1} {0} {}
 E { 1218} {w} {w} {8} {0} {}
 E { 1224} {u} {u} {16} {0} {}
 
-R { 1002} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1002} {0} {<afa>} {You open the glass doorway.} { } {[MAPON] H:413/413 M:128/128 V:270/270 XP:296321 C:*> Parlor     It looks like a lush and comfortable room.  Overstuffed chairs and couches sit before the fireplace.  There is the scent of roses and you see a vase full of fresh cut ones on a table.  On the grand piano are pictures of a happy couple and their friends at various events.  There is a sliding door to the west and a glass door to the north. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1001} {n} {open glass;n} {1} {0} {}
 E { 1003} {west} {west} {0} {0} {}
 E { 1003} {w} {w} {8} {0} {}
 
-R { 1003} {0} {} {Dining Room} { } {} {} {} {} {} {1.000}
+R { 1003} {0} {<afa>} {Dining Room} { } {It is a large dining room dominated by a long table.  The southern wall is a bay window looking out over the orchard.  Beautiful crystal and silver settings are placed on the table as if ready to be used, but you notice dust and tarnish, as if they have been out for a long time.  Doors are to the north, east, and west. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1004} {w} {open swinging;w} {8} {0} {}
-E { 1218} {n} {n} {1} {0} {}
+E { 1218} {n} {open oak;n} {1} {0} {}
 E { 1002} {e} {e} {2} {0} {}
 
-R { 1004} {0} {} {Kitchen} { } {} {} {} {} {} {1.000}
+R { 1004} {0} {<afa>} {You realize that it's already open.} { } {[MAPON] H:413/413 M:109/128 V:270/270 XP:323117 C:*> Kitchen     As expected the kitchen is large for such a household.  Long counters fill the room and many pots and pans hang from hooks.  Utensils are neatly arranged in trays.  However it looks like there hasn't been a fire in the hearth in a while.  There is a wooden door to the west and a swinging door to the east.  Or you can use the exits to the north and south. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1003} {e} {open swinging;e} {2} {0} {}
 E { 1005} {s} {s} {4} {0} {}
 E { 1221} {w} {open door west;w} {8} {0} {}
 E { 1222} {n} {n} {1} {0} {}
 
-R { 1005} {0} {} {Pantry} { } {} {} {} {} {} {1.000}
+R { 1005} {0} {<afa>} {You realize that it's already open.} { } {[MAPON] H:413/413 M:108/128 V:270/270 XP:323117 C:*> Pantry     The pantry looks bare.  Only a few cans are on the shelves and there is a fine layer of dust on everything.  You can go into the kitchen or out the back door.  There is another door to the west. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1004} {n} {n} {1} {0} {}
 E {  984} {s} {open door south;s} {4} {0} {}
 E { 1006} {w} {open door west;w} {8} {0} {}
 
-R { 1006} {0} {} {Cook's Quarters} { } {} {} {} {} {} {1.000}
+R { 1006} {0} {<afa>} {You open the door.} { } {[MAPON] H:413/413 M:107/128 V:270/270 XP:323117 C:*> Cook's Quarters     The cook must really like to eat!  You see crumbs on the floor and on the bed.  Against one wall there is even a cupboard.  Mice squeak in one corner of of the room behind the baseboards. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1005} {e} {open door east;e} {2} {0} {}
 
 R { 1007} {0} {} {} { } {} {} {} {} {} {1.000}
@@ -4188,20 +4188,20 @@ E { 1015} {n} {n} {1} {0} {}
 E { 1017} {e} {e} {2} {0} {}
 E { 1021} {w} {w} {8} {0} {}
 
-R { 1017} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1017} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1016} {w} {w} {8} {0} {}
 E {  940} {n} {n} {1} {0} {}
 E { 1018} {s} {s} {4} {0} {}
 
-R { 1018} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1018} {0} {<fff>} {Overgrown Path} { } {A narrow, slightly overgrown path continues to wind its way deep within the Highrock Forest.  The path continues through the woods to the west, while a more accessible route heads northward to a wooden construction. } {NotYetSet} {} {Forest} {} {1.000}
 E { 1017} {n} {n} {1} {0} {}
 E { 1019} {w} {w} {8} {0} {}
 
-R { 1019} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1019} {0} {<fff>} {Overgrown Path} { } {A narrow, slightly overgrown path winds its way through the Highrock Forest. The path continues to the east and to the west. } {NotYetSet} {} {Forest} {} {1.000}
 E { 1018} {e} {e} {2} {0} {}
 E { 1020} {w} {w} {8} {0} {}
 
-R { 1020} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1020} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1019} {e} {e} {2} {0} {}
 E { 1021} {n} {n} {1} {0} {}
 E { 1025} {w} {w} {8} {0} {}
@@ -4224,52 +4224,52 @@ R { 1024} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1023} {n} {n} {1} {0} {}
 E { 1025} {e} {e} {2} {0} {}
 
-R { 1025} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1025} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1024} {w} {w} {8} {0} {}
 E { 1020} {e} {e} {2} {0} {}
 E { 1026} {s} {s} {4} {0} {}
 
-R { 1026} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1026} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1025} {n} {n} {1} {0} {}
 E { 1027} {w} {w} {8} {0} {}
 
-R { 1027} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1027} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1026} {e} {e} {2} {0} {}
 E { 1028} {s} {s} {4} {0} {}
 
-R { 1028} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1028} {0} {<fff>} {Abandoned Road} { } {Continuing along the old, abandoned road, the wagon tracks become smaller and further apart.  A wide variety of vegetation has grown up along the roadside, making passage away from the road difficult.  It continues on to the north and to the west. } {NotYetSet} {} {Swamp} {} {1.000}
 E { 1027} {n} {n} {1} {0} {}
 E { 1029} {w} {w} {8} {0} {}
 
-R { 1029} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1029} {0} {<fff>} {Abandoned Road} { } {The old abandoned road persists into the marsh, taking a slight dip to the west.  Here, the vegetation is much more pronounced, covering the recessed wagon tracks entirely.  The dusty path leads back to the Highrock Forest to the east. } {NotYetSet} {} {Swamp} {} {1.000}
 E { 1028} {e} {e} {2} {0} {}
 E { 1030} {w} {w} {8} {0} {}
 
-R { 1030} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1030} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1029} {e} {e} {2} {0} {}
 E { 1031} {s} {s} {4} {0} {}
 
-R { 1031} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1031} {0} {<fff>} {Sunken Road} { } {The sunken, swampy path carries on to the north and west, thickly bordered by dense vegetation.  Insects fly lazily through the humid air, and the harsh smell of rotten debris and leaf litter drifts from the southwest. } {NotYetSet} {} {Swamp} {} {1.000}
 E { 1030} {n} {n} {1} {0} {}
 E { 1032} {w} {w} {8} {0} {}
 
-R { 1032} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1032} {0} {} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1031} {e} {e} {2} {0} {}
 E { 1033} {w} {w} {8} {0} {}
 
-R { 1033} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1033} {0} {} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1032} {e} {e} {2} {0} {}
 E { 1034} {w} {w} {8} {0} {}
 
-R { 1034} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1034} {0} {<fff>} {Sunken Road} { } {A putrid odor fills the air around the sluggish, sunken path that ambles its way through the rotten swamp.  Tangled vegetation and deep puddles of brackish water surround the narrow roadway, making travel away from the cleared trail impossible.  The damp and soggy path heads farther to the south and east towards drier ground. } {NotYetSet} {} {Swamp} {} {1.000}
 E { 1033} {e} {e} {2} {0} {}
 E { 1035} {s} {s} {4} {0} {}
 
-R { 1035} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1035} {0} {<fff>} {Sunken Road} { } {A deepening depression in the path marks the end of the foul muddy walkway. It is possible to continue back towards the north along the damp road, or fight the mass of swampish vegetation that gathers in dense stands to the west. } {NotYetSet} {} {Swamp} {} {1.000}
 E { 1034} {n} {n} {1} {0} {}
 E { 1036} {w} {w} {8} {0} {}
 
-R { 1036} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1036} {0} {<fff>} {Swampy Path} { } {A heavily overgrown path lies almost completely hidden deep within the large, swampy landscape.  To the east winds a slightly less dense path, and continual passage through the wild mass of vegetation is possible to the south. } {NotYetSet} {} {Swamp} {} {1.000}
 E { 1035} {e} {e} {2} {0} {}
 E { 1037} {s} {s} {4} {0} {}
 
@@ -4301,7 +4301,7 @@ E { 1038} {n} {n} {1} {0} {}
 E { 1880} {e} {e} {2} {0} {}
 E { 1854} {w} {w} {8} {0} {}
 
-R { 1043} {0} {<fff>} {Outside the Gate} { } {The tracks lead up to a large wooden gate.  It appears heavy and well built. As you look to either side of the gate, you notice a wall built so cleverly that it blends perfectly into the marsh.  The wall and gate seem to be about the same size. } {NotYetSet} {} {Forest} {} {1.000}
+R { 1043} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1858} {w} {w} {8} {0} {}
 E { 1849} {s} {s} {4} {0} {}
 
@@ -5001,17 +5001,17 @@ E { 1327} {w} {w} {8} {0} {}
 E { 1328} {e} {e} {2} {0} {}
 E { 1330} {s} {s} {4} {0} {}
 
-R { 1217} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1217} {0} {<afa>} {Library} { } {The library is a quiet, contemplative place.  The walls are lined with bookcases and filled with leather bound volumes.  Richly upholstered chairs sit before the fireplace.  The air smells faintly of pipe smoke and old books.  The hallway is to the south and there is another doorway to the west. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1001} {s} {open wooden;s} {4} {0} {}
 E { 1219} {w} {w} {8} {0} {}
 
-R { 1218} {0} {} {Hallway} { } {} {} {} {} {} {1.000}
-E { 1003} {s} {s} {4} {0} {}
+R { 1218} {0} {<afa>} {Hallway} { } {The hallway stretches east and west.  The carpet is threadbare from many years of use and the wallpaper is starting to peel.  There is an oak door carved with an acorn design to the south.  To the north there is a solid pine door carved with a pinecone design. } {Abandoned Manor} {} {Inside} {} {1.000}
+E { 1003} {s} {open oak;s} {4} {0} {}
 E { 1001} {e} {e} {2} {0} {}
 E { 1219} {n} {open pine;n} {1} {0} {}
 E { 1222} {w} {w} {8} {0} {}
 
-R { 1219} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1219} {0} {<afa>} {Den} { } {The den looks like the room where men can be men.  A bar lined with bottles is against one wall.  Before the fireplace is a natty old rug of some indeterminate animal hide.  Slouchy couches are placed before the large fireplace.  The lighting is dim and restful.  There are double doors to the east and a pine door to the south. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1218} {s} {open pine;s} {4} {0} {}
 E { 1217} {e} {e} {2} {0} {}
 
@@ -5019,15 +5019,15 @@ R { 1220} {8} {} {} { } {} {} {} {} {} {1.000}
 E {  999} {w} {w} {8} {0} {}
 E {  998} {e} {e} {2} {0} {}
 
-R { 1221} {0} {} {Maids' Quarters} { } {} {} {} {} {} {1.000}
+R { 1221} {0} {<afa>} {You open the wooden door.} { } {[MAPON] H:413/413 M:109/128 V:270/270 XP:323117 C:*> Maids' Quarters     What a mess!  For maids they sure aren't very neat.  There is a bed on each side of the room.  A vanity table littered with all kinds of cosmetics is on the far side of the room  pushed crooked away from the wall. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1004} {e} {open door east;e} {2} {0} {}
 
-R { 1222} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1222} {0} {<afa>} {You realize that it's already open.} { } {[MAPON] H:291/413 M:72/128 V:248/270 XP:296321 C:*> Hallway     The hallway turns a corner here going south and east.  To the east is more hallway; to the south you see the kitchen.  There is a plain but sturdy looking doorway to the west. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1218} {e} {e} {2} {0} {}
 E { 1004} {s} {s} {4} {0} {}
 E { 1223} {w} {open plain;w} {8} {0} {}
 
-R { 1223} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1223} {0} {<afa>} {You realize that it's already open.} { } {[MAPON] H:289/413 M:72/128 V:246/270 XP:296321 C:*> Butler's Quarters     The room is immaculate.  It looks like the butler is a fastidious man.  The furnishings are plain but well made.  There is a small writing desk in one corner of the room. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1222} {e} {open plain;e} {2} {0} {}
 
 R { 1224} {0} {} {} { } {} {} {} {} {} {1.000}
@@ -5086,12 +5086,12 @@ R { 1236} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1235} {e} {e} {2} {0} {}
 E {  982} {d} {d} {32} {0} {}
 
-R { 1237} {0} {<fff>} {The Old Forest Road} { } {Thick brambly underbrush blocks your entire field of vision as you push your way along this dark forest path.  Angry, black limbed trees close over you, depriving the smaller trees of sunlight.  There is no breeze here the air smells thick, and humid, and full with decay.  Several bushes to the south appear to have been disturbed recently. } {NotYetSet} {} {Forest} {} {1.000}
+R { 1237} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  961} {w} {w} {8} {0} {}
 E { 1238} {n} {n} {1} {0} {}
 E { 1272} {s} {s} {4} {0} {}
 
-R { 1238} {0} {<fff>} {The Old Forest Road} { } {Thick brambly underbrush blocks your entire field of vision as you push your way along this dark forest path.  Angry, black limbed trees close over you, depriving the smaller trees of sunlight.  There is no breeze here; the air smells thick, and humid, and full with decay. } {NotYetSet} {} {Forest} {} {1.000}
+R { 1238} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1237} {s} {s} {4} {0} {}
 E { 1239} {n} {n} {1} {0} {}
 
@@ -5107,7 +5107,7 @@ R { 1241} {0} {<fff>} {The Old Forest Road} { } {Thick brambly underbrush blocks
 E { 1240} {w} {w} {8} {0} {}
 E { 1242} {e} {e} {2} {0} {}
 
-R { 1242} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+R { 1242} {0} {<fff>} {The Old Forest Road} { } {Thick brambly underbrush blocks your entire field of vision as you push your way along this dark forest path. Angry, black limbed trees close over you, depriving the smaller trees of sunlight. There is no breeze here; the air smells thick, and humid, and full with decay. } {NotYetSet} {} {Forest} {} {1.000}
 E { 1241} {w} {w} {8} {0} {}
 E { 1243} {n} {n} {1} {0} {}
 E { 1255} {e} {e} {2} {0} {}
@@ -5120,39 +5120,39 @@ R { 1244} {0} {<fff>} {Off the Beaten Path} { } {Sense of direction is quickly l
 E { 1243} {s} {s} {4} {0} {}
 E { 1245} {n} {n} {1} {0} {}
 
-R { 1245} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1245} {0} {<fff>} {Off the Beaten Path} { } {The brambly underbrush slowly thins as you move away from the path.  The ground is covered with moist leaves, and occasional pine needles.  Though the shrubs are less difficult to navigate, the canopy remains thick above you, blocking out the light. } {NotYetSet} {} {Forest} {} {1.000}
 E { 1244} {s} {s} {4} {0} {}
 E { 1246} {n} {n} {1} {0} {}
 
-R { 1246} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1246} {0} {<fff>} {Off the Beaten Path} { } {Sense of direction is quickly lost as you wander about the belly of this gnarled old forest.  Beautiful toadstools and fungi grow about the place, but the trees quickly begin to look the same, and the dark shadows to your left and to your right match the ones in front of and behind you.    Not surprisingly, you cannot hear any sounds of forest creatures. } {NotYetSet} {} {Forest} {} {1.000}
 E { 1245} {s} {s} {4} {0} {}
 E { 1247} {e} {e} {2} {0} {}
 
-R { 1247} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1247} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1246} {w} {w} {8} {0} {}
 E { 1248} {n} {n} {1} {0} {}
 
-R { 1248} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1248} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1247} {s} {s} {4} {0} {}
 E { 1249} {e} {e} {2} {0} {}
 
-R { 1249} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1249} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1248} {w} {w} {8} {0} {}
 E { 1250} {n} {n} {1} {0} {}
 
-R { 1250} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1250} {0} {<fff>} {Within a Small Cave} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1249} {s} {s} {4} {0} {}
 E { 1251} {n} {n} {1} {0} {}
 
-R { 1251} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1251} {0} {<fff>} {Within the Cave} { } {The main passage of this damp and humid cave continues north and south. Small puddles of water have collected on the limestone floor; molds grow along the edges, and some algae-like plant grows upon the surface. Dim light comes from further along the cave toward the north. } {NotYetSet} {} {Underground} {} {1.000}
 E { 1250} {s} {s} {4} {0} {}
 E { 1252} {n} {n} {1} {0} {}
 
-R { 1252} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1252} {0} {<fff>} {Within the Cave} { } {The main passage of this damp and humid cave continues east and south. Small puddles of water have collected on the limestone floor; molds grow along the edges, and some algae-like plant grows upon the surface. Dim light comes from further along the cave toward the east. } {NotYetSet} {} {Underground} {} {1.000}
 E { 1251} {s} {s} {4} {0} {}
 E { 1253} {e} {e} {2} {0} {}
 
-R { 1253} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1253} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1252} {w} {w} {8} {0} {}
 E { 1254} {n} {n} {1} {0} {}
 
@@ -5175,7 +5175,7 @@ R { 1258} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1257} {w} {w} {8} {0} {}
 E { 1259} {e} {e} {2} {0} {}
 
-R { 1259} {0} {<fff>} {The Old Forest Road} { } {Thick brambly underbrush blocks your entire field of vision as you push your way along this dark forest path. Angry, black limbed trees close over you, depriving the smaller trees of sunlight. There is no breeze here; the air smells thick, and humid, and full with decay. } {NotYetSet} {} {Forest} {} {1.000}
+R { 1259} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1258} {w} {w} {8} {0} {}
 E { 1260} {s} {s} {4} {0} {}
 
@@ -5191,11 +5191,11 @@ R { 1262} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1261} {n} {n} {1} {0} {}
 E { 1263} {s} {s} {4} {0} {}
 
-R { 1263} {0} {<fff>} {The Old Forest Road} { } {Thick brambly underbrush blocks your entire field of vision as you push your way along this dark forest path. Angry, black limbed trees close over you, depriving the smaller trees of sunlight. There is no breeze here; the air smells thick, and humid, and full with decay. } {NotYetSet} {} {Forest} {} {1.000}
+R { 1263} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1262} {n} {n} {1} {0} {}
 E { 1264} {e} {e} {2} {0} {}
 
-R { 1264} {0} {<fff>} {The Old Forest Road} { } {Thick brambly underbrush blocks your entire field of vision as you push your way along this dark forest path. Angry, black limbed trees close over you, depriving the smaller trees of sunlight. There is no breeze here; the air smells thick, and humid, and full with decay. } {NotYetSet} {} {Forest} {} {1.000}
+R { 1264} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1263} {w} {w} {8} {0} {}
 E { 1265} {e} {e} {2} {0} {}
 E { 1266} {n} {n} {1} {0} {}
@@ -5204,11 +5204,11 @@ R { 1265} {0} {<fff>} {The Old Forest Road} { } {Thick brambly underbrush blocks
 E { 1264} {w} {w} {8} {0} {}
 E { 1593} {e} {e} {2} {0} {}
 
-R { 1266} {0} {<fff>} {Dirt Path} { } {You step onto a well worn dirt path.  Here and there you can see side trails that go off into the woods to either side of the main trail.  The trails lead into the darkness and the woods give you an ominous feeling. } {NotYetSet} {} {Forest} {} {1.000}
+R { 1266} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1264} {s} {s} {4} {0} {}
 E { 1267} {n} {n} {1} {0} {}
 
-R { 1267} {0} {<fff>} {Dirt Path} { } {You step onto a well worn dirt path.  Here and there you can see side trails that go off into the woods to either side of the main trail.  The trails wander off into the darkness of the forest and the woods give you an ominous feeling. } {NotYetSet} {} {Forest} {} {1.000}
+R { 1267} {0} {<fff>} {Dirt Path} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1266} {s} {s} {4} {0} {}
 E { 1268} {n} {n} {1} {0} {}
 
@@ -5216,7 +5216,7 @@ R { 1268} {0} {<fff>} {Dirt Path} { } {You step onto a well worn dirt path.  Her
 E { 1267} {s} {s} {4} {0} {}
 E { 1269} {n} {n} {1} {0} {}
 
-R { 1269} {0} {<fff>} {Dirt Path} { } {You step onto a well worn dirt path.  Here and there you can see side trails that go off into the woods to either side of the main trail.  The trails wander off into the darkness of the forest and the woods give you an ominous feeling. } {NotYetSet} {} {Forest} {} {1.000}
+R { 1269} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1268} {s} {s} {4} {0} {}
 E { 1270} {n} {n} {1} {0} {}
 
@@ -5664,7 +5664,7 @@ R { 1380} {0} {<afa>} {A Small Passage} { } {You are standing in a cramped east-
 E { 1379} {e} {e} {2} {0} {}
 E {  731} {w} {w} {8} {0} {}
 
-R { 1381} {0} {<fff>} {An Old Mine} { } {The old mine is now obvious as such, although to the south, it still appears to be more like an old cave.  Above, the ceiling is rough hewn stone supported with unfinished wooden beams.  There is an occasional whiff of fresh air from the south and a light breeze from the old stagnant air from the north. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1381} {0} {<afa>} {An Old Mine} { } {The old mine is now obvious as such, although to the south, it still appears to be more like an old cave.  Above, the ceiling is rough hewn stone supported with unfinished wooden beams.  There is an occasional whiff of fresh air from the south and a light breeze from the old stagnant air from the north. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E {  500} {s} {s} {4} {0} {}
 E { 1601} {n} {n} {1} {0} {}
 
@@ -6501,7 +6501,7 @@ E { 1579} {s} {s} {4} {0} {}
 R { 1579} {0} {<afa>} {The Treasure Room} { } {You are standing amidst the largest pile of useless junk you have ever seen. Obviously, the creatures here have a different concept of value.  Glancing about the room, you see some items which you think might be valuable. } {Goblin Caves} {} {Underground} {} {1.000}
 E { 1578} {n} {n} {1} {0} {}
 
-R { 1580} {0} {<fff>} {The East Road} { } {The East Road continues along the western face of the White Mountains. Only the smoke from many fires suggests that a city is to the north and the west. A warm breeze blows across the grassland and into the sharp chalky slopes, occasionally showering you with clouds of small, dusty pebbles from above. } {NotYetSet} {} {Field} {} {1.000}
+R { 1580} {0} {<fff>} {The East Road} { } {The East Road bends to the south along the western face of the White Mountains.  Small wild flowers grow along the base of the steep rise to the east, and grassland stretches west toward a high walled city in the west. } {NotYetSet} {} {Field} {} {1.000}
 E {  962} {n} {n} {1} {0} {}
 E { 1581} {s} {s} {4} {0} {}
 
@@ -6518,7 +6518,7 @@ R { 1583} {0} {<fff>} {The East Road} { } {The East Road continues along the wes
 E { 1581} {n} {n} {1} {0} {}
 E { 1584} {w} {w} {8} {0} {}
 
-R { 1584} {0} {<fff>} {Dirt Road} { } {A quaint little path through a beautiful forest of light green.  You can hear the birds singing in the breeze, and somewhere in the distance you can hear the plucking melody of someone playing a koto.  There is a small wooden sign along the side of the road, hand carved.  The path continues west. } {NotYetSet} {} {Field} {} {1.000}
+R { 1584} {0} {<fff>} {Nah, you feel too relaxed to do that.} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1583} {e} {e} {2} {0} {}
 E { 1585} {w} {w} {8} {0} {}
 
@@ -6529,15 +6529,17 @@ E { 1587} {s} {s} {4} {0} {}
 
 R { 1586} {0} {<fff>} {Outside the Lotus Blossom} { } {The second favorite hangout of the Shogun's men.  The Lotus Blossom sits peacefully to the south here, where the road ends.  The building is small and unobtrusive; not much sound emanates from within, and a small curl of black smoke rises from the chimney.  The dirt road goes back east. } {NotYetSet} {} {Field} {} {1.000}
 E { 1585} {e} {e} {2} {0} {}
+E { 2019} {n} {n} {1} {0} {}
 
 R { 1587} {0} {<fff>} {Outside Brothel} { } {You are outside the Happy Samurai, a favorite hangout of the Shogun's men. The low roof droops down invitingly over the entrance to the east and the road runs north and south. } {NotYetSet} {} {Field} {} {1.000}
 E { 1585} {n} {n} {1} {0} {}
+E { 2027} {e} {e} {2} {0} {}
 
 R { 1588} {0} {<fff>} {The White Mountain Path} { } {This slender path winds itself between steep, eroded cliffs. It climbs quickly, but is often partially obstructed by fallen boulders. The wind howls like wolves between the slopes, and nothing but the smallest weeds grows here. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1582} {n} {n} {1} {0} {}
 E { 1589} {s} {s} {4} {0} {}
 
-R { 1589} {0} {<fff>} {The White Mountain Path} { } {This slender path winds itself between steep, eroded cliffs. It climbs quickly, but is often partially obstructed by fallen boulders. The wind howls like wolves between the slopes, and nothing but the smallest weeds grows here.    The dark mouth of a small cave stares at you from the south; the path continues north and east along the canyon. } {NotYetSet} {} {Mountains} {} {1.000}
+R { 1589} {0} {<fff>} {All you can do right now is think about the stars!} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1588} {n} {n} {1} {0} {}
 E { 1590} {e} {e} {2} {0} {}
 E { 1591} {s} {s} {4} {0} {}
@@ -6546,11 +6548,14 @@ R { 1590} {0} {<fff>} {The White Mountain Path} { } {This slender path winds its
 E { 1589} {w} {w} {8} {0} {}
 E { 1592} {e} {e} {2} {0} {}
 
-R { 1591} {0} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+R { 1591} {0} {<fff>} {} {!!!} {A male brute claws you hard. A male brute claws you very hard. You split a male brute open as you slash him. You miss a male brute. } {NotYetSet} {} {} {} {1.000}
 E { 1589} {n} {n} {1} {0} {}
+E { 2035} {s} {s} {4} {0} {}
 
 R { 1592} {0} {<fff>} {Through the White Mountains} { } {This slender path winds itself between steep, eroded cliffs.  It climbs quickly, but is often partially obstructed by fallen boulders.  The wind howls like wolves between the slopes, and nothing but the smallest weeds grows here.    To the south, you see a steep embankment, and you sense an aura of great conflict.  You can just make out some kind of entrance at the base of this steep and treacherous hill. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1590} {w} {w} {8} {0} {}
+E { 2036} {s} {s} {4} {0} {}
+E { 2147} {e} {e} {2} {0} {}
 
 R { 1593} {0} {<fff>} {A Small Path} { } {The path continues through the dense forest, unused and probably unseen in eons.  All throughout the forest the mysterious sounds of wild beasts echo, as if in warning. } {NotYetSet} {} {Forest} {} {1.000}
 E { 1265} {w} {w} {8} {0} {}
@@ -6575,7 +6580,7 @@ E { 1598} {n} {n} {1} {0} {}
 R { 1598} {0} {<fff>} {Standing Beside the Moat} { } {The moat is intended to keep the likes of you away from the castle.  You are able to determine that to the north, the moat is shallow enough to stand up in, but appears quite nasty.  You can see a catapult to the south and a drawbridge to the east. } {NotYetSet} {} {Shore} {} {1.000}
 E { 1597} {s} {s} {4} {0} {}
 
-R { 1599} {0} {<fff>} {Inside the Shed} { } {The shed contains what you expect a garden shed to contain.  Rakes, hoes, and other tools hang neatly on the wall.  On the work table are stacks of flowerpots.  It looks like the gardener sleeps here since you see a cot against the back wall. } {NotYetSet} {} {Inside} {} {1.000}
+R { 1599} {0} {<afa>} {You open the shed door.} { } {[MAPON] H:364/413 M:102/128 V:199/270 XP:325088 C:*> Inside the Shed     The shed contains what you expect a garden shed to contain.  Rakes, hoes, and other tools hang neatly on the wall.  On the work table are stacks of flowerpots.  It looks like the gardener sleeps here since you see a cot against the back wall. } {Abandoned Manor} {} {Inside} {} {1.000}
 E {  986} {e} {open shed;e} {2} {0} {}
 
 R { 1600} {0} {<aaf>} {The Rilghorn River} {~} {The river is shallow enough here to be forded, and indeed, a ford exists.  A road leads to the north and south into the dark depths of the forest.  Plants reach far over the water and several grow out of the nearby banks, their stems cutting through the water, roots buried in the riverbed.  A small curl of smoke rises to the northwest, clearly a great distance away but probably an indication of some large fire or civilization. } {Rilghorn River} {} {River} {} {1.000}
@@ -6584,79 +6589,79 @@ E { 1779} {w} {w} {8} {0} {}
 E { 1780} {s} {s} {4} {0} {}
 E { 1781} {e} {e} {2} {0} {}
 
-R { 1601} {0} {<fff>} {An Old Mine} { } {Small burnt out torches adorn either side of the cave walls, placed within deep notches.  Above, dangling loosely from one of the center beams, hangs a broken but dimly glowing lantern, providing a little light.  The ground underfoot is rough and covered with dust that lightly layers the stone floor. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1601} {0} {<afa>} {An Old Mine} { } {Small burnt out torches adorn either side of the cave walls, placed within deep notches.  Above, dangling loosely from one of the center beams, hangs a broken but dimly glowing lantern, providing a little light.  The ground underfoot is rough and covered with dust that lightly layers the stone floor. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1381} {s} {s} {4} {0} {}
 E { 1602} {n} {n} {1} {0} {}
 
-R { 1602} {0} {<fff>} {An Old Mine} { } {The beams overhead in this part of the tunnel are unfinished and in some places broken; creaking from the strain of the ceiling above, they still manage to hold strong.  Large metal rails span to the north, leading further into the mine.  To one side of the tunnel a small cart lies splintered and broken, layering the ground with sharp bits of wood. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1602} {0} {<afa>} {An Old Mine} { } {The beams overhead in this part of the tunnel are unfinished and in some places broken; creaking from the strain of the ceiling above, they still manage to hold strong.  Large metal rails span to the north, leading further into the mine.  To one side of the tunnel a small cart lies splintered and broken, layering the ground with sharp bits of wood. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1601} {s} {s} {4} {0} {}
 E { 1621} {n} {n} {1} {0} {}
 
-R { 1603} {0} {<fff>} {An Old Mine} { } {The tunnel and rails stretch to the south and east.  From the south a light breeze can be felt every so often, filtering out some of the stale air.  To the west a faint light shows through where a tunnel once existed, now covered by debris from some sort of cave-in or attempt to seal off part of the mine. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1603} {0} {<afa>} {An Old Mine} { } {The tunnel and rails stretch to the south and east.  From the south a light breeze can be felt every so often, filtering out some of the stale air.  To the west a faint light shows through where a tunnel once existed, now covered by debris from some sort of cave-in or attempt to seal off part of the mine. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1621} {s} {s} {4} {0} {}
 E { 1604} {e} {e} {2} {0} {}
 
-R { 1604} {0} {<fff>} {An Old Mine} { } {Large iron rails adorn the floor of the tunnel heading to the north and west.  Dust falls from the ceiling above, pelting anyone unfortunate enough to be caught beneath it.  The walls are rough and marred by chisel marks.  A single notch is carved into each wall, though it has been left empty. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1604} {0} {<afa>} {An Old Mine} { } {Large iron rails adorn the floor of the tunnel heading to the north and west.  Dust falls from the ceiling above, pelting anyone unfortunate enough to be caught beneath it.  The walls are rough and marred by chisel marks.  A single notch is carved into each wall, though it has been left empty. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1603} {w} {w} {8} {0} {}
 E { 1622} {n} {n} {1} {0} {}
 
-R { 1605} {0} {<fff>} {An Abrupt Turn} { } {The rails in this tunnel lead south and west.  The ground, uneven and jagged, is covered in a thick layer of dust and rock.  The beams overhead are cracked but holding strong.  Adorning one of the beams is a small chain; attached to it is a lantern that has seen better days. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1605} {0} {<afa>} {An Abrupt Turn} { } {The rails in this tunnel lead south and west.  The ground, uneven and jagged, is covered in a thick layer of dust and rock.  The beams overhead are cracked but holding strong.  Adorning one of the beams is a small chain; attached to it is a lantern that has seen better days. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1622} {s} {s} {4} {0} {}
 E { 1606} {w} {w} {8} {0} {}
 
-R { 1606} {0} {<fff>} {An Old Mine} { } {Battered and dinged, yet operational, the rails that line the ground of this tunnel lead to the north and east.  A gentle breeze flows softly through this part of the mine from an unknown source, kicking up dust and leaving a haze in the air.  The walls have a slimy look about them, though they remain dry to the touch. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1606} {0} {<afa>} {An Old Mine} { } {Battered and dinged, yet operational, the rails that line the ground of this tunnel lead to the north and east.  A gentle breeze flows softly through this part of the mine from an unknown source, kicking up dust and leaving a haze in the air.  The walls have a slimy look about them, though they remain dry to the touch. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1605} {e} {e} {2} {0} {}
 E { 1623} {n} {n} {1} {0} {}
 
-R { 1607} {0} {<fff>} {A Dark Cave} { } {Iron rails stretch to the north, south, and east in this cavern.  The room is barren with the exception of the rails that adorn the floor.  Large beams loom high overheard, dropping dust into the air.  The dwarves that built these mines must have had some reason to not finish this tunnel; unfortunately, what it was will remain a mystery. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1607} {0} {<afa>} {A Dark Cave} { } {Iron rails stretch to the north, south, and east in this cavern.  The room is barren with the exception of the rails that adorn the floor.  Large beams loom high overheard, dropping dust into the air.  The dwarves that built these mines must have had some reason to not finish this tunnel; unfortunately, what it was will remain a mystery. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1623} {s} {s} {4} {0} {}
 E { 1608} {e} {e} {2} {0} {}
 E { 1624} {n} {n} {1} {0} {}
 
-R { 1608} {0} {<fff>} {You brush away some dust, which reveals a hidden tunnel.} { } {[MAPON] H:264/399 M:73/126 V:256/256 XP:33553 C:*> A Cramped Tunnel     Leading to the west are two large iron rails, which lie beneath the debris strewn floor of this tunnel.  To east large beams, buried beneath rock and dust, protrude out from many different angles.  The ceiling of the tunnel is supported by a single beam that looks like it has seen better days. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1608} {0} {<afa>} {You brush away some dust, which reveals a hidden tunnel.} { } {[MAPON] H:413/413 M:128/128 V:269/270 XP:582228 C:*> A Cramped Tunnel     Leading to the west are two large iron rails, which lie beneath the debris strewn floor of this tunnel.  To east large beams, buried beneath rock and dust, protrude out from many different angles.  The ceiling of the tunnel is supported by a single beam that looks like it has seen better days. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1607} {w} {w} {8} {0} {}
 E { 1609} {e} {dig e;e} {2} {0} {}
 
-R { 1609} {0} {<fff>} {The End of the Tunnel} { } {The stale air stirs with your passage, probably for the first time in centuries.  The dark tunnel extends to the south and ends in a solid stone wall to the north.  The stone floor is covered with rather thick dust, perhaps from the rough ceiling and exposed beams.  The beams appear to have failed in their task along the west wall. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1609} {0} {<afa>} {There's no wall there.} { } {[MAPON] H:413/413 M:128/128 V:270/270 XP:582228 C:*> The End of the Tunnel      The stale air stirs with your passage, probably for the first time in centuries.  The dark tunnel extends to the south and ends in a solid stone wall to the north.  The stone floor is covered with rather thick dust, perhaps from the rough ceiling and exposed beams.  The beams appear to have failed in their task along the west wall. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1608} {w} {dig w;west} {8} {0} {}
 E { 1610} {s} {s} {4} {0} {}
 
-R { 1610} {0} {<fff>} {An Abandoned Mine Tunnel} { } {You are in the southern end of a finished mine tunnel.  The smooth floors end to the south where the passage is rough to say the least.  Overhead, finished beams support the ceiling, despite their losses to age.  The air around you swirls, but is stale and hasn't been freshened in some time. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1610} {0} {<afa>} {An Abandoned Mine Tunnel} { } {You are in the southern end of a finished mine tunnel.  The smooth floors end to the south where the passage is rough to say the least.  Overhead, finished beams support the ceiling, despite their losses to age.  The air around you swirls, but is stale and hasn't been freshened in some time. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1609} {n} {n} {1} {0} {}
 E { 1611} {s} {s} {4} {0} {}
 
-R { 1611} {0} {<fff>} {In the Tunnels} { } {You are in one of a maze of tunnels.  The rocks overhead are being held up by stout beams that seem old enough to have seen the creation of the world.  A thick layer of dust coats the stone floor, the product of decay in the beams. To the north is a carved and worked passageway.  To the south and east lie cramped and maze-like tunnels. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1611} {0} {<afa>} {In the Tunnels} { } {You are in one of a maze of tunnels.  The rocks overhead are being held up by stout beams that seem old enough to have seen the creation of the world.  A thick layer of dust coats the stone floor, the product of decay in the beams. To the north is a carved and worked passageway.  To the south and east lie cramped and maze-like tunnels. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1610} {n} {n} {1} {0} {}
 E { 1612} {e} {e} {2} {0} {}
 E { 1618} {s} {s} {4} {0} {}
 
-R { 1612} {0} {<fff>} {In the Tunnels} { } {This tunnel curves around to the north and west here.  In the distance you can hear a chittering sound that turns your knees to water.  The wood dust is thick on the floor and puffs up with each of your steps. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1612} {0} {<afa>} {In the Tunnels} { } {This tunnel curves around to the north and west here.  In the distance you can hear a chittering sound that turns your knees to water.  The wood dust is thick on the floor and puffs up with each of your steps. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1611} {w} {w} {8} {0} {}
 E { 1613} {n} {n} {1} {0} {}
 
-R { 1613} {0} {<fff>} {In the Tunnels} { } {Dust swirls about your feet as you make your way through the ancient passages under the mountain.  Overhead, the beams are maintaining the ceiling as they have done for centuries.  The passage extends to the east and south. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1613} {0} {<afa>} {In the Tunnels} { } {Dust swirls about your feet as you make your way through the ancient passages under the mountain.  Overhead, the beams are maintaining the ceiling as they have done for centuries.  The passage extends to the east and south. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1612} {s} {s} {4} {0} {}
 E { 1614} {e} {e} {2} {0} {}
 
-R { 1614} {0} {<fff>} {In the Tunnels} { } {Your footsteps echo through the passages as you tread these halls.  The thick dust scatters at your coming, but restores itself as you pass by.  The tunnels continue to the west and south, vanishing into darkness. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1614} {0} {<afa>} {In the Tunnels} { } {Your footsteps echo through the passages as you tread these halls.  The thick dust scatters at your coming, but restores itself as you pass by.  The tunnels continue to the west and south, vanishing into darkness. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1613} {w} {w} {8} {0} {}
 E { 1615} {s} {s} {4} {0} {}
 
-R { 1615} {0} {<fff>} {In the Tunnels} { } {Hopelessness almost overwhelms you for an instant when you realize that you are in a vast underground complex.  The feeling soon passes however as you catch a glimmer of light to the east.  All around you the dust of the ages sifts down from the ceiling and eddies about your legs. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1615} {0} {<afa>} {In the Tunnels} { } {Hopelessness almost overwhelms you for an instant when you realize that you are in a vast underground complex.  The feeling soon passes however as you catch a glimmer of light to the east.  All around you the dust of the ages sifts down from the ceiling and eddies about your legs. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1614} {n} {n} {1} {0} {}
 E { 1616} {s} {s} {4} {0} {}
 E { 1648} {e} {e} {2} {0} {}
 
-R { 1616} {0} {<fff>} {In the Tunnels} { } {The tunnel you are in forks here.  There are passages to the north, east and west.  Overhead, stout beams are preserving your meager life.  If they were to snap, you would die instantaneously as literally tons of rock crush the life out of you. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1616} {0} {<afa>} {In the Tunnels} { } {The tunnel you are in forks here.  There are passages to the north, east and west.  Overhead, stout beams are preserving your meager life.  If they were to snap, you would die instantaneously as literally tons of rock crush the life out of you. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1615} {n} {n} {1} {0} {}
 E { 1617} {w} {w} {8} {0} {}
 E { 1620} {e} {e} {2} {0} {}
 
-R { 1617} {0} {<fff>} {In the Tunnels} { } {You are in a maze of tunnels that seems to encompass your entire existence. Your life hangs on the beams overhead remaining intact just a little longer. The wood dust on the stone floor not only worries you concerning your longevity, but also makes your footing somewhat treacherous.  The tunnels continue to the east and west. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1617} {0} {<afa>} {In the Tunnels} { } {You are in a maze of tunnels that seems to encompass your entire existence. Your life hangs on the beams overhead remaining intact just a little longer. The wood dust on the stone floor not only worries you concerning your longevity, but also makes your footing somewhat treacherous.  The tunnels continue to the east and west. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1616} {e} {e} {2} {0} {}
 E { 1618} {w} {w} {8} {0} {}
 
-R { 1618} {0} {<fff>} {In the Tunnels} { } {The hive-like tunnel bends here.  No longer content to move in a straight line, it curves perceptibly to the north and east.  A chittering sound from the blackness is beginning to unnerve you.  Overhead, the wooden beams appear to be holding the roof up, but they are covered with something hard and black. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1618} {0} {<afa>} {In the Tunnels} { } {The hive-like tunnel bends here.  No longer content to move in a straight line, it curves perceptibly to the north and east.  A chittering sound from the blackness is beginning to unnerve you.  Overhead, the wooden beams appear to be holding the roof up, but they are covered with something hard and black. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1617} {e} {e} {2} {0} {}
 E { 1611} {n} {n} {1} {0} {}
 
@@ -6664,129 +6669,130 @@ R { 1619} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  409} {e} {e} {2} {0} {}
 E {  408} {w} {w} {8} {0} {}
 
-R { 1620} {0} {<fff>} {In the Tunnels} { } {You are in a maze of tunnels that form a warren that not even termites could fully comprehend.  The very heavy and unstable rocks overhead are being held up by protesting beams that are visibly losing mass in the form of wood dust.  The buildup on the stones beneath your feet attests to the time that these beams have borne their burden.  The tunnel extends to the east and west. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1620} {0} {<afa>} {In the Tunnels} { } {You are in a maze of tunnels that form a warren that not even termites could fully comprehend.  The very heavy and unstable rocks overhead are being held up by protesting beams that are visibly losing mass in the form of wood dust.  The buildup on the stones beneath your feet attests to the time that these beams have borne their burden.  The tunnel extends to the east and west. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1616} {w} {w} {8} {0} {}
 E { 1652} {e} {e} {2} {0} {}
 
-R { 1621} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+R { 1621} {8} {} {} { } {} {Mac Mordain Cadal} {} {} {} {1.000}
 E { 1603} {n} {n} {1} {0} {}
 E { 1602} {s} {s} {4} {0} {}
 
-R { 1622} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+R { 1622} {8} {} {} { } {} {Mac Mordain Cadal} {} {} {} {1.000}
 E { 1605} {n} {n} {1} {0} {}
 E { 1604} {s} {s} {4} {0} {}
 
-R { 1623} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+R { 1623} {8} {} {} { } {} {Mac Mordain Cadal} {} {} {} {1.000}
 E { 1607} {n} {n} {1} {0} {}
 E { 1606} {s} {s} {4} {0} {}
 
-R { 1624} {0} {<fff>} {An Old Mine} { } {A thick layer of dust covers the tunnel floor; protruding from underneath the dust are two large iron rails, leading to the north and south.  Splinters of wood layer the edges of the tunnel walls, following the rails deeper into the mine.  The air is dry and stale, and tastes of dirt. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1624} {0} {<afa>} {An Old Mine} { } {A thick layer of dust covers the tunnel floor; protruding from underneath the dust are two large iron rails, leading to the north and south.  Splinters of wood layer the edges of the tunnel walls, following the rails deeper into the mine.  The air is dry and stale, and tastes of dirt. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1607} {s} {s} {4} {0} {}
 E { 1625} {n} {n} {1} {0} {}
 
-R { 1625} {0} {<fff>} {A Bend in the Tunnel} { } {The mine here has odd iron rails firmly attached to the floor.  The stone floor has a thick layer of dust from the exposed beams holding the ceiling up. Despite the wood mass lost as dust, they seem to be doing a fairly good job of it. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1625} {0} {<afa>} {A Bend in the Tunnel} { } {The mine here has odd iron rails firmly attached to the floor.  The stone floor has a thick layer of dust from the exposed beams holding the ceiling up. Despite the wood mass lost as dust, they seem to be doing a fairly good job of it. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1624} {s} {s} {4} {0} {}
 E { 1626} {w} {w} {8} {0} {}
 
-R { 1626} {0} {<fff>} {A Bend in the Tunnel} { } {The mine has odd iron rails attached to the floor here.  The stone floor is covered in dust from the exposed beams above that are quite busy holding the ceiling above your head. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1626} {0} {<afa>} {A Bend in the Tunnel} { } {The mine has odd iron rails attached to the floor here.  The stone floor is covered in dust from the exposed beams above that are quite busy holding the ceiling above your head. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1625} {e} {e} {2} {0} {}
 E { 1627} {s} {s} {4} {0} {}
 
-R { 1627} {0} {<fff>} {A Fork in the Tunnel} { } {Here, the tunnel and the strange rails branch.  The passages extend to the north, south, and west.  The omnipresent dust covers the floor here as well as everywhere else in this abandoned mine.  Overhead, there is a huge crystal embedded in the ceiling that glows with a faint light, illuminating the cave. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1627} {0} {<afa>} {} { } {} {Mac Mordain Cadal} {} {} {} {1.000}
 E { 1626} {n} {n} {1} {0} {}
 E { 1628} {w} {w} {8} {0} {}
+E { 2154} {s} {s} {4} {0} {}
 
-R { 1628} {0} {<fff>} {An Abandoned Mine Tunnel} { } {The tunnel extends to the north and east with the omnipresent iron rails. The wooden beams above appear to be on the verge of collapse, to judge from the large quantity of dust sifting down from above; and of course, the slowly sinking ceiling. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1628} {0} {<afa>} {} { } {} {Mac Mordain Cadal} {} {} {} {1.000}
 E { 1627} {e} {e} {2} {0} {}
 E { 1629} {n} {n} {1} {0} {}
 
-R { 1629} {0} {<fff>} {An Abandoned Mine Tunnel} { } {The abandoned mine stretches to the north and south with the iron rails. The wooden beans are quite secure overhead despite the copious amounts of dust that they have shed.  Some of the dust has been scuffed away to reveal that the floor is still rough stone, worn smooth along the sides of the rails, as though from the passage of many ancient feet. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1629} {0} {<afa>} {A Fork in the Tunnel} { } {Here, the tunnel and the strange rails branch.  The passages extend to the north, south, and west.  The omnipresent dust covers the floor here as well as everywhere else in this abandoned mine.  Overhead, there is a huge crystal embedded in the ceiling that glows with a faint light, illuminating the cave. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1628} {s} {s} {4} {0} {}
 E { 1630} {n} {n} {1} {0} {}
 
-R { 1630} {0} {<fff>} {A Bend in the Abandoned Mine} { } {The iron rails and their tunnels curve around to the south from the east. A faint rustling sound comes from the east, as though creatures of the darkness are reacting to your light. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1630} {0} {<afa>} {A Bend in the Tunnel} { } {The mine has odd iron rails attached to the floor here.  The stone floor is covered in dust from the exposed beams above that are quite busy holding the ceiling above your head. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1629} {s} {s} {4} {0} {}
 E { 1631} {e} {e} {2} {0} {}
 
-R { 1631} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+R { 1631} {0} {<afa>} {A Bend in the Tunnel} { } {The mine here has odd iron rails firmly attached to the floor.  The stone floor has a thick layer of dust from the exposed beams holding the ceiling up. Despite the wood mass lost as dust, they seem to be doing a fairly good job of it. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1630} {w} {w} {8} {0} {}
 E { 1632} {e} {e} {2} {0} {}
 
-R { 1632} {0} {<fff>} {A Tunnel in an Abandoned Mine} { } {The rails continue through their tunnels to the east and west.  Above, the wooden beams are still doing their duty, but it looks as though they are beginning to rot. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1632} {0} {<afa>} {A Tunnel in an Abandoned Mine} { } {The rails continue through their tunnels to the east and west.  Above, the wooden beams are still doing their duty, but it looks as though they are beginning to rot. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1631} {w} {w} {8} {0} {}
 E { 1633} {e} {e} {2} {0} {}
 
-R { 1633} {0} {<fff>} {A Bend in the Tunnel} { } {Here, the tunnel bends here to the south and west.  Of course, the dwarves' iron rails accompany the tunnel.  Above you, the wooden support beams are falling apart.  This room could be blocked off by a cave-in at any time. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1633} {0} {<afa>} {A Bend in the Tunnel} { } {Here, the tunnel bends here to the south and west.  Of course, the dwarves' iron rails accompany the tunnel.  Above you, the wooden support beams are falling apart.  This room could be blocked off by a cave-in at any time. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1632} {w} {w} {8} {0} {}
 E { 1634} {s} {s} {4} {0} {}
 
-R { 1634} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+R { 1634} {0} {<afa>} {The End of the Tunnel} { } {This tunnel ends to the east in a huge cavern.  The tunnel extends to the north and is laid with iron rails.  The rails do not extend to the east.  The dwarves must not have needed their carts beyond this point. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1633} {n} {n} {1} {0} {}
 E { 1635} {e} {e} {2} {0} {}
 
-R { 1635} {0} {<fff>} {There is no room to get in there.} { } {} {NotYetSet} {} {} {} {1.000}
+R { 1635} {0} {<afa>} {A Small Passage} { } {Two large wooden support beams loom high over head, creaking lightly from the pressure above.  The ground of this passage has been carved smooth.  The walls are no more than two shoulder lengths apart, leaving the space very cramped for more than a couple of travelers.  Torches have been placed on either side of the passage's walls lighting the way. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1634} {w} {w} {8} {0} {}
 E { 1636} {e} {e} {2} {0} {}
 
-R { 1636} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+R { 1636} {0} {<afa>} {An Alcove Near the Glory Hole} { } {The small alcove you are standing in is located on the northern wall of what the ancient dwarves referred to as a glory hole.  The cavern to the south appears to be rather massive from what little you can make out from here. There is still an occasional glint of the metals mined from the glory hole. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1635} {w} {w} {8} {0} {}
 E { 1637} {s} {s} {4} {0} {}
 
-R { 1637} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+R { 1637} {0} {<afa>} {Within the Glory Hole} { } {You are in the center of an immense cavern.  The walls still bear the marks of the picks and chisels that the dwarves used to extract the precious metals that were found here in past centuries.  All about you there are glints as your light flashes off small facets in the rock walls and ceiling.  The ceiling bears a huge crystal face that allows a glimpse of the sky and allows light to pass through. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1636} {n} {n} {1} {0} {}
 E { 1638} {w} {w} {8} {0} {}
 E { 1639} {s} {s} {4} {0} {}
 E { 1641} {e} {e} {2} {0} {}
 
-R { 1638} {0} {<fff>} {An Alcove Near the Glory Hole} { } {This alcove was an extension of the main silver vein that the dwarves mined.  The main lode was to the east where there is now a large glory hole. While there is an occasional glint of silver in the walls, the dwarves didn't deem them worth mining. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1638} {0} {<afa>} {An Alcove Near the Glory Hole} { } {This alcove was an extension of the main silver vein that the dwarves mined.  The main lode was to the east where there is now a large glory hole. While there is an occasional glint of silver in the walls, the dwarves didn't deem them worth mining. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1637} {e} {e} {2} {0} {}
 
-R { 1639} {0} {<fff>} {No way!  You are fighting for your life!} { } {} {NotYetSet} {} {} {} {1.000}
+R { 1639} {0} {<afa>} {Within the Glory Hole} { } {Here in the southwest corner of the ancient dwarves' glory hole, you observe the leavings from their mining operation, made obvious when your light glints off of the walls.  The ceiling is supported with the aging wooden frames that virtually pour dust down onto those beneath. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1637} {n} {n} {1} {0} {}
 E { 1640} {e} {e} {2} {0} {}
 
-R { 1640} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+R { 1640} {0} {<afa>} {You brush away some dust, which reveals a hidden tunnel.} { } {[MAPON] H:391/413 M:128/128 V:258/270 XP:561334 C:*> Within the Glory Hole     You are standing in the southeast corner of the ancient dwarves' glory hole.  The ceiling is supported with the aging wooden frames that virtually pour dust down onto those beneath except at the eastern wall where there appears to have been a cave-in. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1639} {w} {w} {8} {0} {}
 E { 1641} {n} {n} {1} {0} {}
 E { 1642} {e} {dig e;e} {2} {0} {}
 
-R { 1641} {0} {<fff>} {Within the Glory Hole} { } {You are standing in the northeast corner of the ancient dwarves' glory hole.  All about you are the leavings from their mining operation, which you can observe when your light glints off of the walls.  The ceiling is supported with the aging wooden frames that virtually pour dust down onto those beneath. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1641} {0} {<afa>} {Within the Glory Hole} { } {You are standing in the northeast corner of the ancient dwarves' glory hole.  All about you are the leavings from their mining operation, which you can observe when your light glints off of the walls.  The ceiling is supported with the aging wooden frames that virtually pour dust down onto those beneath. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1640} {s} {s} {4} {0} {}
 E { 1637} {w} {w} {8} {0} {}
 
-R { 1642} {0} {<fff>} {By the Cave-In} { } {The tunnel here is caved in to the west, but continues to the east and south.  Overhead, the wooden supports appear to be bearing their load, but have collapsed at the west wall.  The area here is not as thoroughly mined as the glory holes.  There are bits and pieces of silver ore lying about. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1642} {0} {<afa>} {By the Cave-In} { } {The tunnel here is caved in to the west, but continues to the east and south.  Overhead, the wooden supports appear to be bearing their load, but have collapsed at the west wall.  The area here is not as thoroughly mined as the glory holes.  There are bits and pieces of silver ore lying about. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1640} {w} {dig w;w} {8} {0} {}
 E { 1643} {e} {e} {2} {0} {}
 E { 1649} {s} {s} {4} {0} {}
 
-R { 1643} {0} {<fff>} {An Alcove Near the Glory Hole} { } {You are in an alcove to the north of one of the dwarves' glory holes.  The walls around you shimmer in your light, the silver ore shining as it is illuminated.  To your west, there is a dark tunnel. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1643} {0} {<afa>} {An Alcove Near the Glory Hole} { } {You are in an alcove to the north of one of the dwarves' glory holes.  The walls around you shimmer in your light, the silver ore shining as it is illuminated.  To your west, there is a dark tunnel. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1642} {w} {w} {8} {0} {}
 E { 1644} {s} {s} {4} {0} {}
 
-R { 1644} {0} {<fff>} {Within the Glory Hole} { } {Here in the northwestern corner of one of the dwarves' glory holes, you can see stout wooden supports shoring up the steep walls to prevent them from collapsing on you.  Overhead, there is a large crystal face that allows a glimpse of sky and lets light pass into the cavern.  To the north lies a small alcove where the dwarves must have continued their eternal quest for more precious metals. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1644} {0} {<afa>} {Within the Glory Hole} { } {Here in the northwestern corner of one of the dwarves' glory holes, you can see stout wooden supports shoring up the steep walls to prevent them from collapsing on you.  Overhead, there is a large crystal face that allows a glimpse of sky and lets light pass into the cavern.  To the north lies a small alcove where the dwarves must have continued their eternal quest for more precious metals. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1643} {n} {n} {1} {0} {}
 E { 1645} {e} {e} {2} {0} {}
 E { 1647} {s} {s} {4} {0} {}
 
-R { 1645} {0} {<fff>} {Within the Glory Hole} { } {You are standing in the northeast corner of one of the dwarves' glory holes.  Stout wooden supports are shoring up the steep walls to prevent them from collapsing on you.  Overhead, there is a large crystal face that allows a glimpse of sky and lets light pass into the cavern. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1645} {0} {<afa>} {Within the Glory Hole} { } {You are standing in the northeast corner of one of the dwarves' glory holes.  Stout wooden supports are shoring up the steep walls to prevent them from collapsing on you.  Overhead, there is a large crystal face that allows a glimpse of sky and lets light pass into the cavern. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1644} {w} {w} {8} {0} {}
 E { 1646} {s} {s} {4} {0} {}
 
-R { 1646} {0} {<fff>} {Within the Glory Hole} { } {From your vantage point in the southwest corner of one of the dwarves' glory holes, you can observe stout wooden supports are shoring up the steep walls and preventing their collapse.  Overhead, there is a large crystal face that allows a glimpse of sky and lets light pass into the cavern.  To the east, there is a rock slide, obliterating whatever may have once been on the east wall. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1646} {0} {<afa>} {Within the Glory Hole} { } {From your vantage point in the southwest corner of one of the dwarves' glory holes, you can observe stout wooden supports are shoring up the steep walls and preventing their collapse.  Overhead, there is a large crystal face that allows a glimpse of sky and lets light pass into the cavern.  To the east, there is a rock slide, obliterating whatever may have once been on the east wall. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1645} {n} {n} {1} {0} {}
 E { 1647} {w} {w} {8} {0} {}
 
-R { 1647} {0} {<fff>} {Within the Glory Hole} { } {You are standing in the southwest corner of one of the dwarves' glory holes.  Stout wooden supports are shoring up the steep walls to prevent them from collapsing on you.  Overhead, there is a large crystal face that allows a glimpse of sky and lets light pass into the cavern.  To the north lies a small alcove where the dwarves must have continued their eternal quest for more precious metals. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1647} {0} {<afa>} {Within the Glory Hole} { } {You are standing in the southwest corner of one of the dwarves' glory holes.  Stout wooden supports are shoring up the steep walls to prevent them from collapsing on you.  Overhead, there is a large crystal face that allows a glimpse of sky and lets light pass into the cavern.  To the north lies a small alcove where the dwarves must have continued their eternal quest for more precious metals. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1646} {e} {e} {2} {0} {}
 E { 1648} {w} {w} {8} {0} {}
 E { 1644} {n} {n} {1} {0} {}
 E { 1652} {s} {s} {4} {0} {}
 
-R { 1648} {0} {<fff>} {In an Alcove Near the Glory Hole} { } {You are standing in an alcove on the western wall of a dwarven glory hole that leads farther into the cave system.  In the glory hole, light streams down from the ceiling, but appears inadequate to light the chamber.  The dust that coats everything in these caves is thinner here, but still swirls about. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1648} {0} {<afa>} {In an Alcove Near the Glory Hole} { } {You are standing in an alcove on the western wall of a dwarven glory hole that leads farther into the cave system.  In the glory hole, light streams down from the ceiling, but appears inadequate to light the chamber.  The dust that coats everything in these caves is thinner here, but still swirls about. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1647} {e} {e} {2} {0} {}
 E { 1615} {w} {w} {8} {0} {}
 
-R { 1649} {0} {<fff>} {The Dead End} { } {To the south, the tunnel dead ends, but it continues to the north.  The walls are scored with numerous chisel marks, but the dwarves' progress seems to have been stopped for no apparent reason.  Overhead, there are stout wooden supports holding the ceiling in place. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1649} {0} {<afa>} {The Dead End} { } {To the south, the tunnel dead ends, but it continues to the north.  The walls are scored with numerous chisel marks, but the dwarves' progress seems to have been stopped for no apparent reason.  Overhead, there are stout wooden supports holding the ceiling in place. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1642} {n} {n} {1} {0} {}
 
 R { 1650} {0} {<aaf>} {The Rilghorn River} {~} {To both the north and south are tall hills, guiding the river's path between the squeeze of their separate landmasses.  The northern hill is covered with flowers and the occasional sparse copse of trees.  The southern facing is stark and bare, raw rock exposing itself to the air.  The water seems ambivalent to the twin forces directing its path and moves along slowly, making a lazy path from the west to the east. } {Rilghorn River} {} {River} {} {1.000}
@@ -6797,7 +6803,7 @@ E { 1797} {e} {e} {2} {0} {}
 R { 1651} {0} {} {} {^^^} {} {} {} {} {} {1.000}
 E {  415} {w} {w} {8} {0} {}
 
-R { 1652} {0} {<fff>} {In the Tunnels} { } {The maze of tunnels that you find yourself in is connected to a dwarven glory hole to the north.  The rocks overhead are being held up by stout beams that seem old enough to have seen the creation of the world.  A thick layer of dust coats the stone floor, the product of decay in the beams.  The passage extends to the west. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1652} {0} {<afa>} {In the Tunnels} { } {The maze of tunnels that you find yourself in is connected to a dwarven glory hole to the north.  The rocks overhead are being held up by stout beams that seem old enough to have seen the creation of the world.  A thick layer of dust coats the stone floor, the product of decay in the beams.  The passage extends to the west. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1647} {n} {n} {1} {0} {}
 E { 1620} {w} {w} {8} {0} {}
 
@@ -7645,7 +7651,7 @@ E { 1849} {w} {w} {8} {0} {}
 E { 1852} {s} {s} {4} {0} {}
 E { 1853} {e} {e} {2} {0} {}
 
-R { 1851} {0} {<fff>} {Parade Grounds} { } {There are several straw targets here with arrows jutting out of them.  There is also a large log with many hack and slash mark on it.  This is where the elves practice their weapons skills.  Several broken blades and spear shafts lie upon the ground.  A tremendous amount of banging and cursing is coming from a small building to the south. } {NotYetSet} {} {Field} {} {1.000}
+R { 1851} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1849} {n} {n} {1} {0} {}
 E { 1852} {e} {e} {2} {0} {}
 E { 1881} {s} {s} {4} {0} {}
@@ -7783,24 +7789,24 @@ R { 1883} {0} {<fff>} {Swampy Path} { } {The wildly overrun path heads deep into
 E { 1908} {n} {n} {1} {0} {}
 E { 1884} {w} {w} {8} {0} {}
 
-R { 1884} {0} {<fff>} {Solid Path} { } {A shallow soiled, rocky path stretches westward deep within the boggy marshes.  A cool breeze flows lightly from the path's end, alleviating the putrid stink of rotten vegetation that lingers in the air.  The damp, swampy trail heads east into the center of vile greenish waters, and the craggy road } {NotYetSet} {} {Field} {} {1.000}
+R { 1884} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1883} {e} {e} {2} {0} {}
-E { 1885} {w} {w} {8} {0} {}
+E { 2008} {w} {w} {8} {0} {}
 
 R { 1885} {0} {<fff>} {Twist in Path} { } {The path has evolved into a sharp and rugged walkway, littered with jagged metamorphic rocks.  Worn down by time and exposure to the harsh elements, the rock has eroded to form a loose covering of mineralized gravel on the path, which takes a sudden twist towards the south.  Croaking amphibians and the nauseating scent of decay blows on a cool wind from the east. } {NotYetSet} {} {Field} {} {1.000}
-E { 1884} {e} {e} {2} {0} {}
+E { 2008} {e} {e} {2} {0} {}
 E { 1886} {s} {s} {4} {0} {}
 
-R { 1886} {0} {<fff>} {Rocky Path} { } {The rocky, pebble strewn path slowly winds around a gently sloping grassy hill.  Heavy jagged boulders stand as sentinels, graven stones that jut outward over the road in a solemn pose.  The trail splits at this junction, the gravel pass leading farther to the south while a thin trail east heads toward a narrow cavernous fissure within the hillside. } {NotYetSet} {} {Hills} {} {1.000}
+R { 1886} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1885} {n} {n} {1} {0} {}
-E { 1887} {e} {e} {2} {0} {}
+E { 2009} {e} {e} {2} {0} {}
 E { 1891} {s} {s} {4} {0} {}
 
-R { 1887} {0} {<fff>} {Cave Entrance} { } {The mouth of a cracked cavern extends deep into the side of the boulder studded grassy hill.  A tidy graveled path leads to a junction in the road, while utter darkness fills the cave to the south. } {NotYetSet} {} {Hills} {} {1.000}
-E { 1886} {w} {w} {8} {0} {}
+R { 1887} {0} {<fff>} {Cave Entrance} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2002} {w} {w} {8} {0} {}
 E { 1888} {s} {s} {4} {0} {}
 
-R { 1888} {0} {<fff>} {Cramped Tunnel} { } {Manganese veins run along the sloped walls of a naturally formed tunnel developed within the cragged cavern.  A musty, stifling scent pervades in the cramped conditions and increases noticeably in intensity as the passageway continues to the south.  Moving away from the stench, the fissure opens outward to green foliage and a sharp pebbled path. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1888} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1887} {n} {n} {1} {0} {}
 E { 1889} {s} {s} {4} {0} {}
 
@@ -7810,17 +7816,20 @@ E { 1890} {s} {s} {4} {0} {}
 
 R { 1890} {0} {<fff>} {Split in Tunnel} { } {The cramped, dingy tunnel abruptly splits ahead into the prevailing darkness.  The foul, musty odor emanates from the eastern fork most strongly, while a soft fresh breeze drifts in from the south.  A brief flickering glow lights the walls of the southern pass. } {NotYetSet} {} {Underground} {} {1.000}
 E { 1889} {n} {n} {1} {0} {}
+E { 1969} {e} {e} {2} {0} {}
+E { 1976} {s} {s} {4} {0} {}
 
 R { 1891} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1886} {n} {n} {1} {0} {}
-E { 1892} {w} {w} {8} {0} {}
+E { 1988} {w} {w} {8} {0} {}
 
-R { 1892} {0} {<fff>} {Base of the Hill} { } {The base of the hill is shaded by a low lying forest of dark crowned trees that droop twisted, overhanging branches into the path.  Gigantic slate boulders stand at the entrance of the grove, marking the separation between the open grass covered berm to the east, and the shadows of the wilderness.  The road continuing to the west is littered with dead tree limbs, and the dim shape of a silent figure peers through the scrubby vegetation. } {NotYetSet} {} {Forest} {} {1.000}
-E { 1891} {e} {e} {2} {0} {}
-E { 1893} {w} {w} {8} {0} {}
+R { 1892} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1988} {e} {e} {2} {0} {}
+E { 1991} {w} {w} {8} {0} {}
 
 R { 1893} {0} {<fff>} {A Clearing in the Dark Woods} { } {You are standing on the middle of a small clearing. A path leads back into the dark woods to the east as well as to the south. } {NotYetSet} {} {Forest} {} {1.000}
-E { 1892} {e} {e} {2} {0} {}
+E { 1991} {e} {e} {2} {0} {}
+E { 1985} {s} {s} {4} {0} {}
 
 R { 1894} {0} {<fff>} {The Path to the Cemetary} { } {A slight breeze wafts through the surrounding trees, sending the scent of flowers along the path.  The grassy area running beside the path looks like someone's beloved lawn.  To the north and east, marshy swamp stretches off into the distance, not remotely as convivial as the former location of the cemetery was.  Those meddling petitioners and their "strange noises" and "mysterious disappearances". } {NotYetSet} {} {Field} {} {1.000}
 E { 1855} {e} {e} {2} {0} {}
@@ -7893,7 +7902,7 @@ E { 1905} {n} {n} {1} {0} {}
 E { 1909} {s} {s} {4} {0} {}
 E { 1911} {w} {w} {8} {0} {}
 
-R { 1908} {8} {} {} { } {} {} {} {} {} {1.000}
+R { 1908} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1883} {s} {s} {4} {0} {}
 E { 1855} {n} {n} {1} {0} {}
 
@@ -8146,3 +8155,866 @@ E { 1966} {s} {s} {4} {0} {}
 R { 1968} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  698} {w} {w} {8} {0} {}
 E { 1965} {e} {e} {2} {0} {}
+
+R { 1969} {0} {<fff>} {Smelly Tunnel} { } {The walls feel like they are creeping in towards each other along the long, narrow, revolting smelling tunnel.  Scattered heaps of garbage and other moldy debris force the walkway to skirt around them, adding to the filthy ambience of the eastern passageway.  An intersection west offers a slight relief from the disgusting stench. } {NotYetSet} {} {Underground} {} {1.000}
+E { 1890} {w} {w} {8} {0} {}
+E { 1970} {e} {e} {2} {0} {}
+
+R { 1970} {0} {<fff>} {Twisting Cavern} { } {A long twisting cavern stretches deep within a dank, grimy, foul smelling tunnel complex.  Mineral deposits line the cramped tunnel to the west and slick mold deposits soak in the humid conditions to the north.  The grungy, distasteful odors have changed from the musty, sweet smell of rotting trash to a sickly, polluted organic fragrance. } {NotYetSet} {} {Underground} {} {1.000}
+E { 1969} {w} {w} {8} {0} {}
+E { 1971} {n} {n} {1} {0} {}
+
+R { 1971} {0} {<fff>} {Slippery Path} { } {A squalid, slippery trail leads into the enormous naturally hollowed cavern complex.  The smell of decaying vegetation and an unrecognizable organic odor have combined into a repugnant stink that saturates the entire passageway.  The path extends further into the mass of curving tunnels to the east and south. } {NotYetSet} {} {Underground} {} {1.000}
+E { 1970} {s} {s} {4} {0} {}
+E { 1972} {e} {e} {2} {0} {}
+
+R { 1972} {0} {<fff>} {Slippery Path} { } {Mold and puffball fungi putrefy along a filthy slippery path far into the tunnels under the hill.  Exits lie in many directions, and the faint sound of trickling water echoes from the southern passage.  The stale air from the east path assaults the senses with the revolting smell of rancid plant matter. } {NotYetSet} {} {Underground} {} {1.000}
+E { 1971} {w} {w} {8} {0} {}
+E { 1973} {e} {e} {2} {0} {}
+E { 1975} {s} {s} {4} {0} {}
+
+R { 1973} {0} {<fff>} {Smelly Path} { } {The floor of a wet, dripping, molding tunnel squishes and crackles under foot with the squishing of maggots and other disgusting insects that hide in the secrecy of the dark.  The path continues to the west, and to the east a faint draft blows several waves of a strong, putrid odor into the caverns. } {NotYetSet} {} {Underground} {} {1.000}
+E { 1972} {w} {w} {8} {0} {}
+E { 1974} {e} {e} {2} {0} {}
+
+R { 1974} {0} {<fff>} {Garbage Dump} { } {The walls expand into a huge natural cavern dominated by tremendous piles of foul, rotting debris and garbage.  Stacked to the very highest reaches of the giant ceilings, the trash heaps emit a terrifying odor of fermentation and putrescence that turns the stomach.  A small path to the west leads away from the refuse pit and offers a minimal respite from the nauseating stench. } {NotYetSet} {} {Underground} {} {1.000}
+E { 1973} {w} {w} {8} {0} {}
+
+R { 1975} {0} {<fff>} {Spawning Pool} { } {A spacious natural cavern expands around a tremendous pool of green, stagnant water.  Several dismembered skeletons lie about the edges of the pool where white, glowing fungi illuminate the surroundings in a pale, sickly pallor. } {NotYetSet} {} {Underground} {} {1.000}
+E { 1972} {n} {n} {1} {0} {}
+
+R { 1976} {0} {<fff>} {Cluttered Path} { } {A cluttered path, littered with piles of discarded items and rubbish, lies deep within the vast caverns.  The trail winds its way round some of the more obvious obstructions, and continues to the north and the west. } {NotYetSet} {} {Underground} {} {1.000}
+E { 1890} {n} {n} {1} {0} {}
+E { 1977} {w} {w} {8} {0} {}
+
+R { 1977} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1976} {e} {e} {2} {0} {}
+E { 1978} {w} {w} {8} {0} {}
+
+R { 1978} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1977} {e} {e} {2} {0} {}
+E { 1979} {s} {s} {4} {0} {}
+
+R { 1979} {0} {<fff>} {Three Way Intersection} { } {The smooth surfaced tunnel expands into a hollowed out three-way intersection deep within the twisted cavern complex under the hill.  A mighty chamber extends broadly to the north, and an awkward cavity is tucked into the western facing wall.  From the south, the cool hiss of running water echoes from a large jagged gap that looks like a gaping, toothy mouth. } {NotYetSet} {} {Underground} {} {1.000}
+E { 1978} {n} {n} {1} {0} {}
+E { 1980} {s} {s} {4} {0} {}
+E { 1982} {w} {w} {8} {0} {}
+
+R { 1980} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1979} {n} {n} {1} {0} {}
+E { 1981} {e} {e} {2} {0} {}
+
+R { 1981} {0} {<fff>} {Wet Tunnel} { } {The darkened path leads into a wet, slimy tunnel deep within a natural cavern.  The furious splash of rushing water can clearly be heard to the south, and a spacious cave extends to the east. } {NotYetSet} {} {Underground} {} {1.000}
+E { 1980} {w} {w} {8} {0} {}
+E { 1983} {e} {e} {2} {0} {}
+E { 1984} {s} {s} {4} {0} {}
+
+R { 1982} {0} {<fff>} {Guard Room} { } {A confined, uncomfortable cavern has been carved out of the immense tunnel structure.  The dishevelled room is scattered with broken, poorly made tables and rotting chairs laying on their sides.  A small rack filled with rusty and simple-made weapons rests along the western wall, and a smoldering torch casts a harsh glare about this compacted enclave.  The walls are completely sealed except for a rough opening to the east. } {NotYetSet} {} {Underground} {} {1.000}
+E { 1979} {e} {e} {2} {0} {}
+
+R { 1983} {0} {<fff>} {Wide Chamber} { } {A damp, bowl-shaped chamber with a stretched, sloping ceiling lies deep within the twisted tunnels and hollowed chambers.  Foul smelling piles of rotting garbage and rancid chunks of fish have been thrown about the cave, and misshapen, battered wooden furniture has been randomly turned over and discarded.  The only available exit is through a small tunnel in the western wall. } {NotYetSet} {} {Underground} {} {1.000}
+E { 1981} {w} {w} {8} {0} {}
+
+R { 1984} {0} {<fff>} {Sunken Cave} { } {Shadows envelope this squat sunken cave and small points of light reflect from the surface of a subterranean river.  The rumbling of the water breaking against coarse boulders, intermittently spaced along the southern stream bank, engulfs the senses.  The waterway flows from a broad fissure in the western wall and disappears under a wide crevice to the east.  Several fish bones and mangled skeletons have been scattered around the river's edge. } {NotYetSet} {} {Underground} {} {1.000}
+E { 1981} {n} {n} {1} {0} {}
+
+R { 1985} {0} {<fff>} {The Dark Woods} { } {You are traveling through woods that are as dark as night.  The trees above block all light and wind.  The air is stagnant and smells of death and decay. The lack of sounds and other signs of life make your skin crawl and you feel very much like turning back and heading for safer areas.  The path leads north onto a clearing, and also leads south into the darkness of the forest. } {NotYetSet} {} {Forest} {} {1.000}
+E { 1893} {n} {n} {1} {0} {}
+E { 1999} {s} {s} {4} {0} {}
+
+R { 1986} {0} {<fff>} {The Dark Woods} { } {You wearily travel through the darkness of the forest.  Huge skeletal trees line the edges of the path and tower above you.  Errant rays of light spear down through the gaps in the canopy above and provide small spots of light that seem to attract what little foliage can grow on the dark forest floor.  The path winds north and south into darkness. } {NotYetSet} {} {Forest} {} {1.000}
+E { 1999} {n} {n} {1} {0} {}
+E { 1987} {s} {s} {4} {0} {}
+
+R { 1987} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1986} {n} {n} {1} {0} {}
+E { 1989} {e} {e} {2} {0} {}
+E { 1990} {s} {s} {4} {0} {}
+
+R { 1988} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1892} {w} {w} {8} {0} {}
+E { 1891} {e} {e} {2} {0} {}
+
+R { 1989} {0} {<fff>} {In the Dense Forest} { } {You walk along a small path leading through a dark forest.  No sounds can be heard and little light penetrates the canopy of trees above you.  The air here smells musty and you long for a fresh breath.  You see an intersection of paths to the west.  The path you are on leads south into the darkening woods. } {NotYetSet} {} {Forest} {} {1.000}
+E { 1987} {w} {w} {8} {0} {}
+E { 1993} {s} {s} {4} {0} {}
+
+R { 1990} {0} {<fff>} {The Edge of the Forest and Hills} { } {You stand at the edge of a dark forest.  A path leads north into the forest and its deadly darkness and silence.  Looking west, you see a path that leads up into a foothills region.  Standing here on the boundary between light and darkness, you feel very vulnerable and alone. } {NotYetSet} {} {Hills} {} {1.000}
+E { 1987} {n} {n} {1} {0} {}
+E { 1997} {w} {w} {8} {0} {}
+
+R { 1991} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1893} {w} {w} {8} {0} {}
+E { 1892} {e} {e} {2} {0} {}
+
+R { 1992} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1993} {n} {n} {1} {0} {}
+E { 1994} {e} {e} {2} {0} {}
+E { 1995} {s} {s} {4} {0} {}
+
+R { 1993} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1992} {s} {s} {4} {0} {}
+E { 1989} {n} {n} {1} {0} {}
+
+R { 1994} {0} {<fff>} {The Swampy Path} { } {This damp path seems to lead into a deep, dark swamp.  The trees above block out all light and stifle the wind.  You smell swamp gas and hear damp squashing sounds all around you.  The path leads east deeper into the swamp.  You also see a dark forest to the west. } {NotYetSet} {} {Swamp} {} {1.000}
+E { 1992} {w} {w} {8} {0} {}
+E { 2001} {e} {e} {2} {0} {}
+
+R { 1995} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1992} {n} {n} {1} {0} {}
+E { 1996} {w} {w} {8} {0} {}
+
+R { 1996} {0} {<fff>} {The Bloody Intersection} { } {This is a small intersection.  Paths lead east, west, and south.  You are struck by the carnage here when you enter the clearing.  There appears to have been a great battle here, as blood is everywhere and the ground is all torn up. Pieces of beaten armor and broken blades lie all around.  Examining the tracks here lead you to believe that the dead and wounded were drug off in two directions, south and east. } {NotYetSet} {} {Hills} {} {1.000}
+E { 1995} {e} {e} {2} {0} {}
+E { 1998} {w} {w} {8} {0} {}
+E { 2004} {s} {s} {4} {0} {}
+
+R { 1997} {0} {<fff>} {The Rocky Path} { } {The path here is very rocky and treacherous. The traveling is rough and you slip and fall often. Looking north, you see that the path continues into the hills. Smoother ground is to the east, but the path seems to lead into a dark forest in that direction. } {NotYetSet} {} {Hills} {} {1.000}
+E { 1990} {e} {e} {2} {0} {}
+E { 2000} {s} {s} {4} {0} {}
+
+R { 1998} {0} {<fff>} {The Rocky Path} { } {The path here winds among the low rocky hills.  The long trek up and down the hills begins to tire you greatly.  Looking east, you see a small clearing. More hills are to the north of here. } {NotYetSet} {} {Hills} {} {1.000}
+E { 2000} {n} {n} {1} {0} {}
+E { 1996} {e} {e} {2} {0} {}
+
+R { 1999} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1986} {s} {s} {4} {0} {}
+E { 1985} {n} {n} {1} {0} {}
+
+R { 2000} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1998} {s} {s} {4} {0} {}
+E { 1997} {n} {n} {1} {0} {}
+
+R { 2001} {0} {<fff>} {The Swampy Path} { } {You tread lightly in a wet, swampy path.  All around you, you see pools of quicksand and rotting vegetation.  Unlike the forest to the west, the swamp is teeming with life.  Some of it is harmless, some is not.  The path leads east and west into more swamp. } {NotYetSet} {} {Swamp} {} {1.000}
+E { 1994} {w} {w} {8} {0} {}
+E { 2003} {e} {e} {2} {0} {}
+
+R { 2002} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1887} {e} {e} {2} {0} {}
+E { 2009} {w} {w} {8} {0} {}
+
+R { 2003} {0} {<fff>} {The Swampy Path} { } {You weave your way through the treacherous swamp.  Gas rises all around you and a damp mist covers the ground, making it impossible to travel safely without carefully picking your way around obstacles.  Large, gnarled trees rise above you.  Their moss-covered branches block out all traces of the sun.  The path here leads east and west. } {NotYetSet} {} {Swamp} {} {1.000}
+E { 2001} {w} {w} {8} {0} {}
+E { 2005} {e} {e} {2} {0} {}
+
+R { 2004} {0} {<fff>} {Up the Rocky Hillside} { } {You are climbing on a rocky hillside.  As you scramble about, loose rocks and small boulders bounce and fall down below you.  Looking to the east and west, you see more stable ground.  The hillside itself goes on higher to the south, and drops away to the north. } {NotYetSet} {} {Hills} {} {1.000}
+E { 1996} {n} {n} {1} {0} {}
+E { 2010} {e} {e} {2} {0} {}
+E { 2015} {s} {s} {4} {0} {}
+E { 2016} {w} {w} {8} {0} {}
+
+R { 2005} {0} {<fff>} {The Turn in the Swampy Path} { } {You come upon a bend in the swampy path.  The ground here is fairly sturdy, as this place is elevated above the rest of the swamp.  Looking around, you see a dark, mist filled swamp.  Small paths lead south and west into the mist. } {NotYetSet} {} {Swamp} {} {1.000}
+E { 2003} {w} {w} {8} {0} {}
+E { 2006} {s} {s} {4} {0} {}
+
+R { 2006} {0} {<fff>} {The Swampy Path} { } {You tread lightly through the murky water and sludge that makes up the path you follow.  To the south, there is a thick wall of mist, but you can see nothing within it.  Harder ground rises to the north. } {NotYetSet} {} {Swamp} {} {1.000}
+E { 2005} {n} {n} {1} {0} {}
+E { 2007} {s} {s} {4} {0} {}
+
+R { 2007} {0} {<faa>} {} {RNG} {} {NotYetSet} {} {} {} {1.000}
+E { 2006} {n} {n} {1} {0} {}
+
+R { 2008} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1885} {w} {w} {8} {0} {}
+E { 1884} {e} {e} {2} {0} {}
+
+R { 2009} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2002} {e} {e} {2} {0} {}
+E { 1886} {w} {w} {8} {0} {}
+
+R { 2010} {0} {<fff>} {Standing on Level Ground} { } {You are standing at the edge of a steep set of foothills.  Looking down, you see what appears to be a marshy, dark forest.  It reeks of death and decay. Even here, you catch its scent on the winds.  From here, you can travel south deeper into the foothills or to the west where a small pass will allow you to climb down. } {NotYetSet} {} {Hills} {} {1.000}
+E { 2004} {w} {w} {8} {0} {}
+E { 2011} {s} {s} {4} {0} {}
+
+R { 2011} {0} {<fff>} {Before the Dark Cave} { } {You stand directly before a huge dark cave. The rocks and boulders outside the cave are covered with blood stains, and all types of broken and shattered bones lie around. An unbearable stench comes from within the cave itself. The dark of the cave entrance looms to the east. The hills themselves lead towards the north, south, and west. } {NotYetSet} {} {Hills} {} {1.000}
+E { 2010} {n} {n} {1} {0} {}
+E { 2012} {e} {e} {2} {0} {}
+E { 2013} {s} {s} {4} {0} {}
+E { 2015} {w} {w} {8} {0} {}
+
+R { 2012} {0} {<fff>} {Inside the Horrid Cave} { } {The stench is overwhelming.  You can hardly breathe as you enter the cave. Looking around, you realize that some bizarre and horrible creature uses this cave as a home.  Skeletal remains lie all over.  Several half-eaten corpses are slowly rotting away in the gloomy darkness.  In the back of the cave, you see a large pile of rotting cloth, fur, and plant matter.  Light and safety is towards the west. } {NotYetSet} {} {Underground} {} {1.000}
+E { 2011} {w} {w} {8} {0} {}
+
+R { 2013} {0} {<fff>} {The Hills Above the Shoreline} { } {You stand on a rocky summit overlooking a rough shoreline below.  The sea wind blows hard across the rocks here and they have been worn smooth with time. Looking around, you notice that you can safely climb down towards the shore. The hills themselves stretch towards the north.  The rough summit you stand upon leads west along the shoreline. } {NotYetSet} {} {Hills} {} {1.000}
+E { 2011} {n} {n} {1} {0} {}
+E { 2014} {w} {w} {8} {0} {}
+
+R { 2014} {0} {<fff>} {The Hills Overlooking the Shoreline} { } {You stand on a barren section of hills that overlook a rocky shoreline. The stiff ocean wind has blown the rocks smooth here and you have to lean forward a bit to keep your balance. The salty sea air fills your nostrils and you notice signs of life in the rocky crags here. You can climb down towards the shore or head north into the hills themselves. The rocky summit you are standing on leads east and west along the shoreline. } {NotYetSet} {} {Hills} {} {1.000}
+E { 2013} {e} {e} {2} {0} {}
+E { 2015} {n} {n} {1} {0} {}
+E { 2018} {w} {w} {8} {0} {}
+
+R { 2015} {0} {<fff>} {Before the Huge Tree} { } {You enter a large ring of boulders.  Sheltered by this wall of stones, a small cluster of plants have sprung up.  In the center of this group of trees and bushes is a huge gnarled tree.  It appears to have been twisted and torn by the forces of nature.  It sways and moans as a strong wind from the south tears through its old feeble branches.  The hills themselves lead in all directions. } {NotYetSet} {} {Hills} {} {1.000}
+E { 2014} {s} {s} {4} {0} {}
+E { 2011} {e} {e} {2} {0} {}
+E { 2004} {n} {n} {1} {0} {}
+E { 2017} {w} {w} {8} {0} {}
+
+R { 2016} {0} {<fff>} {The Sparse Foothills} { } {You are in foothills that are sparsely covered by scraggly bushes and weather beaten trees.  There are little signs of life here; only bare rock and dry dirt can be seen.  Looking east, you see a small pass that will allow you to leave the foothills.  The foothills themselves extend to the south. } {NotYetSet} {} {Hills} {} {1.000}
+E { 2004} {e} {e} {2} {0} {}
+E { 2017} {s} {s} {4} {0} {}
+
+R { 2017} {0} {<fff>} {In the Foothills} { } {You are in a barren set of foothills.  Looking around, all you see are dead plants and boulders.  From the south, you get a whiff of salty air.  Barren paths lead east, north, and south into more barren hills. } {NotYetSet} {} {Hills} {} {1.000}
+E { 2016} {n} {n} {1} {0} {}
+E { 2015} {e} {e} {2} {0} {}
+E { 2018} {s} {s} {4} {0} {}
+
+R { 2018} {0} {<fff>} {The Hills Overlooking the Shore} { } {Standing at the edge of the foothills, you are able to look down upon a rocky shoreline.  It appears as though a vast ocean is to the south.  Sea birds have made their nests here in the rocks, and you are heartened by the presence of life here.  It is possible to climb down to the shore here.  The hills themselves are to the north, and the edge of the hills lead on to the east along the shoreline. } {NotYetSet} {} {Hills} {} {1.000}
+E { 2014} {e} {e} {2} {0} {}
+E { 2017} {n} {n} {1} {0} {}
+
+R { 2019} {0} {<fff>} {The Lotus Blossom} { } {The most popular bar (and the only bar) in town.  The only place where samurai and yakuza can sit in the same room and drink a hot cup of sake.  Many a farmer with marital problems can be found here, although most respectable people stay away.  Strange...  not as many people are here as you expected from the numbers going in.    There is an ornate teakwood door inconspicuously beckoning at the back of the room on the west wall, and you can leave north. } {NotYetSet} {} {Field} {} {1.000}
+E { 1586} {s} {s} {4} {0} {}
+E { 2021} {w} {w} {8} {0} {}
+
+R { 2020} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E {  960} {e} {e} {2} {0} {}
+E {  959} {w} {w} {8} {0} {}
+
+R { 2021} {0} {<fff>} {Back Room} { } {This is the "secret" opium den located in the back room of the Lotus Blossom.  The dim lighting is worsened by the smoke; the air is quite stuffy. Patrons lie around on mats in inebriated pleasure, sucking the deadly smoke that is their life's blood out of their water pipes.    One of the mats has been moved aside, revealing an inviting passage underneath... } {NotYetSet} {} {Inside} {} {1.000}
+E { 2019} {e} {e} {2} {0} {}
+E { 2024} {d} {d} {32} {0} {}
+
+R { 2022} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E {  959} {e} {e} {2} {0} {}
+E {  958} {w} {w} {8} {0} {}
+
+R { 2023} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+
+R { 2024} {0} {<fff>} {Yakuza Den} { } {The secret underground hideout of the Japanese gangsters known as the Yakuza.  Thieves scurry back and forth, some carrying messages, some carrying money, some carrying drugs.  Many of them are missing fingers.    The practice yard is to the west, and a foreboding room lies to the east... } {NotYetSet} {} {Inside} {} {1.000}
+E { 2021} {u} {u} {16} {0} {}
+E { 2025} {w} {w} {8} {0} {}
+E { 2026} {e} {e} {2} {0} {}
+
+R { 2025} {0} {<fff>} {Practice Yard} { } {The training yard of Japanese thieves.  Some of the younger Yakuza are practicing their skills here, honing their abilities to backstab, pick locks, steal, and so on.  You notice that most of them still have all of their fingers.  There is a passage leading back to the den to the east. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2024} {e} {e} {2} {0} {}
+
+R { 2026} {0} {<fff>} {Inner Sanctum} { } {This is the office of the Yakuza Master, head of organized crime in Little Kyoto.  A strong sense of lust for money and power pervades this place, adding to the atmosphere of violence.  Money and opium lie discarded carelessly all around the room, and you can exit to the west. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2024} {w} {w} {8} {0} {}
+
+R { 2027} {0} {<fff>} {Foyer} { } {The foyer of the Happy Samurai, the local whorehouse.  Very tastefully decorated, considering the business that is done here.  Paintings of cranes and peacocks line the walls, adding to the warm, friendly atmosphere.  You can take the stairway up to go deeper into the building, or you can exit to the west. } {NotYetSet} {} {Inside} {} {1.000}
+E { 1587} {w} {w} {8} {0} {}
+E { 2028} {u} {u} {16} {0} {}
+
+R { 2028} {0} {<fff>} {Hallway} { } {This is a quaint, well-kept hallway.  Not elegant, but serviceable.  There are two sliding paper screens here, to the north and south.  The hall continues east, and you can go down the stairs to the foyer.  Was that a giggle you just heard? } {NotYetSet} {} {Inside} {} {1.000}
+E { 2027} {d} {d} {32} {0} {}
+E { 2029} {n} {n} {1} {0} {}
+E { 2030} {e} {e} {2} {0} {}
+E { 2034} {s} {s} {4} {0} {}
+
+R { 2029} {0} {<fff>} {Bedroom} { } {You have entered one of the chambers where the geishas wait for their customers.  There are several mats and pillows lying around, and you can hear giggles and moans emanating from all around you.  The only exit is back through the paper screen. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2028} {s} {s} {4} {0} {}
+
+R { 2030} {0} {<fff>} {Hallway} { } {The hallway ends here at another paper screen to the east, with two others to your north and south.  You can travel west back down the hall, or maybe do a little "exploring."    Did you just hear a moan? } {NotYetSet} {} {Inside} {} {1.000}
+E { 2028} {w} {w} {8} {0} {}
+E { 2031} {n} {n} {1} {0} {}
+E { 2032} {e} {e} {2} {0} {}
+E { 2033} {s} {s} {4} {0} {}
+
+R { 2031} {0} {<fff>} {Bedroom} { } {You have entered one of the chambers where the geishas wait for their customers.  There are several mats and pillows lying around, and you can hear giggles and moans emanating from all around you.  The only exit is back through the paper screen. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2030} {s} {s} {4} {0} {}
+
+R { 2032} {0} {<fff>} {Matron Whore's Bedroom} { } {This room is different from the others, there is only one mat and one pillow, and the light is dimmer.  Hope you didn't interrupt anything. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2030} {w} {w} {8} {0} {}
+
+R { 2033} {0} {<fff>} {Bedroom} { } {You have entered one of the chambers where the geishas wait for their customers.  There are several mats and pillows lying around, and you can hear giggles and moans emanating from all around you.  The only exit is back through the paper screen. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2030} {n} {n} {1} {0} {}
+
+R { 2034} {0} {<fff>} {Bedroom} { } {You have entered one of the chambers where the geishas wait for their customers.  There are several mats and pillows lying around, and you can hear giggles and moans emanating from all around you.  The only exit is back through the paper screen. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2028} {n} {n} {1} {0} {}
+
+R { 2035} {0} {<fff>} {The Old Gate} { } {An ancient archway curves gracefully overhead, its smooth paleness nearly luminous, contrasting with the dull granite passage that it breaks.  On its north face, text from three languages has been engraved in characters two spans high.  The south side of the arch has recesses in the walls, space for counterbalancing systems for the now-missing doors. } {NotYetSet} {} {Inside} {} {1.000}
+E { 1591} {n} {n} {1} {0} {}
+
+R { 2036} {0} {<fff>} {} {!!!} {} {NotYetSet} {} {} {} {1.000}
+E { 1592} {n} {n} {1} {0} {}
+E { 2037} {d} {d} {32} {0} {}
+
+R { 2037} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2036} {u} {u} {16} {0} {}
+E { 2039} {w} {w} {8} {0} {}
+E { 2039} {d} {d} {32} {0} {}
+
+R { 2038} {0} {<fff>} {A Strange Passageway} { } {Your are in a strange passageway.  On one side, the wall is pitted and scarred, bathed in flickering torchlight.  The ground on this side is rutted and uneven.  The other side has walls of polished marble, dazzlingly white. The floor is mirror-smooth, in stark contrast to the disordered architecture of the rest of the passage.  It is as if this tunnel is the front of a battle between Chaos and Order, with both sides wresting for control. As you walk, you see that the hallway ebbs and flows, as Chaos takes over part of the floor, and Order wins it back. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2039} {e} {e} {2} {0} {}
+E { 2040} {w} {w} {8} {0} {}
+
+R { 2039} {0} {<fff>} {Alas, you cannot go that way.} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2037} {u} {u} {16} {0} {}
+E { 2038} {w} {w} {8} {0} {}
+
+R { 2040} {0} {<fff>} {The Choice} { } {You have reached a T-shaped intersection, here, all the pretense of the hallway is cast aside.  To the north the hallway is sheer insanity, as banshee winds scream their fury over pitted, scarred passages, while to the south, the hallway is deathly silent, with smooth, even floors and dazzling alabaster walls.  'You must decide your path,' the rumbling voice echoes inside your head, 'for you are the Chosen, and you shall be the one who tips the Balance irrevocably.' } {NotYetSet} {} {Inside} {} {1.000}
+E { 2038} {e} {e} {2} {0} {}
+E { 2041} {s} {s} {4} {0} {}
+
+R { 2041} {0} {<fff>} {An Ancient Hallway} { } {A deep voice intones, there is no turning back.  You must acquaint yourself with the trappings of Order, and see not only its lawfulness and peace, but its stifling of thought, and shackling of freedom.  This path leads to the Halls of Order, where your study will begin.    The voice disappears, leaving you alone in an ancient white hallway, whose alabaster walls and spotless floors seem to magnify your solitude.  For the first of many times, you begin to reconsider your choice. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2040} {n} {n} {1} {0} {}
+E { 2042} {s} {s} {4} {0} {}
+
+R { 2042} {0} {<fff>} {An Ancient Hallway} { } {This passageway is absolutely silent.  Its walls are a blank and featureless white, with no sign of wear or usage.  Your footfalls click gently on this surface, despite your heavy boots.  You shout aloud, to relieve the maddening silence, but your voice sounds small and lost, and its echo seems to be swallowed by the walls all about you. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2041} {n} {n} {1} {0} {}
+E { 2043} {w} {w} {8} {0} {}
+
+R { 2043} {0} {<fff>} {An Ancient Hallway} { } {The hallway here is odd indeed.  These strange sentinels walk their ancient pickets noiselessly, but leave no mark or trace in the fine, white dust.  Their footfalls are silent, there visages unmoving.  They are the living incarnation of these halls, where the forces of Chaos are allowed no foothold. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2042} {e} {e} {2} {0} {}
+E { 2044} {w} {w} {8} {0} {}
+
+R { 2044} {0} {<fff>} {An Ancient Hallway} { } {You are in an unsettling hallway.  Dust obscures the gleaming white floor, untrod since before recorded history, and the deafening silence, the unnatural quiet, grates on your psyche like steel on bone. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2043} {e} {e} {2} {0} {}
+E { 2045} {s} {s} {4} {0} {}
+
+R { 2045} {0} {<fff>} {An Ancient Hallway} { } {You are still in this silent hall, slowly losing hold on your thoughts, becoming a silent zombie, trudging forward with no clear purpose.  You frantically clutch at your sanity, unsheathing your blade and scratching a deep gouge in the alabaster floor.  The scraping shriek jolts you back to your senses, and you start to trudge on.  As you look at the ugly scratch you have and, the floor begins to turn fluid, erasing the mark, then hardens back to its glassy finish.  Dumbfounded, you stare at the spot, then feel for signs of your defacement.  Finding none, you decide to continue onwards, vowing to keep a tight rein on both you imagination and your sanity. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2044} {n} {n} {1} {0} {}
+E { 2046} {w} {w} {8} {0} {}
+
+R { 2046} {0} {<fff>} {An Ancient Hallway} { } {This passageway is absolutely silent.  Its walls are a blank and featureless white, with no sign of wear or usage.  Your footfalls click gently on this surface, despite your heavy boots.  You shout aloud, to relieve the maddening silence, but your voice sounds small and lost, and its echo seems to be swallowed by the walls all about you.  This time, your voice brings an instant, unbelievably rapid turn by one of the sentinels, his attention drawn by the momentary flash of disorder.  He seems to search for the source, but finds nothing. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2045} {e} {e} {2} {0} {}
+E { 2047} {w} {w} {8} {0} {}
+
+R { 2047} {0} {<fff>} {An Ancient Hallway} { } {You are in an spotlessly white and even-floored hallway.  An awful silence surrounds you, mitigated only by the echo of your footsteps.  To your west, the hallway opens up into an enormous Hall, which radiates an aura of unimaginable power.  You long to leave this hallway, for your mind is being crushed down beneath the weight of this unbearable silence. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2046} {e} {e} {2} {0} {}
+E { 2048} {w} {w} {8} {0} {}
+
+R { 2048} {0} {<fff>} {The Great Chamber of Order} { } {You have entered an enormous hall, whose walls seem to stretch out in all directions to the limits of your vision.  The air here is cool and crisp, carrying the sounds of your passage to the far reaches of this place, and sending their echoes to whisper from ivory walls in a grim mockery of your solitude.  The chamber has a sort of stark beauty to it, but it seems sterile, devoid of life. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2047} {e} {e} {2} {0} {}
+E { 2049} {s} {s} {4} {0} {}
+E { 2053} {w} {w} {8} {0} {}
+E { 2054} {n} {n} {1} {0} {}
+
+R { 2049} {0} {<fff>} {The Great Chamber of Order} { } {You have entered an enormous hall, whose walls seem to stretch out in all directions to the limits of your vision.  The air here is cool and crisp, carrying the sounds of your passage to the far reaches of this place, and sending their echoes to whisper from ivory walls in a grim mockery of your solitude.  The chamber has a sort of stark beauty to it, but it seems sterile, devoid of life.    To the south, you hear a raucous cry, and a gust of wind.  You see nothing but blackness in that direction, though you can make out a strange path. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2048} {n} {n} {1} {0} {}
+E { 2050} {w} {w} {8} {0} {}
+E { 2067} {s} {s} {4} {0} {}
+
+R { 2050} {0} {<fff>} {The Great Chamber of Order} { } {You are in an immense vaulted chamber, its walls and floors are made of a strange white stone which seems like alabaster, but whose surface is as unassailable as granite.  The Hall is utterly without adornment, and almost seems to have been hewed from the living rock by some unseen hands. Certainly no mortal agency carved these razor sharp angles and glassy surfaces.  The solitude of this place is overwhelming, even the sentinels, as they pass, are as unobtrusive as wraiths, white shadows at the edges of your vision. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2049} {e} {e} {2} {0} {}
+E { 2051} {w} {w} {8} {0} {}
+E { 2053} {n} {n} {1} {0} {}
+
+R { 2051} {0} {<fff>} {The Great Chamber of Order} { } {You are in an immense vaulted chamber, its walls and floors are made of a strange white stone which seems like alabaster, but whose surface is as unassailable as granite.  The Hall is utterly without adornment, and almost seems to have been hewed from the living rock by some unseen hands. Certainly no mortal agency carved these razor sharp angles and glassy surfaces.  The solitude of this place is overwhelming, even the sentinels, as they pass, are as unobtrusive as wraiths, white shadows at the edges of your vision. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2050} {e} {e} {2} {0} {}
+E { 2052} {n} {n} {1} {0} {}
+
+R { 2052} {0} {<fff>} {The Great Chamber of Order} { } {You have entered an enormous hall, whose walls seem to stretch out in all directions to the limits of your vision.  The air here is cool and crisp, carrying the sounds of your passage to the far reaches of this place, and sending their echoes to whisper from ivory walls in a grim mockery of your solitude.  The chamber has a sort of stark beauty to it, but it seems sterile, devoid of life. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2051} {s} {s} {4} {0} {}
+E { 2053} {e} {e} {2} {0} {}
+E { 2056} {n} {n} {1} {0} {}
+E { 2057} {w} {w} {8} {0} {}
+
+R { 2053} {0} {<fff>} {The Great Chamber of Order} { } {You are in an immense vaulted chamber, its walls and floors are made of a strange white stone which seems like alabaster, but whose surface is as unassailable as granite.  The Hall is utterly without adornment, and almost seems to have been hewed from the living rock by some unseen hands.  Certainly no mortal agency carved these razor sharp angles and glassy surfaces.  The solitude of this place is overwhelming, even the sentinels, as they pass, are as unobtrusive as wraiths, white shadows at the edges of your vision. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2052} {w} {w} {8} {0} {}
+E { 2050} {s} {s} {4} {0} {}
+E { 2048} {e} {e} {2} {0} {}
+E { 2055} {n} {n} {1} {0} {}
+
+R { 2054} {0} {<fff>} {The Great Chamber of Order} { } {You are in an immense vaulted chamber, its walls and floors are made of a strange white stone which seems like alabaster, but whose surface is as unassailable as granite.  The Hall is utterly without adornment, and almost seems to have been hewed from the living rock by some unseen hands. Certainly no mortal agency carved these razor sharp angles and glassy surfaces.  The solitude of this place is overwhelming, even the sentinels, as they pass, are as unobtrusive as wraiths, white shadows at the edges of your vision. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2048} {s} {s} {4} {0} {}
+E { 2055} {w} {w} {8} {0} {}
+
+R { 2055} {0} {<fff>} {The Great Chamber of Order} { } {You are in an immense vaulted chamber, its walls and floors are made of a strange white stone which seems like alabaster, but whose surface is as unassailable as granite.  The Hall is utterly without adornment, and almost seems to have been hewed from the living rock by some unseen hands. Certainly no mortal agency carved these razor sharp angles and glassy surfaces.  The solitude of this place is overwhelming, even the sentinels, as they pass, are as unobtrusive as wraiths, white shadows at the edges of your vision.    To the north you see a single white door carved into the stone, but no knob or keyhole is visible.  searching more carefully, you see a minute indentation, you have found the release for the secret door! } {NotYetSet} {} {Inside} {} {1.000}
+E { 2054} {e} {e} {2} {0} {}
+E { 2053} {s} {s} {4} {0} {}
+E { 2056} {w} {w} {8} {0} {}
+E { 2079} {n} {n} {1} {0} {}
+
+R { 2056} {0} {<fff>} {The Great Chamber of Order} { } {You are in an immense vaulted chamber, its walls and floors are made of a strange white stone which seems like alabaster, but whose surface is as unassailable as granite.  The Hall is utterly without adornment, and almost seems to have been hewed from the living rock by some unseen hands. Certainly no mortal agency carved these razor sharp angles and glassy surfaces.  The solitude of this place is overwhelming, even the sentinels, as they pass, are as unobtrusive as wraiths, white shadows at the edges of your vision. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2055} {e} {e} {2} {0} {}
+E { 2052} {s} {s} {4} {0} {}
+
+R { 2057} {0} {<fff>} {The Barracks of the Sentinels of Order} { } {You are walking down a hallway made of bare white rock, possibly alabaster, but without that stone's chalky softness.  A track has been worn in the living rock, indicating the passage of eons of footsteps.  The silence continues here, unnatural in its pervasiveness.  From the constant whisper of boot feet from the alcoves all around you, you realize that this is the main barracks of the Sentinels of Order, guardians of this sacred place.  You ponder your purpose in this strange place, ostensibly you are to make this momentous decision, but the lure of Order diminishes dramatically after seeing this sterile, soundless Keep.  Are the Halls of Chaos as odious in their own right? } {NotYetSet} {} {Inside} {} {1.000}
+E { 2052} {e} {e} {2} {0} {}
+E { 2058} {s} {s} {4} {0} {}
+E { 2059} {n} {n} {1} {0} {}
+E { 2060} {w} {w} {8} {0} {}
+
+R { 2058} {0} {<fff>} {A Sentinel Guard Post} { } {You are standing in one of the spartan chambers of the Sentinels of Order.  A hard backed ivory chair sits unobtrusively in the corner, while a well used whetstone rests on a small shelf.  The sentinels ignore your presence, they only guard this place against the incursions of Chaos' forces.  They make absolutely no sound as they pace back and forth on their pickets, a silent vigil which has continued since time immemorial.  You wildly consider screaming, clashing your sword against your shield, anything to break this unnatural silence.  On of the sentinels wheels sharply, sensing a whiff of Chaos from your direction.  As you regain control of your emotions, he continues his vigil, your presence again forgotten. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2057} {n} {n} {1} {0} {}
+
+R { 2059} {0} {<fff>} {A Sentinel Guard Post} { } {You are standing in one of the spartan chambers of the Sentinels of Order.  A hard backed ivory chair sits unobtrusively in the corner, while a well used whetstone rests on a small shelf.  The sentinels ignore your presence, they only guard this place against the incursions of Chaos' forces.  They make absolutely no sound as they pace back and forth on their pickets, a silent vigil which has continued since time immemorial.  You wildly consider screaming, clashing your sword against your shield, anything to break this unnatural silence.  On of the sentinels wheels sharply, sensing a whiff of Chaos from your direction.  As you regain control of your emotions, he continues his vigil, your presence again forgotten. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2057} {s} {s} {4} {0} {}
+
+R { 2060} {0} {<fff>} {The Barracks of the Sentinels of Order} { } {You are walking down a hallway made of bare white rock, possibly alabaster, but without that stone's chalky softness.  A track has been worn in the living rock, indicating the passage of eons of footsteps.  The silence continues here, unnatural in its pervasiveness.  From the constant whisper of boot feet from the alcoves all around you, you realize that this is the main barracks of the Sentinels of Order, guardians of this sacred place.  You ponder your purpose in this strange place, ostensibly you are to make this momentous decision, but the lure of Order diminishes dramatically after seeing this sterile, soundless Keep.  Are the Halls of Chaos as odious in their own right? } {NotYetSet} {} {Inside} {} {1.000}
+E { 2057} {e} {e} {2} {0} {}
+E { 2061} {n} {n} {1} {0} {}
+E { 2062} {s} {s} {4} {0} {}
+E { 2063} {w} {w} {8} {0} {}
+
+R { 2061} {0} {<fff>} {A Sentinel Guard Post} { } {You are standing in one of the spartan chambers of the Sentinels of Order.  A hard backed ivory chair sits unobtrusively in the corner, while a well used whetstone rests on a small shelf.  The sentinels ignore your presence, they only guard this place against the incursions of Chaos' forces.  They make absolutely no sound as they pace back and forth on their pickets, a silent vigil which has continued since time immemorial.  You wildly consider screaming, clashing your sword against your shield, anything to break this unnatural silence.  On of the sentinels wheels sharply, sensing a whiff of Chaos from your direction.  As you regain control of your emotions, he continues his vigil, your presence again forgotten. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2060} {s} {s} {4} {0} {}
+
+R { 2062} {0} {<fff>} {A Sentinel Guard Post} { } {You are standing in one of the spartan chambers of the Sentinels of Order.  A hard backed ivory chair sits unobtrusively in the corner, while a well used whetstone rests on a small shelf.  The sentinels ignore your presence, they only guard this place against the incursions of Chaos' forces.  They make absolutely no sound as they pace back and forth on their pickets, a silent vigil which has continued since time immemorial.  You wildly consider screaming, clashing your sword against your shield, anything to break this unnatural silence.  On of the sentinels wheels sharply, sensing a whiff of Chaos from your direction.  As you regain control of your emotions, he continues his vigil, your presence again forgotten. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2060} {n} {n} {1} {0} {}
+
+R { 2063} {0} {<fff>} {The Barracks of the Sentinels of Order} { } {You are walking down a hallway made of bare white rock, possibly alabaster, but without that stone's chalky softness.  A track has been worn in the living rock, indicating the passage of eons of footsteps.  The silence continues here, unnatural in its pervasiveness.  From the constant whisper of boot feet from the alcoves all around you, you realize that this is the main barracks of the Sentinels of Order, guardians of this sacred place.  You ponder your purpose in this strange place, ostensibly you are to make this momentous decision, but the lure of Order diminishes dramatically after seeing this sterile, soundless Keep.  Are the Halls of Chaos as odious in their own right? } {NotYetSet} {} {Inside} {} {1.000}
+E { 2060} {e} {e} {2} {0} {}
+E { 2064} {n} {n} {1} {0} {}
+E { 2065} {s} {s} {4} {0} {}
+E { 2066} {w} {w} {8} {0} {}
+
+R { 2064} {0} {<fff>} {A Sentinel Guard Post} { } {You are standing in one of the spartan chambers of the Sentinels of Order.  A hard backed ivory chair sits unobtrusively in the corner, while a well used whetstone rests on a small shelf.  The sentinels ignore your presence, they only guard this place against the incursions of Chaos' forces.  They make absolutely no sound as they pace back and forth on their pickets, a silent vigil which has continued since time immemorial.  You wildly consider screaming, clashing your sword against your shield, anything to break this unnatural silence.  On of the sentinels wheels sharply, sensing a whiff of Chaos from your direction.  As you regain control of your emotions, he continues his vigil, your presence again forgotten. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2063} {s} {s} {4} {0} {}
+
+R { 2065} {0} {<fff>} {A Sentinel Guard Post} { } {You are standing in one of the spartan chambers of the Sentinels of Order.  A hard backed ivory chair sits unobtrusively in the corner, while a well used whetstone rests on a small shelf.  The sentinels ignore your presence, they only guard this place against the incursions of Chaos' forces.  They make absolutely no sound as they pace back and forth on their pickets, a silent vigil which has continued since time immemorial.  You wildly consider screaming, clashing your sword against your shield, anything to break this unnatural silence.  One of the sentinels wheels sharply, sensing a whiff of Chaos from your direction.  As you regain control of your emotions, he continues his vigil, your presence again forgotten. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2063} {n} {n} {1} {0} {}
+
+R { 2066} {0} {<fff>} {A Sentinel Guard Post} { } {You are standing in one of the spartan chambers of the Sentinels of Order.  A hard backed ivory chair sits unobtrusively in the corner, while a well used whetstone rests on a small shelf.  The sentinels ignore your presence, they only guard this place against the incursions of Chaos' forces.  They make absolutely no sound as they pace back and forth on their pickets, a silent vigil which has continued since time immemorial.  You wildly consider screaming, clashing your sword against your shield, anything to break this unnatural silence.  On of the sentinels wheels sharply, sensing a whiff of Chaos from your direction.  As you regain control of your emotions, he continues his vigil, your presence again forgotten. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2063} {e} {e} {2} {0} {}
+
+R { 2067} {0} {<fff>} {The Ascent to the Eyrie} { } {You find yourself in a different place.  Where there should be stars and sky, there is only nothingness, where there should be solid earth, there is an twisting ribbon of onyx leading upward into the emptiness.  Far, far above you, you see a platform of some sort, and heard the raucous call of some enormous bird. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2049} {n} {n} {1} {0} {}
+E { 2068} {u} {u} {16} {0} {}
+
+R { 2068} {0} {<fff>} {The Ascent to the Eyrie} { } {You have climbed closer to the platform, though you can make out its nature.  The ribbon of onyx sways slightly as you climb, and a single golden feather floats down past you.  You reach out to catch it, but the ribbon sway so violently that you are forced to stop and watch it drift into the void below. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2067} {d} {d} {32} {0} {}
+E { 2069} {u} {u} {16} {0} {}
+
+R { 2069} {0} {<fff>} {The Ascent to the Eyrie} { } {You are now close enough to the platform to discern its true nature.  It is the huge nest of some monstrous bird.  The ribbon is swaying madly now, and you'd best hurry up to solid ground.  All about you, eldritch winds buffet you, threatening to force you from your unstable path. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2068} {d} {d} {32} {0} {}
+E { 2070} {u} {u} {16} {0} {}
+
+R { 2070} {0} {<fff>} {A Windy Ledge on the Brink of Oblivion} { } {You are on a rocky ledge, complete with grasses and dusty rocks, as you would find on any mountainside in the realms.  With a shudder, you realize that where the realms' azure sky should be, there is only impenetrable blackness.  The ledge is narrow, but you can keep your footing if you proceed with care. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2069} {d} {d} {32} {0} {}
+E { 2071} {e} {e} {2} {0} {}
+
+R { 2071} {0} {<fff>} {A Windy Ledge on the Brink of Oblivion} { } {You are on a rocky ledge, complete with grasses and dusty rocks, as you would find on any mountainside in the realms.  With a shudder, you realize that where the realms' azure sky should be, there is only impenetrable blackness.  The ledge is narrow, but you can keep your footing if you proceed with care.    To the south, there seems to be an entrance to the nest, but you would have to leap down.  Certainly the force of your impact would be too much for the fragile structure, and you would plummet to your death. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2070} {w} {w} {8} {0} {}
+E { 2072} {e} {e} {2} {0} {}
+
+R { 2072} {0} {<fff>} {A Windy Ledge on the Brink of Oblivion} { } {You are on a rocky ledge, complete with grasses and dusty rocks, as you would find on any mountainside in the realms.  With a shudder, you realize that where the realms' azure sky should be, there is only impenetrable blackness. The ledge is narrow, but you can keep your footing if you proceed with care.    Below the ledge there seems to be a solid spot in the eyrie which you may leap down to.  It seems a bit risky, but you are fairly sure that the branches will support your weight. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2071} {w} {w} {8} {0} {}
+E { 2073} {d} {d} {32} {0} {}
+
+R { 2073} {0} {<fff>} {The Eyrie of Order} { } {You are standing on a strange nest high above the Halls of Order. Formless void surrounds you, without even the comforting sparkle of the night's stars to mitigate the endless blackness.  The nest itself is utterly spectacular.  It is composed of slender branches of a silvery wood, which seems warm to the touch, and it insulated with down-soft golden feathers.    The ledge you leapt from is a long, long leap above you, and you will probably die in the attempt.  A deafening shriek assaults your ears, coming from the glowing tree to the south. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2072} {u} {u} {16} {0} {}
+E { 2074} {w} {w} {8} {0} {}
+E { 2076} {s} {s} {4} {0} {}
+E { 2077} {e} {e} {2} {0} {}
+
+R { 2074} {0} {<fff>} {The Eyrie of Order} { } {You are standing on a strange nest high above the Halls of Order. Formless void surrounds you, without even the comforting sparkle of the night's stars to mitigate the endless blackness.  The nest itself is utterly spectacular.  It is composed of slender branches of a silvery wood, which seems warm to the touch, and it insulated with down-soft golden feathers.  You hear a raucous call to the southeast. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2073} {e} {e} {2} {0} {}
+E { 2075} {s} {s} {4} {0} {}
+
+R { 2075} {0} {<fff>} {The Eyrie of Order} { } {You are standing on a strange nest high above the Halls of Order. Formless void surrounds you, without even the comforting sparkle of the night's stars to mitigate the endless blackness.  The nest itself is utterly spectacular.  It is composed of slender branches of a silvery wood, which seems warm to the touch, and it insulated with down-soft golden feathers.  To the east, you hear the beating or enormous wings, followed by a gust of icy air. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2074} {n} {n} {1} {0} {}
+E { 2076} {e} {e} {2} {0} {}
+
+R { 2076} {0} {<fff>} {The Lofty Perch of the Great Eagle of Order} { } {Before you stands a beautiful tree, glowing with magical power from every perfectly formed leaf and branch.  It extends upward to the limits of your vision.  A sudden ruffle of feathers snaps your attention away from the lovely tree, for the is a mighty bird perched on one of the lower branches.  This must be the Great Eagle of Order, eldest of birds, who keeps watch over the realms. His knowing eyes seem to penetrate the void with ease, because when you follow his gaze, you see only blackness.  His attention is clearly directed away from you, as if you are beneath his lofty concern.  Strangely, the ground is soft here. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2075} {w} {w} {8} {0} {}
+E { 2073} {n} {n} {1} {0} {}
+E { 2078} {e} {e} {2} {0} {}
+E { 2049} {d} {d} {32} {0} {}
+
+R { 2077} {0} {<fff>} {The Eyrie of Order} { } {You are standing on a strange nest high above the Halls of Order. Formless void surrounds you, without even the comforting sparkle of the night's stars to mitigate the endless blackness.  The nest itself is utterly spectacular.  It is composed of slender branches of a silvery wood, which seems warm to the touch, and it insulated with down-soft golden feathers.  The eyrie seems somewhat unstable here, and you'd best move on, quickly. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2073} {w} {w} {8} {0} {}
+E { 2078} {s} {s} {4} {0} {}
+
+R { 2078} {0} {<fff>} {The Eyrie of Order} { } {You are standing on a strange nest high above the Halls of Order. Formless void surrounds you, without even the comforting sparkle of the night's stars to mitigate the endless blackness.  The nest itself is utterly spectacular.  It is composed of slender branches of a silvery wood, which seems warm to the touch, and it insulated with down-soft golden feathers.  To your west, you see a glowing tree, with an enormous shape perched in its branches. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2077} {n} {n} {1} {0} {}
+E { 2076} {w} {w} {8} {0} {}
+
+R { 2079} {0} {<fff>} {A Simple Stairwell} { } {You are ascending a simple flight of stairs.  The railing is of a glowing white wood, and the stairs themselves show a thin patina of dust, as if no mortal foot has trod them for age upon age.  From above, you hear soft breathing and the gentle click of ivory on ivory.    The way southwards leads back to the great hall, but the allure of the mystery above you draws you on, despite your trepidation. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2055} {s} {s} {4} {0} {}
+E { 2080} {u} {u} {16} {0} {}
+
+R { 2080} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2079} {d} {d} {32} {0} {}
+E { 2083} {u} {u} {16} {0} {}
+
+R { 2081} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {Thunder and lightning rage all about you, and unholy light illuminates the scene in a lurid half light.  Screaming wraiths streak past the edges of your perception like zephyrs, gone before you can turn to look.  The Chaos square upon which you stand plays with your psyche, twisting you about at its whim, making you search for what you will never find.  'It is all a game,' the voices seem to whisper in your ear.  You realize with a start that you have been standing here for several minutes.  You shake your head, hoping to dispel the phantasms which haunt you, but you only succeed in driving them under the surface, which whence they will surely return. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2082} {d} {d} {32} {0} {}
+E { 2084} {e} {e} {2} {0} {}
+E { 2085} {n} {n} {1} {0} {}
+E { 2086} {w} {w} {8} {0} {}
+
+R { 2082} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2081} {u} {u} {16} {0} {}
+E { 2083} {d} {d} {32} {0} {}
+
+R { 2083} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2082} {u} {u} {16} {0} {}
+E { 2080} {d} {d} {32} {0} {}
+
+R { 2084} {0} {<fff>} {An Order Square in the Game of Balance} {O} {This square is a place of peace.  A simple ivory platform, lacking trappings or decoration of any kind.  The sky above you is featureless, and you feel at one moment like your could reach up and touch it, then the next that it is miles away.  The ground seems warm to the touch, like human flash, and yields beneath your footsteps.  You hear the quiet babble of a brook somewhere close by, but see nothing.  You are standing, but feel as though you recline on bed of gossamer.  Your mind is blank, and you feel simple comfort.  As you drift into a torpor of satisfaction, you realize that you are forgetting your purpose here.  You shake off the haze of calm which enfolds you, and vow be more wary of temptation as you continue on your journey. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2081} {w} {w} {8} {0} {}
+E { 2113} {e} {e} {2} {0} {}
+E { 2114} {n} {n} {1} {0} {}
+
+R { 2085} {0} {<fff>} {An Order Square in the Game of Balance} {O} {You are dazzled by the brilliant white surface of this square.  Small golden figures of unicorns and eagles adorn its ivory surface, and your mind is filled with a sense of discipline and peace.  You silently wonder if the security of a world which knows only Order is worth the sacrifice of the passion and change which are the heralds of Chaos.  Will your actions today alter this balance irrevocably?  Are you indeed the one chosen to determine the fate of the Realms?  The agony of uncertainly wrenches your mind, and the burden of responsibility weighs like a millstone about your shoulders.  The choice is yours to make, you must decide. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2081} {s} {s} {4} {0} {}
+E { 2114} {e} {e} {2} {0} {}
+E { 2097} {w} {w} {8} {0} {}
+E { 2118} {n} {n} {1} {0} {}
+
+R { 2086} {0} {<fff>} {An Order Square in the Game of Balance} {O} {A crushing weight settles on your shoulders, and your mind strains against shackles which seem to constrain it.  Your thoughts become clearer, devoid of emotion, your ideas become regimented and uninspired.  It seemed clear to you that Order was the logical choice, but on the square you experience the strictures of Order, the loss of passion and individuality, and the sacrifice of self to the greater good.  It is a loss which burns like a fiery coal in your breast, and you reconsider your choice. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2081} {e} {e} {2} {0} {}
+E { 2087} {w} {w} {8} {0} {}
+E { 2097} {n} {n} {1} {0} {}
+
+R { 2087} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {A feeling of exhilaration fills you as you step onto this square.  The urge to fight, to laugh, to scream madly your defiance of the world floods your soul.  This is the other face of Chaos, the desire for change, the need for emotion.  This square, you know, will drive you mad if you stay, but the yearning to give in to temptation is potent indeed.  This choice you must make is not a simple one, and though your mind looks for Order, your soul flies on the heady winds of Chaos. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2086} {e} {e} {2} {0} {}
+E { 2088} {w} {w} {8} {0} {}
+E { 2096} {n} {n} {1} {0} {}
+
+R { 2088} {0} {<fff>} {An Order Square in the Game of Balance} {O} {You are dazzled by the brilliant white surface of this square.  Small golden figures of unicorns and eagles adorn its ivory surface, and your mind is filled with a sense of discipline and peace.  You silently wonder if the security of a world which knows only Order is worth the sacrifice of the passion and change which are the heralds of Chaos.  Will your actions today alter this balance irrevocably?  Are you indeed the one chosen to determine the fate of the Realms?  The agony of uncertainly wrenches your mind, and the burden of responsibility weighs like a millstone about your shoulders.  The choice is yours to make, you must decide. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2087} {e} {e} {2} {0} {}
+E { 2089} {w} {w} {8} {0} {}
+E { 2095} {n} {n} {1} {0} {}
+
+R { 2089} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {You are standing on the swirling surface of a chaos square in this strange game.  The square is made of a smooth glassy material, which seems impervious to physical or magical damage, but visible through its semi translucent surface, a mist of many colors roils and swells, occasionally set afire by electrical bursts from within the cloud.  As you gape at the spectacle of this eldritch storm raging beneath your feet, you wonder whether your actions will indeed alter the fragile balance between Order and Chaos which has existed since the beginning of all things. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2088} {e} {e} {2} {0} {}
+E { 2090} {n} {n} {1} {0} {}
+
+R { 2090} {0} {<fff>} {An Order Square in the Game of Balance} {O} {A crushing weight settles on your shoulders, and your mind strains against shackles which seem to constrain it.  Your thoughts become clearer, devoid of emotion, your ideas become regimented and uninspired.  It seemed clear to you that Order was the logical choice, but on the square you experience the strictures of Order, the loss of passion and individuality, and the sacrifice of self to the greater good.  It is a loss which burns like a fiery coal in your breast, and you reconsider your choice. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2089} {s} {s} {4} {0} {}
+E { 2091} {n} {n} {1} {0} {}
+E { 2095} {e} {e} {2} {0} {}
+
+R { 2091} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {Thunder and lightning rage all about you, and unholy light illuminates the scene in a lurid half light.  Screaming wraiths streak past the edges of your perception like zephyrs, gone before you can turn to look.  The Chaos square upon which you stand plays with your psyche, twisting you about at its whim, making you search for what you will never find.  'It is all a game,' the voices seem to whisper in your ear.  You realize with a start that you have been standing here for several minutes.  You shake your head, hoping to dispel the phantasms which haunt you, but you only succeed in driving them under the surface, which whence they will surely return. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2090} {s} {s} {4} {0} {}
+E { 2092} {n} {n} {1} {0} {}
+E { 2098} {e} {e} {2} {0} {}
+
+R { 2092} {0} {<fff>} {An Order Square in the Game of Balance} {O} {You are dazzled by the brilliant white surface of this square.  Small golden figures of unicorns and eagles adorn its ivory surface, and your mind is filled with a sense of discipline and peace.  You silently wonder if the security of a world which knows only Order is worth the sacrifice of the passion and change which are the heralds of Chaos.  Will your actions today alter this balance irrevocably?  Are you indeed the one chosen to determine the fate of the Realms?  The agony of uncertainly wrenches your mind, and the burden of responsibility weighs like a millstone about your shoulders.  The choice is yours to make, you must decide. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2091} {s} {s} {4} {0} {}
+E { 2093} {n} {n} {1} {0} {}
+E { 2099} {e} {e} {2} {0} {}
+
+R { 2093} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {A feeling of exhilaration fills you as you step onto this square.  The urge to fight, to laugh, to scream madly your defiance of the world floods your soul.  This is the other face of Chaos, the desire for change, the need for emotion.  This square, you know, will drive you mad if you stay, but the yearning to give in to temptation is potent indeed.  This choice you must make is not a simple one, and though your mind looks for Order, your soul flies on the heady winds of Chaos. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2092} {s} {s} {4} {0} {}
+E { 2094} {n} {n} {1} {0} {}
+E { 2100} {e} {e} {2} {0} {}
+
+R { 2094} {0} {<fff>} {An Order Square in the Game of Balance} {O} {This square is a place of peace.  A simple ivory platform, lacking trappings or decoration of any kind.  The sky above you is featureless, and you feel at one moment like your could reach up and touch it, then the next that it is miles away.  The ground seems warm to the touch, like human flash, and yields beneath your footsteps.  You hear the quiet babble of a brook somewhere close by, but see nothing.  You are standing, but feel as though you recline on bed of gossamer.  Your mind is blank, and you feel simple comfort.  As you drift into a torpor of satisfaction, you realize that you are forgetting your purpose here.  You shake off the haze of calm which enfolds you, and vow be more wary of temptation as you continue on your journey. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2093} {s} {s} {4} {0} {}
+E { 2101} {e} {e} {2} {0} {}
+E { 2131} {n} {n} {1} {0} {}
+
+R { 2095} {0} {<fff>} {A Chaos Square in the Game of Balance} {Air} {A feeling of exhilaration fills you as you step onto this square.  The urge to fight, to laugh, to scream madly your defiance of the world floods your soul.  This is the other face of Chaos, the desire for change, the need for emotion.  This square, you know, will drive you mad if you stay, but the yearning to give in to temptation is potent indeed.  This choice you must make is not a simple one, and though your mind looks for Order, your soul flies on the heady winds of Chaos.    The very air here seems to shimmer with gathering magical power, becoming increasingly hazy as the seconds tick by. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2088} {s} {s} {4} {0} {}
+E { 2090} {w} {w} {8} {0} {}
+E { 2096} {e} {e} {2} {0} {}
+E { 2098} {n} {n} {1} {0} {}
+
+R { 2096} {0} {<fff>} {An Order Square in the Game of Balance} {O} {This square is a place of peace.  A simple ivory platform, lacking trappings or decoration of any kind.  The sky above you is featureless, and you feel at one moment like your could reach up and touch it, then the next that it is miles away.  The ground seems warm to the touch, like human flash, and yields beneath your footsteps.  You hear the quiet babble of a brook somewhere close by, but see nothing.  You are standing, but feel as though you recline on bed of gossamer.  Your mind is blank, and you feel simple comfort.  As you drift into a torpor of satisfaction, you realize that you are forgetting your purpose here.  You shake off the haze of calm which enfolds you, and vow be more wary of temptation as you continue on your journey. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2095} {w} {w} {8} {0} {}
+E { 2087} {s} {s} {4} {0} {}
+E { 2097} {e} {e} {2} {0} {}
+E { 2120} {n} {n} {1} {0} {}
+
+R { 2097} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {Thunder and lightning rage all about you, and unholy light illuminates the scene in a lurid half light.  Screaming wraiths streak past the edges of your perception like zephyrs, gone before you can turn to look.  The Chaos square upon which you stand plays with your psyche, twisting you about at its whim, making you search for what you will never find.  'It is all a game,' the voices seem to whisper in your ear.  You realize with a start that you have been standing here for several minutes.  You shake your head, hoping to dispel the phantasms which haunt you, but you only succeed in driving them under the surface, which whence they will surely return. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2096} {w} {w} {8} {0} {}
+E { 2086} {s} {s} {4} {0} {}
+E { 2085} {e} {e} {2} {0} {}
+E { 2119} {n} {n} {1} {0} {}
+
+R { 2098} {0} {<fff>} {An Order Square in the Game of Balance} {O} {This square is a place of peace.  A simple ivory platform, lacking trappings or decoration of any kind.  The sky above you is featureless, and you feel at one moment like your could reach up and touch it, then the next that it is miles away.  The ground seems warm to the touch, like human flesh, and yields beneath your footsteps.  You hear the quiet babble of a brook somewhere close by, but see nothing.  You are standing, but feel as though you recline on bed of gossamer.  Your mind is blank, and you feel simple comfort.  As you drift into a torpor of satisfaction, you realize that you are forgetting your purpose here.  You shake off the haze of calm which enfolds you, and vow be more wary of temptation as you continue on your journey. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2095} {s} {s} {4} {0} {}
+E { 2099} {n} {n} {1} {0} {}
+E { 2120} {e} {e} {2} {0} {}
+E { 2091} {w} {w} {8} {0} {}
+
+R { 2099} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {You are standing on the swirling surface of a chaos square in this strange game.  The square is made of a smooth glassy material, which seems impervious to physical or magical damage, but visible through its semi translucent surface, a mist of many colors roils and swells, occasionally set afire by electrical bursts from within the cloud.  As you gape at the spectacle of this eldritch storm raging beneath your feet, you wonder whether your actions will indeed alter the fragile balance between Order and Chaos which has existed since the beginning of all things. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2098} {s} {s} {4} {0} {}
+E { 2100} {n} {n} {1} {0} {}
+E { 2092} {w} {w} {8} {0} {}
+E { 2121} {e} {e} {2} {0} {}
+
+R { 2100} {0} {<fff>} {An Order Square in the Game of Balance} {O} {A crushing weight settles on your shoulders, and your mind strains against shackles which seem to constrain it.  Your thoughts become clearer, devoid of emotion, your ideas become regimented and uninspired.  It seemed clear to you that Order was the logical choice, but on the square you experience the strictures of Order, the loss of passion and individuality, and the sacrifice of self to the greater good.  It is a loss which burns like a fiery coal in your breast, and you reconsider your choice. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2099} {s} {s} {4} {0} {}
+E { 2101} {n} {n} {1} {0} {}
+E { 2124} {e} {e} {2} {0} {}
+E { 2093} {w} {w} {8} {0} {}
+
+R { 2101} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {Thunder and lightning rage all about you, and unholy light illuminates the scene in a lurid half light.  Screaming wraiths streak past the edges of your perception like zephyrs, gone before you can turn to look.  The Chaos square upon which you stand plays with your psyche, twisting you about at its whim, making you search for what you will never find.  'It is all a game,' the voices seem to whisper in your ear.  You realize with a start that you have been standing here for several minutes.  You shake your head, hoping to dispel the phantasms which haunt you, but you only succeed in driving them under the surface, which whence they will surely return. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2100} {s} {s} {4} {0} {}
+E { 2102} {e} {e} {2} {0} {}
+E { 2094} {w} {w} {8} {0} {}
+E { 2134} {n} {n} {1} {0} {}
+
+R { 2102} {0} {<fff>} {An Order Square in the Game of Balance} {O} {You are dazzled by the brilliant white surface of this square.  Small golden figures of unicorns and eagles adorn its ivory surface, and your mind is filled with a sense of discipline and peace.  You silently wonder if the security of a world which knows only Order is worth the sacrifice of the passion and change which are the heralds of Chaos.  Will your actions today alter this balance irrevocably?  Are you indeed the one chosen to determine the fate of the Realms?  The agony of uncertainly wrenches your mind, and the burden of responsibility weighs like a millstone about your shoulders.  The choice is yours to make, you must decide. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2101} {w} {w} {8} {0} {}
+E { 2103} {e} {e} {2} {0} {}
+E { 2124} {s} {s} {4} {0} {}
+E { 2135} {n} {n} {1} {0} {}
+
+R { 2103} {0} {<fff>} {} {C} {} {NotYetSet} {} {} {} {1.000}
+E { 2102} {w} {w} {8} {0} {}
+E { 2104} {e} {e} {2} {0} {}
+E { 2123} {s} {s} {4} {0} {}
+E { 2146} {n} {n} {1} {0} {}
+
+R { 2104} {0} {<fff>} {An Order Square in the Game of Balance} {O} {A crushing weight settles on your shoulders, and your mind strains against shackles which seem to constrain it.  Your thoughts become clearer, devoid of emotion, your ideas become regimented and uninspired.  It seemed clear to you that Order was the logical choice, but on the square you experience the strictures of Order, the loss of passion and individuality, and the sacrifice of self to the greater good.  It is a loss which burns like a fiery coal in your breast, and you reconsider your choice. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2103} {w} {w} {8} {0} {}
+E { 2105} {e} {e} {2} {0} {}
+E { 2130} {s} {s} {4} {0} {}
+E { 2145} {n} {n} {1} {0} {}
+
+R { 2105} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {A feeling of exhilaration fills you as you step onto this square.  The urge to fight, to laugh, to scream madly your defiance of the world floods your soul.  This is the other face of Chaos, the desire for change, the need for emotion.  This square, you know, will drive you mad if you stay, but the yearning to give in to temptation is potent indeed.  This choice you must make is not a simple one, and though your mind looks for Order, your soul flies on the heady winds of Chaos. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2104} {w} {w} {8} {0} {}
+E { 2106} {e} {e} {2} {0} {}
+E { 2129} {s} {s} {4} {0} {}
+E { 2144} {n} {n} {1} {0} {}
+
+R { 2106} {0} {<fff>} {An Order Square in the Game of Balance} {O} {This square is a place of peace.  A simple ivory platform, lacking trappings or decoration of any kind.  The sky above you is featureless, and you feel at one moment like your could reach up and touch it, then the next that it is miles away.  The ground seems warm to the touch, like human flash, and yields beneath your footsteps.  You hear the quiet babble of a brook somewhere close by, but see nothing.  You are standing, but feel as though you recline on bed of gossamer.  Your mind is blank, and you feel simple comfort.  As you drift into a torpor of satisfaction, you realize that you are forgetting your purpose here.  You shake off the haze of calm which enfolds you, and vow be more wary of temptation as you continue on your journey. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2105} {w} {w} {8} {0} {}
+E { 2107} {e} {e} {2} {0} {}
+E { 2128} {s} {s} {4} {0} {}
+E { 2143} {n} {n} {1} {0} {}
+
+R { 2107} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {Thunder and lightning rage all about you, and unholy light illuminates the scene in a lurid half light.  Screaming wraiths streak past the edges of your perception like zephyrs, gone before you can turn to look.  The Chaos square upon which you stand plays with your psyche, twisting you about at its whim, making you search for what you will never find.  'It is all a game,' the voices seem to whisper in your ear.  You realize with a start that you have been standing here for several minutes.  You shake your head, hoping to dispel the phantasms which haunt you, but you only succeed in driving them under the surface, which whence they will surely return. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2106} {w} {w} {8} {0} {}
+E { 2108} {s} {s} {4} {0} {}
+E { 2142} {n} {n} {1} {0} {}
+
+R { 2108} {0} {<fff>} {An Order Square in the Game of Balance} {O} {A crushing weight settles on your shoulders, and your mind strains against shackles which seem to constrain it.  Your thoughts become clearer, devoid of emotion, your ideas become regimented and uninspired.  It seemed clear to you that Order was the logical choice, but on the square you experience the strictures of Order, the loss of passion and individuality, and the sacrifice of self to the greater good.  It is a loss which burns like a fiery coal in your breast, and you reconsider your choice. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2107} {n} {n} {1} {0} {}
+E { 2109} {s} {s} {4} {0} {}
+E { 2128} {w} {w} {8} {0} {}
+
+R { 2109} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {You are standing on the swirling surface of a chaos square in this strange game.  The square is made of a smooth glassy material, which seems impervious to physical or magical damage, but visible through its semi translucent surface, a mist of many colors roils and swells, occasionally set afire by electrical bursts from within the cloud.  As you gape at the spectacle of this eldritch storm raging beneath your feet, you wonder whether your actions will indeed alter the fragile balance between Order and Chaos which has existed since the beginning of all things. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2108} {n} {n} {1} {0} {}
+E { 2110} {s} {s} {4} {0} {}
+E { 2127} {w} {w} {8} {0} {}
+
+R { 2110} {0} {<fff>} {An Order Square in the Game of Balance} {O} {This square is a place of peace.  A simple ivory platform, lacking trappings or decoration of any kind.  The sky above you is featureless, and you feel at one moment like your could reach up and touch it, then the next that it is miles away.  The ground seems warm to the touch, like human flash, and yields beneath your footsteps.  You hear the quiet babble of a brook somewhere close by, but see nothing.  You are standing, but feel as though you recline on bed of gossamer.  Your mind is blank, and you feel simple comfort.  As you drift into a torpor of satisfaction, you realize that you are forgetting your purpose here.  You shake off the haze of calm which enfolds you, and vow be more wary of temptation as you continue on your journey. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2109} {n} {n} {1} {0} {}
+E { 2111} {s} {s} {4} {0} {}
+E { 2116} {w} {w} {8} {0} {}
+
+R { 2111} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {A feeling of exhilaration fills you as you step onto this square.  The urge to fight, to laugh, to scream madly your defiance of the world floods your soul.  This is the other face of Chaos, the desire for change, the need for emotion.  This square, you know, will drive you mad if you stay, but the yearning to give in to temptation is potent indeed.  This choice you must make is not a simple one, and though your mind looks for Order, your soul flies on the heady winds of Chaos. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2110} {n} {n} {1} {0} {}
+E { 2112} {s} {s} {4} {0} {}
+E { 2115} {w} {w} {8} {0} {}
+
+R { 2112} {0} {<fff>} {An Order Square in the Game of Balance} {O} {You are dazzled by the brilliant white surface of this square.  Small golden figures of unicorns and eagles adorn its ivory surface, and your mind is filled with a sense of discipline and peace.  You silently wonder if the security of a world which knows only Order is worth the sacrifice of the passion and change which are the heralds of Chaos.  Will your actions today alter this balance irrevocably?  Are you indeed the one chosen to determine the fate of the Realms?  The agony of uncertainly wrenches your mind, and the burden of responsibility weighs like a millstone about your shoulders.  The choice is yours to make, you must decide. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2111} {n} {n} {1} {0} {}
+E { 2113} {w} {w} {8} {0} {}
+
+R { 2113} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {You are standing on the swirling surface of a chaos square in this strange game.  The square is made of a smooth glassy material, which seems impervious to physical or magical damage, but visible through its semi translucent surface, a mist of many colors roils and swells, occasionally set afire by electrical bursts from within the cloud.  As you gape at the spectacle of this eldritch storm raging beneath your feet, you wonder whether your actions will indeed alter the fragile balance between Order and Chaos which has existed since the beginning of all things. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2112} {e} {e} {2} {0} {}
+E { 2084} {w} {w} {8} {0} {}
+E { 2115} {n} {n} {1} {0} {}
+
+R { 2114} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {You are standing on the swirling surface of a chaos square in this strange game.  The square is made of a smooth glassy material, which seems impervious to physical or magical damage, but visible through its semi translucent surface, a mist of many colors roils and swells, occasionally set afire by electrical bursts from within the cloud.  As you gape at the spectacle of this eldritch storm raging beneath your feet, you wonder whether your actions will indeed alter the fragile balance between Order and Chaos which has existed since the beginning of all things. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2084} {s} {s} {4} {0} {}
+E { 2085} {w} {w} {8} {0} {}
+E { 2115} {e} {e} {2} {0} {}
+E { 2117} {n} {n} {1} {0} {}
+
+R { 2115} {0} {<fff>} {An Order Square in the Game of Balance} {O} {A crushing weight settles on your shoulders, and your mind strains against shackles which seem to constrain it.  Your thoughts become clearer, devoid of emotion, your ideas become regimented and uninspired.  It seemed clear to you that Order was the logical choice, but on the square you experience the strictures of Order, the loss of passion and individuality, and the sacrifice of self to the greater good.  It is a loss which burns like a fiery coal in your breast, and you reconsider your choice. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2114} {w} {w} {8} {0} {}
+E { 2113} {s} {s} {4} {0} {}
+E { 2111} {e} {e} {2} {0} {}
+E { 2116} {n} {n} {1} {0} {}
+
+R { 2116} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {Thunder and lightning rage all about you, and unholy light illuminates the scene in a lurid half light.  Screaming wraiths streak past the edges of your perception like zephyrs, gone before you can turn to look.  The Chaos square upon which you stand plays with your psyche, twisting you about at its whim, making you search for what you will never find.  'It is all a game,' the voices seem to whisper in your ear.  You realize with a start that you have been standing here for several minutes.  You shake your head, hoping to dispel the phantasms which haunt you, but you only succeed in driving them under the surface, which whence they will surely return. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2110} {e} {e} {2} {0} {}
+E { 2115} {s} {s} {4} {0} {}
+E { 2117} {w} {w} {8} {0} {}
+E { 2127} {n} {n} {1} {0} {}
+
+R { 2117} {0} {<fff>} {An Order Square in the Game of Balance} {O} {} {NotYetSet} {} {} {} {1.000}
+E { 2116} {e} {e} {2} {0} {}
+E { 2114} {s} {s} {4} {0} {}
+E { 2118} {w} {w} {8} {0} {}
+E { 2126} {n} {n} {1} {0} {}
+
+R { 2118} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {A feeling of exhilaration fills you as you step onto this square.  The urge to fight, to laugh, to scream madly your defiance of the world floods your soul.  This is the other face of Chaos, the desire for change, the need for emotion.  This square, you know, will drive you mad if you stay, but the yearning to give in to temptation is potent indeed.  This choice you must make is not a simple one, and though your mind looks for Order, your soul flies on the heady winds of Chaos. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2117} {e} {e} {2} {0} {}
+E { 2085} {s} {s} {4} {0} {}
+E { 2119} {w} {w} {8} {0} {}
+E { 2125} {n} {n} {1} {0} {}
+
+R { 2119} {0} {<fff>} {An Order Square in the Game of Balance} {O} {You are dazzled by the brilliant white surface of this square.  Small golden figures of unicorns and eagles adorn its ivory surface, and your mind is filled with a sense of discipline and peace.  You silently wonder if the security of a world which knows only Order is worth the sacrifice of the passion and change which are the heralds of Chaos.  Will your actions today alter this balance irrevocably?  Are you indeed the one chosen to determine the fate of the Realms?  The agony of uncertainly wrenches your mind, and the burden of responsibility weighs like a millstone about your shoulders.  The choice is yours to make, you must decide. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2118} {e} {e} {2} {0} {}
+E { 2097} {s} {s} {4} {0} {}
+E { 2120} {w} {w} {8} {0} {}
+E { 2122} {n} {n} {1} {0} {}
+
+R { 2120} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {You are standing on the swirling surface of a chaos square in this strange game.  The square is made of a smooth glassy material, which seems impervious to physical or magical damage, but visible through its semi translucent surface, a mist of many colors roils and swells, occasionally set afire by electrical bursts from within the cloud.  As you gape at the spectacle of this eldritch storm raging beneath your feet, you wonder whether your actions will indeed alter the fragile balance between Order and Chaos which has existed since the beginning of all things. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2119} {e} {e} {2} {0} {}
+E { 2096} {s} {s} {4} {0} {}
+E { 2098} {w} {w} {8} {0} {}
+E { 2121} {n} {n} {1} {0} {}
+
+R { 2121} {0} {<fff>} {An Order Square in the Game of Balance} {O} {A crushing weight settles on your shoulders, and your mind strains against shackles which seem to constrain it.  Your thoughts become clearer, devoid of emotion, your ideas become regimented and uninspired.  It seemed clear to you that Order was the logical choice, but on the square you experience the strictures of Order, the loss of passion and individuality, and the sacrifice of self to the greater good.  It is a loss which burns like a fiery coal in your breast, and you reconsider your choice. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2120} {s} {s} {4} {0} {}
+E { 2122} {e} {e} {2} {0} {}
+E { 2099} {w} {w} {8} {0} {}
+E { 2124} {n} {n} {1} {0} {}
+
+R { 2122} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {A feeling of exhilaration fills you as you step onto this square.  The urge to fight, to laugh, to scream madly your defiance of the world floods your soul.  This is the other face of Chaos, the desire for change, the need for emotion.  This square, you know, will drive you mad if you stay, but the yearning to give in to temptation is potent indeed.  This choice you must make is not a simple one, and though your mind looks for Order, your soul flies on the heady winds of Chaos. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2121} {w} {w} {8} {0} {}
+E { 2123} {n} {n} {1} {0} {}
+E { 2119} {s} {s} {4} {0} {}
+E { 2125} {e} {e} {2} {0} {}
+
+R { 2123} {0} {<fff>} {An Order Square in the Game of Balance} {O} {This square is a place of peace.  A simple ivory platform, lacking trappings or decoration of any kind.  The sky above you is featureless, and you feel at one moment like your could reach up and touch it, then the next that it is miles away.  The ground seems warm to the touch, like human flash, and yields beneath your footsteps.  You hear the quiet babble of a brook somewhere close by, but see nothing.  You are standing, but feel as though you recline on bed of gossamer.  Your mind is blank, and you feel simple comfort.  As you drift into a torpor of satisfaction, you realize that you are forgetting your purpose here.  You shake off the haze of calm which enfolds you, and vow to be more wary of temptation as you continue on your journey. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2122} {s} {s} {4} {0} {}
+E { 2124} {w} {w} {8} {0} {}
+E { 2103} {n} {n} {1} {0} {}
+E { 2130} {e} {e} {2} {0} {}
+
+R { 2124} {0} {<fff>} {} {C} {} {NotYetSet} {} {} {} {1.000}
+E { 2123} {e} {e} {2} {0} {}
+E { 2102} {n} {n} {1} {0} {}
+E { 2100} {w} {w} {8} {0} {}
+E { 2121} {s} {s} {4} {0} {}
+
+R { 2125} {0} {<fff>} {An Order Square in the Game of Balance} {O} {} {NotYetSet} {} {} {} {1.000}
+E { 2122} {w} {w} {8} {0} {}
+E { 2118} {s} {s} {4} {0} {}
+E { 2126} {e} {e} {2} {0} {}
+E { 2130} {n} {n} {1} {0} {}
+
+R { 2126} {0} {<fff>} {A Chaos Square in the Game of Balance} { } {Thunder and lightning rage all about you, and unholy light illuminates the scene in a lurid half light.  Screaming wraiths streak past the edges of your perception like zephyrs, gone before you can turn to look.  The Chaos square upon which you stand plays with your psyche, twisting you about at its whim, making you search for what you will never find.  'It is all a game,' the voices seem to whisper in your ear.  You realize with a start that you have been standing here for several minutes.  You shake your head, hoping to dispel the phantasms which haunt you, but you only succeed in driving them under the surface, which whence they will surely return. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2125} {w} {w} {8} {0} {}
+E { 2117} {s} {s} {4} {0} {}
+E { 2127} {e} {e} {2} {0} {}
+E { 2129} {n} {n} {1} {0} {}
+
+R { 2127} {0} {<fff>} {An Order Square in the Game of Balance} {O} {You are dazzled by the brilliant white surface of this square.  Small golden figures of unicorns and eagles adorn its ivory surface, and your mind is filled with a sense of discipline and peace.  You silently wonder if the security of a world which knows only Order is worth the sacrifice of the passion and change which are the heralds of Chaos.  Will your actions today alter this balance irrevocably?  Are you indeed the one chosen to determine the fate of the Realms?  The agony of uncertainly wrenches your mind, and the burden of responsibility weighs like a millstone about your shoulders.  The choice is yours to make, you must decide. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2126} {w} {w} {8} {0} {}
+E { 2116} {s} {s} {4} {0} {}
+E { 2109} {e} {e} {2} {0} {}
+E { 2128} {n} {n} {1} {0} {}
+
+R { 2128} {0} {<fff>} {An Order Square in the Game of Balance} {C} {A crushing weight settles on your shoulders, and your mind strains against shackles which seem to constrain it.  Your thoughts become clearer, devoid of emotion, your ideas become regimented and uninspired.  It seemed clear to you that Order was the logical choice, but on the square you experience the strictures of Order, the loss of passion and individuality, and the sacrifice of self to the greater good.  It is a loss which burns like a fiery coal in your breast, and you reconsider your choice. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2127} {s} {s} {4} {0} {}
+E { 2108} {e} {e} {2} {0} {}
+E { 2106} {n} {n} {1} {0} {}
+E { 2129} {w} {w} {8} {0} {}
+
+R { 2129} {0} {<fff>} {An Order Square in the Game of Balance} {O} {You are dazzled by the brilliant white surface of this square.  Small golden figures of unicorns and eagles adorn its ivory surface, and your mind is filled with a sense of discipline and peace.  You silently wonder if the security of a world which knows only Order is worth the sacrifice of the passion and change which are the heralds of Chaos.  Will your actions today alter this balance irrevocably?  Are you indeed the one chosen to determine the fate of the Realms?  The agony of uncertainly wrenches your mind, and the burden of responsibility weighs like a millstone about your shoulders.  The choice is yours to make, you must decide. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2128} {e} {e} {2} {0} {}
+E { 2126} {s} {s} {4} {0} {}
+E { 2130} {w} {w} {8} {0} {}
+E { 2105} {n} {n} {1} {0} {}
+
+R { 2130} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {You are standing on the swirling surface of a chaos square in this strange game.  The square is made of a smooth glassy material, which seems impervious to physical or magical damage, but visible through its semi translucent surface, a mist of many colors roils and swells, occasionally set afire by electrical bursts from within the cloud.  As you gape at the spectacle of this eldritch storm raging beneath your feet, you wonder whether your actions will indeed alter the fragile balance between Order and Chaos which has existed since the beginning of all things. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2129} {e} {e} {2} {0} {}
+E { 2125} {s} {s} {4} {0} {}
+E { 2123} {w} {w} {8} {0} {}
+E { 2104} {n} {n} {1} {0} {}
+
+R { 2131} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {You are standing on the swirling surface of a chaos square in this strange game.  The square is made of a smooth glassy material, which seems impervious to physical or magical damage, but visible through its semi translucent surface, a mist of many colors roils and swells, occasionally set afire by electrical bursts from within the cloud.  As you gape at the spectacle of this eldritch storm raging beneath your feet, you wonder whether your actions will indeed alter the fragile balance between Order and Chaos which has existed since the beginning of all things. NOTE:  chaos rook } {NotYetSet} {} {Inside} {} {1.000}
+E { 2094} {s} {s} {4} {0} {}
+E { 2132} {n} {n} {1} {0} {}
+E { 2134} {e} {e} {2} {0} {}
+
+R { 2132} {0} {<fff>} {An Order Square in the Game of Balance} {O} {A crushing weight settles on your shoulders, and your mind strains against shackles which seem to constrain it.  Your thoughts become clearer, devoid of emotion, your ideas become regimented and uninspired.  It seemed clear to you that Order was the logical choice, but on the square you experience the strictures of Order, the loss of passion and individuality, and the sacrifice of self to the greater good.  It is a loss which burns like a fiery coal in your breast, and you reconsider your choice. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2131} {s} {s} {4} {0} {}
+E { 2133} {e} {e} {2} {0} {}
+
+R { 2133} {0} {<fff>} {An Order Square in the Game of Balance} {C} {This square is a place of peace.  A simple ivory platform, lacking trappings or decoration of any kind.  The sky above you is featureless, and you feel at one moment like your could reach up and touch it, then the next that it is miles away.  The ground seems warm to the touch, like human flash, and yields beneath your footsteps.  You hear the quiet babble of a brook somewhere close by, but see nothing.  You are standing, but feel as though you recline on bed of gossamer.  Your mind is blank, and you feel simple comfort.  As you drift into a torpor of satisfaction, you realize that you are forgetting your purpose here.  You shake off the haze of calm which enfolds you, and vow be more wary of temptation as you continue on your journey. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2132} {w} {w} {8} {0} {}
+E { 2134} {s} {s} {4} {0} {}
+E { 2136} {e} {e} {2} {0} {}
+
+R { 2134} {0} {<fff>} {An Order Square in the Game of Balance} {O} {You are dazzled by the brilliant white surface of this square.  Small golden figures of unicorns and eagles adorn its ivory surface, and your mind is filled with a sense of discipline and peace.  You silently wonder if the security of a world which knows only Order is worth the sacrifice of the passion and change which are the heralds of Chaos.  Will your actions today alter this balance irrevocably?  Are you indeed the one chosen to determine the fate of the Realms?  The agony of uncertainly wrenches your mind, and the burden of responsibility weighs like a millstone about your shoulders.  The choice is yours to make, you must decide. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2133} {n} {n} {1} {0} {}
+E { 2131} {w} {w} {8} {0} {}
+E { 2101} {s} {s} {4} {0} {}
+E { 2135} {e} {e} {2} {0} {}
+
+R { 2135} {0} {<fff>} {An Order Square in the Game of Balance} {C} {A crushing weight settles on your shoulders, and your mind strains against shackles which seem to constrain it.  Your thoughts become clearer, devoid of emotion, your ideas become regimented and uninspired.  It seemed clear to you that Order was the logical choice, but on the square you experience the strictures of Order, the loss of passion and individuality, and the sacrifice of self to the greater good.  It is a loss which burns like a fiery coal in your breast, and you reconsider your choice. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2134} {w} {w} {8} {0} {}
+E { 2102} {s} {s} {4} {0} {}
+E { 2136} {n} {n} {1} {0} {}
+E { 2146} {e} {e} {2} {0} {}
+
+R { 2136} {0} {<fff>} {An Order Square in the Game of Balance} {O} {This square is a place of peace.  A simple ivory platform, lacking trappings or decoration of any kind.  The sky above you is featureless, and you feel at one moment like your could reach up and touch it, then the next that it is miles away.  The ground seems warm to the touch, like human flash, and yields beneath your footsteps.  You hear the quiet babble of a brook somewhere close by, but see nothing.  You are standing, but feel as though you recline on bed of gossamer.  Your mind is blank, and you feel simple comfort.  As you drift into a torpor of satisfaction, you realize that you are forgetting your purpose here.  You shake off the haze of calm which enfolds you, and vow be more wary of temptation as you continue on your journey. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2135} {s} {s} {4} {0} {}
+E { 2133} {w} {w} {8} {0} {}
+E { 2137} {e} {e} {2} {0} {}
+
+R { 2137} {0} {<fff>} {An Order Square in the Game of Balance} {C} {You are dazzled by the brilliant white surface of this square.  Small golden figures of unicorns and eagles adorn its ivory surface, and your mind is filled with a sense of discipline and peace.  You silently wonder if the security of a world which knows only Order is worth the sacrifice of the passion and change which are the heralds of Chaos.  Will your actions today alter this balance irrevocably?  Are you indeed the one chosen to determine the fate of the Realms?  The agony of uncertainly wrenches your mind, and the burden of responsibility weighs like a millstone about your shoulders.  The choice is yours to make, you must decide. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2136} {w} {w} {8} {0} {}
+E { 2138} {e} {e} {2} {0} {}
+E { 2146} {s} {s} {4} {0} {}
+
+R { 2138} {0} {<fff>} {An Order Square in the Game of Balance} {O} {You are dazzled by the brilliant white surface of this square.  Small golden figures of unicorns and eagles adorn its ivory surface, and your mind is filled with a sense of discipline and peace.  You silently wonder if the security of a world which knows only Order is worth the sacrifice of the passion and change which are the heralds of Chaos.  Will your actions today alter this balance irrevocably?  Are you indeed the one chosen to determine the fate of the Realms?  The agony of uncertainly wrenches your mind, and the burden of responsibility weighs like a millstone about your shoulders.  The choice is yours to make, you must decide. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2137} {w} {w} {8} {0} {}
+E { 2139} {e} {e} {2} {0} {}
+E { 2145} {s} {s} {4} {0} {}
+
+R { 2139} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {You are standing on the swirling surface of a chaos square in this strange game.  The square is made of a smooth glassy material, which seems impervious to physical or magical damage, but visible through its semi translucent surface, a mist of many colors roils and swells, occasionally set afire by electrical bursts from within the cloud.  As you gape at the spectacle of this eldritch storm raging beneath your feet, you wonder whether your actions will indeed alter the fragile balance between Order and Chaos which has existed since the beginning of all things. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2138} {w} {w} {8} {0} {}
+E { 2140} {e} {e} {2} {0} {}
+E { 2144} {s} {s} {4} {0} {}
+
+R { 2140} {0} {<fff>} {An Order Square in the Game of Balance} {O} {A crushing weight settles on your shoulders, and your mind strains against shackles which seem to constrain it.  Your thoughts become clearer, devoid of emotion, your ideas become regimented and uninspired.  It seemed clear to you that Order was the logical choice, but on the square you experience the strictures of Order, the loss of passion and individuality, and the sacrifice of self to the greater good.  It is a loss which burns like a fiery coal in your breast, and you reconsider your choice. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2139} {w} {w} {8} {0} {}
+E { 2141} {e} {e} {2} {0} {}
+E { 2143} {s} {s} {4} {0} {}
+
+R { 2141} {0} {<fff>} {A Chaos Square in the Game of Balance} {C} {A feeling of exhilaration fills you as you step onto this square.  The urge to fight, to laugh, to scream madly your defiance of the world floods your soul.  This is the other face of Chaos, the desire for change, the need for emotion.  This square, you know, will drive you mad if you stay, but the yearning to give in to temptation is potent indeed.  This choice you must make is not a simple one, and though your mind looks for Order, your soul flies on the heady winds of Chaos. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2140} {w} {w} {8} {0} {}
+E { 2142} {s} {s} {4} {0} {}
+
+R { 2142} {0} {<fff>} {An Order Square in the Game of Balance} {O} {You are dazzled by the brilliant white surface of this square.  Small golden figures of unicorns and eagles adorn its ivory surface, and your mind is filled with a sense of discipline and peace.  You silently wonder if the security of a world which knows only Order is worth the sacrifice of the passion and change which are the heralds of Chaos.  Will your actions today alter this balance irrevocably?  Are you indeed the one chosen to determine the fate of the Realms?  The agony of uncertainly wrenches your mind, and the burden of responsibility weighs like a millstone about your shoulders.  The choice is yours to make, you must decide. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2141} {n} {n} {1} {0} {}
+E { 2107} {s} {s} {4} {0} {}
+E { 2143} {w} {w} {8} {0} {}
+
+R { 2143} {0} {<fff>} {An Order Square in the Game of Balance} {C} {You are dazzled by the brilliant white surface of this square.  Small golden figures of unicorns and eagles adorn its ivory surface, and your mind is filled with a sense of discipline and peace.  You silently wonder if the security of a world which knows only Order is worth the sacrifice of the passion and change which are the heralds of Chaos.  Will your actions today alter this balance irrevocably?  Are you indeed the one chosen to determine the fate of the Realms?  The agony of uncertainly wrenches your mind, and the burden of responsibility weighs like a millstone about your shoulders.  The choice is yours to make, you must decide. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2106} {s} {s} {4} {0} {}
+E { 2142} {e} {e} {2} {0} {}
+E { 2140} {n} {n} {1} {0} {}
+E { 2144} {w} {w} {8} {0} {}
+
+R { 2144} {0} {<fff>} {An Order Square in the Game of Balance} {O} {This square is a place of peace.  A simple ivory platform, lacking trappings or decoration of any kind.  The sky above you is featureless, and you feel at one moment like your could reach up and touch it, then the next that it is miles away.  The ground seems warm to the touch, like human flash, and yields beneath your footsteps.  You hear the quiet babble of a brook somewhere close by, but see nothing.  You are standing, but feel as though you recline on bed of gossamer.  Your mind is blank, and you feel simple comfort.  As you drift into a torpor of satisfaction, you realize that you are forgetting your purpose here.  You shake off the haze of calm which enfolds you, and vow be more wary of temptation as you continue on your journey. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2139} {n} {n} {1} {0} {}
+E { 2143} {e} {e} {2} {0} {}
+E { 2105} {s} {s} {4} {0} {}
+E { 2145} {w} {w} {8} {0} {}
+
+R { 2145} {0} {<fff>} {} {C} {} {NotYetSet} {} {} {} {1.000}
+E { 2144} {e} {e} {2} {0} {}
+E { 2104} {s} {s} {4} {0} {}
+E { 2146} {w} {w} {8} {0} {}
+E { 2138} {n} {n} {1} {0} {}
+
+R { 2146} {0} {<fff>} {} {O} {} {NotYetSet} {} {} {} {1.000}
+E { 2145} {e} {e} {2} {0} {}
+E { 2103} {s} {s} {4} {0} {}
+E { 2135} {w} {w} {8} {0} {}
+E { 2137} {n} {n} {1} {0} {}
+
+R { 2147} {0} {<fff>} {Through the White Mountains} { } {This slender path winds itself between steep, eroded cliffs.  It climbs quickly, but is often partially obstructed by fallen boulders.  The wind howls like wolves between the slopes, and nothing but the smallest weeds grows here. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 1592} {w} {w} {8} {0} {}
+E { 2148} {s} {s} {4} {0} {}
+
+R { 2148} {0} {<fff>} {Through the White Mountains} { } {This slender path winds itself along between the steep cliffs.  Though high up, the temperature is surprisingly warm.  Pines grow up the sides of the valleys, and grasses have begun to sprout in the thin soil. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2147} {n} {n} {1} {0} {}
+E { 2149} {s} {s} {4} {0} {}
+
+R { 2149} {0} {<fff>} {Through the White Mountains} { } {This slender path winds itself along between the steep cliffs.  Though high up, the temperature is surprisingly warm.  Pines grow up the sides of the valleys, and grasses have begun to sprout in the thin soil. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2148} {n} {n} {1} {0} {}
+E { 2150} {e} {e} {2} {0} {}
+
+R { 2150} {0} {<fff>} {Through the White Mountains} { } {The path begins to head downward into a fertile river valley. You can see the grasslands somewhat to the east of you, and a great river flowing north and south through them. The temperature is fairly warm, and the breeze is pleasant fresh. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2149} {w} {w} {8} {0} {}
+E { 2151} {e} {e} {2} {0} {}
+
+R { 2151} {0} {<fff>} {Through the White Mountains} { } {The path begins to head downward into a fertile river valley.  You can see the grasslands somewhat to the east of you, and a great river flowing north and south through them.  The temperature is fairly warm, and the breeze is pleasantly fresh. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2150} {w} {w} {8} {0} {}
+E { 2152} {e} {e} {2} {0} {}
+
+R { 2152} {0} {<fff>} {Into the Grasslands} { } {The trail comes down out of the White mountains into lush grassland.  The sound of birds brightly chirping, and the wind rushing through the tall grasses carries a high soprano sound to the low movement of the river that lies somewhat to your east. } {NotYetSet} {} {Field} {} {1.000}
+E { 2151} {w} {w} {8} {0} {}
+E { 2153} {e} {e} {2} {0} {}
+
+R { 2153} {0} {<fff>} {Along the Banks of the Anduin} { } {The grassy fields end at the edge of the wide, and slowly flowing river Anduin. Green rushes and cat tails grow thickly along the sides of the river; the soft earth provides perfect opportunity for the growth of flowers of all sorts.   Somewhat to the south you can see the white walls of a great rampart. } {NotYetSet} {} {Shore} {} {1.000}
+E { 2152} {w} {w} {8} {0} {}
+
+R { 2154} {0} {<afa>} {A Fork in the Tunnel} { } {Here, the tunnel and the strange rails branch.  The passages extend to the north, south, and west.  The omnipresent dust covers the floor here as well as everywhere else in this abandoned mine.  Overhead, there is a huge crystal embedded in the ceiling that glows with a faint light, illuminating the cave. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
+E { 1627} {n} {n} {1} {0} {}
+E { 2155} {s} {s} {4} {0} {}
+
+R { 2155} {0} {<afa>} {An Abandoned Mine Tunnel} { } {The mine tunnel extends to the north and south along with the iron rails. The air to the south smells as though it were buried in a tomb.  The wooden beams above are well worn from the strain of holding the ceiling, but still appear solid. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
+E { 2154} {n} {n} {1} {0} {}
+E { 2156} {s} {s} {4} {0} {}
+
+R { 2156} {0} {<afa>} {An Abandoned Mine Tunnel} { } {The tunnel and rails stretch to the north and south.  To the south there is a faint glow in the distance along with the apparent source of the fetid air. The overhead beams occasionally creak from the strain, but still appear to be holding. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
+E { 2155} {n} {n} {1} {0} {}

@@ -28,6 +28,8 @@
 {
 	#event {MAP ENTER ROOM} {#log {overwrite} tinlog;
 	#map set roomarea ${roomarea};
+    #DELAY {0.3} {#SCRIPT {sed '/You realize/d' -i tinlog}};
+    #DELAY {0.3} {#SCRIPT {sed '/You open/d' -i tinlog}};
 	#DELAY {0.3} {#SCRIPT {head -n1 ~/mud/tinlog | sed 's/.*> //' | cat ~/mud/roomnameheader -}};
 	#DELAY {0.3} {#SCRIPT {grep Terrain ~/mud/tinlog | cut -f2 -d ' ' | cat ~/mud/roomterrainheader -}};
 	#DELAY {0.3} {#SCRIPT {awk 'NR==2,/Exits:/' ~/mud/tinlog | head -n-1 | tr '\n' ' ' | sed 's/\;/\\\;/g' | cat ~/mud/roomdescheader -}};
@@ -72,9 +74,11 @@
 #ALIAS {walk} {#path walk} {5}
 #ALIAS {zone} {#variable {roomarea} {%0}; #echo {Zone set to:<229> ${roomarea}}; #VAR zcol {<afa>}} {5}
 #ALIAS {nozone} {#variable {roomarea} {NotYetSet}; #echo {Zone un-set}; #VAR zcol {<fff>}}
-#ALIAS {setcol} {#variable {roomcol} {<fff>}}
+#ALIAS {setcol} {#variable {zcol} {%1}}
 #ALIAS {flyon} {remove mocc;wear carpet}
 #ALIAS {flyoff} {remove carpet;wear mocc}
+#ALIAS {food} {ccf;get mush;eat mush}
+#ALIAS {water} {ccw wine;dri wine}
 
 #AC {You have become more adept at %1!} {learn %1}
 #AC {There is no room to get in there} {undo}
@@ -100,6 +104,9 @@
 #SUB {old leather armor} {old leather armor (+1hit/dam, -2dex, 750v)}
 #SUB {gold spectacles} {gold spectacles (+25readmag, +10mys, +5m, 2500v)}
 #SUB {a rusted ring} {a rusted ring (+1hit, +4con, +15hp, +5blackmag, 1000v)}
+#SUB {a filthy ring} {a filthy ring (+2hit, +15hp, 9000v)}
+#SUB {a fishbone dagger} {a fishbone dagger (2d2 pierce, 4000v)} 
+#SUB {a silk kimono} {a silk kimono (+1hit/dam, 35000v)}
 
 
 
