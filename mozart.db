@@ -1,0 +1,31 @@
+ITEM bag-holding
+Object "a bag of holding", Item type: Container
+Item is: Magic.
+Can be equipped: Hold.
+Weight: 1, Volume: 20, Value: 5000
+Max weight is 100.  Max volume is 5000.
+ITEM leggings-slimy
+Object "a pair of slimy leggings", Item type: Clothing
+Item is: None.
+Can be equipped: Legs.
+Weight: 5, Volume: 30, Value: 10000
+Durability is 5 with maximum 8.
+Effects:
+ Hit Points: +1.
+ Constitution: +7.
+ITEM ring-scaly
+Object "a scaly ring", Item type: Jewelry
+Item is: Magic.
+Can be equipped: Finger.
+Weight: 1, Volume: 1, Value: 5000 [Rare]
+You don't meet this item's ego requirements.
+Durability is 3 with maximum 3.
+Effects:
+ Armor: +20.
+ Hitroll: -1.
+ITEM chainmail-mail-gauntlets
+Object "chainmail gauntlets", Item type: Armor
+Item is: Ephemeral Anti-Mage.
+Can be equipped: Hands.
+Weight: 2, Volume: 75, Value: 400
+Durability and Armor Rating are 3 with maximum 3.

@@ -7523,18 +7523,18 @@ E { 1836} {w} {w} {8} {0} {}
 
 R { 1816} {0} {<fff>} {A Confluence of Rivers} {~} {The Brandywine joins the Dark River at this point to form the Rilghorn, and the two froth as the waters mingle.  The Brandywine is a cleaner, chilly flow. The Dark, heated as it is by volcanic residue, is quite warm.  Together the result is pleasant and comfortable. } {NotYetSet} {} {River} {} {1.000}
 E { 1832} {e} {e} {2} {0} {}
-E { 1837} {n} {n} {1} {0} {}
+E { 1817} {n} {n} {1} {0} {}
 
 R { 1817} {0} {<fff>} {} {~} {} {NotYetSet} {} {} {} {1.000}
-E { 1837} {s} {s} {4} {0} {}
+E { 1816} {s} {s} {4} {0} {}
 E { 1818} {n} {n} {1} {0} {}
 
 R { 1818} {0} {<fff>} {Brandywine River South of Sarn Ford} {~} {The Brandywine River, called Sarn Ford, and flows onward to its outflow in the Dark River.  Cold waters from the distant north are only slightly warmed by a temperate climate.  The view from the river, out beyond the banks, is of a bleak wilderness: what once was the prosperous kingdom of Arnor, founded by the mighty Numenoreans, is now given over to innumerable plants, and animals of the nonspeaking kind. } {NotYetSet} {} {River} {} {1.000}
 E { 1817} {s} {s} {4} {0} {}
-E { 1838} {n} {n} {1} {0} {}
+E { 1819} {n} {n} {1} {0} {}
 
 R { 1819} {0} {<fff>} {Brandywine River at Sarn Ford} {~} {The western extension to the Great North-South Road crosses the river at a ford, which was once carefully maintained but which has now fallen into disuse. The waters of the Brandywine River have been channeled to run through narrow gaps in the raised stones which allow carts to cross the river with little difficulty.  It would be necessary for you to portage any boat across the ford, except for the poor state of repair, which has caused wide breaks in the cart- path to open up, and the river's flow to move across in places without impediment. } {NotYetSet} {} {River} {} {1.000}
-E { 1838} {s} {s} {4} {0} {}
+E { 1818} {s} {s} {4} {0} {}
 E { 1057} {u} {u} {16} {0} {}
 E { 1839} {n} {n} {1} {0} {}
 
@@ -7607,19 +7607,19 @@ E { 1835} {w} {w} {8} {0} {}
 E { 1815} {e} {e} {2} {0} {}
 
 R { 1837} {8} {} {} { } {} {} {} {} {} {1.000}
-E { 1817} {n} {n} {1} {0} {}
-E { 1816} {s} {s} {4} {0} {}
+E { 1839} {s} {s} {4} {0} {}
+E { 1838} {n} {n} {1} {0} {}
 
 R { 1838} {8} {} {} { } {} {} {} {} {} {1.000}
-E { 1819} {n} {n} {1} {0} {}
-E { 1818} {s} {s} {4} {0} {}
+E { 1837} {s} {s} {4} {0} {}
+E { 1840} {n} {n} {1} {0} {}
 
 R { 1839} {0} {<fff>} {Brandywine River South of the Shire} {~} {Rough grasses extend along the banks of the river, and only modest foliage breaks up your view to the east or west.  The Brandywine River flows through a deserted land here, along a barely discernible river valley.  Even the main channel is quite shallow, and the broad course of the river is broken up by occasional rocky bars in mid-stream.  Upstream, the river flows from a forest. Downstream to the south, the pale blue waters turn white, at what is either a rapids or a ford. } {NotYetSet} {} {River} {} {1.000}
 E { 1819} {s} {s} {4} {0} {}
-E { 1840} {n} {n} {1} {0} {}
+E { 1837} {n} {n} {1} {0} {}
 
 R { 1840} {0} {<fff>} {Brandywine River South of Old Forest} {~} {Towering, ominous trees lean over the river from the left, or north bank of Baranduin --- the Brandywine River in Westron.  These trees are the masters of the Old Forest, and only the wide barrier of the river holds them in place. The right bank is more inviting, with bare hilltops and forested valleys extending to the horizon.  There is no sign of settlement anywhere about.  The river flows from the west, and turns gently to the south, where it leaves behind the embrace of the Old Forest. } {NotYetSet} {} {River} {} {1.000}
-E { 1839} {s} {s} {4} {0} {}
+E { 1838} {s} {s} {4} {0} {}
 E { 1841} {w} {w} {8} {0} {}
 
 R { 1841} {0} {<fff>} {Withywindle Joins Brandywine} {~} {The Brandywine turns at this point.  The direction upstream is north, while downstream the river takes you to the east.  At the bend, a small tributary flows into Brandywine from the north-east: this is Withywindle, which drains the Old Forest.  The left bank of Brandywine --- and the banks of Withywindle as far upstream as you can see --- are heavily wooded.  Along the right bank, } {NotYetSet} {} {River} {} {1.000}
