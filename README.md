@@ -30,7 +30,7 @@ no new data is being written. Also alters the prompt to let you know the mapper 
 
 mapon - turns the mapper on. Any movement into a new room will pull the roomname, description and terrain
 and then set those values in the map file. It will also use the zone name that you set manually. The room
-is also colorized according to the $zvol variable. You can set this with "setcol <aaa>" where aaa = rgb values in letters. ie, red = <faa>, blue = <aaf>
+is also colorized according to the $zcol variable. You can set this with "setcol <aaa>" where aaa = rgb values in letters. ie, red = <faa>, blue = <aaf>
 
 zone - sets the zone we want to write to the current rooms we enter.
 
