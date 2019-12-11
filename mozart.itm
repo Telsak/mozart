@@ -1,0 +1,40 @@
+#NOP === POTIONS ===
+#SUB {a purple potion} {a purple potion of Lvl17 Sanctuary}
+#SUB {a golden potion} {a golden potion of Lvl12 Cure Critical}
+#SUB {a silver potion} {a silver potion of Lvl12 Refresh}
+#SUB {a white potion} {a white potion of Lvl12 Remove Poison}
+#SUB {a magic potion} {a magic potion (Lvl30 Strength, Sanctuary)}
+#SUB {a crimson potion} {a crimson potion (Lvl18 Cure light)}
+
+#NOP === WEAPONS ===
+#SUB {a rough wooden club} {a rough wooden club (3d3 pound, +1hit/dam 7.5k)}
+#SUB {a platinum wand} {a platinum wand (?/20 charges Magic Missile Lvl10 35k)}
+#SUB {a large cactus thorn} {a large cactus thorn (1d4 pierce - dagger)}
+#SUB {a curved scimitar} {a curved scimitar (1d7 slash, +1hit/dam, 2k)}
+#SUB {a fishbone dagger} {a fishbone dagger (2d2 pierce, 4k)} 
+#SUB {a whittled staff} {a whittled staff (1d5 pound, +2hit, +5for, +5nbless, 1.4k)}
+
+#NOP === JEWELRY ===
+#SUB {a spiked earring} {a spiked earring (-5hp, +10m 10000v)}
+#SUB {a platinum necklace} {a platinum necklace (+1hit, +3str, +6bri, +6necr, 7.5k)}
+#SUB {a gold bracelet} {a gold bracelet (+1hit, +3int, +20m, +6necr, 5k)}
+#SUB {a rusted ring} {a rusted ring (+1hit, +4con, +15hp, +5blackmag, 1k)}
+#SUB {a filthy ring} {a filthy ring (+2hit, +15hp, 9k)}
+#SUB {a rock necklace} {a rock necklace (+1hit, 1k)}
+#SUB {a scaly ring} {a scaly ring (-1hit, +20AC, 5k)}
+#SUB {the ring of steadfastness} {the ring of steadfastness (+waterBr, +2dam, +10con, 135k)}
+
+#SUB {an orcish cloak} {an orcish cloak (+1hit, +10AC 5000v)}
+#SUB {the Marshal's cloak} {the Marshal's cloak (+1hit, +10hp, +10AC, 3k)}
+#SUB {a black silk shawl} {a black silk shawl (+7mys, +3rec, +15AC 1.5k)}
+#SUB {a battered iron breast plate} {a battered iron breast plate (-6hit, +3dam, 90k)}
+#SUB {a weathered traveler's cloak} {a weathered traveler's cloak (+1hit, +8dex/con, +10AC, 3k)}
+#SUB {a black carapace} {a black carapace (+20hp, +10climb, +6dex, +5AC, 2k)}
+#SUB {old leather armor} {old leather armor (+1hit/dam, -2dex)}
+#SUB {gold spectacles} {gold spectacles (+25readmag, +10mys, +5m, 2.5k)}
+#SUB {a silk kimono} {a silk kimono (+1hit/dam, 35k)}
+#SUB {an iron skullcap} {an iron skullcap (+1hit/dam, +6AC, 5k)}
+#SUB {a feathered helm} {a feathered helm (+2hit, 3.3k)}
+#SUB {jeweled gauntlets} {jeweled gauntlets (+1hit/dam, +15str, +20rec)}
+#SUB {a silver scepter} {a silver scepter (+2hit/dam, +15hp, +7rec, 10k)}
+#SUB {a black leather cuirass} {a black leather cuirass (+3hit, +2dex, +10AC, +2ass, 10k)}

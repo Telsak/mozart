@@ -1,3 +1,9 @@
+#NOP ==== Read in identified items sub list ====
+#READ mozart.itm
+
+#NOP ==== Read in identify script ====
+#READ mozart.idt
+
 #ACTION {sends you sprawling with a powerful bash!} {stand} {5}
 #ACTION {you topple over and fall to the ground} {stand} {5}
 
@@ -5,7 +11,7 @@
 #ALIAS {findarea} {#map find {} {} {} {%0} {}; #path show} {5}
 #ALIAS {findnote} {#map find {} {} {} {} {%0}; #path show} {5}
 #ALIAS {findroom} {#map find {%0} {} {} {} {}; #path show} {5}
-#ALIAS {getplayer} {#script playerpos {cat mozart.plr}} {5}
+#ALIAS {getplayer} {#script playerpos {cat .mozart.plr}} {5}
 
 #ALIAS {goto} {#map goto %0} {5}
 #ALIAS {listarea} {#map list {} {} {} {%0} {} {}} {5}
@@ -26,21 +32,21 @@
 
 #ALIAS {mapon}
 {
-	#event {MAP ENTER ROOM} {#log {overwrite} tinlog;
-	#map set roomarea ${roomarea};
-    #DELAY {0.3} {#SCRIPT {sed '/You realize/d' -i tinlog}};
-    #DELAY {0.3} {#SCRIPT {sed '/You open/d' -i tinlog}};
-	#DELAY {0.3} {#SCRIPT {head -n1 ~/mud/tinlog | sed 's/.*> //' | cat ~/mud/roomnameheader -}};
-	#DELAY {0.3} {#SCRIPT {grep Terrain ~/mud/tinlog | cut -f2 -d ' ' | cat ~/mud/roomterrainheader -}};
-	#DELAY {0.3} {#SCRIPT {awk 'NR==2,/Exits:/' ~/mud/tinlog | head -n-1 | tr '\n' ' ' | sed 's/\;/\\\;/g' | cat ~/mud/roomdescheader -}};
+	#EVENT {MAP ENTER ROOM} {#log {overwrite} .tinlog;
+	#MAP set roomarea ${roomarea};
+    #DELAY {0.3} {#SCRIPT {sed '/You realize/,+1d' -i .tinlog}};
+    #DELAY {0.3} {#SCRIPT {sed '/You open/,+1d' -i .tinlog}};
+	#DELAY {0.3} {#SCRIPT {head -n1 ~/mud/.tinlog | sed 's/.*> //' | cat ~/mud/.roomnameheader -}};
+	#DELAY {0.3} {#SCRIPT {grep Terrain ~/mud/.tinlog | cut -f2 -d ' ' | cat ~/mud/.roomterrainheader -}};
+	#DELAY {0.3} {#SCRIPT {awk 'NR==2,/Exits:/' ~/mud/.tinlog | head -n-1 | tr '\n' ' ' | sed 's/\;/\\\;/g' | cat ~/mud/.roomdescheader -}};
 	#DELAY {0.3} {#LOG {off}};
 	#DELAY {0.33} {#MAP name ${roomname}};
 	#DELAY {0.33} {#MAP set roomdesc ${roomdesc}};
 	#DELAY {0.33} {#MAP set roomterrain ${roomterrain}};
 	#DELAY {0.33} {#MAP set roomcolor $zcol};
 	#MAP get ROOMVNUM playerpos};
-	#echo {Mapping enabled! Room Area = <229>${roomarea}<099>. Update with 'zone' command.};
-	#map {flag} {static} {off};
+	#ECHO {Mapping enabled! Room Area = <229>${roomarea}<099>. Update with 'zone' command.};
+	#MAP {flag} {static} {off};
 	#SUB {^H:} {[MAPON] H:}
 }
 {5}
@@ -57,12 +63,12 @@
 }
 {5}
 
-#ALIAS {saveplayer}{#system echo $playerpos > mozart.plr} {5}
+#ALIAS {saveplayer}{#system echo $playerpos > .mozart.plr} {5}
 #ALIAS {setup} 
 {
     #VAR zcol {<fff>};
 	#map read mozart.map;
-	#split 16 1;
+	#split 20 1;
 	#map flag vtmap on;
 	getplayer;
 	#map goto $playerpos[1]
@@ -82,33 +88,6 @@
 
 #AC {You have become more adept at %1!} {learn %1}
 #AC {There is no room to get in there} {undo}
-
-#SUB {a purple potion} {a purple potion of Lvl17 Sanctuary}
-#SUB {a golden potion} {a golden potion of Lvl12 Cure Critical}
-#SUB {a silver potion} {a silver potion of Lvl12 Refresh}
-#SUB {a white potion} {a white potion of Lvl12 Remove Poison}
-#SUB {an orcish cloak} {an orcish cloak (+1hit, +10AC 5000v)}
-#SUB {a crimson potion} {a crimson potion (Lvl18 Cure light)}
-#SUB {a spiked earring} {a spiked earring (-5hp, +10m 10000v)}
-#SUB {the Marshal's cloak} {the Marshal's cloak (+1hit, +10hp, +10AC, 3000v)}
-#SUB {a black silk shawl} {a black silk shawl (+7mys, +3rec, +15AC 1500v)}
-#SUB {a rough wooden club} {a rough wooden club (3d3 pound, +1hit/dam 7500v)}
-#SUB {a platinum wand} {a platinum wand (?/20 charges Magic Missile Lvl10 35000v)}
-#SUB {a large cactus thorn} {a large cactus thorn (1d4 pierce - dagger)}
-#SUB {a battered iron breast plate} {a battered iron breast plate (-6hit, +3dam, 90000v)}
-#SUB {a curved scimitar} {a curved scimitar (1d7 slash, +1hit/dam, 2000v)}
-#SUB {a weathered traveler's cloak} {a weathered traveler's cloak (+1hit, +8dex/con, +10AC, 3000v)}
-#SUB {a black carapace} {a black carapace (+20hp, +10climb, +6dex, +5AC, 2000v)}
-#SUB {a platinum necklace} {a platinum necklace (+1hit, +3str, +6bri, +6necr, 7500v)}
-#SUB {a gold bracelet} {a gold bracelet (+1hit, +3int, +20m, +6necr, 5000v)}
-#SUB {old leather armor} {old leather armor (+1hit/dam, -2dex, 750v)}
-#SUB {gold spectacles} {gold spectacles (+25readmag, +10mys, +5m, 2500v)}
-#SUB {a rusted ring} {a rusted ring (+1hit, +4con, +15hp, +5blackmag, 1000v)}
-#SUB {a filthy ring} {a filthy ring (+2hit, +15hp, 9000v)}
-#SUB {a fishbone dagger} {a fishbone dagger (2d2 pierce, 4000v)} 
-#SUB {a silk kimono} {a silk kimono (+1hit/dam, 35000v)}
-
-
 
 #CONFIG           {256 COLORS}  {ON}
 #CONFIG           {AUTO TAB}  {5000}
@@ -135,9 +114,9 @@
 
 #EVENT {PROGRAM START}
 {
-	#script {touch ~/mud/roomnameheader && echo -n '#VARIABLE {roomname} ' > ~/mud/roomnameheader};
-	#script {touch ~/mud/roomdescheader && echo -n '#VARIABLE {roomdesc} ' > ~/mud/roomdescheader};
-	#script {touch ~/mud/roomterrainheader && echo -n '#VARIABLE {roomterrain} ' > ~/mud/roomterrainheader}
+	#script {touch ~/mud/.roomnameheader && echo -n '#VARIABLE {roomname} ' > ~/mud/.roomnameheader};
+	#script {touch ~/mud/.roomdescheader && echo -n '#VARIABLE {roomdesc} ' > ~/mud/.roomdescheader};
+	#script {touch ~/mud/.roomterrainheader && echo -n '#VARIABLE {roomterrain} ' > ~/mud/.roomterrainheader}
 }
 
 #MACRO {\e0u} {look}
@@ -160,7 +139,6 @@
 #PATHDIR          {u}  {d}  {16}
 #PATHDIR          {w}  {e}  {8}
 #VARIABLE         {playerpos}  {841}
-#VARIABLE         {refresh}  {{minimap}{#MAP {map} {40x12} {map.txt} {a}}}
 #VARIABLE         {result}  {}
 #VARIABLE         {roomarea}  {Meadow}
 #VARIABLE         {roomdesc}  {You are on the bank of small, clear water stream.  To the east of you is the stream itself which is flowing very slowly and smoothly.  Every once in a while you see a fish jump out of the water to land back in. }

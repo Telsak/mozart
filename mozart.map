@@ -5,9 +5,9 @@ CH <000><faa>
 CP <138>
 CR <fff>
 
-F 138
+F 139
 
-I 1002
+I 202
 
 L * # # # | # x          
 
@@ -1688,58 +1688,58 @@ R {  405} {0} {<fff>} {Eastern Road} { } {You are standing on an east-west road 
 E {  404} {w} {w} {8} {0} {}
 E {  406} {e} {e} {2} {0} {}
 
-R {  406} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+R {  406} {0} {<afa>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  405} {w} {w} {8} {0} {}
 E {  730} {n} {n} {1} {0} {}
 E {  427} {s} {s} {4} {0} {}
 
-R {  407} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+R {  407} {0} {<afa>} {The Path Through the Mountains} { } {You are standing on a path leading through the foothills of the Eastern Mountains.  To the east, the path leads towards the dark, storm-covered peaks, and to the south the path leads downwards, towards a forest.  You can see the city of Nevrast just a mile or so away to the west. } {NotYetSet} {} {Mountains} {} {1.000}
 E {  729} {s} {s} {4} {0} {}
 E {  408} {e} {e} {2} {0} {}
 
-R {  408} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+R {  408} {0} {<afa>} {The Path Through the Mountains} { } {You are standing on a path leading into the Eastern Mountains.  To the east, the path leads towards the dark, storm-covered peaks, and to the west the path leads downwards, towards the plains.  You can see the city of Nevrast far off to the west. } {NotYetSet} {} {Mountains} {} {1.000}
 E {  407} {w} {w} {8} {0} {}
 E { 1619} {e} {e} {2} {0} {}
 
-R {  409} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+R {  409} {0} {<afa>} {The Path Through the Mountains} { } {You are standing in the hills below the peaks of the Eastern Mountains.  To the north, the path continues upwards into the mountains, and to the west, the path leads downwards towards the plains.  To the east, there is a large crack in the cliff-face. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1619} {w} {w} {8} {0} {}
 E {  410} {n} {n} {1} {0} {}
 E {  423} {e} {e} {2} {0} {}
 
-R {  410} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+R {  410} {0} {<afa>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  409} {s} {s} {4} {0} {}
 E {  411} {n} {n} {1} {0} {}
 
-R {  411} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+R {  411} {0} {<afa>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  410} {s} {s} {4} {0} {}
 E {  412} {n} {n} {1} {0} {}
 
-R {  412} {0} {<fff>} {The Windy Path} { } {You are standing on a steep path, leading northwards towards the dark peaks, and southwards towards the foothills.  The geography of the area makes the wind whistle and howl around you, a very eerie and frightening experience. } {NotYetSet} {} {Mountains} {} {1.000}
+R {  412} {0} {<afa>} {The Windy Path} { } {You are standing on a steep path, leading northwards towards the dark peaks, and southwards towards the foothills.  The geography of the area makes the wind whistle and howl around you, a very eerie and frightening experience. } {NotYetSet} {} {Mountains} {} {1.000}
 E {  411} {s} {s} {4} {0} {}
 E { 1657} {e} {e} {2} {0} {}
 
-R {  413} {0} {<fff>} {The Mountain Path} { } {The path has evened out some here, leading northwards towards a steep downhill slope, and westwards along a wide ridge towards the peaks of the Eastern mountains.  To the west, you can hear a strange whistling and howling noise. } {NotYetSet} {} {Mountains} {} {1.000}
+R {  413} {0} {<afa>} {The Mountain Path} { } {The path has evened out some here, leading northwards towards a steep downhill slope, and westwards along a wide ridge towards the peaks of the Eastern mountains.  To the west, you can hear a strange whistling and howling noise. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1655} {w} {w} {8} {0} {}
 E {  414} {n} {n} {1} {0} {}
 
-R {  414} {0} {<fff>} {A Choice of Directions} { } {You have come to a choice of paths, north towards a particularly dark and evil looking mountain, eastwards along a path between two mountains and south towards what could be either a cliff-face, or a steep downward slope. } {NotYetSet} {} {Mountains} {} {1.000}
+R {  414} {0} {<afa>} {A Choice of Directions} { } {You have come to a choice of paths, north towards a particularly dark and evil looking mountain, eastwards along a path between two mountains and south towards what could be either a cliff-face, or a steep downward slope. } {NotYetSet} {} {Mountains} {} {1.000}
 E {  413} {s} {s} {4} {0} {}
-E {  415} {e} {e} {2} {0} {}
+E { 2301} {e} {e} {2} {0} {}
 E {  416} {n} {n} {1} {0} {}
 
-R {  415} {0} {<fff>} {The Edge of a Ravine} { } {You are standing at the western edge of a large ravine.  To the west you see a path winding through the mountains, and to the east a large ravine blocks all foot travel.  You can see a clearing on the opposite side of the ravine, perhaps it is another path.  Strange squawking noises come from inside the ravine. } {NotYetSet} {} {Mountains} {} {1.000}
-E {  414} {w} {w} {8} {0} {}
+R {  415} {0} {<afa>} {The Edge of a Ravine} { } {You are standing at the western edge of a large ravine.  To the west you see a path winding through the mountains, and to the east a large ravine blocks all foot travel.  You can see a clearing on the opposite side of the ravine, perhaps it is another path.  Strange squawking noises come from inside the ravine. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2301} {w} {w} {8} {0} {}
 E { 1651} {e} {e} {2} {0} {}
 
-R {  416} {0} {<fff>} {A Mountain Path} { } {You are standing on a path leading northwards towards a high ridge, and southwards towards a flat clearing.  Movement east and west is blocked by large, steep hills.  You are getting very high in the mountains now, and the air is thin, and cold. } {NotYetSet} {} {Mountains} {} {1.000}
+R {  416} {0} {<afa>} {A Mountain Path} { } {You are standing on a path leading northwards towards a high ridge, and southwards towards a flat clearing.  Movement east and west is blocked by large, steep hills.  You are getting very high in the mountains now, and the air is thin, and cold. } {NotYetSet} {} {Mountains} {} {1.000}
 E {  414} {s} {s} {4} {0} {}
 E {  417} {n} {n} {1} {0} {}
 
-R {  417} {0} {<fff>} {High in the Mountains} { } {You are standing on a ridge high in the mountains.  To the north, the ridge continues, and to the south the path leads downwards towards a flat clearing next to a large ravine.  The air is thin and cold here. } {NotYetSet} {} {Mountains} {} {1.000}
+R {  417} {0} {<afa>} {High in the Mountains} { } {You are standing on a ridge high in the mountains.  To the north, the ridge continues, and to the south the path leads downwards towards a flat clearing next to a large ravine.  The air is thin and cold here. } {NotYetSet} {} {Mountains} {} {1.000}
 E {  416} {s} {s} {4} {0} {}
 E {  418} {n} {n} {1} {0} {}
 
-R {  418} {0} {<fff>} {High in the Mountains} { } {You are standing on a ridge high in the mountains.  To the east, the ridge continues, and to the south the path leads downwards towards a flat clearing next to a large ravine.  There is a small mine shaft dug into the western cliff-face.  The wind howls suddenly, and you shiver with cold. } {NotYetSet} {} {Mountains} {} {1.000}
+R {  418} {0} {<afa>} {High in the Mountains} { } {You are standing on a ridge high in the mountains.  To the east, the ridge continues, and to the south the path leads downwards towards a flat clearing next to a large ravine.  There is a small mine shaft dug into the western cliff-face.  The wind howls suddenly, and you shiver with cold. } {NotYetSet} {} {Mountains} {} {1.000}
 E {  417} {s} {s} {4} {0} {}
 E {  419} {d} {d} {32} {0} {}
 E { 1382} {e} {e} {2} {0} {}
@@ -1761,7 +1761,7 @@ R {  422} {0} {<fff>} {Blocked Mountain Pass} { } {You have made your way to the
 E {  421} {s} {s} {4} {0} {}
 E { 1654} {n} {n} {1} {0} {}
 
-R {  423} {0} {<afa>} {A Tiny Cave} { } {You are standing in a tiny cave, with room for very few people.  There is a large crack leading outside to the west, and the cave narrows to a tunnel which seems to lead east.  You think that you might be able to squeeze yourself through the crack. } {Goblin Caves} {} {Underground} {} {1.000}
+R {  423} {0} {<afa>} {A Tiny Cave} { } {You are standing in a tiny cave, with room for very few people.  There is a large crack leading outside to the west, and the cave narrows to a tunnel which seems to lead east.  You think that you might be able to squeeze yourself through the crack. } {NotYetSet} {} {Underground} {} {1.000}
 E {  409} {w} {w} {8} {0} {}
 E {  428} {e} {e} {2} {0} {}
 
@@ -1777,21 +1777,21 @@ E { 1316} {s} {s} {4} {0} {}
 
 R {  426} {0} {} {} { } {} {} {} {} {} {1.000}
 
-R {  427} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+R {  427} {0} {<afa>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  406} {n} {n} {1} {0} {}
 E {  431} {e} {open cabin;e} {2} {0} {}
 E {  432} {s} {s} {4} {0} {}
 
-R {  428} {0} {<afa>} {A Smelly Cave} { } {An unpleasant stench begins to develop in the room, making you wish you were somewhere else.  You are standing in a small stone cave, with exits to the south, east, and west.  Bits and pieces of trash are scattered about the floor. } {Goblin Caves} {} {Underground} {} {1.000}
+R {  428} {0} {<afa>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  423} {w} {w} {8} {0} {}
 E {  429} {s} {s} {4} {0} {}
 E {  720} {e} {e} {2} {0} {}
 
-R {  429} {0} {<afa>} {A Smelly Cavern} { } {You are standing in a large cavern, while the stench of rot and decay fills your head.  A large pile of trash has been piled in the corner of this stone cavern, and you can almost see the fumes rise from it.  There are exits to the north and south. } {Goblin Caves} {} {Underground} {} {1.000}
+R {  429} {0} {<afa>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  428} {n} {n} {1} {0} {}
 E {  430} {s} {s} {4} {0} {}
 
-R {  430} {0} {<afa>} {A Smelly Cavern} { } {You are standing in a large stone cavern, formed from humanoid hands.  Evil smells drift about, making your stay here most unpleasant.  There are small tunnels leaving to the east, south and north. } {Goblin Caves} {} {Underground} {} {1.000}
+R {  430} {0} {<afa>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  429} {n} {n} {1} {0} {}
 E {  719} {s} {s} {4} {0} {}
 E { 1373} {e} {e} {2} {0} {}
@@ -1799,21 +1799,21 @@ E { 1373} {e} {e} {2} {0} {}
 R {  431} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  427} {w} {open cabin;w} {8} {0} {}
 
-R {  432} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+R {  432} {0} {<afa>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  427} {n} {n} {1} {0} {}
 E {  433} {e} {e} {2} {0} {}
 E {  527} {u} {u} {16} {0} {}
 
-R {  433} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+R {  433} {0} {<afa>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  432} {w} {w} {8} {0} {}
 E {  434} {e} {e} {2} {0} {}
 
-R {  434} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+R {  434} {0} {<afa>} {A Dirt Path} { } {A narrow dirty path leads west into the forest.  A durable cobblestone road leads south toward a group of houses.  Large trees grow on both sides of the road and the sound of birds permeates the area.  There is a large burrow on the northern side of the path. } {NotYetSet} {} {Forest} {} {1.000}
 E {  433} {w} {w} {8} {0} {}
 E {  435} {s} {s} {4} {0} {}
 E { 1368} {d} {dig down;d} {32} {0} {}
 
-R {  435} {0} {<afa>} {At a Small Farm} { } {A cobblestone road stretches east and west for many miles, never bending, never broken.  The forest is a bit denser to the north.  Far south, beyond the houses of Trader's Outpost, huge grey mountains rise into the sky.  An ordinary looking cottage stands on the western side of the cobblestone road. } {Trader's Outpost} {} {Field} {} {1.000}
+R {  435} {0} {<afa>} {} { } {The waning moon rises in the east.  [MAPON] H:373/373 M:128/128 V:311/317 XP:129589 C:*> At a Small Farm    A cobblestone road stretches east and west for many miles, never bending, never broken.  The forest is a bit denser to the north.  Far south, beyond the houses of Trader's Outpost, huge grey mountains rise into the sky.  An ordinary looking cottage stands on the western side of the cobblestone road. } {NotYetSet} {} {Field} {} {1.000}
 E {  434} {n} {n} {1} {0} {}
 E {  436} {w} {w} {8} {0} {}
 E {  438} {s} {s} {4} {0} {}
@@ -1825,15 +1825,15 @@ E {  437} {w} {open door;w} {8} {0} {}
 R {  437} {0} {<afa>} {You realize that it's already open.} { } {[MAPON] H:411/411 M:127/127 V:260/261 XP:596075 C:*> Inside Johansson's House    The Johansson's have been farmers for at least thirteen generations.  The single room cottage is sparsely furnished.  A small wooden table stands in the kitchen and six wooden beds fill the rest of the space. } {Trader's Outpost} {} {Inside} {} {1.000}
 E {  436} {e} {open door;e} {2} {0} {}
 
-R {  438} {0} {<afa>} {Aenom's Street} { } {Aenom's street continues north and south.  It is flanked on both sides by red buildings that are constructed from large slabs of stone.  An old oak grows on the northwestern side of the cobblestone road.  The cobblestones are broken in an uneven pattern, where the roots of the large tree have extended beneath the road. } {Trader's Outpost} {} {City} {} {1.000}
+R {  438} {0} {<afa>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  435} {n} {n} {1} {0} {}
 E {  439} {s} {s} {4} {0} {}
 
-R {  439} {0} {<afa>} {Aenom's Street} { } {Stone buildings line Aenom's Street blocking the view both to the east and to the west.  The tiled roofs are covered with green moss but the walls are clean and tidy.  The street is made from grey cobblestones that have been placed in even lines between the houses. } {Trader's Outpost} {} {City} {} {1.000}
+R {  439} {0} {<afa>} {Aenom's Street} { } {Stone buildings line Aenom's Street blocking the view both to the east and to the west.  The tiled roofs are covered with green moss but the walls are clean and tidy.  The street is made from grey cobblestones that have been placed in even lines between the houses. } {NotYetSet} {} {City} {} {1.000}
 E {  438} {n} {n} {1} {0} {}
 E {  440} {s} {s} {4} {0} {}
 
-R {  440} {0} {<afa>} {Trader's Street} { } {The cobblestone street continues east and west.  A marble pillar stands in the center of the street with three signs hanging from it by short brown strings.  To the south a plate glass window provides a view into Inelia's Kitchen.  The restaurant's main entrance is located to the southeast.  A smaller street branches off to the north making its way between the buildings. } {Trader's Outpost} {} {City} {} {1.000}
+R {  440} {0} {<afa>} {Trader's Street} { } {The cobblestone street continues east and west.  A marble pillar stands in the center of the street with three signs hanging from it by short brown strings.  To the south a plate glass window provides a view into Inelia's Kitchen.  The restaurant's main entrance is located to the southeast.  A smaller street branches off to the north making its way between the buildings. } {NotYetSet} {} {City} {} {1.000}
 E {  439} {n} {n} {1} {0} {}
 E {  441} {w} {w} {8} {0} {}
 E { 1795} {e} {e} {2} {0} {}
@@ -2934,7 +2934,7 @@ E {  715} {n} {n} {1} {0} {}
 E { 1044} {e} {e} {2} {0} {}
 E { 1045} {w} {w} {8} {0} {}
 
-R {  719} {0} {<afa>} {A Smelly Cavern} { } {You are standing in a large, rough, smelly cavern.  It reeks of decay, and there is trash littering the floor.  Small insects and worm like things scurry about the room, eating the refuse.  You have heard that these vermin are considered to be delicacies among goblin-kind.  This might explain why there is so much trash in this place. } {Goblin Caves} {} {Underground} {} {1.000}
+R {  719} {0} {<afa>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  430} {n} {n} {1} {0} {}
 E {  731} {s} {s} {4} {0} {}
 
@@ -2979,7 +2979,7 @@ R {  730} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  729} {n} {n} {1} {0} {}
 E {  406} {s} {s} {4} {0} {}
 
-R {  731} {0} {<afa>} {A Small Tunnel} { } {You are standing in a small tunnel which separates two caves.  The place stinks, but it is not as foul as other places nearby.  You can exit to the north and east. } {Goblin Caves} {} {Underground} {} {1.000}
+R {  731} {0} {<afa>} {A Small Tunnel} { } {You are standing in a small tunnel which separates two caves.  The place stinks, but it is not as foul as other places nearby.  You can exit to the north and east. } {NotYetSet} {} {Underground} {} {1.000}
 E {  719} {n} {n} {1} {0} {}
 E { 1380} {e} {e} {2} {0} {}
 
@@ -3076,7 +3076,7 @@ E {  752} {n} {n} {1} {0} {}
 E {  754} {w} {w} {8} {0} {}
 E {  755} {s} {s} {4} {0} {}
 
-R {  754} {0} {<afa>} {Garden} { } {You enter the grounds of an old estate.  You can see that what was once a beautiful formal garden has not been kept up.  A cracked fountain is in the center overgrown with weeds.  The main path stretches to the south, where it turns to the west toward the house a bit further on; another leads west towards a gazebo.  A road to the east runs north and south. } {Abandoned Manor} {} {Field} {} {1.000}
+R {  754} {0} {<aff>} {Garden} { } {You enter the grounds of an old estate.  You can see that what was once a beautiful formal garden has not been kept up.  A cracked fountain is in the center overgrown with weeds.  The main path stretches to the south, where it turns to the west toward the house a bit further on; another leads west towards a gazebo.  A road to the east runs north and south. } {Abandoned Manor} {} {Field} {} {1.000}
 E {  753} {e} {e} {2} {0} {}
 E {  786} {s} {s} {4} {0} {}
 E {  788} {w} {w} {8} {0} {}
@@ -3169,21 +3169,23 @@ R {  775} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  771} {e} {e} {2} {0} {}
 E {  776} {s} {s} {4} {0} {}
 
-R {  776} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  776} {0} {<afa>} {Off the Path} { } {Moist pine needles and brown, old leaves rustle as you step between the great trees they once adorned.  Dappled sunlight lightly touches the ground, providing just enough light for fungi and small shrubs to exist beneath their giant brothers.  The wind moves softly beneath the canopy, sighing a quiet song as it dances with the leaves of the forest's carpet. } {Newbie Cemetary} {} {Forest} {} {1.000}
 E {  775} {n} {n} {1} {0} {}
 E {  777} {w} {w} {8} {0} {}
 E {  774} {e} {e} {2} {0} {}
 
-R {  777} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  777} {0} {<afa>} {The Path to the Cemetery} { } {This pathway has become more rundown and shabby since the main cemetery was moved south of Raven's Bluff.  A small ditch to the west is all that remains of its former glory.  Some people, too lazy to make the hike, continue to avail themselves of it. } {Newbie Cemetary} {} {Field} {} {1.000}
 E {  776} {e} {e} {2} {0} {}
 E {  778} {w} {w} {8} {0} {}
 
-R {  778} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  778} {0} {<afa>} {In the Newbie Ditch} { } {To the east, a steep slope, entangled with small shrubs and bushes, leads out of the ditch and towards the main road.  The brush growing along the eastern slope is somewhat battered, looking like several heavy objects had been pitched down it.  From the scattered bits of bone and scraps of equipment, you can only assume people have been haphazardly dumping the corpses of people without the resources for a proper burial off the edge. } {Newbie Cemetary} {} {Field} {} {1.000}
 E {  777} {e} {e} {2} {0} {}
 E {  779} {w} {w} {8} {0} {}
+E { 2159} {d} {d} {32} {0} {}
 
-R {  779} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  779} {0} {<afa>} {In the Newbie Ditch} { } {This shallow depression is littered with bone fragments and tiny tatters of equipment, along with occasional chunks of semi-fresh corpse.  It appears that this area is either used as a frequent dumping site or is very rarely maintained. } {Newbie Cemetary} {} {Field} {} {1.000}
 E {  778} {e} {e} {2} {0} {}
+E { 2157} {d} {d} {32} {0} {}
 
 R {  780} {0} {<fff>} {Along the Forest Path} { } {} {NotYetSet} {} {} {} {1.000}
 E {  774} {n} {n} {1} {0} {}
@@ -3206,30 +3208,30 @@ R {  784} {0} {} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  783} {w} {w} {8} {0} {}
 E {  814} {e} {e} {2} {0} {}
 
-R {  785} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  785} {0} {<fff>} {Beginning of the Trail} { } {You are standing at the edge of a forest.  There is a trail going into the forest and a sign by the side of the trail. } {NotYetSet} {} {Forest} {} {1.000}
 E {  783} {e} {e} {2} {0} {}
 E {  978} {w} {w} {8} {0} {}
 
-R {  786} {0} {<afa>} {Garden} { } {You are at the easternmost corner of the garden.  Weeds are starting to overrun the path.  The path turns west here, leading up to the house, while to the north you can see the entrance to the grounds. } {Abandoned Manor} {} {Field} {} {1.000}
+R {  786} {0} {<aff>} {Garden} { } {You are at the easternmost corner of the garden.  Weeds are starting to overrun the path.  The path turns west here, leading up to the house, while to the north you can see the entrance to the grounds. } {Abandoned Manor} {} {Field} {} {1.000}
 E {  754} {n} {n} {1} {0} {}
 E {  787} {w} {w} {8} {0} {}
 E {  789} {s} {s} {4} {0} {}
 
-R {  787} {0} {<afa>} {You realize that it's already open.} { } {[MAPON] H:413/413 M:116/128 V:270/270 XP:296321 C:*> Front Door     The grand entrance is now in disrepair.  The wood is all weathered and worn while the steps crumble beneath your feet.  To the north at the edge of the garden you spy a gazebo.  Another garden path goes south or you can go east to the entrance. } {Abandoned Manor} {} {Field} {} {1.000}
+R {  787} {0} {<aff>} {Front Door} { } {The grand entrance is now in disrepair.  The wood is all weathered and worn while the steps crumble beneath your feet.  To the north at the edge of the garden you spy a gazebo.  Another garden path goes south or you can go east to the entrance. } {Abandoned Manor} {} {Field} {} {1.000}
 E {  786} {e} {e} {2} {0} {}
 E {  788} {n} {n} {1} {0} {}
 E {  790} {s} {s} {4} {0} {}
 E { 1001} {w} {open door;w} {8} {0} {}
 
-R {  788} {0} {<afa>} {Gazebo} { } {You stand before a rickety gazebo.  The floor is rotting away and the trellises are laden with rambling roses.  The air is heavy with the sweet scent and as you lean closer to sniff at one you notice some carved writing on the gazebo post.  You can go south towards the front door or to the eastern part of the garden. } {Abandoned Manor} {} {Field} {} {1.000}
+R {  788} {0} {<aff>} {Gazebo} { } {You stand before a rickety gazebo.  The floor is rotting away and the trellises are laden with rambling roses.  The air is heavy with the sweet scent and as you lean closer to sniff at one you notice some carved writing on the gazebo post.  You can go south towards the front door or to the eastern part of the garden. } {Abandoned Manor} {} {Field} {} {1.000}
 E {  787} {s} {s} {4} {0} {}
 E {  754} {e} {e} {2} {0} {}
 
-R {  789} {0} {<afa>} {Garden} { } {You are in the southeastern corner of the garden.  The high vegetation muffles all sound, making it strangely quiet.  To the southwest you can see the beginnings of an old orchard.  To the north is the garden entrance. } {Abandoned Manor} {} {Field} {} {1.000}
+R {  789} {0} {<aff>} {Garden} { } {You are in the southeastern corner of the garden.  The high vegetation muffles all sound, making it strangely quiet.  To the southwest you can see the beginnings of an old orchard.  To the north is the garden entrance. } {Abandoned Manor} {} {Field} {} {1.000}
 E {  786} {n} {n} {1} {0} {}
 E {  790} {w} {w} {8} {0} {}
 
-R {  790} {0} {<afa>} {Garden} { } {You are in the southwestern corner of the garden.  To the south you can see an orchard.  One path goes north towards the front door of an abaondoned estate while another one leads east. } {Abandoned Manor} {} {Field} {} {1.000}
+R {  790} {0} {<aff>} {Garden} { } {You are in the southwestern corner of the garden.  To the south you can see an orchard.  One path goes north towards the front door of an abaondoned estate while another one leads east. } {Abandoned Manor} {} {Field} {} {1.000}
 E {  789} {e} {e} {2} {0} {}
 E {  787} {n} {n} {1} {0} {}
 E { 1000} {s} {s} {4} {0} {}
@@ -4006,144 +4008,145 @@ E {  977} {n} {n} {1} {0} {}
 R {  977} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  976} {s} {s} {4} {0} {}
 
-R {  978} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  978} {0} {<fff>} {Southern Forest Trail} { } {You are following the nature trail deeper into the forest.  You can make out a mountain in the distance to the north.  You also can make out something above the trees west of here.  The trail continues west and back east. } {NotYetSet} {} {Forest} {} {1.000}
 E {  785} {e} {e} {2} {0} {}
+E { 2158} {w} {w} {8} {0} {}
 
-R {  979} {0} {<afa>} {Orchard} { } {You are underneath a spreading apple tree.  The lower branches are just within reach and you can climb into the tree.  To the west you see another apple tree while you can go further into the orchard to the south.  Just as you are about to leave you spot a hole at the base of the trunk big enough for you to wiggle through. } {Abandoned Manor} {} {Forest} {} {1.000}
+R {  979} {0} {<aff>} {Orchard} { } {You are underneath a spreading apple tree.  The lower branches are just within reach and you can climb into the tree.  To the west you see another apple tree while you can go further into the orchard to the south.  Just as you are about to leave you spot a hole at the base of the trunk big enough for you to wiggle through. } {Abandoned Manor} {} {Forest} {} {1.000}
 E { 1000} {n} {n} {1} {0} {}
 E {  980} {w} {w} {8} {0} {}
 E {  991} {s} {s} {4} {0} {}
 E {  992} {d} {d} {32} {0} {}
 E {  998} {u} {u} {16} {0} {}
 
-R {  980} {0} {<afa>} {Orchard} { } {You are under a large apple tree.  The trunk looks like it has plenty of hand and foot holds so that you can climb into the tree.  You see apple trees to the east and west while to the south you spot other kinds of trees.  To the north you see the side of the house. } {Abandoned Manor} {} {Forest} {} {1.000}
+R {  980} {0} {<aff>} {Orchard} { } {You are under a large apple tree.  The trunk looks like it has plenty of hand and foot holds so that you can climb into the tree.  You see apple trees to the east and west while to the south you spot other kinds of trees.  To the north you see the side of the house. } {Abandoned Manor} {} {Forest} {} {1.000}
 E {  979} {e} {e} {2} {0} {}
 E {  981} {w} {w} {8} {0} {}
 E {  988} {s} {s} {4} {0} {}
 E {  999} {u} {u} {16} {0} {}
 
-R {  981} {0} {<afa>} {Orchard} { } {You stand beneath an ancient apple tree with branches far overhead.  Other apple trees are to the east or you can continue deeper into the orchard to the south.  To the north you can see the southern wall of the house. } {Abandoned Manor} {} {Forest} {} {1.000}
+R {  981} {0} {<aff>} {Orchard} { } {You stand beneath an ancient apple tree with branches far overhead.  Other apple trees are to the east or you can continue deeper into the orchard to the south.  To the north you can see the southern wall of the house. } {Abandoned Manor} {} {Forest} {} {1.000}
 E {  980} {e} {e} {2} {0} {}
 E {  982} {s} {s} {4} {0} {}
 
-R {  982} {0} {<afa>} {Orchard} { } {The branches are heavy with cherries, lowering them within reach.  Fallen fruit litters the ground.  You can see another cherry tree to the east while the orchard continues to the north and south.  To the west you can see the stables. } {Abandoned Manor} {} {Forest} {} {1.000}
+R {  982} {0} {<aff>} {Orchard} { } {The branches are heavy with cherries, lowering them within reach.  Fallen fruit litters the ground.  You can see another cherry tree to the east while the orchard continues to the north and south.  To the west you can see the stables. } {Abandoned Manor} {} {Forest} {} {1.000}
 E {  981} {n} {n} {1} {0} {}
 E {  983} {w} {w} {8} {0} {}
 E {  987} {s} {s} {4} {0} {}
 E {  988} {e} {e} {2} {0} {}
 E { 1236} {u} {u} {16} {0} {}
 
-R {  983} {0} {<afa>} {At the Stables} { } {You stand outside the stables.  A hitching post stands before it and there is hay strewn about the ground making your nose itch.  You can enter the stables to the west.  You can see what looks like a small garden to the north while to the east is a large grove of trees.  To the south is a small shed. } {Abandoned Manor} {} {Field} {} {1.000}
+R {  983} {0} {<aff>} {At the Stables} { } {You stand outside the stables.  A hitching post stands before it and there is hay strewn about the ground making your nose itch.  You can enter the stables to the west.  You can see what looks like a small garden to the north while to the east is a large grove of trees.  To the south is a small shed. } {Abandoned Manor} {} {Field} {} {1.000}
 E {  982} {e} {e} {2} {0} {}
 E {  984} {n} {n} {1} {0} {}
 E {  985} {w} {w} {8} {0} {}
 E {  986} {s} {s} {4} {0} {}
 
-R {  984} {0} {<afa>} {Kitchen Garden} { } {You are in the small kitchen garden where they grow fresh vegetables and herbs for cooking.  The rows of plants look quite orderly.  You can enter the house through the back door to the north.  There is a building to the south. } {Abandoned Manor} {} {Field} {} {1.000}
+R {  984} {0} {<aff>} {Kitchen Garden} { } {You are in the small kitchen garden where they grow fresh vegetables and herbs for cooking.  The rows of plants look quite orderly.  You can enter the house through the back door to the north.  There is a building to the south. } {Abandoned Manor} {} {Field} {} {1.000}
 E {  983} {s} {s} {4} {0} {}
 E { 1005} {n} {open door north;n} {1} {0} {}
 
-R {  985} {0} {<afa>} {Inside the Stables} { } {It is a bit dim inside the stables and as your eyes adjust to the light you can see two long rows of empty stalls.  Reins and saddles are stored in a corner against the wall but it doesn't look like they have been used in some time. } {Abandoned Manor} {} {Inside} {} {1.000}
+R {  985} {0} {<aff>} {Inside the Stables} { } {It is a bit dim inside the stables and as your eyes adjust to the light you can see two long rows of empty stalls.  Reins and saddles are stored in a corner against the wall but it doesn't look like they have been used in some time. } {Abandoned Manor} {} {Inside} {} {1.000}
 E {  983} {e} {e} {2} {0} {}
 
-R {  986} {0} {<afa>} {You realize that it's already open.} { } {[MAPON] H:365/413 M:102/128 V:200/270 XP:325088 C:*> Gardener's Shed     The shed stands in this corner of the yard looking a bit ramshackle. However the plant box under the window is full of cheerful flowers and everything is tidy.  The door to the shed is to the west.  You can see the stables to the north or enter the orchard to the east. } {Abandoned Manor} {} {Field} {} {1.000}
+R {  986} {0} {<aff>} {Gardener's Shed} { } {The shed stands in this corner of the yard looking a bit ramshackle. However the plant box under the window is full of cheerful flowers and everything is tidy.  The door to the shed is to the west.  You can see the stables to the north or enter the orchard to the east. } {Abandoned Manor} {} {Field} {} {1.000}
 E {  983} {n} {n} {1} {0} {}
 E {  987} {e} {e} {2} {0} {}
 E { 1599} {w} {open shed;w} {8} {0} {}
 
-R {  987} {0} {<afa>} {Orchard} { } {You are in the southwestern corner of the orchard.  You can see trees going to the north and east.  To the west you spy some kind of shed. } {Abandoned Manor} {} {Forest} {} {1.000}
+R {  987} {0} {<aff>} {Orchard} { } {You are in the southwestern corner of the orchard.  You can see trees going to the north and east.  To the west you spy some kind of shed. } {Abandoned Manor} {} {Forest} {} {1.000}
 E {  986} {w} {w} {8} {0} {}
 E {  982} {n} {n} {1} {0} {}
 E {  989} {e} {e} {2} {0} {}
 
-R {  988} {0} {<afa>} {Orchard} { } {You are deep within the orchard and the trees surround you on all sides. The tree you stand under is so gnarled it would be easy to climb.  To the east and west you see more cherry trees, while to the north and south are other types of trees. } {Abandoned Manor} {} {Forest} {} {1.000}
+R {  988} {0} {<aff>} {Orchard} { } {You are deep within the orchard and the trees surround you on all sides. The tree you stand under is so gnarled it would be easy to climb.  To the east and west you see more cherry trees, while to the north and south are other types of trees. } {Abandoned Manor} {} {Forest} {} {1.000}
 E {  982} {w} {w} {8} {0} {}
 E {  980} {n} {n} {1} {0} {}
 E {  989} {s} {s} {4} {0} {}
 E {  991} {e} {e} {2} {0} {}
 E { 1235} {u} {u} {16} {0} {}
 
-R {  989} {0} {<afa>} {Orchard} { } {You stand beneath a lemon tree.  Sounds are muffled by the trees and make it strangely quiet.  It is gloomy since the overhead branches block out so much light.  You can go east and west along the lemon stand or north back into the orchard. } {Abandoned Manor} {} {Forest} {} {1.000}
+R {  989} {0} {<aff>} {Orchard} { } {You stand beneath a lemon tree.  Sounds are muffled by the trees and make it strangely quiet.  It is gloomy since the overhead branches block out so much light.  You can go east and west along the lemon stand or north back into the orchard. } {Abandoned Manor} {} {Forest} {} {1.000}
 E {  988} {n} {n} {1} {0} {}
 E {  987} {w} {w} {8} {0} {}
 E {  990} {e} {e} {2} {0} {}
 E { 1233} {u} {u} {16} {0} {}
 
-R {  990} {0} {<afa>} {Orchard} { } {You are in a corner of the orchard in the deep shade of a large lemon tree. The leaves rustle overhead and the scent of citrus surrounds you.  To the west you see additional lemon trees while to the north is another stand of trees. An overgrown tangle stops you from going south or east. } {Abandoned Manor} {} {Forest} {} {1.000}
+R {  990} {0} {<aff>} {Orchard} { } {You are in a corner of the orchard in the deep shade of a large lemon tree. The leaves rustle overhead and the scent of citrus surrounds you.  To the west you see additional lemon trees while to the north is another stand of trees. An overgrown tangle stops you from going south or east. } {Abandoned Manor} {} {Forest} {} {1.000}
 E {  989} {w} {w} {8} {0} {}
 E {  991} {n} {n} {1} {0} {}
 
-R {  991} {0} {<afa>} {Orchard} { } {You are at the edge of the orchard.  Branches hung with Spanish moss are overhead.  Tangled brush blocks the way east while trees stretch out before you in all other directions. } {Abandoned Manor} {} {Forest} {} {1.000}
+R {  991} {0} {<aff>} {Orchard} { } {You are at the edge of the orchard.  Branches hung with Spanish moss are overhead.  Tangled brush blocks the way east while trees stretch out before you in all other directions. } {Abandoned Manor} {} {Forest} {} {1.000}
 E {  990} {s} {s} {4} {0} {}
 E {  979} {n} {n} {1} {0} {}
 E {  988} {w} {w} {8} {0} {}
 
-R {  992} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  992} {0} {<aff>} {Fox Den} { } {You are in a small dirt tunnel which seems to have been used for a fox den, although from the looks of things it doesn't look like it has had any inhabitants in quite some time.  The tunnel extends north and south or you can haul yourself back out of this hole. } {Abandoned Manor} {} {Underground} {} {1.000}
 E {  979} {u} {u} {16} {0} {}
 E {  993} {s} {s} {4} {0} {}
 E {  996} {n} {n} {1} {0} {}
 
-R {  993} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  993} {0} {<aff>} {Tunnel} { } {The tunnel slopes slightly downwards and narrows so that you can barely squeeze past.  It is dark and damp down here and you shiver with cold and the uncomfortable feeling that someone is watching you.  The tunnel widens to the south or you can go north. } {Abandoned Manor} {} {Underground} {} {1.000}
 E {  992} {n} {n} {1} {0} {}
 E {  994} {s} {s} {4} {0} {}
 
-R {  994} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  994} {0} {<aff>} {Underground Hollow} { } {The tunnel here is well kept, its walls smooth and packed hard.  Easily a pace wide, this room is larger than the rough passageway simply dug into the ground that heads north.  To the south the tunnel opens into a larger underground cavern. } {Abandoned Manor} {} {Underground} {} {1.000}
 E {  993} {n} {n} {1} {0} {}
 E {  995} {s} {s} {4} {0} {}
 
-R {  995} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  995} {0} {<aff>} {Underground Cavern} { } {The passage has given way to a rocky cave.  Its walls are covered in lichen, which throws an eerie light on everything.  What appears to be a dais with a rough hewn stone throne atop is at the other end of the room.  This makeshift throne room is littered with broken pieces of ceramics, and items from a fancy manor.  The only exit is north. } {Abandoned Manor} {} {Underground} {} {1.000}
 E {  994} {n} {n} {1} {0} {}
 
-R {  996} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  996} {0} {<aff>} {Tunnel} { } {The dirt walls close in somewhat as the tunnel narrows making the going tough.  There are tracks of some kind of animal in the damp dirt.  You see the tunnel widen to the north or you can wiggle your way south. } {Abandoned Manor} {} {Underground} {} {1.000}
 E {  992} {s} {s} {4} {0} {}
 E {  997} {n} {n} {1} {0} {}
 
-R {  997} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  997} {0} {<aff>} {Storage Room} { } {The tunnel has been excavated into a small room.  It is lit by a single guttering torch.  It looks like it used to be a storage chamber since you see scraps of old tools and broken crates. } {Abandoned Manor} {} {Underground} {} {1.000}
 E {  996} {s} {s} {4} {0} {}
 
-R {  998} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  998} {0} {<aff>} {In an Apple Tree} { } {This large apple tree is in the northeasternmost corner of the orchard. The branches sway gently in the breeze.  One branch big enough to walk on goes west or you can climb down using the many foot and handholds. } {Abandoned Manor} {} {Forest} {} {1.000}
 E {  979} {d} {d} {32} {0} {}
 E { 1220} {w} {w} {8} {0} {}
 
-R {  999} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  999} {0} {<aff>} {In an Apple Tree} { } {The branches of the old apple tree are quite wide, making movement easy.  A large branch forks so that you can go south deeper into the orchard or east to another apple tree.  To the north a branch runs up to the upper floor of the mansion. } {Abandoned Manor} {} {Forest} {} {1.000}
 E { 1220} {e} {e} {2} {0} {}
 E {  980} {d} {d} {32} {0} {}
-E { 1234} {n} {n} {1} {0} {}
+E { 1234} {n} {open window;n} {1} {0} {}
 E { 1235} {s} {s} {4} {0} {}
 
 R { 1000} {8} {} {} { } {} {Abandoned Manor} {} {} {} {1.000}
 E {  979} {s} {s} {4} {0} {}
 E {  790} {n} {n} {1} {0} {}
 
-R { 1001} {0} {<afa>} {You realize that it's already open.} { } {[MAPON] H:413/413 M:128/128 V:270/270 XP:296321 C:*> Entrance Hall     The entrance hall is made from the finest materials but everything is now dingy.  The marble floors are cracked and the tapestries on the wall are dusty and worn.  A graceful stairway curves upwards or you can continue with the hallway to the west.  Through the glass doorway to the south you catch a glimpse of a parlor while there is a wooden doorway to the north. } {Abandoned Manor} {} {Inside} {} {1.000}
+R { 1001} {0} {<aff>} {Entrance Hall} { } {The entrance hall is made from the finest materials but everything is now dingy.  The marble floors are cracked and the tapestries on the wall are dusty and worn.  A graceful stairway curves upwards or you can continue with the hallway to the west.  Through the glass doorway to the south you catch a glimpse of a parlor while there is a wooden doorway to the north. } {Abandoned Manor} {} {Inside} {} {1.000}
 E {  787} {e} {open door east;e} {2} {0} {}
 E { 1002} {s} {open glass;s} {4} {0} {}
 E { 1217} {n} {open wooden;n} {1} {0} {}
 E { 1218} {w} {w} {8} {0} {}
 E { 1224} {u} {u} {16} {0} {}
 
-R { 1002} {0} {<afa>} {You open the glass doorway.} { } {[MAPON] H:413/413 M:128/128 V:270/270 XP:296321 C:*> Parlor     It looks like a lush and comfortable room.  Overstuffed chairs and couches sit before the fireplace.  There is the scent of roses and you see a vase full of fresh cut ones on a table.  On the grand piano are pictures of a happy couple and their friends at various events.  There is a sliding door to the west and a glass door to the north. } {Abandoned Manor} {} {Inside} {} {1.000}
+R { 1002} {0} {<aff>} {Parlor} { } {It looks like a lush and comfortable room.  Overstuffed chairs and couches sit before the fireplace.  There is the scent of roses and you see a vase full of fresh cut ones on a table.  On the grand piano are pictures of a happy couple and their friends at various events.  There is a sliding door to the west and a glass door to the north. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1001} {n} {open glass;n} {1} {0} {}
 E { 1003} {west} {west} {0} {0} {}
 E { 1003} {w} {w} {8} {0} {}
 
-R { 1003} {0} {<afa>} {Dining Room} { } {It is a large dining room dominated by a long table.  The southern wall is a bay window looking out over the orchard.  Beautiful crystal and silver settings are placed on the table as if ready to be used, but you notice dust and tarnish, as if they have been out for a long time.  Doors are to the north, east, and west. } {Abandoned Manor} {} {Inside} {} {1.000}
+R { 1003} {0} {<aff>} {Dining Room} { } {It is a large dining room dominated by a long table.  The southern wall is a bay window looking out over the orchard.  Beautiful crystal and silver settings are placed on the table as if ready to be used, but you notice dust and tarnish, as if they have been out for a long time.  Doors are to the north, east, and west. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1004} {w} {open swinging;w} {8} {0} {}
 E { 1218} {n} {open oak;n} {1} {0} {}
 E { 1002} {e} {e} {2} {0} {}
 
-R { 1004} {0} {<afa>} {You realize that it's already open.} { } {[MAPON] H:413/413 M:109/128 V:270/270 XP:323117 C:*> Kitchen     As expected the kitchen is large for such a household.  Long counters fill the room and many pots and pans hang from hooks.  Utensils are neatly arranged in trays.  However it looks like there hasn't been a fire in the hearth in a while.  There is a wooden door to the west and a swinging door to the east.  Or you can use the exits to the north and south. } {Abandoned Manor} {} {Inside} {} {1.000}
+R { 1004} {0} {<aff>} {Kitchen} { } {As expected the kitchen is large for such a household.  Long counters fill the room and many pots and pans hang from hooks.  Utensils are neatly arranged in trays.  However it looks like there hasn't been a fire in the hearth in a while.  There is a wooden door to the west and a swinging door to the east.  Or you can use the exits to the north and south. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1003} {e} {open swinging;e} {2} {0} {}
 E { 1005} {s} {s} {4} {0} {}
 E { 1221} {w} {open door west;w} {8} {0} {}
 E { 1222} {n} {n} {1} {0} {}
 
-R { 1005} {0} {<afa>} {You realize that it's already open.} { } {[MAPON] H:413/413 M:108/128 V:270/270 XP:323117 C:*> Pantry     The pantry looks bare.  Only a few cans are on the shelves and there is a fine layer of dust on everything.  You can go into the kitchen or out the back door.  There is another door to the west. } {Abandoned Manor} {} {Inside} {} {1.000}
+R { 1005} {0} {<aff>} {Pantry} { } {The pantry looks bare.  Only a few cans are on the shelves and there is a fine layer of dust on everything.  You can go into the kitchen or out the back door.  There is another door to the west. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1004} {n} {n} {1} {0} {}
 E {  984} {s} {open door south;s} {4} {0} {}
 E { 1006} {w} {open door west;w} {8} {0} {}
 
-R { 1006} {0} {<afa>} {You open the door.} { } {[MAPON] H:413/413 M:107/128 V:270/270 XP:323117 C:*> Cook's Quarters     The cook must really like to eat!  You see crumbs on the floor and on the bed.  Against one wall there is even a cupboard.  Mice squeak in one corner of of the room behind the baseboards. } {Abandoned Manor} {} {Inside} {} {1.000}
+R { 1006} {0} {<aff>} {Cook's Quarters} { } {The cook must really like to eat!  You see crumbs on the floor and on the bed.  Against one wall there is even a cupboard.  Mice squeak in one corner of of the room behind the baseboards. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1005} {e} {open door east;e} {2} {0} {}
 
 R { 1007} {0} {} {} { } {} {} {} {} {} {1.000}
@@ -5001,88 +5004,88 @@ E { 1327} {w} {w} {8} {0} {}
 E { 1328} {e} {e} {2} {0} {}
 E { 1330} {s} {s} {4} {0} {}
 
-R { 1217} {0} {<afa>} {Library} { } {The library is a quiet, contemplative place.  The walls are lined with bookcases and filled with leather bound volumes.  Richly upholstered chairs sit before the fireplace.  The air smells faintly of pipe smoke and old books.  The hallway is to the south and there is another doorway to the west. } {Abandoned Manor} {} {Inside} {} {1.000}
+R { 1217} {0} {<aff>} {Library} { } {The library is a quiet, contemplative place.  The walls are lined with bookcases and filled with leather bound volumes.  Richly upholstered chairs sit before the fireplace.  The air smells faintly of pipe smoke and old books.  The hallway is to the south and there is another doorway to the west. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1001} {s} {open wooden;s} {4} {0} {}
 E { 1219} {w} {w} {8} {0} {}
 
-R { 1218} {0} {<afa>} {Hallway} { } {The hallway stretches east and west.  The carpet is threadbare from many years of use and the wallpaper is starting to peel.  There is an oak door carved with an acorn design to the south.  To the north there is a solid pine door carved with a pinecone design. } {Abandoned Manor} {} {Inside} {} {1.000}
+R { 1218} {0} {<aff>} {Hallway} { } {The hallway stretches east and west.  The carpet is threadbare from many years of use and the wallpaper is starting to peel.  There is an oak door carved with an acorn design to the south.  To the north there is a solid pine door carved with a pinecone design. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1003} {s} {open oak;s} {4} {0} {}
 E { 1001} {e} {e} {2} {0} {}
 E { 1219} {n} {open pine;n} {1} {0} {}
 E { 1222} {w} {w} {8} {0} {}
 
-R { 1219} {0} {<afa>} {Den} { } {The den looks like the room where men can be men.  A bar lined with bottles is against one wall.  Before the fireplace is a natty old rug of some indeterminate animal hide.  Slouchy couches are placed before the large fireplace.  The lighting is dim and restful.  There are double doors to the east and a pine door to the south. } {Abandoned Manor} {} {Inside} {} {1.000}
+R { 1219} {0} {<aff>} {Den} { } {The den looks like the room where men can be men.  A bar lined with bottles is against one wall.  Before the fireplace is a natty old rug of some indeterminate animal hide.  Slouchy couches are placed before the large fireplace.  The lighting is dim and restful.  There are double doors to the east and a pine door to the south. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1218} {s} {open pine;s} {4} {0} {}
 E { 1217} {e} {e} {2} {0} {}
 
-R { 1220} {8} {} {} { } {} {} {} {} {} {1.000}
+R { 1220} {8} {} {} { } {} {Abandoned Manor} {} {} {} {1.000}
 E {  999} {w} {w} {8} {0} {}
 E {  998} {e} {e} {2} {0} {}
 
-R { 1221} {0} {<afa>} {You open the wooden door.} { } {[MAPON] H:413/413 M:109/128 V:270/270 XP:323117 C:*> Maids' Quarters     What a mess!  For maids they sure aren't very neat.  There is a bed on each side of the room.  A vanity table littered with all kinds of cosmetics is on the far side of the room  pushed crooked away from the wall. } {Abandoned Manor} {} {Inside} {} {1.000}
+R { 1221} {0} {<aff>} {Maids' Quarters} { } {What a mess!  For maids they sure aren't very neat.  There is a bed on each side of the room.  A vanity table littered with all kinds of cosmetics is on the far side of the room  pushed crooked away from the wall. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1004} {e} {open door east;e} {2} {0} {}
 
-R { 1222} {0} {<afa>} {You realize that it's already open.} { } {[MAPON] H:291/413 M:72/128 V:248/270 XP:296321 C:*> Hallway     The hallway turns a corner here going south and east.  To the east is more hallway; to the south you see the kitchen.  There is a plain but sturdy looking doorway to the west. } {Abandoned Manor} {} {Inside} {} {1.000}
+R { 1222} {0} {<aff>} {Hallway} { } {The hallway turns a corner here going south and east.  To the east is more hallway; to the south you see the kitchen.  There is a plain but sturdy looking doorway to the west. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1218} {e} {e} {2} {0} {}
 E { 1004} {s} {s} {4} {0} {}
 E { 1223} {w} {open plain;w} {8} {0} {}
 
-R { 1223} {0} {<afa>} {You realize that it's already open.} { } {[MAPON] H:289/413 M:72/128 V:246/270 XP:296321 C:*> Butler's Quarters     The room is immaculate.  It looks like the butler is a fastidious man.  The furnishings are plain but well made.  There is a small writing desk in one corner of the room. } {Abandoned Manor} {} {Inside} {} {1.000}
+R { 1223} {0} {<aff>} {Butler's Quarters} { } {The room is immaculate.  It looks like the butler is a fastidious man.  The furnishings are plain but well made.  There is a small writing desk in one corner of the room. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1222} {e} {open plain;e} {2} {0} {}
 
-R { 1224} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1224} {0} {<aff>} {Upstairs Hallway} { } {The upstairs hallway stretches out before you.  The wall sconces give off plenty of light.  Rich looking tables and tapestries line the hall.  You can move further down the hall to the west.  There are doorways to the north and south or you can go downstairs. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1001} {d} {d} {32} {0} {}
 E { 1225} {n} {open door north;n} {1} {0} {}
 E { 1226} {s} {open doorway;s} {4} {0} {}
 E { 1228} {w} {w} {8} {0} {}
 
-R { 1225} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1225} {0} {<aff>} {Sitting Room} { } {This is a graceful and elegant room.  Large windows overlook the garden. Sofas and chairs are arranged around a low table.  The table looks like it was set for having tea.  There is an ornate piano in one corner.  The doorway to the south leads to the hallway. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1224} {s} {open door;s} {4} {0} {}
 
-R { 1226} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1226} {0} {<aff>} {Playroom} { } {The playroom looks very messy with toys scattered all over the place. Brightly colored mobiles and ornaments hang about the room.  In one corner is a sandbox filled with soft white sand.  There is a sliding door to the west and another doorway to the north. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1224} {n} {open doorway;n} {1} {0} {}
 E { 1227} {w} {open door w;w} {8} {0} {}
 
-R { 1227} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1227} {0} {<aff>} {Children's Bedroom} { } {Everything is done in miniature in this children's bedroom.  There is one bed on each side of the room.  The room is decorated with stars, moons, and other bed-time motifs.  It makes you feel drowsy and comforted.  There is a toy chest against the far wall. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1226} {e} {open door e;e} {2} {0} {}
 E { 1228} {n} {open door;n} {1} {0} {}
 
-R { 1228} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1228} {0} {<aff>} {Upstairs Hallway} { } {You are further along the upstairs hallway.  The thick carpeting muffles your footsteps as do the tapestries on the wall.  Gleaming tables are alongside both sides of the hall.  There are doors to the north, south, and west, or you can move to the other end of the hall to the east. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1227} {s} {open door s;s} {4} {0} {}
 E { 1224} {e} {e} {2} {0} {}
-E { 1229} {n} {popen door north;n} {1} {0} {}
+E { 1229} {n} {open door north;n} {1} {0} {}
 E { 1230} {w} {open door west;w} {8} {0} {}
 
-R { 1229} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1229} {0} {<aff>} {Guest Room} { } {The guest quarters is a large and comfortable room.  A huge bed faces the fireplace.  In one corner there is an ornately carved writing desk.  An armoire sits against the northern wall. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1228} {s} {open door;s} {4} {0} {}
 
-R { 1230} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1230} {0} {<aff>} {Master Bedroom Suite} { } {The room is in shambles!  Drawers are tossed out of dressers and clothes are strewn about the room.  The canopy on the bed is ripped up as are the bedclothes.  There is a picture on the floor here with the glass broken.  It looks like a terrific struggle has taken place here.  The window to the south has a smashed pane.  There is a doorway to the east. } {Abandoned Manor} {} {Inside} {} {1.000}
 E { 1228} {e} {open door;e} {2} {0} {}
-E { 1231} {s} {s} {4} {0} {}
+E { 1231} {s} {open window;s} {4} {0} {}
 
-R { 1231} {8} {} {} { } {} {} {} {} {} {1.000}
+R { 1231} {8} {} {} { } {} {Abandoned Manor} {} {} {} {1.000}
 E { 1232} {s} {s} {4} {0} {}
 E { 1230} {n} {n} {1} {0} {}
 
-R { 1232} {8} {} {} { } {} {} {} {} {} {1.000}
+R { 1232} {8} {} {} { } {} {Abandoned Manor} {} {} {} {1.000}
 E { 1231} {n} {n} {1} {0} {}
 E { 1234} {e} {e} {2} {0} {}
 
-R { 1233} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1233} {0} {<aff>} {In a Lemon Tree} { } {You are high in the limbs of a lemon tree.  It is very peaceful with the soothing sway of the branches and the refreshing scent of citrus.  A branch to the north is entangled with the next tree.  The gnarled trunk makes it look like an easy descent. } {Abandoned Manor} {} {Forest} {} {1.000}
 E {  989} {d} {d} {32} {0} {}
 E { 1235} {n} {n} {1} {0} {}
 
-R { 1234} {8} {} {} { } {} {} {} {} {} {1.000}
+R { 1234} {8} {<aff>} {} { } {} {Abandoned Manor} {} {} {} {1.000}
 E {  999} {s} {s} {4} {0} {}
 E { 1232} {w} {w} {8} {0} {}
 
-R { 1235} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1235} {0} {<aff>} {In a Cherry Tree} { } {You are in a cherry tree deep in the heart of the orchard.  There are bits of paper stuck to the tree and a mass of leaves with a dirty blanket on top which looks vaguely like a bed.  There is a small carving on the branch here. Branches spread out in all directions except east or you can climb down. } {Abandoned Manor} {} {Forest} {} {1.000}
 E { 1233} {s} {s} {4} {0} {}
 E {  999} {n} {n} {1} {0} {}
 E { 1236} {w} {w} {8} {0} {}
 E {  988} {d} {d} {32} {0} {}
 
-R { 1236} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1236} {0} {<aff>} {In a Cherry Tree} { } {This cherry tree is at the edge of the orchard.  You can see the roofs of some buildings to the west.  You can climb the branches to the east or you can descend the tree. } {Abandoned Manor} {} {Forest} {} {1.000}
 E { 1235} {e} {e} {2} {0} {}
 E {  982} {d} {d} {32} {0} {}
 
@@ -5668,28 +5671,28 @@ R { 1381} {0} {<afa>} {An Old Mine} { } {The old mine is now obvious as such, al
 E {  500} {s} {s} {4} {0} {}
 E { 1601} {n} {n} {1} {0} {}
 
-R { 1382} {0} {<fff>} {At the Edge of a Ravine} { } {You are standing on a large ridge, overlooking a deep ravine.  If you could fly, you could go east, into the ravine, but if you can't, you'll just have to go either north, or west along the ridge. } {NotYetSet} {} {Mountains} {} {1.000}
+R { 1382} {0} {<afa>} {At the Edge of a Ravine} { } {You are standing on a large ridge, overlooking a deep ravine.  If you could fly, you could go east, into the ravine, but if you can't, you'll just have to go either north, or west along the ridge. } {NotYetSet} {} {Mountains} {} {1.000}
 E {  418} {w} {w} {8} {0} {}
 E { 1383} {n} {n} {1} {0} {}
 E { 1653} {e} {e} {2} {0} {}
 
-R { 1383} {0} {<fff>} {A Path Through The Mountains} { } {You are standing on a thick ridge leading east and south around a large ravine.  To the east, you can see a large pile of rubble, perhaps from a recent avalanche. } {NotYetSet} {} {Mountains} {} {1.000}
+R { 1383} {0} {<afa>} {A Path Through The Mountains} { } {You are standing on a thick ridge leading east and south around a large ravine.  To the east, you can see a large pile of rubble, perhaps from a recent avalanche. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1382} {s} {s} {4} {0} {}
 E { 1384} {e} {e} {2} {0} {}
 
-R { 1384} {0} {<fff>} {At The Edge Of A Pile Of Rubble} { } {You are standing at the edge of a large pile of rubble, which covers the entire trail to the east.  To the west, you can travel along a large ridge, which leads around a deep ravine.   The rubble looks dangerous, but if you are lucky, you can get across. } {NotYetSet} {} {Mountains} {} {1.000}
+R { 1384} {0} {<afa>} {At The Edge Of A Pile Of Rubble} { } {You are standing at the edge of a large pile of rubble, which covers the entire trail to the east.  To the west, you can travel along a large ridge, which leads around a deep ravine.   The rubble looks dangerous, but if you are lucky, you can get across. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1383} {w} {w} {8} {0} {}
 E { 1385} {e} {e} {2} {0} {}
 
-R { 1385} {0} {<fff>} {On A Pile Of Rubble} { } {You are standing on a large pile of rubble, which shifts dangerously under your weight.  If i were you, i would MOVE and do it very quickly!!!! } {NotYetSet} {} {Mountains} {} {1.000}
+R { 1385} {0} {<afa>} {On A Pile Of Rubble} {DT!} {You are standing on a large pile of rubble, which shifts dangerously under your weight.  If i were you, i would MOVE and do it very quickly!!!! } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1384} {w} {w} {8} {0} {}
 E { 1386} {e} {e} {2} {0} {}
 
-R { 1386} {0} {<fff>} {At the Eastern Edge of a Pile of Rubble} { } {You are standing at the edge of a large pile of rubble, which covers the entire trail to the west.  To the east, you can travel along a large ridge, which leads around a deep ravine.  The rubble looks dangerous, but if you are lucky, you can get across. } {NotYetSet} {} {Mountains} {} {1.000}
+R { 1386} {0} {<afa>} {At the Eastern Edge of a Pile of Rubble} { } {You are standing at the edge of a large pile of rubble, which covers the entire trail to the west.  To the east, you can travel along a large ridge, which leads around a deep ravine.  The rubble looks dangerous, but if you are lucky, you can get across. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1385} {w} {w} {8} {0} {}
 E { 1387} {e} {e} {2} {0} {}
 
-R { 1387} {0} {<fff>} {The Edge of a Ravine} { } {You are standing at the northeastern edge of a large ravine.  The path leads west and south, and to the east you can see a small mine-shaft opening. } {NotYetSet} {} {Mountains} {} {1.000}
+R { 1387} {0} {<afa>} {The Edge of a Ravine} { } {You are standing at the northeastern edge of a large ravine.  The path leads west and south, and to the east you can see a small mine-shaft opening. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1386} {w} {w} {8} {0} {}
 E { 1388} {s} {s} {4} {0} {}
 E { 1389} {e} {e} {2} {0} {}
@@ -5727,26 +5730,27 @@ E { 1393} {s} {s} {4} {0} {}
 
 R { 1396} {0} {<fff>} {A Mountain Path} { } {You are standing on a path leading north-south through the mountains.  The path is fairly level here, and the going is somewhat easier.  Movement to the east and west is blocked by large hills. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1388} {n} {n} {1} {0} {}
-E { 1397} {s} {s} {4} {0} {}
+E { 2303} {s} {s} {4} {0} {}
 
-R { 1397} {0} {<fff>} {A Choice of Directions} { } {You are standing at a three-way split in the path, one branch leading north between two large hills, one path leading east towards a tall mountain, and one path leading west towards a large crevasse. } {NotYetSet} {} {Mountains} {} {1.000}
-E { 1396} {n} {n} {1} {0} {}
+R { 1397} {0} {<afa>} {A Choice of Directions} { } {You are standing at a three-way split in the path, one branch leading north between two large hills, one path leading east towards a tall mountain, and one path leading west towards a large crevasse. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2303} {n} {n} {1} {0} {}
 E { 1398} {w} {w} {8} {0} {}
 E { 1399} {e} {e} {2} {0} {}
 
-R { 1398} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+R { 1398} {0} {<afa>} {The Eastern Edge of the Ravine} { } {You are standing at the eastern edge of a large ravine.  If you could fly, you could continue west over the ravine, but if you can't you'll have to settle for traveling east along the mountain path.  On the far side of the ravine you can see another clearing, perhaps it is a trail. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1397} {e} {e} {2} {0} {}
+E { 1651} {w} {w} {8} {0} {}
 
 R { 1399} {0} {<fff>} {High in the Mountains} { } {You are standing on trail high in the mountains.  To the south, the trail leads downwards along a steep slope.  To the west, the path leads towards a large clearing. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1397} {w} {w} {8} {0} {}
-E { 1400} {s} {s} {4} {0} {}
+E { 2302} {s} {s} {4} {0} {}
 
-R { 1400} {0} {<fff>} {A Steep Trail} { } {You are standing on a trail leading north and east along a very steep slope.  Movement here is very slow, to ensure that you don't slip and fall down the mountainside. } {NotYetSet} {} {Mountains} {} {1.000}
-E { 1399} {n} {n} {1} {0} {}
-E { 1401} {e} {e} {2} {0} {}
+R { 1400} {0} {<afa>} {A Steep Trail} { } {You are standing on a trail leading north and east along a very steep slope.  Movement here is very slow, to ensure that you don't slip and fall down the mountainside. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2302} {n} {n} {1} {0} {}
+E { 2304} {e} {e} {2} {0} {}
 
-R { 1401} {0} {<fff>} {A Large Clearing} { } {You are standing inside a large clearing, an enormous bonfire in the center of the clearing.  The air wherever you stand is an unbearable temperature.  On the stones near the fire several large corpses lie, the scent of them cooking being surprisingly pleasant.  Trees surround the clearing, bushes visible to the north and a denser grove expanding out to the east. } {NotYetSet} {} {Field} {} {1.000}
-E { 1400} {w} {w} {8} {0} {}
+R { 1401} {0} {<afa>} {A Steep Trail} { } {You are standing on a trail leading east and west along a steep slope.  To the west, the slope rises rapidly into the mountains, while to the east, it levels off as it approaches a valley deep in the heart of the Eastern mountains.  To the north, you can see the smoke from a fire in a clearing. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2304} {w} {w} {8} {0} {}
 E { 1402} {n} {n} {1} {0} {}
 E { 1403} {e} {e} {2} {0} {}
 
@@ -5755,65 +5759,65 @@ E { 1401} {s} {s} {4} {0} {}
 
 R { 1403} {0} {<fff>} {Overlooking a Large Valley} { } {You are standing on a rocky ridge, which overlooks a large, green valley hidden deep in the heart of the Eastern Mountains.  To the south a trail leads to a ledge that runs around the outside of the valley, while to the west, the trail rises rapidly into the mountains. } {NotYetSet} {} {Field} {} {1.000}
 E { 1401} {w} {w} {8} {0} {}
-E { 1404} {s} {s} {4} {0} {}
+E { 2305} {s} {s} {4} {0} {}
 
-R { 1404} {0} {<fff>} {Ledge Around the Valley} { } {You are walking around a small ledge overlooking a large valley, deep within the Eastern Mountains.  The ledge turns north following the shape of the valley and a steep trail continues to the east. } {NotYetSet} {} {Field} {} {1.000}
-E { 1403} {n} {n} {1} {0} {}
-E { 1405} {e} {e} {2} {0} {}
+R { 1404} {0} {<afa>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2305} {n} {n} {1} {0} {}
+E { 2307} {e} {e} {2} {0} {}
 
-R { 1405} {0} {<fff>} {Path Through the Mountains} { } {You are walking on a rock strewn path deep within the mountains east of Nevrast.  The going is rough and you constantly twist your ankle on the small stones lying about. } {NotYetSet} {} {Mountains} {} {1.000}
-E { 1404} {w} {w} {8} {0} {}
-E { 1406} {e} {e} {2} {0} {}
+R { 1405} {0} {<afa>} {Path Through the Mountains} { } {You are walking on a rock strewn path deep within the mountains east of Nevrast.  The going is rough and you constantly twist your ankle on the small stones lying about. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2306} {w} {w} {8} {0} {}
+E { 2308} {e} {e} {2} {0} {}
 
-R { 1406} {0} {<fff>} {Path Through the Mountains} { } {The path continues east to west here through the mountains. } {NotYetSet} {} {Mountains} {} {1.000}
-E { 1405} {w} {w} {8} {0} {}
+R { 1406} {0} {<afa>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2308} {w} {w} {8} {0} {}
 E { 1407} {e} {e} {2} {0} {}
 
 R { 1407} {0} {<fff>} {Path Through the Mountains} { } {Travel is hard and slow since you almost have to climb around large boulders strewn about the path. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1406} {w} {w} {8} {0} {}
-E { 1408} {s} {s} {4} {0} {}
+E { 2310} {s} {s} {4} {0} {}
 
-R { 1408} {0} {<fff>} {Edge of the Ravine} { } {The ground drops off east of you into a rushing river.  A small rope bridge sways to and fro in the wind, giving you access to the other side. } {NotYetSet} {} {Mountains} {} {1.000}
-E { 1407} {n} {n} {1} {0} {}
+R { 1408} {0} {<afa>} {Edge of the Ravine} { } {The ground drops off east of you into a rushing river.  A small rope bridge sways to and fro in the wind, giving you access to the other side. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2310} {n} {n} {1} {0} {}
 E { 1409} {e} {e} {2} {0} {}
 
-R { 1409} {0} {<fff>} {On a Rope Bridge} { } {The small rope bridge shudders under your weight as you make your way across the magnificent river valley far below. } {NotYetSet} {} {Mountains} {} {1.000}
+R { 1409} {0} {<afa>} {On a Rope Bridge} { } {The small rope bridge shudders under your weight as you make your way across the magnificent river valley far below. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1408} {w} {w} {8} {0} {}
 E { 1410} {e} {e} {2} {0} {}
 
-R { 1410} {0} {<fff>} {Edge of the Ravine} { } {You stand at the edge of a real long drop down.  A small rope bridge has conveniently been placed here to allow access to the other side of the ravine.  Unfortunately, the wind seems to be picking up, making the bridge sway slightly.  The path leads off through the mountains to the east. } {NotYetSet} {} {Mountains} {} {1.000}
+R { 1410} {0} {<afa>} {Edge of the Ravine} { } {You stand at the edge of a real long drop down.  A small rope bridge has conveniently been placed here to allow access to the other side of the ravine.  Unfortunately, the wind seems to be picking up, making the bridge sway slightly.  The path leads off through the mountains to the east. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1409} {w} {w} {8} {0} {}
 E { 1411} {e} {e} {2} {0} {}
 
-R { 1411} {0} {<fff>} {Path Through the Mountains} { } {The narrow path makes its way through the mountains from the east and west. You hear the squawking of a large bird overhead, most likely a buzzard or raven waiting for you to drop. } {NotYetSet} {} {Mountains} {} {1.000}
+R { 1411} {0} {<afa>} {Path Through the Mountains} { } {The narrow path makes its way through the mountains from the east and west. You hear the squawking of a large bird overhead, most likely a buzzard or raven waiting for you to drop. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1410} {w} {w} {8} {0} {}
 E { 1412} {e} {e} {2} {0} {}
 E { 1570} {n} {n} {1} {0} {}
 
-R { 1412} {0} {<fff>} {Path Through the Mountains} { } {A large boulder suddenly decides it wants to occupy the same space you are currently standing in.  I would move QUICK. } {NotYetSet} {} {Mountains} {} {1.000}
+R { 1412} {0} {<afa>} {} {DT!} {} {NotYetSet} {} {} {} {1.000}
 E { 1411} {w} {w} {8} {0} {}
 E { 1413} {e} {e} {2} {0} {}
 
-R { 1413} {0} {<fff>} {On the Eastern Edge of the Mountains} { } {You stand on the eastern edge of the Eastern Mountains.  The high peaks lie to the west and rolling hills and plains open up to your east. } {NotYetSet} {} {Mountains} {} {1.000}
+R { 1413} {0} {<afa>} {On the Eastern Edge of the Mountains} { } {You stand on the eastern edge of the Eastern Mountains.  The high peaks lie to the west and rolling hills and plains open up to your east. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1412} {w} {w} {8} {0} {}
 E { 1414} {n} {n} {1} {0} {}
-E { 1415} {s} {s} {4} {0} {}
+E { 2312} {s} {s} {4} {0} {}
 
 R { 1414} {0} {<fff>} {Path to Bronze Citadel} { } {A packed dirt path leads northwards towards a mighty stone wall encircling a hill.  As the hill rises in elevation, more walls are visible inside the first. At the very top of the hill is a large structure which gleams with a bronze sheen.  Even from this distance, ballistae, catapults, and trebuchets can be seen mounted on the walls, all seeming to point in this direction. } {NotYetSet} {} {Inside} {} {1.000}
 E { 1413} {s} {s} {4} {0} {}
 
 R { 1415} {0} {<fff>} {In the Foothills} { } {The path curves down the face of the mountain, allowing you to move up or down the face of this massive hunk of stone. } {NotYetSet} {} {Hills} {} {1.000}
-E { 1413} {n} {n} {1} {0} {}
+E { 2312} {n} {n} {1} {0} {}
 E { 1416} {e} {e} {2} {0} {}
 
-R { 1416} {0} {<fff>} {In the Foothills} { } {The path curves down the face of the mountain, allowing you to move up or down the side of the mountain as you please. } {NotYetSet} {} {Hills} {} {1.000}
+R { 1416} {0} {<afa>} {In the Foothills} { } {The path curves down the face of the mountain, allowing you to move up or down the side of the mountain as you please. } {NotYetSet} {} {Hills} {} {1.000}
 E { 1415} {w} {w} {8} {0} {}
-E { 1417} {s} {s} {4} {0} {}
+E { 2314} {s} {s} {4} {0} {}
 
-R { 1417} {0} {<fff>} {A Rocky Trail} { } {The faint sound of a flowing river reaches your ears from the south. Through the trees you can see the glistening of running water.  The path you are on continues north and east from here. } {NotYetSet} {} {Hills} {} {1.000}
-E { 1416} {n} {n} {1} {0} {}
+R { 1417} {0} {<afa>} {A Rocky Trail} { } {The faint sound of a flowing river reaches your ears from the south. Through the trees you can see the glistening of running water.  The path you are on continues north and east from here. } {NotYetSet} {} {Hills} {} {1.000}
+E { 2314} {n} {n} {1} {0} {}
 E { 1418} {e} {e} {2} {0} {}
-E { 1569} {s} {s} {4} {0} {}
+E { 2321} {s} {s} {4} {0} {}
 
 R { 1418} {0} {<fff>} {On a Road} { } {The road you are on continues east and west. } {NotYetSet} {} {Shore} {} {1.000}
 E { 1417} {w} {w} {8} {0} {}
@@ -5829,12 +5833,12 @@ E { 1421} {e} {e} {2} {0} {}
 
 R { 1421} {0} {<fff>} {On a Road} {} {The road bends away from the river bank towards the mountains to the north. To the west the road wanders parallel to the river.  A grassy meadow has been cut into the trees just to the east.  A faint glow of magic runs through the grass, leaving the impression of power in your mind.  The wind is moving from west to east, but still, the sounds of laughter rise into the air from the glade to the east. } {NotYetSet} {} {Shore} {} {1.000}
 E { 1420} {w} {w} {8} {0} {}
-E { 1422} {n} {n} {1} {0} {}
+E { 2315} {n} {n} {1} {0} {}
 E { 1567} {e} {e} {2} {0} {}
-E { 1568} {s} {s} {4} {0} {}
+E { 2320} {s} {s} {4} {0} {}
 
 R { 1422} {0} {<fff>} {On a Road} { } {This long road continues to the east and south. } {NotYetSet} {} {Shore} {} {1.000}
-E { 1421} {s} {s} {4} {0} {}
+E { 2315} {s} {s} {4} {0} {}
 E { 1423} {e} {e} {2} {0} {}
 
 R { 1423} {0} {<fff>} {On a Road} { } {This well kept road continues east and west from here. } {NotYetSet} {} {Shore} {} {1.000}
@@ -6428,9 +6432,9 @@ E { 1558} {w} {w} {8} {0} {}
 E { 1540} {e} {e} {2} {0} {}
 E { 1560} {s} {s} {4} {0} {}
 
-R { 1560} {0} {<afa>} {Boat Ramp} { } {This sloped slab of stone allows easy passage to and from the Ishtar River. Boats are moored to the docks here, awaiting their masters to return from the warehouses and the pubs.  The waters of the Ishtar lap at your feet to the south, and Ishtar Drive lies to the north. } {New Thalos} {} {City} {} {1.000}
+R { 1560} {0} {<afa>} {Boat Ramp} { } {This sloped slab of stone allows easy passage to and from the Ishtar River. Boats are moored to the docks here, awaiting their masters to return from the warehouses and the pubs.  The waters of the Ishtar lap at your feet to the south, and Ishtar Drive lies to the north. } {NotYetSet} {} {City} {} {1.000}
 E { 1559} {n} {n} {1} {0} {}
-E { 1686} {s} {s} {4} {0} {}
+E { 2322} {s} {s} {4} {0} {}
 
 R { 1561} {0} {<afa>} {The Southern Bridge} { } {Walking over the bridge gives you a marvelous view of the rushing waters of the Ishtar River.  To the south, you see the southern gate of New Thalos, and the Common Square stretches out to the north. } {New Thalos} {} {City} {} {1.000}
 E { 1539} {n} {n} {1} {0} {}
@@ -6453,14 +6457,16 @@ E { 1517} {e} {e} {2} {0} {}
 R { 1566} {0} {<afa>} {Northeast Tower} { } {You stand in one of the four towers guarding the city.  To the north you see the wide plains and then the forest.  South of here you see the city and the Great Eastern Desert beyond.  Far to the east, the waves of the Sea of Dragons shimmer. } {New Thalos} {} {Inside} {} {1.000}
 E { 1518} {d} {d} {32} {0} {}
 
-R { 1567} {0} {<aaf>} {} {~} {} {} {} {} {} {1.000}
+R { 1567} {0} {<fff>} {} {?} {} {} {} {} {} {1.000}
 E { 1421} {w} {w} {8} {0} {}
 
-R { 1568} {0} {<aaf>} {} {~} {} {} {} {} {} {1.000}
-E { 1421} {n} {n} {1} {0} {}
+R { 1568} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2319} {w} {w} {8} {0} {}
+E { 1686} {e} {e} {2} {0} {}
 
-R { 1569} {0} {<aaf>} {} {~} {} {} {} {} {} {1.000}
-E { 1417} {n} {n} {1} {0} {}
+R { 1569} {8} {<aaf>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2299} {w} {w} {8} {0} {}
+E { 2309} {s} {s} {4} {0} {}
 
 R { 1570} {0} {<fff>} {Path Through the Mountains} { } {The path through the mountains winds its way north between large boulders and loose rock. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1411} {s} {s} {4} {0} {}
@@ -6478,15 +6484,15 @@ R { 1573} {0} {<fff>} {You realize that they're already open.} {} {[MAPON] H:411
 E { 1572} {s} {open doors;s} {4} {0} {}
 E { 1664} {n} {n} {1} {0} {}
 
-R { 1574} {0} {<fff>} {A Small Mineshaft} { } {You are standing in a small mineshaft.  It looks like it was made just the right size for dwarves.  To the east, you can leave the shaft, and to the north you can venture deeper into the mine. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1574} {0} {<afa>} {A Small Mineshaft} { } {You are standing in a small mineshaft.  It looks like it was made just the right size for dwarves.  To the east, you can leave the shaft, and to the north you can venture deeper into the mine. } {NotYetSet} {} {Underground} {} {1.000}
 E {  418} {e} {e} {2} {0} {}
 E { 1575} {n} {n} {1} {0} {}
 
-R { 1575} {0} {<fff>} {A Mineshaft} { } {You are standing in a small mineshaft.  The shaft stretches north and south, and there is a large pair of rails in the center of the floor, to enable large mine-cars to move about with their loads of ore.  You can hear strange echos from the north. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1575} {0} {<afa>} {A Mineshaft} { } {You are standing in a small mineshaft.  The shaft stretches north and south, and there is a large pair of rails in the center of the floor, to enable large mine-cars to move about with their loads of ore.  You can hear strange echos from the north. } {NotYetSet} {} {Underground} {} {1.000}
 E { 1574} {s} {s} {4} {0} {}
 E { 1576} {n} {n} {1} {0} {}
 
-R { 1576} {0} {<fff>} {A Mineshaft} { } {You are standing in a small mineshaft, which slopes slightly upward to the south.  Rails extend to the south; they end at a downward shaft, from which a thick metal chain emerges to attach to a complex system of hooks and pulleys set into the tunnel's ceiling.  The shaft emerges into sunlight to the north. } {NotYetSet} {} {Underground} {} {1.000}
+R { 1576} {0} {<afa>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1575} {s} {s} {4} {0} {}
 E { 1656} {n} {n} {1} {0} {}
 
@@ -6580,10 +6586,10 @@ E { 1598} {n} {n} {1} {0} {}
 R { 1598} {0} {<fff>} {Standing Beside the Moat} { } {The moat is intended to keep the likes of you away from the castle.  You are able to determine that to the north, the moat is shallow enough to stand up in, but appears quite nasty.  You can see a catapult to the south and a drawbridge to the east. } {NotYetSet} {} {Shore} {} {1.000}
 E { 1597} {s} {s} {4} {0} {}
 
-R { 1599} {0} {<afa>} {You open the shed door.} { } {[MAPON] H:364/413 M:102/128 V:199/270 XP:325088 C:*> Inside the Shed     The shed contains what you expect a garden shed to contain.  Rakes, hoes, and other tools hang neatly on the wall.  On the work table are stacks of flowerpots.  It looks like the gardener sleeps here since you see a cot against the back wall. } {Abandoned Manor} {} {Inside} {} {1.000}
+R { 1599} {0} {<aff>} {Inside the Shed} { } {The shed contains what you expect a garden shed to contain.  Rakes, hoes, and other tools hang neatly on the wall.  On the work table are stacks of flowerpots.  It looks like the gardener sleeps here since you see a cot against the back wall. } {Abandoned Manor} {} {Inside} {} {1.000}
 E {  986} {e} {open shed;e} {2} {0} {}
 
-R { 1600} {0} {<aaf>} {The Rilghorn River} {~} {The river is shallow enough here to be forded, and indeed, a ford exists.  A road leads to the north and south into the dark depths of the forest.  Plants reach far over the water and several grow out of the nearby banks, their stems cutting through the water, roots buried in the riverbed.  A small curl of smoke rises to the northwest, clearly a great distance away but probably an indication of some large fire or civilization. } {Rilghorn River} {} {River} {} {1.000}
+R { 1600} {0} {<aaf>} {The Rilghorn River} {~} {The river is shallow enough here to be forded, and indeed, a ford exists.  A road leads to the north and south into the dark depths of the forest.  Plants reach far over the water and several grow out of the nearby banks, their stems cutting through the water, roots buried in the riverbed.  A small curl of smoke rises to the northwest, clearly a great distance away but probably an indication of some large fire or civilization. } {NotYetSet} {} {River} {} {1.000}
 E {  490} {n} {n} {1} {0} {}
 E { 1779} {w} {w} {8} {0} {}
 E { 1780} {s} {s} {4} {0} {}
@@ -6800,8 +6806,9 @@ E {  475} {n} {n} {1} {0} {}
 E { 1794} {w} {w} {8} {0} {}
 E { 1797} {e} {e} {2} {0} {}
 
-R { 1651} {0} {} {} {^^^} {} {} {} {} {} {1.000}
+R { 1651} {0} {<afa>} {The Air Above a Ravine} {^^^} {You are flying above a large ravine, which extends northwards and downwards. To the east and west you see flat spots which turn into paths leading off into the mountains.  Below you, you can see several large birds circling something even farther below. } {NotYetSet} {} {Air} {} {1.000}
 E {  415} {w} {w} {8} {0} {}
+E { 1398} {e} {e} {2} {0} {}
 
 R { 1652} {0} {<afa>} {In the Tunnels} { } {The maze of tunnels that you find yourself in is connected to a dwarven glory hole to the north.  The rocks overhead are being held up by stout beams that seem old enough to have seen the creation of the world.  A thick layer of dust coats the stone floor, the product of decay in the beams.  The passage extends to the west. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 1647} {n} {n} {1} {0} {}
@@ -6817,7 +6824,7 @@ R { 1655} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  413} {e} {e} {2} {0} {}
 E { 1657} {w} {w} {8} {0} {}
 
-R { 1656} {0} {<fff>} {The Valley} { } {You are in a small valley, surrounded by hills and a mountain to the south. In the mountain there is a cave.  To the north, a path stretches into the hills. } {NotYetSet} {} {Hills} {} {1.000}
+R { 1656} {0} {<afa>} {The Valley} { } {You are in a small valley, surrounded by hills and a mountain to the south. In the mountain there is a cave.  To the north, a path stretches into the hills. } {NotYetSet} {} {Hills} {} {1.000}
 E { 1576} {s} {s} {4} {0} {}
 E { 1658} {n} {n} {1} {0} {}
 
@@ -6825,15 +6832,15 @@ R { 1657} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1655} {e} {e} {2} {0} {}
 E {  412} {w} {w} {8} {0} {}
 
-R { 1658} {0} {<fff>} {Valley Trail} { } {To the south this path ends at a cave in the mountains.  To the north, it stretches down through the hills, towards a winding river.  You can see a line of smoke there too. } {NotYetSet} {} {Hills} {} {1.000}
+R { 1658} {0} {<afa>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1656} {s} {s} {4} {0} {}
 E { 1659} {n} {n} {1} {0} {}
 
-R { 1659} {0} {<fff>} {Valley Trail} { } {This trail continues to wind through the hills to the north.  The line of smoke growing thicker in that direction is more distinct against the horizon now.  Perhaps it is from a village. } {NotYetSet} {} {Hills} {} {1.000}
+R { 1659} {0} {<afa>} {Valley Trail} { } {This trail continues to wind through the hills to the north.  The line of smoke growing thicker in that direction is more distinct against the horizon now.  Perhaps it is from a village. } {NotYetSet} {} {Hills} {} {1.000}
 E { 1658} {s} {s} {4} {0} {}
 E { 1660} {n} {n} {1} {0} {}
 
-R { 1660} {0} {<fff>} {Valley Trail} { } {The path becomes more treacherous here, You may wish to turn back.  A deep ravine bars your passage to the west, and a steep cliff your passage to the east.  Northwards you can see the river now, and you think that there might be some movement there too. } {NotYetSet} {} {Hills} {} {1.000}
+R { 1660} {0} {<afa>} {Valley Trail} { } {The path becomes more treacherous here, You may wish to turn back.  A deep ravine bars your passage to the west, and a steep cliff your passage to the east.  Northwards you can see the river now, and you think that there might be some movement there too. } {NotYetSet} {} {Hills} {} {1.000}
 E { 1659} {s} {s} {4} {0} {}
 E { 1661} {n} {n} {1} {0} {}
 
@@ -6856,7 +6863,7 @@ R { 1665} {0} {<fff>} {A Damp Corridor} { } {The corridor continues until you co
 E { 1664} {s} {s} {4} {0} {}
 E { 1666} {w} {open door west;w} {8} {0} {}
 E { 1667} {n} {n} {1} {0} {}
-E { 1684} {e} {e} {2} {0} {}
+E { 1684} {e} {open door east;e} {2} {0} {}
 
 R { 1666} {0} {<fff>} {You realize that it's already open.} { } {[MAPON] H:411/411 M:127/127 V:261/261 XP:588619 C:*> A Small Room    At first glance, this room looks to be just a hole in the wall.  In fact, it's really not a room at all, just an open space dug out of solid rock.  On the floor are some bones that are arranged in odd patterns, and a thick, rancid stench fills the air. } {NotYetSet} {} {Inside} {} {1.000}
 E { 1665} {e} {open door;e} {2} {0} {}
@@ -6909,7 +6916,7 @@ R { 1678} {0} {<fff>} {A Damp Corridor} { } {The corridor comes to an abrupt end
 E { 1677} {w} {w} {8} {0} {}
 E { 1679} {n} {n} {1} {0} {}
 E { 1680} {e} {e} {2} {0} {}
-E { 1681} {s} {s} {4} {0} {}
+E { 1681} {s} {open door south;s} {4} {0} {}
 
 R { 1679} {0} {<fff>} {A Weapons Room} { } {This room houses most of the weapons for this place.  Swords, spears, and other wicked weapons line the walls.  Large clubs and staves lay bundled on the floor.  A few broken arrows, and rusted daggers lie scattered on the ground, but they seem to not have been moved in awhile.  The other weapons however, look to be in relatively good condition. } {NotYetSet} {} {Inside} {} {1.000}
 E { 1678} {s} {s} {4} {0} {}
@@ -6934,8 +6941,9 @@ E { 1665} {w} {w} {8} {0} {}
 R { 1685} {0} {<afa>} {Southwestern Watchtower} { } {The Ishtar river rushes by just to the south, across which you see a small nomad camp followed by the expansive Great Eastern Desert.  To the Northeast the market opens up in all its glory.  A staircase, cut into the defensive wall of the city leads down. } {New Thalos} {} {City} {} {1.000}
 E { 1552} {d} {d} {32} {0} {}
 
-R { 1686} {0} {<aaf>} {You would need a boat to go there.} {~} {} {New Thalos} {} {} {} {1.000}
-E { 1560} {n} {n} {1} {0} {}
+R { 1686} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1568} {w} {w} {8} {0} {}
+E { 2322} {e} {e} {2} {0} {}
 
 R { 1687} {0} {<afa>} {The Great Eastern Desert} { } {A vast desert stretches for miles, the sands constantly shifting around you. Endless pristine dunes lay before you, the fine sand reflecting off the suns oppressive rays.  Heat shimmers stretch across the horizon, the hot air starting to play tricks on your eyes.  The smoky images hinting at features in the landscape that never materialize.    Jutting out of the desolate landscape to the south-west is a large pyramid, piercing the clear blue sky. } {The Great Eastern Desert} {} {Desert} {} {1.000}
 E { 1563} {n} {n} {1} {0} {}
@@ -7169,7 +7177,7 @@ R { 1735} {0} {<afa>} {A Small Shack} { } {This cramped dwelling could not have 
 E { 1734} {e} {e} {2} {0} {}
 E { 1736} {w} {w} {8} {0} {}
 
-R { 1736} {0} {<afa>} {A Tall Dwelling} { } {This seems to be the tallest structure remaining in the city.  At one time this could have been an inn of some sort, but now it's just a mess.  The back wall as been completely knocked down revealing an entrance into another building through yet another collapsed wall.  Between the two buildings are a few blast craters and boulders.  An old, decrepit looking set of stairs lies against the north wall leading to the second floor.  They don't look like they could safely support your weight. } {Thalos} {} {Inside} {} {1.000}
+R { 1736} {0} {<aaf>} {#MAP JUMP: JUMPED TO ROOM 1736 {A Tall Dwelling}.} { } {} {Ishtar River} {} {} {} {1.000}
 E { 1735} {e} {e} {2} {0} {}
 
 R { 1737} {0} {<afa>} {The Great Eastern Desert} { } {A vast desert stretches for miles, the sands constantly shifting around you. The wind has uncovered what could be an old trail here under the sand.  The stone surface must have been covered by the sands for ages.  It leads to the east through the desert. } {The Great Eastern Desert} {} {Desert} {} {1.000}
@@ -7218,7 +7226,7 @@ E { 1752} {w} {w} {8} {0} {}
 E { 1753} {n} {n} {1} {0} {}
 E { 1754} {s} {s} {4} {0} {}
 
-R { 1748} {0} {<aaf>} {The Rilghorn River} {~} {The Rilghorn River emerges from under the city wall into open space, thence to wash its way through a forest.  It's wide enough here that individual trees blur together on the far bank.  A smaller, swifter stream flows out from along the wall just before joining the river here from the south.  Snow-covered mountains rise above the trees far to the east, and a cool breeze blows upriver. } {Rilghorn River} {} {River} {} {1.000}
+R { 1748} {0} {<aaf>} {The Rilghorn River} {~} {The Rilghorn River emerges from under the city wall into open space, thence to wash its way through a forest.  It's wide enough here that individual trees blur together on the far bank.  A smaller, swifter stream flows out from along the wall just before joining the river here from the south.  Snow-covered mountains rise above the trees far to the east, and a cool breeze blows upriver. } {NotYetSet} {} {River} {} {1.000}
 E { 1753} {s} {s} {4} {0} {}
 E { 1749} {w} {w} {8} {0} {}
 E { 1776} {e} {e} {2} {0} {}
@@ -7349,25 +7357,27 @@ E { 1759} {w} {w} {8} {0} {}
 R { 1775} {0} {<afa>} {Field of Flowers} { } {You are surrounded by flowers of many types; they all range in colors from red to yellow and even to black.  From the west you can hear the bubbling of the stream and in the background you can hear the chirping of the birds.  An overgrown path also leads through the bushes and into the forest to the east. } {Meadow} {} {Field} {} {1.000}
 E { 1774} {n} {n} {1} {0} {}
 E { 1760} {w} {w} {8} {0} {}
+E { 2224} {e} {e} {2} {0} {}
 
-R { 1776} {8} {} {} { } {} {Rilghorn River} {} {} {} {1.000}
+R { 1776} {8} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1748} {w} {w} {8} {0} {}
 E { 1777} {e} {e} {2} {0} {}
 
-R { 1777} {8} {} {} { } {} {Rilghorn River} {} {} {} {1.000}
+R { 1777} {8} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1776} {w} {w} {8} {0} {}
 E { 1778} {s} {s} {4} {0} {}
 
-R { 1778} {8} {} {} { } {} {Rilghorn River} {} {} {} {1.000}
+R { 1778} {8} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1777} {n} {n} {1} {0} {}
 E { 1779} {e} {e} {2} {0} {}
 
-R { 1779} {8} {} {} { } {} {Rilghorn River} {} {} {} {1.000}
+R { 1779} {8} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1778} {w} {w} {8} {0} {}
 E { 1600} {e} {e} {2} {0} {}
 
-R { 1780} {0} {<fff>} {A Forest Path} { } {The narrow path through the forest leads north to the dark river and south towards some sort of building, although the type of construction is uncertain. The trees tower above you, blocking all light, making it impossible to see without the aid of light or magic.  You hear scurrying all around, as small creatures rush through the undergrowth. } {NotYetSet} {} {Forest} {} {1.000}
+R { 1780} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1600} {n} {n} {1} {0} {}
+E { 2160} {s} {s} {4} {0} {}
 
 R { 1781} {0} {<aaf>} {The Rilghorn River} {~} {The forest on the southern bank is so thick that no light seems to penetrate its depths and as the sun passes overhead, the branches reaching over the river cast a dark shadow over the surface of the water.  Rich floral smells fill the air as the forest extends its reach to the farthest edges of the southern bank. On the northern shore the trees are thinning out, light streaming through the trees. } {Rilghorn River} {} {River} {} {1.000}
 E { 1600} {w} {w} {8} {0} {}
@@ -7435,18 +7445,18 @@ E { 1791} {w} {w} {8} {0} {}
 
 R { 1797} {0} {<aaf>} {} {~} {} {Rilghorn River} {} {} {} {1.000}
 E { 1650} {w} {w} {8} {0} {}
-E { 1798} {n} {n} {1} {0} {}
+E { 2316} {n} {n} {1} {0} {}
 
 R { 1798} {0} {<aaf>} {The Rilghorn River} {~} {The twisting canyon continues as the hills to all sides of the river force and direct the water along a winding path.  The current continues to move slowly and lazily even though every little redirection that the hills require are causing swirls and eddies in the surface of the water. } {Rilghorn River} {} {River} {} {1.000}
-E { 1797} {s} {s} {4} {0} {}
+E { 2316} {s} {s} {4} {0} {}
 E { 1799} {e} {e} {2} {0} {}
 
 R { 1799} {0} {<aaf>} {The Rilghorn River} {~} {This particular turn is framed on two sides by a jut of black rock, a stark change from the brownish-grey stone that has stood south of the river for such a long time.  The black rock seemed to be a deeper layer of rock based on the edges near the change from brown to black.  At some point back in the history of this stone the surface layer was cut away and this rock was exposed. Perhaps the river's path was changed intentionally for a past civilization's needs. } {Rilghorn River} {} {River} {} {1.000}
 E { 1798} {w} {w} {8} {0} {}
-E { 1800} {n} {n} {1} {0} {}
+E { 2317} {n} {n} {1} {0} {}
 
 R { 1800} {0} {<aaf>} {The Rilghorn River} {~} {The river makes a final turn as it flows along from the south and now straightens itself back out to the east.  Large grooves scar the surface of the hill immediately north as it quickly flattens back down into plains. The plains extend from here, to the east. The grooves were probably caused by digging relatively recently for no apparent purpose.  No people are visible now and not even the tools of those who created these ugly marks remain.  Weeds have begun to grow into each of the long tracks and the wound is healing itself. } {Rilghorn River} {} {River} {} {1.000}
-E { 1799} {s} {s} {4} {0} {}
+E { 2317} {s} {s} {4} {0} {}
 E { 1801} {e} {e} {2} {0} {}
 
 R { 1801} {0} {<aaf>} {The Rilghorn River} {~} {The plains are dying out as the terrain to the north gets more rocky and less inhabitable.  The southern canyon walls remain sheer.  To the east the river descends into a canyon and a bend forces the river to turn.  What few plants remain along either shore are withered and dying, black circles staining those roots which extend into the water. } {Rilghorn River} {} {River} {} {1.000}
@@ -7465,8 +7475,10 @@ R { 1804} {0} {<aaf>} {The Rilghorn River} {~} {The river continues to calmly pr
 E { 1803} {w} {w} {8} {0} {}
 E { 1805} {e} {e} {2} {0} {}
 
-R { 1805} {0} {<aaf>} {Division of Flow} { } {The Rilghorn River splits here to both the east and the south.  The current carries the bulk of the water to the east, where spikes and shelves of rock create a swirling white cap.  A smaller branch, twisting to the south and into hills between the mountains, travels slowly and calm.  West of this split the water is darker, nearly black.  Yet after this split the southern tributary is cleaner, less foul. } {Rilghorn River} {} {River} {} {1.000}
+R { 1805} {0} {<aaf>} {Division of Flow} {~} {The Rilghorn River splits here to both the east and the south.  The current carries the bulk of the water to the east, where spikes and shelves of rock create a swirling white cap.  A smaller branch, twisting to the south and into hills between the mountains, travels slowly and calm.  West of this split the water is darker, nearly black.  Yet after this split the southern tributary is cleaner, less foul. } {Rilghorn River} {} {River} {} {1.000}
 E { 1804} {w} {w} {8} {0} {}
+E { 2230} {s} {s} {4} {0} {}
+E { 2270} {e} {e} {2} {0} {}
 
 R { 1806} {0} {<aaf>} {On the Rilghorn River} {~} {On the northern bank you see a large pile of garbage that piles up almost to the level of the street above.  The river flows from west to east. } {Rilhorn River} {} {River} {} {1.000}
 E { 1751} {e} {e} {2} {0} {}
@@ -9018,3 +9030,893 @@ E { 2156} {s} {s} {4} {0} {}
 
 R { 2156} {0} {<afa>} {An Abandoned Mine Tunnel} { } {The tunnel and rails stretch to the north and south.  To the south there is a faint glow in the distance along with the apparent source of the fetid air. The overhead beams occasionally creak from the strain, but still appear to be holding. } {Mac Mordain Cadal} {} {Underground} {} {1.000}
 E { 2155} {n} {n} {1} {0} {}
+
+R { 2157} {0} {<afa>} {Beneath the Newbie Ditch} { } {Dozens of bodies and partial bodies line the edges and bottom of this hole, many of them quite fresh.  The stench of death is thick in the air, making it hard to breathe.  Crushed and destroyed bits of newbie gear lie half buried among the corpses and mouldering earth, all of it useless. } {Newbie Cemetary} {} {Underground} {} {1.000}
+E {  779} {u} {u} {16} {0} {}
+E { 2159} {e} {e} {2} {0} {}
+
+R { 2158} {0} {<fff>} {Southern Forest Trail} { } {You are following the trail through the southern part of the forest now. You hear water flowing off in the distance.  The trail continues east and back west. } {NotYetSet} {} {Forest} {} {1.000}
+E {  978} {e} {e} {2} {0} {}
+
+R { 2159} {0} {<afa>} {Beneath the Newbie Ditch} { } {Shattered bones and twisted corpses clutter the bottom of this hole, the result of hundreds of dumped bodies.  Bits of charred and shredded equipment poke out among the desiccated ruins of life, all of it broken beyond repair or use at this point. } {Newbie Cemetary} {} {Underground} {} {1.000}
+E {  778} {u} {u} {16} {0} {}
+E { 2157} {w} {w} {8} {0} {}
+
+R { 2160} {0} {<fff>} {An Ancient Toll Booth} { } {The path dips slightly outside a ruined toll booth, which must have once served to charge travelers on their journeys through the forest.  Now, a hundred years of neglect have left nothing but the walls of the place still standing.  The path it guards leads north and south. } {NotYetSet} {} {Forest} {} {1.000}
+E { 1780} {n} {n} {1} {0} {}
+E { 2197} {e} {e} {2} {0} {}
+E { 2203} {s} {s} {4} {0} {}
+
+R { 2161} {0} {<fff>} {An Ancient Toll Booth} { } {You are standing inside the crumbling walls of an ancient toll booth, put here to charge travelers for the use of the dark road that splits through the forest of Mirkwood.  But this place has stood abandoned for a long while, and is barely more than a heap of stones.  Above, the trees branches sway gently, for the roof has long since collapsed.  A path winds around the building to the east. } {NotYetSet} {} {Forest} {} {1.000}
+E { 2197} {w} {w} {8} {0} {}
+E { 2202} {e} {e} {2} {0} {}
+
+R { 2162} {0} {<fff>} {Forest Path} { } {Winding through the thick underbrush, travel along this path is slow.  To the east a collapsed building partially blocks.  To the east this meandering path continues.  Thick trees block passage to the north and south, the space between them packed with thick underbrush. } {NotYetSet} {} {Forest} {} {1.000}
+E { 2202} {w} {w} {8} {0} {}
+E { 2163} {e} {e} {2} {0} {}
+
+R { 2163} {0} {<fff>} {Turn in the Forest Path} { } {With dense stands of trees to the north and east the path turns south and west where at the base of a particularly large tree.  Straightening to the south the path heads towards a castle obscured slightly by the thick forest while also heading west to an abandoned building over taken by vines. } {NotYetSet} {} {Forest} {} {1.000}
+E { 2162} {w} {w} {8} {0} {}
+E { 2164} {s} {s} {4} {0} {}
+
+R { 2164} {0} {<fff>} {Forested Path before the Castle} { } {The trees on either side of this wide path are tall, thick, and dense with underbrush.  This north south path has been cut through the forest, as travel east and west is impossible, and kept clear by a large workforce.  To the south you see the walls of a castle, just beyond a drawbridge and dry moat. } {NotYetSet} {} {Forest} {} {1.000}
+E { 2163} {n} {n} {1} {0} {}
+E { 2165} {s} {s} {4} {0} {}
+
+R { 2165} {0} {<fff>} {Path to castle} { } {Cutting straight through the forest, north and south, this path leads south to the drawbridge of a large castle and north further into the forest.  Dense stands of trees and underbrush block travel to the east and west and vines rise up towards the canopy high above. } {NotYetSet} {} {Forest} {} {1.000}
+E { 2164} {n} {n} {1} {0} {}
+E { 2166} {s} {s} {4} {0} {}
+
+R { 2166} {0} {<fff>} {Outside Castle} { } {A huge dry moat lies directly to the south and across its breadth a drawbridge reaches to welcome people into its cofines.  A path leads north into the thick forest that hides this castle from the nearby city of Nevrast. Travel to the east and west is completely blocked by thick underbrush. } {NotYetSet} {} {Field} {} {1.000}
+E { 2165} {n} {n} {1} {0} {}
+E { 2167} {s} {s} {4} {0} {}
+
+R { 2167} {0} {<fff>} {Gate House and Drawbridge} { } {This wide drawbridge has been lowered over a deep dry moat; clearly meant to be flooded in times of defense.  A stone gate house sits at the southern end of the moat; a place or guards to wait to greet visitors to the castle. } {NotYetSet} {} {Field} {} {1.000}
+E { 2166} {n} {n} {1} {0} {}
+E { 2168} {s} {s} {4} {0} {}
+
+R { 2168} {0} {<fff>} {Courtyard} { } {The expanse of the courtyard spreads out in all directions.  To the north lies the gate house and drawbridge, while the courtyard itself  spreads out in all other directions.  At the edges of the courtyard, a bit away from the gate house, the buildings that make up the inner fortress. } {NotYetSet} {} {Field} {} {1.000}
+E { 2167} {n} {n} {1} {0} {}
+E { 2173} {w} {w} {8} {0} {}
+E { 2174} {s} {s} {4} {0} {}
+E { 2178} {e} {e} {2} {0} {}
+
+R { 2169} {0} {<fff>} {West End of Courtyard} { } {You are in the castle courtyard.  To the west lies the castle barracks, a home for the guards, gardeners, and serfs that work within the walls.  A large sign hangs over the entrance to an inn to the south, its purpose to provide a place for visitors to rest before a meeting with Lord Python. } {NotYetSet} {} {Field} {} {1.000}
+E { 2173} {e} {e} {2} {0} {}
+E { 2170} {w} {w} {8} {0} {}
+E { 2171} {s} {s} {4} {0} {}
+
+R { 2170} {0} {<fff>} {Barracks} { } {You have entered the castle barracks.  Many bunks line the walls of this room, each with a footlocker of considerable size.  Simple torches, mounted on brackets, illuminate this stark room. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2169} {e} {e} {2} {0} {}
+
+R { 2171} {0} {<fff>} {Flying Circus Inn} { } {This castle tavern smells of mead and food while the sounds are of stories and tales of those who live within the castles reach.  A spiral stair case leads up, to the sleeping rooms of the inn.  Archways with doors held open for ventilation lead north ane east. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2169} {n} {n} {1} {0} {}
+E { 2172} {e} {e} {2} {0} {}
+E { 2181} {u} {u} {16} {0} {}
+
+R { 2172} {0} {<fff>} {Castle Gardens} { } {Laid out in a formal pattern of concentric circles this garden brings the the forest into the walls of the castle.  Comfortable chairs are strategically placed to afford the best view of the beautiful landscaping.  The many trees provide ample shade and seclusion.  The Flying circus inn sits to the west, an archway providing access to it's lower level. } {NotYetSet} {} {Field} {} {1.000}
+E { 2171} {w} {w} {8} {0} {}
+E { 2174} {e} {e} {2} {0} {}
+
+R { 2173} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2169} {w} {w} {8} {0} {}
+E { 2168} {e} {e} {2} {0} {}
+
+R { 2174} {0} {<fff>} {Southern Courtyard} { } {The bakery and mill lies directly to the east, its constant work provides both sound and smell to this southern part of the courtyard.  Fresh baking bread and food smells draw your attention.  To the west a small wooden building, a cafe, sits against the side of a larger stone inn.  To the south a gate house controls access to the inner keep. } {NotYetSet} {} {Field} {} {1.000}
+E { 2172} {w} {w} {8} {0} {}
+E { 2168} {n} {n} {1} {0} {}
+E { 2175} {e} {open sliding;e} {2} {0} {}
+E { 2182} {s} {s} {4} {0} {}
+
+R { 2175} {0} {<fff>} {Bakery and Mill} { } {Two huge stone objects, a giant mill and an expansive stone oven, sit at the center of this building.  Counters ring the space around the oven and carts full of grain sit against the back side of the mill, waiting to be turned into flour.  A large sliding door leads west, into the castle courtyard. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2174} {w} {open sliding;w} {8} {0} {}
+
+R { 2176} {0} {<fff>} {East End of Courtyard} { } {You are in the castle courtyard. To the east large open doors lead into the stables. To the south is a large sign identifying the general store. } {NotYetSet} {} {Field} {} {1.000}
+E { 2178} {w} {w} {8} {0} {}
+E { 2177} {e} {e} {2} {0} {}
+E { 2179} {s} {s} {4} {0} {}
+
+R { 2177} {0} {<fff>} {Stables} { } {You are in the castle stables. The first thing you notice is all the hay scattered about. Besides that, you can see more hay and still more hay. Under all this you find a relatively normal stable. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2176} {w} {w} {8} {0} {}
+
+R { 2178} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2176} {e} {e} {2} {0} {}
+E { 2168} {w} {w} {8} {0} {}
+
+R { 2179} {0} {<fff>} {General Store} { } {You have found the castle's general store.  All sorts of items line the walls, from standard torches and bags to items that you couldn't imagine in your wildest dreams.  A staircase leads up. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2176} {n} {n} {1} {0} {}
+E { 2180} {u} {u} {16} {0} {}
+
+R { 2180} {0} {<fff>} {Cheese Shop} { } {Situated above the general store to allow the lengthly ageing process to take place, this windowless room is kept cold by the thick stone walls surrounding it.  A large table in the middle of the space has slicing tools, and a few wheels of cheese ready to be tested.  A staircase leads down into the general store. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2179} {d} {d} {32} {0} {}
+
+R { 2181} {0} {<fff>} {Inn of the Flying Circus} { } {This is the reception of the Inn of the Flying Circus.  Visitors can rent a room here, to stay within the safety of the castle.  A spiral staircase leads down, to the Inn's tavern. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2171} {d} {d} {32} {0} {}
+
+R { 2182} {0} {<fff>} {Southern Gate} { } {This is the entrance to the lord's castle.  The large gate to the north controls access to the courtyard.  To the west is the castle armory, and a small guardhouse lies to the east.  A large hall extends to the south. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2174} {n} {n} {1} {0} {}
+E { 2183} {e} {e} {2} {0} {}
+E { 2185} {w} {open iron;w} {8} {0} {}
+E { 2186} {s} {s} {4} {0} {}
+
+R { 2183} {0} {<fff>} {It seems to be locked.} { } {[MAPON] H:413/413 M:128/128 V:310/310 XP:160161 C:*> Guard House and Barracks    This is the room where the castle guards like to hang out.  Several casks of ale line the wall and tables and chairs provide places for rest and recreation. The southern gate is to the west, and an iron door leads east. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2182} {w} {w} {8} {0} {}
+E { 2184} {e} {open door;e} {2} {0} {}
+
+R { 2184} {0} {<fff>} {Dungeon Entrance} { } {This small circular room, windowless and lit only by a few torches hung on the wall, provides access to the castle's dungeon.  A large blackened iron door sits set into the wall to the south; racks of weapons sit flanked on either side.  A second door, made of iron, leads west into the guard house. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2183} {w} {open door;w} {8} {0} {}
+
+R { 2185} {0} {<fff>} {Armory} { } {This windowless stone room sits just to the west of the castle's second gate house.  Iron racks line the walls, each holding particular types of weapons and armor.  An oversized iron door leads east. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2182} {e} {open iron;e} {2} {0} {}
+
+R { 2186} {0} {<fff>} {Main Hall} { } {This grand hall is richly furnished with many tapestries, fine metal statues, and carpet fit for the lord of the castle to walk on.  Immediately to the west a sitting room opens into the hall, a place for visitors to wait for the lord's audience.  To the east a grand ballroom reaches into the distance. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2182} {n} {n} {1} {0} {}
+E { 2187} {w} {w} {8} {0} {}
+E { 2190} {e} {e} {2} {0} {}
+E { 2192} {s} {s} {4} {0} {}
+
+R { 2187} {0} {<fff>} {Sitting Room} { } {This is the castle's formal sitting room.  Fine carpeting covers the floor and plush furniture is scattered about beneath the fine tapestries that adorn the walls.  Directly to the east is the castle's main hall.  A set of plain double doors lead south, clearly  not for the public. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2186} {e} {e} {2} {0} {}
+E { 2188} {s} {open double;s} {4} {0} {}
+
+R { 2188} {0} {<fff>} {Mess Hall} { } {This long room leads east, towards the castle's kitchen.  A series of long tables, each side flanked by a sitting bench, run the length of the room.  A few simple iron chandeliers hang from above, illuminating this dining area for the castle inhabitants. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2187} {n} {open double;n} {1} {0} {}
+E { 2189} {w} {w} {8} {0} {}
+
+R { 2189} {0} {<fff>} {Kitchen} { } {Situated against the southwestern corner of the castle this kitchen's fireplaces run along the south wall.  Long counters run parallel to them, proving places for food preparation and work.  A few large black cauldrons sit within each of the over sized fire places, perfect for large batches of stew and soup. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2188} {e} {e} {2} {0} {}
+
+R { 2190} {0} {<fff>} {Ball Room} { } {The large room has a high, arched ceiling that supports beautiful iron chandeliers from the soaring beams above.  The table, that runs the length of the room, is made out of a rich dark wood.  To the west lies the castle's main hall and the Ballroom continues to the south. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2186} {w} {w} {8} {0} {}
+E { 2191} {s} {s} {4} {0} {}
+
+R { 2191} {0} {<fff>} {Southern Ball Room} { } {The south end of a large ball room.  The long table that runs down the middle of the room ends at an oversized chair at the table's head.  Additional chairs, each covered in rich fabric, line both walls.  The ball room continues to the north, and an exit leads west. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2190} {n} {n} {1} {0} {}
+E { 2192} {w} {open door;w} {8} {0} {}
+
+R { 2192} {0} {<fff>} {} { } {The castle fool says, "Wink.  Wink."  [MAPON] H:413/413 M:128/128 V:310/310 XP:160161 C:*> Alas, you cannot go that way. } {NotYetSet} {Lord Python} {} {} {1.000}
+E { 2186} {n} {n} {1} {0} {}
+E { 2191} {e} {open door;e} {2} {0} {}
+
+R { 2193} {0} {<fff>} {A Well-used Path in the Enchanted Forest} { } {The atmosphere of the forest you are walking through has suddenly changed in a subtle way.  You cannot name the change, but you are sure something is different.  Trees tower above you letting only a modes amount of light to shine down.  There is a certain tranquility here despite the dark conditions.  The path continues to the south or you can head north towards a ruined building. } {NotYetSet} {} {Forest} {} {1.000}
+E { 2203} {n} {n} {1} {0} {}
+E { 2194} {s} {s} {4} {0} {}
+
+R { 2194} {0} {<fff>} {A Well-used Path in the Enchanted Forest} { } {You are surrounded by strange trees.  The underwood west and east of the path is very dense.  But you can hear strange sounds coming far from the east. The path continues to the north and to the south. } {NotYetSet} {} {Forest} {} {1.000}
+E { 2193} {n} {n} {1} {0} {}
+E { 2204} {s} {s} {4} {0} {}
+
+R { 2195} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2204} {n} {n} {1} {0} {}
+E { 2205} {s} {s} {4} {0} {}
+
+R { 2196} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2205} {n} {n} {1} {0} {}
+E { 2199} {s} {s} {4} {0} {}
+
+R { 2197} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2161} {e} {e} {2} {0} {}
+E { 2160} {w} {w} {8} {0} {}
+
+R { 2198} {0} {<afa>} {A Turn in the Path} { } {The path bends here and continues to the east.  The forest has become very silent.  But as you continue to go deeper into this wood you can see more and more strange but silent figures.  They move without making any sound.  The path still runs north. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2199} {n} {n} {1} {0} {}
+E { 2200} {e} {e} {2} {0} {}
+
+R { 2199} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2198} {s} {s} {4} {0} {}
+E { 2196} {n} {n} {1} {0} {}
+
+R { 2200} {0} {<afa>} {A Turn in the Path} { } {You have arrived at another turn in the path.  You can still see some of the ghostly shapes.  They seem to talk to each other, but you can't hear anything they seem to be saying. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2198} {w} {w} {8} {0} {}
+E { 2201} {s} {s} {4} {0} {}
+
+R { 2201} {0} {<afa>} {An Intersection in the Enchanted Forest} { } {You are on a T-cross intersection.  The main path runs north-south, but you can see another path continuing to the east. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2200} {n} {n} {1} {0} {}
+E { 2206} {e} {e} {2} {0} {}
+E { 2220} {s} {s} {4} {0} {}
+
+R { 2202} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 2162} {e} {e} {2} {0} {}
+E { 2161} {w} {w} {8} {0} {}
+
+R { 2203} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2193} {s} {s} {4} {0} {}
+E { 2160} {n} {n} {1} {0} {}
+
+R { 2204} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2195} {s} {s} {4} {0} {}
+E { 2194} {n} {n} {1} {0} {}
+
+R { 2205} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2196} {s} {s} {4} {0} {}
+E { 2195} {n} {n} {1} {0} {}
+
+R { 2206} {0} {<afa>} {A Well-used Path in the Enchanted Forest} { } {The forest is still very silent.  The bushes to the north and to the south look impenetrable.  The path runs west-east. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2201} {w} {w} {8} {0} {}
+E { 2207} {e} {e} {2} {0} {}
+
+R { 2207} {0} {<afa>} {A Well-used Path in the Enchanted Forest} { } {The forest is still very silent.  The bushes to the north and to the south look impenetrable.  The path runs west-east. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2206} {w} {w} {8} {0} {}
+E { 2208} {e} {e} {2} {0} {}
+
+R { 2208} {0} {<afa>} {An Intersection in the Enchanted Forest} { } {You are at a T-cross intersection.  The main path goes south and west. There is a small trail that vanishes east, deeper into a darker part of the forest. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2207} {w} {w} {8} {0} {}
+E { 2209} {s} {s} {4} {0} {}
+E { 2210} {e} {e} {2} {0} {}
+
+R { 2209} {0} {<afa>} {A Well-used Path in the Enchanted Forest} { } {The forest, here, is unnervingly silent and seems strangely uninhabited. The path runs north-south. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2208} {n} {n} {1} {0} {}
+E { 2214} {s} {s} {4} {0} {}
+
+R { 2210} {0} {<afa>} {A Lush Trail in the Enchanted Forest} { } {You are on a trail that runs west-east, lined with thick bushes.  The forest, here, is very dark.  All the shadows that have been around you so far are gone.  You feel very alone.  There is a persistent feeling that you are still being watched by someone.  Wrong, you are being watched by something! } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2208} {w} {w} {8} {0} {}
+E { 2211} {e} {e} {2} {0} {}
+
+R { 2211} {0} {<afa>} {At a Dead End} { } {The path is blocked by a huge tree.  The tree seems climbable for a skilled climber.  From the top of the tree you can hear faint chanting. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2210} {w} {w} {8} {0} {}
+E { 2212} {u} {u} {16} {0} {}
+
+R { 2212} {0} {<afa>} {On a Tree} { } {As you arrive at the top of the tree, you can see that there is a small hut to the north.  On the wooden door, are strange painted signs.  What do they do? Are they there to prevent strangers from entering?  Or do they lock something evil inside? } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2211} {d} {d} {32} {0} {}
+E { 2213} {n} {open door;n} {1} {0} {}
+
+R { 2213} {0} {<afa>} {In the Hermit's Tree Hut} { } {You stand in the middle of the Hermit's hut.  Inside it is much bigger than it looked from the outside.  Probably the strange signs on the door have something to do with it.  All the lamps and lanterns that are on the walls and on the tables are extinguished.  The strange chanting you heard before is now much stronger.  You think it comes from the east, but the east wall looks very normal and nothing distinguishes the wall from the others. } {The Enchanted Forest} {} {Inside} {} {1.000}
+E { 2212} {s} {open door;s} {4} {0} {}
+
+R { 2214} {0} {<afa>} {A Turn in the Path} { } {You are at a bend in the path.  The silence in this part of the forest is very depressing.  Even your footsteps don't make any sound.  You know that is not a normal silence, it is as if something holds its breath before it leaps for an attack. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2209} {n} {n} {1} {0} {}
+E { 2215} {w} {w} {8} {0} {}
+
+R { 2215} {0} {<afa>} {An Intersection in the Enchanted Forest} { } {You are at a bend in the path.  The forest is still very silent, too silent. The path goes south and east.  A narrow trail also heads off from the bend to the west. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2214} {e} {e} {2} {0} {}
+E { 2216} {s} {s} {4} {0} {}
+E { 2218} {w} {w} {8} {0} {}
+
+R { 2216} {0} {<afa>} {A Well-used Path in the Enchanted Forest} { } {You feel your nerves unraveling because the forest is still so very silent, too silent for your liking.  The path continues to run north and south. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2215} {n} {n} {1} {0} {}
+E { 2217} {s} {s} {4} {0} {}
+
+R { 2217} {0} {<afa>} {A Well-used Path in the Enchanted Forest} { } {The silence, too silent for any mortal to stand, still hangs heavily in the forest.  The path continues to run north and south. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2216} {n} {n} {1} {0} {}
+E { 2231} {s} {s} {4} {0} {}
+
+R { 2218} {0} {<afa>} {A Narrow Trail in the Enchanted Forest} { } {This narrow trail twists and turns through the forest and is sometimes hard to follow.  It connects to larger paths to both the east and west of here. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2215} {e} {e} {2} {0} {}
+E { 2219} {w} {w} {8} {0} {}
+
+R { 2219} {0} {<afa>} {A Winding Path in the Enchanted Forest} { } {You are at an intersection in the path.  The path arrives from the north and heads off to the west.  A narrow trail also heads off to the east.  The ghostly figures have lost their "peaceful" look to them.  It seems they are annoyed by your presence. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2218} {e} {e} {2} {0} {}
+E { 2220} {n} {n} {1} {0} {}
+E { 2221} {w} {w} {8} {0} {}
+
+R { 2220} {0} {<afa>} {A Winding Path in the Enchanted Forest} { } {The path still runs north-south.  To the south, though, you notice that it grows darker.  Really dark! } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2219} {s} {s} {4} {0} {}
+E { 2201} {n} {n} {1} {0} {}
+
+R { 2221} {0} {<afa>} {A Winding Path in the Enchanted Forest} { } {You are on a path that runs west-east.  It is still very dark, but what seems to be more strange is that these beings seem to be studying you very intensely.  You examine the brush along the side of the path and see the beginning of a trail heading off to the south, but it quickly becomes impassable. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2219} {e} {e} {2} {0} {}
+E { 2222} {w} {w} {8} {0} {}
+
+R { 2222} {0} {<afa>} {A Winding Path in the Enchanted Forest} { } {The path continues to run west-east.  Now you can see a strange glowing light shining in from the west.  There are quite a few of those entities now. They all seem to be surrounding you.  Yet they make no attempt at impeding you, though you feel that any attempt to go farther west may make them change their minds. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2221} {e} {e} {2} {0} {}
+E { 2223} {w} {w} {8} {0} {}
+
+R { 2223} {0} {<afa>} {The Clearing} { } {The path opens onto a clearing.  The bushes form a thick wall to each side as the leaves recede, leaving a clear sight of the sky.  You can smell the fragrance of the small flowers, blooming in the bushes.  The path leads back to the east or an overgrown trail heads off into the forest to the north. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2222} {e} {e} {2} {0} {}
+E { 2229} {n} {n} {1} {0} {}
+
+R { 2224} {0} {<afa>} {An Overgrown Trail} { } {A narrow trail is easy to lose now and again as you follow it through the forest here.  It is not well traveled and often blends in with the surrounding foliage.  It generally heads from a meadow to the west towards a forest clearing to the south. } {Meadow} {} {Forest} {} {1.000}
+E { 2225} {s} {s} {4} {0} {}
+E { 1775} {w} {w} {8} {0} {}
+
+R { 2225} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 2224} {n} {n} {1} {0} {}
+E { 2226} {s} {s} {4} {0} {}
+
+R { 2226} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 2225} {n} {n} {1} {0} {}
+E { 2227} {s} {s} {4} {0} {}
+
+R { 2227} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 2226} {n} {n} {1} {0} {}
+E { 2228} {s} {s} {4} {0} {}
+
+R { 2228} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 2227} {n} {n} {1} {0} {}
+E { 2229} {s} {s} {4} {0} {}
+
+R { 2229} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 2228} {n} {n} {1} {0} {}
+E { 2223} {s} {s} {4} {0} {}
+
+R { 2230} {0} {<aaf>} {Rilghorn Tributary} {~} {The water is blue and clear, an amazing change from the flow just to the north which is contaminated and a murky black.  The stream is a thin trickle burbling to the east, deeper into the mountains.  High above the peaks are capped with ice and snow. } {Rilghorn River} {} {River} {} {1.000}
+E { 1805} {n} {n} {1} {0} {}
+E { 2258} {e} {e} {2} {0} {}
+
+R { 2231} {0} {<afa>} {An Intersection in the Enchanted Forest} { } {You are at a T-cross intersection.  The path to the south lies in complete darkness.  You can feel that something very evil is waiting there.  The normal path goes north and east. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2232} {e} {e} {2} {0} {}
+E { 2217} {n} {n} {1} {0} {}
+
+R { 2232} {0} {<afa>} {A Well-used Path in the Enchanted Forest} { } {You are on a path in the Enchanted Forest.  The path goes west-east.  To the west you can sense something evil, while to the east all seems to be peaceful. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2231} {w} {w} {8} {0} {}
+E { 2233} {e} {e} {2} {0} {}
+
+R { 2233} {0} {<afa>} {A Twisting Path} { } {You are at a turn in the path.  All seems to be rather peaceful.  Although you cannot see very far along the path.  The path continues to the north and to the west. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2232} {w} {w} {8} {0} {}
+E { 2234} {s} {s} {4} {0} {}
+
+R { 2234} {0} {<afa>} {A Twisting Path} { } {You are at another bend in the path.  There seems to be some ghostly figures milling about.  To the east, it looks as if the trees are getting shorter.  You can almost see the sky beyond the tree-tops.  The path goes to the south and to the east. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2233} {n} {n} {1} {0} {}
+E { 2235} {e} {e} {2} {0} {}
+
+R { 2235} {0} {<afa>} {A Twisting Path} { } {You are at a turn in the path.  All seems to be rather peaceful.  Although you cannot see very far along the path.  The path continues to the south and to the west. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2234} {w} {w} {8} {0} {}
+E { 2236} {s} {s} {4} {0} {}
+
+R { 2236} {0} {<afa>} {A Well-used Path in the Enchanted Forest} { } {You are on a path that runs north-south.  There is a small trail that leads to the east.  To the north you can't see very far along the path.  To the south you can hear something falling into water. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2235} {n} {n} {1} {0} {}
+E { 2237} {s} {s} {4} {0} {}
+E { 2238} {e} {e} {2} {0} {}
+
+R { 2237} {0} {<afa>} {A Well-used Path in the Enchanted Forest} { } {You are on a north-south path.  To the north the forest is getting darker and to the south you can smell some fresh air. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2236} {n} {n} {1} {0} {}
+E { 2239} {s} {s} {4} {0} {}
+
+R { 2238} {0} {<afa>} {In a Small Clearing} { } {You are standing on a small clearing in the Enchanted Forest.  Above you is the clear blue sky.  You are surrounded with huge trees.  To the west a small trail vanishes between the trees. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2236} {w} {w} {8} {0} {}
+
+R { 2239} {0} {<afa>} {A Well-used Path in the Enchanted Forest} { } {You are at a turn in the path.  To the north the path leads deeper into the forest and to the east you can spot a dead end.  Bushes have grown thick along the southern edge of the path, but just beyond you can see a dark road heading further south. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2237} {n} {n} {1} {0} {}
+E { 2240} {e} {e} {2} {0} {}
+E { 2241} {s} {s} {4} {0} {}
+
+R { 2240} {0} {<afa>} {At a Dead End} { } {You are at a dead end.  The path to the west leads back into the forest. Through the bushes to the south you can see the shimmering of water, glittering in the sun. } {The Enchanted Forest} {} {Forest} {} {1.000}
+E { 2239} {w} {w} {8} {0} {}
+
+R { 2241} {0} {<afa>} {} { } {} {The Black Road} {} {} {} {1.000}
+E { 2239} {n} {n} {1} {0} {}
+E { 2242} {s} {s} {4} {0} {}
+
+R { 2242} {0} {<afa>} {Dark Road} { } {You are standing on Dark Road, which cuts its way north and south through the Enchanted Forest.  You hear the sounds of animals scurrying all around, and the occasional howl of some fearsome forest beast. } {The Black Road} {} {Forest} {} {1.000}
+E { 2241} {n} {n} {1} {0} {}
+E { 2243} {s} {s} {4} {0} {}
+
+R { 2243} {0} {<afa>} {An Overturned Cart} { } {You are standing next to an overturned cart.  The wheels have ceased turning, and all is quiet. } {Ambush!} {} {Forest} {} {1.000}
+E { 2242} {n} {n} {1} {0} {}
+E { 2244} {w} {w} {8} {0} {}
+E { 2249} {s} {s} {4} {0} {}
+
+R { 2244} {0} {<afa>} {A Small Path in the Woods} { } {You are standing on a small path in the woods.  To the west, the path leads further into the forest, while to the east, you can still see the cart, lying on the road. } {Ambush!} {} {Forest} {} {1.000}
+E { 2243} {e} {e} {2} {0} {}
+E { 2245} {w} {w} {8} {0} {}
+
+R { 2245} {0} {<afa>} {} { } {} {Ambush!} {} {} {} {1.000}
+E { 2244} {e} {e} {2} {0} {}
+E { 2246} {n} {n} {1} {0} {}
+
+R { 2246} {0} {<afa>} {} { } {} {Ambush!} {} {} {} {1.000}
+E { 2245} {s} {s} {4} {0} {}
+E { 2247} {w} {w} {8} {0} {}
+
+R { 2247} {0} {<afa>} {} { } {} {Ambush!} {} {} {} {1.000}
+E { 2246} {e} {e} {2} {0} {}
+E { 2248} {w} {w} {8} {0} {}
+
+R { 2248} {0} {<afa>} {} { } {} {Ambush!} {} {} {} {1.000}
+E { 2247} {e} {e} {2} {0} {}
+
+R { 2249} {0} {<afa>} {Dark Road} { } {You are standing on Dark Road, which cuts its way north and south through the Enchanted Forest.  To the south, you think you can make out what looks to be a city of sorts, but it is too dark to be sure.  You can hear the sounds of forest creatures all around. } {The Black Road} {} {Forest} {} {1.000}
+E { 2243} {n} {n} {1} {0} {}
+E { 2250} {s} {s} {4} {0} {}
+
+R { 2250} {0} {<afa>} {Dark Road} { } {The road runs north and south here, carving a tunnel beneath the dark canopy overhead.  While danger may lurk in the foreboding shadows along the north path, an overwhelming sensation of pure evil saturates the southern roadway. } {The Black Road} {} {Forest} {} {1.000}
+E { 2249} {n} {n} {1} {0} {}
+E { 2251} {s} {s} {4} {0} {}
+
+R { 2251} {0} {<afa>} {Lycanthropia's Gate} { } {You have come to the end of the dark road, to the gate of Lycanthropia.  The wrought iron gate looks formidable, as if it would not be easily broken down. The gate is to the south, while the black road runs back to the north. } {Lycanthropia} {} {Field} {} {1.000}
+E { 2250} {n} {n} {1} {0} {}
+E { 2252} {s} {s} {4} {0} {}
+
+R { 2252} {0} {<afa>} {Entrance to Lycanthropia} { } {You are at the entrance to Lycanthropia.  There appears to be an unnatural darkness over the city.  A street heads toward the west, while a black cobblestone path heads south.  The iron gate is to the north. } {Lycanthropia} {} {City} {} {1.000}
+E { 2251} {n} {n} {1} {0} {}
+E { 2253} {w} {w} {8} {0} {}
+E { 2257} {s} {s} {4} {0} {}
+
+R { 2253} {0} {<afa>} {Dark Street} { } {You are on a dark street in Lycanthropia that runs east and west.  To the west the street opens up into an intersection. } {Lycanthropia} {} {City} {} {1.000}
+E { 2252} {e} {e} {2} {0} {}
+E { 2254} {w} {w} {8} {0} {}
+
+R { 2254} {0} {<afa>} {Dark Square of Lycanthropia} { } {} {Lycanthropia} {} {} {} {1.000}
+E { 2253} {e} {e} {2} {0} {}
+E { 2255} {n} {n} {1} {0} {}
+
+R { 2255} {0} {<afa>} {Darkened Street} { } {You are on a dark street that runs along the edge of the city.  It continues on to the west, running south into the main square. } {Lycanthropia} {} {City} {} {1.000}
+E { 2254} {s} {s} {4} {0} {}
+E { 2256} {w} {w} {8} {0} {}
+
+R { 2256} {0} {<afa>} {Dark Street} { } {You are on a dark street running east and west along the edge of the city. There are darkened buildings to the north and south of the street here, each clouded in shadow and darker than pitch. } {Lycanthropia} {} {City} {} {1.000}
+E { 2255} {e} {e} {2} {0} {}
+
+R { 2257} {0} {<afa>} {A Black Cobblestone Path} { } {You are on a black cobblestone path south of the Gate of Lycanthropia. South of you the path continues. } {Lycanthropia} {} {City} {} {1.000}
+E { 2252} {n} {n} {1} {0} {}
+
+R { 2258} {0} {<aaf>} {Rilghorn Tributary} {~} {A hollow echo of the stream's burble makes little noise as this thin flow of water passes through this mountain crack.  The air is clean and refreshing, a pleasant scent in your nostrils, and without the bitter taste of the city's pollution. } {Rilghorn River} {} {River} {} {1.000}
+E { 2230} {w} {w} {8} {0} {}
+E { 2259} {s} {s} {4} {0} {}
+
+R { 2259} {0} {<aaf>} {Rilghorn Tributary} {~} {The quiet mumble of the stream is a symbol of the soft calm that has descended into this river valley.  Far above, snow capped peaks rise friendless into the sky, their stalwart guardianship of the stream a reminder of the power of nature's force.  The clear, blue water is unpolluted and refreshing, the air pleasantly scented.  This entire scene seems almost too good to be true, too picturesque to be real. } {Rilghorn River} {} {River} {} {1.000}
+E { 2258} {n} {n} {1} {0} {}
+E { 2260} {e} {e} {2} {0} {}
+
+R { 2260} {0} {<aaf>} {Rilghorn Tributary} {~} {The curves push the stream further through the mountains as it crawls out of the west and into the south.  A large block of shale to the east directs this stream around it, small flakes occasionally eroding away and sinking to the bottom.  This is causing a shallow and slowly making this stream even thinner. Perhaps in several centuries it will have dammed completely and no passage will be possible via boat. } {Rilghorn River} {} {River} {} {1.000}
+E { 2259} {w} {w} {8} {0} {}
+E { 2261} {s} {s} {4} {0} {}
+
+R { 2261} {0} {<aaf>} {} {~} {} {Rilghorn River} {} {} {} {1.000}
+E { 2260} {n} {n} {1} {0} {}
+E { 2262} {e} {e} {2} {0} {}
+
+R { 2262} {0} {<aaf>} {Rilghorn Tributary} {~} {A loud screech far to the north and overhead attracts attention.  Visible on the horizon, flying between two peaks far to the north is a gigantic bird. It seems to be carrying a horse or a cow, the distance is too great to be completely sure, and doing so without any difficulty. } {Rilghorn River} {} {River} {} {1.000}
+E { 2261} {w} {w} {8} {0} {}
+E { 2263} {e} {e} {2} {0} {}
+
+R { 2263} {0} {<aaf>} {Rilghorn Tributary} {~} {The stream continues to descend a long slope running through this high mountain range.  The stream remains perfectly clear, a glint of metal reflecting light through the water.  High above you, a ledge can be seen jutting out of the rockside.  This appears to be the only break in the smooth northern wall running the length of the stream. } {Rilghorn River} {} {River} {} {1.000}
+E { 2262} {w} {w} {8} {0} {}
+E { 2264} {e} {e} {2} {0} {}
+
+R { 2264} {0} {<aaf>} {Rilghorn Tributary} {~} {The stream curves back to the north here, a landslide having long broken away from the southern mountain wall and landing here.  The stream is forced around the boulders, the bed of the stream now littered with tiny pebbles and broken fragments of stone.  The pile appears very unstable although the collection of greenish-brown moss atop the highest of the rocks in the pile indicates that the pile collapsed a while ago. } {Rilghorn River} {} {River} {} {1.000}
+E { 2263} {w} {w} {8} {0} {}
+E { 2265} {n} {n} {1} {0} {}
+
+R { 2265} {0} {<aaf>} {Rilghorn Tributary} {~} {The pile of boulders and stone that slopes unsteadily to the south is covered by moss and is slippery with the moisture of the passing stream. High above, on the wall south of it, a ledge has clearly broken away, the concave, jagged indent the source of this incredible landslide. Fortunately the stone around the fracture appears stable and solid. } {Rilghorn River} {} {River} {} {1.000}
+E { 2264} {s} {s} {4} {0} {}
+E { 2266} {e} {e} {2} {0} {}
+
+R { 2266} {0} {<aaf>} {Rilghorn Tributary} {~} {The thin stream widens to the east where it tumbles down into a wider flow running north.  Apparently the current shifts to the east as the stream impacts the flow.  This stream crashes against a wall of solid rock to the east before continuing on, creating a great deal of turbulence, the point of the impact at the apex of two riverbeds falling away and dropping in altitude. } {Rilghorn River} {} {River} {} {1.000}
+E { 2265} {w} {w} {8} {0} {}
+E { 2267} {e} {e} {2} {0} {}
+
+R { 2267} {0} {<aaf>} {Split in the River} {~} {A huge triangular piece of granite stands athwart the merging of the Rilghorn Tributary, coming in the from the west, and the River of Lost Souls, flowing from the south, producing a great deal of turbulence.  While the Rilghorn is the larger flow, the Lost Souls is by far the older, as evidenced by its wider, deeper canyon.  To the west, where the Rilghorn Tributary meanders through the hills, the changes in elevations and the harsh conditions of the terrain are greatly reduced. } {Rilghorn River} {} {River} {} {1.000}
+E { 2266} {w} {w} {8} {0} {}
+E { 2268} {n} {n} {1} {0} {}
+E { 2269} {s} {s} {4} {0} {}
+
+R { 2268} {0} {<aaf>} {} {~} {} {Rilghorn River} {} {} {} {1.000}
+E { 2267} {s} {s} {4} {0} {}
+E { 2276} {n} {n} {1} {0} {}
+
+R { 2269} {0} {<aaf>} {The River of Lost Souls} {~} {The sky is enshrouded by a cloud of dust blown off the cliffs rising high to the east and west, forming a canyon through which this river passes.  The wind catches in small caves and crevices scattered along the rocky walls.  It howls and moans, whispering tales of lives once lived and places long ago visited and since destroyed.  The haunting words sing to you a low funeral dirge about the death of man in perhaps an age yet to be lived.  The sounds are constant and pulsing, each syllabic beat indicating another age recorded and another soul's lament. } {Rilghorn River} {} {River} {} {1.000}
+E { 2267} {n} {n} {1} {0} {}
+
+R { 2270} {0} {<aaf>} {Twisting Rapids} { } {Water courses in from the west, and runs through this canyon continuing through this range of mountains.  The water flowing into this wide expanse is the larger resulting size from the west's split.  It is also turbulent, rushing over large boulders, and around sharp spikes jutting through the river's surface.  To the east the water passes more quickly, } {Rilghorn River} {} {River} {} {1.000}
+E { 1805} {w} {w} {8} {0} {}
+E { 2271} {e} {e} {2} {0} {}
+
+R { 2271} {0} {<aaf>} {Twisting Rapids} {~} {Flowing quickly in from the west, the water swirls around a large column of rock jutting out of the river bed.  A line of black mold has formed above where the column rises forth.  The water itself continues to have a dark coloration, due to a mixture of the water and the pollution that have given the Rilghorn River the nickname of the Dark.  A large turn sends all of this pollution and water north, down a steep descent onto a rocky shelf just to the north. Mountains rise to the east and the south preventing travel in those directions. } {Rilghorn River} {} {River} {} {1.000}
+E { 2270} {w} {w} {8} {0} {}
+E { 2272} {n} {n} {1} {0} {}
+
+R { 2272} {0} {<aaf>} {Twisting Rapids} {~} {A small leaf, caught on the surface of the water is dragged under and crushed into green pulp.  The pulp mixes with the dark water and only adds to the pollution already throughout the entire flow.  The river bends around a shale rockslide and continues to the east where the canyon narrows slightly, and white caps are forming.  The northern and western walls of rock are sheer and high. } {Rilghorn River} {} {River} {} {1.000}
+E { 2271} {s} {s} {4} {0} {}
+E { 2273} {e} {e} {2} {0} {}
+
+R { 2273} {0} {<aaf>} {Twisting Rapids} {~} {A hiss of mist rises from a fast descent of the river over a shale shelf barely submerged just around the bend turning the river north.  White flecks of bubbly froth being to form above the shelf and turn to full white caps as they crash down on the canyon's river bed below.  The caps then continue north where the hisses turn to roars. } {Rilghorn River} {} {River} {} {1.000}
+E { 2272} {w} {w} {8} {0} {}
+E { 2274} {n} {n} {1} {0} {}
+
+R { 2274} {0} {<aaf>} {Twisting Rapids} {~} {The stone trembles under the volume of sound the river produces.  As it rounds a bend and turns to the east the river is naught but a churning, pulsating mass of water, rock, and sound.  All mix to create an experience of submersion.  The air above the water is a thick haze, the rocks to either side of the river, slick with moisture nearly a hundred feet above the water's surface.  The river flows out to the east as it drags along stones the size of a human's skull. } {Rilghorn River} {} {River} {} {1.000}
+E { 2273} {s} {s} {4} {0} {}
+E { 2275} {e} {e} {2} {0} {}
+
+R { 2275} {0} {<aaf>} {Difficult Choices} {~} {Rushing over the sharp peaks of granite just below the frothing surface, white water rumbles and hisses as it spirals to the east.  The north is a harsh slope, the one cliff upon it nearly a thousand feet above the water's edge.  A muddy patch of soil cuts a thin swathe in the mountains to the south.  Greener lands appear past it although you will have to navigate that crack to the south, above which the mountainside looks unstable.  The roaring water continues to the east under a shelf and down into the ground.  The mountain wall seems to absorb the water creating a thick mist which billows out from under the shelf. } {Rilghorn River} {} {River} {} {1.000}
+E { 2274} {w} {w} {8} {0} {}
+E { 2280} {s} {s} {4} {0} {}
+
+R { 2276} {0} {<aaf>} {Transition of Waters} {~} {The waters of the river crash down against the rock face to the north and turn to the east, forming a bluer and cleaner river than the one back towards the south.  In the west is a flat area of sheer rock holding a steel pole erect at the water's edge.  A small fountain of reddish brown water streams forth from the northern rock.  Perhaps this is an underground river of some sort, and the fountain is the point of its freedom. } {Rilghorn River} {} {River} {} {1.000}
+E { 2268} {s} {s} {4} {0} {}
+E { 2277} {w} {w} {8} {0} {}
+E { 2289} {e} {e} {2} {0} {}
+
+R { 2277} {0} {<aaf>} {Onto the Shore} { } {A strip of grey rock stretches away from the water's edge for a short distance as soil has been stripped away from the basalt surface.  Tall cliffs rise to the south. Large boulders, probably once part of the majestic stone rising into the sky, are now sitting at the base of the cliffs, near the water. Several large pieces of wood, broken and shattered against the boulders, lie to one side, a long, severed piece of hemp rope plastered into the thin dirt. The plains extend to the north and the west, the mountains rising past them in the distance. } {Rilghorn River} {} {Shore} {} {1.000}
+E { 2276} {e} {e} {2} {0} {}
+E { 2278} {n} {n} {1} {0} {}
+E { 2279} {w} {w} {8} {0} {}
+
+R { 2278} {0} {<afa>} {The Protected Field} { } {Surrounded by mountains, and protected from the wind, these plains are relaxing and comfortable.  A small copse of trees grows along the rocky base of the mountains to the north and east.  The smell rising into the air is perfumed by the flowers growing quietly under the shade of the trees. The size of each trunk would make you guess that these trees have been here for a long time, although the clean undergrowth indicates that some force has been protecting and taking care of these plains. } {Protected Field} {} {Field} {} {1.000}
+E { 2277} {s} {s} {4} {0} {}
+E { 2281} {w} {w} {8} {0} {}
+
+R { 2279} {0} {<afa>} {The Protected Field} { } {The ground is well cared for and covered with a thick blanket of grass.  Red and yellow petals decorate a small patches of flowers to one side, growing wild among the darkly colored blades of grass.  A thin trail leads through the grass, not well travelled by many people, but clearly the result of at least a small group of travellers.  The path leads away from the south and into the west, deeper into this protected and well-cared for valley. } {Protected Field} {} {Field} {} {1.000}
+E { 2277} {e} {e} {2} {0} {}
+E { 2281} {n} {n} {1} {0} {}
+E { 2282} {w} {w} {8} {0} {}
+E { 2287} {s} {s} {4} {0} {}
+
+R { 2280} {0} {<afa>} {Valley Shoreline} { } {The water slaps against this, the river's southern shore, as it carries past under a large cliff.  The ground is muddy and water-logged.  The air smells damp and overly humid.  Mountains rise high to either side of this breakline, a crack to one side, the only evidence of an earthquake which must have formed this breakdown eons ago.  To the east the crack widens into a lush and peaceful valley.  The flowers are all in full bloom and seem to be nearly always.  Even against the roar of the dangerous river just north of you, the valley east seems to be a haven of safety. } {Protected Field} {} {Shore} {} {1.000}
+E { 2275} {n} {n} {1} {0} {}
+E { 2281} {e} {e} {2} {0} {}
+
+R { 2281} {0} {<afa>} {The Protected Field} { } {Amid avian screeches and the chirp of insects, this glade is protected from the elements by the rocks surrounding it and rising high into the air. Near the peaks of the mountains you can see black shapes flying in a slow circle.  Trees and flowers blanket the grassy field, creating a picturesque and idyllic scene.  Between the serenity that the obvious guardian of this glade provides, and the beauty of the environment, your instincts are momentarily at least, in agreement that you can relax. } {Protected Field} {} {Field} {} {1.000}
+E { 2280} {w} {w} {8} {0} {}
+E { 2279} {s} {s} {4} {0} {}
+E { 2278} {e} {e} {2} {0} {}
+
+R { 2282} {0} {<afa>} {The Protected Field} { } {The grass is matted down in in a trail leading in from the east and passing to the south.  Around the trail several logs have been moved to erect a temporary fence which has now collapsed.  The timbers of the fence show signs of splintering and one of being burned.  Clearly something did not want a fence built here and tore it down.  One of the timbers now lies about fifty feet away from where you estimate the fence was.  Clearly no little force was used. } {Protected Field} {} {Field} {} {1.000}
+E { 2279} {e} {e} {2} {0} {}
+E { 2283} {s} {s} {4} {0} {}
+
+R { 2283} {0} {<afa>} {The Protected Field} { } {Dark mottled earth shows through the threadbare carpet.  One large patch of grass and the mountain nearby have been charred and damaged by a fire of some sort.  In one area the ground is mushy, several stones dissolved, probably by acid.  A thin barricade of a fence still stands although several large holes have reduced its protective ability to nothing.  The lumber for the fence was dragged in from the south, and several more large objects were dragged to the east.  The ground is now mostly barren, the foliage and peaceful qualities trampled into the mud. } {Protected Field} {} {Field} {} {1.000}
+E { 2282} {n} {n} {1} {0} {}
+E { 2284} {w} {w} {8} {0} {}
+E { 2286} {s} {s} {4} {0} {}
+E { 2287} {e} {e} {2} {0} {}
+
+R { 2284} {0} {<afa>} {The Barricade} { } {A barricade was erected of large trunks of trees, felled from a place which must have been nearby.  The diameter of each piece of timber is at least three spans, and none are less than a score spans long.  They are piled haphazardly against the stone rising to the north and the west.  In the corner where the two piles meet, rocks have been wedged between the pieces of lumber to provide support.  The eastern side of the barricade appears very weak and limited in its protective ability, acid having worn much of the lumber down to pulp.  A cave opens just to the west, the inside dark and gloomy. } {Protected Field} {} {Shore} {} {1.000}
+E { 2283} {e} {e} {2} {0} {}
+E { 2285} {s} {s} {4} {0} {}
+E { 2288} {w} {w} {8} {0} {}
+
+R { 2285} {0} {<afa>} {The Campfire} { } {A thin trail of smoke rising from the dying embers of a now small fire.  A patch of grass, matted and crushed indicates where four cords of firewood once lay, now down to two small sticks.  The ground is charred in a large area and each of the granite stones making the fire pit are blackened with soot.  A wooden barricade has been erected in the north, abutting the mountainside rising to the west. } {Protected Field} {} {Field} {} {1.000}
+E { 2284} {n} {n} {1} {0} {}
+E { 2286} {e} {e} {2} {0} {}
+
+R { 2286} {0} {<afa>} {The Protected Field} { } {The fields have been desecrated and the trees, some a monument to centuries of watchful protection, have been torn down.  Scorched stumps poke their muted trunks out of the ground once to meet the overbearing sun as it bleaches and dries out the husk they have become.  Much of the lumber torn down has been stacked haphazardly in a pile abutting the mountain face to the east.  The rest was dragged into the north and west.  A single rose has survived the carnage, weakly hugging the soil near the base of one of the stumps, its brilliant red the only sign of rebirth in this place. } {Protected Field} {} {Field} {} {1.000}
+E { 2285} {w} {w} {8} {0} {}
+E { 2283} {n} {n} {1} {0} {}
+
+R { 2287} {0} {<afa>} {Graveyard in the Protected Field} { } {The ground is mottled and stained by a reddish-brown anomaly appearing as a blemish on both the sparsely growing grass, but also the earth beneath. Several flowers lay trampled, pummelled into the ground, their stems broken, petals crushed.  The mountain watches impassively, standing guard over a corner in which several wooden posts have been erected.  The posts stand at one end of a large mound of dirt.  Ten such posts rise out of the crowd from one end of the width of the mound to the other.  A broken shovel, its blade and handle in multiple pieces rises out of the mound. } {Protected Field} {} {Field} {} {1.000}
+E { 2283} {w} {w} {8} {0} {}
+E { 2279} {n} {n} {1} {0} {}
+
+R { 2288} {0} {<afa>} {} {?} {} {Protected Field} {} {} {} {1.000}
+E { 2284} {e} {e} {2} {0} {}
+
+R { 2289} {0} {<aaf>} {Along the Ishtar River} {~} {Thin strips of green grow along both sides of the river for a short distance before the rock swallows the remaining space and abuts the water.  A small signpost, weathered and damaged by age, rests on the northern shore, watching the slow moving river quietly pass. } {Ishtar River} {} {River} {} {1.000}
+E { 2276} {w} {w} {8} {0} {}
+E { 2290} {e} {e} {2} {0} {}
+
+R { 2290} {0} {<aaf>} {Curves in the Ishtar River} {~} {The river, flowing in from the west, is forced to change its direction as it crashes against a high and towering wall of rock.  The mountain's face is decorated by cracks, worn down by years of erosion, which almost seem to smile a huge and evil grin as water enters its cracks, and then get spit back out only to now travel towards the north. } {Ishtar River} {} {River} {} {1.000}
+E { 2289} {w} {w} {8} {0} {}
+E { 2318} {n} {n} {1} {0} {}
+
+R { 2291} {0} {<aaf>} {Curves in the Ishtar River} {~} {Winding past a pair of cliffs rising away from the river and into the mountains ranges, the water rebounds off of the stone and with a splash of clear spray moves out to the east.  Another huge curve to the south has forced the water to pass by this way.  Above the cliff to the north where the water is redirected a strange sight greets your eyes.  An immense silvery cord is stretching from atop the rock, reaching up past the mountains and into the clouds. } {Ishtar River} {} {River} {} {1.000}
+E { 2318} {s} {s} {4} {0} {}
+E { 2292} {e} {e} {2} {0} {}
+E { 2323} {n} {n} {1} {0} {}
+
+R { 2292} {0} {<aaf>} {The Ishtar River} {~} {The river straightens itself out as it winds between two tall mountains. Rocks have fallen into the water from the tall cliff and now hide just below the surface, creating small eddies, providing a danger to boats or other floatations which try to pass above their sharp edges.  To the east, larger boulders rise from the river bed, stalwart guardians to those who dare raft or swim. } {Ishtar River} {} {River} {} {1.000}
+E { 2291} {w} {w} {8} {0} {}
+E { 2293} {e} {e} {2} {0} {}
+
+R { 2293} {0} {<aaf>} {The Ishtar River} {~} {Huge boulders lay strewn in your path as if propelled through the air by a massive creature, god or giant.  The water spins and splashes against each rock, forever trying to break the stone and only shattering itself.  Reforming past the granite stone the water masses together and tries again on a different rock, and again fails, in a unending and eternal cycle of rapid hopelessness.  The water, vanquished, passes to the east. } {Ishtar River} {} {River} {} {1.000}
+E { 2292} {w} {w} {8} {0} {}
+E { 2294} {e} {e} {2} {0} {}
+
+R { 2294} {0} {<aaf>} {The Ishtar River} {~} {The wind is silent as the water rushes quickly, towards the face of a tall mountain in the east, and away from the powerful boulders in the west.  A patch of mud on the northern shore indicates possible landing while the river speeds along.  Small eddies and swirls of activity indicate sharp rocks hiding just below the reflective surface.  Even in the midst of quiet an air of maliciousness crawls under your skin. } {NotYetSet} {} {River} {} {1.000}
+E { 2293} {w} {w} {8} {0} {}
+E { 2295} {e} {e} {2} {0} {}
+E { 2321} {n} {n} {1} {0} {}
+
+R { 2295} {0} {<aaf>} {Curves in the Ishtar River} {~} {The river, flowing from the west, slaps the face of the mountain rising and the bed turns, the water maneuvering itself to the south.  From a high crag the silhouette of a huge bird is faintly visible on the water's surface.  The shadow seems to encourage chaos as the water churns and bubbles.  Slapping against the rock face causes the water to roll over itself forming extremely fast rapids, the caps of each wave a frothy white. } {NotYetSet} {} {River} {} {1.000}
+E { 2294} {w} {w} {8} {0} {}
+E { 2296} {s} {s} {4} {0} {}
+
+R { 2296} {0} {<aaf>} {Curves in the Ishtar River} {~} {The current increases in speed as the river curves again, this time from south to east.  On a rocky ledge, high along the southern edge of the riverbank, lie several trees, all dead and broken by their appearance from this distance.  The river continues to descend out of the mountains to the east, while to the north, whitecaps begin and rush towards this curve. } {NotYetSet} {} {River} {} {1.000}
+E { 2295} {n} {n} {1} {0} {}
+E { 2297} {e} {e} {2} {0} {}
+
+R { 2297} {0} {<aaf>} {The Ishtar River} {~} {Rolling out of the mountains, the water falls away from the landing point to the west and again is directed by cliffs of sheer rock along its southern bank. Along the northern bank, small shrubs and a sparse tree line indicate the exit from the lifeless mountains and passage into more hospitable lands. } {NotYetSet} {} {River} {} {1.000}
+E { 2296} {w} {w} {8} {0} {}
+E { 2298} {e} {e} {2} {0} {}
+
+R { 2298} {0} {<aaf>} {The Ishtar River} {~} {The water hurtles down the rocks, into the east, and into midair.  A granite slab hangs over the riverbed some hundreds of feet below and the water flows off of the end of that rock, through the air, and into a deep pool of misty water below.  The southern bank of the river is sheer rock, climbing into the sky.  To the north is a hillside, topped by trees that also falls away quickly. The water is rushing down out of the west.  To the east you can see the gray walls of a city in the far distance. } {NotYetSet} {} {River} {} {1.000}
+E { 2297} {w} {w} {8} {0} {}
+E { 2299} {e} {e} {2} {0} {}
+
+R { 2299} {0} {<aaf>} {The Ishtar River} {~} {Landing in this basin, the water passes over the rocky ledge just to your west and falls several hundred feet down, only to collect in this calm albeit noisy pool.  The spray and mist from the waterfall drench the towering rocks to the south and the trees along the north shore, leaning over the river, and drinking from this river.  Barely visible on the north shore is wooden dock, rotting and slippery from the spray which keeps it perpetually wet.  Even the many cracks decorating the otherwise bland rockface to the south all appear discolored and darker from the water crashing down here.  Perhaps many secrets may be hidden within that broken surface of a mountain wall. } {NotYetSet} {} {River} {} {1.000}
+E { 2298} {w} {w} {8} {0} {}
+E { 2300} {n} {n} {1} {0} {}
+E { 1569} {e} {e} {2} {0} {}
+
+R { 2300} {0} {<afa>} {The River's Edge} { } {Moss covers small rocks, built into a rough path, which leads away from the bank of the river and up a rise towards the road cutting through the hills. The air is humid and a fog rises from the surface of the river.  A loud roar fills the air and makes speech difficult due to a waterfall to the south which might also explain the fog.  A wooden dock, slippery and discolored, juts into the water.  At the end of the path, several feet away from the dock a wooden sign has been placed. } {NotYetSet} {} {River} {} {1.000}
+E { 2299} {s} {s} {4} {0} {}
+E { 2320} {n} {n} {1} {0} {}
+
+R { 2301} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E {  415} {e} {e} {2} {0} {}
+E {  414} {w} {w} {8} {0} {}
+
+R { 2302} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1400} {s} {s} {4} {0} {}
+E { 1399} {n} {n} {1} {0} {}
+
+R { 2303} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1397} {s} {s} {4} {0} {}
+E { 1396} {n} {n} {1} {0} {}
+
+R { 2304} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1401} {e} {e} {2} {0} {}
+E { 1400} {w} {w} {8} {0} {}
+
+R { 2305} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1404} {s} {s} {4} {0} {}
+E { 1403} {n} {n} {1} {0} {}
+
+R { 2306} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1405} {e} {e} {2} {0} {}
+E { 2307} {w} {w} {8} {0} {}
+
+R { 2307} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2306} {e} {e} {2} {0} {}
+E { 1404} {w} {w} {8} {0} {}
+
+R { 2308} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1406} {e} {e} {2} {0} {}
+E { 1405} {w} {w} {8} {0} {}
+
+R { 2309} {8} {<aaf>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1569} {n} {n} {1} {0} {}
+E { 2311} {e} {e} {2} {0} {}
+
+R { 2310} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1408} {s} {s} {4} {0} {}
+E { 1407} {n} {n} {1} {0} {}
+
+R { 2311} {0} {<aaf>} {The Ishtar River} {~} {Slow water crawls beneath a wall of the city perched high atop the rocks directing the water.  The rocky walls to the south, cracked and broken by millenia of erosion could possibly hold many secrets but none are immediately obvious and visible.  To the west the water flows out from a tall mountain range, and to the east it flows through a grate as it passes the city. } {NotYetSet} {} {River} {} {1.000}
+E { 2309} {w} {w} {8} {0} {}
+E { 2313} {e} {e} {2} {0} {}
+
+R { 2312} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1415} {s} {s} {4} {0} {}
+E { 1413} {n} {n} {1} {0} {}
+
+R { 2313} {8} {<aaf>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2311} {w} {w} {8} {0} {}
+E { 2319} {e} {e} {2} {0} {}
+
+R { 2314} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1417} {s} {s} {4} {0} {}
+E { 1416} {n} {n} {1} {0} {}
+
+R { 2315} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1422} {n} {n} {1} {0} {}
+E { 1421} {s} {s} {4} {0} {}
+
+R { 2316} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1798} {n} {n} {1} {0} {}
+E { 1797} {s} {s} {4} {0} {}
+
+R { 2317} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1800} {n} {n} {1} {0} {}
+E { 1799} {s} {s} {4} {0} {}
+
+R { 2318} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 2291} {n} {n} {1} {0} {}
+E { 2290} {s} {s} {4} {0} {}
+
+R { 2319} {0} {<aaf>} {Ishtar River} {~} {The river flows through a huge iron grating from the wilderness into the city.  Strong guards above await word to open the portal should any citizen require entry or exit. } {NotYetSet} {} {River} {} {1.000}
+E { 2313} {w} {w} {8} {0} {}
+E { 1568} {e} {e} {2} {0} {}
+
+R { 2320} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 2300} {s} {s} {4} {0} {}
+E { 1421} {n} {n} {1} {0} {}
+
+R { 2321} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2294} {s} {s} {4} {0} {}
+E { 1417} {n} {n} {1} {0} {}
+
+R { 2322} {0} {<aaf>} {Ishtar River} {~} {This part of the river seems alive with activity.  Boats moored to the docks near the ramp north of here make navigation a bit more trying.  As the river flows eastward, you can see the southern bridge coming into view. } {NotYetSet} {} {River} {} {1.000}
+E { 1686} {w} {w} {8} {0} {}
+E { 1560} {n} {n} {1} {0} {}
+
+R { 2323} {0} {<afa>} {Small Cliff} { } {You stand on a small cliff north of the Ishtar River.  This place would be perfectly natural, if it weren't for a huge silver strand rooted firmly in the ground here.  The strand, glowing with a mystical aura, is thicker than the largest tree.  It reaches high into the clouds, beyond the sight of the keenest eyes.  Upon closer examination, you discover steps carved into the shimmering silvery cord.  Where could it lead? } {Graecia} {} {Hills} {} {1.000}
+E { 2291} {s} {s} {4} {0} {}
+E { 2324} {u} {u} {16} {0} {}
+
+R { 2324} {0} {<afa>} {Ascent to Graecia} { } {The silvery cord that you are ascending extends beyond the realm of consciousness.  You can see the cord extending into another realm, that seems much different from the world of Nevrast.  You take a short break from climbing and catch a glimpse of the world around you.  The cord in which you began to climb extends downward to a tiny globe.  Wait a minute...that globe looks familiar...its Nevrast!  All around you are the stars and pitch black sky.  You can identify the major constellations, and you only hope that the silvery cord in which you climbed leads to a familiar place.  A shadowy shape slowly fades into existence from the starry background.  You think it would be a good idea to continue onward. } {Graecia} {} {Air} {} {1.000}
+E { 2323} {d} {d} {32} {0} {}
+E { 2325} {u} {u} {16} {0} {}
+
+R { 2325} {0} {<afa>} {Entrance to Graecia} { } {You have arrived in a strange place indeed.  You are standing on the crest of of a huge hill.  The meadow at your feet is peaceful and calm, unlike the savage world that you are accustomed.  The meadow extends northward to a paved road which extends beyond the range of your vision.  The view from this hill is awesome.  You have an excellent aerial view of this strange place.  To the northeast is gigantic mountain, extending above the clouds, that towers above the lands below.  To the northwest is vast ocean stretching out of sight.  You can also make out a city at the end of the great paved road to the north. } {Graecia} {} {Hills} {} {1.000}
+E { 2324} {d} {d} {32} {0} {}
+E { 2326} {n} {n} {1} {0} {}
+
+R { 2326} {0} {<afa>} {The Great Brick Road} { } {It is strange indeed to travel on such a straight and smoothly paved road. You notice several deeply worn grooves that seem to run parallel to the direction of the road.  These ruts almost seem to be part of the road design, but you know better.  To the north the road extends northward to the great city on the horizon.  To your east you see the beginning of a great forest that makes Mirkwood seem feeble in comparison. } {Graecia} {} {Inside} {} {1.000}
+E { 2325} {s} {s} {4} {0} {}
+E { 2327} {n} {n} {1} {0} {}
+
+R { 2327} {0} {<afa>} {On the Road to Graecia} { } {The road continues to the north and the city is slowly getting closer.  The forest to the east seems even more ominous.  You get the feeling that someone is monitoring your progress.  To the west is a large building.  As you peer at the building the architecture seems quite foreign to you.  There are large columns with bas reliefs of great battles supporting the roof.  You hear the sound of laughter and cheering from inside the building.  There is also a large insignia on the arched entrance of a huge sword.  You are overwhelmed by the feeling of safety which issues forth from the building. } {Graecia} {} {Inside} {} {1.000}
+E { 2326} {s} {s} {4} {0} {}
+E { 2328} {w} {w} {8} {0} {}
+E { 2332} {n} {n} {1} {0} {}
+
+R { 2328} {0} {<afa>} {Hall of Mercenaries} { } {Inside the building you notice a large hole in the ceiling which illuminates the entire room.  There is a small reflecting pool beneath the hole which serves as a basin for the rainwater.  Inside the building are several armored men and women talking to each other, they all stare at you as you enter, then quickly return to the business.  Along the walls of this building are larger pictures of fabled monsters and fearless men fighting to the death.  You also can make out a smaller exit to the north that seems hidden.  To the north you can hear the the sounds of water splashing against great rocks. } {Graecia} {} {Inside} {} {1.000}
+E { 2327} {e} {e} {2} {0} {}
+E { 2329} {n} {n} {1} {0} {}
+
+R { 2329} {0} {<afa>} {The Eastern Edge of the Great Ocean} { } {You have arrived at the eastern edge of the Great Ocean.  There are huge boulders scattered along the rocky coast.  As the ocean collides with boulders you feel uneasy.  It reminds you that the strange lands in which you have entered are filled with great mystery.  Looking out to sea you can make out several rocky islands.  Only great legends speak of what lies on those unexplored lands.  There are men here building sea faring vessels, and you can see a large man directing them.  These ships are unlike any you have seen before and they seem able to withstand the mighty ocean unlike the rafts and canoes in which you are so familiar.  There is a hut just a few steps north of here.  The sign on the hut says, 'Private, keep out.' } {Graecia} {} {Shore} {} {1.000}
+E { 2328} {s} {s} {4} {0} {}
+E { 2330} {w} {w} {8} {0} {}
+E { 2332} {e} {e} {2} {0} {}
+
+R { 2330} {0} {<afa>} {} { } {} {Graecia} {} {} {} {1.000}
+E { 2329} {e} {e} {2} {0} {}
+E { 2331} {w} {w} {8} {0} {}
+
+R { 2331} {0} {<afa>} {Graecian Ocean} { } {You are sailing on a huge ocean that extends in many directions.  Due to the changing winds you cannot always go the direction you choose.  You can see several islands along the coast in all directions.  You hope that your compass is working properly. } {Graecia} {} {Water} {} {1.000}
+E { 2330} {e} {e} {2} {0} {}
+
+R { 2332} {0} {<afa>} {Intersection of the Great Road} { } {You are standing at the intersection of a paved road and a dusty trail.  The paved road goes north and south.  To the north is the city of Graecia, and to the south the road leads into the hills.  The dusty path goes to the east and west.  To the west, the path leads to the vast ocean and to the east the path twists into a mysterious forest. } {Graecia} {} {Field} {} {1.000}
+E { 2329} {w} {w} {8} {0} {}
+E { 2338} {n} {n} {1} {0} {}
+E { 2349} {e} {e} {2} {0} {}
+E { 2327} {s} {s} {4} {0} {}
+
+R { 2333} {0} {<afa>} {Gateway to Graecia} { } {Unlike the city of Nevrast, this city does not need any walls to protect it. The reputation of the Graecian soldiers is such that no army would consider an invasion upon this fabulous city.  Beyond the city entrance is the Main Plaza, which serves as the center of activity for Graecia. } {Graecia} {} {City} {} {1.000}
+E { 2338} {s} {s} {4} {0} {}
+E { 2341} {n} {n} {1} {0} {}
+
+R { 2334} {0} {<afa>} {Main Plaza} { } {This is the center of activity for the town of Graecia.  You can see artisans showing their fine works and crafts, entertainers playing their instruments, and in a corner is a group engaged in a heated debate.  Chariots are passing through at a such rapid pace, you almost have to actively dodge them.  To the north is the Palace and Grand Hall of the ruler of Graecia.  To the east and west, paved roads extend throughout the town.  As you look to the west you can see buildings built of fine materials such as marble and obsidian, while to the east the shadows make the road look a bit threatening.  A paved road also extends to the south gate of town. } {Graecia} {} {City} {} {1.000}
+E { 2341} {s} {s} {4} {0} {}
+E { 2335} {w} {w} {8} {0} {}
+E { 2347} {n} {n} {1} {0} {}
+E { 2348} {e} {e} {2} {0} {}
+
+R { 2335} {0} {<afa>} {Path of Gold} { } {The bricks on this portion of the road seem to be coated with gold!  You can tell by the houses and ornately designed buildings that this area of town is where the scholars and merchants live.  You can see mini fortresses with flowing fountains and beautiful gardens hiding behind the walls of these buildings.  You would think that there would be a crime problem in this area, but the multitude of guards in the area suggests otherwise.  To the east is the Main Plaza and to the west the road continues. } {Graecia} {} {City} {} {1.000}
+E { 2334} {e} {e} {2} {0} {}
+E { 2336} {w} {w} {8} {0} {}
+
+R { 2336} {0} {<afa>} {Estate of Nero} { } {You have entered the grand estate of Nero.  There are fountains, mini- colliseums, statues, and many other fine sculptures in this area.  There is a large horse seated on a throne here.  The horse prances proudly as you enter. For such a large estate, it seems strange that there are not any workers scurrying around looking busy.  In fact it is rather quiet.  Only the statues and the Horse are here to greet you.  A man walks by and whispers that Hercules is the only worker employed by Nero.  It must be truly a Herculean task to keep this place in order.  Paths lead in all directions into the countryside, while to the east you can see the edges of town. } {Graecia} {} {City} {} {1.000}
+E { 2335} {e} {e} {2} {0} {}
+E { 2337} {s} {s} {4} {0} {}
+E { 2343} {w} {w} {8} {0} {}
+E { 2344} {n} {n} {1} {0} {}
+
+R { 2337} {0} {<afa>} {The Pasture} { } {You have entered the pasture of Nero's Prize Oxen, Geryon.  This oxen is not like any mere cow that you have ever seen.  Nero's prize Oxen is carefully guarded by a huge, overbearing giant and his faithful two headed dog.  The giant grins as you enter and carefully clutches his club.  That club looks like it could smash boulders with a single blow.  You can see that the path continues to the south leading upwards into the hills. } {Graecia} {} {Field} {} {1.000}
+E { 2336} {n} {n} {1} {0} {}
+E { 2339} {s} {s} {4} {0} {}
+
+R { 2338} {8} {} {} { } {} {Graecia} {} {} {} {1.000}
+E { 2333} {n} {n} {1} {0} {}
+E { 2332} {s} {s} {4} {0} {}
+
+R { 2339} {0} {<afa>} {Forgotten Path in the Hills} { } {You are traveling on a deserted path that leads into the hills.  To the west you can see a huge tree covered mound, which looks to be the home of some huge beast, and to the south the path continues its climb to a summit on the hills. } {Graecia} {} {Mountains} {} {1.000}
+E { 2337} {n} {n} {1} {0} {}
+E { 2340} {w} {w} {8} {0} {}
+E { 2342} {s} {s} {4} {0} {}
+
+R { 2340} {0} {<afa>} {The Great Mound} { } {You have finally made the climb on to the top of a huge mound.  There is a single sapling on this hill.  Growing on the tree are some golden apples.  You remember that these apples were supposed to be guarded by some horrible beast, but there seems to be no sign of him now.  As you take a second glance at the mound you see a suspicious hole concealed by some debris.  The hole seems to be the home of some great monster, and judging by the scales scattered around it only one thing comes to mind.  That must be the home of a DRAGON!!! } {Graecia} {} {Mountains} {} {1.000}
+E { 2339} {e} {e} {2} {0} {}
+
+R { 2341} {8} {} {} { } {} {Graecia} {} {} {} {1.000}
+E { 2334} {n} {n} {1} {0} {}
+E { 2333} {s} {s} {4} {0} {}
+
+R { 2342} {0} {<afa>} {Mount Aventine} { } {You have finally reached the summit of Mount Aventine.  You have a great view of the surrounding lands.  To the north you can see the fantastic estate of Nero.  To the east you can see the city of Graecia, and the great forest. Finally, to the south and west you can see the vast ocean and islands along the coast.  Standing here are two giants.  They look at each other and grin evilly. One assumes a wrestling stance and the other grabs a huge club.  They move towards you with the intent of battle. } {Graecia} {} {Mountains} {} {1.000}
+E { 2339} {n} {n} {1} {0} {}
+
+R { 2343} {0} {<afa>} {The Orchard} { } {This is an isolated orchard in the estate.  Beautiful trees and delicious apples grow here.  You are overcome by a sense of peace and contentment.  You start to feel sleepy and it becomes difficult to keep your eyes open. Suddenly, you hear a scream from the north and you spring to your feet!  To the north you now see a gate, hidden by a large tree.  You hear another scream, then the area is overcome by great silence.  As you get a better look of the area you also see a small stream to the west. } {Graecia} {} {Field} {} {1.000}
+E { 2336} {e} {e} {2} {0} {}
+E { 2345} {n} {n} {1} {0} {}
+E { 2346} {w} {w} {8} {0} {}
+
+R { 2344} {0} {<afa>} {The Augean Stables} { } {You have arrived in a huge stable.  There must be hundreds of stalls, all of which are in poor condition.  You can see bales of hay waiting to be moved and the stench from the horses is tremendous.  Poor Hercules will have his hands full keeping this place clean.  To the west is a small stream that flows with a rapid torrent, and to the south is the courtyard of Nero. } {Graecia} {} {Inside} {} {1.000}
+E { 2336} {s} {s} {4} {0} {}
+
+R { 2345} {0} {<afa>} {The Orchard} { } {This is an isolated orchard in the estate.  Beautiful trees and delicious apples grow here.  You are overcome by a sense of peace and contentment.  You start to feel sleepy and it becomes difficult to keep your eyes open. Suddenly, you hear a scream from the north and you spring to your feet!  To the north you now see a gate, hidden by a large tree.  You hear another scream, then the area is overcome by great silence.  As you get a better look of the area you also see a small stream to the west. } {Graecia} {} {Field} {} {1.000}
+E { 2343} {s} {s} {4} {0} {}
+
+R { 2346} {0} {<afa>} {End of the Path} { } {You have reached the end of a small path through the estate of Nero.  All is quiet here..In fact all of the sounds that you are normally accustomed to are no longer present.  To the west you can see an area sheltered from the elements.  It seems to be a cave or a burrow of some sort.  A strong smell of death and decay comes from the mouth of the cave.  The wind begins to increase } {Graecia} {} {City} {} {1.000}
+E { 2343} {e} {e} {2} {0} {}
+
+R { 2347} {0} {<afa>} {Grand Hall of Agamemnon} { } {Scholars and wise men make up the court of King Agamemnon.  You have interrupted a great debate.  As you enter the scholars recognize that you are foreigners and hail your arrival.  King Agamemnon welcomes you to the land of Graecia and bids you a safe journey.  He is seated on a throne of pure gold embedded with so many jewels that the sunlight reflected from them nearly blinds you.  You consider stealing some of the jewels, but you realize that Agamemnon could smite you if you angered him.  At his side, Clytemnestra, his wife, smiles with a glint of betrayal in her eyes.  After greeting you the court ignores you and returns to their discussion.  There are also large columns here providing tall deep shadows and occasionally you can see a figure } {Graecia} {} {Inside} {} {1.000}
+E { 2334} {s} {s} {4} {0} {}
+
+R { 2348} {0} {<afa>} {The Dim Alley} { } {The paved road that you have been accustomed now takes on a different look. The bricks are no longer neatly laid in place, and the buildings that you pass are progressively in worse condition.  Occasionally you see a shadowy figure in the corner of your eyes.  Whenever you try to catch a glimpse of the figure, it disappears into the shadows.  Your progress to the east is blocked by a wooden wall.  You wonder why a wooden wall is in the middle of the street, then you see some movement behind the wall.  An arrow strikes the ground at your feet, and you realize that that was only a warning shot.  Obviously, it would be a good idea to leave this area quickly. } {Graecia} {} {City} {} {1.000}
+E { 2334} {w} {w} {8} {0} {}
+
+R { 2349} {0} {<afa>} {Path into the Great Forest} { } {A small and spooky path leads into the Great Forest.  The trees lean into towards the path, their gnarled and twisted branches menacing the unwary. Strange tracks run northward along the path, reinforcing the rumors that odd creatures inhabit these woods.  Immediately to the west lies the safety of the Great Road. } {Graecia} {} {Forest} {} {1.000}
+E { 2332} {w} {w} {8} {0} {}
+E { 2350} {n} {n} {1} {0} {}
+
+R { 2350} {0} {<afa>} {Path into the Dark Forest} { } {The path turns sharply eastward here, leading deeper into the shadowy forest.  The outwardly active forest becomes quiet and menacing as if disturbed by some dark presence.  More tracks are here leading to the east.  The path leads to the Great Road to the south, still visible through the gloom. } {Graecia} {} {Forest} {} {1.000}
+E { 2349} {s} {s} {4} {0} {}
+E { 2351} {e} {e} {2} {0} {}
+
+R { 2351} {0} {<afa>} {} { } {} {Graecia} {} {} {} {1.000}
+E { 2350} {w} {w} {8} {0} {}
+E { 2352} {e} {e} {2} {0} {}
+
+R { 2352} {0} {<afa>} {Spooky Forest} { } {What seems to be a small game trail runs southward from here, allowing just enough room to slip between the sharp thorns of the surrounding bush.  The main path leads both west and north from this point, though perhaps a bit of light trickles in from the west, indicating possible relief from the enveloping gloom. } {Graecia} {} {Forest} {} {1.000}
+E { 2351} {w} {w} {8} {0} {}
+E { 2353} {n} {n} {1} {0} {}
+E { 2365} {s} {s} {4} {0} {}
+
+R { 2353} {0} {<afa>} {Spooky Forest} { } {The path winds among the overshadowing trees to the west and south, their tough, gnarled roots making going difficult.  Small creatures seem to scurry about deep within the trees, avoiding visibility, then draw still as they sense traffic along the path. } {Graecia} {} {Forest} {} {1.000}
+E { 2352} {s} {s} {4} {0} {}
+E { 2354} {w} {w} {8} {0} {}
+
+R { 2354} {0} {<afa>} {Spooky Forest} { } {The twisting path straightens for a moment to run between a pair of huge, ancient trees.  Their grasping limbs claw the air above the path, attempting to block passage, then assume a more appropriate, arboreal demeanor upon close examination. } {Graecia} {} {Forest} {} {1.000}
+E { 2353} {e} {e} {2} {0} {}
+E { 2355} {w} {w} {8} {0} {}
+
+R { 2355} {0} {<afa>} {} { } {} {Graecia} {} {} {} {1.000}
+E { 2354} {e} {e} {2} {0} {}
+E { 2356} {n} {n} {1} {0} {}
+
+R { 2356} {0} {<afa>} {Spooky Forest} { } {A thick grove of trees blocks the way to the west, the trees twisted, intertwining boles refusing all entrance.  The path curves through into the darkness to the east and south. } {Graecia} {} {Forest} {} {1.000}
+E { 2355} {s} {s} {4} {0} {}
+E { 2357} {e} {e} {2} {0} {}
+
+R { 2357} {0} {<afa>} {Spooky Forest} { } {The paths straightens out running east and west through the dark, looming trees.  The tracks along the path are etched deep into the soil, giving notice that large predators prowl the area.  The silence of the forest brings to mind something waiting to pounce. } {Graecia} {} {Forest} {} {1.000}
+E { 2356} {w} {w} {8} {0} {}
+E { 2358} {e} {e} {2} {0} {}
+
+R { 2358} {0} {<afa>} {Spooky Forest} { } {The long straight passage between the trees continues interminably through the forest, its end lost in the encompassing darkness.  A lone cricket sends its song through the woods then falls suddenly silent. } {Graecia} {} {Forest} {} {1.000}
+E { 2357} {w} {w} {8} {0} {}
+E { 2359} {e} {e} {2} {0} {}
+
+R { 2359} {0} {<afa>} {Spooky Forest} { } {The long passage between the trees runs east and west through the dark forest.  Shadows loom deep within the surrounding trees, concealing whatever might be hiding there. } {Graecia} {} {Forest} {} {1.000}
+E { 2358} {w} {w} {8} {0} {}
+E { 2360} {e} {e} {2} {0} {}
+
+R { 2360} {0} {<afa>} {Spooky Forest} { } {The path here takes a sharp turn to avoid a dense grove of dark trees huddled along the base of Mount Olympus, which rises to the northeast.  The shadows momentarily subside, allowing a view of a long passage between the trees to the west, and what seems to be a clearing of some sort to the south. } {Graecia} {} {Forest} {} {1.000}
+E { 2359} {w} {w} {8} {0} {}
+E { 2361} {s} {s} {4} {0} {}
+
+R { 2361} {0} {<afa>} {Spooky Forest} { } {To the east, Mount Olympus rises cleanly from the forest, piercing even the clouds themselves with its glory.  The trees along the eastern side of the path are only barely closely packed enough to keep travelers confined to the path, while to the west the forest lurks in shadow. } {Graecia} {} {Forest} {} {1.000}
+E { 2360} {n} {n} {1} {0} {}
+E { 2362} {w} {w} {8} {0} {}
+
+R { 2362} {0} {<afa>} {} { } {} {Graecia} {} {} {} {1.000}
+E { 2361} {e} {e} {2} {0} {}
+E { 2363} {s} {s} {4} {0} {}
+
+R { 2363} {0} {<afa>} {Spooky Forest} { } {The dark trees along the trail crowd close upon themselves here, blocking passage to the east and west, and barely admitting egress to the north and south.  Thin tendrils of fog wind among the trees to the east. } {Graecia} {} {Forest} {} {1.000}
+E { 2362} {n} {n} {1} {0} {}
+E { 2364} {s} {s} {4} {0} {}
+
+R { 2364} {0} {<afa>} {Spooky Forest} { } {There is an intersection of small trails here, coming in from all directions save only southwards.  The strange, almost unnatural, foliage surrounding the trails rustles a bit, perhaps from an unfelt breeze.  There are tracks leading in all directions along the trails twisting in between the mysterious trees. } {Graecia} {} {Forest} {} {1.000}
+E { 2363} {n} {n} {1} {0} {}
+E { 2365} {w} {w} {8} {0} {}
+E { 2367} {e} {e} {2} {0} {}
+
+R { 2365} {0} {<afa>} {Spooky Forest} { } {The trail here runs north and east, with another possible exit to the west, where the trees appear far enough apart to allow passage.  The rough bark on the surrounding trees has been scarred by some large clawed creature to a point at least eight feet up. } {Graecia} {} {Forest} {} {1.000}
+E { 2364} {e} {e} {2} {0} {}
+E { 2366} {w} {w} {8} {0} {}
+E { 2352} {n} {n} {1} {0} {}
+
+R { 2366} {0} {<afa>} {Spooky Forest} { } {This small cul-de-sac amongst the towering trees is cluttered with trash, seemingly left here by whatever beasts reside in the woods.  The ivory glint of bone gleams here and there amid the refuse, the legacy of past meals, perhaps adventurers like yourself. } {Graecia} {} {Forest} {} {1.000}
+E { 2365} {e} {e} {2} {0} {}
+
+R { 2367} {0} {<afa>} {} { } {} {Graecia} {} {} {} {1.000}
+E { 2364} {w} {w} {8} {0} {}
+E { 2368} {e} {e} {2} {0} {}
+
+R { 2368} {0} {<afa>} {Spooky Forest} { } {Cold fog swirls about the bases of the pale grayish trees along the path, hiding even the tracks the shadows left revealed.  A low, almost subliminal moaning echoes from the south, instilling recollections of lost friends and loved ones. } {Graecia} {} {Forest} {} {1.000}
+E { 2367} {w} {w} {8} {0} {}
+E { 2369} {s} {s} {4} {0} {}
+
+R { 2369} {0} {<afa>} {} { } {} {Graecia} {} {} {} {1.000}
+E { 2368} {n} {n} {1} {0} {}
+E { 2370} {e} {e} {2} {0} {}
+
+R { 2370} {0} {<afa>} {Spooky Forest} { } {Dense vapor swirls up from the waist-deep pools of fog with every footstep, chilling flesh and dampening clothing.  The sounds from further southward bring to mind the cries of the hopeless dead.  A stench like rotting corpses, months late for burial, sweeps along the path, taking breath and courage with it, and an overwhelming feeling of pure dread pervades the atmosphere. } {Graecia} {} {Forest} {} {1.000}
+E { 2369} {w} {w} {8} {0} {}
+E { 2371} {s} {s} {4} {0} {}
+
+R { 2371} {0} {<afa>} {Spooky Forest} { } {The trees here have lost all semblance of life, in any normal sense of the word, yet seem to tremble with a dark expectancy.  Their damp bark exudes a think fog of vapor, eddying about the dead branches of the trees, granting the illusion of movement.  Sounds and scents unimaginable flow from the east clearly marking the territory death has claimed for its own, and some deep sense tells you it is a bad idea to go that direction. } {Graecia} {} {Forest} {} {1.000}
+E { 2370} {n} {n} {1} {0} {}
+E { 2374} {e} {e} {2} {0} {}
+
+R { 2372} {0} {<afa>} {Road into the Strange and Dark Woods} { } {You step onto this road and you feel a chill run up the length of your spine.  Not only is this place dark and eerie, but it adds an unnatural chill that can not be ignored.  You long for a warm tavern and a long swig of ale, when you jump at the sound of a twig snapping.  The trees, if they can be called that, are devoid of leaves or, for that matter, and sort of life. Hanging on the foremost of these evil looking trees, is a small, broken sign. } {Graecia} {} {Forest} {} {1.000}
+E { 2374} {w} {w} {8} {0} {}
+E { 2373} {n} {n} {1} {0} {}
+
+R { 2373} {0} {<afa>} {Road in the Strange and Dark Woods} { } {You have entered the woods!  Wait.  Which way is out!?!  The only thing you hear is the breeze echoed throughout the woods.  Not a single living creature, it seem, inhabit this awful place.  The trees seems lifeless and haunting. } {Graecia} {} {Forest} {} {1.000}
+E { 2372} {s} {s} {4} {0} {}
+
+R { 2374} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 2372} {e} {e} {2} {0} {}
+E { 2371} {w} {w} {8} {0} {}
