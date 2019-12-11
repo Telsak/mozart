@@ -11,17 +11,16 @@ This script has some hardcoded paths set, as my MUD folder is ~/mud/ - which you
 if you want to use this yourself. You also need to start tt++ with the file argument, as it depends
 on the creation of some dotfiles for data storage.
 
-# Seriously, warning
+# Disclaimer
 This script runs shell commands in tintin++. This means that I do a bunch of sed/awk/cat in order to format
 text output from the mapper and identify code. If you are not comfortable with this, you can turn off the
-identify part of the script by commenting out the #READ mozart.idt line (#NOP comments out).
-I have yet to separate the mapper from the main script, so if you are not OK with those formatting
-commands, don't run this script.
+identify part of the script by commenting out the #READ lines for the identy and mapper module (#NOP comments out).
+Of course, this removes the whole point of the script, but that's your choice obviously.
 
 I am not liable for any magic shenanigans that occur on your system, sorry.
 
 # Usage
-tt++ mozart.tin
+$ tt++ mozart.tin
 This loads the main script that reads in other necessary files. Ensure you start it this way for the
 mapper to work correctly.
 
