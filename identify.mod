@@ -47,7 +47,7 @@
 #NOP: Lets us pick an item ourselves without looking
 #ALIAS {finditem}
 {
-  #SYS {awk '/ITEM $itemwords/{flag=1;next}/ITEM/{flag=0}flag' mozartItems.db};
+  #SYS {awk '/ITEM $itemwords/{flag=1;next}/ITEM/{flag=0}flag' mozart.db};
   #SHOWME \ ;
   #CR
 }
