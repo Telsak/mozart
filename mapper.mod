@@ -1,5 +1,5 @@
-#ALIAS {delroom} {#map delete %0} {5}
-#ALIAS {findarea} {#map find {} {} {} {%0} {}; #path show} {5}
+#alias {mm} {#MAP move}
+#alias {md} {#MAP del}
 #ALIAS {findnote} {#map find {} {} {} {} {%0}; #path show} {5}
 #ALIAS {findroom} {#map find {%0} {} {} {} {}; #path show} {5}
 #ALIAS {getplayer} {#script playerpos {cat .mozart.plr}} {5}
