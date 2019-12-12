@@ -20,9 +20,9 @@ Of course, this removes the whole point of the script, but that's your choice ob
 I am not liable for any magic shenanigans that occur on your system, sorry.
 
 # Usage
-$ tt++ mozart.tin
+$ tt++ main.tin
 This loads the main script that reads in other necessary files. Ensure you start it this way for the
-mapper to work correctly.
+mapper to work correctly. Note that the main.tin file ONLY reads in the other modules.
 
 mapoff - turns the mapping off and sets rooms to static which means you can move in the map but no
 no new data is being written. Also alters the prompt to let you know the mapper is turned off.
