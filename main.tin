@@ -8,4 +8,4 @@
 #READ mapper.mod
 
 #NOP ==== Read in Mozart specific file ====
-#READ mozart.tin
+#READ mozart.mod
