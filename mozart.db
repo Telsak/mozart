@@ -29,3 +29,150 @@ Item is: Ephemeral Anti-Mage.
 Can be equipped: Hands.
 Weight: 2, Volume: 75, Value: 400
 Durability and Armor Rating are 3 with maximum 3.
+ITEM flameblade-flame-blade
+Object "a flameblade", Item type: Sword
+Item is: Magic Anti-Cleric Anti-Warrior Personal.
+Can be equipped: Wield.
+Weight: 1, Volume: 40, Value: 0
+Durability is 3 with maximum 0.
+Damage Dice is 4d3.  Damage type is slash.
+Effects:
+ Hitroll: +2.
+ Damroll: +2.
+ITEM metal-sword
+Object "a metal sword", Item type: Sword
+Item is: Anti-Cleric Anti-Mage Anti-Thief Donated.
+Can be equipped: Wield.
+Weight: 14, Volume: 25, Value: 100000 [Rare]
+Durability is 25 with maximum 25.
+Damage Dice is 1d25.  Damage type is slash.
+Effects:
+ Hit-N-Dam: +2.
+ Disarm: +8.
+ITEM flying-carpet
+Object "a ring of flying", Item type: Talisman
+Item is: None.
+Can be equipped: Finger.
+Weight: 10, Volume: 25, Value: 7500
+Durability is 4 with maximum 4.  Recharge time is 1 hour, 6 minutes.
+Level 50 spell of Fly.
+Effects:
+ Hitroll: +1.
+ Armor: -5.
+ Translocation: +3.
+ Dispel on Removal: Fly.
+ITEM shadowy-cloak
+Object "a shadowy cloak", Item type: Clothing
+Item is: Anti-Warrior.
+Can be equipped: About.
+Weight: 10, Volume: 25, Value: 50000 [Rare]
+Durability is 4 with maximum 4.
+Effects:
+ Hitroll: +2.
+ Strength: -1.
+ Dexterity: +4.
+ITEM shire-short-sword
+Object "a Shire short sword", Item type: Sword
+Item is: Glow Ephemeral Magic.
+Can be equipped: Wield.
+Weight: 6, Volume: 96, Value: 12000 [Rare]
+Durability is 6 with maximum 6.
+Damage Dice is 3d6.  Damage type is slash.
+Effects:
+ Hitroll: +3.
+ Dexterity: +6.
+ITEM ornate-ornately-carved-willow-bracer
+Object "an ornate willow bracer", Item type: Armor
+Item is: Glow Bless Anti-Evil Brittle.
+Can be equipped: Arms.
+Weight: 5, Volume: 25, Value: 20000 [Rare]
+You don't meet this item's ego requirements.
+Durability and Armor Rating are 20 with maximum 0.
+Effects:
+ Damroll: +2.
+ Armor: +15.
+ Fortitude Saves: +7.
+ITEM long-willow-branch
+Object "a long willow branch", Item type: Whip
+Item is: Bless Anti-Evil.
+Can be equipped: Wield.
+Weight: 4, Volume: 12, Value: 24000 [Rare]
+You don't meet this item's ego requirements.
+Durability is 24 with maximum 24.
+Damage Dice is 1d24.  Damage type is whip.
+Effects:
+ Hit-N-Dam: +2.
+ Nature's Blessings: +10.
+ITEM metallic-leg-plates
+Object "a pair of metallic leg plates", Item type: Armor
+Item is: Anti-Mage Anti-Thief Donated.
+Can be equipped: Legs.
+Weight: 8, Volume: 0, Value: 65000 [Rare]
+Durability and Armor Rating are 12 with maximum 12.
+Effects:
+ Hit-N-Dam: +1.
+ Strength: +15.
+ Reflex Saves: +5.
+ITEM ornate-carved-willow-wooden-leg-guards
+Object "ornate willow leg guards", Item type: Armor
+Item is: Glow Bless Anti-Evil Brittle.
+Can be equipped: Legs.
+Weight: 5, Volume: 80, Value: 25000 [Rare]
+You don't meet this item's ego requirements.
+Durability and Armor Rating are 20 with maximum 0.
+Effects:
+ Hitroll: +2.
+ Damroll: +1.
+ Nature's Blessings: +7.
+ITEM ornate-willow-body-armor-wooden-carved-decorated
+Object "ornate willow body armor", Item type: Armor
+Item is: Glow Bless Anti-Evil Brittle.
+Can be equipped: Body.
+Weight: 5, Volume: 120, Value: 50000 [Rare]
+You don't meet this item's ego requirements.
+Durability and Armor Rating are 25 with maximum 0.
+Effects:
+ Hit-N-Dam: +1.
+ Pain Immunity: +20.
+ITEM groundhog-sleeves
+ITEM greenstone-ring
+Object "a greenstone ring", Item type: Jewelry
+Item is: Donated.
+Can be equipped: Finger.
+Weight: 1, Volume: 1, Value: 40000 [Rare]
+Durability is 2 with maximum 2.
+Effects:
+ Hit-N-Dam: +1.
+ Immunity: poison.
+ Constitution: +7.
+ITEM lesser-templar-robes
+Object "lesser templar robes", Item type: Clothing
+Item is: Magic Bless Donated.
+Can be equipped: About.
+Weight: 8, Volume: 400, Value: 4000 [Rare]
+Durability is 5 with maximum 5.
+Effects:
+ Armor: +6.
+ Wisdom: +6.
+ITEM well-used-bracer-defense
+Object "a bracer of defense", Item type: Armor
+Item is: Glow Magic Anti-Neutral.
+Can be equipped: Arms.
+Weight: 1, Volume: 200, Value: 20000
+Durability and Armor Rating are 2 with maximum 0.
+Effects:
+ Hitroll: +1.
+ Abjuration: +7.
+ Armor: +40.
+ITEM warlock-ancient-gloves
+Object "a pair of warlock gloves", Item type: Clothing
+Item is: Hum Invisible Magic Cursed Anti-Good Anti-Neutral.
+Can be equipped: Hands.
+Weight: 3, Volume: 44, Value: 50000 [Rare]
+Durability is 2 with maximum 3.
+Effects:
+ Mana: +11.
+ Strength: +11.
+ Wisdom: -11.
+ Translocation: +4.
+ Mysticism: +23.

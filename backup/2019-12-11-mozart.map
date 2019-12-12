@@ -7,7 +7,7 @@ CR <fff>
 
 F 139
 
-I 841
+I 202
 
 L * # # # | # x          
 
@@ -4824,58 +4824,57 @@ R { 1172} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1171} {e} {e} {2} {0} {}
 E { 1173} {w} {w} {8} {0} {}
 
-R { 1173} {0} {<fff>} {Prantos' Farm} { } {You are at another driveway, but unlike the last one, this one is dark and foreboding. It leads a short ways to the north to what a sign calls the Prantos estate. } {NotYetSet} {} {Field} {} {1.000}
+R { 1173} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1172} {e} {e} {2} {0} {}
 E { 1174} {w} {w} {8} {0} {}
 E { 1175} {n} {n} {1} {0} {}
 
-R { 1174} {0} {<fff>} {A Dark Path} { } {This is a twisted path, surrounded by trees that seem to writhe in agony. The forest sounds have completely disappeared, leaving you with nothing to concentrate on except the beating of your own heart. To the northeast, a dark and sinister looking farm stands in an area of death. } {NotYetSet} {} {Inside} {} {1.000}
+R { 1174} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1173} {e} {e} {2} {0} {}
 E { 1210} {w} {w} {8} {0} {}
 
-R { 1175} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+R { 1175} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1173} {s} {s} {4} {0} {}
 E { 1176} {n} {n} {1} {0} {}
 
-R { 1176} {0} {<fff>} {The Farmyard} { } {You are in a small brown farmyard.  None of the life that you would expect to see is here.  All there is is death and decay.  As you look around in horror, you realize that a foreboding farmhouse is at your east, with a large dark shape patrolling in front of it.  To your west is a small brown field, that looks like it hasn't had rain for weeks.  And standing before you to the north is a dark barn.    As you look around to see what other clues there might be, you catch a glimpse of movement from the hayloft of the barn in front of you. } {NotYetSet} {} {Field} {} {1.000}
+R { 1176} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1175} {s} {s} {4} {0} {}
 E { 1177} {w} {w} {8} {0} {}
 E { 1179} {n} {n} {1} {0} {}
 E { 1183} {e} {e} {2} {0} {}
 
-R { 1177} {0} {<fff>} {A Dying Field} { } {This is the beginning of a decrepit field.  Withering stalks of corn abound around you.  The ground here is cracked from the lack of moisture.  Off to the east lies a farmyard and the field continues on to the west. } {NotYetSet} {} {Field} {} {1.000}
+R { 1177} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1176} {e} {e} {2} {0} {}
 E { 1178} {w} {w} {8} {0} {}
 
-R { 1178} {0} {<fff>} {A Scare and a Half} { } {This is the far western corner of the field. The surrounding plant life here is almost as bad as the other section of the field. Obviously whoever owns this field isn't too worried about crops. The main thing that surprises you though are all of the crow corpses scattered around the ground. } {NotYetSet} {} {Field} {} {1.000}
+R { 1178} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1177} {e} {e} {2} {0} {}
 
-R { 1179} {0} {<fff>} {A Musty Barn} { } {This is an old, run-down barn.  Dust lies everywhere, and the few pieces of equipment that are lying around are so weather beaten that they are worthless to anyone.  To the north, in the other half of the barn, you can see some stairs leading up to the hay loft. } {NotYetSet} {} {Inside} {} {1.000}
+R { 1179} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1176} {s} {s} {4} {0} {}
 E { 1180} {n} {n} {1} {0} {}
 
-R { 1180} {0} {<fff>} {The Back of the Barn} { } {Nothing here looks much better then it did in the front half of the barn. Rusty metal and rotting leather accompanies all of the equipment. Amazingly enough, the stairs that lead up to the loft are in top shape. This is even more amazing considering the deep dark hole that leads into the ground here. } {NotYetSet} {} {Inside} {} {1.000}
+R { 1180} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1179} {s} {s} {4} {0} {}
 E { 1181} {d} {d} {32} {0} {}
 E { 1182} {u} {u} {16} {0} {}
 
-R { 1181} {0} {<fff>} {Kobold Encampment} { } {You have discovered a damp set of passageways underneath the barn. Footsteps echo towards you from all directions, which is quite disconcerting to say the least. Tiny footprints have been left in the mud here, with the vast majority } {NotYetSet} {} {Inside} {} {1.000}
+R { 1181} {0} {} {Kobold Encampment} { } {} {} {} {} {} {1.000}
 E { 1180} {u} {u} {16} {0} {}
 E { 1185} {s} {s} {4} {0} {}
 E { 1189} {w} {w} {8} {0} {}
 E { 1194} {e} {e} {2} {0} {}
 E { 1206} {n} {n} {1} {0} {}
 
-R { 1182} {0} {<fff>} {Spies in the Midst} { } {Unlike the rest of the barn, the hayloft is in relatively good order. Hay has been strewn around to make a comfortable place to rest. A window looks onto the front yard right before the driveway, and a spot has been made in front of the window at a relaxing height to watch from. } {NotYetSet} {} {Inside} {} {1.000}
+R { 1182} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1180} {d} {d} {32} {0} {}
 
-R { 1183} {0} {<fff>} {Front Yard} { } {This is the front yard right before a decrepit looking house. The grass here is as brown as the rest of the farm. A prickling at the base of your neck alerts you to some menace close by. } {NotYetSet} {} {Field} {} {1.000}
+R { 1183} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1176} {w} {w} {8} {0} {}
 E { 1184} {e} {e} {2} {0} {}
 
-R { 1184} {0} {<fff>} {Bloody Beginnings} { } {You are in the front hallway of the house. At first, you think the decorator has a weird sense of color scheme, but as you look at the walls more closely, you realize that it isn't paint... It's BLOOD!    As you fight to hold the gorge down in your stomach, a mad cackle can be heard throughout the house. } {NotYetSet} {} {Inside} {} {1.000}
+R { 1184} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1183} {w} {w} {8} {0} {}
-E { 2375} {e} {e} {2} {0} {}
 
 R { 1185} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1181} {n} {n} {1} {0} {}
@@ -4889,52 +4888,51 @@ E { 1187} {s} {s} {4} {0} {}
 R { 1187} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1186} {n} {n} {1} {0} {}
 
-R { 1188} {0} {<fff>} {Alas, you cannot go that way.} { } {} {NotYetSet} {} {} {} {1.000}
+R { 1188} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1185} {w} {w} {8} {0} {}
 
-R { 1189} {0} {<fff>} {End of the Tunnel} { } {This is a small hallway, with torches acting as a feeble light source. They tend to be dim, except when a fresh breath of air comes in from the east. The walls are rough hewn stone, and set into the west wall is a poor door that has been treated poorly, with rough ugly-looking slashes all over the front of it. } {NotYetSet} {} {Inside} {} {1.000}
+R { 1189} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1181} {e} {e} {2} {0} {}
-E { 1190} {w} {open door;w} {8} {0} {}
+E { 1190} {w} {w} {8} {0} {}
 
-R { 1190} {0} {<fff>} {Training In a New Perspective} { } {Blackness of a malign sort clouds your sight as you step into this room. The shadows seem to reach out to snuff the life out of your light source, as if they were affronted by the light. The din of battle echos off of the walls all around you, giving you momentary thought of great wars and great deeds.    While you are thinking about these glorious thoughts, movement in the shadows alerts you to danger. } {NotYetSet} {} {Inside} {} {1.000}
-E { 1189} {e} {open door;e} {2} {0} {}
+R { 1190} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1189} {e} {e} {2} {0} {}
 E { 1191} {s} {s} {4} {0} {}
 E { 1193} {w} {w} {8} {0} {}
 
-R { 1191} {0} {<fff>} {A Dimly Lit Corner} { } {This is a dimly lit room, with a thin mist in the air, making it so that all you can see are shadows. The mist does seem to help dampen the sounds of weapons clashing together, which helps to ease the nerves a little bit. But all of the shadows put you on edge, since anything could be lurking inside them. } {NotYetSet} {} {Inside} {} {1.000}
+R { 1191} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1190} {n} {n} {1} {0} {}
 E { 1192} {w} {w} {8} {0} {}
 
-R { 1192} {0} {<fff>} {Light Again!} { } {The darkness is stripped away as you seem to break through a thin film in the air into a well lit room. A small sparring ring stands in the center of the room and has some faint blood stains on it. Weights lie all around the room and show evidence of frequent use. } {NotYetSet} {} {Inside} {} {1.000}
+R { 1192} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1191} {e} {e} {2} {0} {}
 E { 1193} {n} {n} {1} {0} {}
 
-R { 1193} {0} {<fff>} {Black as Night} { } {This small area is absolutely dark. Even with your light, you can't see inches beyond your reach. The only thing that alerts you to another presence is the light sounds of footsteps as they come toward you. } {NotYetSet} {} {Inside} {} {1.000}
+R { 1193} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1192} {s} {s} {4} {0} {}
 E { 1190} {e} {e} {2} {0} {}
 
-R { 1194} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+R { 1194} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1181} {w} {w} {8} {0} {}
 E { 1195} {e} {e} {2} {0} {}
 
-R { 1195} {0} {<fff>} {Dark Hallway} { } {The hallway seems to become darker here, and continues to become darker as you go to the east.  A trail on the stone floors becomes more noticeable as it leads to the east, even though the light is slowly disappearing in that direction. } {NotYetSet} {} {Inside} {} {1.000}
+R { 1195} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1194} {w} {w} {8} {0} {}
 E { 1196} {e} {e} {2} {0} {}
 
-R { 1196} {0} {<fff>} {End of the Line} { } {This is the end of the tunnel.  The small trail that you have been following leads under a rusty iron door, from which you can hear the faint sounds of moaning. } {NotYetSet} {} {Inside} {} {1.000}
+R { 1196} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1195} {w} {w} {8} {0} {}
 E { 1197} {s} {s} {4} {0} {}
 
-R { 1197} {0} {<fff>} {A Dank Jail} { } {This is what appears to be a small jail.  The doors are made the same way, solid, except for iron grates to see through, and a small slot to deliver food through.  The Jail continues on to the south. } {NotYetSet} {} {Inside} {} {1.000}
+R { 1197} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1196} {n} {n} {1} {0} {}
 E { 1198} {w} {w} {8} {0} {}
 E { 1199} {s} {s} {4} {0} {}
-E { 2381} {e} {e} {2} {0} {}
 
-R { 1198} {0} {<fff>} {Orc Captive} { } {This cell is a small block, not even large enough for a large human to fully stretch out in.  The dust lining the floor has been disturbed indicating that someone has been occupying this room recently. } {NotYetSet} {} {Inside} {} {1.000}
+R { 1198} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1197} {e} {e} {2} {0} {}
 
-R { 1199} {0} {<fff>} {A Dank Jail} { } {The sounds of rats scurrying away in the darkness sets your nerves on edge. The darkness seems to grab at you, with an evil intent in mind.  An ill omen if ever you have seen one.  The jail cells that line the walls are the same as those that you saw earlier. } {NotYetSet} {} {Inside} {} {1.000}
+R { 1199} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1197} {n} {n} {1} {0} {}
 E { 1200} {e} {e} {2} {0} {}
 E { 1201} {w} {w} {8} {0} {}
@@ -4961,46 +4959,43 @@ E { 1202} {n} {n} {1} {0} {}
 R { 1205} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1202} {w} {w} {8} {0} {}
 
-R { 1206} {0} {<fff>} {Stone Passageway} { } {The passageway here slowly narrows, giving the impression of being engulfed in stone. A deep guttural laugh comes echoing down the tunnel from the north, filling you with dread unlike any you have ever felt before. } {NotYetSet} {} {Inside} {} {1.000}
+R { 1206} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1181} {s} {s} {4} {0} {}
 E { 1207} {n} {n} {1} {0} {}
 
-R { 1207} {0} {<fff>} {End of the Tunnel} { } {The tunnel has slowly widened out again, relieving you of your tensions of claustrophobia.  To the east is a door blocks your paths and to the south is a stone passageway. } {NotYetSet} {} {Inside} {} {1.000}
+R { 1207} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1206} {s} {s} {4} {0} {}
-E { 1208} {e} {open door;e} {2} {0} {}
+E { 1208} {e} {e} {2} {0} {}
 
-R { 1208} {0} {<fff>} {Kobold Leader} { } {This is a small chamber of some high ranking official for the kobolds. Unlike the rest of the caverns, this small room has been decorated with various objects to make it more comfortable. A couch is against the west wall with a bearskin rug on the floor before it. A table with crude maps is here, with one of the maps open on it.    An iron banded door is in the eastern wall next to the couch. } {NotYetSet} {} {Inside} {} {1.000}
-E { 1207} {w} {open door west;w} {8} {0} {}
-E { 1209} {e} {open door east;e} {2} {0} {}
+R { 1208} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1207} {w} {w} {8} {0} {}
+E { 1209} {e} {e} {2} {0} {}
 
-R { 1209} {0} {<fff>} {Kobold Treasure Room} { } {This rooms contains the hordes of treasure collected by the Koblold's during their raids on unsuspecting travelers and towns folk. } {NotYetSet} {} {Inside} {} {1.000}
-E { 1208} {w} {open door;w} {8} {0} {}
+R { 1209} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1208} {w} {w} {8} {0} {}
 
-R { 1210} {0} {<fff>} {A Dark Path} { } {While you walk along, you notice a slight change in the air around you. After a few moments of consideration, you realize what it is... the forest is slowly starting to have a few sounds of life again. It's not as much as you would expect, but compared to the silence just to the east, it's a welcome change. A breeze from the southwest blows the slight aroma of wood smoke to you. } {NotYetSet} {} {Forest} {} {1.000}
+R { 1210} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1174} {e} {e} {2} {0} {}
 E { 1211} {w} {w} {8} {0} {}
 
-R { 1211} {0} {<fff>} {Path's End} { } {The forest path comes to an end here, as it leads out of the forest and into a small meadow full of wildlife.  Just across the meadow, signs of a new town being constructed are evident. } {NotYetSet} {} {Forest} {} {1.000}
+R { 1211} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1210} {e} {e} {2} {0} {}
 E { 1212} {s} {s} {4} {0} {}
 
-R { 1212} {0} {<afa>} {Southern Meadow} { } {} {Brandor} {} {} {} {1.000}
+R { 1212} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1211} {n} {n} {1} {0} {}
 E { 1213} {s} {s} {4} {0} {}
 
-R { 1213} {0} {<afa>} {} { } {} {Brandor} {} {} {} {1.000}
+R { 1213} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1212} {n} {n} {1} {0} {}
-E { 1214} {w} {open gate;w} {8} {0} {}
+E { 1214} {w} {w} {8} {0} {}
 
-R { 1214} {0} {<afa>} {Inside the Gates of Brandor} { } {This is where construction for the outer gates of Brandor has begun.  Rough stone has been stacked here for easy access.  A light breeze from the west brings the smell of illness with it.  Also, to the west you can see a couple huddled shapes. } {Brandor} {} {City} {} {1.000}
-E { 1213} {e} {open gate;e} {2} {0} {}
+R { 1214} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1213} {e} {e} {2} {0} {}
 E { 1215} {w} {w} {8} {0} {}
 
-R { 1215} {0} {<afa>} {Street of Brandor} { } {This is Brandor Street, which is the main street of this small growing community.  People shuffle around you in a daze, looking like wretches from the slums of life.  At your approach, most of the people look up and disappear, but a few hardy souls manage to overcome their fear and stand their ground.  The street runs to the north and south.  And farther to the east you can see a building that looks to be a gathering place. } {Brandor} {} {City} {} {1.000}
+R { 1215} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1214} {e} {e} {2} {0} {}
-E { 2382} {n} {n} {1} {0} {}
-E { 2387} {s} {s} {4} {0} {}
-E { 2394} {w} {w} {8} {0} {}
 
 R { 1216} {0} {<afa>} {The Central Staircase} { } {A hallway leads off the staircase to the west.  From that direction you can hear the sounds of magical combat and feel an occasional blast of hot air.  The walls here are made of carved stone that have been mostly blackened by fire. The staircase continues upwards to the top, and downwards toward the base of the tower. } {Nevrast} {} {Inside} {} {1.000}
 E {  425} {d} {d} {32} {0} {}
@@ -7007,7 +7002,6 @@ R { 1699} {0} {<afa>} {The Great Eastern Desert} { } {A vast desert stretches fo
 E { 1688} {n} {n} {1} {0} {}
 E { 1698} {e} {e} {2} {0} {}
 E { 1700} {s} {s} {4} {0} {}
-E { 1711} {w} {w} {8} {0} {}
 
 R { 1700} {0} {<afa>} {The Great Eastern Desert} { } {A vast desert stretches for miles, the sands constantly shifting around you. Endless pristine dunes lay before you, the fine sand reflecting off the suns oppressive rays.  Heat shimmers stretch across the horizon, the hot air starting to play tricks on your eyes.  The smoky images hinting at features in the landscape that never materialize.    Jutting out of the desolate landscape to the north west is a large pyramid, piercing the clear blue sky.  Sand dunes stretch across the northern, eastern, and southern horizons. } {The Great Eastern Desert} {} {Desert} {} {1.000}
 E { 1699} {n} {n} {1} {0} {}
@@ -7019,7 +7013,7 @@ R { 1701} {0} {<afa>} {The Great Eastern Desert} { } {A vast desert stretches fo
 E { 1700} {w} {w} {8} {0} {}
 E { 1698} {n} {n} {1} {0} {}
 
-R { 1702} {0} {<afa>} {} { } {} {The Great Eastern Desert} {} {} {} {1.000}
+R { 1702} {0} {<afa>} {The Great Eastern Desert} { } {A vast desert stretches for miles, the sands constantly shifting around you. Endless pristine dunes lay before you, the fine sand reflecting off the suns oppressive rays.  Heat shimmers stretch across the horizon, the hot air starting to play tricks on your eyes.  The smoky images hinting at features in the landscape that never materialize.    Jutting out of the desolate landscape to the south and east is a large pyramid piercing the clear blue sky.  Sand dunes stretch across the horizon in all directions. } {The Great Eastern Desert} {} {Desert} {} {1.000}
 E { 1689} {e} {e} {2} {0} {}
 E { 1703} {n} {n} {1} {0} {}
 E { 1710} {w} {w} {8} {0} {}
@@ -7063,10 +7057,9 @@ E { 1716} {w} {w} {8} {0} {}
 
 R { 1711} {0} {<afa>} {West Face of a Giant Pyramid} {P} {A vast desert stretches for miles, the sands constantly shifting around you. You are standing on the west side a gigantic pyramid that rises over a 100 meters above the ground.  To your left hangs a rope which leads straight up to the massive structure.  From here you can sense the great evil which resides within. } {The Great Eastern Desert} {Pyramid} {Desert} {} {1.000}
 E { 1689} {n} {n} {1} {0} {}
+E { 1699} {e} {e} {2} {0} {}
 E { 1712} {w} {w} {8} {0} {}
 E { 1714} {s} {s} {4} {0} {}
-E { 2413} {u} {u} {16} {0} {}
-E { 1699} {e} {e} {2} {0} {}
 
 R { 1712} {0} {<afa>} {The Great Eastern Desert} { } {A vast desert stretches for miles, the sands constantly shifting around you. Endless pristine dunes lay before you, the fine sand reflecting off the suns oppressive rays.  Heat shimmers stretch across the horizon, the hot air starting to play tricks on your eyes.  The smoky images hinting at features in the landscape that never materialize.    Jutting out of the desolate landscape to the east is a large pyramid, piercing the clear blue sky.  Sand dunes stretch across the horizon in all directions. } {The Great Eastern Desert} {} {Desert} {} {1.000}
 E { 1702} {n} {n} {1} {0} {}
@@ -7127,12 +7120,12 @@ E { 1713} {n} {n} {1} {0} {}
 E { 1720} {w} {w} {8} {0} {}
 E { 1723} {e} {e} {2} {0} {}
 
-R { 1723} {0} {<afa>} {The Great Eastern Desert} { } {A vast desert stretches for miles, the sands constantly shifting around you. Endless pristine dunes lay before you, the fine sand reflecting off the suns oppressive rays.  Heat shimmers stretch across the horizon, the hot air starting to play tricks on your eyes.  The smoky images hinting at features in the landscape that never materialize.    Jutting out of the desolate landscape to the north is a large pyramid, piercing the clear blue sky.  Sand dunes stretch across the northern, eastern, and western horizons. } {The Great Pyramid} {} {Desert} {} {1.000}
+R { 1723} {0} {<afa>} {The Great Eastern Desert} { } {A vast desert stretches for miles, the sands constantly shifting around you. Endless pristine dunes lay before you, the fine sand reflecting off the suns oppressive rays.  Heat shimmers stretch across the horizon, the hot air starting to play tricks on your eyes.  The smoky images hinting at features in the landscape that never materialize.    Jutting out of the desolate landscape to the north is a large pyramid, piercing the clear blue sky.  Sand dunes stretch across the northern, eastern, and western horizons. } {The Great Eastern Desert} {} {Desert} {} {1.000}
 E { 1722} {w} {w} {8} {0} {}
 E { 1714} {n} {n} {1} {0} {}
 E { 1724} {e} {e} {2} {0} {}
 
-R { 1724} {0} {<afa>} {The Great Eastern Desert} { } {A vast desert stretches for miles, the sands constantly shifting around you. Endless pristine dunes lay before you, the fine sand reflecting off the suns oppressive rays.  Heat shimmers stretch across the horizon, the hot air starting to play tricks on your eyes.  The smoky images hinting at features in the landscape that never materialize.    Jutting out of the desolate landscape to the north west is a large pyramid, piercing the clear blue sky.  Sand dunes stretch across the northern and western horizons. } {The Great Pyramid} {} {Desert} {} {1.000}
+R { 1724} {0} {<afa>} {The Great Eastern Desert} { } {A vast desert stretches for miles, the sands constantly shifting around you. Endless pristine dunes lay before you, the fine sand reflecting off the suns oppressive rays.  Heat shimmers stretch across the horizon, the hot air starting to play tricks on your eyes.  The smoky images hinting at features in the landscape that never materialize.    Jutting out of the desolate landscape to the north west is a large pyramid, piercing the clear blue sky.  Sand dunes stretch across the northern and western horizons. } {The Great Eastern Desert} {} {Desert} {} {1.000}
 E { 1723} {w} {w} {8} {0} {}
 E { 1700} {n} {n} {1} {0} {}
 E { 1725} {s} {s} {4} {0} {}
@@ -7156,7 +7149,7 @@ E { 1727} {e} {e} {2} {0} {}
 E { 1720} {n} {n} {1} {0} {}
 E { 1729} {w} {w} {8} {0} {}
 
-R { 1729} {0} {<afa>} {The Great Eastern Desert} { } {A vast desert stretches for miles, the sands constantly shifting around you. Endless pristine dunes lay before you, the fine sand reflecting off the suns oppressive rays.  Heat shimmers stretch across the horizon, the hot air starting to play tricks on your eyes.  The smoky images hinting at features in the landscape that never materialize.    Jutting out of the desolate landscape far to the north-east is the tip of a pyramid, interrupting the view of the clear blue sky.  Sand dunes stretch across the northern and eastern horizons, to the west the dilapidated gates of a ruined city hang open. } {Thalos} {} {Desert} {} {1.000}
+R { 1729} {0} {<afa>} {The Great Eastern Desert} { } {A vast desert stretches for miles, the sands constantly shifting around you. Endless pristine dunes lay before you, the fine sand reflecting off the suns oppressive rays.  Heat shimmers stretch across the horizon, the hot air starting to play tricks on your eyes.  The smoky images hinting at features in the landscape that never materialize.    Jutting out of the desolate landscape far to the north-east is the tip of a pyramid, interrupting the view of the clear blue sky.  Sand dunes stretch across the northern and eastern horizons, to the west the dilapidated gates of a ruined city hang open. } {The Great Eastern Desert} {} {Desert} {} {1.000}
 E { 1728} {e} {e} {2} {0} {}
 E { 1730} {w} {w} {8} {0} {}
 
@@ -7166,7 +7159,26 @@ E { 1731} {w} {w} {8} {0} {}
 
 R { 1731} {0} {<afa>} {Main Street} { } {This was once a magnificent street, but now is in total ruin.  The streets are barren and windswept and the destruction is unending.  To the south you see a ruined cottage while north leads into a dark back alley.  Howls and screams echo through the city streets. } {Thalos} {} {Desert} {} {1.000}
 E { 1730} {e} {e} {2} {0} {}
-E { 2506} {w} {w} {8} {0} {}
+E { 1732} {s} {s} {4} {0} {}
+E { 1733} {n} {n} {1} {0} {}
+
+R { 1732} {0} {<afa>} {A Small Guard House} { } {This was once the barracks for Thalos' city guards.  Now just an empty shell, this small shack still stands guarding the entrance both to the city and to the city hall. } {Thalos} {} {Inside} {} {1.000}
+E { 1731} {n} {n} {1} {0} {}
+
+R { 1733} {0} {<afa>} {A Back Alley} { } {A narrow back alley goes south to the main street and north towards a watchtower.  A mass of howls from all around you sends your heart pounding. } {Thalos} {} {Desert} {} {1.000}
+E { 1731} {s} {s} {4} {0} {}
+E { 1734} {n} {n} {1} {0} {}
+
+R { 1734} {0} {<afa>} {A Back Alley} { } {A narrow back alley leads north to one of the city watchtowers and south towards main street.  To the west is a doorway to a small house blocked by debris. } {Thalos} {} {Desert} {} {1.000}
+E { 1733} {s} {s} {4} {0} {}
+E { 1735} {w} {w} {8} {0} {}
+
+R { 1735} {0} {<afa>} {A Small Shack} { } {This cramped dwelling could not have housed more than one person.  Now with the back wall missing, it could hold many more.  Looking around you find broken shelves and workbenches with various vials and pouches spilling contents all across the floor.  This was possibly the magic shop of Old Thalos. } {Thalos} {} {Inside} {} {1.000}
+E { 1734} {e} {e} {2} {0} {}
+E { 1736} {w} {w} {8} {0} {}
+
+R { 1736} {0} {<aaf>} {#MAP JUMP: JUMPED TO ROOM 1736 {A Tall Dwelling}.} { } {} {Ishtar River} {} {} {} {1.000}
+E { 1735} {e} {e} {2} {0} {}
 
 R { 1737} {0} {<afa>} {The Great Eastern Desert} { } {A vast desert stretches for miles, the sands constantly shifting around you. The wind has uncovered what could be an old trail here under the sand.  The stone surface must have been covered by the sands for ages.  It leads to the east through the desert. } {The Great Eastern Desert} {} {Desert} {} {1.000}
 E { 1727} {n} {n} {1} {0} {}
@@ -7201,9 +7213,6 @@ E { 1744} {e} {e} {2} {0} {}
 
 R { 1744} {0} {<fff>} {Wide Trail} { } {You are on a wide trail that in times long ago was obviously a well used road.  The desert to the north and south is lighter than to the west, with the sandy dunes being replaced by shrubs and cacti.  The desert stretching to the east also shows signs of rainfall - off in the distance you think you see the arid landscape yield to grasslands. } {NotYetSet} {} {Desert} {} {1.000}
 E { 1743} {w} {w} {8} {0} {}
-E { 2467} {n} {n} {1} {0} {}
-E { 2469} {e} {e} {2} {0} {}
-E { 2470} {s} {s} {4} {0} {}
 
 R { 1745} {0} {<afa>} {A Small Cavern} {Drg} {The tunnel finally opens up into a dark cave, the sickly scent of guano filling the air.  Humidity from the countless shrieking bats that hang from the ceiling heat up the cavern.  A narrow crack is in the east wall.  The tunnel to the north starts to slope slightly upward. } {The Great Eastern Desert} {Brass Dragon} {Underground} {} {1.000}
 E { 1697} {e} {e} {2} {0} {}
@@ -7514,18 +7523,18 @@ E { 1836} {w} {w} {8} {0} {}
 
 R { 1816} {0} {<fff>} {A Confluence of Rivers} {~} {The Brandywine joins the Dark River at this point to form the Rilghorn, and the two froth as the waters mingle.  The Brandywine is a cleaner, chilly flow. The Dark, heated as it is by volcanic residue, is quite warm.  Together the result is pleasant and comfortable. } {NotYetSet} {} {River} {} {1.000}
 E { 1832} {e} {e} {2} {0} {}
-E { 1817} {n} {n} {1} {0} {}
+E { 1837} {n} {n} {1} {0} {}
 
 R { 1817} {0} {<fff>} {} {~} {} {NotYetSet} {} {} {} {1.000}
-E { 1816} {s} {s} {4} {0} {}
+E { 1837} {s} {s} {4} {0} {}
 E { 1818} {n} {n} {1} {0} {}
 
 R { 1818} {0} {<fff>} {Brandywine River South of Sarn Ford} {~} {The Brandywine River, called Sarn Ford, and flows onward to its outflow in the Dark River.  Cold waters from the distant north are only slightly warmed by a temperate climate.  The view from the river, out beyond the banks, is of a bleak wilderness: what once was the prosperous kingdom of Arnor, founded by the mighty Numenoreans, is now given over to innumerable plants, and animals of the nonspeaking kind. } {NotYetSet} {} {River} {} {1.000}
 E { 1817} {s} {s} {4} {0} {}
-E { 1819} {n} {n} {1} {0} {}
+E { 1838} {n} {n} {1} {0} {}
 
 R { 1819} {0} {<fff>} {Brandywine River at Sarn Ford} {~} {The western extension to the Great North-South Road crosses the river at a ford, which was once carefully maintained but which has now fallen into disuse. The waters of the Brandywine River have been channeled to run through narrow gaps in the raised stones which allow carts to cross the river with little difficulty.  It would be necessary for you to portage any boat across the ford, except for the poor state of repair, which has caused wide breaks in the cart- path to open up, and the river's flow to move across in places without impediment. } {NotYetSet} {} {River} {} {1.000}
-E { 1818} {s} {s} {4} {0} {}
+E { 1838} {s} {s} {4} {0} {}
 E { 1057} {u} {u} {16} {0} {}
 E { 1839} {n} {n} {1} {0} {}
 
@@ -7598,19 +7607,19 @@ E { 1835} {w} {w} {8} {0} {}
 E { 1815} {e} {e} {2} {0} {}
 
 R { 1837} {8} {} {} { } {} {} {} {} {} {1.000}
-E { 1839} {s} {s} {4} {0} {}
-E { 1838} {n} {n} {1} {0} {}
+E { 1817} {n} {n} {1} {0} {}
+E { 1816} {s} {s} {4} {0} {}
 
 R { 1838} {8} {} {} { } {} {} {} {} {} {1.000}
-E { 1837} {s} {s} {4} {0} {}
-E { 1840} {n} {n} {1} {0} {}
+E { 1819} {n} {n} {1} {0} {}
+E { 1818} {s} {s} {4} {0} {}
 
 R { 1839} {0} {<fff>} {Brandywine River South of the Shire} {~} {Rough grasses extend along the banks of the river, and only modest foliage breaks up your view to the east or west.  The Brandywine River flows through a deserted land here, along a barely discernible river valley.  Even the main channel is quite shallow, and the broad course of the river is broken up by occasional rocky bars in mid-stream.  Upstream, the river flows from a forest. Downstream to the south, the pale blue waters turn white, at what is either a rapids or a ford. } {NotYetSet} {} {River} {} {1.000}
 E { 1819} {s} {s} {4} {0} {}
-E { 1837} {n} {n} {1} {0} {}
+E { 1840} {n} {n} {1} {0} {}
 
 R { 1840} {0} {<fff>} {Brandywine River South of Old Forest} {~} {Towering, ominous trees lean over the river from the left, or north bank of Baranduin --- the Brandywine River in Westron.  These trees are the masters of the Old Forest, and only the wide barrier of the river holds them in place. The right bank is more inviting, with bare hilltops and forested valleys extending to the horizon.  There is no sign of settlement anywhere about.  The river flows from the west, and turns gently to the south, where it leaves behind the embrace of the Old Forest. } {NotYetSet} {} {River} {} {1.000}
-E { 1838} {s} {s} {4} {0} {}
+E { 1839} {s} {s} {4} {0} {}
 E { 1841} {w} {w} {8} {0} {}
 
 R { 1841} {0} {<fff>} {Withywindle Joins Brandywine} {~} {The Brandywine turns at this point.  The direction upstream is north, while downstream the river takes you to the east.  At the bend, a small tributary flows into Brandywine from the north-east: this is Withywindle, which drains the Old Forest.  The left bank of Brandywine --- and the banks of Withywindle as far upstream as you can see --- are heavily wooded.  Along the right bank, } {NotYetSet} {} {River} {} {1.000}
@@ -9911,584 +9920,3 @@ E { 2372} {s} {s} {4} {0} {}
 R { 2374} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 2372} {e} {e} {2} {0} {}
 E { 2371} {w} {w} {8} {0} {}
-
-R { 2375} {0} {<fff>} {A Sad Sight} { } {This is a living room that could only be found in the mind of a mad man. Hideous scenes of carnage are shown in all corners of the room, either as sculptures, or as paintings. A small brazier starts to smoke as you look around, causing the room to smell like charred flesh. } {NotYetSet} {} {Inside} {} {1.000}
-E { 1184} {w} {w} {8} {0} {}
-E { 2376} {s} {s} {4} {0} {}
-E { 2377} {e} {e} {2} {0} {}
-E { 2379} {n} {n} {1} {0} {}
-
-R { 2376} {0} {<fff>} {A Small Library} { } {Bookshelves filled to overflowing line the walls of this room. A large desk has three such books on its surface, with a large red one open to a marked page. } {NotYetSet} {} {Inside} {} {1.000}
-E { 2375} {n} {n} {1} {0} {}
-
-R { 2377} {0} {<fff>} {Short Hallway} { } {This room is the most sane of any that you have seen in the house. There isn't any hint of madness around you. In fact, the only things that you can } {NotYetSet} {} {Inside} {} {1.000}
-E { 2375} {w} {w} {8} {0} {}
-E { 2378} {u} {u} {16} {0} {}
-
-R { 2378} {0} {<fff>} {A Dark Bedroom} { } {You have climbed up into a dark and dreary bedroom.  Shadows obscure your sight making it almost impossible to see without a light source.  The bed is covered in dusty, black sheets with no other furnishings, the windows have been boarded up drowning out nearly all light, save the little that creeps through the cracks; dimly illuminating only the window seal itself. } {NotYetSet} {} {Inside} {} {1.000}
-E { 2377} {d} {d} {32} {0} {}
-
-R { 2379} {0} {<fff>} {A Small Cubby} { } {This is a small cubby, where all manner of knick-knacks are stored.  From shrunken heads, to old knuckle bones, it's all here.  Only one thing unusual grabs your attention about this room - instead of all the disgusting gore that's seen everywhere else in the house, there is pure clean wood paneling. } {NotYetSet} {} {Inside} {} {1.000}
-E { 2375} {s} {s} {4} {0} {}
-E { 2380} {e} {e} {2} {0} {}
-
-R { 2380} {0} {<fff>} {Spell Casting Chambers} { } {You have found someone's secret spell casting chambers.  Tomes of ungleanable knowledge are strewn about on a great stone slab that has had glyphs of power chiseled into its surface.  A small pentagram has been drawn on the floor in the middle of the room, and looks to be well used from the scorch marks on the floor.  Three black candles stand on a small altar next to the door. } {NotYetSet} {} {Inside} {} {1.000}
-E { 2379} {w} {w} {8} {0} {}
-
-R { 2381} {0} {<fff>} {A Tortuous Device} { } {There is a nasty looking torture device in this room with blood stains all over it.  It appears that in one instance, the machine is meant to rip out your tongue, while applying barbed pins to the left eye, and simultaneously crushing all of the bones in the right hand.  Your heart goes out to any creature that would happen to be in it. } {NotYetSet} {} {Inside} {} {1.000}
-E { 1197} {w} {w} {8} {0} {}
-
-R { 2382} {0} {<afa>} {Brandor Street} { } {As you step north of the front gate to Brandor, the people start to become a mite bit more friendly.  Even though there still aren't many of them.  The few that you do see nod in acknowledgment to you, as if they know what you are doing, and that you are going to do it for the betterment of all the town. Even though you have absolutely no idea what that could be. } {Brandor} {} {City} {} {1.000}
-E { 1215} {s} {s} {4} {0} {}
-E { 2383} {n} {n} {1} {0} {}
-
-R { 2383} {0} {<afa>} {Ash Street} { } {This is the junction of Brandor Street and Ash Street.  This is where people are the busiest you have seen them in this town.  People push past you going in both directions, but more people seem to be heading south then there are coming back... } {Brandor} {} {City} {} {1.000}
-E { 2382} {s} {s} {4} {0} {}
-E { 2384} {w} {w} {8} {0} {}
-
-R { 2384} {0} {<afa>} {Ash Street} { } {You stand before a smart looking building that has a large sign on the front of it.  As you go to look at it, someone pushes their way past you heading to the west...  HEY!  Didn't you already see that guy going in that direction? You can't seem to remember them coming back from that way either.   } {Brandor} {} {City} {} {1.000}
-E { 2383} {e} {e} {2} {0} {}
-E { 2385} {s} {s} {4} {0} {}
-E { 2386} {w} {w} {8} {0} {}
-
-R { 2385} {0} {<afa>} {Department of Corrections} { } {All around you is the bustle of a busy corrections office.  People are being taken to waiting rooms, to think on their actions before they are taken to court.  You hear one young man saying, "It wasn't mine sir.  Honest.  I don't know where it came from...." as he's whisked into an office for discussion.  In the commotion a receptionist looks up at you, bats her eyes and says, "Yes? Are you here for one of our clients?  Or are you here to report on a missing suspect?" } {Brandor} {} {City} {} {1.000}
-E { 2384} {n} {n} {1} {0} {}
-
-R { 2386} {0} {<afa>} {A Small Intersection} { } {This is a small intersection in Ash Street.  To the west you can see the end of Ash, and to the south is the entrance to a small building.  To your astonishment, more people seem to be going into the building then are coming out.  As you ponder this circumstance, a cloud blots out the sun for a few seconds, echoing the turmoil of your thoughts. } {Brandor} {} {City} {} {1.000}
-E { 2384} {e} {e} {2} {0} {}
-E { 2396} {s} {s} {4} {0} {}
-
-R { 2387} {0} {<afa>} {Brandor Street} { } {Things are slowly becoming more quite as you leave the bustle in front of the gate.  Shadows dominate the area, from which anything could be hiding. Farther to the south the darkness of shadow becomes thicker as you look deeper into the slums of the town. } {Brandor} {} {City} {} {1.000}
-E { 1215} {n} {n} {1} {0} {}
-E { 2388} {s} {s} {4} {0} {}
-
-R { 2388} {0} {<afa>} {Shadow Avenue} { } {This is where Brandor Street becomes Shadow Avenue.  And from what you can see, Shadow sure lives up to it's name.  All of the seedy behind the scenes activities occur here.  All the way down the street you can see underhanded dealings going on.  You put one hand to your purse and the other to your sword. } {Brandor} {} {City} {} {1.000}
-E { 2387} {n} {n} {1} {0} {}
-E { 2389} {w} {w} {8} {0} {}
-
-R { 2389} {0} {<afa>} {Shadow Avenue} { } {As you progress along Shadow Avenue, you can feel more sets of eyes fall upon you in a malign manner.  Everyone you see appears to look at you as a victim ripe for the picking.    A small run-down building stands to the north.  It appears to have once been a nice middle-class home, but now the windows are boarded over in an attempt to ward all away. } {Brandor} {} {City} {} {1.000}
-E { 2388} {e} {e} {2} {0} {}
-E { 2390} {n} {n} {1} {0} {}
-E { 2391} {w} {w} {8} {0} {}
-
-R { 2390} {0} {<afa>} {A Small Home} { } {As you barge in through the front door, you notice that although the outside has fallen to ruin, the inside is still in good repair.  Obviously whoever lives here is making more money then they want anyone else to discover.  Lying in the shadows here is a slight whimpering shadow in great distress. } {Brandor} {} {Inside} {} {1.000}
-E { 2389} {s} {s} {4} {0} {}
-
-R { 2391} {0} {<afa>} {Shadow Avenue} { } {Most of the people have moved to the shadows now, as they try to remain inconspicuous.  The feeling of being watched has intensified, and has also been joined by the slight tang of fear. } {Brandor} {} {City} {} {1.000}
-E { 2389} {e} {e} {2} {0} {}
-E { 2392} {w} {w} {8} {0} {}
-
-R { 2392} {0} {<afa>} {} { } {} {Brandor} {} {} {} {1.000}
-E { 2391} {e} {e} {2} {0} {}
-E { 2393} {n} {n} {1} {0} {}
-
-R { 2393} {0} {<afa>} {Who Knows What Darkness Hides?} { } {The light in here is low as it could possibly be without it being dark.  As your eyes adjust, you hear the sounds of deep breathing all around you.  The sound of something scraping against the floor just a few feet away from you makes you step back in terror waiting for the last blow to fall.  } {Brandor} {item: Shadowy Cloak} {Inside} {} {1.000}
-E { 2392} {s} {s} {4} {0} {}
-
-R { 2394} {0} {<afa>} {A Cul-de-Sac} { } {This small cul-de-sac is set behind three buildings.  The ones to the north and south must have entrances elsewhere, as you can't see any entrance to either.  The building to the west though appears to be a small tavern with a sign over the door.  Shadows all around you contain movement and set your nerves on edge as you hurry along. } {Brandor} {} {City} {} {1.000}
-E { 1215} {e} {e} {2} {0} {}
-E { 2395} {w} {w} {8} {0} {}
-
-R { 2395} {0} {<afa>} {} { } {} {Brandor} {} {} {} {1.000}
-E { 2394} {e} {e} {2} {0} {}
-
-R { 2396} {0} {<afa>} {} { } {} {Brandor} {} {} {} {1.000}
-E { 2386} {n} {n} {1} {0} {}
-E { 2397} {w} {w} {8} {0} {}
-
-R { 2397} {0} {<afa>} {A Tight Fit} {Tel} {As you fit into the tightly cramped space of the building, the thought enters your mind that maybe it isn't the magic teleporter that has been getting rid of the poor souls.  Maybe they've been dying in here from asphyxiation. Suddenly the magic sweeps over you and you are elsewhere... } {Brandor} {} {Inside} {} {1.000}
-E { 2396} {e} {e} {2} {0} {}
-E { 2398} {w} {w} {8} {0} {}
-
-R { 2398} {2} {<afa>} {} { } {} {Brandor} {} {} {} {1.000}
-E { 2399} {s} {s} {4} {0} {}
-
-R { 2399} {0} {<afa>} {A Short Walk} { } {This is a short walkway that leads to a door surrounded by a guard post to the south.  As you approach, you sense an air of urgency and tension begin to build in the air around you. } {Brandor} {} {Inside} {} {1.000}
-E { 2398} {n} {n} {1} {0} {}
-E { 2400} {s} {s} {4} {0} {}
-
-R { 2400} {0} {<afa>} {Before the Lions Den} { } {This is the guard post that stands before the entrance to the Lords of Brandor.  If you have any problems, it is said that all you have to do is ask for admittance and the Lords will see you.  If what the old man said is true, you have a lot to discuss with the Lords currently. } {Brandor} {} {Inside} {} {1.000}
-E { 2399} {n} {n} {1} {0} {}
-E { 2401} {w} {w} {8} {0} {}
-
-R { 2401} {0} {<afa>} {A Dark Hallway} { } {This is a dark and sinister tunnel.  All the way down it there are doors of that lead off to various chambers.  In fact, the doors start here, with a simple wooden door to the north. } {Brandor} {} {Inside} {} {1.000}
-E { 2400} {e} {e} {2} {0} {}
-E { 2402} {n} {open door;n} {1} {0} {}
-E { 2403} {w} {w} {8} {0} {}
-
-R { 2402} {0} {<afa>} {Councillor's Chambers} { } {This is the well-furnished chamber of the fourth councillor.  A desk with unattended papers on it stands next to the west wall.  Against the east wall a couch stands that has obviously seen some frequent use.  A lone, high-backed chair stands before you rocking. } {Brandor} {} {Inside} {} {1.000}
-E { 2401} {s} {open door;s} {4} {0} {}
-
-R { 2403} {0} {<afa>} {A Dark Hallway} { } {The hallway seems to echo with sound as you try to pad along as silently as you can.  After about ten yards of travel, you come upon two doors.  A black door lies to the north and a red door to the south. } {Brandor} {} {Inside} {} {1.000}
-E { 2401} {e} {e} {2} {0} {}
-E { 2404} {n} {open door north;n} {1} {0} {}
-E { 2405} {s} {open door south;s} {4} {0} {}
-E { 2406} {w} {w} {8} {0} {}
-
-R { 2404} {0} {<afa>} {Chamber's of the Secondary Council} { } {The chambers here aren't what you would expect from a working man.  A large table is in the middle of the room, with food strewn all over the top of it.  A small bar lines the three walls, with just about any drink you could wish at your back and call. } {Brandor} {} {Inside} {} {1.000}
-E { 2403} {s} {open door;s} {4} {0} {}
-
-R { 2405} {0} {<afa>} {Chambers of Pain and Strife} { } {This is the chambers of the third councillor, more commonly known as the binder.  It's his job to gain all secrets that might be going around against the town council.  From the look of the tools that are lying around, you can see how such a job could possibly be maintained.  While you look around the room for any sign of the counselor, you here a whisper of noise from the shadows. } {Brandor} {} {Inside} {} {1.000}
-E { 2403} {n} {open door;n} {1} {0} {}
-
-R { 2406} {0} {<afa>} {End of the Hall} { } {This is the end of the hallway.  A white oak door is to the north, a door of unknown material lies to the south, and a red steel door is being guarded to the west.  As you look at the three doors, a shudder runs through your body as you realize that these must be the last three of the rulers of the town council.  You grip your weapons in anticipation of what is to come. } {Brandor} {} {Inside} {} {1.000}
-E { 2403} {e} {e} {2} {0} {}
-E { 2407} {n} {open white;n} {1} {0} {}
-E { 2408} {w} {open red;w} {8} {0} {}
-E { 2409} {s} {open door south;s} {4} {0} {}
-
-R { 2407} {0} {<afa>} {Head of the Ruling Council} { } {These are the spotless chambers of the first councilman.  Nothing is out of place, and not a speck of dust mars the perfectness of the room.  A small window looks out upon the world and the goings on of the town.  While a small bookcase stands next to it filled with the files of current town business.  A small file with your name on it lies open on the desk. } {Brandor} {} {Inside} {} {1.000}
-E { 2406} {s} {open white;s} {4} {0} {}
-
-R { 2408} {0} {<afa>} {} { } {} {Brandor} {} {} {} {1.000}
-E { 2406} {e} {open red;e} {2} {0} {}
-E { 2410} {w} {w} {8} {0} {}
-
-R { 2409} {0} {<afa>} {} { } {} {Brandor} {} {} {} {1.000}
-E { 2406} {n} {open unknown;n} {1} {0} {}
-
-R { 2410} {0} {<afa>} {#MAP GOTO: MOVED TO ROOM 2410 {A Back Room}.} { } {} {Brandor} {} {} {} {1.000}
-E { 2408} {e} {e} {2} {0} {}
-E { 2411} {s} {s} {4} {0} {}
-
-R { 2411} {0} {<afa>} {} { } {} {Brandor} {} {} {} {1.000}
-E { 2412} {s} {s} {4} {0} {}
-
-R { 2412} {0} {<afa>} {Darkness} { } {Even with your magic and light source, you can't see through the gloom that is before you.  All that you can make out is a faint sheen against the east wall that looks like you could almost pass through it... } {Brandor} {} {Inside} {} {1.000}
-E { 2392} {e} {e} {2} {0} {}
-
-R { 2413} {0} {<afa>} {Rope up the Side of the Pyramid} { } {The evil oozing from the pyramid grows stronger and stronger as you ascend the suspect looking rope that dangles from above.  The view is amazing, white sand marching out in all directions consumed by the blue sky on the horizon. To the north you can see New Thalos, to the south-west you can see the ruins of an old city, a castle can be seen to the east, and a fortress off to the south. } {The Great Pyramid} {} {Desert} {} {1.000}
-E { 1711} {d} {d} {32} {0} {}
-E { 2414} {u} {u} {16} {0} {}
-
-R { 2414} {2} {<afa>} {Up the Side of the Pyramid} { } {You have a good view from up here, hope you aren't afraid of heights.  The rope continues up disappearing over a ledge.  Looking over your shoulder you see the vast expanses of the desert stretching off to the horizon.  Evil permeates the stones of the Pyramid.  The rope continues up and trails off below. } {The Great Pyramid} {} {Desert} {} {1.000}
-E { 2413} {d} {d} {32} {0} {}
-E { 2415} {u} {u} {16} {0} {}
-
-R { 2415} {0} {<afa>} {} { } {} {The Great Pyramid} {} {} {} {1.000}
-E { 2414} {d} {d} {32} {0} {}
-E { 2416} {s} {s} {4} {0} {}
-E { 2421} {e} {e} {2} {0} {}
-E { 2422} {n} {n} {1} {0} {}
-
-R { 2416} {0} {<afa>} {Southwest Corner of the Pyramid} { } {Far to the south one can see a large smoldering fortress and white tipped mountians.  To the west the ruins of Old Thalos peak above the dunes that are slowly covering them.  Far off to the southwest the tips of the Ered Lithui soar into the sky. } {The Great Pyramid} {} {Desert} {} {1.000}
-E { 2415} {n} {n} {1} {0} {}
-E { 2420} {e} {e} {2} {0} {}
-
-R { 2417} {0} {<afa>} {Southeast Corner of the Pyramid} { } {Far to the south one can see a large smoldering fortress and white tipped mountians.  To the east lies the expansive Dragon Sea and a castle that oozes pain and sorrow.  While to the south west lie the ruins of Old Thalos. } {The Great Pyramid} {} {Desert} {} {1.000}
-E { 2420} {w} {w} {8} {0} {}
-E { 2419} {n} {n} {1} {0} {}
-
-R { 2418} {0} {<afa>} {Northeast Corner of the Pyramid} { } {Far to the north one can see New Thalos and the Dragon Sea.  To the east is a castle that oozes pain and sorrow.  While to the south west lie the ruins of Old Thalos.  Far to the south, you can barely make out a cloud of smoke on the horizon. } {The Great Pyramid} {} {Desert} {} {1.000}
-E { 2419} {s} {s} {4} {0} {}
-E { 2423} {w} {w} {8} {0} {}
-
-R { 2419} {8} {} {} { } {} {} {} {} {} {1.000}
-E { 2418} {n} {n} {1} {0} {}
-E { 2417} {s} {s} {4} {0} {}
-
-R { 2420} {8} {} {} { } {} {} {} {} {} {1.000}
-E { 2417} {e} {e} {2} {0} {}
-E { 2416} {w} {w} {8} {0} {}
-
-R { 2421} {0} {<afa>} {Altar of The Sun God Ra} { } {A colorful altar dominates the center of this shrine.  Paintings surround you paying homage to the great god Ra.  A huge statue of the once omnipotent Pharaoh Akinra looms over a dias behind the altar.  Hieroglyphic etchings cover the sandstone floor. } {The Great Pyramid} {} {Inside} {} {1.000}
-E { 2415} {w} {w} {8} {0} {}
-E { 2424} {d} {d} {32} {0} {}
-
-R { 2422} {0} {<afa>} {Northwest Corner of the Pyramid's Top} { } {Far to the north one can see New Thalos and the Dragon Sea.  To the east is a castle that oozes pain and sorrow.  While to the south west lie the ruins of Old Thalos.  Far to the south, you can barely make out a cloud of smoke on the horizon.    To the south lies a vandalized sphinx which grants entry into this mighty monument. } {The Great Pyramid} {} {Desert} {} {1.000}
-E { 2415} {s} {s} {4} {0} {}
-E { 2423} {e} {e} {2} {0} {}
-
-R { 2423} {8} {} {} { } {} {The Great Pyramid} {} {} {} {1.000}
-E { 2418} {e} {e} {2} {0} {}
-E { 2422} {w} {w} {8} {0} {}
-
-R { 2424} {0} {<afa>} {Tomb of King Akinra} { } {This is the tomb of the Great One.  A cold feeling of death intrudes upon your being.  Looking down the vaulted chamber you see a huge sarcophagus bearing the likeness of Akinra.  Statues of kneeling worshipers face his tomb. You notice the bones of some daring adventurers, less fortunate than you hope to be.  One still grasps an ink pen in his right hand.  Passages lead off in all directions. } {The Great Pyramid} {} {Inside} {} {1.000}
-E { 2421} {u} {u} {16} {0} {}
-E { 2425} {w} {w} {8} {0} {}
-E { 2427} {n} {n} {1} {0} {}
-E { 2428} {e} {e} {2} {0} {}
-E { 2429} {s} {s} {4} {0} {}
-
-R { 2425} {0} {<afa>} {Passage to Tomb} { } {This is a side room off of the main tomb chamber. } {The Great Pyramid} {} {Inside} {} {1.000}
-E { 2424} {e} {e} {2} {0} {}
-E { 2426} {d} {d} {32} {0} {}
-
-R { 2426} {0} {<afa>} {Corridor} { } {Murals of mosaic tiles line the walls depicting the empire of Akinra at the height of its power.    Depictions of massive armies, lush fields, exotic animals, and great works cover the walls of this corridor.  The murals claim that Akinras' empire once stretched from lands far to the east, the White Mountains in the south, the Forests of Rhowyn to the north, and to Kerrin's land in the west. } {The Great Pyramid} {} {Inside} {} {1.000}
-E { 2425} {u} {u} {16} {0} {}
-E { 2430} {e} {e} {2} {0} {}
-E { 2431} {w} {w} {8} {0} {}
-E { 2434} {s} {s} {4} {0} {}
-
-R { 2427} {0} {<afa>} {Preparation room} { } {This is one of the side rooms off of the tomb chamber.  A table stands here covered with the tools of mummification. } {The Great Pyramid} {} {Inside} {} {1.000}
-E { 2424} {s} {s} {4} {0} {}
-
-R { 2428} {0} {<afa>} {Treasure room} { } {Many of Akinra's most prized possessions lie here in ornately carved chests. } {The Great Pyramid} {} {Inside} {} {1.000}
-E { 2424} {w} {w} {8} {0} {}
-
-R { 2429} {0} {<afa>} {Deity Room} { } {This room is filled with religious artifacts...  candles, robes, incense, and small stone daggers (too small to be useful). } {The Great Pyramid} {} {Inside} {} {1.000}
-E { 2424} {n} {n} {1} {0} {}
-
-R { 2430} {0} {<afa>} {East Corridor} { } {Ancient hieroglyphics cover the walls of this corridor.  They stop at the edge of the rooms to the north and south.  The corridor continues to the west. } {The Great Pyramid} {} {Inside} {} {1.000}
-E { 2426} {w} {w} {8} {0} {}
-E { 2435} {n} {n} {1} {0} {}
-E { 2436} {s} {s} {4} {0} {}
-
-R { 2431} {0} {<afa>} {West Corridor} { } {Ancient hieroglyphics cover the walls of this corridor.  They stop at the edge of the rooms to the north and south.  The corridor continues to the east. } {The Great Pyramid} {} {Inside} {} {1.000}
-E { 2426} {e} {e} {2} {0} {}
-E { 2432} {n} {n} {1} {0} {}
-E { 2433} {s} {s} {4} {0} {}
-
-R { 2432} {0} {<afa>} {Guardian's Room} { } {This nondescript room contains no murals or adornments of any sorts. Standing a silent vigil on the northern wall is a large statue.  Its left arm and hand stretches forward as if offering something.  The corridor continues to the south. } {The Great Pyramid} {} {Inside} {} {1.000}
-E { 2431} {s} {s} {4} {0} {}
-
-R { 2433} {0} {<afa>} {Guardian's Room} { } {This nondescript room contains no murals or adornments of any sorts. Standing a silent vigil on the southern wall is what's left of a large statue. Its right arm and torso are oozing slowly to the floor, leaving small piles of clay.  The corridor continues to the north. } {The Great Pyramid} {} {Inside} {} {1.000}
-E { 2431} {n} {n} {1} {0} {}
-
-R { 2434} {0} {<afa>} {Cul-de-Sac} { } {The murals continue into this room, but tell a different story.  They show images of death and pain as demonic beings cruelly torture Thalosian heroes The passage way ends and along the floor you notice an iron door set into the ground.  The image of a horned devil adorns the handle. } {The Great Pyramid} {} {Inside} {} {1.000}
-E { 2426} {n} {n} {1} {0} {}
-E { 2437} {d} {unlock iron;open iron;d} {32} {0} {}
-
-R { 2435} {0} {<afa>} {Guardian's Room} { } {This room pales in comparison to the others.  The only noteworthy item here is a HUGE chair...  and the golem sitting in it. } {The Great Pyramid} {} {Inside} {} {1.000}
-E { 2430} {s} {s} {4} {0} {}
-
-R { 2436} {0} {<afa>} {Guardian's Room} { } {You have entered an ornately gilded throne room.  Sitting upon the giant throne is the mighty figure of Anubis, wearing a glowing key on a chain about his neck. } {The Great Pyramid} {} {Inside} {} {1.000}
-E { 2430} {n} {n} {1} {0} {}
-
-R { 2437} {0} {<afa>} {Maze} { } {You have entered the King's Labyrinth.  The same bare stone walls make up the four passages leading off from this chamber.  Each one stretches out into the darkness with no end in sight.  Set in the ceiling is an iron door with the image of a horned devil adorning its handle. Terrain: Inside. } {The Great Pyramid} {} {Inside.} {} {1.000}
-E { 2434} {u} {u} {16} {0} {}
-E { 2438} {w} {w} {8} {0} {}
-E { 2440} {n} {n} {1} {0} {}
-E { 2448} {s} {s} {4} {0} {}
-E { 2456} {e} {e} {2} {0} {}
-
-R { 2438} {0} {<afa>} {Maze} { } {Impenetrable darkness refuses to yield ground to your light source, as you stumble through the maze.  Each room looks the same, bare stone walls weighing down your shoulders as the soul sucking darkness continues to mock your pitiful attempts to see beyond it.    Finding the exit from this part of the maze proves difficult with the oppressive darkness and the seamless bare walls, everything looks and feels the same! Terrain: Inside. The corpse of a rust monster is lying here. The corpse of the nile crocodile is lying here. A pile of dust is here. } {The Great Pyramid} {} {Inside.} {} {1.000}
-E { 2437} {e} {e} {2} {0} {}
-E { 2439} {n} {n} {1} {0} {}
-E { 2447} {s} {s} {4} {0} {}
-
-R { 2439} {0} {<afa>} {Maze} { } {Impenetrable darkness refuses to yield ground to your light source, as you stumble through the maze.  Each room looks the same, bare stone walls weighing down your shoulders as the soul sucking darkness continues to mock your pitiful attempts to see beyond it.    Finding the exit from this part of the maze proves difficult with the oppressive darkness and the seamless bare walls, everything looks and feels the same! Terrain: Inside. } {The Great Pyramid} {} {Inside.} {} {1.000}
-E { 2438} {s} {s} {4} {0} {}
-E { 2440} {e} {e} {2} {0} {}
-E { 2441} {w} {w} {8} {0} {}
-E { 2445} {n} {n} {1} {0} {}
-
-R { 2440} {0} {<afa>} {Alas, you cannot go that way.} { } {} {The Great Pyramid} {} {} {} {1.000}
-E { 2437} {s} {s} {4} {0} {}
-E { 2439} {w} {w} {8} {0} {}
-E { 2458} {e} {e} {2} {0} {}
-
-R { 2441} {0} {<afa>} {Alas, you cannot go that way.} { } {} {The Great Pyramid} {} {} {} {1.000}
-E { 2439} {e} {e} {2} {0} {}
-E { 2442} {s} {s} {4} {0} {}
-
-R { 2442} {0} {<afa>} {Maze} { } {Impenetrable darkness refuses to yield ground to your light source, as you stumble through the maze.  Each room looks the same, bare stone walls weighing down your shoulders as the soul sucking darkness continues to mock your pitiful attempts to see beyond it.    Finding the exit from this part of the maze proves difficult with the oppressive darkness and the seamless bare walls, everything looks and feels the same! Terrain: Inside. } {The Great Pyramid} {} {Inside.} {} {1.000}
-E { 2441} {n} {n} {1} {0} {}
-E { 2443} {s} {s} {4} {0} {}
-
-R { 2443} {0} {<afa>} {Maze} { } {Impenetrable darkness refuses to yield ground to your light source, as you stumble through the maze.  Each room looks the same, bare stone walls weighing down your shoulders as the soul sucking darkness continues to mock your pitiful attempts to see beyond it.    Finding the exit from this part of the maze proves difficult with the oppressive darkness and the seamless bare walls, everything looks and feels the same! Terrain: Inside. } {The Great Pyramid} {} {Inside.} {} {1.000}
-E { 2442} {n} {n} {1} {0} {}
-E { 2444} {s} {s} {4} {0} {}
-
-R { 2444} {0} {<afa>} {Alas, you cannot go that way.} { } {} {The Great Pyramid} {} {} {} {1.000}
-E { 2443} {n} {n} {1} {0} {}
-
-R { 2445} {0} {<afa>} {Alas, you cannot go that way.} { } {} {The Great Pyramid} {} {} {} {1.000}
-E { 2439} {s} {s} {4} {0} {}
-E { 2446} {w} {w} {8} {0} {}
-
-R { 2446} {0} {<afa>} {Maze} { } {Impenetrable darkness refuses to yield ground to your light source, as you stumble through the maze.  Each room looks the same, bare stone walls weighing down your shoulders as the soul sucking darkness continues to mock your pitiful attempts to see beyond it.    Finding the exit from this part of the maze proves difficult with the oppressive darkness and the seamless bare walls, everything looks and feels the same! Terrain: Inside. } {The Great Pyramid} {} {Inside.} {} {1.000}
-E { 2445} {e} {e} {2} {0} {}
-E { 2446} {w} {w} {8} {0} {}
-
-R { 2447} {0} {<afa>} {Alas, you cannot go that way.} { } {} {The Great Pyramid} {} {} {} {1.000}
-E { 2438} {n} {n} {1} {0} {}
-
-R { 2448} {0} {<afa>} {} { } {} {The Great Pyramid} {} {} {} {1.000}
-E { 2437} {n} {n} {1} {0} {}
-E { 2449} {s} {s} {4} {0} {}
-
-R { 2449} {0} {<afa>} {Maze} { } {Impenetrable darkness refuses to yield ground to your light source, as you stumble through the maze.  Each room looks the same, bare stone walls weighing down your shoulders as the soul sucking darkness continues to mock your pitiful attempts to see beyond it.    Finding the exit from this part of the maze proves difficult with the oppressive darkness and the seamless bare walls, everything looks and feels the same! Terrain: Inside. The bones of a rabid rat lie in a pile here. } {The Great Pyramid} {} {Inside.} {} {1.000}
-E { 2448} {n} {n} {1} {0} {}
-E { 2450} {w} {w} {8} {0} {}
-E { 2451} {e} {e} {2} {0} {}
-
-R { 2450} {0} {<afa>} {Alas, you cannot go that way.} { } {} {The Great Pyramid} {} {} {} {1.000}
-E { 2449} {e} {e} {2} {0} {}
-
-R { 2451} {0} {<afa>} {Maze} { } {Impenetrable darkness refuses to yield ground to your light source, as you stumble through the maze.  Each room looks the same, bare stone walls weighing down your shoulders as the soul sucking darkness continues to mock your pitiful attempts to see beyond it.    Finding the exit from this part of the maze proves difficult with the oppressive darkness and the seamless bare walls, everything looks and feels the same! Terrain: Inside. The bones of a rabid rat lie in a pile here. } {The Great Pyramid} {} {Inside.} {} {1.000}
-E { 2449} {w} {w} {8} {0} {}
-E { 2452} {e} {e} {2} {0} {}
-
-R { 2452} {0} {<afa>} {} { } {} {The Great Pyramid} {} {} {} {1.000}
-E { 2451} {w} {w} {8} {0} {}
-E { 2453} {n} {n} {1} {0} {}
-
-R { 2453} {0} {<afa>} {} { } {} {The Great Pyramid} {} {} {} {1.000}
-E { 2452} {s} {s} {4} {0} {}
-E { 2454} {n} {n} {1} {0} {}
-
-R { 2454} {0} {<afa>} {Maze} { } {Impenetrable darkness refuses to yield ground to your light source, as you stumble through the maze.  Each room looks the same, bare stone walls weighing down your shoulders as the soul sucking darkness continues to mock your pitiful attempts to see beyond it.    Finding the exit from this part of the maze proves difficult with the oppressive darkness and the seamless bare walls, everything looks and feels the same! Terrain: Inside. } {The Great Pyramid} {} {Inside.} {} {1.000}
-E { 2453} {s} {s} {4} {0} {}
-E { 2455} {e} {e} {2} {0} {}
-E { 2461} {n} {n} {1} {0} {}
-
-R { 2455} {0} {<afa>} {Alas, you cannot go that way.} { } {} {The Great Pyramid} {} {} {} {1.000}
-E { 2454} {w} {w} {8} {0} {}
-E { 2459} {s} {s} {4} {0} {}
-
-R { 2456} {0} {<afa>} {Alas, you cannot go that way.} { } {} {The Great Pyramid} {} {} {} {1.000}
-E { 2437} {w} {w} {8} {0} {}
-E { 2457} {s} {s} {4} {0} {}
-
-R { 2457} {0} {<afa>} {Alas, you cannot go that way.} { } {} {The Great Pyramid} {} {} {} {1.000}
-E { 2456} {n} {n} {1} {0} {}
-
-R { 2458} {0} {<afa>} {Alas, you cannot go that way.} { } {} {The Great Pyramid} {} {} {} {1.000}
-E { 2440} {w} {w} {8} {0} {}
-
-R { 2459} {0} {<afa>} {Alas, you cannot go that way.} { } {} {The Great Pyramid} {} {} {} {1.000}
-E { 2455} {n} {n} {1} {0} {}
-E { 2460} {s} {s} {4} {0} {}
-
-R { 2460} {0} {<afa>} {Alas, you cannot go that way.} { } {} {The Great Pyramid} {} {} {} {1.000}
-E { 2459} {n} {n} {1} {0} {}
-
-R { 2461} {0} {<afa>} {Alas, you cannot go that way.} { } {} {The Great Pyramid} {} {} {} {1.000}
-E { 2454} {s} {s} {4} {0} {}
-E { 2462} {n} {n} {1} {0} {}
-
-R { 2462} {0} {<afa>} {Maze} { } {Impenetrable darkness refuses to yield ground to your light source, as you stumble through the maze.  Each room looks the same, bare stone walls weighing down your shoulders as the soul sucking darkness continues to mock your pitiful attempts to see beyond it.    Finding the exit from this part of the maze proves difficult with the oppressive darkness and the seamless bare walls, everything looks and feels the same! Terrain: Inside. } {The Great Pyramid} {} {Inside.} {} {1.000}
-E { 2461} {s} {s} {4} {0} {}
-E { 2463} {e} {e} {2} {0} {}
-E { 2464} {w} {w} {8} {0} {}
-
-R { 2463} {0} {<afa>} {Maze} { } {Impenetrable darkness refuses to yield ground to your light source, as you stumble through the maze.  Each room looks the same, bare stone walls weighing down your shoulders as the soul sucking darkness continues to mock your pitiful attempts to see beyond it.    Finding the exit from this part of the maze proves difficult with the oppressive darkness and the seamless bare walls, everything looks and feels the same! Terrain: Inside. } {The Great Pyramid} {} {Inside.} {} {1.000}
-E { 2462} {w} {w} {8} {0} {}
-E { 2466} {s} {s} {4} {0} {}
-
-R { 2464} {0} {<afa>} {Alas, you cannot go that way.} { } {} {The Great Pyramid} {} {} {} {1.000}
-E { 2462} {e} {e} {2} {0} {}
-E { 2465} {w} {w} {8} {0} {}
-
-R { 2465} {0} {<afa>} {Alas, you cannot go that way.} {KEY} {} {The Great Pyramid} {} {} {} {1.000}
-E { 2464} {e} {e} {2} {0} {}
-
-R { 2466} {0} {<afa>} {Alas, you cannot go that way.} {!!!} {} {The Great Pyramid} {} {} {} {1.000}
-E { 2463} {n} {n} {1} {0} {}
-
-R { 2467} {0} {<fff>} {The Light Desert} { } {This region shows signs of life, unlike the vast desert to the west.  There are brush and cacti dotting the landscape here, and further to the north the terrain becomes even more accommodating - you can see what looks like a huge grassland stretching out in that direction, which extends to the east as well. The light desert continues to the south, where off on the distance you see a large snow-capped mountain range. } {NotYetSet} {} {Desert} {} {1.000}
-E { 1744} {s} {s} {4} {0} {}
-E { 2468} {e} {e} {2} {0} {}
-
-R { 2468} {0} {<fff>} {Ancient Road} { } {Long ago, this road must have been a thoroughfare, as it is easily forty feet across.  The stones that form it are still visible through the grass that seems to have grown up through the cracks everywhere.  Even so, it is an impressive monument to the civilization that built it.  There is a light desert to the west, to the east is a grassland that extends to the horizon.  To the north and south the road extends to the limit of your vision, north through the grassland, south to a large mountain range. } {NotYetSet} {} {Desert} {} {1.000}
-E { 2467} {w} {w} {8} {0} {}
-E { 2469} {s} {s} {4} {0} {}
-
-R { 2469} {0} {<fff>} {Ancient Road} { } {Long ago, this road must have been a thoroughfare, as it is easily forty feet across.  The stones that form it are still visible through the grass that seems to have grown up through the cracks everywhere.  Even so, it is an impressive monument to the civilization that built it.  There is also a lesser road leading off to the west, into the scorching desert.  To the east is a grassland that extends to the horizon.  To the north and south the road extends to the limit of your vision, north through the grassland, south to a large mountain range. } {NotYetSet} {} {Desert} {} {1.000}
-E { 2468} {n} {n} {1} {0} {}
-E { 1744} {w} {w} {8} {0} {}
-E { 2471} {s} {s} {4} {0} {}
-E { 2472} {e} {e} {2} {0} {}
-
-R { 2470} {0} {<fff>} {The Light Desert} { } {This region shows signs of life, unlike the vast desert to the west.  There are brush and cacti dotting the landscape here.  To the south is a hilly region through which no trail is visible.  To the east there is a large grassland. The light desert continues to the north, and becomes more severe to the west. } {NotYetSet} {} {Desert} {} {1.000}
-E { 1744} {n} {n} {1} {0} {}
-E { 2471} {e} {e} {2} {0} {}
-
-R { 2471} {0} {<fff>} {Ancient Road} { } {Long ago, this road must have been a thoroughfare, as it is easily forty feet across.  The stones that form it are still visible through the grass that seems to have grown up through the cracks everywhere.  Even so, it is an impressive monument to the civilization that built it.  Hills have cropped up to the west - there is no trail to make passage possible.  To the north and south the road extends to the limit of your vision, north through the grassland, south to a large mountain range. } {NotYetSet} {} {Hills} {} {1.000}
-E { 2470} {w} {w} {8} {0} {}
-E { 2469} {n} {n} {1} {0} {}
-E { 2473} {e} {e} {2} {0} {}
-E { 2474} {s} {s} {4} {0} {}
-
-R { 2472} {0} {<fff>} {The Grassy Plain} { } {You are on a large grassy field that extends south to the mountains, west to the horizon, north as far as you can see, and south-west to the hills. To the west the grass gives way to the flora of a less irrigated region, as the pleasant knee-high grass is replaced by scrub brush and cacti. There is a kind of cleanliness about this landscape. It is as if man had not set foot here for ages. } {NotYetSet} {} {Field} {} {1.000}
-E { 2469} {w} {w} {8} {0} {}
-E { 2473} {s} {s} {4} {0} {}
-
-R { 2473} {0} {<fff>} {The Grassy Plain} { } {You are on a large grassy field that extends south to the mountains, west to the horizon, north as far as you can see, and west to the hills. To the north-west the grass gives way to the flora of a less irrigated region, as the pleasant knee-high grass is replaced by scrub brush and cacti. Through the western hills no trail is visible. } {NotYetSet} {} {Field} {} {1.000}
-E { 2472} {n} {n} {1} {0} {}
-E { 2471} {w} {w} {8} {0} {}
-
-R { 2474} {0} {<fff>} {Ancient Road} { } {Long ago, this road must have been a thoroughfare, as it is easily forty feet across.  The stones that form it are still visible through the grass that seems to have grown up through the cracks everywhere.  Even so, it is an impressive monument to the civilization that built it.  You are entering the foothills of the mountains now, though the peaks themselves still seem far away.  Strangely, the road is flat and straight.  When a hill gets in the way, rather than going around or over it, it goes right through it, giving you an even greater respect for the civilization that built it. } {NotYetSet} {} {Hills} {} {1.000}
-E { 2471} {n} {n} {1} {0} {}
-E { 2475} {s} {s} {4} {0} {}
-
-R { 2475} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 2474} {n} {n} {1} {0} {}
-E { 2476} {s} {s} {4} {0} {}
-
-R { 2476} {0} {<fff>} {Ancient Road} { } {} {NotYetSet} {} {} {} {1.000}
-E { 2475} {n} {n} {1} {0} {}
-E { 2477} {e} {e} {2} {0} {}
-E { 2496} {s} {s} {4} {0} {}
-
-R { 2477} {0} {<fff>} {Off the Unbeaten Path} { } {A well worn game trail wanders south, making travel through the tall grasses and light scrub much easier.  It meanders around the base of a large hill to the east and disappears into a grove of trees to the south.    To the west, a wide path of brownish color cuts through the lower lying terrain, paralleling the game trail.  Perhaps at one time it was a road. } {NotYetSet} {} {Hills} {} {1.000}
-E { 2476} {w} {w} {8} {0} {}
-E { 2478} {s} {s} {4} {0} {}
-
-R { 2478} {0} {<fff>} {In the Ravine} { } {A small ravine runs down the hill past this point and then flattens out a little further on.  Small trees line the edges of the ravine, kept alive by the occasional rain that is eventually funneled through it.  A well used trail cuts through the trees from the north side of the ravine and stops at the edge of an almost dry puddle of water.  Strange tracks circle the tiny pool, evidence of the local inhabitants. } {NotYetSet} {} {Hills} {} {1.000}
-E { 2477} {n} {n} {1} {0} {}
-E { 2479} {u} {u} {16} {0} {}
-
-R { 2479} {0} {<fff>} {In the Ravine} { } {Trees run along a small ravine that climbs up the side of the hill.  The trees are thick enough to prevent crossing to the north side of the hill or to climb along the ravine, but it can be followed down the hill from here.  A ridge runs south from here, circling the hill about half way up its face. } {NotYetSet} {} {Hills} {} {1.000}
-E { 2478} {d} {d} {32} {0} {}
-E { 2480} {s} {s} {4} {0} {}
-
-R { 2480} {0} {<fff>} {Along the Ridge} { } {A ridgeline runs north and south along the side of the hill.  It widens at this point to form a small plateau that continues to the east.  Looking over the edge of the ridge to the west you can see a shallow valley  with a long stripe of brown running down the middle, possibly an ancient and dry riverbed. } {NotYetSet} {} {Hills} {} {1.000}
-E { 2479} {n} {n} {1} {0} {}
-E { 2481} {e} {e} {2} {0} {}
-
-R { 2481} {0} {<fff>} {Plateau Near the Ridgeline} { } {This flat plain spreads out from the hill to a ridge in the west.  Only tall grasses grow here due to the sparse moisture in the area.  The hill itself continues up to the east at a low point between two small peaks. } {NotYetSet} {} {Hills} {} {1.000}
-E { 2480} {w} {w} {8} {0} {}
-E { 2482} {u} {u} {16} {0} {}
-
-R { 2482} {0} {<fff>} {Over the Hill} { } {The western side of the hill overlooks a small valley that leads from the Great Eastern Desert while the view to the east is blocked by a few slightly taller hills.  The the south, far off in the distance, rise the foothills of a mountain range. } {NotYetSet} {} {Hills} {} {1.000}
-E { 2481} {d} {d} {32} {0} {}
-E { 2483} {e} {e} {2} {0} {}
-
-R { 2483} {0} {<fff>} {Top of the Hill} { } {The view to the east is spectacular.  The Dragon Sea and all it's splendor rushes to the edge of the horizon.  To the northwest lies the Great Eastern Desert, its dry and aird land sends shimmers of heat into the sky.  A single large pyramid at its center pokes above the undulating dunes. } {NotYetSet} {} {Hills} {} {1.000}
-E { 2482} {w} {w} {8} {0} {}
-E { 2484} {d} {d} {32} {0} {}
-
-R { 2484} {0} {<fff>} {Below the Hill} { } {The tall oaks of the forest to the east are dwarfed by the hill that slopes sharply up to the west.  The dirt of the hill is soft enough that climbing it is possible, but it will not be an easy task.  To the south the oaks abutt the hill, although to the north there is a narrow strip of flat ground between the trees and the hill. } {NotYetSet} {} {Hills} {} {1.000}
-E { 2483} {u} {u} {16} {0} {}
-E { 2485} {n} {n} {1} {0} {}
-
-R { 2485} {0} {<fff>} {Grassy Path} { } {A grassy path cuts through the forest of ancient oaks to the east.  The forest is not so dense that it cannot be walked through, but the path is quieter, not as dark, and allows you to see ahead.  To the south the path continues between the base of the steep hill and the forest. } {NotYetSet} {} {Forest} {} {1.000}
-E { 2484} {s} {s} {4} {0} {}
-E { 2486} {e} {e} {2} {0} {}
-
-R { 2486} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 2485} {w} {w} {8} {0} {}
-E { 2487} {d} {d} {32} {0} {}
-
-R { 2487} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 2486} {u} {u} {16} {0} {}
-E { 2488} {s} {open boulder;s} {4} {0} {}
-
-R { 2488} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 2487} {n} {open boulder;n} {1} {0} {}
-E { 2489} {w} {w} {8} {0} {}
-E { 2490} {d} {d} {32} {0} {}
-
-R { 2489} {0} {<fff>} {} {!?!} {} {NotYetSet} {} {} {} {1.000}
-E { 2488} {e} {e} {2} {0} {}
-
-R { 2490} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 2488} {u} {u} {16} {0} {}
-E { 2491} {n} {n} {1} {0} {}
-E { 2492} {e} {e} {2} {0} {}
-E { 2493} {d} {d} {32} {0} {}
-
-R { 2491} {0} {<fff>} {Below the Cliffs of Pirotesse} { } {The tall cliffs still rise to your west.  They appear unscalable by even the most skilled of climbers and a strong down-draft keeps all of the birds from its vicinity.  The cliffs continue to the north and south while the deeper water of the high seas opens to your east. } {NotYetSet} {} {Water} {} {1.000}
-E { 2490} {s} {s} {4} {0} {}
-
-R { 2492} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 2490} {w} {w} {8} {0} {}
-E { 2495} {d} {d} {32} {0} {}
-
-R { 2493} {0} {<fff>} {Shale Embankment} { } {Slates of shale have fallen from the cliffs to the west, creating a slope of rock which has smothered most of the kelp trying to grow here.  The edge of the slope heads north, following the cliff face, while the upper level of it almost stretches out of the water.  To the east, out of the falling shale's reach, } {NotYetSet} {} {Underwater} {} {1.000}
-E { 2490} {u} {u} {16} {0} {}
-E { 2494} {n} {n} {1} {0} {}
-E { 2495} {e} {e} {2} {0} {}
-
-R { 2494} {0} {<fff>} {You have become more adept at swimming!} { } {Shale Embankment    A large mound of shale slopes up to the west, towards the cliff it flaked off of.  Where the shale merges into the sand of the sea floor, huge kelp strands that stretch to the surface begin to grow.  Following the embankment to the north leads into a cave hidden in darkness.  To the south the shale continues along the contour of the cliff. } {NotYetSet} {} {Underwater} {} {1.000}
-E { 2493} {s} {s} {4} {0} {}
-
-R { 2495} {0} {<fff>} {Kelp Bed} { } {This part of the kelp bed cuts across a narrow swath of land, heading from the southeast to the north-northwest.  To the northeast, a brilliantly colored coral reef rises up to the surface and to the southwest a shale embankment can be seen. } {NotYetSet} {} {Underwater} {} {1.000}
-E { 2493} {w} {w} {8} {0} {}
-E { 2492} {u} {u} {16} {0} {}
-
-R { 2496} {0} {<fff>} {Ancient Road} { } {Long ago, this road must have been a thoroughfare, as it is easily forty feet across. The stones that form it are still visible through the grass that seems to have grown up through the cracks everywhere. At last you have reached the mountains. The ancient road does not stop upon reaching the base of the enormous rock face, however, but disappears into a gigantic tunnel, the mouth of which has a radius of at least thirty feet. It size permits the light to extend for some distance into the tunnel - you can see that the road continues as before. } {NotYetSet} {} {Mountains} {} {1.000}
-E { 2476} {n} {n} {1} {0} {}
-E { 2497} {s} {s} {4} {0} {}
-
-R { 2497} {0} {<fff>} {Ancient Road} { } {Long ago, this road must have been a thoroughfare, as it is easily forty feet across. The stones that form it are still in very good shape here, as the elements have not been able to abuse it as they have where it is exposed to the open sky. You have entered the arching tunnel mouth, which towers above your head impressively. It is still possible to see here, from the light coming in through the tunnel entrance. The road continues straight and level into the heart of the mountains; no end is visible from here, as it is shrouded in darkness a few hundred feet beyond your current position. } {NotYetSet} {} {Underground} {} {1.000}
-E { 2496} {n} {n} {1} {0} {}
-E { 2498} {s} {s} {4} {0} {}
-
-R { 2498} {0} {<fff>} {Ancient Road} { } {Long ago, this road must have been a thoroughfare, as it is easily forty feet across. The stones that form it are still in very good shape here, as the elements have not been able to abuse it here as they have where it is exposed to the open sky. You are now in tunnel proper, this distinction being marked by the gradual reduction of light from the entrance to nearly nothing - it is now only a small semi-circle of light in the distance to the north. At this point, only your light source allows you to see. The road, however, continues as before; straight, flat, and serviceable for travel. } {NotYetSet} {} {Underground} {} {1.000}
-E { 2497} {n} {n} {1} {0} {}
-E { 2499} {s} {s} {4} {0} {}
-
-R { 2499} {0} {<fff>} {Ancient Road} { } {Long ago, this road must have been a thoroughfare, as it is easily forty feet across. The stones that form it are still in very good shape here, as the elements have not been able to abuse it here as they have where it is exposed to the open sky. The road continues to the north and south here. There are some skeletons in the middle of the road here, along with a small cart and a few broken arrows and a few other miscellaneous broken items. They look like they were heading north, although it's hard to tell for sure. Clearly, whoever these people were, they have been dead for a very long time. } {NotYetSet} {} {Underground} {} {1.000}
-E { 2498} {n} {n} {1} {0} {}
-E { 2500} {s} {s} {4} {0} {}
-
-R { 2500} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 2499} {n} {n} {1} {0} {}
-E { 2501} {s} {s} {4} {0} {}
-
-R { 2501} {0} {<fff>} {Alas, you cannot go that way.} { } {} {NotYetSet} {} {} {} {1.000}
-E { 2500} {n} {n} {1} {0} {}
-E { 2502} {s} {s} {4} {0} {}
-
-R { 2502} {0} {<fff>} {Ancient Road} { } {Long ago, this road must have been a thoroughfare, as it is easily forty feet across. The stones that form it are still in very good shape here, as the elements have not been able to abuse it here as they have where it is exposed to the open sky. The air is musty here, like one would expect from an area that has not been traveled in ages untold. The road continues to the north and south as far as your light can tell you. You sense the oppressive weight of millions of tons of rocks hanging over your head, and marvel again at those who made this road so long ago. } {NotYetSet} {} {Underground} {} {1.000}
-E { 2501} {n} {n} {1} {0} {}
-E { 2503} {s} {s} {4} {0} {}
-
-R { 2503} {0} {<fff>} {Ancient Road} { } {Abruptly, the road ends here in a tremendous cave-in to the south. It isn't clear how long ago the earth shifted and the roof of the tunnel collapsed, but it is clear that no further travel to the south is possible this way. You spot a few bones and pieces of broken equipment here, and the shadows your light casts off the large stones among those that block your passage seem to dance and flicker evilly. } {NotYetSet} {} {Underground} {} {1.000}
-E { 2502} {n} {n} {1} {0} {}
-
-R { 2504} {0} {<afa>} {Main Street} { } {This was once a magnificent street, but now is in total ruin.  The streets are barren and windswept and the destruction is unending.  To the south you see a ruined cottage while north leads into a dark back alley.  Howls and screams echo through the city streets. } {Thalos} {} {Desert} {} {1.000}
-E { 2506} {e} {e} {2} {0} {}
-E { 2519} {s} {s} {4} {0} {}
-
-R { 2505} {0} {<afa>} {Old Thalos City Hall} { } {This is the main reception area of Thalos' city hall.  The walls have been charred and scorched massively and debris is spread from wall to wall.  A large gaping hole in the west wall allows you to see out to one of the city's side streets.  Obviously no one will be seeing you through today. } {Thalos} {} {Inside} {} {1.000}
-E { 2519} {n} {n} {1} {0} {}
-E { 2507} {e} {e} {2} {0} {}
-E { 2509} {s} {s} {4} {0} {}
-E { 2512} {w} {w} {8} {0} {}
-
-R { 2506} {8} {} {} { } {} {Thalos} {} {} {} {1.000}
-E { 2504} {w} {w} {8} {0} {}
-E { 1731} {e} {e} {2} {0} {}
-
-R { 2507} {0} {<afa>} {East Wing of the City Hall} { } {Here lies the remnants of a fancy office, possibly the mayor's.  A few withered plants and broken pieces of furniture make this place anything but fancy, though.  The only thing remaining intact here is a large clay pot that has been tipped over in the corner. } {Thalos} {} {Inside} {} {1.000}
-E { 2505} {w} {w} {8} {0} {}
-E { 2508} {s} {s} {4} {0} {}
-
-R { 2508} {0} {<afa>} {The Private Gardens and Courtyard of Old Thalos} { } {What a shame that this mass destruction also touched this once beautiful place.  The temple's garden path has nothing on this garden.  Flowers and trees have been smashed into the ground and lawn benches thrown through walls.  A large marble fountain in the center of the courtyard still stands, though, defying any attempts to destroy its beauty.  Above stands the remnants of one of the watchtowers.  Archways lead north and west. } {Thalos} {} {Desert} {} {1.000}
-E { 2507} {n} {n} {1} {0} {}
-E { 2509} {w} {w} {8} {0} {}
-
-R { 2509} {0} {<afa>} {} { } {} {Thalos} {} {} {} {1.000}
-E { 2508} {e} {e} {2} {0} {}
-E { 2505} {n} {n} {1} {0} {}
-
-R { 2510} {0} {<afa>} {A Side Street} { } {This small side street leads south away from the temple into the business section of town.  The destruction that leveled this city was not biased; these important looking buildings have been almost totally destroyed.  There is a hole in the wall of a very large structure to the east. } {Thalos} {} {Desert} {} {1.000}
-E { 2512} {e} {e} {2} {0} {}
-E { 2511} {s} {s} {4} {0} {}
-
-R { 2511} {0} {<afa>} {A Side Street} { } {This small side street is lined with the remains of once great buildings. To west lies the remains of what could have been a guild house.  The street continues to the south while to the east are the ruins of a tavern. } {Thalos} {} {Desert} {} {1.000}
-E { 2510} {n} {n} {1} {0} {}
-E { 2513} {e} {e} {2} {0} {}
-E { 2514} {s} {s} {4} {0} {}
-E { 2517} {w} {w} {8} {0} {}
-
-R { 2512} {8} {} {} { } {} {Thalos} {} {} {} {1.000}
-E { 2510} {w} {w} {8} {0} {}
-E { 2505} {e} {e} {2} {0} {}
-
-R { 2513} {0} {<afa>} {The Tavern of the Sun} { } {A glorious place in its prime, this tavern now lies in ruin; tables and chairs are broken scattered, bottles and glasses shattered, and a small performance stage crushed.  Musical instruments and personal belongings lie under the rubble, but the people they once belonged to are not with them. Looking up you see that the entire second floor and roof has fallen in, leaving a gaping hole above. } {Thalos} {} {Inside} {} {1.000}
-E { 2511} {w} {w} {8} {0} {}
-
-R { 2514} {0} {<afa>} {A Side Street} { } {You are at the end of a long street leading to the center of the city.  A long dark alley runs east and west. } {Thalos} {} {Desert} {} {1.000}
-E { 2511} {n} {n} {1} {0} {}
-E { 2515} {e} {e} {2} {0} {}
-E { 2516} {w} {w} {8} {0} {}
-
-R { 2515} {0} {<afa>} {An Abandoned Shop} { } {From the outside this place looks like an ordinary pile of rubble, but inside these cramped quarters you discover what used to be a shop filled with armor, weapons, and various other goods.  A small sign flutters in the wind. } {Thalos} {} {Inside} {} {1.000}
-E { 2514} {w} {w} {8} {0} {}
-
-R { 2516} {0} {<afa>} {A Back Alley} { } {A narrow alley leads east to a wider street and west to one of the city watchtowers. } {Thalos} {} {Desert} {} {1.000}
-E { 2514} {e} {e} {2} {0} {}
-
-R { 2517} {0} {<afa>} {The Guild House} { } {You are standing in what once was this city's ONLY guild house.  Tables and chairs have been smashed and broken weapons lie strewn about the floor as if some massive battle had taken place here.  Draped along the back wall is a tattered, jet-black banner with the symbol of the Dark Side set upon it. } {Thalos} {} {Inside} {} {1.000}
-E { 2511} {e} {e} {2} {0} {}
-
-R { 2518} {0} {<afa>} {} { } {} {Thalos} {} {} {} {1.000}
-
-R { 2519} {8} {} {} { } {} {} {} {} {} {1.000}
-E { 2505} {s} {s} {4} {0} {}
-E { 2504} {n} {n} {1} {0} {}
