@@ -7,7 +7,7 @@ CR <fff>
 
 F 139
 
-I 841
+I 2546
 
 L * # # # | # x          
 
@@ -739,6 +739,7 @@ E {  181} {s} {s} {4} {0} {}
 R {  179} {0} {<fff>} {#MAP JUMP: JUMPED TO ROOM 179 {The Northern Road}.} { } {} {NotYetSet} {} {} {} {1.000}
 E {  178} {s} {s} {4} {0} {}
 E {  180} {e} {open capstone;e} {2} {0} {}
+E { 1736} {n} {n} {1} {0} {}
 
 R {  180} {0} {<fff>} {You realize that it's already open.} { } {[MAPON] H:385/391 M:127/127 V:306/306 XP:366283 C:*> Entry to the Barrow    Dry, musty air fills this narrow corridor.  No breeze stirs the cobwebs that dangle from the ceiling and accumulate in every corner.  Gritty sand has built up on the stone floor, leaving the grey of the stone visible in only small patches here and there.  This narrow passage leads east into a fairly large burial chamber that was created by some of the richer residents of Nevrast.  It is rumored that necromantic magics were once placed on this barrow in an attempt at revenge on one of the owners. } {NotYetSet} {} {Inside} {} {1.000}
 E {  179} {w} {open capstone;w} {8} {0} {}
@@ -5246,7 +5247,7 @@ E { 1274} {e} {e} {2} {0} {}
 R { 1274} {0} {<fff>} {A Clearing} { } {You have entered a small, shaded clearing.  In the center of the clearing is the stump of a long dead tree.  The chirping of birds can be heard as you scan your surroundings, seeing many humanoid prints in the soft mud lining the ground around the massive stump. } {NotYetSet} {} {Forest} {} {1.000}
 E { 1273} {w} {w} {8} {0} {}
 
-R { 1275} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1275} {0} {<fff>} {Split in the Path} { } {A winding path in the Highrock Forest intersects with another here, leading off in all directions. } {NotYetSet} {} {Forest} {} {1.000}
 E {  940} {w} {w} {8} {0} {}
 E { 1276} {n} {n} {1} {0} {}
 E { 1278} {e} {e} {2} {0} {}
@@ -5264,7 +5265,7 @@ R { 1278} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1277} {n} {n} {1} {0} {}
 E { 1275} {w} {w} {8} {0} {}
 
-R { 1279} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1279} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1275} {n} {n} {1} {0} {}
 E { 1280} {e} {e} {2} {0} {}
 E { 1282} {s} {s} {4} {0} {}
@@ -5276,16 +5277,17 @@ E { 1281} {e} {e} {2} {0} {}
 R { 1281} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1280} {w} {w} {8} {0} {}
 
-R { 1282} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1282} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1279} {n} {n} {1} {0} {}
 E { 1283} {s} {s} {4} {0} {}
 
-R { 1283} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1283} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1282} {n} {n} {1} {0} {}
 E { 1284} {s} {s} {4} {0} {}
 
-R { 1284} {0} {} {} { } {} {} {} {} {} {1.000}
+R { 1284} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 1283} {n} {n} {1} {0} {}
+E { 1732} {s} {s} {4} {0} {}
 
 R { 1285} {0} {} {Intersection of Trails} { } {The trail splits here as it runs throughout the forest.  It heads deeper into the forest to the west, where the smoke from a cabin's chimney can be seen in the distance.  A clearing opens up to the north, and to the east the trail begins to ascend a small wooded hill. } {Nevrast} {} {Forest} {} {1.000}
 E {  182} {e} {e} {2} {0} {}
@@ -7167,6 +7169,25 @@ E { 1731} {w} {w} {8} {0} {}
 R { 1731} {0} {<afa>} {Main Street} { } {This was once a magnificent street, but now is in total ruin.  The streets are barren and windswept and the destruction is unending.  To the south you see a ruined cottage while north leads into a dark back alley.  Howls and screams echo through the city streets. } {Thalos} {} {Desert} {} {1.000}
 E { 1730} {e} {e} {2} {0} {}
 E { 2506} {w} {w} {8} {0} {}
+
+R { 1732} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1284} {n} {n} {1} {0} {}
+E { 1733} {s} {s} {4} {0} {}
+
+R { 1733} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1732} {n} {n} {1} {0} {}
+E { 1734} {s} {s} {4} {0} {}
+
+R { 1734} {0} {<fff>} {No way!  You are fighting for your life!} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1733} {n} {n} {1} {0} {}
+E { 1735} {s} {s} {4} {0} {}
+
+R { 1735} {0} {<fff>} {#MAP RETURN: RETURNED TO ROOM 1735 {}.} { } {} {NotYetSet} {} {} {} {1.000}
+E { 1734} {n} {n} {1} {0} {}
+
+R { 1736} {0} {<fff>} {The Northern Road} { } {The northern road leads to the north and south of this point.  The road is made of hard-packed dirt, ruts slowly taking over the smooth surface.  Open fields lie to the east and west of the road, the green and brown of the wild grass interrupted by the occasional splash of color caused by wildflowers. Southeast of here is a small hill; the road to the south leads right past it. The road north runs through open fields and meadows. } {NotYetSet} {} {Forest} {} {1.000}
+E {  179} {s} {s} {4} {0} {}
+E { 2520} {n} {n} {1} {0} {}
 
 R { 1737} {0} {<afa>} {The Great Eastern Desert} { } {A vast desert stretches for miles, the sands constantly shifting around you. The wind has uncovered what could be an old trail here under the sand.  The stone surface must have been covered by the sands for ages.  It leads to the east through the desert. } {The Great Eastern Desert} {} {Desert} {} {1.000}
 E { 1727} {n} {n} {1} {0} {}
@@ -10492,3 +10513,114 @@ R { 2518} {0} {<afa>} {} { } {} {Thalos} {} {} {} {1.000}
 R { 2519} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 2505} {s} {s} {4} {0} {}
 E { 2504} {n} {n} {1} {0} {}
+
+R { 2520} {0} {<fff>} {The Northern Road} { } {The northern road leads north and south, the hard-packed dirt rutted and uneven.  South of here the road leads toward a small hill; to the north it runs through open fields and meadows.  The green and brown of the fields is occasionally relieved by a bright splash of color from wildflowers. } {NotYetSet} {} {Field} {} {1.000}
+E { 1736} {s} {s} {4} {0} {}
+E { 2521} {n} {n} {1} {0} {}
+
+R { 2521} {0} {<fff>} {The Northern Road} { } {The hard-packed dirt of the road is somewhat rutted and shows signs of wear. The fields to either side of the road are filled with the browns and greens of grass and weeds. } {NotYetSet} {} {Field} {} {1.000}
+E { 2520} {s} {s} {4} {0} {}
+E { 2522} {n} {n} {1} {0} {}
+
+R { 2522} {0} {<fff>} {The Northern Road} { } {A hard-packed dirt road leads to the north and south.  Open fields and meadows bracket the road as it leads north.  On either side of the road are open plains and fields. } {NotYetSet} {} {Field} {} {1.000}
+E { 2521} {s} {s} {4} {0} {}
+E { 2523} {n} {n} {1} {0} {}
+
+R { 2523} {0} {<fff>} {The Northern Road} { } {The green and brown of wild, windswept fields brackets the road to the east and west.  The monotony of the fields is occasionally interrupted by a riotous splash of color from wildflowers.  The hard-packed dirt road leads north and south, its rutted bed having seen better days but remaining serviceable. } {NotYetSet} {} {Field} {} {1.000}
+E { 2522} {s} {s} {4} {0} {}
+E { 2524} {n} {n} {1} {0} {}
+
+R { 2524} {0} {<fff>} {The Northern Road} { } {The hard-packed dirt of this road is rutted and shows signs of neglect. Open fields bracket the road to the east and west, the greens and browns of their growth interrupted occasionally by splashes of color from wildflowers. The road continues to the north running through similar terrain.  Some distance to the north it appears that a stand of trees has taken root on the western side of the road. } {NotYetSet} {} {Field} {} {1.000}
+E { 2523} {s} {s} {4} {0} {}
+E { 2525} {n} {n} {1} {0} {}
+
+R { 2525} {0} {<fff>} {The Northern Road} { } {Open fields parallel the road to the east and west.  Splashes of bright color from flowers liven up the otherwise drab greens and browns of grasses and weeds.  Immediately to the north of here a copse of trees is visible on the western side of the road, not quite large enough to qualify as a forest.  The northern road is hard-packed dirt, rutted and showing signs of heavy usage here.  The road leads north past the trees and through open fields and south towards the city previously mentioned. } {NotYetSet} {} {Field} {} {1.000}
+E { 2524} {s} {s} {4} {0} {}
+E { 2526} {n} {n} {1} {0} {}
+
+R { 2526} {0} {<fff>} {} {!} {} {NotYetSet} {} {} {} {1.000}
+E { 2525} {s} {s} {4} {0} {}
+E { 2527} {w} {w} {8} {0} {}
+E { 2528} {n} {n} {1} {0} {}
+
+R { 2527} {0} {<fff>} {A Turnout off of the Northern Road} { } {This small turnout has been arranged for wagons to pull off of the main road, perhaps for the drivers to rest or cook a meal.  Several campfires have been lit here recently, fresh ashes in small stone circles attesting to this. The main area of the clearing is bare dirt but the western side butts up against a small stand of trees, tangled undergrowth encircling their bases. This small section provides a modicum of shade when the sun is up in the afternoon and the heat is at its worst.  A short path to the east leads back to the northern road. } {NotYetSet} {} {Forest} {} {1.000}
+E { 2526} {e} {e} {2} {0} {}
+
+R { 2528} {0} {<fff>} {#MAP RETURN: RETURNED TO ROOM 2528 {}.} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2526} {s} {s} {4} {0} {}
+E { 2529} {n} {n} {1} {0} {}
+
+R { 2529} {0} {<fff>} {The Northern Road} { } {The northern road is made of hard-packed dirt marked with deep ruts and showing signs of heavy usage.  It runs to the north and south, bracketed by open fields and meadows to the east and west.  A short ways to the south a copse of trees has grown up on the western side of the road. } {NotYetSet} {} {Field} {} {1.000}
+E { 2528} {s} {s} {4} {0} {}
+E { 2530} {n} {n} {1} {0} {}
+
+R { 2530} {0} {<fff>} {The Northern Road} { } {The road leads north and south, through open fields in both directions.  The browns and greens of the meadows to either side of the road are splashed with color in points, a profusion of wildflowers clustering together to create this effect. } {NotYetSet} {} {Field} {} {1.000}
+E { 2529} {s} {s} {4} {0} {}
+E { 2531} {n} {n} {1} {0} {}
+
+R { 2531} {0} {<fff>} {The Northern Road} { } {A tall elm tree once grew alongside the road here; an area beneath it is still free of grass and has a ring of stones that was used for a spark-guard. The tree itself is now dead, the uppermost portion split in two and scorched down the center.  The road passes close to the dead tree and stretches out into the distance to the north and south.  The hard-packed dirt of the road is deeply rutted and shows signs of a lack of maintenance. } {NotYetSet} {} {Field} {} {1.000}
+E { 2530} {s} {s} {4} {0} {}
+E { 2532} {n} {n} {1} {0} {}
+
+R { 2532} {0} {<fff>} {The Northern Road} { } {Open fields lie to the east and west of this hard-packed road.  The road is in a state of poor maintenance and deep ruts have grown into it.  South, along the road, stands a single dead tree to one side.  Open fields and meadows are bisected by the northern route the road takes.  The Eastern Mountains rise far off to the east, just visible in the distance.  Nearer, trees, both singly and in small stands, are scattered about the fields. } {NotYetSet} {} {Field} {} {1.000}
+E { 2531} {s} {s} {4} {0} {}
+E { 2533} {n} {n} {1} {0} {}
+
+R { 2533} {0} {<fff>} {The Northern Road} { } {The Stoneforge Mountains are visible peeking from the northern horizon.  The peaks are visible, rising into the sky seemingly from the middle of the grassy plains.  The Eastern Mountains are visible as well, off in the distance.  The road is hard-packed dirt, marred by deep ruts.  The road runs northwards through open plains and fields while a ways to the south it passes a single dead tree towering over the plains.  To the west a small yet worn path cuts into the grass and heads into the fields away from the road. } {NotYetSet} {} {Field} {} {1.000}
+E { 2532} {s} {s} {4} {0} {}
+E { 2534} {w} {w} {8} {0} {}
+
+R { 2534} {0} {<fff>} {A Path Through the Plains} { } {Sprawling fields of grass extend as far as the eye can see to the northwest, in places it reaches waist high on a tall human.  Flitting insects combine with the breeze to assult your face with bits of grass and dust and your ears with loud buzzing and rustling reeds.  A path to the north has been matted down through the fields and to the east lies the great northern road.  A haphazard sign has been nailed to a crude stake in the ground, bones litter its base. } {NotYetSet} {} {Field} {} {1.000}
+E { 2533} {e} {e} {2} {0} {}
+E { 2535} {n} {n} {1} {0} {}
+
+R { 2535} {0} {<fff>} {Through the Grassy Plains} { } {The endless grass that fills your vision all the way to the horizon grows even taller here.  Its tops swaying below the chins of elves and humans like and the path functions more as a maze for those shorter.  Winding to the west and south, the matted path continues. } {NotYetSet} {} {Field} {} {1.000}
+E { 2534} {s} {s} {4} {0} {}
+E { 2536} {w} {w} {8} {0} {}
+
+R { 2536} {0} {<fff>} {On the Grassy Plains} { } {The endless grass that fills your vision all the way to the horizon grows grow more sparse here as you notice rolling hills off the the northwest. Winding to the north and east, the matted path continues. } {NotYetSet} {} {Field} {} {1.000}
+E { 2535} {e} {e} {2} {0} {}
+E { 2537} {n} {n} {1} {0} {}
+
+R { 2537} {0} {<fff>} {The Broad Plains} { } {The plains spread out around you, scrubby bushes poking up above the levels of the high grass.  There are occasional motions of animals amid the grass, but they seem to be giving you a wide berth.  The lack of discernible landmarks would make it very easy to get lost, if you were to leave the path, which continues west and south. } {NotYetSet} {} {Field} {} {1.000}
+E { 2536} {s} {s} {4} {0} {}
+E { 2538} {w} {w} {8} {0} {}
+
+R { 2538} {0} {<fff>} {The Plains Near Some Hills} { } {The plains are starting to move more into hills at this point, and you feel the ground start to slope up beneath your feet as you continue walking.  The path disappears into the east, and winds up into the hills to the west, though you lose sight of it before it goes very far. } {NotYetSet} {} {Field} {} {1.000}
+E { 2537} {e} {e} {2} {0} {}
+E { 2539} {s} {s} {4} {0} {}
+
+R { 2539} {0} {<fff>} {Against the Soaring Cliff} { } {The cliff face to the south juts out here slightly and blocks all travel to the east, towards the rolling hills of the valley.  To the north a large open field, used mainly for crude farming and crops heads towards a long wooden building at the center of the camp.  To the west the sheer cliff face continues. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2538} {n} {n} {1} {0} {}
+E { 2540} {w} {w} {8} {0} {}
+
+R { 2540} {0} {<fff>} {Against the Soaring Cliff} { } {The sheer wall of the cliff rises up to the south, shielding this entire area from the sun the entire  year.  A few rivulets of water stream down the rocky face to disappear into the cracks along the ground.  To the north a rock overhand provides shelter from all but the worst of weather and to the east the cliff face continues. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2539} {e} {e} {2} {0} {}
+E { 2541} {n} {n} {1} {0} {}
+
+R { 2541} {0} {<fff>} {Under the Rock Overhang} { } {A large rock overhang protrudes out from the cliff to the west, making this area into a long naturally covered open space.  The coolness of the dark sun deprived rock provides a respite to the harsh summers in the valley and it's corresponding warmth in the winter the opposite.  To the south the overhang joins back to the cliff as it turns suddenly and heads east. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2540} {s} {s} {4} {0} {}
+E { 2545} {n} {n} {1} {0} {}
+
+R { 2542} {0} {<fff>} {A Small Spring} { } {The huge cliff rises up above you, and curves away to the west and south  A huge overhang about fifteen feet up leaves most of this area in the dark, and prevents you from climbing up the pitted and cracked cliff wall.  The rock overhang continues to the south before turning back to the east. } {NotYetSet} {} {Mountains} {} {1.000}
+E { 2545} {s} {s} {4} {0} {}
+E { 2543} {e} {e} {2} {0} {}
+
+R { 2543} {0} {<fff>} {It seems to be locked.} { } {[MAPON] H:398/398 M:126/130 V:276/281 XP:215721 C:*> The wooden door seems to be closed. } {NotYetSet} {} {} {} {1.000}
+E { 2542} {w} {w} {8} {0} {}
+E { 2544} {n} {n} {1} {0} {}
+E { 2546} {s} {s} {4} {0} {}
+
+R { 2544} {0} {<fff>} {The Long Hall} { } {This is the western end of the Long Hall.  Hides of various sorts cover the crude wooden walls and sloped ceiling.  From just a casual glance, you aren't sure from what creatures, exactly, these hides were taken.  You are impressed by how sturdy this Hall seems to be, considering the crudity of the construction.  A door leads to the west, to an open area between the end of the hall and the cliff.  To the south a door leads outside while a black wood door leads north. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2543} {s} {s} {4} {0} {}
+
+R { 2545} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2542} {n} {n} {1} {0} {}
+E { 2541} {s} {s} {4} {0} {}
+
+R { 2546} {0} {<fff>} {The Slave Keeper's Room} { } {This seems to be a smallish single dwelling.  There are several pegs and racks on the wall, which are currently being used to hold ropes, manacles, whips, and other implements of a master of slaves.  There is a small pile of bedding in one corner, which you would guess is used for sleeping on.  There is a large heavy wooden door leading to some sort of pen to the east, and an wooden door leading north. } {NotYetSet} {} {Hills} {} {1.000}
+E { 2543} {n} {open door;n} {1} {0} {}
+E { 2547} {e} {e} {2} {0} {}
+
+R { 2547} {0} {<fff>} {The Slave Pen} { } {The stench in this half of the pen is, if anything, even worse than the western half.  Along the northern wall, there is something of a roof, which extends out a couple feet to give a minimal amount of shelter from the elements.  In the southeast corner is a hideous open latrine, and the one quick glance you take at it leaves you close to vomiting.  The only exit from here is back to the west. } {NotYetSet} {} {Hills} {} {1.000}
+E { 2546} {w} {w} {8} {0} {}
