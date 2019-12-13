@@ -176,3 +176,48 @@ Effects:
  Wisdom: -11.
  Translocation: +4.
  Mysticism: +23.
+ITEM potion-black
+Object "a black potion", Item type: Potion
+Item is: Invisible Magic.
+Weight: 1, Volume: 60, Value: 2000
+Level 35 spells of Blindness, Sanctuary, Strength.
+ITEM potion-orange
+Object "an orange potion", Item type: Potion
+Item is: Invisible Magic.
+Weight: 1, Volume: 80, Value: 800
+Level 20 spells of Sense Life, Darksight.
+ITEM seal-ebony
+Object "an engraved ebony seal", Item type: Key
+Item is: None.
+Can be equipped: Hold.
+Weight: 2, Volume: 3, Value: 500
+ITEM long-wooden-pike
+Object "a long wooden pike", Item type: Spear
+Item is: Anti-Cleric Anti-Mage.
+Can be equipped: Wield.
+Weight: 16, Volume: 650, Value: 1250
+Durability is 4 with maximum 4.
+Damage Dice is 3d4.  Damage type is stab.
+Effects:
+ Damroll: +1.
+ITEM cat-o-o-nine-onine-tails
+ITEM staff-serpentine
+Object "a green serpentine staff", Item type: Staff
+Item is: Invisible Magic Anti-Thief.
+Can be equipped: Hold.
+Weight: 12, Volume: 520, Value: 6600 [Rare]
+Has 5 charges with maximum 5.
+Level 30 spell of Earthquake.
+Effects:
+ Geomancy: +8.
+ITEM smooth-quartz-ball
+Object "a smooth quartz ball", Item type: Treasure
+Item is: Glow Anti-Cleric.
+Can be equipped: Hold.
+Weight: 5, Volume: 20, Value: 10500 [Rare]
+Effects:
+ Hit-N-Dam: +1.
+ Detect-Evil.
+ Detect-Magic.
+ Floating.
+ Sense-Life.
