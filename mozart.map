@@ -7,7 +7,7 @@ CR <fff>
 
 F 139
 
-I 2546
+I 202
 
 L * # # # | # x          
 
@@ -760,7 +760,7 @@ R {  184} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  173} {s} {s} {4} {0} {}
 E {  181} {n} {n} {1} {0} {}
 
-R {  185} {0} {<afa>} {The Temple of Nevrast} { } {You are in the southern end of the front hall of the Temple of Nevrast. The temple has been constructed from giant marble blocks, eternal in appearance, and most of the walls are covered by ancient wall paintings picturing gods, giants, and peasants; one standing out from the others.    Large steps lead south through the grand temple gate, descending the huge mound upon which the temple is built and ending on Temple Avenue.  Down the steps leads to the Temple Basement, a passageway leading to the board rooms. } {Nevrast} {} {Inside} {} {1.000}
+R {  185} {0} {<afa>} {steps leads to the Temple Basement, a passageway leading to the board rooms.} { } {} {Nevrast} {} {Inside} {} {1.000}
 E {  168} {n} {n} {1} {0} {}
 E {  186} {d} {d} {32} {0} {}
 E {  187} {w} {w} {8} {0} {}
@@ -830,7 +830,7 @@ E {  200} {w} {w} {8} {0} {}
 E {  202} {n} {n} {1} {0} {}
 E {  203} {e} {e} {2} {0} {}
 
-R {  202} {0} {<afa>} {} {Inn} {} {} {Inn} {} {} {1.000}
+R {  202} {0} {<afa>} {The Nevrast Inn} {Inn} {A cheery fire in a wide stone fireplace along the west wall lights up this Inn.  It is comfortably furnished with cozy-looking wooden chairs that have matching footstools, inviting you to rest and socialize a while.  The receptionist stands behind a counter of deep, reddish wood that runs along the northern wall.  A small brass sign is fixed to the top of the counter. } {Nevrast} {Inn} {Inside} {} {1.000}
 E {  201} {s} {s} {4} {0} {}
 
 R {  203} {0} {<afa>} {The Grunting Boar Tavern} {Ale} {You are standing in the Grunting Boar tavern.  The bar is set against the northern wall; old archaic writing, carvings, and symbols cover its top.  A fireplace is built into the eastern wall, and through the western windows you can see the temple square.  A small spiral staircase rises up from the southeast corner to a short balcony, and music can be heard from above.  A small sign with big letters is fastened to the bar. } {Nevrast} {Ale} {Inside} {} {1.000}
@@ -3982,17 +3982,19 @@ R {  970} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  856} {e} {e} {2} {0} {}
 E {  971} {w} {w} {8} {0} {}
 
-R {  971} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  971} {0} {<fff>} {Along the Western Road} { } {You are traveling along a long road surrounded by plush, well-tended fields.  The road here continues on towards the west and east, and you can see a large city in the distance on the eastern horizon. } {NotYetSet} {} {Field} {} {1.000}
 E {  970} {e} {e} {2} {0} {}
 E {  972} {w} {w} {8} {0} {}
 
-R {  972} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  972} {0} {<fff>} {Along the Western Road} { } {You are traveling along a long, scenic road surrounded by verdant, well- tended fields.  The road widens here, and it continues on towards your east and west. } {NotYetSet} {} {Field} {} {1.000}
 E {  971} {e} {e} {2} {0} {}
 E {  973} {w} {w} {8} {0} {}
 
-R {  973} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  973} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  972} {e} {e} {2} {0} {}
 E {  974} {n} {n} {1} {0} {}
+E { 2563} {s} {s} {4} {0} {}
+E { 2600} {w} {w} {8} {0} {}
 
 R {  974} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  973} {s} {s} {4} {0} {}
@@ -9978,6 +9980,7 @@ E { 2384} {n} {n} {1} {0} {}
 R { 2386} {0} {<afa>} {A Small Intersection} { } {This is a small intersection in Ash Street.  To the west you can see the end of Ash, and to the south is the entrance to a small building.  To your astonishment, more people seem to be going into the building then are coming out.  As you ponder this circumstance, a cloud blots out the sun for a few seconds, echoing the turmoil of your thoughts. } {Brandor} {} {City} {} {1.000}
 E { 2384} {e} {e} {2} {0} {}
 E { 2396} {s} {s} {4} {0} {}
+E { 2660} {w} {w} {8} {0} {}
 
 R { 2387} {0} {<afa>} {Brandor Street} { } {Things are slowly becoming more quite as you leave the bustle in front of the gate.  Shadows dominate the area, from which anything could be hiding. Farther to the south the darkness of shadow becomes thicker as you look deeper into the slums of the town. } {Brandor} {} {City} {} {1.000}
 E { 1215} {n} {n} {1} {0} {}
@@ -10538,13 +10541,14 @@ R { 2525} {0} {<fff>} {The Northern Road} { } {Open fields parallel the road to 
 E { 2524} {s} {s} {4} {0} {}
 E { 2526} {n} {n} {1} {0} {}
 
-R { 2526} {0} {<fff>} {} {!} {} {NotYetSet} {} {} {} {1.000}
+R { 2526} {0} {<fff>} {The Northern Road} {!} {The northern road runs past a stand of trees on the west of the road here. The east side of the road is open fields and rolling plains.  The road continues through the plains to both the north and south.  Deep ruts make passage on the road slightly difficult here, forcing a slower pace.  Between the road and the stand of trees to the west is a small turnout for wagons and coaches trying to get off the road for whatever reason. } {NotYetSet} {} {Field} {} {1.000}
 E { 2525} {s} {s} {4} {0} {}
 E { 2527} {w} {w} {8} {0} {}
 E { 2528} {n} {n} {1} {0} {}
 
 R { 2527} {0} {<fff>} {A Turnout off of the Northern Road} { } {This small turnout has been arranged for wagons to pull off of the main road, perhaps for the drivers to rest or cook a meal.  Several campfires have been lit here recently, fresh ashes in small stone circles attesting to this. The main area of the clearing is bare dirt but the western side butts up against a small stand of trees, tangled undergrowth encircling their bases. This small section provides a modicum of shade when the sun is up in the afternoon and the heat is at its worst.  A short path to the east leads back to the northern road. } {NotYetSet} {} {Forest} {} {1.000}
 E { 2526} {e} {e} {2} {0} {}
+E { 2560} {w} {w} {8} {0} {}
 
 R { 2528} {0} {<fff>} {#MAP RETURN: RETURNED TO ROOM 2528 {}.} { } {} {NotYetSet} {} {} {} {1.000}
 E { 2526} {s} {s} {4} {0} {}
@@ -10562,7 +10566,7 @@ R { 2531} {0} {<fff>} {The Northern Road} { } {A tall elm tree once grew alongsi
 E { 2530} {s} {s} {4} {0} {}
 E { 2532} {n} {n} {1} {0} {}
 
-R { 2532} {0} {<fff>} {The Northern Road} { } {Open fields lie to the east and west of this hard-packed road.  The road is in a state of poor maintenance and deep ruts have grown into it.  South, along the road, stands a single dead tree to one side.  Open fields and meadows are bisected by the northern route the road takes.  The Eastern Mountains rise far off to the east, just visible in the distance.  Nearer, trees, both singly and in small stands, are scattered about the fields. } {NotYetSet} {} {Field} {} {1.000}
+R { 2532} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 2531} {s} {s} {4} {0} {}
 E { 2533} {n} {n} {1} {0} {}
 
@@ -10588,39 +10592,1888 @@ E { 2538} {w} {w} {8} {0} {}
 
 R { 2538} {0} {<fff>} {The Plains Near Some Hills} { } {The plains are starting to move more into hills at this point, and you feel the ground start to slope up beneath your feet as you continue walking.  The path disappears into the east, and winds up into the hills to the west, though you lose sight of it before it goes very far. } {NotYetSet} {} {Field} {} {1.000}
 E { 2537} {e} {e} {2} {0} {}
+E { 2539} {w} {w} {8} {0} {}
+
+R { 2539} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2538} {e} {e} {2} {0} {}
+E { 2540} {n} {n} {1} {0} {}
+E { 2541} {w} {w} {8} {0} {}
+
+R { 2540} {0} {<fff>} {On the Rolling Hills East of a Valley} { } {These large rolling hills run off to the north and west from here.  Small tuffs of grass poke out from cracks in their rocky surfaces.  To the west a large wooden stockade fence runs north and south, a series of large wooden buildings can be seen beyond its defense.  You can travel east along a hillside to reach the stockade or south along the ridge of this hill. } {NotYetSet} {} {Hills} {} {1.000}
 E { 2539} {s} {s} {4} {0} {}
-
-R { 2539} {0} {<fff>} {Against the Soaring Cliff} { } {The cliff face to the south juts out here slightly and blocks all travel to the east, towards the rolling hills of the valley.  To the north a large open field, used mainly for crude farming and crops heads towards a long wooden building at the center of the camp.  To the west the sheer cliff face continues. } {NotYetSet} {} {Mountains} {} {1.000}
-E { 2538} {n} {n} {1} {0} {}
-E { 2540} {w} {w} {8} {0} {}
-
-R { 2540} {0} {<fff>} {Against the Soaring Cliff} { } {The sheer wall of the cliff rises up to the south, shielding this entire area from the sun the entire  year.  A few rivulets of water stream down the rocky face to disappear into the cracks along the ground.  To the north a rock overhand provides shelter from all but the worst of weather and to the east the cliff face continues. } {NotYetSet} {} {Mountains} {} {1.000}
-E { 2539} {e} {e} {2} {0} {}
-E { 2541} {n} {n} {1} {0} {}
-
-R { 2541} {0} {<fff>} {Under the Rock Overhang} { } {A large rock overhang protrudes out from the cliff to the west, making this area into a long naturally covered open space.  The coolness of the dark sun deprived rock provides a respite to the harsh summers in the valley and it's corresponding warmth in the winter the opposite.  To the south the overhang joins back to the cliff as it turns suddenly and heads east. } {NotYetSet} {} {Mountains} {} {1.000}
-E { 2540} {s} {s} {4} {0} {}
 E { 2545} {n} {n} {1} {0} {}
 
-R { 2542} {0} {<fff>} {A Small Spring} { } {The huge cliff rises up above you, and curves away to the west and south  A huge overhang about fifteen feet up leaves most of this area in the dark, and prevents you from climbing up the pitted and cracked cliff wall.  The rock overhang continues to the south before turning back to the east. } {NotYetSet} {} {Mountains} {} {1.000}
-E { 2545} {s} {s} {4} {0} {}
-E { 2543} {e} {e} {2} {0} {}
-
-R { 2543} {0} {<fff>} {It seems to be locked.} { } {[MAPON] H:398/398 M:126/130 V:276/281 XP:215721 C:*> The wooden door seems to be closed. } {NotYetSet} {} {} {} {1.000}
-E { 2542} {w} {w} {8} {0} {}
-E { 2544} {n} {n} {1} {0} {}
+R { 2541} {0} {<fff>} {The Stockade Gate} { } {You stand at a high gate in a long wooden stockade.  Inside the gate is a long wooden hall, with several smaller outlying buildings to either side of it. A ways to the west, the valley ends in some cliffs rising up behind the encampment, sealing off the end of the valley.  A naked and headless human female hangs from the stockade above the gate as a warning to those who dare enter.  The path leads back to the east though the hills on the way towards the northern road. } {NotYetSet} {} {Hills} {} {1.000}
+E { 2539} {e} {e} {2} {0} {}
+E { 2543} {n} {n} {1} {0} {}
 E { 2546} {s} {s} {4} {0} {}
+E { 2547} {w} {w} {8} {0} {}
 
-R { 2544} {0} {<fff>} {The Long Hall} { } {This is the western end of the Long Hall.  Hides of various sorts cover the crude wooden walls and sloped ceiling.  From just a casual glance, you aren't sure from what creatures, exactly, these hides were taken.  You are impressed by how sturdy this Hall seems to be, considering the crudity of the construction.  A door leads to the west, to an open area between the end of the hall and the cliff.  To the south a door leads outside while a black wood door leads north. } {NotYetSet} {} {Inside} {} {1.000}
-E { 2543} {s} {s} {4} {0} {}
+R { 2542} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 
-R { 2545} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 2542} {n} {n} {1} {0} {}
+R { 2543} {0} {<fff>} {Along the Front of the Stockade} { } {This is a long cleared dirt strip along the front of the gnolls' stockade. You would guess its used to make sure that no one can sneak up on the fort, as there is absolutely no cover here whatsoever.  The front of the gate is to the south, or you can continue along the front of the stockade to the north.  The only thing to the east is back up to the head of the valley. } {NotYetSet} {} {Hills} {} {1.000}
 E { 2541} {s} {s} {4} {0} {}
+E { 2544} {n} {n} {1} {0} {}
 
-R { 2546} {0} {<fff>} {The Slave Keeper's Room} { } {This seems to be a smallish single dwelling.  There are several pegs and racks on the wall, which are currently being used to hold ropes, manacles, whips, and other implements of a master of slaves.  There is a small pile of bedding in one corner, which you would guess is used for sleeping on.  There is a large heavy wooden door leading to some sort of pen to the east, and an wooden door leading north. } {NotYetSet} {} {Hills} {} {1.000}
-E { 2543} {n} {open door;n} {1} {0} {}
+R { 2544} {0} {<fff>} {Along the Front of the Stockade} { } {This is a long cleared dirt strip along the front of the gnolls' stockade. You would guess its used to make sure that no one can sneak up on the fort, or get too close, as there is no cover here whatsoever.  Any army coming in here would be sitting ducks for arrow fire.  The strip continues the south, or you can head back up to the head of the valley to the east. } {NotYetSet} {} {Hills} {} {1.000}
+E { 2543} {s} {s} {4} {0} {}
+E { 2545} {e} {e} {2} {0} {}
+
+R { 2545} {0} {<fff>} {Along a Ridge} { } {The undulating ridge that moves through the hills here allows a view that peeks just over the top of a large wooden stockade that lies to the west.  A long wooden building within runs westward, ending just before a cliff face where this valley dead ends.  To the south the trail along the hill continues. } {NotYetSet} {} {Hills} {} {1.000}
+E { 2544} {w} {w} {8} {0} {}
+E { 2540} {s} {s} {4} {0} {}
+
+R { 2546} {0} {<fff>} {Along the Front of the Stockade} { } {This is a long cleared dirt strip along the front of the gnolls' stockade. You would guess its used to make sure that no one can sneak up on the fort, as there is absolutely no cover here whatsoever.  You would guess its also a great spot for defending gnolls to take out enemies with arrow fire.  The gate is just to the north. } {NotYetSet} {} {Hills} {} {1.000}
+E { 2541} {n} {n} {1} {0} {}
+
+R { 2547} {0} {<fff>} {The gate seems to be closed.} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2541} {e} {e} {2} {0} {}
+E { 2548} {n} {n} {1} {0} {}
+E { 2549} {w} {w} {8} {0} {}
+
+R { 2548} {0} {<fff>} {The Gnoll Gathering Field} { } {This is the southeastern corner of the large gnoll gathering field. Innumerable tracks have churned up the dark rich mud, but you manage to pick out the unmistakable tracks of horses here.  The large field continues to the west and to the north are the rear doors of the stable. } {NotYetSet} {} {Field} {} {1.000}
+E { 2547} {s} {s} {4} {0} {}
+
+R { 2549} {0} {<fff>} {Inside the Gnoll Stockade} { } {You are inside the gate in the gnolls' stockade.  To the east, a gate opens in a wall of high, pointed logs, which run north and south.  Just to the west of you is the entrance to the smoke filled Long Hall.  There is some open space to the south, following the stockade wall. } {NotYetSet} {} {Field} {} {1.000}
 E { 2547} {e} {e} {2} {0} {}
+E { 2550} {w} {w} {8} {0} {}
 
-R { 2547} {0} {<fff>} {The Slave Pen} { } {The stench in this half of the pen is, if anything, even worse than the western half.  Along the northern wall, there is something of a roof, which extends out a couple feet to give a minimal amount of shelter from the elements.  In the southeast corner is a hideous open latrine, and the one quick glance you take at it leaves you close to vomiting.  The only exit from here is back to the west. } {NotYetSet} {} {Hills} {} {1.000}
-E { 2546} {w} {w} {8} {0} {}
+R { 2550} {0} {<fff>} {The door seems to be closed.} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2549} {e} {e} {2} {0} {}
+E { 2551} {w} {w} {8} {0} {}
+
+R { 2551} {0} {<fff>} {The door seems to be closed.} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2550} {e} {e} {2} {0} {}
+E { 2552} {n} {n} {1} {0} {}
+E { 2555} {w} {w} {8} {0} {}
+
+R { 2552} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2551} {s} {s} {4} {0} {}
+E { 2553} {w} {w} {8} {0} {}
+E { 2554} {n} {n} {1} {0} {}
+
+R { 2553} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2552} {e} {e} {2} {0} {}
+
+R { 2554} {0} {<fff>} {The Female Gnoll's Quarters} { } {This room seems to be used as the living quarters by the females of the gnoll tribe.  It's actually cleaner than just about anywhere else you've seen in the camp, but that's not saying much.  Twisted piles of bedding lie in semi- scattered spots, looking almost, but not quite, like small nests.  There is an open doorway leading east into a moderately small room, and there is a small hallway to the south, through the curtain. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2552} {s} {s} {4} {0} {}
+
+R { 2555} {0} {<fff>} {The Long Hall} { } {You are in the east end of the great Long Hall of the gnolls.  Several very poorly ventilated fireplaces provide warmth, and a passing semblance of light to the hallway.  Unfortunately, they also create a great deal of smoke, which makes it difficult to see much of anything.  The smell is decidedly unpleasant, and there is a large amount of mess strewn about the room.  A large wooden door leads east, out of the hall that continues to the west. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2551} {e} {e} {2} {0} {}
+E { 2556} {w} {w} {8} {0} {}
+
+R { 2556} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2555} {e} {e} {2} {0} {}
+E { 2557} {s} {s} {4} {0} {}
+E { 2558} {n} {n} {1} {0} {}
+
+R { 2557} {0} {<fff>} {The Gnoll Camp} { } {This is the west end of the open area of the gnoll camp.  It seems to be relatively little used, as there are very few signs of footprints of any sort in the ground.  To the north a large wooden door leads into the western end of the long gnoll hall while a small building lies to the south, a wooden door at its entrance. } {NotYetSet} {} {Field} {} {1.000}
+E { 2556} {n} {n} {1} {0} {}
+
+R { 2558} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2556} {s} {s} {4} {0} {}
+E { 2559} {n} {n} {1} {0} {}
+
+R { 2559} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2558} {s} {s} {4} {0} {}
+
+R { 2560} {0} {<fff>} {A Path Through a Small Stand of Trees} { } {A path leads east through these trees, towards a small clearing.  It appears that a screen of undergrowth would hide this trail from anyone in the clearing. The trail turns southwards as it leads through the trees.  The southern destination of this trail is a campsite. } {NotYetSet} {} {Forest} {} {1.000}
+E { 2527} {e} {e} {2} {0} {}
+E { 2561} {s} {s} {4} {0} {}
+
+R { 2561} {0} {<fff>} {A Bandit Camp} { } {This campsite appears large enough to hold about twenty people.  Campfires roar in fire-pits and a section of the clearing with beaten down grass holds a fair number of tents.  A path leads out of this campsite to the north and a smaller clearing is visible to the west. } {NotYetSet} {} {Forest} {} {1.000}
+E { 2560} {n} {n} {1} {0} {}
+E { 2562} {w} {w} {8} {0} {}
+
+R { 2562} {0} {<fff>} {A Bandit Camp} { } {This small clearing seems to be used as a campsite by a few people.  A larger campsite visible to the east holds a proportionately greater number of people, indicating that either someone of importance or someone well-feared uses this section and keeps it clear of the creatures to the east.  A trail leads east into the other campsite. } {NotYetSet} {} {Forest} {} {1.000}
+E { 2561} {e} {e} {2} {0} {}
+
+R { 2563} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E {  973} {n} {n} {1} {0} {}
+E { 2564} {s} {s} {4} {0} {}
+
+R { 2564} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2563} {n} {n} {1} {0} {}
+E { 2565} {s} {s} {4} {0} {}
+
+R { 2565} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2564} {n} {n} {1} {0} {}
+E { 2566} {s} {s} {4} {0} {}
+
+R { 2566} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2565} {n} {n} {1} {0} {}
+E { 2567} {s} {open gate;s} {4} {0} {}
+
+R { 2567} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2566} {n} {n} {1} {0} {}
+E { 2568} {e} {e} {2} {0} {}
+E { 2572} {s} {s} {4} {0} {}
+
+R { 2568} {0} {<fff>} {Lucky's Gaming Tent} { } {This bare tent is dimly lit, making you a little wary of Lucky's establishment.  Some bent cards have been discarded in the corner of the tent.  The tent flap to the east is partially pulled back to expose the gaming rooms of the tent. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2567} {w} {w} {8} {0} {}
+E { 2569} {e} {e} {2} {0} {}
+
+R { 2569} {0} {<fff>} {Card Game} { } {An elliptical table stands against the eastern wall of the tent with just enough room for a person to stand behind it.  A few cards have been placed strategically on the table and a pile of extra cards is near the concave side of the table. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2568} {w} {w} {8} {0} {}
+E { 2570} {n} {n} {1} {0} {}
+E { 2571} {s} {s} {4} {0} {}
+
+R { 2570} {0} {<fff>} {Arm Wrestling} { } {Crumpled tickets crunch beneath the soles of your boots.  A box stands in the middle of the room with a stool placed on either side.  One of the stools has a name engraved upon it and the legs have been pushed deep into the soft earth. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2569} {s} {s} {4} {0} {}
+
+R { 2571} {0} {<fff>} {Shell Game} { } {Placed on a small wooden table are three shells and a small red ball waiting for someone to play a game.  A gentle breeze blows the canvas wall inwards. The games tent continues to the north. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2569} {n} {n} {1} {0} {}
+
+R { 2572} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2567} {n} {n} {1} {0} {}
+E { 2573} {e} {e} {2} {0} {}
+E { 2574} {s} {s} {4} {0} {}
+
+R { 2573} {0} {<fff>} {The Mystic's Tent} { } {Light bounces off all the shiny objects in this room, making it resemble a large prism.  A large crystal ball sits firmly attached to a table towards the back of the tent.  An ornate chair is behind the table and a small wooden chair has been set off to the side near the entrance of the tent. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2572} {w} {w} {8} {0} {}
+
+R { 2574} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2572} {n} {n} {1} {0} {}
+E { 2575} {e} {e} {2} {0} {}
+E { 2579} {s} {s} {4} {0} {}
+
+R { 2575} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2574} {w} {w} {8} {0} {}
+E { 2576} {e} {e} {2} {0} {}
+
+R { 2576} {0} {<fff>} {Open Field} { } {Large pine trees border this section of the field.  A large mill stone takes up most of the space before the dense forest.  Hoof prints surround the mill stone in a circular path and the stone looks like it is in use. A strong aroma of apples fills the air. } {NotYetSet} {} {Field} {} {1.000}
+E { 2575} {w} {w} {8} {0} {}
+E { 2577} {e} {e} {2} {0} {}
+
+R { 2577} {0} {<fff>} {A Narrow Path} { } {Old, looming pine trees make this path appear to be much smaller, almost to the point where you become claustrophobic.  An odor of mold and bodily functions filter through the air, making it unpleasant to breathe. } {NotYetSet} {} {Field} {} {1.000}
+E { 2576} {w} {w} {8} {0} {}
+E { 2578} {e} {e} {2} {0} {}
+
+R { 2578} {0} {<fff>} {Before a Pond} { } {Cattails form an almost impermeable barrier around the entire pond, except for the path that leads up to a rotting deck.  The pond is covered with a thin film of algae.  A few sparrows circle the pond looking for their dinner of bugs. } {NotYetSet} {} {Shore} {} {1.000}
+E { 2577} {w} {w} {8} {0} {}
+
+R { 2579} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2574} {n} {n} {1} {0} {}
+E { 2580} {e} {e} {2} {0} {}
+E { 2588} {s} {s} {4} {0} {}
+
+R { 2580} {0} {<fff>} {East Path of Oddities} { } {This dirt path wraps around the east side of the main attraction tent. A small striped tent seems to actively move people in and out of it.  There is a sign hanging crookedly on the eastern tent.  Torches, hung on tall stakes, light the path and the entrance to the tents. } {NotYetSet} {} {Field} {} {1.000}
+E { 2579} {w} {w} {8} {0} {}
+E { 2581} {e} {e} {2} {0} {}
+E { 2582} {s} {s} {4} {0} {}
+
+R { 2581} {0} {<fff>} {Side Show Exhibit: Snake Man} { } {The inside of this run-down tent has been separated into two sections by a thick rope that precariously hangs from the tent poles.  On the side farthest from the entrance is a wooden chair with a reddish colored pillow placed on it.  Scraggly grass sprawls over the chair's carved legs. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2580} {w} {w} {8} {0} {}
+
+R { 2582} {0} {<fff>} {East Path of Oddities} { } {The faded yellow main attractions tent stretches the entire length of this path to the south and north.  A grayish tent off to the east has its entrance flaps pulled back with a fraying piece of twine.  Dust from the path filters up into the air with each movement. } {NotYetSet} {} {Field} {} {1.000}
+E { 2580} {n} {n} {1} {0} {}
+E { 2583} {e} {e} {2} {0} {}
+E { 2584} {s} {s} {4} {0} {}
+
+R { 2583} {0} {<fff>} {Side Show Exhibit: The Mysterious Man} { } {The inside of the tent has been dyed a dark shade of gray which blocks the sun from entering.  A three-legged stool with a leather seat sits close to the eastern side of the tent.  Scattered along the edges of the tent are deep purple violets. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2582} {w} {w} {8} {0} {}
+
+R { 2584} {0} {<fff>} {East Path of Oddities} { } {Iron torches on tall stakes illuminate the maroon colored tent to the east. Deep red blood dripping off the canvas stains the ground directly outside the entrance.  Dust covered grass attempts to grow along the edges of the main attractions tent. } {NotYetSet} {} {Field} {} {1.000}
+E { 2582} {n} {n} {1} {0} {}
+E { 2585} {e} {e} {2} {0} {}
+E { 2586} {s} {s} {4} {0} {}
+
+R { 2585} {0} {<fff>} {Side Show Exhibit: Circus Idiot} { } {Dark stains of blood spot the maroon canvas and the dusty, parched ground. Scattered around and poking out of the ground are some brown and white feathers.  In the corner of the tent a metal cage holds three hens. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2584} {w} {w} {8} {0} {}
+
+R { 2586} {0} {<fff>} {} { } {A gypsy walks south.  [MAPON] H:398/398 M:119/130 V:283/283 XP:-243297 C:*> East Path of Oddities    Curving to the west, the path meets up with the main circus path at the far south side of the main attractions tent.  A ways off to the south stands some colorful wagons, which probably house the circus staff.  A row of medium sized tents dapple the northern end of the path. } {NotYetSet} {} {Field} {} {1.000}
+E { 2584} {n} {n} {1} {0} {}
+E { 2587} {w} {w} {8} {0} {}
+
+R { 2587} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2586} {e} {e} {2} {0} {}
+E { 2589} {n} {n} {1} {0} {}
+E { 2590} {s} {s} {4} {0} {}
+
+R { 2588} {0} {<fff>} {Main Attraction: Dancers and Drums} { } {A wooden platform emerges an arm's length above the ground to serve as a stage.  Against the east wall stands several large kettle drums which keep rhythm for the dancers.  Rows of benches consume the excess room in the tent. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2579} {n} {n} {1} {0} {}
+E { 2589} {s} {s} {4} {0} {}
+
+R { 2589} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2588} {n} {n} {1} {0} {}
+E { 2587} {s} {s} {4} {0} {}
+
+R { 2590} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2587} {n} {n} {1} {0} {}
+E { 2591} {s} {s} {4} {0} {}
+
+R { 2591} {0} {<fff>} {Promenade} { } {Suddenly, the constant commotion from the main part of the circus has died down to a dull drone.  Several brightly colored wagons surrounding the promenade bear the logo of the Circus of Daggers.  The path seems to end to the south at a highly decorated wagon. } {NotYetSet} {} {Field} {} {1.000}
+E { 2590} {n} {n} {1} {0} {}
+E { 2592} {s} {s} {4} {0} {}
+
+R { 2592} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2591} {n} {n} {1} {0} {}
+E { 2593} {e} {open door;e} {2} {0} {}
+E { 2594} {s} {open door south;s} {4} {0} {}
+E { 2595} {w} {w} {8} {0} {}
+E { 2596} {e command {open door east;e}} {e command {open door east;e}} {0} {0} {}
+E { 2599} {e command {open door;e}} {e command {open door;e}} {0} {0} {}
+
+R { 2593} {0} {<fff>} {Side Show's Wagon} { } {This cramped wagon has clothes, costumes, props, food and pets covering the floor.  The bare walls are a stark contrast to the filthy floor. To the east, the stairs lead up to the second floor. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2592} {w} {w} {8} {0} {}
+E { 2597} {e} {e} {2} {0} {}
+
+R { 2594} {0} {<fff>} {#MAP RETURN: RETURNED TO ROOM 2594 {Circus Master's Wagon}.} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2592} {n} {n} {1} {0} {}
+
+R { 2595} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 2592} {e} {e} {2} {0} {}
+
+R { 2596} {0} {} {} { } {} {} {} {} {} {1.000}
+
+R { 2597} {0} {<fff>} {Stairs} { } {Narrow stairs lead upwards to the second floor of the wagon.  The window has been covered up with a piece of wax paper which filters the light coming into the dark room.  The lower corner has curled up over time to expose the tree line behind the wagons. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2593} {w} {w} {8} {0} {}
+E { 2598} {u} {u} {16} {0} {}
+
+R { 2598} {0} {<fff>} {Upstairs} { } {Filth encompasses the entire room; dirty clothes and material possessions completely cover the floor.  Beds strewn throughout the room make this a comfortable place to rest. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2597} {d} {d} {32} {0} {}
+
+R { 2599} {0} {} {} { } {} {} {} {} {} {1.000}
+
+R { 2600} {0} {<fff>} {Along the Western Road} { } {You are walking along a wide, well-kept road which is gradually going up a tall, rolling hill.  Wide, verdant fields are to your north and south, and you cannot see over the hill to your west.  The road also continues on to the east. } {NotYetSet} {} {Field} {} {1.000}
+E {  973} {e} {e} {2} {0} {}
+E { 2601} {w} {w} {8} {0} {}
+
+R { 2601} {0} {<fff>} {Along the Western Road} { } {You are walking up a tall, rolling hill on a wide, well-kept road.  Fields are to your north and south, and you can see the road also continuing on to your east. } {NotYetSet} {} {Field} {} {1.000}
+E { 2600} {e} {e} {2} {0} {}
+E { 2602} {w} {w} {8} {0} {}
+
+R { 2602} {0} {<fff>} {At the Top of the Hill} { } {You are standing at the top of a long, rolling hill on a well-kept road. Large, stone posts line the wall here, and to your west you can see what appears to be a wide, flat plain dotted with roads and villages.  The road here also continues on to your east. } {NotYetSet} {} {Field} {} {1.000}
+E { 2601} {e} {e} {2} {0} {}
+E { 2603} {w} {w} {8} {0} {}
+
+R { 2603} {0} {<fff>} {Along the Western Road} { } {You are traveling downhill along a long, well-kept road.  A small village lies to your west, and you can see the top of a tall hill to your east.  Lush, verdant fields lie to your north and to your south.    The village appears to have strange, unfamiliar architecture, and you can see odd signposts lining the road, written in a strange tongue.  The sounds of marching feet can be heard somewhere in the distance. } {NotYetSet} {} {Field} {} {1.000}
+E { 2602} {e} {e} {2} {0} {}
+E { 2604} {w} {w} {8} {0} {}
+
+R { 2604} {0} {<fff>} {Entrance to the last Gaullish Village} { } {Looking west  you can see a thriving Gaullish village in spite of the recent Roman invasions.  Something must set these Gaul apart from the rest given their ability to survive the relentless nature of the Roman empire.  Then as if in answer to your thoughts you see a tall Gaul carrying a menhir over his shoulder chasing a little white dog down the street. } {NotYetSet} {} {City} {} {1.000}
+E { 2603} {e} {e} {2} {0} {}
+E { 2605} {n} {n} {1} {0} {}
+E { 2606} {s} {s} {4} {0} {}
+E { 2607} {w} {w} {8} {0} {}
+
+R { 2605} {0} {<fff>} {Northern Guardhouse} { } {Not every villager becomes a guardsman. Those of less skill still wishing to serve apparently end up here where not much is expected of them. Most of these guards are ancient and well past their peak ... They also have apparently forgotten how to keep their guardhouse, there is a smattering of junk all over this room. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2604} {s} {s} {4} {0} {}
+
+R { 2606} {0} {<fff>} {Southern Guardhouse} { } {A few of the denizens of the Gaullish town are lazing about here, just passing the time.  At a closer look though, they are all sporting swords.  You suddenly remember that for these people, the Romans are always "at the gate." } {NotYetSet} {} {Inside} {} {1.000}
+E { 2604} {n} {n} {1} {0} {}
+
+R { 2607} {0} {<fff>} {Inside the Village} { } {The road forks here in three directions: north, south, and west.  To the west is obviously the center of this little village.  You spot a market in that direction.  The road is not well swept, many stones lie on its path.  This is obviously the work of some mad chiseler. } {NotYetSet} {} {City} {} {1.000}
+E { 2604} {e} {e} {2} {0} {}
+E { 2608} {n} {n} {1} {0} {}
+E { 2625} {w} {w} {8} {0} {}
+E { 2627} {s} {s} {4} {0} {}
+
+R { 2608} {0} {<fff>} {Northern Road} { } {To the west are a couple of houses that can only be accessed from the main street.  To the south a sprawling village bustles about.  You can follow the road north to what looks like a large open area. } {NotYetSet} {} {City} {} {1.000}
+E { 2607} {s} {s} {4} {0} {}
+E { 2609} {n} {n} {1} {0} {}
+
+R { 2609} {0} {<fff>} {Northern Road} { } {The road continues north here although its boundaries are less well defined. A large area is cleared out to the west and tables have been set up in preparation for a grand banquet or feast.  To the north you can hear the tell tale sound of metal on stone. } {NotYetSet} {} {City} {} {1.000}
+E { 2608} {s} {s} {4} {0} {}
+E { 2610} {e} {e} {2} {0} {}
+E { 2614} {n} {n} {1} {0} {}
+E { 2620} {w} {w} {8} {0} {}
+
+R { 2610} {0} {<fff>} {A Gaul walks in from the west.} { } {[MAPON] H:398/398 M:130/130 V:283/283 XP:-242312 C:*> Grass Field    Green grass abounds here.  You think off in the distance you might hear the sounds of a squirrel or two.  To the east lies the fence that protects this village and its citizens from the vicious Roman onslaught. } {NotYetSet} {} {Field} {} {1.000}
+E { 2609} {w} {w} {8} {0} {}
+E { 2611} {n} {n} {1} {0} {}
+
+R { 2611} {0} {<fff>} {Grass Field} { } {Green grass abounds here.  To the north you hear the echo of an incessant chiseling as well as an occasional yelp or two.  To the east lies a huge fence. } {NotYetSet} {} {Field} {} {1.000}
+E { 2610} {s} {s} {4} {0} {}
+E { 2612} {n} {n} {1} {0} {}
+E { 2614} {w} {w} {8} {0} {}
+
+R { 2612} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2611} {s} {s} {4} {0} {}
+E { 2613} {w} {w} {8} {0} {}
+
+R { 2613} {0} {<fff>} {Menhir Factory} { } {Huge menhirs are stacked against the northern fence of the village.  The massive stones must have taken years of effort to build.  Each one looks to weigh more than a full wagon.  The ground is blanketed with bits and pieces of rock and in the center of the makeshift workshop sits a table full of stone working tools. } {NotYetSet} {} {Field} {} {1.000}
+E { 2612} {e} {e} {2} {0} {}
+E { 2614} {s} {s} {4} {0} {}
+E { 2615} {w} {w} {8} {0} {}
+
+R { 2614} {0} {<fff>} {Northern Road} { } {The northern road approaches its end here. The rocks on the ground seem to multiply of their own volition. More careful observation would seem to indicate that they are coming from the north where someone has just taken a chisel to a VERY large boulder. } {NotYetSet} {} {City} {} {1.000}
+E { 2611} {e} {e} {2} {0} {}
+E { 2613} {n} {n} {1} {0} {}
+E { 2609} {s} {s} {4} {0} {}
+E { 2619} {w} {w} {8} {0} {}
+
+R { 2615} {0} {<fff>} {Menhir Storage} {DT!} {Menhirs are stacked here in a disorderly fashion.  The room is filled with the sounds of stone crackling and popping under the immense weight of each other.  One false move and the lot could come crashing down and crush you.    A large sign reads : DANGEROUS!  GET OUT!! } {NotYetSet} {} {Inside} {} {1.000}
+E { 2613} {e} {e} {2} {0} {}
+E { 2616} {w} {w} {8} {0} {}
+E { 2619} {s} {s} {4} {0} {}
+
+R { 2616} {0} {<fff>} {Entrance to Underlair} { } {large stones are piled messily at the base of a fence blocking what looks like an entryway or cave.  You are almost certain that with a bit of effort you can dig through.  Then again, perhaps there is another entrance nearby.  One with less work involved. } {NotYetSet} {} {Field} {} {1.000}
+E { 2615} {e} {e} {2} {0} {}
+E { 2617} {s} {s} {4} {0} {}
+E { 2622} {w} {w} {8} {0} {}
+
+R { 2617} {0} {<fff>} {Banquet Square} { } {More signs of a great feast lay strewn about the square.  The smell in the air is of rotting food and spilled wine.  In your hurried leave, you spot something unusual beneath the dirt, a trapdoor perhaps? } {NotYetSet} {} {City} {} {1.000}
+E { 2616} {n} {n} {1} {0} {}
+E { 2618} {d} {d} {32} {0} {}
+E { 2619} {e} {e} {2} {0} {}
+E { 2621} {s} {s} {4} {0} {}
+E { 2623} {w} {w} {8} {0} {}
+
+R { 2618} {0} {<fff>} {Entrance to druidic lair} { } {Cut straight into the rock beneath the city above, this shaft plumbets into the depths.  Smooth stone walls, with a single path of hand holds along the the north face of the decent, cut into the ground. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2617} {u} {u} {16} {0} {}
+
+R { 2619} {0} {<fff>} {Banquet Square} { } {This is the northeastern edge of the large banquet square. You wonder what kind of bizarre rituals occur here at the coming of the full moon. You see a large tree here and a man tied to it. } {NotYetSet} {} {City} {} {1.000}
+E { 2617} {w} {w} {8} {0} {}
+E { 2615} {n} {n} {1} {0} {}
+E { 2614} {e} {e} {2} {0} {}
+E { 2620} {s} {s} {4} {0} {}
+
+R { 2620} {0} {<fff>} {Banquet Square} { } {Remnants of the last banquet are strewn about the square.  The ground is covered in spilled drink and other liquids you dare not speculate on for long. A few charred bits of boar flesh hang loosely from the rib cage of a once proud beast.  The festivities that took place here must have been grand indeed. } {NotYetSet} {} {City} {} {1.000}
+E { 2609} {e} {e} {2} {0} {}
+E { 2619} {n} {n} {1} {0} {}
+E { 2621} {w} {w} {8} {0} {}
+
+R { 2621} {0} {<fff>} {Banquet Square} { } {All in all, this part of the square looks rather clean compared to the rest of the feast.  It would appear that whomever sat here was a little more civilized than the rest of the attendees.  The mist to the west is less intimidating standing again in civilisation.  The great feast that happened here most likely a spectacle to behold. } {NotYetSet} {} {City} {} {1.000}
+E { 2620} {e} {e} {2} {0} {}
+E { 2617} {n} {n} {1} {0} {}
+E { 2624} {w} {w} {8} {0} {}
+
+R { 2622} {0} {<fff>} {Garden and memory} { } {A few lone flowers lay out here in the middle of nowhere and a plaque rests diagonally on the rocks besides the flowers. } {NotYetSet} {} {Field} {} {1.000}
+E { 2616} {e} {e} {2} {0} {}
+E { 2623} {s} {s} {4} {0} {}
+E { 2656} {w} {w} {8} {0} {}
+
+R { 2623} {0} {<fff>} {The Misthaven} { } {You are standing on a grassy patch in the middle of this swamp surrounded by the unrelenting swirls of mist.  Every time you think you can see some sort of formation in the distance it is just as quickly swallowed by the haze.  There is a strong wind blowing westward and strangely the fog seems thickest here. perhaps it originates from somewhere to the east? } {NotYetSet} {} {Swamp} {} {1.000}
+E { 2622} {n} {n} {1} {0} {}
+E { 2617} {e} {e} {2} {0} {}
+E { 2624} {s} {s} {4} {0} {}
+E { 2655} {w} {w} {8} {0} {}
+
+R { 2624} {0} {<fff>} {Roman Cart} { } {A small cart has set up shop here overflowing with wares plundered from various Roman cities surrounding the area.  Other than a shady vendor perched quietly off to one side, there are no patrons here.  From the glares coming from passersby you can tell that most of the villagers view this cart with a little bit of disdain.  it is clear that only the most dastardly of folks frequent this place. } {NotYetSet} {} {City} {} {1.000}
+E { 2621} {e} {e} {2} {0} {}
+E { 2623} {n} {n} {1} {0} {}
+E { 2652} {s} {s} {4} {0} {}
+E { 2654} {w} {w} {8} {0} {}
+
+R { 2625} {0} {<fff>} {Main Road} { } {This road leads to the center of town.  To the north is a residential establishment of some sort.  To the west the hustle and bustle of the town's market area can be heard. } {NotYetSet} {} {City} {} {1.000}
+E { 2607} {e} {e} {2} {0} {}
+E { 2626} {n} {open door;n} {1} {0} {}
+E { 2647} {w} {w} {8} {0} {}
+E { 2649} {s} {s} {4} {0} {}
+
+R { 2626} {0} {<fff>} {Campanias' Home} { } {This home is a bit unusual.  There are no chairs to sit on; there are no tables to sit at.  the floor is bare but the walls are decorated with teeth and Roman war implements.  The horrible trophies are gut wrenching to look at. Whomever lives here must be a furious warrior.  On the west wall hangs the stuffed head of a boar. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2625} {s} {s} {4} {0} {}
+
+R { 2627} {0} {<fff>} {Southern Road} { } {This road stretches south from the main gate to what seems to be some sort of residential area. Off to the south and west, there is a grassy field and you can hear the sounds of children playing. } {NotYetSet} {} {City} {} {1.000}
+E { 2607} {n} {n} {1} {0} {}
+E { 2628} {s} {s} {4} {0} {}
+E { 2649} {w} {w} {8} {0} {}
+
+R { 2628} {0} {<fff>} {Southern Road} { } {The road continues south here. To the east you see children playing. Broken pieces of wood lie on the ground here, remnants of a staff that apparently someone was hit hard with ... } {NotYetSet} {} {City} {} {1.000}
+E { 2627} {n} {n} {1} {0} {}
+E { 2629} {e} {e} {2} {0} {}
+E { 2631} {s} {s} {4} {0} {}
+
+R { 2629} {0} {<fff>} {Grass Field} { } {A small fire flickers here but is well contained.  Someone has taken the time to create a small circle of stone to keep the flames at bay.  Children run in and out of view stopping momentarily to practice their bonfire rituals. Some passersby get caught up in the mayhem and laughter.  To the east lies a huge wooden fence. } {NotYetSet} {} {Field} {} {1.000}
+E { 2628} {w} {w} {8} {0} {}
+E { 2630} {s} {s} {4} {0} {}
+
+R { 2630} {0} {<fff>} {Southeast Corner of the Village} { } {This is the southeastern edge of the Gaullish village.  In the middle of the plain field is a stone slab.  On this slab is a short yet powerful looking Gaul with an imposing mustache.  At second glance, it's only a statue.  To the east and south a large wooden fence protects these Gauls from all but the forces of nature. } {NotYetSet} {} {Field} {} {1.000}
+E { 2629} {n} {n} {1} {0} {}
+E { 2631} {w} {w} {8} {0} {}
+
+R { 2631} {0} {<fff>} {Southedge Road} { } {The road reaches the southern edge of the village here and turns towards the west.  Off to the ease you glimpse what looks like a statue standing in the middle of a field.  A fence runs along the southern border. } {NotYetSet} {} {City} {} {1.000}
+E { 2630} {e} {e} {2} {0} {}
+E { 2628} {n} {n} {1} {0} {}
+E { 2632} {w} {w} {8} {0} {}
+
+R { 2632} {0} {<fff>} {Southedge Road} { } {The road contines to the west here.  To the north is a house of some sort. You can hear a loud clanging noise coming from inside. } {NotYetSet} {} {City} {} {1.000}
+E { 2631} {e} {e} {2} {0} {}
+E { 2633} {n} {open door;n} {1} {0} {}
+E { 2634} {w} {w} {8} {0} {}
+
+R { 2633} {0} {<fff>} {Agelstatix's House} { } {This home is a disaster.  It looks as though a furious battle took place here.  The furniture is overturned and the fire is out.  Beside the door hangs a well used frying pan. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2632} {s} {open door;s} {4} {0} {}
+
+R { 2634} {0} {<fff>} {Southedge Road} { } {The road continues to the west here.  To the north is yet another house however this door is made from stone.  From the west, the distinct aroma of rotten fish can be perceived. } {NotYetSet} {} {City} {} {1.000}
+E { 2632} {e} {e} {2} {0} {}
+E { 2635} {n} {n} {1} {0} {}
+E { 2636} {w} {w} {8} {0} {}
+
+R { 2635} {0} {<fff>} {Obelix's House} { } {This is the home of the villages master chiseler.  Everything in this house is made of stone and quite beautiful.  There is a work area off to one corner covered in scattered bits of chiseled stone.  Two stone chairs sit abreast a small table and roaring fireplace.  The only item in the room made from something other than stone is a shoddily crafted animal bed beside one of the chairs. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2634} {s} {s} {4} {0} {}
+
+R { 2636} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2634} {e} {e} {2} {0} {}
+E { 2637} {n} {n} {1} {0} {}
+E { 2638} {w} {w} {8} {0} {}
+
+R { 2637} {0} {<fff>} {Getafix's Humble Abode} { } {The first thing you notice upon entering this house is that most of its furniture is made of wood.  The next thing you notice is that a meal is laid out for your consumption.  Whoever did this must be very hospitable indeed ... The very last thing you notice here is that the master of this abode is NOT in. Although his door is open ... } {NotYetSet} {} {Inside} {} {1.000}
+E { 2636} {s} {s} {4} {0} {}
+
+R { 2638} {0} {<fff>} {Intersection of Southedge and Toutatis} { } {An old man stands at this corner and preaches to the Gaullish populace of the world's end and its imminent destruction. It is only then that you notice his feet are in chains and no one is listening to him. } {NotYetSet} {} {City} {} {1.000}
+E { 2636} {e} {e} {2} {0} {}
+E { 2639} {n} {n} {1} {0} {}
+E { 2640} {w} {w} {8} {0} {}
+
+R { 2639} {0} {<fff>} {Toutatis Avenue} { } {To the west you see the town fishmonger's shop; the stench coming from that direction is almost unbearable, you wretch momentarily and are struggling to fight the urge to flee. } {NotYetSet} {} {City} {} {1.000}
+E { 2638} {s} {s} {4} {0} {}
+E { 2644} {n} {n} {1} {0} {}
+
+R { 2640} {0} {<fff>} {Toutatis Avenue} { } {Toutatis curves west here. Just a little past here you can see the outlines of a humble hut. } {NotYetSet} {} {City} {} {1.000}
+E { 2638} {e} {e} {2} {0} {}
+E { 2641} {w} {w} {8} {0} {}
+
+R { 2641} {0} {<fff>} {Toutatis Avenue} { } {West of here lies a rather big hut.  The stoop is spotless and the golden sigil on the door lets you know someone of importance lives here.  To the north lurks a dimly lit alleyway. } {NotYetSet} {} {City} {} {1.000}
+E { 2640} {e} {e} {2} {0} {}
+E { 2642} {n} {n} {1} {0} {}
+E { 2643} {w} {open door;w} {8} {0} {}
+
+R { 2642} {0} {<fff>} {Dimly Lit Alleyway} { } {You find yourself in a dimly lit alleyway behind the market.  There is some garbage strewn about but all in all seems well kept.  There is a wooden door with two massive swords affixed to it's face. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2641} {s} {s} {4} {0} {}
+
+R { 2643} {0} {<fff>} {Chief's House} { } {This is the home of Chief Vitalstatistix and his fine and lovely wife Impedimenia. In a corner you see the famous tub that the chief often takes his baths in. Missing is his ceremonial shield. Of course, he would be carrying his shield with him would he not ... } {NotYetSet} {} {Inside} {} {1.000}
+E { 2641} {e} {open door;e} {2} {0} {}
+
+R { 2644} {0} {<fff>} {Toutatis Avenue} { } {Toutatis avenue begins here and heads south.  You can see off in the distance the road curves to the west around the town square. } {NotYetSet} {} {City} {} {1.000}
+E { 2639} {s} {s} {4} {0} {}
+E { 2645} {n} {n} {1} {0} {}
+E { 2651} {e} {e} {2} {0} {}
+
+R { 2645} {0} {<fff>} {Main Road} { } {The main road continues to the west here. Roughly a little further and to the south, you see a couple of tents as well as open shops. To the north you see a haze most unnatural. } {NotYetSet} {} {City} {} {1.000}
+E { 2644} {s} {s} {4} {0} {}
+E { 2646} {e} {e} {2} {0} {}
+E { 2653} {n} {n} {1} {0} {}
+
+R { 2646} {0} {<fff>} {Main Road} { } {The road continues here towards the center of town. To the north and south lie a little pond and fountain, respectively. } {NotYetSet} {} {City} {} {1.000}
+E { 2645} {w} {w} {8} {0} {}
+E { 2647} {e} {e} {2} {0} {}
+E { 2651} {s} {s} {4} {0} {}
+E { 2652} {n} {n} {1} {0} {}
+
+R { 2647} {0} {<fff>} {Main Road} { } {This road continues towards the center of town. To the north again is yet another residential establishment. } {NotYetSet} {} {City} {} {1.000}
+E { 2646} {w} {w} {8} {0} {}
+E { 2625} {e} {e} {2} {0} {}
+E { 2648} {n} {open door;n} {1} {0} {}
+E { 2650} {s} {s} {4} {0} {}
+
+R { 2648} {0} {<fff>} {Olaf's Guest-House} { } {This house is quite different in comparison to others throughout the village.  It is decorated lavishly with fineries from Lutetia and other Roman cities.  The furniture is elegant yet unassuming.  This is a very fine display for visitors indeed. } {NotYetSet} {} {Inside} {} {1.000}
+E { 2647} {s} {open door;s} {4} {0} {}
+
+R { 2649} {0} {<fff>} {Backyard} { } {This is the back lawn of the house to the south. It is uncared for apparently. You should probably leave here before some ticks get a hold of you! } {NotYetSet} {} {City} {} {1.000}
+E { 2625} {n} {n} {1} {0} {}
+E { 2627} {e} {e} {2} {0} {}
+E { 2650} {w} {w} {8} {0} {}
+
+R { 2650} {0} {<fff>} {Backyard} { } {This back lawn is much more cared for than the one to the east. Someone takes pretty good care of the petunias here. } {NotYetSet} {} {City} {} {1.000}
+E { 2649} {e} {e} {2} {0} {}
+E { 2647} {n} {n} {1} {0} {}
+E { 2651} {w} {w} {8} {0} {}
+
+R { 2651} {0} {<fff>} {Getafix's Fountain} { } {This back yard has a little fountain spouting water out of the middle of it. The water looks pure and refreshing. } {NotYetSet} {} {City} {} {1.000}
+E { 2650} {e} {e} {2} {0} {}
+E { 2646} {n} {n} {1} {0} {}
+E { 2644} {w} {w} {8} {0} {}
+
+R { 2652} {0} {<fff>} {Little Pond} { } {This looks like the perfect place for children to play.  However, upon closer inspection the edges of the pond are clearly soaked in thick red liquid. It would appear that far more violent things than children playing must occur here. } {NotYetSet} {} {Field} {} {1.000}
+E { 2646} {s} {s} {4} {0} {}
+E { 2624} {n} {n} {1} {0} {}
+
+R { 2653} {0} {<fff>} {Borderland} { } {This is the begining of a makeshit border between the bustling village to the south and the ever churning mist to the north.  Guards dot the edge of the mist dutifully preventing anyone from wandering too close the the hazy swampland.  No one has taken any notice of you.  It wouldn't be very hard to slip past the blockade unnoticed. } {NotYetSet} {} {Field} {} {1.000}
+E { 2645} {s} {s} {4} {0} {}
+E { 2654} {n} {n} {1} {0} {}
+
+R { 2654} {0} {<fff>} {The Misthaven} { } {Warm winds blow in from the east causing the mist to swirl and churn. Despite the breeze and the howling fracas of the unnatural haze it does not dissipate.  The ground here is much more sturdy but still quite treacherous due to the lack of vision. } {NotYetSet} {} {Swamp} {} {1.000}
+E { 2653} {s} {s} {4} {0} {}
+E { 2624} {e} {e} {2} {0} {}
+E { 2655} {n} {n} {1} {0} {}
+
+R { 2655} {0} {<fff>} {The Misthaven} { } {As the dense fog whirls around you, shapes begin to appear in it's infinite vortex and you swear you can see faces, or perhaps your mind is just playing tricks on you.  It is hard to see in any direction and you get the feeling you are being watched.  There is a noticable westerly wind here. } {NotYetSet} {} {Field} {} {1.000}
+E { 2654} {s} {s} {4} {0} {}
+E { 2623} {e} {e} {2} {0} {}
+E { 2656} {n} {n} {1} {0} {}
+
+R { 2656} {0} {<fff>} {The Misthaven} { } {More grass covers the ground here.  The mist continues to blow back and forth seemingly unaffected by the relatively strong winds blowing in from the east. } {NotYetSet} {} {Field} {} {1.000}
+E { 2655} {s} {s} {4} {0} {}
+E { 2622} {e} {e} {2} {0} {}
+E { 2657} {w} {w} {8} {0} {}
+
+R { 2657} {0} {<fff>} {Edge of Misthaven} { } {You are standing on the edge of the Misthaven.  To the west the landscape opens into a lush grassland.  East and south offer unnatural fog.  It is perhaps safer to stay here then to take your chances in the dark mist. } {NotYetSet} {} {Swamp} {} {1.000}
+E { 2656} {e} {e} {2} {0} {}
+E { 2658} {s} {s} {4} {0} {}
+
+R { 2658} {0} {<fff>} {Alas, you cannot go that way.} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2657} {n} {n} {1} {0} {}
+E { 2659} {s} {s} {4} {0} {}
+
+R { 2659} {0} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+E { 2658} {n} {n} {1} {0} {}
+
+R { 2660} {0} {<afa>} {Ash's End} { } {You have reached the end of Ash Street.  A few peddlers stand around here trying to hawk their few semi-precious items.  But other then the rare wanderer, you don't see many people heading over to buy.  The main current of people seems to be heading into that little intersection to the east. } {Brandor} {} {City} {} {1.000}
+E { 2386} {e} {e} {2} {0} {}
+E { 2661} {w} {w} {8} {0} {}
+
+R { 2661} {0} {<afa>} {The Southern Dwarven Road} { } {The road begins to ascend straight up a wide, sloping rise.  The brickwork is even to the point of being nearly seamless; the sides of the road show some significant amount of ordering care.  The trees along the sides of the road cast playful shadows both between themselves and slightly upon the stones of this straight road, but none seem to have the effrontery to dot the clean stonework with their old leaves! } {Dwarven Road} {} {Field} {} {1.000}
+E { 2660} {e} {e} {2} {0} {}
+E { 2674} {n} {n} {1} {0} {}
+
+R { 2662} {0} {<ffa>} {The Southern Dwarven Road} { } {This wide and straight road is paved with dwarvish precision.  It slopes up and northward into the mountains toward the realm of King Kerrin, Dwarflord of the Mountain, and is flanked at intervals by great statues of past dwarven rulers.    Though small plants grow to either side of the road, no weed can be seen to dart through the closely packed stones of the road itself. } {Kerrin} {} {Field} {} {1.000}
+E { 2674} {s} {s} {4} {0} {}
+E { 2681} {n} {n} {1} {0} {}
+E { 2675} {e} {e} {2} {0} {}
+
+R { 2663} {0} {<ffa>} {The Great Gate} { } {A pair of great double doors stand here, carved from living rock and flanked by the most delicate of stonework mosaics, announcing to any who would come this way that they have come to the Southern Delve of the Dwarf-Realm of King Kerrin.  On the doors themselves is engraved the seal of Kerrin's house, an Axe that seems to bloom from the earth itself. } {Kerrin} {} {Inside} {} {1.000}
+E { 2680} {s} {s} {4} {0} {}
+E { 2664} {n} {open double;n} {1} {0} {}
+
+R { 2664} {0} {<ffa>} {The Grand Entry Hall} { } {The grand entry hall to King Kerrin's realm is a large, rectangular room, with a domed ceiling and flared, internal buttresses.  Along either wall are stone statues of Kerrin's ancestors in martial poses, their noble eyes measuring each individual who enters the kingdom.  Lighting is provided by small enchanted gems fitted into specially made sockets high up in the walls.    A pair of large, steel doors lead north, further into the realm; to the south is the Southern Delve. } {Kerrin} {} {Inside} {} {1.000}
+E { 2663} {s} {open double;s} {4} {0} {}
+E { 2686} {n} {open steel;n} {1} {0} {}
+
+R { 2665} {0} {<ffa>} {A Steep Mountain Path} { } {This path climbs steeply and dangerously up toward the eastern ridge of the mountain.  Loose rocks make climbing a slippery and somewhat unsure thing here, and occasionally a small pebble drops down toward you from above.    To the east and somewhat below you is the Southern Dwarven Road that leads back into civilized lands. } {Kerrin} {} {Mountains} {} {1.000}
+E { 2687} {w} {w} {8} {0} {}
+E { 2666} {n} {n} {1} {0} {}
+
+R { 2666} {8} {} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2665} {s} {s} {4} {0} {}
+E { 2667} {e} {e} {2} {0} {}
+
+R { 2667} {8} {} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2666} {w} {w} {8} {0} {}
+E { 2668} {n} {n} {1} {0} {}
+
+R { 2668} {0} {<ffa>} {A Steep Mountain Path} { } {This path climbs steeply and dangerously up toward the eastern ridge of the mountain.  Loose rocks make climbing a slippery and somewhat unsure thing here, and occasionally a small pebble drops down toward you from above. } {Kerrin} {} {Mountains} {} {1.000}
+E { 2667} {s} {s} {4} {0} {}
+E { 2671} {n} {n} {1} {0} {}
+
+R { 2669} {0} {<ffa>} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2670} {s} {s} {4} {0} {}
+E { 2672} {e} {e} {2} {0} {}
+
+R { 2670} {8} {} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2669} {n} {n} {1} {0} {}
+E { 2671} {s} {s} {4} {0} {}
+
+R { 2671} {8} {} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2670} {n} {n} {1} {0} {}
+E { 2668} {s} {s} {4} {0} {}
+
+R { 2672} {0} {<ffa>} {A Steep Mountain Path} { } {This path climbs steeply and dangerously up toward the eastern ridge of the mountain.  Loose rocks make climbing a slippery and somewhat unsure thing here, and occasionally a small pebble drops down toward you from above. } {Kerrin} {} {Mountains} {} {1.000}
+E { 2669} {w} {w} {8} {0} {}
+E { 2676} {n} {n} {1} {0} {}
+
+R { 2673} {0} {<ffa>} {A Steep Mountain Path} { } {The path no longer slopes upward here; you have reached the top of the mountain's eastern ridge.  The air is crisp and clean, and the wind blows with a bit in its air. } {Kerrin} {} {Mountains} {} {1.000}
+E { 2676} {s} {s} {4} {0} {}
+E { 2677} {w} {w} {8} {0} {}
+
+R { 2674} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 2662} {n} {n} {1} {0} {}
+E { 2661} {s} {s} {4} {0} {}
+
+R { 2675} {8} {} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2687} {e} {e} {2} {0} {}
+E { 2662} {w} {w} {8} {0} {}
+
+R { 2676} {8} {} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2673} {n} {n} {1} {0} {}
+E { 2672} {s} {s} {4} {0} {}
+
+R { 2677} {0} {<ffa>} {Along the Crest} { } {You walk along the high crest of the east ridge of the mountain.  Wind gusts about you, and small bits of snow still cling to the ground.  Little plant life grows at this altitude, and much of what seems native has been cropped close to the ground by searching teeth.  Large animal bones litter the ridge and path. } {Kerrin} {} {Mountains} {} {1.000}
+E { 2673} {e} {e} {2} {0} {}
+E { 2678} {w} {w} {8} {0} {}
+E { 2679} {n} {n} {1} {0} {}
+
+R { 2678} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 2677} {e} {e} {2} {0} {}
+
+R { 2679} {0} {<ffa>} {Along the Crest} { } {You walk along the high crest of the east ridge of the mountain.  North of you the path slopes steeply downward, heading to the northern plains.  Above you stands the heights of the mountain, snow-capped and majestic.  Your view extends to great lengths here: you can see a town far to the north on the plains, a great river to the east, and beyond that a range of ashen mountains mountains wreathed in smoke. } {Kerrin} {} {Mountains} {} {1.000}
+E { 2677} {s} {s} {4} {0} {}
+E { 2746} {n} {n} {1} {0} {}
+
+R { 2680} {8} {} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2663} {n} {n} {1} {0} {}
+E { 2681} {s} {s} {4} {0} {}
+
+R { 2681} {8} {} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2680} {n} {n} {1} {0} {}
+E { 2662} {s} {s} {4} {0} {}
+
+R { 2682} {0} {<ffa>} {The Warden's Post} { } {In this cheerful, if somewhat bare, room the dwarven guardsmen who keep King Kerrin's Southern Delve safe from intruders rest while off duty. Five bunk beds line the southern wall, and 3 tables surrounded by chairs sit about the room. A small fireplace on the west wall provides the room with ample heat; smoke from the fire is vented directly out to the surface via a fluted vent.    Lighting is provided by two hooded crystals on the north and south walls at just above eye level. } {Kerrin} {} {Inside} {} {1.000}
+E { 2688} {n} {open door;n} {1} {0} {}
+
+R { 2683} {0} {<ffa>} {The King's Stables} { } {The King's Stables, owned and operated by Barrukderron the dwarf and his family since before most folks can remember, is a cheerful, well maintained area.  A small desk sits near the entrance, as does a large pile of baled hay and a barrel filled with water.    Accommodations can be found for ponies and the pack lizards that the dwarven-folk use as beasts of burden.  Surprisingly perhaps, the animal smells associated with most stables are almost nonexistent here.  Barrukderron's claim to having secret mineral-spices that deaden the senses is most probably humbleness on the dwarf's part to somewhat disguise the enormous amount of work he puts into keeping the stables clean.    Lighting is provided here by a dwarf-crystal set in the ceiling that Barrukderron sometimes partially hoods for the animals' comfort. } {Kerrin} {} {Inside} {} {1.000}
+E { 2686} {s} {open door;s} {4} {0} {}
+E { 2684} {e} {e} {2} {0} {}
+
+R { 2684} {0} {<ffa>} {Stores for the King's Stables} { } {This tidy work-room holds Barrukderron's extra supplies, some tools needed to repair harness straps and the like, extra food for his beloved animals and a small, worn cot for Barrukderron himself. } {Kerrin} {} {Inside} {} {1.000}
+E { 2683} {w} {w} {8} {0} {}
+
+R { 2685} {0} {<ffa>} {Wide Hall} { } {The hallway here is seamlessly carved from bedrock.  Murals cover what wall space is not being used for doorways; these pictures show dwarves happily toiling at various crafts.  Lighting is provided by enchanted stone gems high above on the ceiling. } {Kerrin} {} {Inside} {} {1.000}
+E { 2689} {e} {e} {2} {0} {}
+E { 2690} {n} {n} {1} {0} {}
+E { 2691} {s} {open door;s} {4} {0} {}
+E { 2693} {w} {w} {8} {0} {}
+
+R { 2686} {0} {<ffa>} {A Wide Hallway} { } {The hallway here is seamlessly carved from bedrock.  Murals cover what wall space is not being used for doorways; these pictures show dwarves happily toiling at various crafts.  Lighting is provided by enchanted stone gems high above on the ceiling.    There is a small wooden sign tacked above the northern door. } {Kerrin} {} {Inside} {} {1.000}
+E { 2664} {s} {open steel;s} {4} {0} {}
+E { 2688} {e} {e} {2} {0} {}
+E { 2683} {n} {open door north;n} {1} {0} {}
+E { 2689} {w} {w} {8} {0} {}
+
+R { 2687} {8} {} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2665} {e} {e} {2} {0} {}
+E { 2675} {w} {w} {8} {0} {}
+
+R { 2688} {0} {<ffa>} {Wide Hall} { } {The hallway here is seamlessly carved from bedrock. Murals cover what wall space is not being used for doorways; these pictures show dwarves happily toiling at various crafts. Lighting is provided by enchanted stone gems high above on the ceiling. } {Kerrin} {} {Inside} {} {1.000}
+E { 2686} {w} {w} {8} {0} {}
+E { 2682} {s} {open door;s} {4} {0} {}
+E { 2719} {e} {e} {2} {0} {}
+
+R { 2689} {8} {} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2685} {w} {w} {8} {0} {}
+E { 2686} {e} {e} {2} {0} {}
+
+R { 2690} {0} {<ffa>} {Southern Wellspring} {F} {This well lit common room holds the dwarven city's southern well. A shaft descends down nearly seventy feet, allowing the sturdy dwarves to draw pure, cold water straight from a deep underground stream. Water brought up and not used is left in a small basin on the west wall from which bubbles a tiny fountain. Lighting is provided by an ancient and dim dwarven crystal. } {Kerrin} {} {Inside} {} {1.000}
+E { 2685} {s} {s} {4} {0} {}
+
+R { 2691} {0} {<ffa>} {Warden's Post} { } {This cheerful room is the counterpart to the eastern guard room for the Southern Delve.  Lit by two dwarven crystals and warmed by a vented fireplace, this room is used by the watch officers, and as such is slightly more plushly decorated.  It is carpeted with thick burgundy carpet into which has been woven a stylized portrait of the dwarven god of protection, Azash.  Four large, stuffed leather chairs allow for quiet relaxation, and a bookshelf on the south wall holds many books on siegecraft and stoneworkings.  Two small cots have been inset into the western wall. } {Kerrin} {} {Inside} {} {1.000}
+E { 2685} {n} {open door;n} {1} {0} {}
+
+R { 2692} {0} {<ffa>} {A Bend in the Hall} { } {The hallway here is seamlessly carved from bedrock.  Murals cover what wall space is not being used for doorways; these pictures show dwarves happily toiling at various crafts.  Lighting is provided by enchanted stone gems high above on the ceiling.    The delicious smell of freshly baked bread is carried here from Durparin's Bakery to the west of here. } {Kerrin} {} {Inside} {} {1.000}
+E { 2693} {e} {e} {2} {0} {}
+E { 2694} {w} {w} {8} {0} {}
+E { 2695} {s} {s} {4} {0} {}
+
+R { 2693} {8} {} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2692} {w} {w} {8} {0} {}
+E { 2685} {e} {e} {2} {0} {}
+
+R { 2694} {0} {<ffa>} {Durparin's Baked Goods} { } {The cheerful lemon colored sign above the door proclaims this place to be the bakery of one Durparin.  The western wall behind the counter is filled with delicious looking breads and pastries, and ovens on the northern wall behind a half-wall are usually producing more. } {Kerrin} {} {Inside} {} {1.000}
+E { 2692} {e} {e} {2} {0} {}
+
+R { 2695} {0} {<ffa>} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2692} {n} {n} {1} {0} {}
+E { 2696} {w} {w} {8} {0} {}
+E { 2697} {s} {s} {4} {0} {}
+
+R { 2696} {0} {<ffa>} {Dwarven Archives} { } {This vaulted chamber serves as an archive of the mountain kingdom's impressive history.  Polished weapons and gleaming armor from a bygone age are exhibited along side countless tomes of dwarven lore.  One could spend a lifetime reviewing all the events chronicled within; from the grand coronation of the current ruler, King Kerrin, back to the initial excavations of the founding father, King Almi.  A display case containing blueprints from the historical first dig stands just inside of the archway. } {Kerrin} {} {Inside} {} {1.000}
+E { 2695} {e} {e} {2} {0} {}
+
+R { 2697} {0} {<ffa>} {Wide Hall} { } {The hallway here is seamlessly carved from bedrock.  Murals cover what wall space is not being used for doorways; these pictures show dwarves happily toiling at various crafts.  Lighting is provided by enchanted stone gems high above on the ceiling. } {Kerrin} {} {Inside} {} {1.000}
+E { 2695} {n} {n} {1} {0} {}
+E { 2698} {e} {e} {2} {0} {}
+E { 2699} {s} {s} {4} {0} {}
+
+R { 2698} {0} {<ffa>} {The Spiraling Stair} { } {The great Spiraling Stair of Kerrin's realm passes through here, ascending in glittering perfection toward the summit of the mountain and descending with shadowy majesty into its heart.    The light of painstakingly placed dwarven crystals reflects and refracts off of quartz in the stairs and walls.  The beams come together in the center of the spiral to form a transparent column of shimmering, multicolored light. } {Kerrin} {} {Inside} {} {1.000}
+E { 2697} {w} {w} {8} {0} {}
+E { 2731} {u} {u} {16} {0} {}
+E { 2732} {d} {d} {32} {0} {}
+
+R { 2699} {0} {<ffa>} {Wide Hall} { } {The hallway here is seamlessly carved from bedrock.  Murals cover what wall space is not being used for doorways; these pictures show dwarves happily toiling at various crafts.  Lighting is provided by enchanted stone gems high above on the ceiling.    A plaque over the western door proclaims that the shop of Borabel the Weaponsmith is open for business! } {Kerrin} {} {Inside} {} {1.000}
+E { 2697} {n} {n} {1} {0} {}
+E { 2700} {w} {open door;w} {8} {0} {}
+E { 2701} {s} {s} {4} {0} {}
+
+R { 2700} {0} {<ffa>} {Borabel's Weapon Shop} {Wpn} {Two large and brawny dwarves stand at attention to the sides of the western entry into the shop of Borabel, master weaponsmith of Kerrin's realm. On the walls the smith displays his wares; fine hammers, axes, knives and silver decorative items can be seen. The carpet is a rich jade color, and crunches slightly underfoot. Lighting is provided by two dimmed and hooded dwarven crystals set in the wall above the exit. This light configuration gives the western end of the room a shadowy, almost conspiratorial atmosphere. } {Kerrin} {} {Inside} {} {1.000}
+E { 2699} {e} {open door;e} {2} {0} {}
+
+R { 2701} {0} {<ffa>} {Wide Hall} { } {The hallway here is seamlessly carved from bedrock.  Murals cover what wall space is not being used for doorways; these pictures show dwarves happily toiling at various crafts.  Lighting is provided by enchanted stone gems high above on the ceiling.    There is a golden plaque in the center of the doorway leading east. } {Kerrin} {} {Inside} {} {1.000}
+E { 2699} {n} {n} {1} {0} {}
+E { 2702} {e} {e} {2} {0} {}
+E { 2703} {s} {s} {4} {0} {}
+
+R { 2702} {0} {<ffa>} {Barber Shop} { } {This brightly lit shop is a centerpiece of dwarven society: the barber shop. Here all the dwarves of Kerrin's realm come to have their beards trimmed, combed, washed, braided and generally made to look their best.  There is a high-backed bench on the western wall of the room that is usually filled with dwarves eager for Berhol's services.  In the center of the room is a chair on a swivel mounting, where the barber performs his miracles.  Three cabinets for his instruments and a basin of washing water are the only other furnishings in the room, though there is also a picture of the Dwarf King high on the northern wall. } {Kerrin} {} {Inside} {} {1.000}
+E { 2701} {w} {w} {8} {0} {}
+
+R { 2703} {0} {<ffa>} {Wide Hall} { } {The hallway here is seamlessly carved from bedrock.  Murals cover what wall space is not being used for doorways; these pictures show dwarves happily toiling at various crafts.  Lighting is provided by enchanted stone gems high above on the ceiling. } {Kerrin} {} {Inside} {} {1.000}
+E { 2701} {n} {n} {1} {0} {}
+E { 2704} {s} {s} {4} {0} {}
+
+R { 2704} {0} {<ffa>} {Wide Hall} { } {The hallway here is seamlessly carved from bedrock.  Murals cover what wall space is not being used for doorways; these pictures show dwarves happily toiling at various crafts.  Lighting is provided by enchanted stone gems high above on the ceiling. } {Kerrin} {} {Inside} {} {1.000}
+E { 2703} {n} {n} {1} {0} {}
+E { 2705} {e} {e} {2} {0} {}
+
+R { 2705} {0} {<ffa>} {Wide Hall} { } {The hallway here is seamlessly carved from bedrock.  Murals cover what wall space is not being used for doorways; these pictures show dwarves happily toiling at various crafts.  Lighting is provided by enchanted stone gems high above on the ceiling.    The door leading to the east is covered in droplets of water, which have collected on the floor in a small puddle.  There is a water stained copper plate on the door. } {Kerrin} {} {Inside} {} {1.000}
+E { 2704} {w} {w} {8} {0} {}
+E { 2706} {n} {n} {1} {0} {}
+E { 2707} {s} {s} {4} {0} {}
+E { 2715} {e} {open copper;e} {2} {0} {}
+
+R { 2706} {0} {<ffa>} {Mining Stock} {G} {Run by Nattas, a dwarf so tall that many jokingly refer to him as half-man (a joke which he does not take so lightly), this small shop caters to the needs of the private mining expeditions funded by King Kerrin and the nobility to explore deeper and deeper into the mountains roots.  The store provides all sorts of picks, lights, chisels, ropes and other useful items, but like Nattas himself, the prices are quite high... } {Kerrin} {} {Inside} {} {1.000}
+E { 2705} {s} {s} {4} {0} {}
+
+R { 2707} {0} {<ffa>} {General Store} { } {Central to the economy of Kerrin's realm is the general store run by Dinkel, third cousin once removed to the King himself!  Cluttered with shelves, this shop stores items to meet many basic needs. } {Kerrin} {} {Inside} {} {1.000}
+E { 2705} {n} {n} {1} {0} {}
+E { 2708} {w} {open door;w} {8} {0} {}
+
+R { 2708} {0} {<ffa>} {Storeroom} { } {This room stores replacement stock for Dinkel's shop.  It is cluttered and dusty, though there appears by the footprints in the dust and the scrape marks of the boxes on the floor that things are moved around often. } {Kerrin} {} {Inside} {} {1.000}
+E { 2707} {e} {open door east;e} {2} {0} {}
+E { 2709} {d} {open trapdoor;d} {32} {0} {}
+
+R { 2709} {0} {<ffa>} {Cloakroom} { } {This dimly lit, dusty room has been almost carelessly carved.  The walls are neither smooth nor polished, and the floor is dusty and pocked.  Around the wall, cloak-pins hold various sundry pieces of clothing.  A ladder is bolted to the western wall, and a pile of muddy boots clutters the floor next to it. Light is provided by one dusty lantern's dwarven crystal. } {Kerrin} {} {Inside} {} {1.000}
+E { 2708} {u} {open trapdoor;u} {16} {0} {}
+E { 2710} {n} {n} {1} {0} {}
+
+R { 2710} {0} {<ffa>} {Thieves' Hall} { } {The low slung ceiling of this place gives it a cramped, uncomfortable feel. Old, well used leather couches and chairs seem scattered about the room with little thought to placement.  A short legged table holds a cluttered pile of maps and other crumpled documents.  Light is provided by one old dwarven crystal which has been haphazardly set in a roof socket. } {Kerrin} {} {Inside} {} {1.000}
+E { 2709} {s} {s} {4} {0} {}
+E { 2711} {e} {e} {2} {0} {}
+E { 2712} {n} {n} {1} {0} {}
+
+R { 2711} {0} {<ffa>} {Office of the Guildmaster} { } {Golden fixtures holding the newest and most perfectly shaped dwarven crystals bathe this room in pleasant, silvery light.  A thick black carpet keeps the sound of footfalls to a minimum.  The furniture in this room is the most expensive gold can buy; mahogany and ebony seem to have been the materials of choice.  A huge, many-drawered desk sits in the east end of the room, faced by two well cushioned chairs.  Two display cases sit on the western wall to either side of the door. } {Kerrin} {} {Inside} {} {1.000}
+E { 2710} {w} {w} {8} {0} {}
+
+R { 2712} {0} {<ffa>} {Thieves' Hall} { } {The low slung ceiling of this place gives it a cramped, uncomfortable feel. Old, well used leather couches and chairs seem scattered about the room with little thought to placement.  A short legged table holds a cluttered pile of personal letters and sketches.  Light is provided by one old dwarven crystal which has been haphazardly set in a roof socket. } {Kerrin} {} {Inside} {} {1.000}
+E { 2710} {s} {s} {4} {0} {}
+E { 2713} {e} {e} {2} {0} {}
+E { 2714} {n} {n} {1} {0} {}
+
+R { 2713} {0} {<ffa>} {Chamber of Masks} { } {This small room is filled with props and other materials suitable to help in disguising someone.  A clutter of trunks holds false beards, clothes for nearly every profession, a series of inexpensive, but serviceable weapons, and various powders and colorings. } {Kerrin} {} {Inside} {} {1.000}
+E { 2712} {w} {w} {8} {0} {}
+
+R { 2714} {0} {<ffa>} {The Hideaway} { } {This small room apparently is used transiently; it holds none of the knick-knacks that a permanent dwelling place might hold.  A small cot with rumpled sheets stands along one wall of the room, and a dingy wood dresser sits } {Kerrin} {} {Inside} {} {1.000}
+E { 2712} {s} {s} {4} {0} {}
+
+R { 2715} {0} {<ffa>} {Murold's House of Steam} { } {Billowing clouds of steam wash over you as you enter this place from the halls to the west.  Though lit by two dwarven crystals, this place is quite dark from the clouds of steam that continuously seep in under the northern and southern doors.  The heat here is nearly stifling; it absolutely takes away your breath when you come in.  The shelves on the wall behind him are filled with towels and leather sandals. } {Kerrin} {} {Inside} {} {1.000}
+E { 2705} {w} {open copper;w} {8} {0} {}
+E { 2716} {n} {n} {1} {0} {}
+E { 2717} {e} {e} {2} {0} {}
+E { 2718} {s} {s} {4} {0} {}
+
+R { 2716} {0} {<ffa>} {Steam Bath} { } {This room resembles an inverted pyramid.  Rows of benches descend from door level down toward the center of the room, where sits a large, grate covered pit filled with coals.  A pot filled with boiling water hangs suspended over the coals, filling the room with billowing steam.  Four small and hooded dwarven crystals provide the room's light, which is not enough to prevent the tired dwarves relaxing here from taking a short nap. } {Kerrin} {} {Inside} {} {1.000}
+E { 2715} {s} {s} {4} {0} {}
+
+R { 2717} {0} {<ffa>} {Fire-Room} { } {This room is alive with the sounds of machinery and dwarvish engines performing their designated tasks.  In this cluttered room, cool water brought from the underground stream that is the lifeblood of this realm is heated by fiery engines until it is nearly boiling.  This water is brought pail by pail to the steam and bath rooms to the west, where it is used to soothe tired muscles.  Also, pumice chunks are heated in this room to provide the strong heat needed in the steam room. } {Kerrin} {} {Inside} {} {1.000}
+E { 2715} {w} {w} {8} {0} {}
+
+R { 2718} {0} {<ffa>} {Hotpot and Cold} { } {Two rectangular depressions have been made in the floor here, one toward the north end of the room and one toward the south.  Both are filled with water; steam rises from the southern pool, but does not rise from the darker waters of the northern.  Dwarves bathe in each pool, their possessions stored on shelves to either side of the door.  Light is proveded by three dwarven crystals, two in the ceiling and one in the floor near the northern edge of the cool-water pool. } {Kerrin} {} {Inside} {} {1.000}
+E { 2715} {n} {n} {1} {0} {}
+
+R { 2719} {0} {<ffa>} {Wide Hall} { } {The hallway here is seamlessly carved from bedrock.  Murals cover what wall space is not being used for doorways; these pictures show dwarves happily toiling at various crafts.  The lights here, smokeless dwarven crystals, hang from two stalactites left otherwise untouched by the busy dwarvenfolk.    The pleasant sounds of singing and carousing can be heard from through the northern archway, and the relaxing smells of dark ale and roast mutton tease you with a reminder of past feasts.  A silver sign posted above the northern arch proclaims the entrance to The Boar and Pike Feasthall and Inn. } {Kerrin} {} {Inside} {} {1.000}
+E { 2688} {w} {w} {8} {0} {}
+E { 2720} {n} {n} {1} {0} {}
+E { 2724} {e} {e} {2} {0} {}
+E { 2726} {s} {s} {4} {0} {}
+
+R { 2720} {0} {<ffa>} {The Common Room of the Boar and Pike} { } {Here in the common room of The Boar and Pike (called 'the Pike' by regulars, and the Bored Pike by those who find dwarvish company less than ideal) tables can be found near a warm hearth while cheerful smiles greet any who enter. Though the Pike is not usually packed with customers, it is almost never empty, as a steady stream of patrons find themselves drawn to Gundar Rockroot's thick ale after a hard day's work.    To the east of here the clanking of clay mugs proclaims a bar, and the cheerful yells proclaim satisfied customers! } {Kerrin} {} {Inside} {} {1.000}
+E { 2719} {s} {s} {4} {0} {}
+E { 2721} {n} {n} {1} {0} {}
+E { 2723} {e} {e} {2} {0} {}
+
+R { 2721} {0} {<ffa>} {The Boar's Rest Nest} {Inn} {This quiet room is the entryway to Gundar's newest business, The Boar's Rest Nest, which he built to cater to the increased visitor traffic to Kerrin's little realm.  The room is softly decorated (for dwarves), and features two leather couches on either side of an undersized wooden desk.  A stairway at the southern end of the room leads up to the reception. } {Kerrin} {} {Inside} {} {1.000}
+E { 2720} {s} {s} {4} {0} {}
+E { 2722} {u} {u} {16} {0} {}
+
+R { 2722} {0} {<ffa>} {The Boar's Rest Reception} { } {You stand in the reception area of the Boar's Rest Nest.  Several chairs (only slightly low for humans and elves) and an incongruous pair of teal elven- made loveseats make up most of the room's furniture.  A large wooden desk sits in the north east corner of the room, above which is an elegantly chiseled sign.  A stairway cut into the southern end of the room leads down to the Inn's Entrance. } {Kerrin} {} {Inside} {} {1.000}
+E { 2721} {d} {d} {32} {0} {}
+
+R { 2723} {0} {<ffa>} {The Pike's Gills Tavern} { } {Gundar Rockroot's tavern is the pride of dwarvish drinking, and the envy of many outland barkeeps.  Thick, dark ale flows almost constantly from the two taps behind Gundar's bar, and good coin flows from his patrons to purchase it. Two young dwarven lads bring refreshments and food (Gundar's roast lamb is considered the house special) to the comfortably spaced tables along the western wall of the room.  A fire burns continuously in the fireplace at the southern end of the room; the flickering light dances merrily on the chin of the stuffed dragon-head mounted on the mantle. } {Kerrin} {} {Inside} {} {1.000}
+E { 2720} {w} {w} {8} {0} {}
+
+R { 2724} {0} {<ffa>} {Bordark's Armory} { } {Here is the residence and place of business of Bordark, the famed dwarven armorer and weaponsmith.  A small counter separates the room into western and eastern halves, on the west side of which are two rickety chairs and on the east side of which is a compact and extremely neat forge area.  Iron ingots are piled next to the force, and finished wares are displayed upon the wall. } {Kerrin} {} {Inside} {} {1.000}
+E { 2719} {w} {w} {8} {0} {}
+E { 2725} {s} {open door;s} {4} {0} {}
+
+R { 2725} {0} {<ffa>} {Bordark's Quarters} { } {Bordark is a bachelor (a much sought after one it might be noted), and his private quarters show it.  Clothing is strewn in piles about the room, and the furniture is almost unrecognizable under the mass of rags and other small objects that cover everything in here.  Still, it is possible to make out three chairs, a lamp with a dwarven- crystal and a large bed.  The table has long since been canabalized as a second vise. } {Kerrin} {} {Inside} {} {1.000}
+E { 2724} {n} {n} {1} {0} {}
+
+R { 2726} {0} {<ffa>} {Wide Hall} { } {The hallway here is seamlessly carved from bedrock.  Murals cover what wall space is not being used for doorways; these pictures show dwarves happily toiling at various crafts.  Lighting is provided by enchanted stone gems high above on the ceiling. } {Kerrin} {} {Inside} {} {1.000}
+E { 2719} {n} {n} {1} {0} {}
+E { 2727} {s} {s} {4} {0} {}
+
+R { 2727} {0} {<ffa>} {Wide Hall} { } {The hallway here is seamlessly carved from bedrock.  Murals cover what wall space is not being used for doorways; these pictures show dwarves happily toiling at various crafts.  Lighting is provided by enchanted stone gems high above on the ceiling. } {Kerrin} {} {Inside} {} {1.000}
+E { 2726} {n} {n} {1} {0} {}
+E { 2728} {e} {e} {2} {0} {}
+E { 2729} {s} {s} {4} {0} {}
+
+R { 2728} {0} {<ffa>} {The Southern Cistern} { } {A feat of dwarven engineering, the Cistern provides a means for the dwarves to dispose of their waste products.  An underground stream has been diverted to pass through this room.  It moves across the eastern edge of the room at great pace, carrying whatever is thrown into it south to meet with the surface river that passes through human lands.    Lighting is provided by a dwarven crystal; the light here is strangely tinted green, as the crystal has been splashed with some fluid. } {Kerrin} {} {Inside} {} {1.000}
+E { 2727} {w} {w} {8} {0} {}
+
+R { 2729} {0} {<ffa>} {Holding Jail of the Kingdom Under the Mountain} { } {Contrary to the name, this area serves not to incarcerate criminals as much as to provide a safe place for dwarves and, more usually, visitors to recover from the effects of a bit too much ale.  Snoring can usually be heard both from the west, which is the cell area itself, and from the south, which serves as a residence for the keepers of this place.    There is not much furniture in the place; a small desk and three rickety chairs form the full compliment of wooden items to be seen.  A single dwarf sits at the desk, staring dreamily at the portrait- tapestry that hangs on the eastern wall. } {Kerrin} {} {Inside} {} {1.000}
+E { 2727} {n} {n} {1} {0} {}
+E { 2730} {s} {s} {4} {0} {}
+
+R { 2730} {0} {<ffa>} {Crown-Guard Barracks} { } {Six bunk beds are set against the southern wall, a rusty axe collection is hung on the northern wall, and a large portrait of the the good King Kerrin make this room scream barracks!  Pipe-smoke, new and stale, gives this room a musty, pleasant smell.  Two dwarves sit at a table playing at some form of dice-gambling.  Light is provided here by two old dwarf crystals, dimmed from their years of service. } {Kerrin} {} {Inside} {} {1.000}
+E { 2729} {n} {n} {1} {0} {}
+
+R { 2731} {0} {<ffa>} {Head of the Spiraling Stair} { } {The great Spiraling Stair of Kerrin's realm passes through here, ascending in glittering perfection toward the summit of the mountain and descending with shadowy majesty into its heart.    The light of painstakingly placed dwarven crystals reflects and refracts off of quartz in the stairs and walls.  The beams come together in the center of the spiral to form a transparent column of shimmering, multicolored light. } {Kerrin} {} {Inside} {} {1.000}
+E { 2698} {d} {d} {32} {0} {}
+
+R { 2732} {0} {<ffa>} {The Spiraling Stair} { } {The great Spiraling Stair of Kerrin's realm passes through here, ascending in glittering perfection toward the summit of the mountain and descending with shadowy majesty into its heart.    The light of painstakingly placed dwarven crystals reflects and refracts off of quartz in the stairs and walls.  The beams come together in the center of the spiral to form a transparent column of shimmering, multicolored light. } {Kerrin} {} {Inside} {} {1.000}
+E { 2698} {u} {u} {16} {0} {}
+E { 2733} {d} {d} {32} {0} {}
+
+R { 2733} {0} {<ffa>} {The Spiraling Stair} { } {The great Spiraling Stair of Kerrin's realm ends here, in the heartstone of the mountain.  Dappled shadows dance on the granite floor as the column of light far above swirls and moves. } {Kerrin} {} {Inside} {} {1.000}
+E { 2732} {u} {u} {16} {0} {}
+E { 2734} {n} {n} {1} {0} {}
+
+R { 2734} {0} {<ffa>} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2733} {s} {s} {4} {0} {}
+E { 2735} {n} {n} {1} {0} {}
+
+R { 2735} {0} {<ffa>} {Deep Hall} { } {The hallway here has been carefully chiseled from the heartstone of the mountain.  The walls are artistically decorated with murals of dwarven faces and various historical events and achievements.  At regular intervals lamps holding glowing dwarven crystals hang from the ceiling on bronze chains. } {Kerrin} {} {Inside} {} {1.000}
+E { 2734} {s} {s} {4} {0} {}
+E { 2736} {e} {e} {2} {0} {}
+E { 2770} {w} {w} {8} {0} {}
+
+R { 2736} {0} {<ffa>} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2735} {w} {w} {8} {0} {}
+E { 2737} {n} {n} {1} {0} {}
+E { 2771} {e} {open door;e} {2} {0} {}
+
+R { 2737} {0} {<ffa>} {Deep Hall} { } {The hallway here has been carefully chiseled from the heartstone of the mountain.  The walls are artistically decorated with murals of dwarven faces and various historical events and achievements.  At regular intervals lamps holding glowing dwarven crystals hang from the ceiling on bronze chains.    To the west can be heard cheering and shouting, as though many people were competing in friendly games of sport. } {Kerrin} {} {Inside} {} {1.000}
+E { 2736} {s} {s} {4} {0} {}
+E { 2738} {n} {n} {1} {0} {}
+E { 2766} {w} {w} {8} {0} {}
+
+R { 2738} {0} {<ffa>} {Deep Hall} { } {The hallway here has been carefully chiseled from the heartstone of the mountain.  The walls are artistically decorated with murals of dwarven faces and various historical events and achievements.  At regular intervals lamps holding glowing dwarven crystals hang from the ceiling on bronze chains. } {Kerrin} {} {Inside} {} {1.000}
+E { 2737} {s} {s} {4} {0} {}
+E { 2739} {n} {n} {1} {0} {}
+E { 2761} {e} {e} {2} {0} {}
+
+R { 2739} {0} {<ffa>} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2738} {s} {s} {4} {0} {}
+E { 2740} {n} {open door;n} {1} {0} {}
+E { 2741} {w} {w} {8} {0} {}
+
+R { 2740} {0} {<ffa>} {Northern Guard Room} { } {This cheerful room is the counterpart to the eastern guardroom for the Northern Delve.  Lit by two dwarven crystals and warmed by a vented fireplace, this room is used by the watch officers, and as such is slightly more plushly decorated.  It is carpeted with thick burgundy carpet into which has been woven a stylized portrait of the dwarven god of protection, Azash.  Four large, stuffed leather chairs allow for quiet relaxation, and a bookshelf on the north wall holds many books on siegecraft and stoneworking.  Two small cots have been inset into the western wall. } {Kerrin} {} {Inside} {} {1.000}
+E { 2739} {s} {s} {4} {0} {}
+
+R { 2741} {0} {<ffa>} {Alas, you cannot go that way.} { } {} {Kerrin} {} {} {} {1.000}
+E { 2739} {e} {e} {2} {0} {}
+E { 2742} {w} {w} {8} {0} {}
+E { 2743} {n} {n} {1} {0} {}
+
+R { 2742} {0} {<ffa>} {Deep Hall} { } {The hallway here has been carefully chiseled from the heartstone of the mountain.  The walls are artistically decorated with murals of dwarven faces and various historical events and achievements.  At regular intervals lamps holding glowing dwarven crystals hang from the ceiling on bronze chains. } {Kerrin} {} {Inside} {} {1.000}
+E { 2741} {e} {e} {2} {0} {}
+E { 2768} {s} {s} {4} {0} {}
+
+R { 2743} {0} {<ffa>} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2741} {s} {open double;s} {4} {0} {}
+E { 2760} {n} {open door;n} {1} {0} {}
+
+R { 2744} {10} {<ffa>} {The North Road} { } {You are traveling along a steep stretch of north-south road.  Though the pavement is worn with age, the close fit of the stones suggest that great care was taken with its construction. } {Kerrin} {} {Mountains} {} {1.000}
+E { 2745} {s} {s} {4} {0} {}
+E { 2753} {n} {n} {1} {0} {}
+
+R { 2745} {8} {} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2744} {n} {n} {1} {0} {}
+E { 2760} {s} {s} {4} {0} {}
+
+R { 2746} {0} {<ffa>} {A Steep Mountain Path} { } {The path slopes downward here from the heights of the eastern ridge toward the flatlands to the north.  Small pebbles and boulders litter the tiny trail, making footing somewhat unsteady.  Little white chips and fragments, perhaps the remnants of a hammer obliterating stone, are strewn all about. } {Kerrin} {} {Mountains} {} {1.000}
+E { 2679} {s} {s} {4} {0} {}
+E { 2747} {w} {w} {8} {0} {}
+
+R { 2747} {0} {<ffa>} {A Steep Mountain Path} { } {The path slopes downward here from the heights of the eastern ridge toward the flatlands to the north.  Small pebbles and boulders litter the tiny trail, making footing somewhat unsteady.  Little white chips and fragments, perhaps the remnants of a hammer obliterating stone, are strewn all about.    To the west is a slippery, gravel covered slide that might be climbable with the proper tools. } {Kerrin} {} {Mountains} {} {1.000}
+E { 2746} {e} {e} {2} {0} {}
+E { 2748} {w} {w} {8} {0} {}
+E { 2749} {n} {n} {1} {0} {}
+
+R { 2748} {0} {<ffa>} {The Gravel Slide} { } {This cold mountainside is covered with wet, slippery gravel.  Footing is extremely treacherous.  Mixed in with the gravel are pieces of bone, large chunks that seem to have been dropped here at random.  It appears that one might climb the sheer face further upward to the heights of the mountain. } {Kerrin} {} {Mountains} {} {1.000}
+E { 2747} {e} {e} {2} {0} {}
+
+R { 2749} {0} {<ffa>} {A Steep Mountain Path} { } {The path slopes downward here from the heights of the eastern ridge toward the flatlands to the north.  Small pebbles and boulders litter the tiny trail, making footing somewhat unsteady.  Little white chips and fragments, perhaps the remnants of a hammer obliterating stone, are strewn all about. } {Kerrin} {} {Mountains} {} {1.000}
+E { 2747} {s} {s} {4} {0} {}
+E { 2750} {w} {w} {8} {0} {}
+E { 2751} {n} {n} {1} {0} {}
+
+R { 2750} {0} {<ffa>} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2749} {e} {e} {2} {0} {}
+E { 2820} {w} {w} {8} {0} {}
+
+R { 2751} {0} {<ffa>} {A Steep Mountain Path} { } {The path slopes downward here from the heights of the eastern ridge toward the flatlands to the north.  Small pebbles and boulders litter the tiny trail, making footing somewhat unsteady.  Little white chips and fragments, perhaps the remnants of a hammer obliterating stone, are strewn all about. } {Kerrin} {} {Mountains} {} {1.000}
+E { 2749} {s} {s} {4} {0} {}
+E { 2752} {n} {n} {1} {0} {}
+
+R { 2752} {0} {<ffa>} {A Steep Mountain Path} { } {The path slopes downward here from the heights of the eastern ridge toward the flatlands to the north.  Small pebbles and boulders litter the tiny trail, making footing somewhat unsteady.  Little white chips and fragments, perhaps the remnants of a hammer obliterating stone, are strewn all about.    To the west can be seen the Dwarf-realm's northern road, which leads from the Northern Delve into the hostile country beyond. } {Kerrin} {} {Mountains} {} {1.000}
+E { 2751} {s} {s} {4} {0} {}
+E { 2756} {w} {w} {8} {0} {}
+E { 2890} {e} {e} {2} {0} {}
+
+R { 2753} {0} {<ffa>} {The North Road} { } {You are traveling along a steep stretch of north-south road.  Though the pavement is worn with age, the close fit of the stones suggest that great care was taken with its construction. } {Kerrin} {} {Mountains} {} {1.000}
+E { 2754} {e} {e} {2} {0} {}
+E { 2757} {s} {s} {4} {0} {}
+
+R { 2754} {8} {} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2753} {w} {w} {8} {0} {}
+E { 2756} {e} {e} {2} {0} {}
+
+R { 2755} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 2753} {n} {n} {1} {0} {}
+
+R { 2756} {8} {} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2754} {w} {w} {8} {0} {}
+E { 2752} {e} {e} {2} {0} {}
+
+R { 2757} {8} {<ffa>} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2753} {n} {n} {1} {0} {}
+E { 2758} {d} {d} {32} {0} {}
+
+R { 2758} {8} {<ffa>} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2757} {u} {u} {16} {0} {}
+E { 2744} {s} {s} {4} {0} {}
+
+R { 2759} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 2758} {n} {n} {1} {0} {}
+
+R { 2760} {0} {<ffa>} {The Northern Delve} { } {A pair of great double doors stand here, carved from living rock and flanked by the most delicate of stonework mosaics, announcing to any who would come this way that they have come to the Northern Delve of the Dwarf-Realm of King Kerrin.    On the doors themselves is engraved the seal of Kerrin's house, an Axe that seems to blook from the earth itself. } {Kerrin} {} {Inside} {} {1.000}
+E { 2745} {n} {n} {1} {0} {}
+E { 2743} {s} {open door;s} {4} {0} {}
+
+R { 2761} {0} {<ffa>} {Gemlace Delve} { } {Many small dwarven homes are carved from the heartstone near this beautiful hallway.  The granite walls are laced with veins of sparkling quartz that the dwarves have subtly highlighted with their stonework.  Dwarven lamps hang from the ceilings, their light sparkling off of the golden runes etched onto each door. } {Kerrin} {} {Inside} {} {1.000}
+E { 2738} {w} {w} {8} {0} {}
+E { 2762} {n} {n} {1} {0} {}
+E { 2765} {e} {open door east;e} {2} {0} {}
+
+R { 2762} {0} {<ffa>} {Gemlace Delve} { } {Many small dwarven homes are carved from the heartstone near this beautiful hallway.  The granite walls are laced with veins of sparkling quartz that the dwarves have subtly highlighted with their stonework.  Dwarven lamps hang from the ceilings, their light sparkling off of the golden runes etched onto each door. } {Kerrin} {} {Inside} {} {1.000}
+E { 2761} {s} {s} {4} {0} {}
+E { 2763} {n} {open door north;n} {1} {0} {}
+E { 2764} {e} {open door east;e} {2} {0} {}
+
+R { 2763} {0} {<ffa>} {Home Sweet Home} { } {This room is home to a small family of dwarves.  A vented fireplace sits to the north end of the room, and a large stone bed sits on the south wall. Stonework tables and chairs, cupboards filled with earthen dishware and a small shrine to Azash each have their place here, but most prominent is a rack with armor and weapons: all citizens must be ready to defend their land if it is attacked!  Lighting is provided by a single, well polished dwarven crystal. } {Kerrin} {} {Inside} {} {1.000}
+E { 2762} {s} {open door;s} {4} {0} {}
+
+R { 2764} {0} {<ffa>} {Home Sweet Home} { } {This room is home to a small family of dwarves.  A vented fireplace sits to the north end of the room, and a large stone bed sits on the south wall. Stonework tables and chairs, cupboards filled with earthen dish ware and a small shrine to Azash each have their place here, but most prominent is a rack with armor and weapons: all citizens must be ready to defend their land if it is attacked!  Lighting is provided by a single, well polished dwarven crystal. } {Kerrin} {} {Inside} {} {1.000}
+E { 2762} {w} {open door;w} {8} {0} {}
+
+R { 2765} {0} {<ffa>} {Home Sweet Home} { } {This room is home to a small family of dwarves.  A vented fireplace sits to the north end of the room, and a large stone bed sits on the south wall. Stonework tables and chairs, cupboards filled with earthen dish ware and a small shrine to Azash each have their place here, but most prominent is a rack with armor and weapons: all citizens must be ready to defend their land if it is attacked!  Lighting is provided by a single, well polished dwarven crystal. } {Kerrin} {} {Inside} {} {1.000}
+E { 2761} {w} {open door;w} {8} {0} {}
+
+R { 2766} {0} {<ffa>} {The Common Field} { } {This wide stone hall is the relaxation field for the city's folk.  Targets have been placed on the walls at varying heights for such games as ""axe toss"" and "hammer throw".  Lanes have been grooved into the floor for such pastimes as bowling and the ever popular game called "struggle", where a stout dwarf attempts to pull his fellows across the floor on a smooth stone slab.  Lighting is provided by many crystals set in the ceiling.  Benches and a water trough are set in the western wall. } {Kerrin} {} {Inside} {} {1.000}
+E { 2737} {e} {e} {2} {0} {}
+E { 2767} {n} {n} {1} {0} {}
+
+R { 2767} {0} {<ffa>} {Deep Hall} { } {The hallway here has been carefully chiseled from the heartstone of the mountain.  The walls are artistically decorated with murals of dwarven faces and various historical events and achievements.  At regular intervals lamps holding glowing dwarven crystals hang from the ceiling on bronze chains. } {Kerrin} {} {Inside} {} {1.000}
+E { 2766} {s} {s} {4} {0} {}
+E { 2768} {w} {w} {8} {0} {}
+
+R { 2768} {0} {<ffa>} {Deep Hall} { } {The hallway here has been carefully chiseled from the heartstone of the mountain.  The walls are artistically decorated with murals of dwarven faces and various historical events and achievements.  At regular intervals lamps holding glowing dwarven crystals hang from the ceiling on bronze chains. } {Kerrin} {} {Inside} {} {1.000}
+E { 2767} {e} {e} {2} {0} {}
+E { 2742} {n} {n} {1} {0} {}
+E { 2769} {s} {s} {4} {0} {}
+
+R { 2769} {0} {<ffa>} {Deep Hall} { } {The hallway here has been carefully chiseled from the heartstone of the mountain.  The walls are artistically decorated with murals of dwarven faces and various historical events and achievements.  At regular intervals lamps holding glowing dwarven crystals hang from the ceiling on bronze chains. } {Kerrin} {} {Inside} {} {1.000}
+E { 2768} {n} {n} {1} {0} {}
+E { 2770} {s} {s} {4} {0} {}
+
+R { 2770} {0} {<ffa>} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2769} {n} {n} {1} {0} {}
+E { 2735} {e} {e} {2} {0} {}
+E { 2783} {s} {s} {4} {0} {}
+
+R { 2771} {0} {<ffa>} {Temple of Azash} { } {You stand in the center of the great Temple to Azash, protector of the dwarves.  The walls of this room are made of rosy granite, and have been polished to an almost unnatural shininess.  The pillars supporting the arched roof have been carved into likeness of Azash, all facing the center of the room.  Crystals set into their eyes brilliantly illuminate the room.  The doorway to the east has been shaped to resemble an axe blade. } {Kerrin} {} {Inside} {} {1.000}
+E { 2736} {w} {open door west;w} {8} {0} {}
+E { 2772} {s} {s} {4} {0} {}
+E { 2779} {e} {open door east;e} {2} {0} {}
+
+R { 2772} {0} {<ffa>} {Priest's Hall} { } {The walls of this brightly lit hallway have been carved with detailed representations of the gods of the dwarves.  Strong Azash stands mutely watchful, Ryall the delver is bent to the ground, and Adaron, father of the dwarves, towers in graceful majesty like a living mountain.  Runed inscriptions on the arches and walls both command reverence for the earth and note the residences of priests. } {Kerrin} {} {Inside} {} {1.000}
+E { 2771} {n} {n} {1} {0} {}
+E { 2773} {e} {e} {2} {0} {}
+E { 2775} {s} {open door south;s} {4} {0} {}
+
+R { 2773} {0} {<ffa>} {Priest's Hall} { } {The walls of this brightly lit hallway have been carved with detailed representations of the gods of the dwarves.  Strong Azash stands mutely watchful, Ryall the delver is bent to the ground, and Adaron, father of the dwarves, towers in graceful majesty like a living mountain.  Runed inscriptions on the arches and walls both command reverence for the earth and note the residences of priests. } {Kerrin} {} {Inside} {} {1.000}
+E { 2772} {w} {w} {8} {0} {}
+E { 2774} {e} {e} {2} {0} {}
+E { 2776} {s} {open door south;s} {4} {0} {}
+
+R { 2774} {0} {<ffa>} {Priest's Hall} { } {The walls of this brightly lit hallway have been carved with detailed representations of the gods of the dwarves.  Strong Azash stands mutely watchful, Ryall the delver is bent to the ground, and Adaron, father of the dwarves, towers in graceful majesty like a living mountain.  Runed inscriptions on the arches and walls both command reverence for the earth and note the residences of priests. } {Kerrin} {} {Inside} {} {1.000}
+E { 2773} {w} {w} {8} {0} {}
+E { 2777} {s} {open door south;s} {4} {0} {}
+E { 2778} {n} {n} {1} {0} {}
+
+R { 2775} {0} {<ffa>} {Cleric's Quarters} { } {Simple and plain, this small chamber houses one of the acolytes of Azash who maintain the temple to the north.  A cot, two small chairs, a writing bench and a small, private altar make up the furnishings.  Vestments and clothing hang on pegs near the door, and a single dwarven crystal provides the room with warmth and light. } {Kerrin} {} {Inside} {} {1.000}
+E { 2772} {n} {open door;n} {1} {0} {}
+
+R { 2776} {0} {<ffa>} {Cleric's Quarters} { } {Simple and plain, this small chamber houses one of the acolytes of Azash who maintain the temple to the north.  A cot, two small chairs, a writing bench and a small, private altar make up the furnishings.  Vestments and clothing hang on pegs near the door, and a single dwarven crystal provides the room with warmth and light. } {Kerrin} {} {Inside} {} {1.000}
+E { 2773} {n} {open door;n} {1} {0} {}
+
+R { 2777} {0} {<ffa>} {Cleric's Quarters} { } {Simple and plain, this small chamber houses one of the acolytes of Azash who maintain the temple to the north.  A cot, two small chairs, a writing bench and a small, private altar make up the furnishings.  Vestments and clothing hang on pegs near the door, and a single dwarven crystal provides the room with warmth and light. } {Kerrin} {} {Inside} {} {1.000}
+E { 2774} {n} {open door;n} {1} {0} {}
+
+R { 2778} {0} {<ffa>} {Cleric's Quarters} { } {Simple and plain, this small chamber houses one of the acolytes of Azash who maintain the temple to the north.  A cot, two small chairs, a writing bench and a small, private altar make up the furnishings.  Vestments and clothing hang on pegs near the door, and a single dwarven crystal provides the room with warmth and light. } {Kerrin} {} {Inside} {} {1.000}
+E { 2774} {s} {s} {4} {0} {}
+
+R { 2779} {0} {<ffa>} {Altar to Azash} { } {You stand before the great golden altar to Azash.  The altar itself is shaped to look like a great, bearded dwarf with outstretched hands.  His eyes are fist sized diamonds, and he glows with silver-gold light.  A small marble door leads to the north, and to the west is the axe shaped archway that leads to the Temple. } {Kerrin} {} {Inside} {} {1.000}
+E { 2771} {w} {w} {8} {0} {}
+E { 2780} {n} {open door north;n} {1} {0} {}
+
+R { 2780} {0} {<ffa>} {Halls of the High Priest} { } {This large room has a brilliant white, polished marble floor and a flat obsidian ceiling.  On the north wall is a small altar to Azash, probably used by the high priest for private worship.  Marble furniture of the most tasteful design sits about the room; couches, small tables and elegantly crafted sculptures speak volumes of praise to Azash and his priests.  In the center of the floor is a small depression that is filled with water, a private fish tank for the high priest.  Runes have been carved into the ceiling detailing the history and development of the dwarven pantheon.  A steel door stands on the eastern wall, and an open arch leads west. } {Kerrin} {} {Inside} {} {1.000}
+E { 2779} {s} {open door south;s} {4} {0} {}
+E { 2781} {w} {w} {8} {0} {}
+E { 2782} {e} {open door east;e} {2} {0} {}
+
+R { 2781} {0} {<ffa>} {Private Chambers of the High Priest} { } {This room has been carved from a bubble of red-veined granite.  Small crystals are set in the ceiling to resemble the constellations of the heavens; they glow softly, bathing this room in soothing twilight.  A stone bed rests on the westernmost wall, and an elegant pair of jade chairs sit in the center of the room next to a marble table.  The southern wall has been carved so that it might hold books; the shelves are filled with stone tablets, and various paper materials. } {Kerrin} {} {Inside} {} {1.000}
+E { 2780} {e} {e} {2} {0} {}
+
+R { 2782} {0} {<ffa>} {Alas, you cannot go that way.} {LOC} {} {Kerrin} {} {} {} {1.000}
+E { 2780} {w} {w} {8} {0} {}
+
+R { 2783} {0} {<ffa>} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2770} {n} {n} {1} {0} {}
+E { 2784} {s} {s} {4} {0} {}
+
+R { 2784} {0} {<ffa>} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2783} {n} {n} {1} {0} {}
+E { 2785} {s} {s} {4} {0} {}
+
+R { 2785} {0} {<ffa>} {The Sloping Hall} { } {This wide hall slopes gently downward from north to south.  The floor has been pitted from years of movement of carts and heavy equipment.  Lighting is provided by lamps which hang from the ceiling but, unlike the upper halls, the walls here are not decorated. } {Kerrin} {} {Inside} {} {1.000}
+E { 2784} {n} {n} {1} {0} {}
+E { 2786} {s} {s} {4} {0} {}
+
+R { 2786} {0} {<ffa>} {The Sloping Hall} { } {This wide hall slopes gently downward from north to south.  The floor has been pitted from years of movement of carts and heavy equipment.  Lighting is provided by lamps which hang from the ceiling but, unlike the upper halls, the walls here are not decorated. } {Kerrin} {} {Inside} {} {1.000}
+E { 2785} {n} {n} {1} {0} {}
+E { 2787} {s} {s} {4} {0} {}
+
+R { 2787} {0} {<ffa>} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2786} {n} {n} {1} {0} {}
+E { 2788} {w} {w} {8} {0} {}
+E { 2812} {e} {e} {2} {0} {}
+
+R { 2788} {0} {<ffa>} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2787} {e} {e} {2} {0} {}
+E { 2789} {w} {w} {8} {0} {}
+
+R { 2789} {0} {<ffa>} {The Road of Iron} { } {The great steel tracks continue east and west here, but also branch to the north and south, from where loud banging and pounding of metal can be heard. The high ceiling is somewhat sooty here, and the crystals set within give less than perfect light.  Above the northern and southern arches are runes engraved into the stone. } {Kerrin} {} {Underground} {} {1.000}
+E { 2788} {e} {e} {2} {0} {}
+E { 2790} {n} {n} {1} {0} {}
+E { 2794} {s} {s} {4} {0} {}
+E { 2798} {w} {w} {8} {0} {}
+
+R { 2790} {0} {<ffa>} {Great Forge} { } {This room is crowded with working bellows blowing on the steel furnaces that are the center feature of the place.  Bright pools of metal form beneath the spouts on the machine's sides.  Dwarves busily direct this metal into molds and channels for further use. } {Kerrin} {} {Underground} {} {1.000}
+E { 2789} {s} {s} {4} {0} {}
+E { 2791} {e} {e} {2} {0} {}
+E { 2793} {n} {n} {1} {0} {}
+
+R { 2791} {0} {<ffa>} {Great Forge} { } {This room is crowded with working bellows blowing on the steel furnaces that are the center feature of the place.  Bright pools of metal form beneath the spouts on the machine's sides.  Dwarves busily direct this metal into molds and channels for further use. } {Kerrin} {} {Inside} {} {1.000}
+E { 2790} {w} {w} {8} {0} {}
+E { 2792} {n} {n} {1} {0} {}
+
+R { 2792} {0} {<ffa>} {Room of Hammers} { } {Small forges and work tables line the walls of this room.  In the center of the room is a large trough of water that is used to cool the heated steel.  The lighting here is provided by crystals in the ceiling, and the heat is intense. } {Kerrin} {} {Underground} {} {1.000}
+E { 2791} {s} {s} {4} {0} {}
+
+R { 2793} {0} {<ffa>} {Room of Hammers} { } {Small forges and work tables line the walls of this room.  Dwarves stand over them laboring to mold raw iron into usable shapes.  In the center of the room is a large trough of water that is used to cool the heated steel.  The lighting here is provided by crystals in the ceiling, and the heat is intense. } {Kerrin} {} {Underground} {} {1.000}
+E { 2790} {s} {s} {4} {0} {}
+
+R { 2794} {0} {<ffa>} {The Iron Depository} { } {The great steel tracks lead from the rooms to the south and east to connect with the main road to the north.  By the light of new crystals set into the ceiling you can see small filings of raw iron ore on the ground near the tracks.  From both the south and east come the grunting sounds and sweaty smell of hard labor. } {Kerrin} {} {Underground} {} {1.000}
+E { 2789} {n} {n} {1} {0} {}
+E { 2795} {e} {e} {2} {0} {}
+E { 2796} {s} {s} {4} {0} {}
+
+R { 2795} {0} {<ffa>} {Mining Storage} { } {Storage bins line the walls here, filled nearly to the top with unrefined chunks of freshly mined iron and coal.  Dust lies heavily on the floor, easily showing the footprints of the busy dwarves who work through here.  Light is provided by dwarvish crystals which have been set high up in the ceiling. } {Kerrin} {} {Underground} {} {1.000}
+E { 2794} {w} {w} {8} {0} {}
+
+R { 2796} {0} {<ffa>} {End of the Couplings} { } {The iron tracks end here with a swivel built into the floor.  Bins line the southern and eastern walls, and the ceiling is nearly twenty feet tall.  Echos of footfalls and voices rattle off of the metal storage bins, giving this place a metallic feel. } {Kerrin} {} {Underground} {} {1.000}
+E { 2794} {n} {n} {1} {0} {}
+E { 2797} {e} {e} {2} {0} {}
+
+R { 2797} {0} {<ffa>} {Mining Storage} { } {Storage bins line the walls here, filled nearly to the top with unrefined chunks of freshly mined iron and coal.  Dust lies heavily on the floor, easily showing the footprints of the busy dwarves who work through here.  Light is provided by dwarvish crystals which have been set high up in the ceiling. } {Kerrin} {} {Underground} {} {1.000}
+E { 2796} {w} {w} {8} {0} {}
+
+R { 2798} {0} {<ffa>} {The Road of Iron} { } {The great steel rails continue east and west through the tunnel, forming a track for mining carts going to and from the lower mines.  The high ceilings are smooth and carefully carved, though they have remained bare of delicate stonework.  Light is provided by lamps hanging from the ceiling at regular intervals. } {Kerrin} {} {Underground} {} {1.000}
+E { 2789} {e} {e} {2} {0} {}
+E { 2799} {w} {w} {8} {0} {}
+
+R { 2799} {0} {<ffa>} {The Road of Iron} { } {The great steel rails continue east and west through the tunnel, forming a track for mining carts going to and coming from the lower mines.  A small side rail leads south into the branch tunnel there.  The ceilings are high and smoothly carved, and lighting is provided by the lamps hanging at intervals from the ceiling. } {Kerrin} {} {Underground} {} {1.000}
+E { 2798} {e} {e} {2} {0} {}
+E { 2800} {s} {s} {4} {0} {}
+E { 2811} {w} {w} {8} {0} {}
+
+R { 2800} {0} {<ffa>} {First South Shaft} { } {This small tunnel slopes slightly upward from the north to the south.  The iron rails are rusted and dull from disuse, and a thick coating of rock dust and dirt lies on the floor.  The dwarven crystals that light the tunnel flicker with age; the light is poor, but quite enough to see by. } {Kerrin} {} {Underground} {} {1.000}
+E { 2799} {n} {n} {1} {0} {}
+E { 2801} {s} {s} {4} {0} {}
+
+R { 2801} {0} {<ffa>} {First South Shaft} { } {This small tunnel slopes slightly upward from the north to the south.  The iron rails are rusted and dull from disuse, and a thick coating of rock dust and dirt lies on the floor.  The dwarven crystals that light the tunnel flicker with age; the light is poor, but quite enough to see by. } {Kerrin} {} {Underground} {} {1.000}
+E { 2800} {n} {n} {1} {0} {}
+E { 2802} {u} {u} {16} {0} {}
+
+R { 2802} {0} {<ffa>} {The Road of Gems} { } {This octagonal shaped room has a high ceiling and smooth, carefully worked walls.  In the middle of the ceiling, hanging by a slender bronze chain, is a lamp which glows brightly.  The floor has a square opening in the center, through which protrudes the last run and handle of a stone ladder. } {Kerrin} {} {Inside} {} {1.000}
+E { 2801} {d} {d} {32} {0} {}
+E { 2803} {w} {w} {8} {0} {}
+
+R { 2803} {0} {<ffa>} {The Road of Gems} { } {The tunnel here has a low ceiling and smooth walls.  Crystals in the ceiling provide light, and slight grooves can be seen in the stone floor leading both east and west.  A thin film of dust has collected in the grooves in the floor. } {Kerrin} {} {Inside} {} {1.000}
+E { 2802} {e} {e} {2} {0} {}
+E { 2804} {w} {w} {8} {0} {}
+
+R { 2804} {0} {<ffa>} {The Road of Gems} { } {This octagonal shaped room has a high ceiling and smooth, carefully worked walls.  In the middle of the ceiling, hanging by a slender bronze chain, is a lamp which glows brightly.  The floor has a square opening in the center, through which protrudes the last rung and handle of a stone ladder. } {Kerrin} {} {Inside} {} {1.000}
+E { 2803} {e} {e} {2} {0} {}
+E { 2805} {n} {n} {1} {0} {}
+E { 2810} {d} {d} {32} {0} {}
+
+R { 2805} {0} {<ffa>} {The Road of Gems} { } {This low ceilinged tunnel is lit by glowing crystals placed in wall sockets. The walls are smooth and bare, and small grooves in the floor lead both north and south.  From the north you can begin to hear the chipping and banging of mining operations in progress. } {Kerrin} {} {Inside} {} {1.000}
+E { 2804} {s} {s} {4} {0} {}
+E { 2806} {n} {n} {1} {0} {}
+
+R { 2806} {0} {<ffa>} {The Road of Gems} { } {This low ceilinged tunnel is lit by glowing crystals placed in wall sockets. The walls are smooth and bare, and small grooves in the floor lead both south and west.  From the west you can hear the soft chipping sounds of metal carefully striking stone. } {Kerrin} {} {Inside} {} {1.000}
+E { 2805} {s} {s} {4} {0} {}
+E { 2807} {w} {w} {8} {0} {}
+
+R { 2807} {0} {<ffa>} {The Road of Gems} { } {This low ceilinged tunnel is lit by glowing crystals placed in wall sockets. Grooves in the floor lead both to the east and to the south, and to the south you can distinctly hear the voices of cheerful dwarven miners. } {Kerrin} {} {Inside} {} {1.000}
+E { 2806} {e} {e} {2} {0} {}
+
+R { 2808} {0} {<ffa>} {The Road of Iron} { } {} {Kerrin} {} {} {} {1.000}
+E { 2811} {e} {e} {2} {0} {}
+E { 2809} {s} {s} {4} {0} {}
+
+R { 2809} {0} {<ffa>} {Ferrous Tunnel} { } {This tunnel slopes rather steeply down from north to south.  The iron rails are heavily used, so much so that they seem almost bent in places.  The ceilings and walls are smooth, and cause the banging sounds coming from the south to echo loudly.  Lighting is provided by dwarven crystals set in sockets in the ceiling. } {Kerrin} {} {Inside} {} {1.000}
+E { 2808} {n} {n} {1} {0} {}
+E { 2810} {s} {s} {4} {0} {}
+
+R { 2810} {0} {<ffa>} {Ferris Tunnel} { } {The tunnel here slopes rather steeply downward toward the west.  The iron rails in the floor have been deeply scuffed with use, and rock dust hangs thickly in the air.  Lighting is provided by dwarven crystals set high in the ceiling.  Ladder rungs have been carved out of the eastern wall and lead up the wall into the tunnel above. } {Kerrin} {} {Inside} {} {1.000}
+E { 2809} {n} {n} {1} {0} {}
+E { 2804} {u} {u} {16} {0} {}
+
+R { 2811} {8} {} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2808} {w} {w} {8} {0} {}
+E { 2799} {e} {e} {2} {0} {}
+
+R { 2812} {0} {<ffa>} {Garden Road} { } {A fetid smelling soil covers the floor of these low ceilinged caverns to an even depth of six inches.  Growing in the warmth of this compost heap are thousands upon thousands of mushrooms, toadstools and other fungi.  The only slight light to be found here comes from some of the fungi, their phosphorescent glow barely showing their own shapes.  A small path leads through the center of these gardens. } {Kerrin} {} {Underground} {} {1.000}
+E { 2787} {w} {w} {8} {0} {}
+E { 2813} {e} {e} {2} {0} {}
+
+R { 2813} {0} {<ffa>} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2812} {w} {w} {8} {0} {}
+E { 2814} {e} {e} {2} {0} {}
+E { 2816} {s} {s} {4} {0} {}
+
+R { 2814} {0} {<ffa>} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2813} {w} {w} {8} {0} {}
+E { 2815} {s} {s} {4} {0} {}
+
+R { 2815} {0} {<ffa>} {The Fungus Garden} { } {A fetid smelling soil covers the floor of these low ceilinged caverns to an even depth of six inches.  Growing in the warmth of this compost heap are thousands upon thousands of mushrooms, toadstools and other fungi.  The only slight light to be found here comes from some of the fungi, their phosphorescent glow barely showing their own shapes.    A small path leads through the center of these gardens, but to the south you can hear what sounds like water lapping on rocks. } {Kerrin} {} {Inside} {} {1.000}
+E { 2814} {n} {n} {1} {0} {}
+E { 2816} {w} {w} {8} {0} {}
+E { 2817} {s} {s} {4} {0} {}
+
+R { 2816} {0} {<ffa>} {The Fungus Garden} { } {A fetid smelling soil covers the floor of these low ceilinged caverns to an even depth of six inches.  Growing in the warmth of this compost heap are thousands upon thousands of mushrooms, toadstools and other fungi.  The only slight light to be found here comes from some of the fungi, their phosphorescent glow barely showing their own shapes. } {Kerrin} {} {Underground} {} {1.000}
+E { 2815} {e} {e} {2} {0} {}
+E { 2813} {n} {n} {1} {0} {}
+
+R { 2817} {0} {<ffa>} {By the Shore of a Lake} { } {You stand on the edge of an underground lake.  Small drops of water create deep echos as they fall from the stalactites into the water.  Here on the shore, pebbles rounded by ages of the water's gentle touch form a loose beach onto which small wavelets lap softly. } {Kerrin} {} {Shore} {} {1.000}
+E { 2815} {n} {n} {1} {0} {}
+E { 2818} {e} {e} {2} {0} {}
+E { 2819} {s} {s} {4} {0} {}
+
+R { 2818} {0} {<ffa>} {Deeping Lake} { } {You have ventured out onto the surface of Deeping Lake.  The water is almost pitch black, only revealing a few inches of its secrets held below.  A heavy fog lifts off the surface of the water, its thick haze hides anything just past your arm's length. Terrain: Underground. } {Kerrin} {} {Underground.} {} {1.000}
+E { 2817} {w} {w} {8} {0} {}
+
+R { 2819} {0} {<ffa>} {Deeping Lake} { } {You have ventured out onto the surface of Deeping Lake.  The water is almost pitch black, only revealing a few inches of its secrets held below.  A heavy fog lifts off the surface of the water, its thick haze hides anything just past your arm's length. Terrain: Underground. } {Kerrin} {} {Underground.} {} {1.000}
+E { 2817} {n} {n} {1} {0} {}
+
+R { 2820} {8} {<ffa>} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2750} {e} {e} {2} {0} {}
+E { 2821} {w} {w} {8} {0} {}
+
+R { 2821} {8} {<ffa>} {} { } {} {Kerrin} {} {} {} {1.000}
+E { 2820} {e} {e} {2} {0} {}
+E { 2822} {w} {w} {8} {0} {}
+
+R { 2822} {0} {<aff>} {Down the Western Slope} { } {Dry winds whip up the rocky path, bringing stinging sand and grit with it from the desert.  A small shimmering patch can be seen in the midst of the desolation, but the winds make it difficult to discern details. } {Greensprings Oasis} {} {Mountains} {} {1.000}
+E { 2821} {e} {e} {2} {0} {}
+E { 2841} {w} {w} {8} {0} {}
+
+R { 2823} {0} {<aff>} {Down the Western Slope} { } {A rocky path winds its way down from the western face of the mountain to the east towards the fringes of a desert landscape.  The white walls of humanoid made shelters are visible through fierce gusts of sand laced wind and offer the hope of shelter. } {Greensprings Oasis} {} {Mountains} {} {1.000}
+E { 2841} {e} {e} {2} {0} {}
+E { 2842} {w} {w} {8} {0} {}
+
+R { 2824} {0} {<aff>} {The Trail Into The Desert} { } {The winding trail wraps itself around an immensely large tree.  The lush green forest to the east has given way to a hot dusty desert.  A large bead of sweat begins to drip from your brow. } {Greensprings Oasis} {} {Desert} {} {1.000}
+E { 2842} {e} {e} {2} {0} {}
+E { 2825} {s} {s} {4} {0} {}
+
+R { 2825} {0} {<aff>} {Entrance to Greensprings Oasis} { } {This is the entrance to the only oasis for miles.  It is a fairly large one that supports plant life and animals, in a place where sand and heat prevail. By the way the temperature here is close to 140 degrees F.  You have entered the oasis at the main gate and the market square.  There are many merchant caravans cluttering the area and selling their goods.  The most notable merchant house stands to the south-west.  It is House Wavir. } {Greensprings Oasis} {} {Desert} {} {1.000}
+E { 2824} {n} {n} {1} {0} {}
+E { 2826} {w} {w} {8} {0} {}
+
+R { 2826} {0} {<aff>} {Inside the Market} { } {You are inside the market square.  There are many people walking around selling and buying goods from all types of people.  You notice many differences in the racial traits of most people here.  The elves for instance are some six and a half feet tall.  There are also a few insect like races walking around in the market.  They have four arms and walk on two large limbs.  Their bodies are green and scaly.  They look somewhat like an oversized praying mantises.  To the south is a large caravan with the distinct markings of the house Wavir. } {Greensprings Oasis} {} {City} {} {1.000}
+E { 2825} {e} {e} {2} {0} {}
+E { 2827} {n} {n} {1} {0} {}
+E { 2834} {w} {w} {8} {0} {}
+E { 2835} {s} {s} {4} {0} {}
+
+R { 2827} {0} {<aff>} {The Large Northern Wall} { } {There is a large wall on top of a sand dune here.  Many guards and archers line the top of the walls.  The market is to the south and the oasis is to the west.  There is a watch tower to the north west. } {Greensprings Oasis} {} {City} {} {1.000}
+E { 2826} {s} {s} {4} {0} {}
+E { 2828} {w} {w} {8} {0} {}
+
+R { 2828} {0} {<aff>} {The Northern Wall} { } {This is a tall wall that protects the oasis from intruders.  It is lined with archers and guards who walk the top.  They are on the lookout for any unwanted people and also assist in the issuing of punishment to those who wish to commit crimes here at the oasis. } {Greensprings Oasis} {} {City} {} {1.000}
+E { 2827} {e} {e} {2} {0} {}
+E { 2829} {w} {w} {8} {0} {}
+E { 2834} {s} {s} {4} {0} {}
+
+R { 2829} {0} {<aff>} {The North Wall} { } {There is a large wall here on top of a sand dune.  Many guards and archers line the top of the wall.  To the north west is a tower and to the west is the oasis.  The Market is to the south of here. } {Greensprings Oasis} {} {City} {} {1.000}
+E { 2828} {e} {e} {2} {0} {}
+E { 2830} {n} {n} {1} {0} {}
+E { 2833} {s} {s} {4} {0} {}
+
+R { 2830} {0} {<aff>} {The Base of the Watch Tower} { } {The wall ends here in a tall structure used to keep lookout.  There is a set of stairs leading up to the lookout point where many guards sit and tell stories to each other. } {Greensprings Oasis} {} {City} {} {1.000}
+E { 2829} {s} {s} {4} {0} {}
+E { 2831} {u} {u} {16} {0} {}
+E { 2832} {n} {n} {1} {0} {}
+
+R { 2831} {0} {<aff>} {The Lookout in the North Tower} { } {From here you can see out into the vast desert.  There is sand for many miles.  To the north west there is a small grove of trees where a powerful druid is said to live.  There are numerous chairs and a table in the center of this room. } {Greensprings Oasis} {} {Inside} {} {1.000}
+E { 2830} {d} {d} {32} {0} {}
+
+R { 2832} {0} {<aff>} {The Edge of the Dune} { } {This is an edge of a large dune of sand.  From here you can see a fairly large camp of elves in the distance.  To the west is a large field filled with crops and workers tending to them.  You can see the oasis to the south west of here and a watch tower is directly to the south. } {Greensprings Oasis} {} {Desert} {} {1.000}
+E { 2830} {s} {s} {4} {0} {}
+E { 2886} {n} {n} {1} {0} {}
+
+R { 2833} {0} {<aff>} {The Edge of the Oasis} { } {You are at the edge of a small oasis.  In the center of the oasis, at the bottom lies a small structure.  You seem to think that if you could swim there you could get into the structure.  Who knows what might be trapped down in its depths. } {Greensprings Oasis} {} {Shore} {} {1.000}
+E { 2829} {n} {n} {1} {0} {}
+E { 2834} {e} {e} {2} {0} {}
+E { 2837} {s} {s} {4} {0} {}
+E { 2874} {w} {w} {8} {0} {}
+
+R { 2834} {0} {<aff>} {The Market} { } {This area is just like the rest of the market.  There are stocky dwarves and some half-giants walking around here making sure you don't steal anything.  The sun is beating down upon your skin.  You feel the heat of the sun burn right through your skin. } {Greensprings Oasis} {} {City} {} {1.000}
+E { 2826} {e} {e} {2} {0} {}
+E { 2828} {n} {n} {1} {0} {}
+E { 2833} {w} {w} {8} {0} {}
+E { 2836} {s} {s} {4} {0} {}
+
+R { 2835} {0} {<aff>} {The Merchant Caravan} { } {This is the merchant caravan of House Wavir.  The house as you know it is one of the most powerful houses in the area.  They deal in many items including weapons and armor.  They are also connected to a group called the Veiled Alliance which controls most of the magic in the area. } {Greensprings Oasis} {} {City} {} {1.000}
+E { 2826} {n} {n} {1} {0} {}
+
+R { 2836} {0} {<aff>} {Another Merchant House} { } {This is another merchant house.  Many kinds of magical items are on the walls of the caravan.  There is a young man sitting behind the counter. } {Greensprings Oasis} {} {City} {} {1.000}
+E { 2834} {n} {n} {1} {0} {}
+
+R { 2837} {0} {<aff>} {The Edge of the Oasis} { } {You are on the edge of the oasis.  To your west is the water, which is crystal clear and to the east is a market.  To the south lies an area of tents and small houses that make up the population of the oasis.  Across the pool there is a small inn for travelers to rest and eat at.  It is renowned for its fine cuisine. } {Greensprings Oasis} {} {Shore} {} {1.000}
+E { 2833} {n} {n} {1} {0} {}
+E { 2838} {s} {s} {4} {0} {}
+E { 2843} {w} {w} {8} {0} {}
+
+R { 2838} {0} {<aff>} {On the Edge of the Oasis} { } {The houses and tents of the oasis' inhabitants lie to the south while the inn lies to the west.  There is a market to the northeast.  The smell from the inn is overwhelming and you decide to get something to eat.  To the immediate west is a small pool of water.  There seems to be some sort of structure at the bottom of the oasis. } {Greensprings Oasis} {} {Shore} {} {1.000}
+E { 2837} {n} {n} {1} {0} {}
+E { 2839} {s} {s} {4} {0} {}
+E { 2844} {w} {w} {8} {0} {}
+
+R { 2839} {0} {<aff>} {On the Edge of the Oasis} { } {You stand on the edge of the oasis pool.  To the south there is a wall that runs in an arc to the inn.  It is patrolled by the many guards employed by the oasis' owners. } {Greensprings Oasis} {} {Shore} {} {1.000}
+E { 2838} {n} {n} {1} {0} {}
+E { 2840} {s} {s} {4} {0} {}
+E { 2858} {w} {w} {8} {0} {}
+
+R { 2840} {0} {<aff>} {The Southern Wall} { } {This a turning point of the southern wall.  It extends from here to the east and to the south.  Many strong and burly guards line the wall, looking towards the oasis for problems.  There are numerous archers on the walls here that look outward for intruders.  This area of the oasis is where the general employees live.  It is heavily protected by the oasis' guards. } {Greensprings Oasis} {} {City} {} {1.000}
+E { 2839} {n} {n} {1} {0} {}
+E { 2845} {w} {open flap;w} {8} {0} {}
+E { 2846} {s} {s} {4} {0} {}
+
+R { 2841} {8} {} {} { } {} {Greensprings Oasis} {} {} {} {1.000}
+E { 2823} {w} {w} {8} {0} {}
+E { 2822} {e} {e} {2} {0} {}
+
+R { 2842} {8} {} {} { } {} {Greensprings Oasis} {} {} {} {1.000}
+E { 2824} {w} {w} {8} {0} {}
+E { 2823} {e} {e} {2} {0} {}
+
+R { 2843} {0} {<aaf>} {On the Water} {~} {The water is crystal clear.  You see a small structure underneath you submerged in the water. } {Greensprings Oasis} {} {Water} {} {1.000}
+E { 2837} {e} {e} {2} {0} {}
+E { 2885} {w} {w} {8} {0} {}
+E { 2844} {s} {s} {4} {0} {}
+E { 2874} {n} {n} {1} {0} {}
+
+R { 2844} {0} {<aaf>} {On the Water} {~} {The water here is crystal clear.  You dip your hands in and take a long drink from the oasis.  It tastes better than any water you have ever drank. There seems to be some sort of structure to the north and below the surface of the water. } {Greensprings Oasis} {} {Water} {} {1.000}
+E { 2838} {e} {e} {2} {0} {}
+E { 2858} {s} {s} {4} {0} {}
+E { 2860} {w} {w} {8} {0} {}
+E { 2843} {n} {n} {1} {0} {}
+
+R { 2845} {0} {<aff>} {Entrance to a Large Tent} { } {There are numerous measurement tools lying around in a half organized manner.  This is easily the Master Engineer's tent.  There are sounds of someone muttering curses under their breath to the south.  Maybe you shouldn't bother them.  They are after all at work. } {Greensprings Oasis} {} {Inside} {} {1.000}
+E { 2840} {e} {e} {2} {0} {}
+E { 2857} {s} {s} {4} {0} {}
+
+R { 2846} {0} {<aff>} {The Southern Wall} { } {This is the southern wall of the oasis.  The wall is some 100 feet high and extends to the south and to the north. } {Greensprings Oasis} {} {City} {} {1.000}
+E { 2840} {n} {n} {1} {0} {}
+E { 2847} {s} {s} {4} {0} {}
+E { 2856} {e} {e} {2} {0} {}
+
+R { 2847} {0} {<aff>} {The Southern Wall} { } {There are many guards patrolling the area.  They walk along the top of the wall watching the oasis and beyond for problems. } {Greensprings Oasis} {} {City} {} {1.000}
+E { 2846} {n} {n} {1} {0} {}
+E { 2848} {e} {e} {2} {0} {}
+E { 2850} {s} {s} {4} {0} {}
+E { 2851} {w} {w} {8} {0} {}
+
+R { 2848} {0} {<aff>} {The Southern Wall} { } {This is the southern wall.  There are numerous guards here.  The Southern watchtower lies to the south of here. } {Greensprings Oasis} {} {City} {} {1.000}
+E { 2847} {w} {w} {8} {0} {}
+E { 2849} {s} {s} {4} {0} {}
+E { 2856} {n} {n} {1} {0} {}
+
+R { 2849} {0} {<aff>} {The Southern Watchtower} { } {There are many guards here on their break.  This also seems to be the office of the captain of the guard.  You notice that there are many maps of the area here.  There is one map on the table in the center of the room.  It was probably a map of the oasis.  Unfortunately something has been spilled upon it and the information upon it ruined. } {Greensprings Oasis} {} {Inside} {} {1.000}
+E { 2848} {n} {n} {1} {0} {}
+E { 2850} {w} {w} {8} {0} {}
+
+R { 2850} {0} {<aff>} {The South Wall} { } {You are walking along the south wall.  There are numerous guards here attending to their daily duties.  A watch tower lies directly to the east of here. } {Greensprings Oasis} {} {City} {} {1.000}
+E { 2849} {e} {e} {2} {0} {}
+E { 2847} {n} {n} {1} {0} {}
+
+R { 2851} {0} {<aff>} {The Southern Wall} { } {You are walking along the southern wall.  There are numerous guards here eating food on their break.  They are still however watching to see if any trouble brews down below. } {Greensprings Oasis} {} {City} {} {1.000}
+E { 2847} {e} {e} {2} {0} {}
+E { 2852} {s} {s} {4} {0} {}
+E { 2853} {w} {w} {8} {0} {}
+
+R { 2852} {0} {<aff>} {A Small Tent} { } {This looks to be the home of one of the inmates.  It is cluttered with clothing and many other miscellaneous items.  The only exit is to the north. The air here is quite a bit cooler than on the outside.  This is mainly due to the protection from the burning heat of the sun. } {Greensprings Oasis} {} {Inside} {} {1.000}
+E { 2851} {n} {n} {1} {0} {}
+
+R { 2853} {0} {<aff>} {The Turning Point} { } {The southern wall makes a quick turn for the north.  It also extends to the east from here.  You can see many tents to the north and to the west of where you are standing. } {Greensprings Oasis} {} {City} {} {1.000}
+E { 2851} {e} {e} {2} {0} {}
+E { 2866} {n} {n} {1} {0} {}
+
+R { 2854} {0} {<aff>} {A Large Tent} { } {This tent is quite massive in size.  It looks as if some of the guards are living here.  Their cloaks hang on the wall here.  They are each colored in a unique way distinguishing them from the other sections of the hired mercenaries of this oasis.  The cloaks signify that these guards are under the control of Greel, captain of the guard. } {Greensprings Oasis} {} {Inside} {} {1.000}
+E { 2855} {s} {s} {4} {0} {}
+
+R { 2855} {0} {<aff>} {The Dunes of Thakilran} { } {You are at a junction point with the sea of sand dunes to the west and the oasis to the east.  You also see a large tent erected just north of here.  The thought of traveling out into the endless sea of sand to the west makes you salivate. } {Greensprings Oasis} {} {Desert} {} {1.000}
+E { 2866} {e} {e} {2} {0} {}
+E { 2854} {n} {n} {1} {0} {}
+E { 2868} {w} {w} {8} {0} {}
+E { 2869} {s} {s} {4} {0} {}
+
+R { 2856} {0} {<aff>} {A Tall Dune} { } {The wall here just runs into the dune.  The dune is level with the wall at approximately 100 feet high.  There is a tent to the west.  The market and all its splendor lies to the north of here. } {Greensprings Oasis} {} {City} {} {1.000}
+E { 2846} {w} {w} {8} {0} {}
+E { 2848} {s} {s} {4} {0} {}
+
+R { 2857} {0} {<aff>} {The Master Engineer's Room} { } {This room is cluttered with writing tools and other measuring equipment. There is an old man sitting behind a table diligently working on a plan for some sort of structure.  He seems to be quite agitated. } {Greensprings Oasis} {} {Inside} {} {1.000}
+E { 2845} {n} {n} {1} {0} {}
+
+R { 2858} {0} {<aff>} {} { } {} {Greensprings Oasis} {} {} {} {1.000}
+E { 2839} {e} {e} {2} {0} {}
+E { 2844} {n} {n} {1} {0} {}
+E { 2859} {w} {w} {8} {0} {}
+
+R { 2859} {0} {<aff>} {On the Edge of the Oasis} { } {You are on the edge of the oasis.  Directly to the west is one of the largest trees you have ever seen and the entrance to the Greensprings Inn.  To the south is a large wall that protects the southern part of the oasis from intrusion.  You can see many guards roaming about here. } {Greensprings Oasis} {} {Shore} {} {1.000}
+E { 2858} {e} {e} {2} {0} {}
+E { 2860} {n} {n} {1} {0} {}
+E { 2861} {w} {w} {8} {0} {}
+E { 2867} {s} {s} {4} {0} {}
+
+R { 2860} {0} {<aaf>} {You have become more adept at swimming!} {~} {On the Water    The water here is crystal clear.  To the west is a large cliff and to the south is the inn.  There is a good smell coming form the doors of the inn.  It makes you extremely hungry. } {Greensprings Oasis} {} {Water} {} {1.000}
+E { 2859} {s} {s} {4} {0} {}
+E { 2844} {e} {e} {2} {0} {}
+E { 2865} {w} {w} {8} {0} {}
+E { 2885} {n} {n} {1} {0} {}
+
+R { 2861} {0} {<aff>} {The Tree of Life} { } {Here stands the largest tree you have ever seen.  It emits a constant glow of goodness.  Its limbs are some 3 feet thick and it has a girth of some 20 feet around its base.  There is a small set of stairs here that lead into the face of the cliff.  You seem to think that by going into the inn you will be able to get out of the scorching heat.  The smell coming from the inn is also very pleasant. } {Greensprings Oasis} {} {Forest} {} {1.000}
+E { 2859} {e} {e} {2} {0} {}
+E { 2862} {w} {w} {8} {0} {}
+E { 2865} {n} {n} {1} {0} {}
+
+R { 2862} {0} {<aff>} {The Common Room of the Greensprings Inn} { } {This is the common room of the Inn.  The bar is to the north end of this room.  A burly bartender stands behind the bar waiting for you to place an order.  An incredible smell comes from the kitchen that makes your mouth water. To the north is a set of stairs leading to the rooms.  The bartender tells you that if you want to stay for the night you must go see the receptionist at the top of the stairs. } {Greensprings Oasis} {} {Inside} {} {1.000}
+E { 2861} {e} {e} {2} {0} {}
+E { 2864} {u} {u} {16} {0} {}
+
+R { 2863} {0} {<aff>} {The Dunes of Thakilran} { } {You are at a junction point with the sea of sand dunes to the west and the oasis to the east.  You also see a large tent erected just north of here.  The thought of traveling out into the endless sea of sand to the west makes you salivate. } {Greensprings Oasis} {} {Desert} {} {1.000}
+E { 2845} {e} {e} {2} {0} {}
+
+R { 2864} {0} {<aff>} {Rooms for Rent} { } {This is a long hallway that leads to many rooms.  There is a small receptionist waiting for you to pay.  She smiles at you and waits patiently. } {Greensprings Oasis} {} {Inside} {} {1.000}
+E { 2862} {d} {d} {32} {0} {}
+
+R { 2865} {0} {<aff>} {At the Base of a Large Cliff} { } {You are standing at the base of a large cliff.  It stands some 100 feet tall at its highest point and looks impossible to climb.  There is an inn to the south that emits a great smell of food.  NOTE: Thomas of Teron } {Greensprings Oasis} {} {City} {} {1.000}
+E { 2861} {s} {s} {4} {0} {}
+E { 2860} {e} {e} {2} {0} {}
+E { 2871} {n} {n} {1} {0} {}
+
+R { 2866} {0} {<aff>} {The End of the Southern Wall} { } {The wall here just runs right into the dune.  There is a smell from the north west that pleases your senses.  You recognize it as the food from the quaint little inn that is here at the oasis.  The sand dune slopes down from here behind the entrance of the inn. } {Greensprings Oasis} {} {City} {} {1.000}
+E { 2867} {n} {n} {1} {0} {}
+E { 2853} {s} {s} {4} {0} {}
+E { 2855} {w} {w} {8} {0} {}
+
+R { 2867} {8} {} {} { } {} {Greensprings Oasis} {} {} {} {1.000}
+E { 2866} {s} {s} {4} {0} {}
+E { 2859} {n} {n} {1} {0} {}
+
+R { 2868} {0} {<aff>} {The Dunes of Thakilran} { } {You are completely surrounded by flowing sand dunes that are continually shifting the terrain.  It is almost impossible to keep your bearings as every direction looks the same.  You do notice the opening to a cave to the south, however. } {Greensprings Oasis} {} {Desert} {} {1.000}
+E { 2855} {e} {e} {2} {0} {}
+E { 2870} {s} {s} {4} {0} {}
+
+R { 2869} {0} {<aff>} {The Dunes of Thakilran} { } {You stand on a large sand dune.  There seems to be some sort of cave to the west of here.  Because it arouses your curiosity you feel an impulse to go in the cave. } {Greensprings Oasis} {} {Desert} {} {1.000}
+E { 2855} {n} {n} {1} {0} {}
+E { 2870} {w} {w} {8} {0} {}
+
+R { 2870} {0} {<aff>} {Inside a Desert Cave} { } {The cave has openings both to the east and to the north with a rather large cavern in-between.  There are signs that various types of creatures have made this their home in the past, but no indication of what currently resides here. } {Greensprings Oasis} {} {Underground} {} {1.000}
+E { 2869} {e} {e} {2} {0} {}
+E { 2868} {n} {n} {1} {0} {}
+
+R { 2871} {0} {<aff>} {} { } {} {Greensprings Oasis} {} {} {} {1.000}
+E { 2865} {s} {s} {4} {0} {}
+E { 2872} {n} {n} {1} {0} {}
+E { 2885} {e} {e} {2} {0} {}
+
+R { 2872} {0} {<aff>} {A Large Cliff} { } {You are on the edge of the oasis.  There is a large cliff to your west side. It rises some 100 feet, maybe more.  The scent of the food from the inn is getting stronger.  You fell yourself drawn to the idea of tasting that food. Mmmmmm. } {Greensprings Oasis} {} {Hills} {} {1.000}
+E { 2871} {s} {s} {4} {0} {}
+E { 2873} {e} {e} {2} {0} {}
+
+R { 2873} {0} {<aff>} {The Edge of the Oasis} { } {You are still on the edge of the oasis.  To the north are the fields and to the south is the oasis.  There is a large tree standing next to the entrance of a small inn.  To the east is the ever growing market.  Many people are there conducting business, some of which seems to be on the shady side.  From here you can make out the smell of the good food coming from the inn. } {Greensprings Oasis} {} {Shore} {} {1.000}
+E { 2872} {w} {w} {8} {0} {}
+E { 2874} {e} {e} {2} {0} {}
+E { 2879} {n} {n} {1} {0} {}
+E { 2885} {s} {s} {4} {0} {}
+
+R { 2874} {0} {<aff>} {The Edge of the Oasis} { } {This is the edge of a small pool of water.  To the south west you see the entrance to an inn.  There are many people running around in the market to the east of here.  The north wall lies to the north east and the large fields to the north.  There seems to something at the bottom of the oasis as you look into it.  It is surrounded by lush green grass. } {Greensprings Oasis} {} {Shore} {} {1.000}
+E { 2873} {w} {w} {8} {0} {}
+E { 2833} {e} {e} {2} {0} {}
+E { 2875} {n} {n} {1} {0} {}
+E { 2843} {s} {s} {4} {0} {}
+
+R { 2875} {0} {<aff>} {Very Large Fields} { } {Here there are many kinds of crops grown.  The crops support the many citizens of this oasis.  There are occasional buildings scattered throughout the fields.  They are the houses of the workers who tend to the crops that are grown here. } {Greensprings Oasis} {} {Field} {} {1.000}
+E { 2874} {s} {s} {4} {0} {}
+E { 2876} {n} {n} {1} {0} {}
+E { 2879} {w} {w} {8} {0} {}
+
+R { 2876} {0} {<aff>} {The Large Fields} { } {This area contains more crops and small houses.  To the north you see a small camp of elves.  You get the feeling that they are going to attack the oasis on the first opportunity.  You have seen some of them in the area possibly scouting. } {Greensprings Oasis} {} {Field} {} {1.000}
+E { 2875} {s} {s} {4} {0} {}
+E { 2877} {w} {w} {8} {0} {}
+
+R { 2877} {0} {<aff>} {The Crop Fields} { } {There is a large band of elves to the north.  They are scurrying about doing things that you can't quite make out through the heat distortion.  To the south is a large stretch of field with many crops growing there.  Farther to the south you see the edge of the oasis and a market.  There are also some scattered houses here and there among the fields.  It is amazing that the crops planted here even grow with the heat that the red sun gives off.  You begin to sweat. } {Greensprings Oasis} {} {Field} {} {1.000}
+E { 2876} {e} {e} {2} {0} {}
+E { 2878} {w} {w} {8} {0} {}
+E { 2879} {s} {s} {4} {0} {}
+
+R { 2878} {0} {<aff>} {Very Large Fields} { } {Here there are many kinds of crops grown.  The crops support the many citizens of this oasis.  There are occasional buildings scattered throughout the fields.  They are the houses of the workers who tend to the crops that are grown here. } {Greensprings Oasis} {} {Field} {} {1.000}
+E { 2877} {e} {e} {2} {0} {}
+
+R { 2879} {0} {<aff>} {More Fields} { } {This area is filled with many crops.  To the south is a large pool of water. To the west is a large sand dune and to the east is the northern wall.  Many workers run too and from the inn delivering food to the cook. } {Greensprings Oasis} {} {Field} {} {1.000}
+E { 2877} {n} {n} {1} {0} {}
+E { 2875} {e} {e} {2} {0} {}
+E { 2873} {s} {s} {4} {0} {}
+E { 2880} {w} {w} {8} {0} {}
+
+R { 2880} {0} {<aff>} {The Dunes of Thakilran} { } {You are standing on top of a large flowing sand dune.  The scorching heat makes you sweat.  You can see a small grove of trees to the north and the oasis east. } {Greensprings Oasis} {} {Desert} {} {1.000}
+E { 2879} {e} {e} {2} {0} {}
+E { 2881} {w} {w} {8} {0} {}
+
+R { 2881} {0} {<aff>} {The Dunes of Thakilran} { } {You are standing on top of a large flowing sand dune.  The scorching heat makes you sweat.  You can see a small grove of trees to the north and the oasis east. } {Greensprings Oasis} {} {Desert} {} {1.000}
+E { 2880} {e} {e} {2} {0} {}
+E { 2882} {s} {s} {4} {0} {}
+
+R { 2882} {0} {<aff>} {The Dunes of Thakilran} { } {You are standing on top of a large flowing sand dune.  The scorching heat makes you sweat.  You can see a small grove of trees to the north and the oasis east. } {Greensprings Oasis} {} {Desert} {} {1.000}
+E { 2881} {n} {n} {1} {0} {}
+E { 2883} {s} {s} {4} {0} {}
+
+R { 2883} {0} {<aff>} {The Dunes of Thakilran} { } {You are standing on top of a large flowing sand dune.  The scorching heat makes you sweat.  You can see a small grove of trees to the north and the oasis east. } {Greensprings Oasis} {} {Desert} {} {1.000}
+E { 2882} {n} {n} {1} {0} {}
+E { 2884} {s} {s} {4} {0} {}
+
+R { 2884} {0} {<aff>} {The Dunes of Thakilran} { } {You are standing on top of a large flowing sand dune.  The scorching heat makes you sweat.  You can see a small grove of trees to the north and the oasis east. } {Greensprings Oasis} {} {Desert} {} {1.000}
+E { 2883} {n} {n} {1} {0} {}
+
+R { 2885} {0} {<aaf>} {On the Water} {~} {You are in the water of the oasis.  It is crystal clear and refreshing in this extreme heat.  There is a structure directly below you.  It seems to be underwater???  Hmmmmm.  You think that there could be interesting and possibly powerful items and treasures inside that structure. } {Greensprings Oasis} {} {Water} {} {1.000}
+E { 2871} {w} {w} {8} {0} {}
+E { 2843} {e} {e} {2} {0} {}
+E { 2860} {s} {s} {4} {0} {}
+E { 2873} {n} {n} {1} {0} {}
+
+R { 2886} {0} {<aff>} {Sloping Path} { } {While crossing the sand dunes you notice a path, or more correctly, a gully leading into what looks like a large basin.  In the distance, behind the basin is a large foreboding mountain range. } {Greensprings Oasis} {} {Desert} {} {1.000}
+E { 2832} {s} {s} {4} {0} {}
+E { 2887} {n} {n} {1} {0} {}
+
+R { 2887} {0} {<aff>} {Sloping Path} { } {The path continues down into the basin.  Large natural rock walls on either side of you block the desert sand from filling this path up.  They also offer shade from the otherwise merciless sun. } {Greensprings Oasis} {} {Desert} {} {1.000}
+E { 2886} {s} {s} {4} {0} {}
+E { 2888} {n} {n} {1} {0} {}
+
+R { 2888} {0} {<aff>} {End of Sloping Path} { } {The rock walls gradually start to move away from each other, leaving no shade in the middle of the path.  Just a little further south the path ends and the basin begins, while to the north you can still clearly see the ever changing sand dunes. } {Greensprings Oasis} {} {Desert} {} {1.000}
+E { 2887} {s} {s} {4} {0} {}
+E { 2889} {n} {n} {1} {0} {}
+
+R { 2889} {0} {<aff>} {Sandy Basin} { } {The wide sandy basin is really just a depression in what appears to be a large mountain range.  To the north your vision is blocked by swirling winds. Westwards the mountains look rather high and very impassable.  To the east the range looks more worn.  You know Kardash and Teron lie somewhere off in that direction, maybe they are just over those crumbling peaks.  To the south is a path that could lead back towards the Greensprings Oasis.     Something moving catches your eye.  Apparently there is life in this inhospitable place.  You just hope it's not hungry. } {Greensprings Oasis} {} {Desert} {} {1.000}
+E { 2888} {s} {s} {4} {0} {}
+
+R { 2890} {0} {<fdf>} {} { } {} {Camelot} {} {} {} {1.000}
+E { 2752} {w} {w} {8} {0} {}
+E { 2891} {e} {e} {2} {0} {}
+
+R { 2891} {0} {<fdf>} {The Northern Hills} { } {The rocks and rolling terrain to each side of this twisting and somewhat gravelly road signal the foothills of the great mountain to the southwest.  The warm smell of grasses and flower blossoms swirls about you, blown up the hillside from the grassland to the northeast. } {Camelot} {} {Mountains} {} {1.000}
+E { 2890} {w} {w} {8} {0} {}
+E { 2892} {e} {e} {2} {0} {}
+
+R { 2892} {0} {<fdf>} {Through Grassy Fields} { } {Tall grass stands to waist height at either side of the road.  The seeds of thousands of dandelions blow in the breeze, carried in gentle patterns around where you stand. } {Camelot} {} {Field} {} {1.000}
+E { 2891} {w} {w} {8} {0} {}
+E { 2893} {n} {n} {1} {0} {}
+
+R { 2893} {0} {<fdf>} {Through Grassy Fields} { } {The blowing seeds of dandelions and the light haze of pollen fill the air as it swirls about, its motion somewhat constrained by the great forests to the far south and northwest.  The road is rutted from wooden wheeled traffic, perhaps trade between the dwarven realm to the southwest and the castle that lies to the north. } {Camelot} {} {Field} {} {1.000}
+E { 2892} {s} {s} {4} {0} {}
+E { 2894} {e} {e} {2} {0} {}
+
+R { 2894} {0} {<fdf>} {Toward a Wide Moat} { } {The grasses on either side of the road have thinned as it has wound its way toward the castle just to the north.  The road itself is wide and solid, and has been smoothed somewhat of the cart-ruts that plague it to the south.  To the north, the distinct odor of a moat can be smelled. } {Camelot} {} {Field} {} {1.000}
+E { 2893} {w} {w} {8} {0} {}
+E { 2895} {n} {n} {1} {0} {}
+
+R { 2895} {0} {<fdf>} {Over the Moat} { } {The wooden bridge across the castle's moat is solid, but gives you little comfort as you peer over into the dark depths of the brown water.  Cattails and rushes grow along the edges of the moat as it stretches on around the southern castle wall.  To the north stands a great gate house with a wide steel gate. } {Camelot} {} {City} {} {1.000}
+E { 2894} {s} {s} {4} {0} {}
+E { 2896} {n} {n} {1} {0} {}
+
+R { 2896} {0} {<fdf>} {The Drawbridge} { } {A wooden drawbridge, supported by two gigantic metal chains, provides access to the entrance of the castle.  You draw up enough courage to take a peek over the edge and see the murky water far below.  Although an awesome spectacle, you sense a feeling of peacefulness and serenity, not the uneasiness that is common when entering a strange castle. } {Camelot} {} {City} {} {1.000}
+E { 2895} {s} {s} {4} {0} {}
+E { 2897} {n} {n} {1} {0} {}
+
+R { 2897} {0} {<fdf>} {The Great Archway} { } {You are standing beneath a massive archway constructed from shining white stone. Beyond lies the beautiful, but sometimes dangerous, castle of Camelot. During your years of adventuring you have heard many a tale about this famous castle; some, simply too good to believe. Something inside yourself is drawing you towards the castle, perhaps it is your curiosity getting the better of you. You know that you must find out if these stories are true, no matter what the risk may be. The doors await your entrance... } {Camelot} {} {City} {} {1.000}
+E { 2896} {s} {s} {4} {0} {}
+E { 2898} {n} {n} {1} {0} {}
+
+R { 2898} {0} {<fdf>} {Courtyard} { } {This large, open area is used as a parade ground and assembly point for the Knights of Camelot.  It offers a wonderful view of the entrance, which has been elaborately decorated with colorful banners.  A flag waves around in the breeze above the doorway, its deep red background emblazoned with a golden lion.  A strange looking stone lies in the north-east corner of this area; it has an odd shaped hole in it, similar to a hole made by a large sword. } {Camelot} {} {City} {} {1.000}
+E { 2897} {s} {s} {4} {0} {}
+E { 2899} {w} {w} {8} {0} {}
+E { 2900} {e} {e} {2} {0} {}
+E { 2901} {n} {n} {1} {0} {}
+
+R { 2899} {0} {<fdf>} {Foot Of The Wall} { } {A thin set of stairs rise steeply up to the top of the walls. Looking up you can see the castle walls towering above you. Regular patrols are kept to keep out the riff-raff and the enemies of King Arthur. } {Camelot} {} {City} {} {1.000}
+E { 2898} {e} {e} {2} {0} {}
+E { 2933} {u} {u} {16} {0} {}
+
+R { 2900} {0} {<fdf>} {Foot Of The Wall} { } {A thin set of stairs rise steeply up to the top of the walls. Looking up you can see the castle walls towering above you. Regular patrols are kept to keep out the riff-raff and the enemies of King Arthur. } {Camelot} {} {City} {} {1.000}
+E { 2898} {w} {w} {8} {0} {}
+E { 2932} {u} {u} {16} {0} {}
+
+R { 2901} {0} {<fdf>} {Entrance Hall} { } {You stand in the entrance hall of the world's greatest castle - Camelot. Spectacular decorations hang on every wall; an assortment of weapons and colorful war banners, and several portraits of Knights who gave their lives defending the castle.  Each block of stone used to build Camelot has been hand crafted and placed into position perfectly.    There is a powerful aura emanating from this room, a force that makes you feel insignificant and somewhat unworthy. } {Camelot} {} {Inside} {} {1.000}
+E { 2898} {s} {s} {4} {0} {}
+E { 2936} {e} {e} {2} {0} {}
+E { 2943} {w} {w} {8} {0} {}
+E { 2904} {n} {n} {1} {0} {}
+
+R { 2902} {0} {<fdf>} {Base Of The Stairs} { } {Curving up to the next level is a beautiful staircase.  On each side of the staircase, built on top of the pillars, is a statue of a white dragon.  The dragon's wings are stretched out in flight as they provide a canopy for the people that climb the stairs.  A bright light shines from within each statue, which is enough to illuminate the rest of the room. } {Camelot} {} {Inside} {} {1.000}
+E { 2935} {w} {w} {8} {0} {}
+E { 2937} {u} {u} {16} {0} {}
+
+R { 2903} {0} {<fdf>} {Base Of The Stairs} { } {A stunningly beautiful staircase curves upwards to the next level.  The staircase is flanked by a pair of flying griffin statues, each made out of polished white marble.  The room is brightly lit, but you cannot find the source of the light; perhaps it is magical in nature. } {Camelot} {} {Inside} {} {1.000}
+E { 2934} {e} {e} {2} {0} {}
+E { 2944} {u} {u} {16} {0} {}
+
+R { 2904} {0} {<fdf>} {Hallway} { } {You marvel at the length of Camelot's main hallway; it appears to run without end.  The walls are made of large stone blocks which fit neatly together, as if built by some higher being.  Two glowing orbs, which hang from the ceiling, illuminate the room, casting eerie shadows on those who pass by. } {Camelot} {} {Inside} {} {1.000}
+E { 2901} {s} {s} {4} {0} {}
+E { 2905} {w} {w} {8} {0} {}
+E { 2906} {e} {open door;e} {2} {0} {}
+E { 2908} {n} {n} {1} {0} {}
+
+R { 2905} {0} {<fdf>} {Maid-Servant's Quarters} { } {You are in the bedroom of Camelot's maid-servant.  She keeps this room looking spotlessly clean and organized.  When she is not helping the cook or cleaning up around the place, she enjoys entertaining the Knights with her singing.  There is a small oval shaped mirror hanging on the south wall.  A vase of brightly colored flowers stands on a polished oak table, filling the air with a sweet fragrance. } {Camelot} {} {Inside} {} {1.000}
+E { 2904} {e} {e} {2} {0} {}
+
+R { 2906} {0} {<fdf>} {Guard Room} { } {You are in a small room which looks like it might be used for holding prisoners. Upon entering you notice several pairs of manacles set into the north and south walls. Standing in wooden racks are a number of well polished weapons, which can be snatched up at a moment's notice. } {Camelot} {} {Inside} {} {1.000}
+E { 2904} {w} {open door;w} {8} {0} {}
+E { 2907} {e} {e} {2} {0} {}
+
+R { 2907} {0} {<fdf>} {Guards' Bunkhouse} { } {You are standing in the center of the guards' bunkhouse.  Several rows of beds lie against the walls, their blankets folded neatly.  Spare uniforms hang from hooks above the beds along with suits of chain mail.  It would appear that the guards take a lot of pride in their presentation. } {Camelot} {} {Inside} {} {1.000}
+E { 2906} {w} {w} {8} {0} {}
+
+R { 2908} {0} {<fdf>} {Hallway} { } {You marvel at the length of Camelot's main hallway; it appears to run without end.  The walls are made of large stone blocks which fit neatly together as if built by some higher being.  Two glowing orbs, which hang from the ceiling, illuminate the room, casting eerie shadows on those who pass by. } {Camelot} {} {Inside} {} {1.000}
+E { 2904} {s} {s} {4} {0} {}
+E { 2909} {w} {open door;w} {8} {0} {}
+E { 2910} {n} {n} {1} {0} {}
+
+R { 2909} {0} {<fdf>} {Man-Servant's Quarters} { } {This room belongs to Camelot's Man-Servant.  He usually runs about the castle doing business in the name of King Arthur.  A large desk stands against the north wall, various scrolls and parchments lay scattered across it.  A black bearskin rug lies on the floor - even though dead, it is still an awesome sight. } {Camelot} {} {Inside} {} {1.000}
+E { 2908} {e} {open door;e} {2} {0} {}
+
+R { 2910} {0} {<fdf>} {Hallway} { } {You marvel at the length of Camelot's main hallway; it appears to run without end.  The walls are made of large stone blocks which fit neatly together as if built by some higher being.  Two glowing orbs, which hang from the ceiling, illuminate the room, casting eerie shadows on those who pass by. } {Camelot} {} {Inside} {} {1.000}
+E { 2908} {s} {s} {4} {0} {}
+E { 2911} {e} {e} {2} {0} {}
+E { 2914} {n} {n} {1} {0} {}
+
+R { 2911} {0} {<fdf>} {} { } {} {Camelot} {} {} {} {1.000}
+E { 2910} {w} {w} {8} {0} {}
+E { 2912} {n} {n} {1} {0} {}
+E { 2913} {e} {e} {2} {0} {}
+
+R { 2912} {0} {<fdf>} {Banquet Hall} { } {A long wooden table stands in the center of this room, with hundreds of matching chairs around it.  Several bowls of ripe, sweet-smelling fruit sit on top of the table, which is covered with a lace tablecloth.  Priceless paintings and tapestries hang on the walls, and a wide array of plants and flowers decorate the remainder of the room. } {Camelot} {} {Inside} {} {1.000}
+E { 2911} {s} {s} {4} {0} {}
+E { 2914} {w} {w} {8} {0} {}
+
+R { 2913} {0} {<fdf>} {Store Room} { } {This room is filled with many different kinds of food.  The cook stores them here to keep them fresh and fit for consumption.  Sacks of grain, sugar and salt lie on the floor and bundles of herbs are kept in jars on the shelves. The cook doesn't like people tampering with things in the store room, you better not let him catch you in here... } {Camelot} {} {Inside} {} {1.000}
+E { 2911} {w} {w} {8} {0} {}
+
+R { 2914} {0} {<fdf>} {} { } {} {Camelot} {} {} {} {1.000}
+E { 2910} {s} {s} {4} {0} {}
+E { 2912} {e} {e} {2} {0} {}
+E { 2915} {n} {n} {1} {0} {}
+
+R { 2915} {0} {<fdf>} {Hallway Crossing} { } {A marble statue of a prancing unicorn stands in the middle of the room. A fountain of water flows from its horn, down into a small crystal clear pool. Why not stop for a while and have a cool drink...    Two small passages lead off from the main hallway. You can't help but wonder where they go... } {Camelot} {} {Inside} {} {1.000}
+E { 2914} {s} {s} {4} {0} {}
+E { 2916} {w} {w} {8} {0} {}
+E { 2920} {e} {e} {2} {0} {}
+E { 2924} {n} {n} {1} {0} {}
+
+R { 2916} {0} {<fdf>} {West Passage} { } {While the rest of the castle may look fancy and elegant, this low, narrow passage simply provides access to several of the castle's sleeping quarters.  A thick layer of carpet covers the floor and several paintings hang on the north and south wall. } {Camelot} {} {Inside} {} {1.000}
+E { 2915} {e} {e} {2} {0} {}
+E { 2917} {w} {w} {8} {0} {}
+
+R { 2917} {0} {<fdf>} {West Gallery} { } {This room is used to display various types of combat equipment.  A suit of armor stands in a niche in the west wall, its polished surface glittering in the light.  A large sword has been placed in the metallic hands of the suit, its blade looking sharp and ready for action.  Colorful shields, each representing a historical battle, decorate the rest of the walls. } {Camelot} {} {Inside} {} {1.000}
+E { 2916} {e} {e} {2} {0} {}
+E { 2918} {s} {s} {4} {0} {}
+E { 2919} {n} {open door;n} {1} {0} {}
+
+R { 2918} {0} {<fdf>} {Knight's Sleeping Quarters} { } {In the middle of this room stands an octagonal table made of polished oak. Atop the table is a small vase of red flowers and a portrait of a beautiful woman, perhaps she is the Knight's sweetheart. An old wooden bed stands in the south-west corner, its sheets and blankets lie in a tangled mess. } {Camelot} {} {Inside} {} {1.000}
+E { 2917} {n} {n} {1} {0} {}
+
+R { 2919} {0} {<fdf>} {Knight's Sleeping Quarters} { } {A large bed stands against the west wall and is covered with a colorful patch-work quilt. On the wall are a number of framed portraits, obviously members of the Knight's family. Several articles of clothing hang over a chair in the north-east corner of the room. } {Camelot} {} {Inside} {} {1.000}
+E { 2917} {s} {open door;s} {4} {0} {}
+
+R { 2920} {0} {<fdf>} {East Passage} { } {While the rest of the castle may look fancy and elegant, this low, narrow passage simply provides access to several of the castle's sleeping quarters. A thick layer of carpet covers the floor and several paintings hang on the north and south wall. } {Camelot} {} {Inside} {} {1.000}
+E { 2915} {w} {w} {8} {0} {}
+E { 2921} {e} {e} {2} {0} {}
+
+R { 2921} {0} {<fdf>} {East Gallery} { } {This room is used to display various types of combat equipment.  A suit of armor stands in a niche in the east wall, its polished surface glittering in the light.  A large sword has been placed in the metallic hands of the suit, its blade looking sharp and ready for action.  Colorful shields, each representing a historical battle, decorate the rest of the walls. } {Camelot} {} {Inside} {} {1.000}
+E { 2920} {w} {w} {8} {0} {}
+E { 2922} {n} {open door north;n} {1} {0} {}
+E { 2923} {s} {open door south;s} {4} {0} {}
+
+R { 2922} {0} {<fdf>} {Knight's Sleeping Quarters} { } {This large bedroom is decorated with a polished wood bed and a chest of drawers.  A wooden statuette, which holds the Knight's armor, stands against the west wall.  The room is kept clean and looking respectable in case of a snap inspection. } {Camelot} {} {Inside} {} {1.000}
+E { 2921} {s} {s} {4} {0} {}
+
+R { 2923} {0} {<fdf>} {Knight's Sleeping Quarters} { } {The room is spacious, with tall arch-shaped windows and a pitched roof.  An old pair of padded seats rest in front of a fireplace.  A small bookshelf stands against the south wall and stores many an interesting book.  Mounted on a plaque above the fireplace mantle is a large dead fish. } {Camelot} {} {Inside} {} {1.000}
+E { 2921} {n} {open door;n} {1} {0} {}
+
+R { 2924} {0} {<fdf>} {Hallway} {Cra} {You marvel at the length of Camelot's main hallway; it appears to run without end. The walls are made of large stone blocks which fit neatly together as if built by some higher being. Two glowing orbs, which hang from the ceiling, illuminate the room, casting eerie shadows on those who pass by.    A light draft blows through your hair - it doesn't seem to come from the hallway but from a crack in the wall. } {Camelot} {} {Inside} {} {1.000}
+E { 2915} {s} {s} {4} {0} {}
+E { 2925} {n} {n} {1} {0} {}
+
+R { 2925} {0} {<fdf>} {Hallway} { } {You marvel at the length of Camelot's main hallway; it appears to run without end.  The walls are made of large stone blocks which fit neatly together as if built by some higher being.  Two glowing orbs, which hang from the ceiling, illuminate the room, casting eerie shadows on those who pass by. The hallway ends and leads into a large chamber to the north. } {Camelot} {} {Inside} {} {1.000}
+E { 2924} {s} {s} {4} {0} {}
+E { 2926} {e} {e} {2} {0} {}
+E { 2928} {w} {w} {8} {0} {}
+E { 2929} {n} {n} {1} {0} {}
+
+R { 2926} {0} {<fdf>} {The Chapel} { } {The chapel is a plain yet attractive room, brightly lit with hundreds of white candles.  A stone altar is situated at the north end of the room and is covered by a white cloth.  Long wooden seats are arranged in rows around the room.  A large cross hangs above the altar, a reminder of those who gave their lives fighting for Camelot. } {Camelot} {} {Inside} {} {1.000}
+E { 2925} {w} {w} {8} {0} {}
+E { 2927} {e} {open door;e} {2} {0} {}
+
+R { 2927} {0} {<fdf>} {Priest's Chambers} { } {This room is the humble abode of Camelot's Priest.  He spends much of his time here in quiet meditation.  A small fireplace is built into the east wall and gives off enough heat to keep this room comfortable.  A large bookcase stands against the south wall and is cramped full of books and scrolls.  A small make-shift bed stands to the north. } {Camelot} {} {Underground} {} {1.000}
+E { 2926} {w} {open door;w} {8} {0} {}
+
+R { 2928} {0} {<fdf>} {Sparring Room} { } {This huge room is where Knights-In-Training come to increase their combat skills and learn how to become a true Knight of Camelot.  Wooden horses stand around the walls and training dummies hang from various points in the ceiling. Many pieces of training equipment hang from hooks on the wall.  The air in this room is a little stuffy and it smells unpleasant. } {Camelot} {} {Inside} {} {1.000}
+E { 2925} {e} {e} {2} {0} {}
+
+R { 2929} {0} {<fdf>} {} { } {} {Camelot} {} {} {} {1.000}
+E { 2925} {s} {s} {4} {0} {}
+E { 2930} {e} {e} {2} {0} {}
+E { 2931} {n} {open door;n} {1} {0} {}
+
+R { 2930} {0} {<fdf>} {Library} { } {This room is spacious and is decorated with tall cathedral like windows and a painted ceiling.  Hanging from the ceiling are twin iron chandeliers which provide much needed light to this otherwise dark room.  A fireplace gives off sufficient heat to keep the room from becoming uncomfortably cold.  Large wooden bookshelves line the room and house thousands of books with colorful and artistic covers. } {Camelot} {} {Inside} {} {1.000}
+E { 2929} {w} {w} {8} {0} {}
+
+R { 2931} {0} {<fdf>} {It seems to be locked.} { } {[MAPON] H:398/398 M:128/130 V:283/283 XP:-583239 C:*> The double door seems to be closed. } {Camelot} {} {} {} {1.000}
+E { 2929} {s} {s} {4} {0} {}
+
+R { 2932} {0} {<fdf>} {Watchtower} { } {The watchtower offers a commanding view of the countryside.  You can see for miles in any direction.  The walls are made out of huge blocks of stone - they must be at least 5 feet thick and 30 feet high.  Any attempt to break down these defenses would be quite futile. } {Camelot} {} {City} {} {1.000}
+E { 2900} {d} {d} {32} {0} {}
+
+R { 2933} {0} {<fdf>} {Watchtower} { } {The watchtower offers a commanding view of the countryside.  You can see for miles in any direction.  The walls are made out of huge blocks of stone - they must be at least 5 feet thick and 30 feet high.  Any attempt to break down these defenses would be quite futile. } {Camelot} {} {City} {} {1.000}
+E { 2899} {d} {d} {32} {0} {}
+
+R { 2934} {8} {} {} { } {} {Camelot} {} {} {} {1.000}
+E { 2903} {w} {w} {8} {0} {}
+E { 2943} {e} {e} {2} {0} {}
+
+R { 2935} {8} {} {} { } {} {Camelot} {} {} {} {1.000}
+E { 2902} {e} {e} {2} {0} {}
+E { 2936} {w} {w} {8} {0} {}
+
+R { 2936} {8} {} {} { } {} {Camelot} {} {} {} {1.000}
+E { 2935} {e} {e} {2} {0} {}
+E { 2901} {w} {w} {8} {0} {}
+
+R { 2937} {0} {<fdf>} {Staircase Landing} { } {You immediately become aware that this room is not your normal, everyday room.  There is something very strange about it.  The feelings you are experiencing tell you that you are not in danger, nor are you safe.    A stone staircase winds down to the level below; a railing preventing people from taking a nasty spill.  A window provides you with a view of the countryside surrounding the castle. } {Camelot} {} {Inside} {} {1.000}
+E { 2902} {d} {d} {32} {0} {}
+E { 2938} {n} {open door;n} {1} {0} {}
+
+R { 2938} {0} {<fdf>} {Passage Of The Rainbow} { } {The stone walls sparkle colorfully causing a slight hypnotic effect on those who look at them for too long.  Three golden candlesticks are securely fastened to the wall just above your head.  Each candlestick holds a brightly colored candle whose light bathes the room in a magical looking glow.  A painting of multi-colored snake hangs on the north wall. } {Camelot} {} {Inside} {} {1.000}
+E { 2937} {s} {open door;s} {4} {0} {}
+E { 2939} {w} {w} {8} {0} {}
+
+R { 2939} {0} {<fdf>} {Passage Of The Rainbow} { } {The stone walls sparkle colorfully causing a slight hypnotic effect on those who look at them for too long.  Three golden candlesticks are securely fastened to the wall just above your head.  Each candlestick holds a brightly colored candle whose light bathes the room in a magical looking glow.  A painting of a beautiful peacock hangs on the north wall. } {Camelot} {} {Inside} {} {1.000}
+E { 2938} {e} {e} {2} {0} {}
+E { 2940} {w} {w} {8} {0} {}
+
+R { 2940} {0} {<fdf>} {Passage of the Rainbow} { } {The stone walls sparkle colorfully causing a slight hypnotic effect on you. It's not long before your head begins to ache.  Three golden candlesticks are securely fastened to the wall just above your head.  Each candlestick holds a brightly colored candle, whose light bathes the room in a magical glow. } {Camelot} {} {Inside} {} {1.000}
+E { 2939} {e} {e} {2} {0} {}
+E { 2941} {n} {n} {1} {0} {}
+
+R { 2941} {0} {<fdf>} {Passage of Fire} { } {This room is pulsing with heat.  The intensity of the heat continues to grow as you seek to escape from it.  Your heart begins to beat a little faster as you wipe beads of perspiration from your forehead.  The air is warm and stuffy and you struggle to remain conscious long enough to take another breath. } {Camelot} {} {Inside} {} {1.000}
+E { 2940} {s} {s} {4} {0} {}
+E { 2942} {n} {n} {1} {0} {}
+
+R { 2942} {0} {<fdf>} {Passage of Fire} { } {This room is hot, damn hot.  You struggle to gulp down the necessary air you need to continue living.  Huge flames leap out at you from the floor and walls, only to disappear inches from your body.  A painting of a house engulfed in flames hangs on the west wall. } {Camelot} {} {Inside} {} {1.000}
+E { 2941} {s} {s} {4} {0} {}
+E { 2959} {n} {n} {1} {0} {}
+
+R { 2943} {8} {} {} { } {} {Camelot} {} {} {} {1.000}
+E { 2934} {w} {w} {8} {0} {}
+E { 2901} {e} {e} {2} {0} {}
+
+R { 2944} {0} {<fdf>} {Staircase Landing} { } {You immediately become aware that this room is not your normal, everyday room. There is something very strange about it. The feelings you are experiencing tell you that you are not in danger, nor are you safe.    A stone staircase winds down to the level below; a railing preventing people from taking a nasty spill. A window provides you with a view of the countryside surrounding the castle. } {Camelot} {} {Inside} {} {1.000}
+E { 2903} {d} {d} {32} {0} {}
+E { 2945} {n} {n} {1} {0} {}
+
+R { 2945} {0} {<fdf>} {} { } {} {Camelot} {} {} {} {1.000}
+E { 2944} {s} {open door;s} {4} {0} {}
+E { 2946} {e} {e} {2} {0} {}
+
+R { 2946} {0} {<fdf>} {} { } {} {Camelot} {} {} {} {1.000}
+E { 2945} {w} {w} {8} {0} {}
+E { 2947} {e} {e} {2} {0} {}
+
+R { 2947} {0} {<fdf>} {Passage of the Wind} { } {A chill wind blows through the room, sending a shiver up your spine.  You are still confused as to the source of the strange wind.  A painting of a small boy and his father flying a colorful kite hangs on the east wall. } {Camelot} {} {Inside} {} {1.000}
+E { 2946} {w} {w} {8} {0} {}
+E { 2948} {n} {n} {1} {0} {}
+
+R { 2948} {0} {<fdf>} {Passage of The Moon} { } {A pale yellow light hangs in the air, casting an evil looking shadow on the walls.  The floor is a little uneven and you lose your footing on more than one occasion.  As you walk through the room you notice that your feet sink part way into the soft floor.  The cold air grabs at your throat with icy fingers; you find that it is getting harder to breathe. } {Camelot} {} {Inside} {} {1.000}
+E { 2947} {s} {s} {4} {0} {}
+E { 2949} {n} {n} {1} {0} {}
+
+R { 2949} {0} {<fdf>} {Passage Of The Moon} { } {You pause for a moment so your eyes can adjust to the darkness that surrounds you.  Tiny sparkles of light begin to appear, slowly giving life to this bare room.  The coldness in the air is still present and continues to make breathing difficult for you. } {Camelot} {} {Inside} {} {1.000}
+E { 2948} {s} {s} {4} {0} {}
+E { 2950} {n} {n} {1} {0} {}
+
+R { 2950} {0} {<fdf>} {} { } {} {Camelot} {} {} {} {1.000}
+E { 2949} {s} {s} {4} {0} {}
+E { 2951} {w} {w} {8} {0} {}
+E { 2954} {n} {n} {1} {0} {}
+
+R { 2951} {0} {<fdf>} {Sitting Room} { } {This room serves as a quiet resting place for the Knights after a hard day in combat. There isn't much to look at except for the painting that hangs above the fireplace in the south wall. A pile of split logs has been placed beside the fireplace; the nights here can get quite chilly. } {Camelot} {} {Inside} {} {1.000}
+E { 2950} {e} {e} {2} {0} {}
+E { 2952} {s} {open door south;s} {4} {0} {}
+E { 2953} {w} {open door west;w} {8} {0} {}
+
+R { 2952} {0} {<fdf>} {A Knights Bedroom} { } {This room is a little different from the other sleeping quarters you have seen.  A comfortable bed, a cupboard and a padded chair are the only pieces of furniture in this room.  However, sitting on top of a shelf are several large golden goblets, obviously the trophies of a tournament champion. } {Camelot} {} {Inside} {} {1.000}
+E { 2951} {n} {open door;n} {1} {0} {}
+
+R { 2953} {0} {<fdf>} {A Knights Bedroom} { } {This room looks much like the sleeping quarters of the other Knights.  A bunk bed and a small dresser stand against the west wall.  A large scimitar hangs on the north wall, its polished blade glinting.  A rolled up piece of carpet sits on top of the dresser, along with several sticks of incense. } {Camelot} {} {Inside} {} {1.000}
+E { 2951} {e} {open door;e} {2} {0} {}
+
+R { 2954} {0} {<fdf>} {Passage Of The Rock} { } {A deep rumbling noise fills the air as you feel the floor shake and shudder beneath your feet.  A wave of heat passes over you, and you feel faint for a few seconds but quickly regain your senses.  There is a picture of a erupting volcano hanging on the east wall, depicting rivers of molten lava flowing towards a small city. } {Camelot} {} {Inside} {} {1.000}
+E { 2950} {s} {s} {4} {0} {}
+E { 2955} {n} {n} {1} {0} {}
+
+R { 2955} {0} {<fdf>} {Passage Of The Rock} { } {This room has a feeling of enormity about it, although it is relatively the same size as all the others you have passed through.  Suddenly, the room fades and you begin to feel dizzy.  A loud grinding noise brings you back to your senses and you soon realize that the room is getting smaller.  The walls are moving towards you...closer and closer.  Then something happens that you didn't expect, the walls pass right through you and leave you untouched.  They move into position on the opposite wall...and everything returns to normal. } {Camelot} {} {Inside} {} {1.000}
+E { 2954} {s} {s} {4} {0} {}
+E { 2956} {w} {w} {8} {0} {}
+E { 2970} {n} {n} {1} {0} {}
+
+R { 2956} {0} {<fdf>} {Dining Room} { } {The spicy aroma of rich food and drink lingers in the air - your stomach growls in recognition of the smell. A long wooden table, covered with a white tablecloth and surrounded by high-backed chairs, stands in the center of the room. Three silver candlesticks and a bowl of fresh fruit sit upon the table. } {Camelot} {} {Inside} {} {1.000}
+E { 2955} {e} {e} {2} {0} {}
+E { 2957} {n} {open door north;n} {1} {0} {}
+E { 2958} {w} {open door west;w} {8} {0} {}
+
+R { 2957} {0} {<fdf>} {A Knights Bedroom} { } {A polished iron shield hangs on the north wall, the picture of a red lion emblazoned upon its front.  The portrait of a young maiden hangs just beneath the shield.  A sturdy looking bed, made out of oak, stands against the west wall.  A pottery vase sits on the window edge, the freshly cut flowers that sit in it give off a sweet smelling fragrance. } {Camelot} {} {Inside} {} {1.000}
+E { 2956} {s} {open door;s} {4} {0} {}
+
+R { 2958} {0} {<fdf>} {A Knights Bedroom} { } {The first thing that catches your eye is a picture of a beautiful woman and a handsome looking Knight which hangs on the south wall.  A neatly made bed stands against the west wall and beside it sits a dresser full of fine clothes. A well preserved hawk sits on top of its perch in the north-east corner.  The hawk's dead eyes stare right at you, as if they are watching your every move. } {Camelot} {} {Inside} {} {1.000}
+E { 2956} {e} {open door;e} {2} {0} {}
+
+R { 2959} {0} {<fdf>} {Common Room} { } {This comfortable looking room contains several pieces of furniture.  A wooden table stands in the south-east corner and a pair of armchairs flank the fireplace, which in set into the west wall.  A variety of books are stacked on the mantle above the fireplace, alongside a large candle that illuminates the room with its glow. } {Camelot} {} {Inside} {} {1.000}
+E { 2942} {s} {s} {4} {0} {}
+E { 2960} {e} {e} {2} {0} {}
+E { 2963} {n} {n} {1} {0} {}
+
+R { 2960} {0} {<fdf>} {Sitting Room} { } {This room is where the Knights rest up after a hard day of training or protecting the innocent.  A small fire crackles in the fireplace in the north wall; it keeps the room at a cozy temperature.  Above the fireplace a shelf has been inset into the wall; several books and games sit on top of it. } {Camelot} {} {Inside} {} {1.000}
+E { 2959} {w} {w} {8} {0} {}
+E { 2961} {e} {open door east;e} {2} {0} {}
+E { 2962} {s} {open door south;s} {4} {0} {}
+
+R { 2961} {0} {<fdf>} {A Knights Bedroom} { } {This room is used as sleeping quarters by one of the Knights.  A rather long bed stands against the south wall, its coverings folded neatly.  Hanging on the opposite wall is a painting of a hill giant fighting several bears.  Strange, that a Knight would have something like that in his bedroom.  A shiny lantern sits on top of a chest in the north-east corner. } {Camelot} {} {Inside} {} {1.000}
+E { 2960} {w} {open door;w} {8} {0} {}
+
+R { 2962} {0} {<fdf>} {A Knights Bedroom} { } {This humbly built room is the sleeping quarters of a Knight.  It contains a long wooden bed, a polished desk and a chest of drawers.  A wooden statuette stands in the north-west corner; this is used by the Knights to hang their armor on when they are not wearing it.  There are a few miscellaneous items lying around, but nothing that really interests you. } {Camelot} {} {Inside} {} {1.000}
+E { 2960} {n} {open door;n} {1} {0} {}
+
+R { 2963} {0} {<fdf>} {Passage Of The Sea} { } {There is a salty smell to the air and the floor seems to move from side to side every few seconds - the feeling is quite unnerving. You can hear the sound of waves crashing upon a beach, but there is no sign of where the sound is coming from. A chill wind blows softly through the room, sending a quick shiver up your spine.    A strange whistling noise from the west catches your attention. } {Camelot} {} {Inside} {} {1.000}
+E { 2959} {s} {s} {4} {0} {}
+E { 2964} {n} {n} {1} {0} {}
+
+R { 2964} {0} {<fdf>} {Passage Of The Sea} { } {The cry of gulls sounds overhead - you look up to see nothing but the roof. The floor looks to be made of sand rather than stone, something very strange for a castle. A painting of a large sailing ship hangs on the west wall, its sail decorated with a fiery red lion. The ship is being tossed about by a violent storm. } {Camelot} {} {Inside} {} {1.000}
+E { 2963} {s} {s} {4} {0} {}
+E { 2965} {e} {e} {2} {0} {}
+E { 2968} {n} {n} {1} {0} {}
+
+R { 2965} {0} {<fdf>} {Meditation Suite} { } {This room is quite different from most of the other rooms in the castle. The air smells sweet and is filled with a peaceful aura. Relaxing music fills your ears and sets your fears at ease. A wooden table stands in the middle of the floor, topped with assorted fruits, bread and wine. A comfortable looking sofa is placed against the south wall. } {Camelot} {} {Inside} {} {1.000}
+E { 2964} {w} {w} {8} {0} {}
+E { 2966} {n} {open door north;n} {1} {0} {}
+E { 2967} {e} {open door east;e} {2} {0} {}
+
+R { 2966} {0} {<fdf>} {A Knights Bedroom} { } {A wooden bed stands against the north wall, covered by the soft hide of a deer.  A barrel sits underneath the bed, and the smell of wine wafts up from it.  A picture of a hideous looking reptile hangs on the east wall; several slash marks can be seen on the canvas.  A shelf has been built into the west wall; you can see a few books lying upon it. } {Camelot} {} {Inside} {} {1.000}
+E { 2965} {s} {open door;s} {4} {0} {}
+
+R { 2967} {0} {<fdf>} {A Knights Bedroom} { } {This room seems a little larger than most of the other bedrooms you have entered.  Against the east wall stands a ornately carved bed, its sheets and blankets folded.  The skin of a large wildcat lays in the middle of the floor; the head pointed at the door and the mouth open, showing long sharp fangs.  A banner, decorated with a brightly colored star, hangs on the south wall. } {Camelot} {} {Inside} {} {1.000}
+E { 2965} {w} {open door;w} {8} {0} {}
+
+R { 2968} {0} {<fdf>} {Passage of Life} { } {You have just enough time to catch a quick glimpse of the room before specters start to form and fly about it.  Taking a closer look at them, you see visions of your past fade in and out of existence.  As the last of the images start to fade, you quickly glance around trying to gather your wits before pressing onward. } {Camelot} {} {Inside} {} {1.000}
+E { 2964} {s} {s} {4} {0} {}
+E { 2969} {w} {w} {8} {0} {}
+
+R { 2969} {0} {<fdf>} {Passage Of Life} { } {As soon as you step foot in this room you are engulfed in darkness.  There doesn't seem to be anything in here, it's just a big empty space.  Without any warning ghostly images start to appear and swirl around in the air.  You realize that these images display personal experiences and memories you would rather forget, As quickly as they appeared, the images fade into the darkness and you are left to shake the cobwebs from your mind. } {Camelot} {} {Inside} {} {1.000}
+E { 2968} {e} {e} {2} {0} {}
+E { 2970} {w} {w} {8} {0} {}
+E { 2971} {n} {n} {1} {0} {}
+
+R { 2970} {0} {<fdf>} {Passage Of Life} { } {This room is giving you an uneasy feeling. It's something more that not being able to see through the darkness but you are unable to determine what it is. Suddenly, a agonizing pain explodes in your chest and you fall to the floor screaming. You struggle for breath as you picture your chest bursting. The image of an old man appears above you, his eyes burning with fire. He turns to look at you and whispers, ""Your death shall come swiftly"". The image vanishes, leaving you to ponder his strange words. } {Camelot} {} {Inside} {} {1.000}
+E { 2969} {e} {e} {2} {0} {}
+E { 2955} {s} {s} {4} {0} {}
+
+R { 2971} {0} {<fdf>} {A Wide Passage} { } {This large passage has been decorated with white, evenly spaced floor tiles. The stone walls all look the same except for a small piece in the west all. Upon close examination you find that its a little different from the rest of the stones that make up the wall.  You can't put your finger on it, but there is definitely something... } {Camelot} {} {Inside} {} {1.000}
+E { 2969} {s} {s} {4} {0} {}
+E { 2972} {e} {open door;e} {2} {0} {}
+E { 2973} {n} {n} {1} {0} {}
+
+R { 2972} {0} {<fdf>} {A Knights Bedroom} {Pal} {A crude, but comfortable, looking bed stands against the west wall.  Lying upon it are the brown robes known to be worn by monks.  A wooden cross hangs on the north wall, you see nothing special about it.  The open window lets a cool breeze into the room, as well as the voices and sounds from the courtyard.  The view out of the window is quite spectacular. } {Camelot} {} {Inside} {} {1.000}
+E { 2971} {w} {open door;w} {8} {0} {}
+
+R { 2973} {0} {<fdf>} {A Wide Passage} { } {This large passage has been decorated with white, evenly spaced floor tiles. Hanging on the east wall is a beautiful tapestry of a white stag, it's magnificent antlers proudly displayed as it leaps through the forest. } {Camelot} {} {Inside} {} {1.000}
+E { 2971} {s} {s} {4} {0} {}
+E { 2974} {n} {n} {1} {0} {}
+E { 2975} {w} {open door;w} {8} {0} {}
+
+R { 2974} {0} {<fdf>} {Lower Landing} { } {A stone staircase leads up into the darkness.  A guard rail runs along the wall, preventing people from hurting themselves in a fall.  The sound of muffled voices can be heard, however, you cannot pinpoint their source. Perhaps if you took some time to look around you may be able to shed some light on the situation. } {Camelot} {} {Inside} {} {1.000}
+E { 2973} {s} {s} {4} {0} {}
+E { 2976} {u} {u} {16} {0} {}
+
+R { 2975} {0} {<fdf>} {A Knights Bedroom} { } {A beautiful looking bed, with a decorative headboard, stands against the west wall.  A chest, with a large 'L' etched into its lid, has been placed in the south-east corner.  Built into the north wall is a shelf, upon which you can see several books and a breathtakingly beautiful red rose.  The air in this room smells of sweet perfume.  How strange you think! } {Camelot} {} {Inside} {} {1.000}
+E { 2973} {e} {open door;e} {2} {0} {}
+
+R { 2976} {0} {<fdf>} {Upper Landing} { } {You are standing on a small stone platform.  A set of stairs leads down into the darkness.  A small gust of wind blows up from below, carrying with it the sound of muffled voices.  You cannot hear the exact words being spoken, but, if you were to climb down the stairs you might have a better chance of understanding them. } {Camelot} {} {Inside} {} {1.000}
+E { 2974} {d} {d} {32} {0} {}
+E { 2977} {s} {s} {4} {0} {}
+
+R { 2977} {0} {<fdf>} {Lofty Passage} { } {The passage floor is made of different types of polished wood; each square uniquely colored and arranged decoratively with those around it.  You can almost see your reflection in each piece of wood.  A large portrait of a beautiful woman hangs on the east wall. } {Camelot} {} {Inside} {} {1.000}
+E { 2976} {n} {n} {1} {0} {}
+E { 2978} {w} {open door;w} {8} {0} {}
+E { 2979} {s} {s} {4} {0} {}
+
+R { 2978} {0} {<fdf>} {Camelot's Royal Bedroom} { } {This bedchamber is decorated in a most expensive manner.  Sheets of fine white silk cover the windows and a silver chandelier hangs from the ceiling.  A large bed stands against the southern wall, its headboard and footboard carved into small statues of flying angels.  A wooden dresser with ornate handles and a sparkling oval mirror stands in the north-west corner.  Several framed pictures hang on the walls, each depicting some sort of optical illusion. } {Camelot} {} {Inside} {} {1.000}
+E { 2977} {e} {open door;e} {2} {0} {}
+E { 2989} {s} {s} {4} {0} {}
+E { 2990} {w} {w} {8} {0} {}
+
+R { 2979} {0} {<fdf>} {Lofty Passage} { } {The passage floor is made of different types of polished wood; each square uniquely colored and arranged decoratively with those around it.  You can almost see your reflection in each piece of wood.  The portrait of a handsome, royal looking man dressed in expensive clothing hangs on the west wall. } {Camelot} {} {Inside} {} {1.000}
+E { 2977} {n} {n} {1} {0} {}
+E { 2980} {e} {e} {2} {0} {}
+E { 2983} {s} {s} {4} {0} {}
+
+R { 2980} {0} {<fdf>} {Merlin's Bedroom} { } {This room is filled with dust and cobwebs.  The only furnishings are an old bed, which lies against the south wall, and a broken bedside table.  It doesn't look like this room has been used in quite a while.  You think it quite strange that this room has been allowed to fall into disrepair; not like the other rooms in the castle. } {Camelot} {} {Inside} {} {1.000}
+E { 2979} {w} {w} {8} {0} {}
+E { 2981} {n} {n} {1} {0} {}
+E { 2982} {e} {e} {2} {0} {}
+
+R { 2981} {0} {<fdf>} {} {Tel} {} {Camelot} {} {} {} {1.000}
+E { 2980} {s} {s} {4} {0} {}
+
+R { 2982} {0} {<fdf>} {Merlin's Study} { } {Although somewhat shabby and far from spotless, this room serves as a study for the great wizard himself.  A thin layer of dust has settled on the desk and chair standing in the north-west corner.  Mice scurry along the floor and duck into their holes in the wall.  There doesn't seem to be anything of importance here.  A bronze lantern hangs over the desk, creaking in the breeze that blows through the tiny window.  It would seem that Merlin never actually uses this room.  Now isn't that strange! } {Camelot} {} {Inside} {} {1.000}
+E { 2980} {w} {w} {8} {0} {}
+
+R { 2983} {0} {<fdf>} {Lofty Passage} { } {The passage floor is made of different types of polished wood; each square uniquely colored and arranged decoratively with those around it.  You can almost see your reflection in each piece of wood.  The portrait of an old man with youthful eyes hangs on the east wall.  You have a sneaking suspicion that you are being watched closely. } {Camelot} {} {Inside} {} {1.000}
+E { 2979} {n} {n} {1} {0} {}
+E { 2984} {s} {s} {4} {0} {}
+
+R { 2984} {0} {<fdf>} {Lofty Passage} { } {The passage floor is made of different types of polished wood; each square uniquely colored and arranged decoratively with those around it.  You can almost see your reflection in each piece of wood.    A large window in the south wall allows you to view the beautiful roaming countryside outside the castle.  Lush green mountains, forests filled with wildlife and rivers of crystal clear water greet your eyes as you survey the great land that is Camelot.  You wonder if there could ever be a more heavenly place than this. } {Camelot} {} {Inside} {} {1.000}
+E { 2983} {n} {n} {1} {0} {}
+E { 2985} {w} {w} {8} {0} {}
+E { 2987} {e} {e} {2} {0} {}
+
+R { 2985} {0} {<fdf>} {Morgana's Boudoir} { } {The decorations in this room are magnificent.  A large four poster bed stands against the south wall, covered with white sheets and fluffy pillows. An exotic scent hangs in the air, bringing images of sexual pleasure to mind. A tapestry hangs on the west wall, displaying a woman with outstretched arms in some form of worship to the heavens.  You get an eerie feeling whilst examining the tapestry, you think there could be something sinister about it. } {Camelot} {} {Inside} {} {1.000}
+E { 2984} {e} {e} {2} {0} {}
+E { 2986} {n} {n} {1} {0} {}
+
+R { 2986} {0} {<fdf>} {Dressing Room} { } {This small room is filled with dresses and gowns that simply take your breath away.  You have never seen such beautiful clothes before.  A small dressing table stands against the east wall; several combs and a hairbrush lie on top of it.  A matching full length mirror stands beside the table.  There are several shelves above the table, on which sit various bottles of expensive perfumes and powders. } {Camelot} {} {Inside} {} {1.000}
+E { 2985} {s} {s} {4} {0} {}
+
+R { 2987} {0} {<fdf>} {Trophy Room} { } {A large fire crackles in the hearth of this expensively decorated room. Other than the fire, there are no lights, although two unlit torches jut out of the east wall.  Your attention is immediately drawn to the various animal heads mounted on the walls.  They make you feel uneasy, as if they might suddenly come back to life.  A sword hangs over the hearth, its blade glistening in the red light given off by the flames.  It appears to have been used quite recently. } {Camelot} {} {Inside} {} {1.000}
+E { 2984} {w} {w} {8} {0} {}
+E { 2988} {e} {e} {2} {0} {}
+
+R { 2988} {0} {<fdf>} {Mordred's Bed Chamber} { } {This room is lit by three torches and the red glow of the fire which comes from the hearth.  A rather large bed occupies the space next to the hearth, its coverings tossed about.  A large bear skin rug lies at the foot of the bed, the look in its eyes tells you that it didn't give up without a fight.  Some shelves hang on the north wall, upon which sit various items.  The only window in this room is covered by a pair of deep red curtains. } {Camelot} {} {Inside} {} {1.000}
+E { 2987} {w} {w} {8} {0} {}
+
+R { 2989} {0} {<fdf>} {Nursery} { } {As you study this small room you can sense a vast emptiness about you, even though the room is filled with various pieces of furniture.  You believe you can hear a noise, not unlike the cry of a young child.    The only source of light comes from the window in the west wall.  A small cot stands against the east wall and is covered with a hand-woven blanket and several stuffed animals.  A wooden cabinet, with matching chest of drawers and mirror take up the rest of the space in this room. } {Camelot} {} {Inside} {} {1.000}
+E { 2978} {n} {n} {1} {0} {}
+
+R { 2990} {0} {<fdf>} {King Arthur's Study} { } {Several bookcases line the walls and a large wooden desk occupies the center of the room.  Hundreds of books fill the bookcases, some of them so decorative you think that they must be worth thousands of gold pieces.  Two bronze lanterns sit on the desk, unlit.  The room is lit by two windows, one each in the north and west walls. } {Camelot} {} {Inside} {} {1.000}
+E { 2978} {e} {e} {2} {0} {}
