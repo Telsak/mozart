@@ -18,6 +18,7 @@
 #SUB {a long wooden pike} {a long wooden pike (3d4 stab, +1dam, 1.2k)}
 #SUB {a cat o'nine tails} {a cat o'nine tails (8d2 whip/pierce, +3hit, +5hitall)}
 #SUB {a green serpentine staff} {a green serpentine staff (?/5 charges Lvl30 Earthquake)}
+#SUB {a heavy iron sword} {a heavy iron sword (2d6 slash, +2dam)}
 
 
 #NOP === JEWELRY ===

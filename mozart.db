@@ -200,7 +200,6 @@ Durability is 4 with maximum 4.
 Damage Dice is 3d4.  Damage type is stab.
 Effects:
  Damroll: +1.
-ITEM cat-o-o-nine-onine-tails
 ITEM staff-serpentine
 Object "a green serpentine staff", Item type: Staff
 Item is: Invisible Magic Anti-Thief.
@@ -221,3 +220,312 @@ Effects:
  Detect-Magic.
  Floating.
  Sense-Life.
+ITEM staff-command
+Object "a Staff of Command", Item type: Staff
+Item is: None.
+Can be equipped: Hold.
+Weight: 10, Volume: 25, Value: 1000
+Has 25 charges with maximum 25.
+Level 30 spell of Charm Person.
+ITEM kids-prize-dagger
+Object "a circus prize dagger", Item type: Dagger
+Item is: Ephemeral Magic Anti-Good.
+Can be equipped: Wield.
+Weight: 1, Volume: 5, Value: 30000
+Durability is 1 with maximum 0.
+Damage Dice is 3d1.  Damage type is pierce.
+Effects:
+ Hit-N-Dam: +2.
+ITEM remains-cockroach-grey-carapace
+Object "a grey cockroach carapace", Item type: Armor
+Item is: Ephemeral Anti-Cleric Anti-Mage.
+Can be equipped: Body.
+Weight: 16, Volume: 400, Value: 10
+Durability and Armor Rating are 12 with maximum 12.
+ITEM chainmail-mail-tunic
+Object "a chainmail tunic", Item type: Armor
+Item is: Ephemeral Anti-Mage.
+Can be equipped: Body.
+Weight: 25, Volume: 600, Value: 9000 [Rare]
+Durability and Armor Rating are 2 with maximum 5.
+Effects:
+ Hit-N-Dam: +1.
+ITEM tarnished-copper-earrings
+Object "tarnished copper earrings", Item type: Wand
+Item is: None.
+Can be equipped: Ears.
+Weight: 1, Volume: 1, Value: 10000
+Has 10 charges with maximum 10.
+Level 10 spell of True Sight.
+Effects:
+ Hitroll: +1.
+ITEM root-amulet
+Object "a root amulet", Item type: Jewelry
+Item is: Magic.
+Can be equipped: Neck.
+Weight: 6, Volume: 10, Value: 25000 [Rare]
+Durability is 4 with maximum 4.
+Effects:
+ Armor: +5.
+ Mana: +20.
+ Wisdom: +5.
+ Geomancy: +3.
+ Mysticism: +5.
+ITEM bloody-dagger
+Object "a bloody dagger", Item type: Dagger
+Item is: Glow Magic Anti-Good Anti-Neutral Anti-Warrior.
+Can be equipped: Wield.
+Weight: 5, Volume: 37, Value: 15000 [Rare]
+Durability is 4 with maximum 4.
+Damage Dice is 3d4.  Damage type is pierce.
+Effects:
+ Hit-N-Dam: +2.
+ Weapon Spell: Faerie Fire at Level 2.
+ITEM iron-sword
+Object "a heavy iron sword", Item type: Sword
+Item is: None.
+Can be equipped: Wield.
+Weight: 18, Volume: 98, Value: 2350
+Durability is 6 with maximum 6.
+Damage Dice is 2d6.  Damage type is slash.
+Effects:
+ Damroll: +2.
+ITEM light-purity-sun
+Object "the light of purity", Item type: Light
+Item is: Glow Anti-Evil.
+Can be equipped: Hold.
+Weight: 10, Volume: 25, Value: 60000 [Rare]
+Durability is 5 with maximum 5.
+Effects:
+ Hitroll: +4.
+ Damroll: +3.
+ Constitution: +14.
+ Immunity: poison.
+ Resistance: fire.
+ITEM shield-deGrance
+Object "a deGrance shield", Item type: Armor
+Item is: Anti-Good Anti-Neutral Anti-Mage.
+Can be equipped: Shield.
+Weight: 16, Volume: 750, Value: 100000 [Rare]
+You don't meet this item's ego requirements.
+Durability and Armor Rating are 5 with maximum 5.
+Effects:
+ Armor: +20.
+ Hit-N-Dam: +1.
+ Mana: -25.
+ITEM gold-plated-belt
+Object "a gold plated belt", Item type: Jewelry
+Item is: Donated.
+Can be equipped: Waist.
+Weight: 5, Volume: 95, Value: 20000 [Rare]
+Durability is 3 with maximum 3.
+Effects:
+ Damroll: +1.
+ Armor: +10.
+ Resistance: acid.
+ Strength: +3.
+ Dexterity: -9.
+ITEM earrings-jeweled
+Object "a pair of jeweled earrings", Item type: Jewelry
+Item is: Donated.
+Can be equipped: Ears.
+Weight: 1, Volume: 1, Value: 10000
+Durability is 5 with maximum 5.
+Effects:
+ All Saves: +2.
+ITEM small-ball-fire
+Object "a small ball of fire", Item type: Light
+Item is: Glow Magic Donated.
+Can be equipped: Hold.
+Weight: 5, Volume: 4, Value: 1000
+Durability is 0 with maximum 0.
+Effects:
+ Intelligence: +7.
+ Pyromancy: +3.
+ITEM amulet-summer
+Object "the amulet of summer", Item type: Jewelry
+Item is: Donated.
+Can be equipped: Neck.
+Weight: 5, Volume: 50, Value: 45000 [Rare]
+Durability is 3 with maximum 3.
+Effects:
+ Hitroll: +1.
+ Damroll: +2.
+ Immunity: fire.
+ Susceptibility: cold.
+ Pyromancy: +4.
+ITEM spiked-helm
+ITEM spiked-helm
+Object "a spiked helm", Item type: Armor
+Item is: Anti-Cleric Anti-Mage Anti-Thief Donated.
+Can be equipped: Head.
+Weight: 8, Volume: 26, Value: 3500
+Durability and Armor Rating are 4 with maximum 4.
+Effects:
+ Damroll: +1.
+ Armor: +15.
+ITEM colorful-sword
+Object "a colorful sword", Item type: Sword
+Item is: Glow Hum Donated.
+Can be equipped: Wield.
+Weight: 14, Volume: 110, Value: 68000 [Rare]
+Durability is 6 with maximum 6.
+Damage Dice is 2d6.  Damage type is slash.
+Effects:
+ Hitroll: -5.
+ Damroll: +3.
+ Weapon Spell: Turn at Level 25.
+ Weapon Spell Chance: 20%.
+ITEM runed-quarterstaff-staff
+Object "a runed quarterstaff", Item type: Melee Staff
+Item is: Glow Magic Donated.
+Can be equipped: Wield.
+Weight: 8, Volume: 25, Value: 1200
+Durability is 5 with maximum 5.
+Damage Dice is 1d5.  Damage type is pound.
+Effects:
+ Hitroll: +1.
+ Mana: +15.
+ Magic Missile: +10.
+ITEM dark-leggings-pair
+Object "a pair of dark leggings", Item type: Clothing
+Item is: Anti-Cleric Anti-Warrior Donated.
+Can be equipped: Legs.
+Weight: 7, Volume: 250, Value: 20000 [Rare]
+Durability is 4 with maximum 4.
+Effects:
+ Hit-N-Dam: +1.
+ Sneak: +4.
+ Armor: +7.
+ITEM flute-silver
+Object "a silver flute", Item type: Staff
+Item is: Glow Magic Anti-Cleric Anti-Warrior.
+Can be equipped: Hold.
+Weight: 6, Volume: 10, Value: 10500 [Rare]
+Has 10 charges with maximum 10.
+Level 50 spell of Charm Person.
+ITEM curved-saber
+Object "a long, curved saber", Item type: Sword
+Item is: None.
+Can be equipped: Wield.
+Weight: 7, Volume: 200, Value: 4000
+Durability is 3 with maximum 3.
+Damage Dice is 3d3.  Damage type is slash.
+Effects:
+ Hitroll: +2.
+ Damroll: +2.
+ITEM padded-turban
+Object "a thick padded turban", Item type: Clothing
+Item is: Magic.
+Can be equipped: Head.
+Weight: 15, Volume: 75, Value: 400
+Durability is 5 with maximum 5.
+Effects:
+ Hitroll: +1.
+ITEM ring-mail-vest
+Object "a ring mail vest", Item type: Armor
+Item is: Glow Magic Anti-Mage Anti-Thief.
+Can be equipped: Body.
+Weight: 15, Volume: 150, Value: 15000 [Rare]
+Durability and Armor Rating are 5 with maximum 5.
+Effects:
+ Armor: +30.
+ Fortitude Saves: +7.
+ITEM scroll-bound
+Object "a bound scroll", Item type: Scroll
+Item is: Magic.
+Weight: 15, Volume: 15, Value: 2200
+Level 15 spells of Detect Evil, Detect Invisibility, Detect Magic.
+ITEM scroll-tattered
+Object "a tattered scroll", Item type: Scroll
+Item is: Magic.
+Weight: 15, Volume: 0, Value: 1100
+Level 35 spell of Inspiration.
+ITEM hammer-Kardash-large-dwarven
+Object "the Hammer of Kardash", Item type: Throwable Hammer
+Item is: Magic Anti-Thief Donated.
+Can be equipped: Wield.
+Weight: 7, Volume: 500, Value: 11000 [Rare]
+Durability is 5 with maximum 5.
+Damage Dice is 2d5.  Damage type is crush.
+Effects:
+ Hitroll: +3.
+ Weapon Spell: Cause Light at Level 8.
+ITEM troll-maul
+ITEM troll-maul
+Object "a troll maul", Item type: Hammer
+Item is: Anti-Thief.
+Can be equipped: Wield.
+Weight: 22, Volume: 275, Value: 28660 [Rare]
+Durability is 8 with maximum 8.
+Damage Dice is 3d8.  Damage type is crush.
+Effects:
+ Hit-N-Dam: +3.
+ Dexterity: -5.
+ITEM rough-rock-ring-unrefined-grey
+Object "a rough rock ring", Item type: Jewelry
+Item is: None.
+Can be equipped: Finger.
+Weight: 3, Volume: 9, Value: 1000
+Durability is 4 with maximum 4.
+Effects:
+ Hit Points: +10.
+ Hitroll: +1.
+ITEM sharpened-pugio-dagger-broad
+Object "a sharpened pugio", Item type: Dagger
+Item is: Anti-Cleric.
+Can be equipped: Wield.
+Weight: 2, Volume: 5, Value: 700
+Durability is 3 with maximum 3.
+Damage Dice is 2d3.  Damage type is stab.
+Effects:
+ Hitroll: +3.
+ Dexterity: +5.
+ Sneak: +10.
+ITEM shapeless-grey-cloth
+Object "a shapeless grey cloth", Item type: Armor
+Item is: Ephemeral.
+Can be equipped: Body.
+Weight: 3, Volume: 10, Value: 3000
+Durability and Armor Rating are 6 with maximum 6.
+Effects:
+ Hitroll: +1.
+ Armor: +10.
+ITEM pair-large-bronze-hoops
+Object "two large bronze hoops", Item type: Jewelry
+Item is: Glow Magic Anti-Evil Donated.
+Can be equipped: Ears.
+Weight: 1, Volume: 2, Value: 3600
+Durability is 2 with maximum 2.
+Effects:
+ Compulsion: +4.
+ Charisma: +2.
+ITEM spiked-collar
+Object "a spiked collar", Item type: Armor
+Item is: Magic Donated.
+Can be equipped: Neck.
+Weight: 9, Volume: 10, Value: 10000 [Rare]
+Durability and Armor Rating are 0 with maximum 0.
+Effects:
+ Damroll: +1.
+ Recuperation: +5.
+ITEM leather-braided-bracelet
+Object "a braided bracelet", Item type: Jewelry
+Item is: Donated.
+Can be equipped: Wrist.
+Weight: 1, Volume: 3, Value: 4200
+Durability is 4 with maximum 1.
+Effects:
+ Hitroll: +2.
+ITEM potion-healing-golden-gold-vial
+Object "a golden potion of Lvl12 Cure Critical", Item type: Potion
+Item is: Ephemeral.
+Can be equipped: Hold.
+Weight: 1, Volume: 92, Value: 1800
+Level 12 spell of Cure Critical.
+ITEM vial-radiant-darkness
+Object "a vial of radiant darkness", Item type: Potion
+Item is: Ephemeral.
+Can be equipped: Hold.
+Weight: 1, Volume: 92, Value: 1800
+Level 25 spell of Darksight.
