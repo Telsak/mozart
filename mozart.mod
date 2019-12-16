@@ -1,6 +1,7 @@
 #NOP ==== Teleport triggers for map ====
-#ACTION {^Headfirst!$} {#MAP GOTO 2398}
-#NOP #ACTION {^Where now?$} {#MAP GOTO } <- fix me!
+#ACTION {^Headfirst!} {#MAP GOTO 2398}
+#ACTION {^Where Now?} {#MAP GOTO 2411}
+#ACTION {^Sliding Down Mt. Belknap} {#MAP GOTO 1389}
  
 #NOP ==== Retreat triggers and alias ====
 #ALIAS {f} {#VAR retreat 0;flee}
@@ -10,18 +11,48 @@
 #ALIAS {re} {#VAR retreat 3;retreat e}
 #ACTION {You flee head over heels.}
 {
-  #IF {$retreat == 3} {#MAP MOVE east};
-  #ELSEIF {$retreat == 6} {#MAP MOVE south};
-  #ELSEIF {$retreat == 9} {#MAP MOVE west};
-  #ELSEIF {$retreat == 12} {#MAP MOVE north}
+  #IF {$retreat == 3} {#MAP MOVE e};
+  #ELSEIF {$retreat == 6} {#MAP MOVE s};
+  #ELSEIF {$retreat == 9} {#MAP MOVE w};
+  #ELSEIF {$retreat == 12} {#MAP MOVE n}
   #ELSE {#MAP LEAVE;#SHOWME ! CAREFUL - MAP UNSYNCED !}
 }
 
 #NOP ====== Combat ======
 #ACTION {%*{C:few|C:critical|C:excellent|C:awful|C:pretty|C:big|C:quite|C:small}%*} {#VAR combat 1}
 
+#NOP ====== Grouping ======
+#ACTION {You are now a member of %1's group.} {#VAR Group 1;#VAR GroupLeader %1}
+#ACTION {You follow %1} {#VAR Follow 1; #VAR FollowTarget %1}
+#ACTION {You stop following $GroupLeader} {#VAR Group 0; #VAR GroupLeader NULL}
+
+#ACTION {$FollowTarget flies %1.} {%1}
+#ALIAS {north} {n}
+#ALIAS {east} {e}
+#ALIAS {south} {s}
+#ALIAS {west} {w}
+#ALIAS {up} {u}
+#ALIAS {down} {d}
+
+#nop { more work needed in the grouping section }
 
 #NOP ====== Rebuffing ======
+#ALIAS {resetbuffs}
+{
+  #VAR DetectEvil 0;
+  #VAR DetectGood 0;
+  #VAR DetectInvis 0;
+  #VAR Bless 0;
+  #VAR Armor 0;
+  #VAR AlignmentWard 0;
+  #VAR Shield 0;
+  #VAR Courage 0;
+  #VAR ResistPoison 0;
+  #VAR DetectMagic 0;
+  #VAR SenseLife 0;
+  #DELAY {0.3} {affects}
+}
+
 #ACTION {M:%1/%2 V:%3C:*>} {#VAR curM %1; #VAR maxM %2; #VAR combat 0}
 
 #ACTION {^You lie down and rest your tired bones.$} {#VAR standing 0}
@@ -31,14 +62,16 @@
 
 #NOP == Active Spells ==
 #ACTION {^Affecting Spells:$} {#VAR affects 1; #DELAY 1 {#VAR affects 0}}
+#ACTION {^You feel slightly healthier.} {#VAR ResistPoison 1}
 #ACTION {^You feel someone protecting you.} {#VAR Armor 1}
-#ACTION {^Your eyes tingle.} {#VAR DetectInvis 1}
 #ACTION {^You are briefly surrounded by a holy aura.} {#VAR AlignmentWard 1}
 #ACTION {^You are surrounded by a strong force shield.} {#VAR Shield 1}
+#ACTION {^Your eyes tingle.} {affe}
 #ACTION {^You feel righteous.} {#VAR Bless 1}
-#ACTION {^You have become more adept at courage!$} {#Var Courage 1}
+#ACTION {^You feel courageous.$} {#Var Courage 1}
+#ACTION {^You feel your awareness improve.$} {#VAR SenseLife 1}
 
-#ACTION {%*{Detect Evil|Detect Good|Bless|Armor|Detect Invisibility|Alignment Ward|Courage}%*}
+#ACTION {%*{Detect Evil|Detect Good|Bless|Armor|Detect Invisibility|Alignment Ward|Courage|Resist Poison|Detect Magic}%*}
 {
   #IF {"%0"=="%*Detect Evil%*" && $affects > 0} {#VAR DetectEvil 1};
   #IF {"%0"=="%*Detect Good%*" && $affects > 0} {#VAR DetectGood 1};
@@ -48,16 +81,22 @@
   #IF {"%0"=="%*Alignment Ward%*" && $affects > 0} {#VAR AlignmentWard 1};
   #IF {"%0"=="%*Shield%*" && $affects > 0} {#VAR Shield 1};
   #IF {"%0"=="%*Courage%*" && $affects > 0} {#VAR Courage 1}
+  #IF {"%0"=="%*Resist Poison%*" && $affects > 0} {#VAR ResistPoison 1};
+  #IF {"%0"=="%*Detect Magic%*" && $affects > 0} {#VAR DetectMagic 1};
+  #IF {"%0"=="%*Sense Life%*" && $affects > 0} {#VAR SenseLife 1}
 }
 
 #NOP == Fading Spells ==
 #ACTION {^You feel less protected.} {#VAR Armor 0}
-#ACTION {^The white in your vision fades away.} {#VAR DetectInvis 0}
+#ACTION {^The white in your vision fades away.} {#VAR DetectGood 0}
 #ACTION {^Your divine assistance fades.} {#VAR Bless 0}
-#ACTION {^The yellow in your vision fades away.$} {#VAR DetectGood 0}
+#ACTION {^The yellow in your vision fades away.$} {#VAR DetectInvis 0}
 #ACTION {^The red in your vision fades away.$} {#VAR DetectEvil 0}
 #ACTION {^You feel less morally protected.$} {#VAR AlignmentWard 0}
 #ACTION {^Your shield of force dissipates.$} {#VAR Shield 0}
+#ACTION {^You feel more timid.} {#VAR Courage 0}
+#ACTION {^You feel less resistant to poison.} {#VAR ResistPoison 0}
+#ACTION {^You feel less aware of your surroundings!} {#VAR SenseLife 0}
 
 #TICKER {mana} {#MATH manapercent $curM*10/$maxM} {10}
 #TICKER {rebuff} {#IF {$manapercent > 5 && $combat == 0 && $standing == 1} {recast}} {10}
@@ -69,9 +108,12 @@
   #ELSEIF {$Bless == 0} {cast 'bless'};
   #ELSEIF {$Shield == 0} {cast 'shield'};
   #ELSEIF {$DetectInvis == 0} {cast 'detect invisibility'};
-  #ELSEIF {$DetectGood == 0} {cast 'detect good';affe};
-  #ELSEIF {$DetectEvil == 0} {cast 'detect evil';affe};
-  #ELSEIF {$Courage == 0} {cast 'courage'}
+  #ELSEIF {$DetectGood == 0} {cast 'detect good'};
+  #ELSEIF {$DetectEvil == 0} {cast 'detect evil'};
+  #ELSEIF {$Courage == 0} {cast 'courage'};
+  #ELSEIF {$DetectMagic == 0} {cast 'detect magic'};
+  #ELSEIF {$ResistPoison == 0} {cast 'Resist Poison'};
+  #ELSEIF {$SenseLife == 0} {cast 'Sense Life'}
 }
 
 #NOP ==== Data gathering ====
@@ -94,7 +136,7 @@
 
 
 #ALIAS {food} {ccf;get mush;eat mush}
-#ALIAS {water} {ccw water;dri water}
+#ALIAS {water} {ccw tankard; dri tankard}
 
 #AC {You have become more adept at %1!} {learn %1}
 
