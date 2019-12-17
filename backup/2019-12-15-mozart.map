@@ -7,7 +7,7 @@ CR <fff>
 
 F 139
 
-I 202
+I 841
 
 L * # # # | # x          
 
@@ -821,7 +821,7 @@ R {  199} {0} {<afa>} {Temple Avenue} { } {You are on the broad Temple Avenue th
 E {  185} {n} {n} {1} {0} {}
 E {  200} {s} {s} {4} {0} {}
 
-R {  200} {0} {<aaf>} {The Temple Square} {F} {You are standing in the Temple Square.  In the center of the square sits a large marble fountain spraying a fine mist of water in the air.  A marble path heads north along Temple Avenue, ultimately leading to the Temple's entrance. Nevrast Lane and the beginnings of the old Grunting Boar Inn can be seen to the east.  To the south, Temple Avenue continues towards the Market Square. } {Nevrast} {} {City} {} {1.000}
+R {  200} {0} {<afa>} {The Temple Square} {~} {You are standing in the Temple Square.  In the center of the square sits a large marble fountain spraying a fine mist of water in the air.  A marble path heads north along Temple Avenue, ultimately leading to the Temple's entrance. Nevrast Lane and the beginnings of the old Grunting Boar Inn can be seen to the east.  To the south, Temple Avenue continues towards the Market Square. } {Nevrast} {} {City} {} {1.000}
 E {  199} {n} {n} {1} {0} {}
 E {  201} {e} {e} {2} {0} {}
 E {  205} {s} {s} {4} {0} {}
@@ -3998,27 +3998,26 @@ R {  972} {0} {<fff>} {Along the Western Road} { } {You are traveling along a lo
 E {  971} {e} {e} {2} {0} {}
 E {  973} {w} {w} {8} {0} {}
 
-R {  973} {0} {<fff>} {Banners and Pennants Along the Western Road} { } {Giant banners and pennants fly high in the air, mounted on giant stripped trees, along the southern side of the Western Road here.  The road continues on towards the east and west, and you can see rolling hills starting on the western horizon.  A short distance to the north a small grove of trees visible, a worn path leading towards it.  While the view to the south is dominated by large tents and banners flying in the breeze.  The smell of animals and cooking food wafts through the air and the sounds of children carry along the path leading south. } {NotYetSet} {} {Field} {} {1.000}
+R {  973} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
 E {  972} {e} {e} {2} {0} {}
 E {  974} {n} {n} {1} {0} {}
 E { 2563} {s} {s} {4} {0} {}
 E { 2600} {w} {w} {8} {0} {}
 
-R {  974} {0} {<fff>} {Path Through the Fields} { } {The ground is covered with a lush green grass, the blades of which hide the motions of something passing quickly along.  The carpet extends towards the north where a copse of trees is growing.  To the south, a long swathe of brown extends from the east to the west, much wider than the thin path now being traversed. } {NotYetSet} {} {Field} {} {1.000}
+R {  974} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  973} {s} {s} {4} {0} {}
 E {  975} {n} {n} {1} {0} {}
 
-R {  975} {0} {<fff>} {Path Through the Fields} { } {Solitary blades of grass poke up through the ground, interrupting the constant trail of dirt extending into the north.  To either side is a blanket of think grass, most blades nearly a full foot long.  To the north the path disappears into a small forest.  A hill to the south veils the destination of the path in that direction. } {NotYetSet} {} {Field} {} {1.000}
+R {  975} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  974} {s} {s} {4} {0} {}
 E {  976} {n} {n} {1} {0} {}
 
-R {  976} {0} {<fff>} {Nearing the Woods} { } {The fields visibly extend to the horizon of hills to the east, west and south.  To the north however a spread of trees grows to the northwest.  The woods are very thick, the trees growing closely together.  Small brambles provide a form a barrier to passage beneath them and a faint howling can be heard from within their midst.  The path running from north to south darts underneath its growth and disappears into blackness. } {NotYetSet} {} {Field} {} {1.000}
+R {  976} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  975} {s} {s} {4} {0} {}
 E {  977} {n} {n} {1} {0} {}
 
-R {  977} {0} {<fff>} {Through the Brambles} { } {Thorns claw and grope at your clothing as you push past them.  The trees do not assist as you pass closely to them, standing forever rigid where they grow. Trampling brown and withered branches with a loud crack you pass into the darkness of shade.  The path which entered these trees remains clean amidst the chaos of fallen timber and turns to the west. } {NotYetSet} {} {Field} {} {1.000}
+R {  977} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  976} {s} {s} {4} {0} {}
-E { 3281} {e} {e} {2} {0} {}
 
 R {  978} {0} {<fff>} {Southern Forest Trail} { } {You are following the nature trail deeper into the forest.  You can make out a mountain in the distance to the north.  You also can make out something above the trees west of here.  The trail continues west and back east. } {NotYetSet} {} {Forest} {} {1.000}
 E {  785} {e} {e} {2} {0} {}
@@ -5715,34 +5714,32 @@ R { 1388} {0} {<fff>} {A Path Through The Mountains} { } {You are standing on a 
 E { 1387} {n} {n} {1} {0} {}
 E { 1396} {s} {s} {4} {0} {}
 
-R { 1389} {0} {<afa>} {Entrance to the Sierra Mountain Range} { } {A neat, well kept path leads into the serene pine covered mountains of Sierra.  Lush green grass mixed with fallen pine cones layer the ground.  A cool and gentle breeze blows in from the east.  In the far off distance to the west, is the city of Nevrast. } {The Sierra Range} {} {Mountains} {} {1.000}
+R { 1389} {0} {<fff>} {Entrance to the Sierra Mountain Range} { } {A neat, well kept path leads into the serene pine covered mountains of Sierra.  Lush green grass mixed with fallen pine cones layer the ground.  A cool and gentle breeze blows in from the east.  In the far off distance to the west, is the city of Nevrast. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1387} {w} {w} {8} {0} {}
 E { 1390} {n} {n} {1} {0} {}
 
-R { 1390} {0} {<afa>} {Into the Sierra Range} { } {Large pine trees surround the precipice of a canyon a short distance away. Wildflowers pop up from between blades of lush, green grass that covers the ground.  The air is sweet with the scent of the surrounding trees.  A well maintained path leads back to the south or further north. } {The Sierra Range} {} {Mountains} {} {1.000}
+R { 1390} {0} {<fff>} {Into the Sierra Range} { } {Large pine trees surround the precipice of a canyon a short distance away. Wildflowers pop up from between blades of lush, green grass that covers the ground.  The air is sweet with the scent of the surrounding trees.  A well maintained path leads back to the south or further north. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1389} {s} {s} {4} {0} {}
 E { 1391} {n} {n} {1} {0} {}
 
-R { 1391} {0} {<afa>} {Sliding Down the Precipice} {} {The overcropping of trees here is very dense.  The path has broken off into a steep rocky slide that leads into the canyon below.  A strong breeze blows through forcing anything caught in it to be forced downward. } {The Sierra Range} {} {Mountains} {} {1.000}
+R { 1391} {0} {<fff>} {#MAP GOTO: MOVED TO ROOM 1391 {Sliding Down the Precipice}.} {!!!} {} {NotYetSet} {} {} {} {1.000}
 E { 1390} {s} {s} {4} {0} {}
 E { 1392} {d} {d} {32} {0} {}
 
-R { 1392} {0} {<afa>} {The End of the Long Precipice} { } {The steep slide slows further at this point.  A small drop off leads to a clearing below, just before the path to Mount Belknap.  Pine sapplings sprout up on either side of the canyon's sharp, rocky surface. } {The Sierra Range} {} {Mountains} {} {1.000}
+R { 1392} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1391} {u} {u} {16} {0} {}
 E { 1393} {d} {d} {32} {0} {}
 
-R { 1393} {0} {<afa>} {The Beginning of the Path to Mount Belknap} { } {Lush green grass and wildflowers cover the ground surrounding the path to Mount Belknap.  Large pines spring up in every direction as far as the eye can see.  A gently breeze blows through carrying the sweet scent of the trees with it. } {The Sierra Range} {} {Mountains} {} {1.000}
+R { 1393} {0} {<fff>} {The Beginning of the Path to Mount Belknap} { } {Lush green grass and wildflowers cover the ground surrounding the path to Mount Belknap.  Large pines spring up in every direction as far as the eye can see.  A gently breeze blows through carrying the sweet scent of the trees with it. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1392} {u} {u} {16} {0} {}
 E { 1394} {e} {e} {2} {0} {}
 E { 1395} {n} {n} {1} {0} {}
 
-R { 1394} {0} {<afa>} {} { } {} {The Sierra Range} {} {} {} {1.000}
+R { 1394} {0} {<fff>} {Just Off the Path to Mt. Belknap} { } {The ground is covered in wildflowers of varrying colors that sprout up between the beautiful green grass undefoot.  A path has been constructed to assists adventures in their travels so that they won't become lost.  In the far off distance is Mount Belknap. } {NotYetSet} {} {Forest} {} {1.000}
 E { 1393} {w} {w} {8} {0} {}
-E { 3285} {n} {n} {1} {0} {}
 
-R { 1395} {0} {<afa>} {Just Starting on the Path to Mount Belknap} { } {A neatly kept path trails on through a serene forested area.  A beautiful variey of wildflowers sprout up from the underlining ground that is covered in lush green grass on either side of the path.  Large pines create a well shaded overcropping, rustling in cool, gentle breeze that flows through, fending off the heat. } {The Sierra Range} {} {Mountains} {} {1.000}
+R { 1395} {0} {<fff>} {Just Starting on the Path to Mount Belknap} { } {A neatly kept path trails on through a serene forested area.  A beautiful variey of wildflowers sprout up from the underlining ground that is covered in lush green grass on either side of the path.  Large pines create a well shaded overcropping, rustling in cool, gentle breeze that flows through, fending off the heat. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1393} {s} {s} {4} {0} {}
-E { 3286} {n} {n} {1} {0} {}
 
 R { 1396} {0} {<fff>} {A Mountain Path} { } {You are standing on a path leading north-south through the mountains.  The path is fairly level here, and the going is somewhat easier.  Movement to the east and west is blocked by large hills. } {NotYetSet} {} {Mountains} {} {1.000}
 E { 1388} {n} {n} {1} {0} {}
@@ -6121,7 +6118,7 @@ R { 1480} {0} {<afa>} {Inside the Northern Gate of New Thalos} { } {Two large st
 E { 1479} {e} {e} {2} {0} {}
 E { 1481} {s} {s} {4} {0} {}
 E { 1485} {w} {w} {8} {0} {}
-E { 1528} {n} {open gate;n} {1} {0} {}
+E { 1528} {n} {n} {1} {0} {}
 
 R { 1481} {0} {<afa>} {} { } {} {New Thalos} {} {} {} {1.000}
 E { 1480} {n} {n} {1} {0} {}
@@ -6242,9 +6239,9 @@ R { 1511} {0} {<afa>} {Inside the Eastern Gate of New Thalos} { } {Two large sto
 E { 1512} {s} {s} {4} {0} {}
 E { 1465} {w} {w} {8} {0} {}
 E { 1515} {n} {n} {1} {0} {}
-E { 1564} {e} {open gate;e} {2} {0} {}
+E { 1564} {e} {e} {2} {0} {}
 
-R { 1512} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
+R { 1512} {8} {} {} { } {} {New Thalos} {} {} {} {1.000}
 E { 1511} {n} {n} {1} {0} {}
 E { 1508} {s} {s} {4} {0} {}
 
@@ -6313,8 +6310,7 @@ E { 1526} {e} {e} {2} {0} {}
 E { 1477} {s} {s} {4} {0} {}
 
 R { 1528} {0} {<afa>} {Outside the Northern Gate of New Thalos} { } {You stand outside the gate of New Thalos.  The city lies to the south, while the wilderness spreads out to the north. } {New Thalos} {} {City} {} {1.000}
-E { 1480} {s} {open gate;s} {4} {0} {}
-E { 3334} {n} {n} {1} {0} {}
+E { 1480} {s} {s} {4} {0} {}
 
 R { 1529} {0} {<afa>} {East Ishtar Drive} { } {The wide road bordering the south of town continues to the east and west here, bordered only by the Ishtar River to the south.  Off to the west the clocktower of New Thalos can be seen bordering common square and to the east you can just see the watchtower that sits at the end of Dragon Avenue. } {New Thalos} {} {City} {} {1.000}
 E { 1502} {e} {e} {2} {0} {}
@@ -6457,19 +6453,16 @@ R { 1561} {0} {<afa>} {The Southern Bridge} { } {Walking over the bridge gives y
 E { 1539} {n} {n} {1} {0} {}
 E { 1562} {s} {s} {4} {0} {}
 
-R { 1562} {0} {<fff>} {The Southern Bridge} { } {Walking over the bridge gives you a marvelous view of the rushing waters of the Ishtar River.  To the south, you see the southern gate of New Thalos, and the Common Square stretches out to the north. } {NotYetSet} {} {City} {} {1.000}
+R { 1562} {0} {<afa>} {You open the gate.} { } {[MAPON] H:327/411 M:122/127 V:218/256 XP:379904 C:*> Inside the South Gate of New Thalos    Two large stone towers rise up to greet you with a massive iron gate which swings on ornately crafted hinges and is emblazoned with the crest of New Thalos.  The makers of the city spared no expense in rebuilding the defenses of their home.  The Ishtar River bridge lies to the north and the wilderness of the desert to the south. } {New Thalos} {} {City} {} {1.000}
 E { 1561} {n} {n} {1} {0} {}
 E { 1563} {s} {open gate;s} {4} {0} {}
-E { 3361} {d} {d} {32} {0} {}
 
 R { 1563} {0} {<afa>} {You realize that it's already open.} { } {[MAPON] H:326/411 M:122/127 V:217/256 XP:379904 C:*> Outside the Southern Gate of New Thalos    Before you, the Great Eastern Desert expands to the south.  You have heard many tales of the Great Pyramid, the Lost City of Thalos, and the friendly brass dragon which lies under the sands of the desert.  The less adventurous but infinitely safer city of New Thalos lies to the north. } {New Thalos} {} {City} {} {1.000}
 E { 1562} {n} {open gate;n} {1} {0} {}
 E { 3223} {s} {s} {4} {0} {}
 
-R { 1564} {0} {<fff>} {Outside the Eastern Gate of New Thalos} { } {You stand to the east of the massive iron gate of New Thalos.  This gate has recently seen a large increase in traffic from merchants due to the opening of a new trade route.  A stand of ornate flowering bushes to the north and south of the road add to the beauty of this massive iron gate and its point of arrival. } {NotYetSet} {} {Field} {} {1.000}
-E { 1511} {w} {open gate;w} {8} {0} {}
-E { 3343} {e} {e} {2} {0} {}
-E { 3355} {s} {s} {4} {0} {}
+R { 1564} {0} {<afa>} {Outside the Eastern Gate of New Thalos} { } {You stand to the east of the massive iron gate of New Thalos.  This gate has recently seen a large increase in traffic from merchants due to the opening of a new trade route.  A stand of ornate flowering bushes to the north and south of the road add to the beauty of this massive iron gate and its point of arrival. } {New Thalos} {} {Field} {} {1.000}
+E { 1511} {w} {w} {8} {0} {}
 
 R { 1565} {0} {<afa>} {The Library} { } {This building holds the vast collection of books and documents that have been brought here by the committee appointed to recover the lost knowledge of Thalos.  Rows of shelves, filled with books in every condition, line the walls. The air has the aroma of old parchment and glue. } {New Thalos} {} {Inside} {} {1.000}
 E { 1517} {e} {e} {2} {0} {}
@@ -8453,7 +8446,7 @@ E { 2028} {s} {s} {4} {0} {}
 R { 2030} {0} {<fff>} {Hallway} { } {The hallway ends here at another paper screen to the east, with two others to your north and south.  You can travel west back down the hall, or maybe do a little "exploring."    Did you just hear a moan? } {NotYetSet} {} {Inside} {} {1.000}
 E { 2028} {w} {w} {8} {0} {}
 E { 2031} {n} {n} {1} {0} {}
-E { 2032} {e} {open door east;e} {2} {0} {}
+E { 2032} {e} {e} {2} {0} {}
 E { 2033} {s} {s} {4} {0} {}
 
 R { 2031} {0} {<fff>} {Bedroom} { } {You have entered one of the chambers where the geishas wait for their customers.  There are several mats and pillows lying around, and you can hear giggles and moans emanating from all around you.  The only exit is back through the paper screen. } {NotYetSet} {} {Inside} {} {1.000}
@@ -9746,10 +9739,9 @@ R { 2321} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
 E { 2294} {s} {s} {4} {0} {}
 E { 1417} {n} {n} {1} {0} {}
 
-R { 2322} {0} {<fff>} {Ishtar River} {~} {This part of the river seems alive with activity.  Boats moored to the docks near the ramp north of here make navigation a bit more trying.  As the river flows eastward, you can see the southern bridge coming into view. } {NotYetSet} {} {River} {} {1.000}
+R { 2322} {0} {<aaf>} {Ishtar River} {~} {This part of the river seems alive with activity.  Boats moored to the docks near the ramp north of here make navigation a bit more trying.  As the river flows eastward, you can see the southern bridge coming into view. } {NotYetSet} {} {River} {} {1.000}
 E { 1686} {w} {w} {8} {0} {}
 E { 1560} {n} {n} {1} {0} {}
-E { 3356} {e} {e} {2} {0} {}
 
 R { 2323} {0} {<afa>} {Small Cliff} { } {You stand on a small cliff north of the Ishtar River.  This place would be perfectly natural, if it weren't for a huge silver strand rooted firmly in the ground here.  The strand, glowing with a mystical aura, is thicker than the largest tree.  It reaches high into the clouds, beyond the sight of the keenest eyes.  Upon closer examination, you discover steps carved into the shimmering silvery cord.  Where could it lead? } {Graecia} {} {Hills} {} {1.000}
 E { 2291} {s} {s} {4} {0} {}
@@ -13692,453 +13684,3 @@ E { 1847} {s} {s} {4} {0} {}
 
 R { 3280} {0} {<ffa>} {The Barrow} { } {This small alcove is built of grey stones the size of an ogre's hand.  Three large gaping holes are visible, one each in the northern, eastern, and southern walls.  These gaps would appear to once have been capped burial chambers but the stones used for these caps lie on the floor, shattered.  Mixed in with the remnants of the stones are dust, sand, and a white powder.  Cobwebs hang from the ceiling, drifting about in the slightest air current.  The scent of decay and an abrasive dust fill the chill, dry air.  A narrow passageway lies to the west. } {The Barrow} {} {Inside} {} {1.000}
 E { 1847} {w} {w} {8} {0} {}
-
-R { 3281} {0} {<fff>} {On a Grassy Hill} { } {You are standing on a small hill over looking a rather large building built into the side of another hill.  It is a dirty-white color, and it has but a few windows in it.  There are other hills surrounding you, that have willow trees blanketing their surface. } {NotYetSet} {} {Hills} {} {1.000}
-E {  977} {w} {w} {8} {0} {}
-E { 3282} {n} {n} {1} {0} {}
-
-R { 3282} {0} {<fff>} {Before the Library} { } {You have traveled closer to the large white structure, and notice that it is very plain looking.  You can sense something strange all about you though.  It is as if the something unholy has plagued the very ground at your feet. } {NotYetSet} {} {Forest} {} {1.000}
-E { 3281} {s} {s} {4} {0} {}
-E { 3283} {n} {n} {1} {0} {}
-
-R { 3283} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 3282} {s} {s} {4} {0} {}
-E { 3284} {n} {n} {1} {0} {}
-
-R { 3284} {0} {<fff>} {} {!!!} {} {NotYetSet} {} {} {} {1.000}
-E { 3283} {s} {s} {4} {0} {}
-
-R { 3285} {0} {<afa>} {At the Bottom of the Ravine on the Path to Mt. Belknap} { } {The dense overcropping of pine trees begins to intertwine, casting a shadow over the ravine.  The underlining path continues toward Mount Belknap in the far off distance.  Sharp pine needles layer the rocky ground below, rustling slightly as a chill breeze blows through. } {The Sierra Range} {} {Forest} {} {1.000}
-E { 1394} {s} {s} {4} {0} {}
-E { 3296} {n} {n} {1} {0} {}
-E { 3297} {e} {e} {2} {0} {}
-
-R { 3286} {0} {<afa>} {The Path to the Peak of Mount Belknap} { } {The trail grows rougher as it winds steeply up the mountainside to the north.  To the south, past a rocky slope of moss covered boulders, the trail drops into a dense forest. } {The Sierra Range} {} {Mountains} {} {1.000}
-E { 1395} {s} {s} {4} {0} {}
-E { 3287} {n} {n} {1} {0} {}
-
-R { 3287} {0} {<afa>} {A Windy Path to the Peak of Mount Belknap} { } {A strong, chill wind blows through as the path continues toward the mountain's peak.  Low growing foliage and shrubbery line the outskirts of the path on eitherside.  Broken braches and scrattered rocks layer the underlining ground making the trek difficult. } {The Sierra Range} {} {Mountains} {} {1.000}
-E { 3286} {s} {s} {4} {0} {}
-E { 3288} {w} {w} {8} {0} {}
-
-R { 3288} {0} {<afa>} {On the Path to Mt. Belknap} { } {The path conintues up the mountain, becoming more narrow as it rises. Shrubbery and rocks protrude from the ground while low hanging branches make the trek more difficult.  The air is crisp and cool as a gentle breeze blows through. } {The Sierra Range} {} {Mountains} {} {1.000}
-E { 3287} {e} {e} {2} {0} {}
-E { 3289} {w} {w} {8} {0} {}
-
-R { 3289} {0} {<afa>} {On the Path to Mt. Belknap} { } {The Path leads into a small clearing surrounded by sweetly scented pines creating a comfortable outcropping in the forest.  In the center of the clearing stands an altar constructed from the indigenous rocks.  The path continues to the east and west. } {The Sierra Range} {} {Mountains} {} {1.000}
-E { 3288} {e} {e} {2} {0} {}
-E { 3290} {w} {w} {8} {0} {}
-
-R { 3290} {0} {<afa>} {Around the Bend on a Path to Mt. Belknap} { } {The once well maintained path has degenerated beyond recognition.  Shrubbery and various foliage has grown overtop of the path and sharp rocks perforate the surrounding ground on either side.  The air however is sweet, filled with the scent of pine that is carried on a gentle breeze. } {The Sierra Range} {} {Mountains} {} {1.000}
-E { 3289} {e} {e} {2} {0} {}
-E { 3291} {s} {s} {4} {0} {}
-
-R { 3291} {0} {<afa>} {Past the Tree line on a Path to Mt. Belknap} { } {Beyond the the dense forest path is a small clearing spanning out for miles. Beautiful green grass and varrying colors of wildflowers and other foliage cover the ground.  A crisp, gentle breeze blows through carrying on it the sweet scent of pine. } {The Sierra Range} {} {Mountains} {} {1.000}
-E { 3290} {n} {n} {1} {0} {}
-E { 3292} {s} {s} {4} {0} {}
-
-R { 3292} {0} {<afa>} {Continuing on the Path to Mt. Belknap} { } {The path here is poorly maintained.  Rocks and broken branches layer the ground underfoot and  sharp pine needles have all but destroyed the once beautiful grass below; which  has turned a yellow-brown color. } {The Sierra Range} {} {Mountains} {} {1.000}
-E { 3291} {n} {n} {1} {0} {}
-E { 3293} {s} {s} {4} {0} {}
-
-R { 3293} {0} {<afa>} {Entering Thin Air on the Path to Mount Belknap} { } {The oxygen thins as the trek to the mountain peak continues to rise.  The path begins to mesh with the underlining ground below, slightly fading off into the distance.  Foliage here is sparse and the air carries a chill to it as it blows past. } {The Sierra Range} {} {Mountains} {} {1.000}
-E { 3292} {n} {n} {1} {0} {}
-E { 3294} {e} {e} {2} {0} {}
-
-R { 3294} {0} {<afa>} {A Path to the Peak of Mount Belknap} { } {The path continues on to the mountain peak.  Large pine trees spring up in every direction on either side of the path.  Also covering the ground below all around is a carpet of green grass, mixed with various wildflowers. } {The Sierra Range} {} {Mountains} {} {1.000}
-E { 3293} {w} {w} {8} {0} {}
-E { 3295} {e} {e} {2} {0} {}
-
-R { 3295} {0} {<afa>} {At the Peak of Mt. Belknap} { } {A beautiful scene spans out as far as the eye can see.  Large pines adorn the mountain side and lush green grass covers the ground.  Various wildflowers sprout up in every direction mixing with the grass and creating a brilliant spectical of color. } {The Sierra Range} {} {Mountains} {} {1.000}
-E { 3294} {w} {w} {8} {0} {}
-
-R { 3296} {0} {<afa>} {The Vast Sierra Forest in the Mt. Belknap Canyon} { } {You enter the woods that have legends written all about them.  You scan around furiously and feel threatened by every move anyone or anything makes. } {The Sierra Range} {} {Forest} {} {1.000}
-E { 3285} {s} {s} {4} {0} {}
-E { 3298} {e} {e} {2} {0} {}
-E { 3299} {n} {n} {1} {0} {}
-
-R { 3297} {0} {<afa>} {The Beginning of a Beautifully Dark Forest} { } {The darkness deepens, blotting out all light as the path branches out into a dense forest trail.  The surrounding trees are sharp to the touch as their needles protrude outward.  The underlining ground rustles with old, dried pine cones and needles that layer the trail. } {The Sierra Range} {} {Forest} {} {1.000}
-E { 3285} {w} {w} {8} {0} {}
-E { 3298} {n} {n} {1} {0} {}
-
-R { 3298} {0} {<afa>} {In The Darkness of The Sierra Range} { } {Ominous sounds fill the brisk air of the forest from all directions.  The ground below is covered in a thick carpet of dried leaves, needles and pine cones that gently rustle in the chill breeze that flows through, carrying on it the sweet scent of wildflowers and moist grass. } {The Sierra Range} {} {Forest} {} {1.000}
-E { 3297} {s} {s} {4} {0} {}
-E { 3296} {w} {w} {8} {0} {}
-E { 3304} {n} {n} {1} {0} {}
-E { 3305} {e} {e} {2} {0} {}
-
-R { 3299} {0} {<afa>} {The Northern End of the Sierra Mountains} { } {A thick carpet of sharp, dried pine needles cover the once lush grassy forest bottom.  A brisk breeze blows through carrying with it the sweet cent of wildflowers and moist grass from the  off in the distance.  A canopy created from the trees above filters out mcuh of the light, leaving the forest shrouded in darkness here. } {The Sierra Range} {} {Forest} {} {1.000}
-E { 3296} {s} {s} {4} {0} {}
-E { 3300} {n} {n} {1} {0} {}
-E { 3304} {e} {e} {2} {0} {}
-
-R { 3300} {0} {<afa>} {The Northernmost End of the Sierra Forest Range} { } {A thick carpet of sharp, dried pine needles cover the once lush grassy forest bottom.  A brisk breeze blows through carrying with it the sweet cent of wildflowers and moist grass from the  off in the distance.  A canopy created from the trees above filters out mcuh of the light, leaving the forest shrouded in darkness here. } {The Sierra Range} {} {Forest} {} {1.000}
-E { 3299} {s} {s} {4} {0} {}
-E { 3301} {w} {w} {8} {0} {}
-E { 3303} {e} {e} {2} {0} {}
-
-R { 3301} {0} {<afa>} {} { } {} {The Sierra Range} {} {} {} {1.000}
-E { 3300} {e} {e} {2} {0} {}
-E { 3302} {w} {w} {8} {0} {}
-
-R { 3302} {0} {<afa>} {There is no room to get in there.} { } {} {The Sierra Range} {} {} {} {1.000}
-E { 3301} {e} {e} {2} {0} {}
-
-R { 3303} {0} {<afa>} {Wandering Aimlessly Through the Woods} { } {The forest is slightly less dense here though the trees are still tightly packed, blotting out any light from above.  The rustling of dried leaves moving acrossed the ground can be heard as a genlte breeze blows through, carrying on it the sweet scent of pine and wildflowers.  Sharp prickly pine-needles snag at anything within their grasp, dropping to the forest floor creating a thin carpet overtop the once lush grass below. } {The Sierra Range} {} {Forest} {} {1.000}
-E { 3300} {w} {w} {8} {0} {}
-E { 3304} {s} {s} {4} {0} {}
-E { 3307} {e} {e} {2} {0} {}
-
-R { 3304} {0} {<afa>} {In The Darkness of The Sierra Range} { } {You torch burns out and quickly you light your backup.  Whew, a close call in your adventure.  Who knows what types of animals may have attacked you in the dark. } {The Sierra Range} {} {Forest} {} {1.000}
-E { 3299} {w} {w} {8} {0} {}
-E { 3303} {n} {n} {1} {0} {}
-E { 3298} {s} {s} {4} {0} {}
-E { 3306} {e} {e} {2} {0} {}
-
-R { 3305} {0} {<afa>} {In the Deep Darkness of The Sierra Range} { } {A thick carpet of sharp, dried pine needles cover the once lush grassy forest bottom.  A brisk breeze blows through carrying with it the sweet cent of wildflowers and moist grass from the  off in the distance.  A canopy created from the trees above filters out mcuh of the light, leaving the forest shrouded in darkness here. } {The Sierra Range} {} {Forest} {} {1.000}
-E { 3298} {w} {w} {8} {0} {}
-E { 3306} {n} {n} {1} {0} {}
-
-R { 3306} {0} {<afa>} {In the Deep Darkness of the Sierra Range} { } {The darkness surrounds you as you walk through the woods.  You want to get out of here as soon as possible.  Yet you feel strangely at home.  Who knows why? } {The Sierra Range} {} {Forest} {} {1.000}
-E { 3305} {s} {s} {4} {0} {}
-E { 3304} {w} {w} {8} {0} {}
-E { 3307} {n} {n} {1} {0} {}
-E { 3309} {e} {e} {2} {0} {}
-
-R { 3307} {0} {<afa>} {Lost in the Woods} { } {A thick carpet of sharp, dried pine needles cover the once lush grassy forest bottom.  A brisk breeze blows through carrying with it the sweet cent of wildflowers and moist grass from the  off in the distance.  A canopy created from the trees above filters out mcuh of the light, leaving the forest shrouded in darkness here. } {The Sierra Range} {} {Forest} {} {1.000}
-E { 3306} {s} {s} {4} {0} {}
-E { 3303} {w} {w} {8} {0} {}
-E { 3308} {e} {e} {2} {0} {}
-
-R { 3308} {0} {<afa>} {Lost Somewhere in the Woods} { } {Ominous sounds fill the brisk air of the forest from all directions.  The ground below is covered in a thick carpet of dried leaves, needles and pine cones that gently rustle in the chill breeze that flows through, carrying on it the sweet scent of wildflowers and moist grass. } {The Sierra Range} {} {Forest} {} {1.000}
-E { 3307} {w} {w} {8} {0} {}
-E { 3309} {s} {s} {4} {0} {}
-E { 3310} {e} {e} {2} {0} {}
-
-R { 3309} {0} {<afa>} {In the Deepest Darkness of the Sierra Range} { } {You see a track just ahead and feel this may be your way out of this place which lives and dies in darkness.  For such a noble mountain it is surrounded by dreary woods. } {The Sierra Range} {} {Forest} {} {1.000}
-E { 3308} {n} {n} {1} {0} {}
-E { 3306} {w} {w} {8} {0} {}
-
-R { 3310} {0} {<afa>} {Somewhere in the Huge Sierra Forest} { } {The forest is slightly less dense here though the trees are still tightly packed, blotting out any light from above.  The rustling of dried leaves moving acrossed the ground can be heard as a genlte breeze blows through, carrying on it the sweet scent of pine and wildflowers.  Sharp prickly pine-needles snag at anything within their grasp, dropping to the forest floor creating a thin carpet overtop the once lush grass below. } {The Sierra Range} {} {Forest} {} {1.000}
-E { 3308} {w} {w} {8} {0} {}
-E { 3311} {e} {e} {2} {0} {}
-
-R { 3311} {0} {<afa>} {Looking onto a Vast Prairie} { } {The forest opens up into a lush, green prairie as far as the eye can see, beautiful wildflowers of all colors sprout up from between the grassy-blades creating a rainbow like spectacle.  A gentle breeze blows past picking up the scent of pine and the different , yet distinct scents of the flowers that surround you. } {The Sierra Range} {} {Field} {} {1.000}
-E { 3310} {w} {w} {8} {0} {}
-E { 3312} {s} {s} {4} {0} {}
-E { 3317} {e} {e} {2} {0} {}
-
-R { 3312} {0} {<afa>} {In the Tall Grass of an Emerald Field} { } {The grass here has grown unchecked and it quite tall.  Underfoot the ground is moist and a little soft.  A gentle breeze blows through carrying the scent of pine amd wildflowers from off in the distance. } {The Sierra Range} {} {Field} {} {1.000}
-E { 3311} {n} {n} {1} {0} {}
-E { 3313} {e} {e} {2} {0} {}
-
-R { 3313} {0} {<afa>} {In the Tall Grass of an Emerald Field} { } {The grass here has grown unchecked and it quite tall.  Underfoot the ground is moist and a little soft.  A gentle breeze blows through carrying the scent of pine amd wildflowers from off in the distance. } {The Sierra Range} {} {Field} {} {1.000}
-E { 3312} {w} {w} {8} {0} {}
-E { 3314} {s} {s} {4} {0} {}
-E { 3316} {e} {e} {2} {0} {}
-E { 3317} {n} {n} {1} {0} {}
-
-R { 3314} {0} {<afa>} {An Emerald Green Field} { } {A lush, emerald-green grass carpets the ground as far as the eye can see almost glowing as light hits it. } {The Sierra Range} {} {Field} {} {1.000}
-E { 3313} {n} {n} {1} {0} {}
-E { 3315} {e} {e} {2} {0} {}
-
-R { 3315} {0} {<afa>} {An Emerald Green Field} { } {A lush, emerald-green grass carpets the ground as far as the eye can see almost glowing as light hits it. } {The Sierra Range} {} {Field} {} {1.000}
-E { 3314} {w} {w} {8} {0} {}
-E { 3316} {n} {n} {1} {0} {}
-E { 3323} {s} {s} {4} {0} {}
-E { 3325} {e} {e} {2} {0} {}
-
-R { 3316} {0} {<afa>} {In the Tall Grass of an Emerald Field} { } {The grass here has grown unchecked and it quite tall.  Underfoot the ground is moist and a little soft.  A gentle breeze blows through carrying the scent of pine amd wildflowers from off in the distance. } {The Sierra Range} {} {Field} {} {1.000}
-E { 3315} {s} {s} {4} {0} {}
-E { 3313} {w} {w} {8} {0} {}
-E { 3322} {e} {e} {2} {0} {}
-E { 3318} {n} {n} {1} {0} {}
-
-R { 3317} {0} {<afa>} {In the Shrubbery That Surrounds the Emerald Field} { } {Small shrubs grow along the edges of the prairie creating a barrier that separates it from the forest.  Lush green grass gives off an emerald hue acented by the beauty of multi-colored wildflowers that sprout up all around. } {The Sierra Range} {} {Field} {} {1.000}
-E { 3313} {s} {s} {4} {0} {}
-E { 3318} {e} {e} {2} {0} {}
-E { 3311} {w} {w} {8} {0} {}
-
-R { 3318} {0} {<afa>} {In the Shrubbery That Surrounds the Emerald Field} { } {Small shrubs grow along the edges of the prairie creating a barrier that separates it from the forest.  Lush green grass gives off an emerald hue acented by the beauty of multi-colored wildflowers that sprout up all around. } {The Sierra Range} {} {Field} {} {1.000}
-E { 3317} {w} {w} {8} {0} {}
-E { 3319} {e} {e} {2} {0} {}
-E { 3316} {s} {s} {4} {0} {}
-
-R { 3319} {0} {<afa>} {The Beginnings of a Small Babbling Brook} { } {A small babling brook runs through the prairie here feeding the grassy lands a large amount of moisture.  The grass surrounding the brook grows  tall and spans quite a distance.  Barely visible now are several multi-colored wildflowers, well hidden beneath the grass. } {The Sierra Range} {} {Field} {} {1.000}
-E { 3318} {w} {w} {8} {0} {}
-E { 3320} {e} {e} {2} {0} {}
-E { 3322} {s} {s} {4} {0} {}
-
-R { 3320} {0} {<afa>} {In the Shrubbery That Surrounds the Emerald Field} { } {Small shrubs grow along the edges of the prairie creating a barrier that separates it from the forest.  Lush green grass gives off an emerald hue acented by the beauty of multi-colored wildflowers that sprout up all around. } {The Sierra Range} {} {Field} {} {1.000}
-E { 3319} {w} {w} {8} {0} {}
-E { 3321} {s} {s} {4} {0} {}
-
-R { 3321} {0} {<afa>} {On the Edge of the Unknown, Past the Field} { } {You are at the edge of the unknown, on the eastern side of the field.  The earth just seems to fall from beneath your feet here. } {The Sierra Range} {} {Field} {} {1.000}
-E { 3320} {n} {n} {1} {0} {}
-E { 3322} {w} {w} {8} {0} {}
-E { 3326} {s} {s} {4} {0} {}
-
-R { 3322} {0} {<afa>} {A Small Babbling Brook} { } {The water of the brook is crystal clear and quite cool, perhaps created from the melting snow off the peak of Mount Belknap.  Beartiful wildflowers sprout, though barely visible through the grassy blades that surround the brook. } {The Sierra Range} {} {Field} {} {1.000}
-E { 3321} {e} {e} {2} {0} {}
-E { 3319} {n} {n} {1} {0} {}
-E { 3316} {w} {w} {8} {0} {}
-E { 3325} {s} {s} {4} {0} {}
-
-R { 3323} {0} {<afa>} {The Beginning of a Long Granite Stone Wall} { } {A beautiful stone wall divides one side of the field and the other.  You look at it carefully and find the intricacies in every stone placed here.  It is miraculous that something this old still survives today. } {The Sierra Range} {} {Field} {} {1.000}
-E { 3315} {n} {n} {1} {0} {}
-E { 3324} {e} {e} {2} {0} {}
-
-R { 3324} {0} {<afa>} {A Long, Worn Down, Granite Stone Wall} { } {The granite is falling apart, but this wall is still very noble and stands as a clear boundary between farmers once here. } {The Sierra Range} {} {Field} {} {1.000}
-E { 3323} {w} {w} {8} {0} {}
-E { 3327} {e} {e} {2} {0} {}
-E { 3325} {n} {n} {1} {0} {}
-E { 3329} {s} {s} {4} {0} {}
-
-R { 3325} {0} {<afa>} {The Ends of a Small Babbling Brook} { } {The  babbling brook comes to an end here, widening into a small, clear, cool pond.  The water ripples sending light wakes across the surface as a gentle breezes blows overtop the water. } {The Sierra Range} {} {Field} {} {1.000}
-E { 3315} {w} {w} {8} {0} {}
-E { 3326} {e} {e} {2} {0} {}
-E { 3322} {n} {n} {1} {0} {}
-E { 3324} {s} {s} {4} {0} {}
-
-R { 3326} {0} {<afa>} {An Emerald Green Field} { } {A lush, emerald-green grass carpets the ground as far as the eye can see almost glowing as light hits it. } {The Sierra Range} {} {Field} {} {1.000}
-E { 3325} {w} {w} {8} {0} {}
-E { 3321} {n} {n} {1} {0} {}
-E { 3327} {s} {s} {4} {0} {}
-
-R { 3327} {0} {<afa>} {A Worn Down, Long Granite Stone Wall} { } {The granite in this part of the wall is well worn and crumbles if enough force is applied.  If carefully traversed it may maintain it's integrity. } {The Sierra Range} {} {Field} {} {1.000}
-E { 3326} {n} {n} {1} {0} {}
-E { 3324} {w} {w} {8} {0} {}
-E { 3328} {s} {s} {4} {0} {}
-
-R { 3328} {0} {<afa>} {On the Side of the Well Beaten Path} { } {The ground here is hard and well traveled, deep indentations mare the trail on either side from what appears to wagon wheels, while rocks protrude from the inner path making walking unpleasant.  The trail forks leading north, south and west. } {The Sierra Range} {} {Field} {} {1.000}
-E { 3327} {n} {n} {1} {0} {}
-E { 3329} {w} {w} {8} {0} {}
-E { 3331} {s} {s} {4} {0} {}
-
-R { 3329} {0} {<afa>} {A Well Beaten Path to a Dark Entrance} { } {This entrance is covered with spider webs.  It is unlikely to have been used very often, that or the spiders around here are prodigious workers. } {The Sierra Range} {} {Field} {} {1.000}
-E { 3328} {e} {e} {2} {0} {}
-E { 3324} {n} {n} {1} {0} {}
-E { 3330} {s} {s} {4} {0} {}
-
-R { 3330} {0} {<afa>} {Entering the Sierra Cave Range} { } {This is a huge cave that spans about a hundred feet wide and approximately three-hundred feet long.  There are strange drawings made in red clay on the walls.  They depict battles and hunts with men in crude clothing and wielding even cruder weapons. } {The Sierra Range} {} {Underground} {} {1.000}
-E { 3329} {n} {n} {1} {0} {}
-E { 3331} {e} {e} {2} {0} {}
-E { 3332} {s} {s} {4} {0} {}
-
-R { 3331} {0} {<afa>} {Entering the Sierra Cave Range} { } {The cave entrance is covered in spider webs.  beyond them is a  dark and surprisingly warm cave.  The air is humid, leaving a sticky feel to the surrounding area. } {The Sierra Range} {} {Underground} {} {1.000}
-E { 3330} {w} {w} {8} {0} {}
-E { 3328} {n} {n} {1} {0} {}
-E { 3333} {s} {s} {4} {0} {}
-
-R { 3332} {0} {<afa>} {Inside the depths of the Sierra Caves} {WMo} {The air inside of the cave is warm and humid.  At the cave center surrounded by broken, chewed appearing bones of various animals is a small campfire that is still burning.  Protruding from the ground and ceiling above are sharp looking stalctites resembling the teeth of a dragon and giving the cave a threatening appearance. } {The Sierra Range} {} {Underground} {} {1.000}
-E { 3330} {n} {n} {1} {0} {}
-E { 3333} {e} {e} {2} {0} {}
-
-R { 3333} {0} {<afa>} {Inside the depths of the Sierra Caves} { } {The air inside of the cave is warm and humid.  Carpeting the cave floor are broken, chewed looking bones scattered from wall to wall.  Protruding from the ground and ceiling above are sharp looking stalctites resembling the teeth of a dragon and giving the cave a threatening appearance. } {The Sierra Range} {} {Underground} {} {1.000}
-E { 3332} {w} {w} {8} {0} {}
-E { 3331} {n} {n} {1} {0} {}
-
-R { 3334} {0} {<fff>} {On the Plains} { } {You stand on an open expanse of grass extending in all directions.  To the south of you stands the mighty northern gates of New Thalos.  East and west of you the grassy fields continue, and north, in the distance, you see a line of trees. } {NotYetSet} {} {Field} {} {1.000}
-E { 1528} {s} {s} {4} {0} {}
-E { 3335} {n} {n} {1} {0} {}
-
-R { 3335} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 3334} {s} {s} {4} {0} {}
-E { 3336} {n} {n} {1} {0} {}
-
-R { 3336} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 3335} {s} {s} {4} {0} {}
-E { 3337} {n} {n} {1} {0} {}
-
-R { 3337} {0} {<fff>} {The Entrance to the Forest} { } {You are standing at the entrance to the forest of Rhowyn, a small path winds its way into its gloomy depths.  There is a sign at the edge of the path, which also leads southwards across the plains, away from the forest. } {NotYetSet} {} {Forest} {} {1.000}
-E { 3336} {s} {s} {4} {0} {}
-E { 3338} {n} {n} {1} {0} {}
-
-R { 3338} {0} {<fff>} {The Forest of Rhowyn} { } {The forest is light here, and fairly cheery.  But you shudder as you look to the north, and the gloom that hides the secrets of Rhowyn.  A single path leads north and south through the forest.  Far to the north, you hear the baying of hounds. } {NotYetSet} {} {Forest} {} {1.000}
-E { 3337} {s} {s} {4} {0} {}
-E { 3339} {n} {n} {1} {0} {}
-
-R { 3339} {0} {<fff>} {The Forest of Rhowyn} { } {The path leads east and south here, circumventing the base of a large hill with lies to the north.  A set of stone steps leads northwards up the hill, but the top is obscured by trees and mist.  Somewhere to the north, you hear rushing water. } {NotYetSet} {} {Forest} {} {1.000}
-E { 3338} {s} {s} {4} {0} {}
-E { 3340} {n} {n} {1} {0} {}
-E { 3341} {e} {e} {2} {0} {}
-
-R { 3340} {0} {<fff>} {A Hillside} { } {You are climbing steps which lead northwards up the side of a large hill, and southwards towards a path leading through the forest of Rhowyn.  The top of the hill is obscured by trees.  Somewhere to the north you hear rushing water. } {NotYetSet} {} {Hills} {} {1.000}
-E { 3339} {s} {s} {4} {0} {}
-E { 3381} {n} {n} {1} {0} {}
-
-R { 3341} {0} {<fff>} {The Forest of Rhowyn} { } {You are standing on a path leading through the forest.  To the northwest is a large hill, whose top is obscured by trees.  To the north, you can hear the sounds of running water.  The trees are thick here, as are the shadows, but it is not impossible to see.  The path leads both north and west. } {NotYetSet} {} {Forest} {} {1.000}
-E { 3339} {w} {w} {8} {0} {}
-E { 3342} {n} {n} {1} {0} {}
-
-R { 3342} {0} {<fff>} {The Forest of Rhowyn} { } {You are standing on a path that leads north south through the forest.  To the west, you can see a large hill.  To the north, you can hear the sound of running water. } {NotYetSet} {} {Forest} {} {1.000}
-E { 3341} {s} {s} {4} {0} {}
-
-R { 3343} {0} {<fff>} {On a Road} { } {You walk along a well traveled road with beautiful scenery.  To the north, tall pine trees form a wall that goes on for miles.  Between the road and the trees lies a great expanse of grassy plains.  South of here, beyond the river, lies the Great Eastern Desert.  The road continues east and west. } {NotYetSet} {} {Field} {} {1.000}
-E { 1564} {w} {w} {8} {0} {}
-E { 3344} {e} {e} {2} {0} {}
-
-R { 3344} {0} {<fff>} {On a Road} { } {This is the main land route through New Thalos.  Merchants can bring their goods to the coastline and have them ferried onto ships for export.  Travel by foot west will take you through New Thalos, up and over the Eastern Mountains, and down into Nevrast. } {NotYetSet} {} {Field} {} {1.000}
-E { 3343} {w} {w} {8} {0} {}
-E { 3345} {e} {e} {2} {0} {}
-
-R { 3345} {0} {<fff>} {Near the Shore} { } {The road ends here, and turns into a small dirt path which leads down the beach and onto a dock.  To the north and south you see the coastline stretching out before you.  West of here, the lowlands roll up into huge snow-capped mountains. } {NotYetSet} {} {Shore} {} {1.000}
-E { 3344} {w} {w} {8} {0} {}
-E { 3346} {e} {e} {2} {0} {}
-
-R { 3346} {0} {<fff>} {On a Dock} { } {You stand on a simple wooden dock that acts as an extension of the road to the west.  The dock seems to have been here for quite a long time, but is still sturdy.  Small ladders have been built on the sides of the dock to allow easy access to and from ships. } {NotYetSet} {} {Shore} {} {1.000}
-E { 3345} {w} {w} {8} {0} {}
-E { 3347} {d} {d} {32} {0} {}
-E { 3348} {e} {e} {2} {0} {}
-
-R { 3347} {0} {<fff>} {Under the Dock} { } {You are swimming underneath the dock.  You can just barely see the four wooden pylons that support the structure.  The murky water clouds your vision as you gaze westward, but you think you can make out an iron grating in that direction. } {NotYetSet} {} {Water} {} {1.000}
-E { 3346} {u} {u} {16} {0} {}
-
-R { 3348} {0} {<aaf>} {The Sea of Dragons} { } {The clear, blue waters of the Sea of Dragons extends in all compass directions, all the way to each horizon.  The sea is relatively calm, the occasional wave seemingly caused by the plethora of animals which grace the depths below you. } {Sea of Dragons} {} {Water} {} {1.000}
-E { 3346} {w} {w} {8} {0} {}
-E { 3349} {n} {n} {1} {0} {}
-E { 3374} {s} {s} {4} {0} {}
-
-R { 3349} {0} {<aaf>} {You have become more adept at swimming!} { } {The Sea of Dragons    The Sea of Dragons comes up along the shore here.  The crystal, blue water rushes lazily onto the beach, a thin path leading into the foothills beyond the sand.  To the east, the sea extends into eternity, the sea and sky meeting at the horizon in a mixing of similar hue, the sea only slightly less calm than the omnipresent sky. } {Sea of Dragons} {} {Water} {} {1.000}
-E { 3348} {s} {s} {4} {0} {}
-
-R { 3350} {0} {<fff>} {The Sea of Dragons} { } {The Sea of Dragons comes up along the shore here.  The crystal, blue water crashes noisily against the outcropping of rocks protecting the shore from dangerous amounts of erosion.  Birds alight on the rocks, decorating the granite stones with splashes of brown and white coloration, as they hunt for grubs and other nourishment.  To the east, the sea extends into eternity, the sea and sky meeting at the horizon in a mixing of similar hue, the sea only slightly less calm than the omnipresent sky. } {NotYetSet} {} {Water} {} {1.000}
-E { 3372} {n} {n} {1} {0} {}
-E { 3375} {s} {s} {4} {0} {}
-
-R { 3351} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 3373} {n} {n} {1} {0} {}
-E { 3354} {w} {w} {8} {0} {}
-E { 3377} {s} {s} {4} {0} {}
-
-R { 3352} {8} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 3370} {e} {e} {2} {0} {}
-E { 3369} {w} {w} {8} {0} {}
-
-R { 3353} {8} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 3369} {e} {e} {2} {0} {}
-E { 3368} {w} {w} {8} {0} {}
-
-R { 3354} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 3370} {w} {w} {8} {0} {}
-E { 3351} {e} {e} {2} {0} {}
-
-R { 3355} {0} {<fff>} {Alas, you cannot go that way.} { } {} {NotYetSet} {} {} {} {1.000}
-E { 1564} {n} {n} {1} {0} {}
-
-R { 3356} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 2322} {w} {w} {8} {0} {}
-E { 3357} {e} {e} {2} {0} {}
-
-R { 3357} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 3356} {w} {w} {8} {0} {}
-E { 3358} {d} {d} {32} {0} {}
-
-R { 3358} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 3357} {u} {u} {16} {0} {}
-E { 3359} {e} {e} {2} {0} {}
-
-R { 3359} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 3358} {w} {w} {8} {0} {}
-E { 3360} {e} {e} {2} {0} {}
-
-R { 3360} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 3359} {w} {w} {8} {0} {}
-E { 3361} {e} {e} {2} {0} {}
-
-R { 3361} {0} {<fff>} {Ishtar River} { } {You hear your voice echo as you float under the bridge.  The city construction crews have just recently finished the small ladder which gives common-folk easy access to the river.  To the west and east you see the river flowing by the city. } {NotYetSet} {} {River} {} {1.000}
-E { 3360} {w} {w} {8} {0} {}
-E { 1562} {u} {u} {16} {0} {}
-E { 3362} {e} {e} {2} {0} {}
-
-R { 3362} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 3361} {w} {w} {8} {0} {}
-E { 3364} {u} {u} {16} {0} {}
-
-R { 3363} {0} {<fff>} {Ishtar River} { } {The gentle flow of the river carries you eastward.  Looking up, you see couples strolling along the road.  To the west you see the southern bridge, and to the east you see the iron grating protecting the city from unwanted guests. } {NotYetSet} {} {River} {} {1.000}
-
-R { 3364} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 3362} {d} {d} {32} {0} {}
-E { 3365} {e} {e} {2} {0} {}
-
-R { 3365} {0} {<fff>} {Ishtar River} { } {The gentle flow of the river carries you eastward.  Looking up, you see couples strolling along the road.  To the west you see the southern bridge, and to the east you see the iron grating protecting the city from unwanted guests. } {NotYetSet} {} {River} {} {1.000}
-E { 3364} {w} {w} {8} {0} {}
-E { 3376} {e} {e} {2} {0} {}
-
-R { 3366} {0} {<fff>} {Ishtar River} { } {High above you, on the top of the city wall, guards look down to see if you wish to exit the city via the river.  To do so, they must open the iron grating in front of you from above.  The horrid smell of the dump wafts down from the shore. } {NotYetSet} {} {River} {} {1.000}
-E { 3376} {w} {w} {8} {0} {}
-E { 3371} {e} {e} {2} {0} {}
-
-R { 3367} {0} {<fff>} {Ishtar River} { } {The river flows out from the city down a long winding gully towards the Sea of Dragons.  To the south of you lies the Great Eastern Desert and north a wide open expanse of grass.  You can just barely make out a road that seems to be traveling alongside the river, but the banks are too steep for you to see very far. } {NotYetSet} {} {River} {} {1.000}
-E { 3371} {w} {w} {8} {0} {}
-E { 3368} {e} {e} {2} {0} {}
-
-R { 3368} {0} {<fff>} {Ishtar River} { } {The river continues its descent down into the lowlands, flowing ever so gently east.  It is hard to believe that this is the same river that came cascading down the mountain side. } {NotYetSet} {} {River} {} {1.000}
-E { 3367} {w} {w} {8} {0} {}
-E { 3353} {e} {e} {2} {0} {}
-
-R { 3369} {0} {<fff>} {Ishtar River} { } {Loud birds and herd animals can be heard in the distance, though you do not actually see any near the river.  Perhaps the steep slopes prevent them from using the river. } {NotYetSet} {} {River} {} {1.000}
-E { 3353} {w} {w} {8} {0} {}
-E { 3352} {e} {e} {2} {0} {}
-
-R { 3370} {0} {<fff>} {Ishtar River} { } {The river broadens even more here and the waters become murky.  The smell of saltwater has reached you from the east.  The Sea of Dragons cannot be far away.  To the west you can see the faint outline of a city, and to the north you see a large expanse of grass. } {NotYetSet} {} {River} {} {1.000}
-E { 3352} {w} {w} {8} {0} {}
-E { 3354} {e} {e} {2} {0} {}
-
-R { 3371} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 3367} {e} {e} {2} {0} {}
-E { 3366} {w} {w} {8} {0} {}
-
-R { 3372} {8} {} {} { } {} {} {} {} {} {1.000}
-E { 3350} {s} {s} {4} {0} {}
-E { 3374} {n} {n} {1} {0} {}
-
-R { 3373} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 3351} {s} {s} {4} {0} {}
-E { 3375} {n} {n} {1} {0} {}
-
-R { 3374} {8} {} {} { } {} {} {} {} {} {1.000}
-E { 3372} {s} {s} {4} {0} {}
-E { 3348} {n} {n} {1} {0} {}
-
-R { 3375} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 3373} {s} {s} {4} {0} {}
-E { 3350} {n} {n} {1} {0} {}
-
-R { 3376} {8} {} {} { } {} {NotYetSet} {} {} {} {1.000}
-E { 3366} {e} {e} {2} {0} {}
-E { 3365} {w} {w} {8} {0} {}
-
-R { 3377} {0} {<fff>} {The Sea of Dragons} { } {The Sea of Dragons comes up along the shore here.  The crystal, blue water crashes noisily against the outcropping of rocks protecting the shore from dangerous amounts of erosion.  Birds alight on the rocks, decorating the granite stones with splashes of brown and white coloration, as they hunt for grubs and other nourishment.  To the east, the sea extends into eternity, the sea and sky meeting at the horizon in a mixing of similar hue, the sea only slightly less calm than the omnipresent sky. } {NotYetSet} {} {Water} {} {1.000}
-E { 3351} {n} {n} {1} {0} {}
-E { 3378} {s} {s} {4} {0} {}
-
-R { 3378} {0} {<fff>} {The Sea of Dragons} { } {The Sea of Dragons abuts the southern and western shores here.  The crystal, blue water crashes noisily against the outcropping of rocks protecting the shore from dangerous amounts of erosion.  Birds alight on the rocks, decorating the granite stones with splashes of brown and white coloration, as they hunt for grubs and other nourishment.  To the east, the sea extends into eternity, the sea and sky meeting at the horizon in a mixing of similar hue, the sea only slightly less calm than the omnipresent sky.  Past the rocks on the western shore lies nothing but absolute desolation, signs of the Great Eastern Desert, which can be seen near the horizon, many miles away, yet still visible from upon the Dragon Sea, the destruction of the ever hungry desert apparently very complete where you can see that it reaches. } {NotYetSet} {} {Water} {} {1.000}
-E { 3377} {n} {n} {1} {0} {}
-E { 3379} {e} {e} {2} {0} {}
-
-R { 3379} {0} {<fff>} {You flee head over heels.} { } {} {NotYetSet} {} {} {} {1.000}
-E { 3378} {w} {w} {8} {0} {}
-E { 3380} {s} {s} {4} {0} {}
-
-R { 3380} {0} {<fff>} {Strait of Pirotesse} { } {The rocky shores north of here have become a large cliff that stretches out of sight to the south.  Because of an enormous island which lies off the coast, a strait has been formed which is protected somewhat from the strong ocean breezes.    The rocky shores and treacherously high cliffs of the island make it as impossible a climb as the cliffs to the mainland.  For now you will have to go north, south, or for a swim. } {NotYetSet} {} {Water} {} {1.000}
-E { 3379} {n} {n} {1} {0} {}
-
-R { 3381} {0} {<fff>} {A Hilltop} { } {You are standing on top of a large hill.  Through the trees, you can see the huge expanse of the forest of Rhowyn.  Far to the south, you can see a large city.  Far to the north, and to the west, you can see dark, foreboding mountains (when have you ever seen a friendly mountain???).  Far to the east, you can see a huge expanse of water.    Steps lead southwards down the hillside, down into the depths of the forest. Just to the north is a small stone building.  Winding its way down the hill to the east, a rough trail leads into the mountains. } {NotYetSet} {} {Hills} {} {1.000}
-E { 3340} {s} {s} {4} {0} {}
-E { 3382} {n} {n} {1} {0} {}
-E { 3383} {w} {w} {8} {0} {}
-
-R { 3382} {0} {<fff>} {A Small Stone Building} {?} {You are standing inside a small stone building, deep in the heart of the forest of Rhowyn.  To the north, you can hear the sounds of running water.  An open doorway beckons to the south. } {NotYetSet} {} {Inside} {} {1.000}
-E { 3381} {s} {s} {4} {0} {}
-
-R { 3383} {0} {<fff>} {Rough Trail} { } {The trail is covered with gnarled stumps, as it winds its way through the thick brush surrounding you on all sides.  The path continues north towards the mountains. } {NotYetSet} {} {Hills} {} {1.000}
-E { 3381} {e} {e} {2} {0} {}
-E { 3384} {n} {n} {1} {0} {}
-
-R { 3384} {0} {<fff>} {Lost in the Mountains} { } {Numerous craggy mountains surround you.  Twisted, deadened trees stare at you from all around.  A neglected path is at your feet.  You get an uneasy feeling of deja-vu. } {NotYetSet} {} {Mountains} {} {1.000}
-E { 3383} {s} {s} {4} {0} {}
-E { 3385} {n} {n} {1} {0} {}
-
-R { 3385} {0} {<fff>} {Lost in the Mountains} { } {Numerous craggy mountains surround you.  Twisted, deadened trees stare at you from all around.  A neglected path is at your feet.  You get an uneasy feeling of deja-vu. } {NotYetSet} {} {Mountains} {} {1.000}
-E { 3384} {s} {s} {4} {0} {}

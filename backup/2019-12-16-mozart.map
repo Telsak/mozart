@@ -821,7 +821,7 @@ R {  199} {0} {<afa>} {Temple Avenue} { } {You are on the broad Temple Avenue th
 E {  185} {n} {n} {1} {0} {}
 E {  200} {s} {s} {4} {0} {}
 
-R {  200} {0} {<aaf>} {The Temple Square} {F} {You are standing in the Temple Square.  In the center of the square sits a large marble fountain spraying a fine mist of water in the air.  A marble path heads north along Temple Avenue, ultimately leading to the Temple's entrance. Nevrast Lane and the beginnings of the old Grunting Boar Inn can be seen to the east.  To the south, Temple Avenue continues towards the Market Square. } {Nevrast} {} {City} {} {1.000}
+R {  200} {0} {<afa>} {The Temple Square} {~} {You are standing in the Temple Square.  In the center of the square sits a large marble fountain spraying a fine mist of water in the air.  A marble path heads north along Temple Avenue, ultimately leading to the Temple's entrance. Nevrast Lane and the beginnings of the old Grunting Boar Inn can be seen to the east.  To the south, Temple Avenue continues towards the Market Square. } {Nevrast} {} {City} {} {1.000}
 E {  199} {n} {n} {1} {0} {}
 E {  201} {e} {e} {2} {0} {}
 E {  205} {s} {s} {4} {0} {}
