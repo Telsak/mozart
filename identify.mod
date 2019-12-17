@@ -18,8 +18,9 @@
 #NOP : Append the keywords to the item textfile, then append the item data afterward
 #ALIAS {cleanup}
 {
-  #SYS {echo ITEM $itemwords >> mozart.db}; 
-  #SYS {sed -ne '/Object "$itemlong/,$ p' .itemlog >> mozart.db}
+  #SYS {echo ITEM $itemwords >> .itemlog_temp}; 
+  #SYS {sed -ne '/Object "$itemlong/,$ p' .itemlog >> .itemlog_temp};
+  #SYS {./itemparse.py}
 }
 
 #NOP : Force itemvariables to reset after each cycle
@@ -41,16 +42,16 @@
 #ALIAS {find}
 {
   look %1;
-  #DELAY 1 {finditem %1}
+  #DELAY 1 {finditem $itemwords}
 }
 
 #NOP: Lets us pick an item ourselves without looking
 #ALIAS {finditem}
 {
-  #SYS {awk '/ITEM $itemwords/{flag=1;next}/ITEM/{flag=0}flag' mozart.db};
+  #SYS {grep %1 mozart.db};
   #SHOWME \ ;
   #CR
 }
 
 #NOP : Shows A complete list of identified items
-#ALIAS {listitems} {#SYS grep ITEM mozart.db | sed 's/ITEM\ //g'}
+#ALIAS {listitems} {#SYS cat mozart.db}

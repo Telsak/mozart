@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+import os
 import re
 
 def armorLine(itemtype,keywords,longname,slot,ac,effects,attributes):
@@ -35,26 +36,24 @@ def weaponLine(itemtype,keywords,longname,dice,damtype,effects,attributes):
     effectstring = effectstring[:-1]
     return ','.join([itemtype,keywords,longname,dice,damtype,attributestring,effectstring])
 
-# Reset some tracking variables before we open the itemfile
+def grabNumLines(fileName, wordMatch):
+    """ Find the number of hits on the word in wordMatch, same as wc -L in bash """
+    if os.path.isfile('/home/telsak/mud/' + str(fileName)):
+        with open(fileName) as f:
+            numLines = sum(wordMatch in line for line in f)
+            return numLines
+    else:
+        return 0
+
+# Set some tracking variables before we open the itemfile
 spells, effects, attributes = {}, {},  {}
 itemtype, dmgtype, dmgdice, armor  = "0", "0", "0", "0"
-itemloop = 0
 
-fw = open('itemlog.out','a')
-f = open('item.in')
+itemID = int(grabNumLines('mozart.db', 'ITEM')) + 1
+
+f = open('.itemlog_temp')
 for line in f.readlines():
     if "ITEM" in line: # triggers each new ITEM, and pushes info from previous item to file
-        if itemloop == 1:
-            if dmgdice == "0": # If the last item found was NOT a weapon, use non-weapon formatting
-                outputline = armorLine(itemtype,keywords,longname,equipslot,armor,effects,attributes)
-            else: # format according to the weapon template
-                outputline = weaponLine(itemtype,keywords,longname,dmgdice,dmgtype,effects,attributes)
-            while outputline[-1:] == ",": # while to strip ALL trailing commas
-                outputline = outputline[:-1]
-            fw.write(outputline + "\n")
-            spells, effects, attributes = {}, {},  {} # sets vars to empty for next item
-            itemtype, dmgtype, dmgdice, armor  = "0", "0", "0", "0"
-            itemloop = 0 # 
         keywords = line.split()[1].lstrip()
     elif "Item type:" in line: # grab Object name and itemtype
         longname = re.search('\".+?\"', line).group(0).replace('"','')
@@ -81,4 +80,17 @@ for line in f.readlines():
             attr_val = 0
             effects[attr] = attr_val
 f.close()
+
+if dmgdice == "0": # If the last item found was NOT a weapon, use non-weapon formatting
+    outputline = str(itemID) + ",ROOMVNUM," + str(armorLine(itemtype,keywords,longname,equipslot,armor,effects,attributes))
+
+else: # format according to the weapon template
+    outputline = str(itemID) + ",ROOMVNUM," + str(weaponLine(itemtype,keywords,longname,dmgdice,dmgtype,effects,attributes))
+    
+while outputline[-1:] == ",": # while to strip ALL trailing commas
+    outputline = outputline[:-1]
+
+fw =open('mozart.db','a')
+fw.write(outputline + "\n")
+
 fw.close()
