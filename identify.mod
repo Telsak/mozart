@@ -18,7 +18,7 @@
 #NOP : Append the keywords to the item textfile, then append the item data afterward
 #ALIAS {cleanup}
 {
-  #SYS {echo ITEM $itemwords >> .itemlog_temp}; 
+  #SYS {echo ITEM $itemwords > .itemlog_temp}; 
   #SYS {sed -ne '/Object "$itemlong/,$ p' .itemlog >> .itemlog_temp};
   #SYS {./itemparse.py}
 }
@@ -51,6 +51,13 @@
   #SYS {grep %1 mozart.db};
   #SHOWME \ ;
   #CR
+}
+
+#NOP: Lets us assign a room vnum to where an item is located!
+#ALIAS {itemvnum}
+{
+  #SHOWME {Setting Room VNUM for itemID %2 to %3!};
+  #SYS {./itemparse.py %1 %2 %3}
 }
 
 #NOP : Shows A complete list of identified items

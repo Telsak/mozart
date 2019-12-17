@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-
+import sys
 import os
 import re
+import csv
 
 def armorLine(itemtype,keywords,longname,slot,ac,effects,attributes):
     """
@@ -36,25 +37,46 @@ def weaponLine(itemtype,keywords,longname,dice,damtype,effects,attributes):
     effectstring = effectstring[:-1]
     return ','.join([itemtype,keywords,longname,dice,damtype,attributestring,effectstring])
 
-def grabNumLines(fileName, wordMatch):
+def grabNumLines(path, fileName, wordMatch):
     """ Find the number of hits on the word in wordMatch, same as wc -L in bash """
-    if os.path.isfile('/home/telsak/mud/' + str(fileName)):
+    if os.path.isfile(path + fileName):
         with open(fileName) as f:
             numLines = sum(wordMatch in line for line in f)
             return numLines
     else:
         return 0
 
+def changeVNUM(path, fileName, itemID, newVnum):
+    f = csv.reader(open(path+fileName))
+    lines = list(f)
+    for line in lines:
+        if line[0] == itemID:
+            line[1] = newVnum
+            break
+    writer = csv.writer(open(path+fileName, 'w'))
+    writer.writerows(lines)
+
 # Set some tracking variables before we open the itemfile
 spells, effects, attributes = {}, {},  {}
 itemtype, dmgtype, dmgdice, armor  = "0", "0", "0", "0"
+filesPath = "/home/telsak/mud/"
+watchFile = ".itemlog_temp"
+outFile = "mozart.db"
 
-itemID = int(grabNumLines('mozart.db', 'ITEM')) + 1
+arguments = len(sys.argv) - 1
+if arguments == 3 and sys.argv[1] == "setvnum":
+    changeVNUM(filesPath, outFile, sys.argv[2], sys.argv[3])
+    sys.exit(0)
+    
+itemID = int(grabNumLines(filesPath, outFile, ',')) + 1
 
-f = open('.itemlog_temp')
+f = open(watchFile)
 for line in f.readlines():
-    if "ITEM" in line: # triggers each new ITEM, and pushes info from previous item to file
+    if "ITEM" in line: # Grabs keywords - its possible we dont need this anymore from the tt script
         keywords = line.split()[1].lstrip()
+        if grabNumLines(filesPath,outFile,keywords) > 0:
+            print("This item is already in the database! Exiting.")
+            sys.exit(0)
     elif "Item type:" in line: # grab Object name and itemtype
         longname = re.search('\".+?\"', line).group(0).replace('"','')
         itemtype = line.split(': ')[1].rstrip()
@@ -70,7 +92,7 @@ for line in f.readlines():
         level = line.split()[1]
         spell = "Spell-" + str(line.split()[4:][0].replace('.',''))
         spells[spell] = level
-    elif line[0] == ' ':
+    elif line[0] == ' ': # This is for all attributes and active spell effects
         if ":" in line:
             attr = line.split(':')[0].lstrip()
             attr_val = line.split(':')[1].rstrip().replace('.','')
@@ -90,7 +112,7 @@ else: # format according to the weapon template
 while outputline[-1:] == ",": # while to strip ALL trailing commas
     outputline = outputline[:-1]
 
-fw =open('mozart.db','a')
+fw =open(outFile, 'a')
 fw.write(outputline + "\n")
 
 fw.close()
