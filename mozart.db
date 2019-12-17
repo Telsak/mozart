@@ -1,2 +1,3 @@
-1,ROOMVNUM,Armor,hemlock-bracers,a set of hemlock bracers,Arms,9,Armor: +30
-1,ROOMVNUM,Whip,long-willow-branch,a long willow branch,1d22,whip,Hit-N-Dam: +2,Armor: +30,Nature's Blessings: +10
+1,UNSET,Armor,hemlock-bracers,a set of hemlock bracers,Arms,9,Armor: +30
+2,UNSET,Whip,long-willow-branch,a long willow branch,1d22,whip,Hit-N-Dam: +2,Nature's Blessings: +10
+3,UNSET,Hammer,troll-maul,a troll maul,3d6,crush,Dexterity: -5,Hit-N-Dam: +3

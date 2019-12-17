@@ -52,11 +52,14 @@
 {
     #VAR zcol {<fff>};
 	#map read mozart.map;
-	#split 25 1;
+	#split 30 1;
 	#map flag vtmap on;
 	getplayer;
 	#map goto $playerpos[1];
-    mapoff
+    mapoff;
+    resetbuffs;
+    sleep;
+    stand
 }
 
 #ALIAS {symbol} {#map set roomsymbol %0; #echo {RoomSymbol = <229>%0}} {5}
