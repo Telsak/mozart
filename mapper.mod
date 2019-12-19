@@ -1,5 +1,11 @@
-#alias {mm} {#MAP move}
-#alias {md} {#MAP del}
+#ACTION {^Terrain: %1.} {#var tempTerrain %1} {5}
+#ACTION {^Terrain: %1 Exits:} {#var tempTerrain %1;#replace {tempTerrain} { } {}} {4}
+#ALIAS {mst} {#MAP set roomterrain $tempTerrain;#CR}
+#MACRO {\e[13~} {set_terrain} 
+#MACRO {\e[14~} {mst}
+
+#ALIAS {mm} {#MAP move}
+#ALIAS {md} {#MAP del}
 #ALIAS {findnote} {#map find {} {} {} {} {%0}; #path show} {5}
 #ALIAS {findroom} {#map find {%0} {} {} {} {}; #path show} {5}
 #ALIAS {getplayer} {#script playerpos {cat .mozart.plr}} {5}
@@ -10,11 +16,12 @@
 
 #ALIAS {mapoff}
 {
-	#map {flag} {static} {on};
-	#echo {Room writes disabled!};
-	#event {MAP ENTER ROOM} {#MAP get ROOMVNUM playerpos};
-	#SUB {^H:} {[MAPOFF] H:}
+	#MAP {flag} {static} {on};
+    #VAR mapedit 0;
+	#ECHO {Room writes disabled!};
+	#EVENT {MAP ENTER ROOM} {#MAP get ROOMVNUM playerpos}
 }
+#nop	#SUB {^H:} {[MAPOFF] H:}
 
 #ALIAS {mapon}
 {
@@ -29,12 +36,13 @@
 	#DELAY {0.33} {#MAP name ${roomname}};
 	#DELAY {0.33} {#MAP set roomdesc ${roomdesc}};
 	#DELAY {0.33} {#MAP set roomterrain ${roomterrain}};
-	#DELAY {0.33} {#MAP set roomcolor $zcol};
 	#MAP get ROOMVNUM playerpos};
 	#ECHO {Mapping enabled! Room Area = <229>${roomarea}<099>. Update with 'zone' command.};
 	#MAP {flag} {static} {off};
-	#SUB {^H:} {[MAPON] H:}
+    #VAR mapedit 1
 }
+
+#nop	#SUB {^H:} {[MAPON] H:}
 
 #ALIAS {msr} {#map set roomname} {5}
 #ALIAS {note} {#map set roomnote %0; #echo {RoomNote = <229>%0}} {5}
@@ -63,13 +71,11 @@
 }
 
 #ALIAS {symbol} {#map set roomsymbol %0; #echo {RoomSymbol = <229>%0}} {5}
-#ALIAS {undo} {#map undo} {5}
+#ALIAS {undo} {#if {$varedit == 1} {#map undo};#else {#showme Nothing to undo!}} {5}
 #ALIAS {walk} {#path walk} {5}
-#ALIAS {zone} {#variable {roomarea} {%0}; #echo {Zone set to:<229> ${roomarea}}; #VAR zcol {<afa>}} {5}
+#ALIAS {zone} {#variable {roomarea} {%0}; #echo {Zone set to:<229> ${roomarea}}} {5}
 #ALIAS {nozone} {#variable {roomarea} {NotYetSet}; #echo {Zone un-set}; #VAR zcol {<fff>}}
 #ALIAS {setcol} {#variable {zcol} {%1}}
-
-#EVENT {MAP ENTER ROOM} {#map get ROOMVNUM playerpos}
 
 #EVENT {SESSION CREATED}
 {

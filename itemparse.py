@@ -39,6 +39,7 @@ def weaponLine(itemtype,keywords,longname,dice,damtype,effects,attributes):
 
 def grabNumLines(path, fileName, wordMatch):
     """ Find the number of hits on the word in wordMatch, same as wc -L in bash """
+
     if os.path.isfile(path + fileName):
         with open(fileName) as f:
             numLines = sum(wordMatch in line for line in f)
@@ -47,6 +48,8 @@ def grabNumLines(path, fileName, wordMatch):
         return 0
 
 def changeVNUM(path, fileName, itemID, newVnum):
+    """ Replacing the existing VNUM by using the Item ID as a key """
+
     f = csv.reader(open(path+fileName))
     lines = list(f)
     for line in lines:
@@ -63,6 +66,8 @@ filesPath = "/home/telsak/mud/"
 watchFile = ".itemlog_temp"
 outFile = "mozart.db"
 
+# Only call the vnum replace function if we have sufficient arguments and first argument
+# requests this directly. 
 arguments = len(sys.argv) - 1
 if arguments == 3 and sys.argv[1] == "setvnum":
     changeVNUM(filesPath, outFile, sys.argv[2], sys.argv[3])
