@@ -4,8 +4,9 @@
 #NOP ==== Read in iddentify module ====
 #READ identify.mod
 
-#NOP ==== Read in mapper module ====
+#NOP ==== Read in map related modules ====
 #READ mapper.mod
+#READ terrain.mod
 
 #NOP ==== Read in Mozart specific file ====
 #READ mozart.mod

@@ -16,7 +16,7 @@ F 139
 
 G 0
 
-I 200
+I 202
 
 L {ASCII NESW LINE} {NO EXITS} {#}
 L {ASCII NESW LINE} {N} {o}
@@ -6714,15 +6714,15 @@ R { 1573} {0} {<278>} {Beyond the Huge Doors} {<278>[ ]<088>} {As you pass beyon
 E { 1572} {s} {open doors;s} {4} {0} {} {1.000}
 E { 1664} {n} {n} {1} {0} {} {1.000}
 
-R { 1574} {0} {<148>} {A Small Mineshaft} {<148>. .<088>} {You are standing in a small mineshaft.  It looks like it was made just the right size for dwarves.  To the east, you can leave the shaft, and to the north you can venture deeper into the mine. } {NotYetSet} {} {Underground} {} {1.000} {}
+R { 1574} {0} {<afa>} {A Small Mineshaft} { } {You are standing in a small mineshaft.  It looks like it was made just the right size for dwarves.  To the east, you can leave the shaft, and to the north you can venture deeper into the mine. } {NotYetSet} {} {Underground} {} {1.000} {}
 E {  418} {e} {e} {2} {0} {} {1.000}
 E { 1575} {n} {n} {1} {0} {} {1.000}
 
-R { 1575} {0} {<148>} {A Mineshaft} {<148>. .<088>} {You are standing in a small mineshaft.  The shaft stretches north and south, and there is a large pair of rails in the center of the floor, to enable large mine-cars to move about with their loads of ore.  You can hear strange echos from the north. } {NotYetSet} {} {Underground} {} {1.000} {}
+R { 1575} {0} {<afa>} {A Mineshaft} { } {You are standing in a small mineshaft.  The shaft stretches north and south, and there is a large pair of rails in the center of the floor, to enable large mine-cars to move about with their loads of ore.  You can hear strange echos from the north. } {NotYetSet} {} {Underground} {} {1.000} {}
 E { 1574} {s} {s} {4} {0} {} {1.000}
 E { 1576} {n} {n} {1} {0} {} {1.000}
 
-R { 1576} {0} {<148>} {} {<148>. .<088>} {} {NotYetSet} {} {Underground} {} {1.000} {}
+R { 1576} {0} {<afa>} {} { } {} {NotYetSet} {} {} {} {1.000} {}
 E { 1575} {s} {s} {4} {0} {} {1.000}
 E { 1656} {n} {n} {1} {0} {} {1.000}
 
@@ -7055,7 +7055,7 @@ R { 1655} {4104} {} {} { } {} {NotYetSet} {} {} {} {1.000} {}
 E {  413} {e} {e} {2} {0} {} {1.000}
 E { 1657} {w} {w} {8} {0} {} {1.000}
 
-R { 1656} {0} {<228>} {The Valley} {<228>. ^<088>} {You are in a small valley, surrounded by hills and a mountain to the south. In the mountain there is a cave.  To the north, a path stretches into the hills. } {NotYetSet} {} {Hills} {} {1.000} {}
+R { 1656} {0} {<afa>} {The Valley} { } {You are in a small valley, surrounded by hills and a mountain to the south. In the mountain there is a cave.  To the north, a path stretches into the hills. } {NotYetSet} {} {Hills} {} {1.000} {}
 E { 1576} {s} {s} {4} {0} {} {1.000}
 E { 1658} {n} {n} {1} {0} {} {1.000}
 
@@ -7063,29 +7063,28 @@ R { 1657} {4104} {} {} { } {} {NotYetSet} {} {} {} {1.000} {}
 E { 1655} {e} {e} {2} {0} {} {1.000}
 E {  412} {w} {w} {8} {0} {} {1.000}
 
-R { 1658} {0} {<228>} {} {<228>. ^<088>} {} {NotYetSet} {} {Hills} {} {1.000} {}
+R { 1658} {0} {<afa>} {} { } {} {NotYetSet} {} {} {} {1.000} {}
 E { 1656} {s} {s} {4} {0} {} {1.000}
 E { 1659} {n} {n} {1} {0} {} {1.000}
 
-R { 1659} {0} {<228>} {Valley Trail} {<228>. ^<088>} {This trail continues to wind through the hills to the north.  The line of smoke growing thicker in that direction is more distinct against the horizon now.  Perhaps it is from a village. } {NotYetSet} {} {Hills} {} {1.000} {}
+R { 1659} {0} {<afa>} {Valley Trail} { } {This trail continues to wind through the hills to the north.  The line of smoke growing thicker in that direction is more distinct against the horizon now.  Perhaps it is from a village. } {NotYetSet} {} {Hills} {} {1.000} {}
 E { 1658} {s} {s} {4} {0} {} {1.000}
 E { 1660} {n} {n} {1} {0} {} {1.000}
 
-R { 1660} {0} {<228>} {Valley Trail} {<228>. ^<088>} {The path becomes more treacherous here, You may wish to turn back.  A deep ravine bars your passage to the west, and a steep cliff your passage to the east.  Northwards you can see the river now, and you think that there might be some movement there too. } {NotYetSet} {} {Hills} {} {1.000} {}
+R { 1660} {0} {<afa>} {Valley Trail} { } {The path becomes more treacherous here, You may wish to turn back.  A deep ravine bars your passage to the west, and a steep cliff your passage to the east.  Northwards you can see the river now, and you think that there might be some movement there too. } {NotYetSet} {} {Hills} {} {1.000} {}
 E { 1659} {s} {s} {4} {0} {} {1.000}
 E { 1661} {n} {n} {1} {0} {} {1.000}
 
-R { 1661} {0} {<228>} {A Path Through the Hills} {<228>. ^<088>} {You are standing on a flat area.  To the north, you can see a large river winding through the hills.  To the south, the path continues through the valley. } {NotYetSet} {} {Hills} {} {1.000} {}
+R { 1661} {0} {<fff>} {A Path Through the Hills} { } {You are standing on a flat area.  To the north, you can see a large river winding through the hills.  To the south, the path continues through the valley. } {NotYetSet} {} {Hills} {} {1.000} {}
 E { 1660} {s} {s} {4} {0} {} {1.000}
 E { 1662} {n} {n} {1} {0} {} {1.000}
 
-R { 1662} {0} {<228>} {A Path Through the Hills} {<228>. ^<088>} {The path slopes down the side of a hill, from north to south.  To the north, not far away, you can see a small river.  To the south, you see the path disappear into the hills. } {Unset} {} {Hills} {} {1.000} {}
+R { 1662} {0} {<fff>} {A Path Through the Hills} { } {The path slopes down the side of a hill, from north to south.  To the north, not far away, you can see a small river.  To the south, you see the path disappear into the hills. } {NotYetSet} {} {Hills} {} {1.000} {}
 E { 1661} {s} {s} {4} {0} {} {1.000}
 E { 1663} {n} {n} {1} {0} {} {1.000}
 
-R { 1663} {0} {<fff>} {On the Riverbank} {?} {You are standing on the edge of a small river.  It flows west to east, through a small forest.  To the south, you can see a path that quickly rises into the hills. } {Unset} {} {Hills} {} {1.000} {}
+R { 1663} {0} {<fff>} {} {?} {} {NotYetSet} {} {} {} {1.000} {}
 E { 1662} {s} {s} {4} {0} {} {1.000}
-E { 3587} {n} {n} {1} {0} {} {1.000}
 
 R { 1664} {0} {<278>} {A Damp Corridor} {<278>[ ]<088>} {The corridor is constructed of rough stone blocks placed in the walls, the ceiling and the floor.  The air is damp, and all sound is deadened.  There are no light sources other than what you may be carrying.  You notice that it is distinctly colder here than near the entrance.  You can also hear what sounds like low mumbling coming from the north, but nothing else is discernible now. The corridor continues to the north and south into the darkness. } {NotYetSet} {} {Inside} {} {1.000} {}
 E { 1573} {s} {s} {4} {0} {} {1.000}
@@ -13387,59 +13386,59 @@ E { 3147} {n} {n} {1} {0} {} {1.000}
 R { 3147} {0} {<afa>} {In the Glory Hole} { } {Here at the western wall of the great dwarven glory hole, the walls soar to dizzying heights overhead.  They are high enough that the ceiling above is lost in the shadows, despite the lighting crystal embedded in the rock. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
 E { 3146} {s} {s} {4} {0} {} {1.000}
 
-R { 3148} {0} {<228>} {The Northern Road} {<228>, `<088>} {Ruts have been deeply worn into this hard-packed earthen road.  The road leads to the north and south through open fields.  A mountain range is visible, barely, to the east with a scattering of both single trees and small copses visible in the plains between the road and the mountains. } {The Northern Road} {} {Field} {} {1.000} {}
+R { 3148} {0} {<fff>} {The Northern Road} { } {Ruts have been deeply worn into this hard-packed earthen road.  The road leads to the north and south through open fields.  A mountain range is visible, barely, to the east with a scattering of both single trees and small copses visible in the plains between the road and the mountains. } {NotYetSet} {} {Field} {} {1.000} {}
 E { 2533} {s} {s} {4} {0} {} {1.000}
 E { 3149} {n} {n} {1} {0} {} {1.000}
 
-R { 3149} {0} {<228>} {The Northern Road} {<228>, `<088>} {Open fields lie to the east and west of this road.  In the distance to the east the edge of a mountain range is visible.  The fields between the road and the mountains are scattered with individual trees and small copses.  The road itself is heavily rutted and seems to get much traffic and little maintenance. The road runs north and south through open fields and plains.  The Stoneforge Mountains rise high into the air some distance directly north of this point. } {The Northern Road} {} {Field} {} {1.000} {}
+R { 3149} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000} {}
 E { 3148} {s} {s} {4} {0} {} {1.000}
 E { 3150} {n} {n} {1} {0} {} {1.000}
 
-R { 3150} {0} {<228>} {The Northern Road} {<228>, `<088>} {Hard-packed dirt forms this rutted road which leads north and south.  Open fields lie to the east and west, the eastern fields also studded with the occasional single tree or small copse.  Far off to the east is visible the beginnings of a mountain range which continues to the horizon.  In the distance to the northeast a forest rears its tree-tops into the sky.  The Stoneforge Mountains are also visible directly to the north. } {The Northern Road} {} {Field} {} {1.000} {}
+R { 3150} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000} {}
 E { 3149} {s} {s} {4} {0} {} {1.000}
 E { 3151} {n} {n} {1} {0} {} {1.000}
 
-R { 3151} {0} {<228>} {The Northern Road} {<228>, `<088>} {Ruts line this hard-packed earthen road.  The road leads north and south through open fields and meadows on either side.  East of here the edge of a mountain range is visible in the distance.  The Stoneforge Mountains lie directly north\; to the northeast is a forest, its tree-tops appearing to rise up out of the plains as it climbs the mountains' foothills. } {The Northern Road} {} {Field} {} {1.000} {}
+R { 3151} {0} {<fff>} {The Northern Road} { } {A forest is visible some distance to the northeast and the Stoneforge Mountains are off to the north, rising high above the waving grasses of the plains.  The hard-packed dirt road leads north and south.  The road suffers from poor maintenance and ruts have developed in the center as well as the edges partially collapsing. } {NotYetSet} {} {Field} {} {1.000} {}
 E { 3150} {s} {s} {4} {0} {} {1.000}
 E { 3152} {n} {n} {1} {0} {} {1.000}
 
-R { 3152} {0} {<228>} {The Northern Road} {<228>, `<088>} {A forest is visible some distance to the northeast and the Stoneforge Mountains are off to the north, rising high above the waving grasses of the plains.  The hard-packed dirt road leads north and south.  The road suffers from poor maintenance and ruts have developed in the center as well as the edges partially collapsing. } {The Northern Road} {} {Field} {} {1.000} {}
+R { 3152} {0} {<fff>} {The Northern Road} { } {A forest is visible some distance to the northeast and the Stoneforge Mountains are off to the north, rising high above the waving grasses of the plains.  The hard-packed dirt road leads north and south.  The road suffers from poor maintenance and ruts have developed in the center as well as the edges partially collapsing. } {NotYetSet} {} {Field} {} {1.000} {}
 E { 3151} {s} {s} {4} {0} {} {1.000}
 E { 3153} {n} {n} {1} {0} {} {1.000}
 
-R { 3153} {0} {<228>} {The Northern Road} {<228>, `<088>} {The Stoneforge Mountains arc from directly north to the northeast, rising to to challenge the sky all along the northern horizon.  This hard-packed dirt road comes to an intersection immediately to the north of this point.  Fields and meadows lie to the east and west of the road, stretching out into the distance to the west while slowly approaching another mountain range far off to the east.  The road is rutted and suffers from poor maintenance, the edges crumbling and the overall width slowly shrinking. } {The Northern Road} {} {Field} {} {1.000} {}
+R { 3153} {0} {<fff>} {The Northern Road} { } {The Stoneforge Mountains arc from directly north to the northeast, rising to to challenge the sky all along the northern horizon.  This hard-packed dirt road comes to an intersection immediately to the north of this point.  Fields and meadows lie to the east and west of the road, stretching out into the distance to the west while slowly approaching another mountain range far off to the east.  The road is rutted and suffers from poor maintenance, the edges crumbling and the overall width slowly shrinking. } {NotYetSet} {} {Field} {} {1.000} {}
 E { 3152} {s} {s} {4} {0} {} {1.000}
 E { 3154} {n} {n} {1} {0} {} {1.000}
 
-R { 3154} {0} {<228>} {The Northern Road} {<228>. ^<088>} {The northern road leads off to the south and is in a poor state of maintenance.  A forest is visible, describing an arc through the northeastern horizon.  Mountains rise up, stretching towards the sky, directly to the north. A signpost is mounted on a pole here. } {The Northern Road} {} {Hills} {} {1.000} {}
+R { 3154} {0} {<fff>} {The Northern Road} { } {The northern road leads off to the south and is in a poor state of maintenance.  A forest is visible, describing an arc through the northeastern horizon.  Mountains rise up, stretching towards the sky, directly to the north. A signpost is mounted on a pole here. } {NotYetSet} {} {Hills} {} {1.000} {}
 E { 3153} {s} {s} {4} {0} {} {1.000}
 E { 3155} {e} {e} {2} {0} {} {1.000}
 E { 3156} {n} {n} {1} {0} {} {1.000}
 
-R { 3155} {0} {<aca>} {Forest Path} {<aca>( *<088>} {A well maintained gravel path weaves gently through the forest's fern filled understory.  Berry bushes grow densely along the trail, well picked by recent travelers and hungry birds.  Leading east and west the path disappears into the forest, dwarfed by the enormous trees that creak and groan as they sway in wind that blows far above through the canopy. } {Stoneforge Mountains} {} {Forest} {} {1.000} {}
+R { 3155} {0} {<fff>} {Forest Path} { } {A well maintained gravel path weaves gently through the forest's fern filled understory.  Berry bushes grow densely along the trail, well picked by recent travelers and hungry birds.  Leading east and west the path disappears into the forest, dwarfed by the enormous trees that creak and groan as they sway in wind that blows far above through the canopy. } {NotYetSet} {} {Forest} {} {1.000} {}
 E { 3154} {w} {w} {8} {0} {} {1.000}
 E { 3157} {e} {e} {2} {0} {} {1.000}
 
-R { 3156} {0} {<228>} {The Northern Road} {<228>. ^<088>} {You are standing on a small road that leads away from the city of Nevrast.  It winds its way north into the foothills of the Stoneforge Mountains that tower before your very eyes.  The path is slightly dusty, but very smooth from frequent travel. } {The Northern Road} {} {Hills} {} {1.000} {}
+R { 3156} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000} {}
 E { 3154} {s} {s} {4} {0} {} {1.000}
 E { 3158} {n} {n} {1} {0} {} {1.000}
 
-R { 3157} {0} {<aca>} {Forest Path} {<aca>( *<088>} {A narrow path winds between tall trees.  It climbs gently to the north and descends ever so slightly to the west.  Ferns cover the mossy forest floor, the sweet smell of cedar and pine fills the air, and birds chirp musically from far above. } {Stoneforge Mountains} {} {Forest} {} {1.000} {}
+R { 3157} {0} {<fff>} {Forest Path} { } {A narrow path winds between tall trees.  It climbs gently to the north and descends ever so slightly to the west.  Ferns cover the mossy forest floor, the sweet smell of cedar and pine fills the air, and birds chirp musically from far above. } {NotYetSet} {} {Forest} {} {1.000} {}
 E { 3155} {w} {w} {8} {0} {} {1.000}
 
-R { 3158} {0} {<228>} {The Northern Road} {<228>. ^<088>} {The road continues north, deeper into the foothills.  You are glad you have time to ascend slowly, for the air gets quite thin in the higher regions. } {The Northern Road} {} {Hills} {} {1.000} {}
+R { 3158} {0} {<fff>} {The Northern Road} { } {The road continues north, deeper into the foothills.  You are glad you have time to ascend slowly, for the air gets quite thin in the higher regions. } {NotYetSet} {} {Hills} {} {1.000} {}
 E { 3156} {s} {s} {4} {0} {} {1.000}
 E { 3159} {n} {n} {1} {0} {} {1.000}
 
-R { 3159} {0} {<228>} {The Northern Road} {<228>. ^<088>} {The scenery slowly changes about you, there are fewer trees, and many more rock formations.  The foothills are gone, and the path has become rather rolling in nature.  There is a slight chill in the air, and you pull your cloak closer about your body. } {The Northern Road} {} {Hills} {} {1.000} {}
+R { 3159} {0} {<fff>} {The Northern Road} { } {The scenery slowly changes about you, there are fewer trees, and many more rock formations.  The foothills are gone, and the path has become rather rolling in nature.  There is a slight chill in the air, and you pull your cloak closer about your body. } {NotYetSet} {} {Hills} {} {1.000} {}
 E { 3158} {s} {s} {4} {0} {} {1.000}
 E { 3160} {n} {n} {1} {0} {} {1.000}
 
-R { 3160} {0} {<228>} {A Road Through the Hills} {<228>. ^<088>} {The path winds further up towards the mountains.  The air has grown considerably more chill, and there is a slight mist rolling across the ground. The road has been worn much smoother here, beat down by the passage of many booted soles. } {Stoneforge Mountains} {} {Hills} {} {1.000} {}
+R { 3160} {0} {<fff>} {A Road Through the Hills} { } {The path winds further up towards the mountains.  The air has grown considerably more chill, and there is a slight mist rolling across the ground. The road has been worn much smoother here, beat down by the passage of many booted soles. } {NotYetSet} {} {Hills} {} {1.000} {}
 E { 3159} {s} {s} {4} {0} {} {1.000}
 E { 3161} {w} {w} {8} {0} {} {1.000}
 
-R { 3161} {0} {<238>} {At the Base of the Stoneforge Mountains} {<238>/ \<088>} {The road now climbs steeply to the north.  There are fierce winds blowing from the west, and you are grateful for the guide rope that has been set up along the side of the road.  Before you looms a deep chasm with a stonework bridge spanning the crevice.  It looks incredibly stable, and seems fashioned out of large granite slabs. } {Stoneforge Mountains} {} {Mountains} {} {1.000} {}
+R { 3161} {0} {<fff>} {At the Base of the Stoneforge Mountains} { } {The road now climbs steeply to the north.  There are fierce winds blowing from the west, and you are grateful for the guide rope that has been set up along the side of the road.  Before you looms a deep chasm with a stonework bridge spanning the crevice.  It looks incredibly stable, and seems fashioned out of large granite slabs. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 3160} {e} {e} {2} {0} {} {1.000}
 E { 3162} {s} {s} {4} {0} {} {1.000}
 E { 3163} {n} {n} {1} {0} {} {1.000}
@@ -13448,44 +13447,44 @@ R { 3162} {0} {<fff>} {Inside the Obsidian Hole} {?} {You are surrounded by a de
 E { 3161} {n} {n} {1} {0} {} {1.000}
 E { 3180} {d} {d} {32} {0} {} {1.000}
 
-R { 3163} {0} {<238>} {On the Bridge} {<238>/ \<088>} {The wind only blows you, the bridge is completely stable.  You clutch the guide rope with a grip of iron.  Ahead you can see the path wind further up the mountain. } {Stoneforge Mountains} {} {Mountains} {} {1.000} {}
+R { 3163} {0} {<fff>} {On the Bridge} { } {The wind only blows you, the bridge is completely stable.  You clutch the guide rope with a grip of iron.  Ahead you can see the path wind further up the mountain. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 3161} {s} {s} {4} {0} {} {1.000}
 E { 3164} {n} {n} {1} {0} {} {1.000}
 
-R { 3164} {0} {<238>} {The Northern Road} {<238>/ \<088>} {The road winds its way deep into the folds of rock that make up the sides of the mountain.  As you pass into these folds, the wind ceases.  The air seems a bit warmer, but not quite warm enough to remove your cloak.  The path itself seems to be worked, rather than worn smooth. } {Stoneforge Mountains} {} {Mountains} {} {1.000} {}
+R { 3164} {0} {<fff>} {The Northern Road} { } {The road winds its way deep into the folds of rock that make up the sides of the mountain.  As you pass into these folds, the wind ceases.  The air seems a bit warmer, but not quite warm enough to remove your cloak.  The path itself seems to be worked, rather than worn smooth. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 3163} {s} {s} {4} {0} {} {1.000}
 E { 3165} {u} {u} {16} {0} {} {1.000}
 
-R { 3165} {0} {<238>} {The Northern Road} {<238>/ \<088>} {A worn rubble road leading over the mountain range, from Nevrast in the south to Kishar in the North. It is rather narrow, and somewhat rocky, but it is navigable. } {Stoneforge Mountains} {} {Mountains} {} {1.000} {}
+R { 3165} {0} {<fff>} {The Northern Road} { } {A worn rubble road leading over the mountain range, from Nevrast in the south to Kishar in the North. It is rather narrow, and somewhat rocky, but it is navigable. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 3164} {d} {d} {32} {0} {} {1.000}
 E { 3166} {u} {u} {16} {0} {} {1.000}
 
-R { 3166} {0} {<238>} {A Steep Road} {<238>/ \<088>} {The road winds upwards.  It grows more pronounced as you progress. There is very little life on the side of the mountain. } {Stoneforge Mountains} {} {Mountains} {} {1.000} {}
+R { 3166} {0} {<fff>} {A Steep Road} { } {The road winds upwards.  It grows more pronounced as you progress. There is very little life on the side of the mountain. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 3165} {d} {d} {32} {0} {} {1.000}
 E { 3167} {u} {u} {16} {0} {} {1.000}
 
-R { 3167} {0} {<238>} {A Steep Cliffside} {<238>/ \<088>} {The mountain side is so steep that there is almost nothing that can be called a road here.  You find yourself looking for hand holds to pull yourself up, rather than a foot trail.  This road is only suitable for mountain goats. } {Stoneforge Mountains} {} {Mountains} {} {1.000} {}
+R { 3167} {0} {<fff>} {A Steep Cliffside} { } {The mountain side is so steep that there is almost nothing that can be called a road here.  You find yourself looking for hand holds to pull yourself up, rather than a foot trail.  This road is only suitable for mountain goats. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 3166} {d} {d} {32} {0} {} {1.000}
 E { 3168} {u} {u} {16} {0} {} {1.000}
 
-R { 3168} {0} {<238>} {The Northern Road} {<238>/ \<088>} {The worn rubble road leads north over the mountain ridge and south down the mountain side.  A small signpost, Weathered and damaged by age, rests on a rock, on the eastern side of the road. } {Stoneforge Mountains} {} {Mountains} {} {1.000} {}
+R { 3168} {0} {<fff>} {The Northern Road} { } {The road continues into the north and south, mountains outlined against the sky to the east.  The majesty of the stoneforge mountains counterbalanced by the small and grassy hill rising to the west. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 3167} {d} {d} {32} {0} {} {1.000}
 E { 3169} {n} {n} {1} {0} {} {1.000}
 
-R { 3169} {0} {<238>} {The Northern Road} {<238>/ \<088>} {The road continues into the north and south, mountains outlined against the sky to the east.  The majesty of the stoneforge mountains counterbalanced by the small and grassy hill rising to the west. } {Stoneforge Mountains} {} {Mountains} {} {1.000} {}
+R { 3169} {0} {<fff>} {The worn Northern Road continues over the mountain ridge, to the north and} { } {south.  It seems to be rather neglected, and is overrun with rocks and weeds. It does not, however, need to be repaired. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 3168} {s} {s} {4} {0} {} {1.000}
 E { 3170} {n} {n} {1} {0} {} {1.000}
 
-R { 3170} {0} {<238>} {The Northern Road} {<238>/ \<088>} {The worn Northern Road continues over the mountain ridge, to the north and south.  It seems to be rather neglected, and is overrun with rocks and weeds. It does not, however, need to be repaired. } {Stoneforge Mountains} {} {Mountains} {} {1.000} {}
+R { 3170} {0} {<fff>} {The Northern Road} { } {The trail continues to travel north, and south from here.  There is also a steep path leading upwards from here.  It appears to lead to the summit. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 3169} {s} {s} {4} {0} {} {1.000}
 E { 3171} {n} {n} {1} {0} {} {1.000}
 
-R { 3171} {0} {<238>} {The Northern Road} {<238>/ \<088>} {The trail continues to travel north, and south from here.  There is also a steep path leading upwards from here.  It appears to lead to the summit. } {Stoneforge Mountains} {} {Mountains} {} {1.000} {}
+R { 3171} {0} {<fff>} {The Northern Road} { } {The trail continues to travel north, and south from here.  There is also a steep path leading upwards from here.  It appears to lead to the summit. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 3170} {s} {s} {4} {0} {} {1.000}
 E { 3172} {n} {n} {1} {0} {} {1.000}
 E { 3173} {u} {u} {16} {0} {} {1.000}
 
-R { 3172} {0} {<238>} {The Northern Road} {<238>/ \<088>} {The road slopes downwards to the north. To the south there is a plateau, like a summit. The road continues north and south. } {Stoneforge Mountains} {} {Mountains} {} {1.000} {}
+R { 3172} {0} {<fff>} {The Northern Road} { } {The road slopes downwards to the north. To the south there is a plateau, like a summit. The road continues north and south. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 3171} {s} {s} {4} {0} {} {1.000}
 E { 3174} {n} {n} {1} {0} {} {1.000}
 
@@ -13493,23 +13492,23 @@ R { 3173} {0} {<fff>} {A Steep Cliff} { } {There is very little path here, if an
 E { 3171} {d} {d} {32} {0} {} {1.000}
 E { 3182} {u} {u} {16} {0} {} {1.000}
 
-R { 3174} {0} {<238>} {} {<238>/ \<088>} {} {Stoneforge Mountains} {} {} {} {1.000} {}
+R { 3174} {0} {<fff>} {The Northern Road} { } {To the south the worn rubble road continues over the mountain ridge, and to the north, the road leads downwards towards the city of Kishar.  The mountain ridge continues to the east and west.  } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 3172} {s} {s} {4} {0} {} {1.000}
 E { 3175} {d} {d} {32} {0} {} {1.000}
 
-R { 3175} {0} {<fff>} {A Steep Cliffside} { } {The cliffside is rather steep, but manageable.  You have ready access to many handholds and footholds.  You are aware that relaxing your grip would be a bad choice however. } {Stoneforge Mountains} {} {Mountains} {} {1.000} {}
+R { 3175} {0} {<fff>} {A Steep Cliffside} { } {The cliffside is rather steep, but manageable.  You have ready access to many handholds and footholds.  You are aware that relaxing your grip would be a bad choice however. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 3174} {u} {u} {16} {0} {} {1.000}
 E { 3176} {d} {d} {32} {0} {} {1.000}
 
-R { 3176} {0} {<fff>} {The Northern Road} { } {You are at the northern terminus of a steep mountain path.  A sheer cliff rises hundreds of feet straight up. } {Stoneforge Mountains} {} {Mountains} {} {1.000} {}
+R { 3176} {0} {<fff>} {The Northern Road} { } {You are at the northern terminus of a steep mountain path.  A sheer cliff rises hundreds of feet straight up. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 3175} {u} {u} {16} {0} {} {1.000}
 E { 3177} {d} {d} {32} {0} {} {1.000}
 
-R { 3177} {0} {<238>} {The Northern Road} {<238>/ \<088>} {The southern mountain face is dominated by fortified double gates.  A road leads north from them, down through the foothills.  It also continues a ways up the mountain, growing ever steeper. } {Stoneforge Mountains} {} {Mountains} {} {1.000} {}
+R { 3177} {0} {<fff>} {The Northern Road} { } {The southern mountain face is dominated by fortified double gates.  A road leads north from them, down through the foothills.  It also continues a ways up the mountain, growing ever steeper. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 3176} {u} {u} {16} {0} {} {1.000}
 E { 3178} {n} {n} {1} {0} {} {1.000}
 
-R { 3178} {0} {<228>} {The Northern Road} {<228>. ^<088>} {This road leads away from the dwarven hills, down into some broad flat plains below.  The road seems remarkably well traveled but the tracks are all  indistinct.  A small shrub sits off to one side, marking the spot where the road carefully winds between some huge boulders to the south. } {Stoneforge Mountains} {} {Hills} {} {1.000} {}
+R { 3178} {0} {<fff>} {Alas, you cannot go that way.} { } {} {NotYetSet} {} {} {} {1.000} {}
 E { 3177} {s} {s} {4} {0} {} {1.000}
 
 R { 3179} {0} {} {} { } {} {} {} {} {} {1.000} {}
@@ -15180,106 +15179,3 @@ E { 3586} {n} {n} {1} {0} {} {1.000}
 
 R { 3586} {0} {} {} { } {} {Unset} {} {} {} {1.000} {}
 E { 3585} {s} {s} {4} {0} {} {1.000}
-
-R { 3587} {0} {<148>} {The Waters of the Silver River} {<148>~ ~<088>} {You are on the silver river, which flows westerly through a small forest. You can see a path to the south, it leads up into the hills.  From downstream, you can faintly see something or someone moving, but it is impossible to be sure who or what is there. } {Unset} {} {River} {} {1.000} {}
-E { 1663} {s} {s} {4} {0} {} {1.000}
-E { 3588} {w} {w} {8} {0} {} {1.000}
-
-R { 3588} {0} {<148>} {The Waters of the Silver River} {<148>~ ~<088>} {You are on the silver river.  It is flowing west through a small forest. To the west, you can see a tree, waving in the wind.  To the south lies a large hilly area. } {Unset} {} {River} {} {1.000} {}
-E { 3587} {e} {e} {2} {0} {} {1.000}
-E { 3589} {w} {w} {8} {0} {} {1.000}
-
-R { 3589} {0} {<148>} {The Waters of the Silver River} {<148>~ ~<088>} {You are on the silver river.  It is flowing west through a small forest. To the west, you can see a tree, waving in the wind.  To the south lies a large hilly area. } {Unset} {} {River} {} {1.000} {}
-E { 3588} {e} {e} {2} {0} {} {1.000}
-E { 3590} {w} {w} {8} {0} {} {1.000}
-
-R { 3590} {0} {<268>} {The Waters of the Silver River} {<268>~ ~<088>} {You are on the silver river.  It turns here, flowing from east to north through a small forest. } {Unset} {} {River} {} {1.000} {}
-E { 3589} {e} {e} {2} {0} {} {1.000}
-E { 3591} {w} {w} {8} {0} {} {1.000}
-E { 3592} {n} {n} {1} {0} {} {1.000}
-
-R { 3591} {0} {<268>} {On the Riverbank} {<268>~ ~<088>} {You are in a small clearing on the bank of the Silver River, named for the passions of the dwarves that discovered it while mining the mountain to the south.  To the east, the Silver River is babbling quietly to itself.  The combined effect of the glade and the river noise make you feel very safe here, as though nothing could harm you. } {Unset} {} {Shore} {} {1.000} {}
-E { 3590} {e} {e} {2} {0} {} {1.000}
-E { 3607} {s} {s} {4} {0} {} {1.000}
-
-R { 3592} {0} {<148>} {} {<148>~ ~<088>} {} {Unset} {} {} {} {1.000} {}
-E { 3590} {s} {s} {4} {0} {} {1.000}
-E { 3593} {n} {n} {1} {0} {} {1.000}
-
-R { 3593} {0} {<148>} {} {<148>~ ~<088>} {} {Unset} {} {} {} {1.000} {}
-E { 3592} {s} {s} {4} {0} {} {1.000}
-E { 3594} {w} {w} {8} {0} {} {1.000}
-E { 3598} {n} {n} {1} {0} {} {1.000}
-
-R { 3594} {0} {<aca>} {The Forested Shore of the Silver River} {<aca>( *<088>} {You are standing on the shores of the silver river.  To the north, a path leads around the edge of a huge stone walled fortress.  The walls reach higher than the ancient trees which line the the Silver River lies to the east.  To the west a clearing has been cut into the forest directly in front of an enormous set of gates that are set into the fortress wall. } {Unset} {} {Forest} {} {1.000} {}
-E { 3593} {e} {e} {2} {0} {} {1.000}
-E { 3595} {w} {w} {8} {0} {} {1.000}
-E { 3597} {n} {n} {1} {0} {} {1.000}
-
-R { 3595} {0} {<228>} {At the Edge of the Huge Fortress} {<228>. ^<088>} {You are standing in front of a pair of huge gates, set into the walls of a fortress obscured by the forested hills that dominate this part of the world. To the east the sounds of the Silver River can be heard as the water churns over a rough bottom.  To the south a swath of land has been cleared between the fortress and the forest beyond. } {Unset} {} {Hills} {} {1.000} {}
-E { 3594} {e} {e} {2} {0} {} {1.000}
-E { 3596} {s} {s} {4} {0} {} {1.000}
-E { 3609} {w} {open huge;w} {8} {0} {} {1.000}
-
-R { 3596} {0} {<aca>} {The South-East Corner of the Fortress} {<aca>( *<088>} {You are standing at the south-east corner of a huge fortress.  To the north, you can see a huge door, which leads into the fortress, while to the west, a path leads around the south-western edge } {Unset} {} {Forest} {} {1.000} {}
-E { 3595} {n} {n} {1} {0} {} {1.000}
-E { 3606} {w} {w} {8} {0} {} {1.000}
-
-R { 3597} {0} {<aca>} {Along the Edge of the Fortress} {<aca>( *<088>} {The Silver River rushes by to the north and east, rounding the corner of the fortress that lies to the southwest.  A swath of land has been cleared between the wall of the fortress and a line of trees that hug the shore of the river. Beyond the river, to the east and north, huge hills rise up into the sky. } {Unset} {} {Forest} {} {1.000} {}
-E { 3594} {s} {s} {4} {0} {} {1.000}
-E { 3598} {e} {e} {2} {0} {} {1.000}
-E { 3600} {n} {n} {1} {0} {} {1.000}
-E { 3604} {w} {w} {8} {0} {} {1.000}
-
-R { 3598} {0} {<148>} {Rapids On the Silver River} {<148>~ ~<088>} {The river has narrowed drastically here and the resulting rush of water over jagged rocks has created fierce rapids.  To the north the rapids continue chruning against both banks.  The jagged shore to the east is impassable with the size and number of boulders that have slid down from the steep hills beyond.  To the west a clear patch of land exists between the river and the huge stone walls of a fortress deep in these forested hills. } {Unset} {} {River} {} {1.000} {}
-E { 3593} {s} {s} {4} {0} {} {1.000}
-E { 3597} {w} {w} {8} {0} {} {1.000}
-E { 3599} {n} {n} {1} {0} {} {1.000}
-
-R { 3599} {0} {<148>} {Rapids on the Silver River} {<148>~ ~<088>} {The churning rapids take a drastic turn here, flowing westward as they crash into giant boulders to the north.  The size of these rocks, and their rough cleaved surfaces and lack of weathered smoothness indicates they have recently tumbled down the hills to the north and east.  To the west the river's flow subsides as it grows wider between diverging banks. } {Unset} {} {River} {} {1.000} {}
-E { 3598} {s} {s} {4} {0} {} {1.000}
-E { 3600} {w} {w} {8} {0} {} {1.000}
-
-R { 3600} {0} {<148>} {On the Silver River} {<148>~ ~<088>} {The current of the river moves in quickly from the east, surging from rapids that one can see, but also hear upstream to the east.  The banks of the river widen quickly as the northern shore diverges away from the treeline short to the south.  A few huge boulders to the north have tumbled down from high above the treeline.  Through those trees glimpses of a huge stone fortress can be seen, and a large cleared trail leads to its outer edges.  To the west the river continues, cutting slowly through the forested hills on either side. } {Unset} {} {River} {} {1.000} {}
-E { 3599} {e} {e} {2} {0} {} {1.000}
-E { 3597} {s} {s} {4} {0} {} {1.000}
-E { 3603} {w} {w} {8} {0} {} {1.000}
-
-R { 3601} {0} {<148>} {On the Silver River} {END} {The water on this part of the river flows lazily between its wide banks, as the forested hills direct its flow east from here.  A series of large trees, that have fell across the river, block travel any further to the west.  To the south, through the gaps in the tree trunks growing along the shore, you can see the walls of a huge stone fortress. } {Unset} {} {River} {} {1.000} {}
-E { 3603} {e} {e} {2} {0} {} {1.000}
-E { 3602} {s} {s} {4} {0} {} {1.000}
-
-R { 3602} {0} {<aca>} {The North-West Corner of the Fortress} {<aca>( *<088>} {You are standing at the north-west edge of a huge stone fortress.  A clear swath of land surrounding it leads south and east.  The Silver River lies directly to the north, just past a line of trees that have been allowed to grow along its southern bank.  You can hear faint noises spill over the wall of the fortress along with the smells of roasting meet. } {Unset} {} {Forest} {} {1.000} {}
-E { 3601} {n} {n} {1} {0} {} {1.000}
-E { 3604} {e} {e} {2} {0} {} {1.000}
-E { 3605} {s} {s} {4} {0} {} {1.000}
-
-R { 3603} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 3601} {w} {w} {8} {0} {} {1.000}
-E { 3600} {e} {e} {2} {0} {} {1.000}
-
-R { 3604} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 3602} {w} {w} {8} {0} {} {1.000}
-E { 3597} {e} {e} {2} {0} {} {1.000}
-
-R { 3605} {4104} {} {} { } {} {Unset} {} {} {} {1.000} {}
-E { 3602} {n} {n} {1} {0} {} {1.000}
-E { 3606} {s} {s} {4} {0} {} {1.000}
-
-R { 3606} {0} {<aca>} {The South-West Corner of the Fortress} {<aca>( *<088>} {You are standing at the south-west edge of a huge fortress.  A path leads north and east around the edges of the fortress.  You can hear faint noises from within, perhaps cooking noises. } {Unset} {} {Forest} {} {1.000} {}
-E { 3596} {e} {e} {2} {0} {} {1.000}
-E { 3605} {n} {n} {1} {0} {} {1.000}
-
-R { 3607} {0} {<148>} {In a Dark Cave} {<148>. .<088>} {Before you to the south is the mouth of an old cave.  The cave burrows into the mountainside to the south and is shrouded in darkness.  There is a sense of evil coming from the cave, but it is probably just your overactive imagination. } {Unset} {} {Underground} {} {1.000} {}
-E { 3591} {n} {n} {1} {0} {} {1.000}
-E { 3608} {s} {s} {4} {0} {} {1.000}
-
-R { 3608} {0} {<148>} {In the Abandoned Mine} {<148>. .<088>} {You are in a granite tunnel that was hewn out of the mountain side centuries ago by dwarven miners.  The walls are clean and dry here and lead into the depths of the mine. } {Unset} {} {Underground} {} {1.000} {}
-E { 3607} {n} {n} {1} {0} {} {1.000}
-
-R { 3609} {0} {<228>} {Entry Courtyard of the Hill Giant Compound} {<228>, .<088>} {Caught within the space between the exterior gates to the east and huge bronze doors to the west, this courtyard is open to the sky and surrounded by towering walls.  The ground is covered in trampled grass, green along the edges of the courtyard but worn down to bare dirt on a path that connects the gates with the doors. } {Unset} {} {Field} {} {1.000} {}
-E { 3595} {e} {open huge;e} {2} {0} {} {1.000}
-E { 3610} {w} {open bronze west;w} {8} {0} {} {1.000}
-
-R { 3610} {0} {<278>} {Main Entry to the Hill Giant Fortress} {<278>[ ]<088>} {Stone walls, braced on the inside with inbeded stone pillars, rise upwards to meet the arched ceiling of this grand entrance chamber far above.  Torches line the southern wall, spaces at even intervals, and they illuminate the space with a flickering glow.  Two huge bronze doors, the fortress entrance, lie to the east and to the north a set of iron bound doors are set into the stone wall.  To the west the arched ceiling and entry hall continues, your eyes drawn to its length by the torches that march off into the distance. } {Unset} {} {Inside} {} {1.000} {}
-E { 3609} {e} {open bronze east;e} {2} {0} {} {1.000}
