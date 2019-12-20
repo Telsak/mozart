@@ -13,6 +13,7 @@
 #ALIAS {listarea} {#map list {} {} {} {%0} {} {}} {5}
 #ALIAS {listnote} {#map list {} {} {} {} {%0} {}} {5}
 #ALIAS {listroom} {#map list {%0} {} {} {} {} {}} {5}
+#ALIAS {gz} {#MAP get roomarea roomarea}
 
 #ALIAS {mapoff}
 {
@@ -60,11 +61,12 @@
 {
     #VAR zcol {<fff>};
 	#map read mozart.map;
-	#split 30 1;
+    findsplit;
 	#map flag vtmap on;
 	getplayer;
 	#map goto $playerpos[1];
     mapoff;
+    zone Unset;
     resetbuffs;
     sleep;
     stand
@@ -73,8 +75,8 @@
 #ALIAS {symbol} {#map set roomsymbol %0; #echo {RoomSymbol = <229>%0}} {5}
 #ALIAS {undo} {#if {$varedit == 1} {#map undo};#else {#showme Nothing to undo!}} {5}
 #ALIAS {walk} {#path walk} {5}
-#ALIAS {zone} {#variable {roomarea} {%0}; #echo {Zone set to:<229> ${roomarea}}} {5}
-#ALIAS {nozone} {#variable {roomarea} {NotYetSet}; #echo {Zone un-set}; #VAR zcol {<fff>}}
+#ALIAS {zone} {#variable {roomarea} {%0}; #echo {Zone set to:<229> ${roomarea}};statusbar} {5}
+#ALIAS {nozone} {#variable {roomarea} {NotYetSet}; #echo {Zone un-set}}
 #ALIAS {setcol} {#variable {zcol} {%1}}
 
 #EVENT {SESSION CREATED}

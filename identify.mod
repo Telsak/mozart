@@ -1,5 +1,10 @@
 #ACTION {It may be referred to as "%1"} {#VAR {itemwords} {%1}}
 
+#NOP : Quick and dirty way to save where we pick up items by using room vnums
+#ALIAS {store} {look %1; #DELAY 0.5 {#line log item_room.vnm {$itemwords found in $playerpos}}}
+#ALIAS {liststore} {#SYS cat item_room.vnm}
+#ALIAS {rmstore} {#SYS rm item_room.vnm}
+
 #NOP : Grab the keywords for the item and begin logging output to temp item file
 #ACTION {You give %1 to parth the appraiser} 
 {
@@ -11,15 +16,14 @@
 #ACTION {Parth the appraiser gives you %1.} 
 {
   #DELAY 0.3 {#LOG {off}}; 
-  cleanup; 
-  #DELAY 1 {resetvar}
+  cleanup 
 }
 
 #NOP : Append the keywords to the item textfile, then append the item data afterward
 #ALIAS {cleanup}
 {
-  #SYS {echo ITEM $itemwords > .itemlog_temp}; 
-  #SYS {sed -ne '/Object "$itemlong/,$ p' .itemlog >> .itemlog_temp};
+  #SYS {echo "ITEM $itemwords" > .itemlog_temp}; 
+  #SYS {sed -ne "/\"$itemlong/,$ p" .itemlog >> .itemlog_temp};
   #SYS {./itemparse.py}
 }
 
@@ -56,8 +60,7 @@
 #NOP: Lets us assign a room vnum to where an item is located!
 #ALIAS {itemvnum}
 {
-  #SHOWME {Setting Room VNUM for itemID %2 to %3!};
-  #SYS {./itemparse.py %1 %2 %3}
+  #SYS {./itemparse.py setvnum %1 %2}
 }
 
 #NOP : Shows A complete list of identified items
