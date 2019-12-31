@@ -8,5 +8,7 @@
 .roomterrainheader
 .score
 .tinlog
+colorpalette.tin
+item_room.vnm
 beta/*
 char-sheet/*
