@@ -49,7 +49,8 @@
 #EVENT {MAP UPDATED VTMAP} {statusbar}
 #EVENT {SCREEN RESIZE} {findsplit}
 
-#ALIAS {statusbar} {default;mapstate;arealine;roomline;mapzone;flycheck}
+#ALIAS {statusbar} {default;mapstate;arealine;roomline;mapzone}
+
 #ALIAS {default} {
   #FORMAT col %C;
   #FORMAT statusbg %+${col}s;
@@ -87,10 +88,6 @@
   #FORMAT termHeight %R;
   #MATH rawSplit {(($termHeight / 5) * 2)};
   #SPLIT $rawSplit 1
-}
-
-#ALIAS {flycheck} {
-  #IF {$flymode > 0} {#SHOWME {<ccc>FLY MODE ON!<eee>} {$rawSplit}} {5}
 }
 
 
@@ -185,7 +182,8 @@
 
 
 #ACTION {^steps leads to the Temple Basement, a passageway leading to the board rooms.$} {#MAP GOTO 185}
-#ACTION {You are too exhausted.} {#map undo}
+#ACTION {^You are too exhausted.} {#MAP undo}
+#ACTION {^Alas, you cannot go that way.} {#IF {$mapedit > 0} {#MAP undo}}
 
 #ALIAS {login} {#session mozart ymca.cnap.hv.se 4500} {5}
 #ALIAS {logout} {save; rent} {5}
@@ -197,7 +195,7 @@
 #ALIAS {setw} {#var watersrc %1}
 #ALIAS {water} {ccw $watersrc;#2 dri $watersrc}
 
-#AC {You have become more adept at %1!} {learn %1}
+#AC {^You have become more adept at %1!} {learn %1}
 
 #MACRO {\e[15~} {#IF {$flymode < 1} {mapoff;#VAR flymode 1;#VAR return_position $playerpos} {#VAR flymode 0;#MAP goto $return_position}}
 

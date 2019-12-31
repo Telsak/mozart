@@ -1,3 +1,53 @@
 1,UNSET,Armor,hemlock-bracers,a set of hemlock bracers,Arms,9,Armor: +30
 2,UNSET,Whip,long-willow-branch,a long willow branch,1d22,whip,Hit-N-Dam: +2,Nature's Blessings: +10
-3,UNSET,Hammer,troll-maul,a troll maul,3d6,crush,Dexterity: -5,Hit-N-Dam: +3
+3,3275,Hammer,troll-maul,a troll maul,3d6,crush,Dexterity: -5,Hit-N-Dam: +3
+4,ROOMVNUM,Clothing,quartz-cloak,a quartz cloak,Neck,0,Hit-N-Dam: +1,Hit Points: +30,Armor: +10
+5,795,Clothing,ITEM,a butcher's apron,Legs,0,Armor: +10,Cooking: +5,Hitroll: +1
+6,882,Armor,corroded-shackle,a corroded shackle,Wrist,3,Damroll: +1,Movement: -10,Armor: +10
+7,804,Clothing,marshal's-leather-cloak-gold-epaulettes,the Marshal's cloak,About,0,Armor: +10,Hitroll: +1,Hit Points: +10
+8,890,Jewelry,spiked-earring,a spiked earring,Ears,0,Hit Points: -5,Mana: +10
+9,ROOMVNUM,Armor,bark-visor-narrow,a bark visor,Face,6,Resistance: cold,Constitution: +6
+10,ROOMVNUM,Armor,ornate-carved-willow-wooden-leg-guards,a bark arm guard,Arms,4,Armor: +15,Hit-N-Dam: +1
+11,2402,Talisman,ring-flying,a ring of flying,Finger,0,Hitroll: +1,Dispel on Removal: Fly,Translocation: +3,Armor: -5
+12,1012,Armor,shield-tattered,a tattered shield,Shield,5,Movement: +25,Hitroll: +2
+13,1012,Clothing,leggings-slimy,a pair of slimy leggings,Legs,0,Constitution: +7,Hit Points: +1
+14,1012,Throwable Dagger,dagger-fishbone,a fishbone dagger (2d2 pierce, 4k),2d2,pierce
+15,1945,Jewelry,ring-filthy,a filthy ring,Finger,0,Hit Points: +15,Hitroll: +2
+16,2609,Clothing,ghostsoul-ghost-soul-robe,a ghostsoul,About,0,Wisdom: +8,Mysticism: +10,Armor: +5,Hit Points: -10
+17,1847,Armor,spectacles-gold,gold spectacles,Face,2,Read Magic: +25,Mysticism: +10,Mana: +5
+18,180,Jewelry,platinum-necklace,a platinum necklace,Neck,0,Brilliance: +6,Necromancy: +6,Hitroll: +1,Strength: +3
+19,180,Jewelry,gold-bracelet,a gold bracelet,Wrist,0,Intelligence: +3,Hitroll: +1,Mana: +20,Necromancy: +6
+20,180,Armor,leather-armor-old,old leather armor,Body,8,Dexterity: -2,Hit-N-Dam: +1
+21,1847,Jewelry,rusted-ring,a rusted ring,Finger,0,Blackmagic: +5,Constitution: +4,Hitroll: +1,Hit Points: +15
+22,3610,Armor,common-steel-helm,a animal pelt helm,Head,5,Hit-N-Dam: +1
+23,3610,Armor,animal-pelt-kilt,an animal pelt kilt,Legs,4,Hitroll: +1,Dexterity: +3,Hit Points: +5
+24,3610,Axe,spiked-whittled-club,a whittled spiked club,2d8,cleave,Hit-N-Dam: +2,Constitution: +5
+25,ROOMVNUM,Clothing,orcish-cloak-crude,an orcish cloak,Neck About,0,Hitroll: +1,Armor: +10
+26,ROOMVNUM,Mace,large-misshapen-troll-club,a Troll's Club,5d3,pound,Hitroll: +2,Recuperation: +20,Hit Points: +10,Damroll: +3
+27,ROOMVNUM,Armor,silversteel-helm-helmet,a silversteel helm,Head,7,Hit-N-Dam: +1,Darksight
+28,1381,Jewelry,necklace-rock-multicolored-animal-sinew,a rock necklace,Neck,0,Hitroll: +1
+29,ROOMVNUM,Axe,training-battle-axe,a training battle axe,1d7,cleave,Hit-N-Dam: +2,Strength: +6
+30,437,Axe,small-hand-axe,a small hand axe,2d3,chop,Hitroll: +2,Damroll: +1,Axes: +6
+31,3112,Whip,cat-o-o'-nine-o'nine-tails,a cat o'nine tails,8d2,whip/pierce,Hitroll: +3,Hitall: +5
+32,ROOMVNUM,Armor,remains-cockroach-grey-carapace,a grey cockroach carapace,Body,12
+33,3839,Jewelry,old-lady-ring-youth,an old ladys ring of youth,Finger,0,Immunity: drain,Damroll: +2
+34,3846,Armor,enormous-black-rat-fur,an enormous rat fur,About,20,Hit-N-Dam: +1,Berserk: +40
+35,4050,Clothing,belt-ancient,an ancient belt,Waist,0,Hitroll: +1,Armor: +10
+36,4045,Clothing,scaly-green-cloak,a scaly green cloak,About,0,Resistance: poison,Hitroll: +1
+37,4045,Jewelry,ring-scaly,a scaly ring,Finger,0,Hitroll: -1,Armor: +20
+38,2346,Armor,lion-skin,a lion skin,About,3,Armor: +10,Fortitude Saves: +6
+39,ROOMVNUM,Glasses,shiny-monocle,a monocle,Face,0,Intelligence: +2,True-Sight
+40,ROOMVNUM,Talisman,crystal-ball,a crystal ball,Hold,0
+41,4260,Armor,apatosaurus-skull,an apatosaurus skull,Head,15,Hitroll: +1,Armor: +10,Bash: +2
+42,4260,Whip,vine-whip,a whip made of vine,3d6,whip,Hitroll: +2,Weapon Spell: Web at Level 5
+43,ROOMVNUM,Jewelry,ant-eye-earrings,ant eye earrings,Ears,0,Movement: +40
+44,ROOMVNUM,Jewelry,wasp-eye-earrings,wasp eye earrings,Ears,0,All Saves: +2
+45,ROOMVNUM,Jewelry,beetle-eye-earrings,beetle eye earrings,Ears,0,Hitroll: +1
+46,ROOMVNUM,Potion,tar-potion,a potion of tar,Hold,0
+47,ROOMVNUM,Armor,expedition-bronze-pauldron,Telsak's bronze pauldron,Arms,10,Zeal: +10,Morale: +10,Righteousness: +10,Hitroll: +2,Damroll: +1
+48,ROOMVNUM,Staff,staff-command,a Staff of Command,Hold,0
+49,ROOMVNUM,Jewelry,pendant-Galob,a Pendant of Galob,Neck,0,Wisdom: +7,Intelligence: +7,Mana: +7
+50,ROOMVNUM,Clothing,gloves-soft-ice-crystal,gloves of soft ice,Hands,0,Hands of the Master: +80,Accuracy: +80,Outflank: +80,Hit-N-Dam: +3,Iron Grip: +80
+51,4333,Clothing,golden-fleece-wool,the Golden Fleece,About,0,Intelligence: +7,Armor: +15
+52,4044,Jewelry,jeweled-girdle-black,a jeweled girdle,Waist,0,Armor: +10,Strength: +10
+53,ROOMVNUM,Wand,platinum-wand,a platinum wand,Hold,0
