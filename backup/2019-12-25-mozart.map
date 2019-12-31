@@ -16,7 +16,7 @@ F 139
 
 G 0
 
-I 202
+I 841
 
 L {ASCII NESW LINE} {NO EXITS} {#}
 L {ASCII NESW LINE} {N} {o}
@@ -13116,13 +13116,11 @@ R { 3073} {0} {<228>} {Into Morgul Vale} {<228>. ^<088>} {The road continues alo
 E { 3072} {w} {w} {8} {0} {} {1.000}
 E { 3074} {e} {e} {2} {0} {} {1.000}
 
-R { 3074} {0} {<228>} {A Choice of Direction} {<228>. ^<088>} {Though the cracked and broken road continues to the east and west, small paths branch off of it here to both the north and the south.  Once a small bridge stood over the stream; it is now broken and in ruins, but you believe it possible to walk across on the pieces that have fallen into the water.    As you pause here, a prickling sensation runs down your spine, and you become aware of something to the east.  At first the feeling is very much undefined, but it shapes itself into a presence, an angry and watchful conscious malice that guards this valley. } {NotYetSet} {} {Hills} {} {1.000} {}
+R { 3074} {0} {<fff>} {A Choice of Direction} { } {Though the cracked and broken road continues to the east and west, small paths branch off of it here to both the north and the south.  Once a small bridge stood over the stream; it is now broken and in ruins, but you believe it possible to walk across on the pieces that have fallen into the water.    As you pause here, a prickling sensation runs down your spine, and you become aware of something to the east.  At first the feeling is very much undefined, but it shapes itself into a presence, an angry and watchful conscious malice that guards this valley. } {NotYetSet} {} {Hills} {} {1.000} {}
 E { 3073} {w} {w} {8} {0} {} {1.000}
 E { 3075} {n} {n} {1} {0} {} {1.000}
-E { 4353} {e} {e} {2} {0} {} {1.000}
-E { 4354} {s} {s} {4} {0} {} {1.000}
 
-R { 3075} {0} {<238>} {An Abrupt Halt} {<238>/ \<088>} {Though this small path might have at one point led further north into the Mountains of Shadow, a large rock slide has completely blocked passage past this point.  Still, you have the feeling that the mountains are aware of you, watching, and perhaps waiting to find in you some weakness. } {NotYetSet} {} {Mountains} {} {1.000} {}
+R { 3075} {0} {<fff>} {An Abrupt Halt} { } {Though this small path might have at one point led further north into the Mountains of Shadow, a large rock slide has completely blocked passage past this point.  Still, you have the feeling that the mountains are aware of you, watching, and perhaps waiting to find in you some weakness. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 3074} {s} {s} {4} {0} {} {1.000}
 
 R { 3076} {0} {<aca>} {} {<aca>( *<088>} {} {NotYetSet} {} {Forest} {} {1.000} {}
@@ -18368,7 +18366,7 @@ R { 4332} {0} {<aca>} {Hidden Grove} {<aca>( *<088>} {As you climb the rocky hil
 E { 4331} {n} {n} {1} {0} {} {1.000}
 E { 4333} {e} {unlock gate;open gate;e} {2} {0} {} {1.000}
 
-R { 4333} {0} {<aca>} {Peaceful Grove} {<aca>( *<088>} {Beyond the gate is a small clearing in the grove.  The trees are as mystical as the others, yet something else catches you eye.  There is a beautiful golden fleece resting on a tree branch.  It radiates a powerful enchantment and its beauty overpowers you.  Suddenly you feel the island shake as if it were going to crash into the sea. } {Graecia} {} {Forest} {} {1.000} {}
+R { 4333} {0} {} {Peaceful Grove} { } {Beyond the gate is a small clearing in the grove.  The trees are as mystical as the others, yet something else catches you eye.  There is a beautiful golden fleece resting on a tree branch.  It radiates a powerful enchantment and its beauty overpowers you.  Suddenly you feel the island shake as if it were going to crash into the sea. } {Graecia} {} {Forest} {} {1.000} {}
 E { 4332} {w} {w} {8} {0} {} {1.000}
 
 R { 4334} {0} {} {Graecian Ocean} { } {You are sailing on a huge ocean that extends in many directions.  Due to the changing winds you cannot always go the direction you choose.  You can see several islands along the coast in all directions.  You hope that your compass is working properly. } {Graecia} {} {Water} {} {1.000} {}
@@ -18423,9 +18421,8 @@ R { 4345} {0} {<278>} {Secret Passage} {<278>[ ]<088>} {You have discovered a se
 E { 4342} {e} {e} {2} {0} {} {1.000}
 E { 4346} {d} {d} {32} {0} {} {1.000}
 
-R { 4346} {0} {<278>} {Storage Room} {<278>[ ]<088>} {You have entered a huge chamber that is used to store the items that the pirates have raided.  To the south the smell of fresh air and the ocean is even stronger.  You see two men setting the various crates and boxes ablaze.  They look up at you and draw their weapons.  These men don't look like ordinary pirates, they look like the leaders of this group. } {Unset} {} {Inside} {} {1.000} {}
+R { 4346} {0} {<278>} {Storage Room} {<278>[ ]<088>} {You have entered a huge chamber that is used to store the items that the pirates have raided.  To the south the smell of fresh air and the ocean is even stronger.  You see two men setting the various crates and boxes ablaze.  They look up at you and draw their weapons.  These men don't look like ordinary pirates, they look like the leaders of this group. } {Graecia} {} {Inside} {} {1.000} {}
 E { 4345} {u} {u} {16} {0} {} {1.000}
-E { 4355} {s} {s} {4} {0} {} {1.000}
 
 R { 4347} {0} {<268>} {Hidden Beach} {<268>~ ~<088>} {You quickly duck for cover as an armed man passes you.  He is heading to a huge lighthouse which is to your south.  To the west you can see the cause for all the activity.  There is a huge fortress that rises out of sight into the mountains on this strange island.  You can tell that this must be the location of the pirates secret base. } {Graecia} {} {Shore} {} {1.000} {}
 E { 4337} {s} {s} {4} {0} {} {1.000}
@@ -18452,28 +18449,3 @@ E { 4352} {n} {n} {1} {0} {} {1.000}
 
 R { 4352} {0} {<268>} {Bird Isle} {<268>~ ~<088>} {You have arrived on a small rocky island inhabited only by birds.  The island is very small and you can only see winged forms in the sky.  You wonder what these birds find for food, but by looking at all of the bones on the island, you realize they are well fed.  Closer inspection of the bones reveals that they are predominantly humanoid!  } {Graecia} {} {Shore} {} {1.000} {}
 E { 4351} {s} {s} {4} {0} {} {1.000}
-
-R { 4353} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E { 3074} {w} {w} {8} {0} {} {1.000}
-
-R { 4354} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E { 3074} {n} {n} {1} {0} {} {1.000}
-
-R { 4355} {0} {<278>} {Secret Passage} {<278>[ ]<088>} {You have arrived at the southern end of the storeroom.  You see water to the south, as this large chamber opens up to the great ocean.  You can hear the familiar sound of the powerful waves crashing against the rocks, and you hear the sounds of bird flying nearby. } {Unset} {} {Inside} {} {1.000} {}
-E { 4346} {n} {n} {1} {0} {} {1.000}
-E { 4357} {s} {s} {4} {0} {} {1.000}
-
-R { 4356} {0} {<148>} {Graecian Ocean} {<148>~ ~<088>} {You are sailing on a huge ocean that extends in many directions.  Due to the changing winds you cannot always go the direction you choose.  You can see several islands along the coast in all directions.  You hope that your compass is working properly. } {Unset} {} {Water} {} {1.000} {}
-E { 4357} {n} {n} {1} {0} {} {1.000}
-E { 4358} {e} {e} {2} {0} {} {1.000}
-
-R { 4357} {0} {<148>} {Quiet Bay} {<148>~ ~<088>} {You are once again sailing on the Graecian ocean.  The water here is the calmest and clearest water that you have ever seen.  To the south you can see the bay connects with the Graecian ocean, and to the north a hidden cave catches your eye. } {Unset} {} {Water} {} {1.000} {}
-E { 4355} {n} {n} {1} {0} {} {1.000}
-E { 4356} {s} {s} {4} {0} {} {1.000}
-
-R { 4358} {0} {} {Graecian Ocean} { } {You are sailing on a huge ocean that extends in many directions.  Due to the changing winds you cannot always go the direction you choose.  You can see several islands along the coast in all directions.  You hope that your compass is working properly. } {Unset} {} {Water} {} {1.000} {}
-E { 4356} {w} {w} {8} {0} {} {1.000}
-E { 4359} {e} {e} {2} {0} {} {1.000}
-
-R { 4359} {0} {} {Graecian Ocean} { } {You are sailing on a huge ocean that extends in many directions.  Due to the changing winds you cannot always go the direction you choose.  You can see several islands along the coast in all directions.  You hope that your compass is working properly. } {Unset} {} {Water} {} {1.000} {}
-E { 4358} {w} {w} {8} {0} {} {1.000}
