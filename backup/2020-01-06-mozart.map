@@ -16,7 +16,7 @@ F 139
 
 G 0
 
-I 4065
+I 202
 
 L {ASCII NESW LINE} {NO EXITS} {#}
 L {ASCII NESW LINE} {N} {o}
@@ -3402,11 +3402,11 @@ E {  778} {w} {w} {8} {0} {} {1.000}
 R {  778} {0} {<228>} {In the Newbie Ditch} {<228>, `<088>} {To the east, a steep slope, entangled with small shrubs and bushes, leads out of the ditch and towards the main road.  The brush growing along the eastern slope is somewhat battered, looking like several heavy objects had been pitched down it.  From the scattered bits of bone and scraps of equipment, you can only assume people have been haphazardly dumping the corpses of people without the resources for a proper burial off the edge. } {Newbie Cemetary} {} {Field} {} {1.000} {}
 E {  777} {e} {e} {2} {0} {} {1.000}
 E {  779} {w} {w} {8} {0} {} {1.000}
-E { 2159} {d} {dig d;d} {32} {0} {} {1.000}
+E { 2159} {d} {d} {32} {0} {} {1.000}
 
 R {  779} {0} {<228>} {In the Newbie Ditch} {<228>, `<088>} {This shallow depression is littered with bone fragments and tiny tatters of equipment, along with occasional chunks of semi-fresh corpse.  It appears that this area is either used as a frequent dumping site or is very rarely maintained. } {Newbie Cemetary} {} {Field} {} {1.000} {}
 E {  778} {e} {e} {2} {0} {} {1.000}
-E { 2157} {d} {dig d;d} {32} {0} {} {1.000}
+E { 2157} {d} {d} {32} {0} {} {1.000}
 
 R {  780} {0} {<aca>} {Along the Forest Path} {<aca>( *<088>} {The road has passed into a bright and open woodland.  Pine needles and last year's leaves cover the ground with a damp blanket from which spring many young plants and the occasional toadstool.  Small scuttling sounds can be heard deep in the underbrush as the forest's creatures take cover while you pass. } {The Southern Road} {} {Forest} {} {1.000} {}
 E {  774} {n} {n} {1} {0} {} {1.000}
@@ -4233,7 +4233,6 @@ E {  977} {n} {n} {1} {0} {} {1.000}
 R {  977} {0} {<228>} {Through the Brambles} {<228>, `<088>} {Thorns claw and grope at your clothing as you push past them.  The trees do not assist as you pass closely to them, standing forever rigid where they grow. Trampling brown and withered branches with a loud crack you pass into the darkness of shade.  The path which entered these trees remains clean amidst the chaos of fallen timber and turns to the west. } {Cursed Library} {} {Field} {} {1.000} {}
 E {  976} {s} {s} {4} {0} {} {1.000}
 E { 3281} {e} {e} {2} {0} {} {1.000}
-E { 5306} {w} {w} {8} {0} {} {1.000}
 
 R {  978} {0} {<aca>} {Southern Forest Trail} {<aca>( *<088>} {You are following the nature trail deeper into the forest.  You can make out a mountain in the distance to the north.  You also can make out something above the trees west of here.  The trail continues west and back east. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
 E {  785} {e} {e} {2} {0} {} {1.000}
@@ -5446,11 +5445,11 @@ R { 1269} {0} {<aca>} {} {<aca>( *<088>} {} {NotYetSet} {} {Forest} {} {1.000} {
 E { 1268} {s} {s} {4} {0} {} {1.000}
 E { 1270} {n} {n} {1} {0} {} {1.000}
 
-R { 1270} {0} {<aca>} {Scorched Road} {<aca>( *<088>} {You step onto what looks like a scorched road of some clear material.  The road seems to have been exposed to great heat many times in the past.  From the fresh remains of travelers and adventurers along the road, you feel like moving on quickly. } {NotYetSet} {} {Forest} {} {1.000} {}
+R { 1270} {0} {<fff>} {Scorched Road} { } {You step onto what looks like a scorched road of some clear material.  The road seems to have been exposed to great heat many times in the past.  From the fresh remains of travelers and adventurers along the road, you feel like moving on quickly. } {NotYetSet} {} {Forest} {} {1.000} {}
 E { 1269} {s} {s} {4} {0} {} {1.000}
 E { 1271} {n} {n} {1} {0} {} {1.000}
 
-R { 1271} {0} {<228>} {Scorched Road} {<228>, `<088>} {The road you are standing on has been almost totally destroyed by constant applications of tremendous heat.  The ground is fused into a polished black surface and there is no evidence of plant life having ever been able to live in this area. } {NotYetSet} {} {Field} {} {1.000} {}
+R { 1271} {0} {<fff>} {Scorched Road} { } {The road you are standing on has been almost totally destroyed by constant applications of tremendous heat.  The ground is fused into a polished black surface and there is no evidence of plant life having ever been able to live in this area. } {NotYetSet} {} {Field} {} {1.000} {}
 E { 1270} {s} {s} {4} {0} {} {1.000}
 
 R { 1272} {0} {<aca>} {In the Bushes} {<aca>( *<088>} {Bushes cluster along a narrow path through the Amber Forest, its path winding between the trees.  The earthen trail has been torn and gouged by the passage of some number of creatures.  The smell of fresh turned soil and the thick odor of decaying leaves fills the air. } {Amber Forest} {} {Forest} {} {1.000} {}
@@ -9299,7 +9298,7 @@ E {  978} {e} {e} {2} {0} {} {1.000}
 E { 4051} {w} {w} {8} {0} {} {1.000}
 E { 4052} {s} {s} {4} {0} {} {1.000}
 
-R { 2159} {0} {<148>} {Beneath the Newbie Ditch} {<148>. .<088>} {Shattered bones and twisted corpses clutter the bottom of this hole, the result of hundreds of dumped bodies.  Bits of charred and shredded equipment poke out among the desiccated ruins of life, all of it broken beyond repair or use at this point. } {Newbie Cemetary} {} {Underground} {} {1.000} {}
+R { 2159} {0} {<afa>} {Beneath the Newbie Ditch} { } {Shattered bones and twisted corpses clutter the bottom of this hole, the result of hundreds of dumped bodies.  Bits of charred and shredded equipment poke out among the desiccated ruins of life, all of it broken beyond repair or use at this point. } {Newbie Cemetary} {} {Underground} {} {1.000} {}
 E {  778} {u} {u} {16} {0} {} {1.000}
 E { 2157} {w} {w} {8} {0} {} {1.000}
 
@@ -10945,7 +10944,7 @@ R { 2556} {0} {<278>} {The Long Hall} {<278>[ ]<088>} {This is the western end o
 E { 2555} {e} {e} {2} {0} {} {1.000}
 E { 2557} {s} {open door south;s} {4} {0} {} {1.000}
 E { 2558} {n} {open door;n} {1} {0} {} {1.000}
-E { 3119} {w} {open door west;w} {8} {0} {} {1.000}
+E { 3119} {w} {w} {8} {0} {} {1.000}
 
 R { 2557} {0} {<228>} {The Gnoll Camp} {<228>, `<088>} {This is the west end of the open area of the gnoll camp.  It seems to be relatively little used, as there are very few signs of footprints of any sort in the ground.  To the north a large wooden door leads into the western end of the long gnoll hall while a small building lies to the south, a wooden door at its entrance. } {Gnoll Fort} {} {Field} {} {1.000} {}
 E { 2556} {n} {open door north;n} {1} {0} {} {1.000}
@@ -10954,12 +10953,11 @@ E { 3112} {s} {open door south;s} {4} {0} {} {1.000}
 E { 3114} {w} {w} {8} {0} {} {1.000}
 
 R { 2558} {0} {<278>} {The Chief's Antechamber} {<278>[ ]<088>} {You are standing in a smallish hallway, which leads off from the main portion of the Hall.  There are more hides covering the walls, and even some crude attempts at art in a few locations.  There are a couple of very battered shields set up high on the wall, along with a couple of broken swords and axes. You would guess these are trophies of some sort, which are kept as reminders. There are a couple of natural alcoves near the north end of the room, which might be used by guards of some sort.  There is a good sized room to the north of here, and the Hall is back to the south. } {Gnoll Fort} {} {Inside} {} {1.000} {}
-E { 2556} {s} {open black;s} {4} {0} {} {1.000}
+E { 2556} {s} {s} {4} {0} {} {1.000}
 E { 2559} {n} {n} {1} {0} {} {1.000}
 
-R { 2559} {0} {<278>} {The Chief's Quarters} {<278>[ ]<088>} {This is a rather large square room, with trophies up on the wall, and hides, some of them actually of humans and dwarves, splayed out on the ceiling. Against the northern wall, there is a large and rather poorly carved wooden throne, which is covered in a thin layer of human skin.  The two fireplaces in this room are the first ones you have seen in this place that are actually well ventilated, and this room is actually mostly free of smoke.  A few guttering torches high on the walls provide some additional lighting.  The only exits from this room are back to the south to the antechamber, or through a wooden door to the east. } {Gnoll Fort} {} {Inside} {} {1.000} {}
+R { 2559} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000} {}
 E { 2558} {s} {s} {4} {0} {} {1.000}
-E { 3543} {e} {open door;e} {2} {0} {} {1.000}
 
 R { 2560} {0} {<aca>} {A Path Through a Small Stand of Trees} {<aca>( *<088>} {A path leads east through these trees, towards a small clearing.  It appears that a screen of undergrowth would hide this trail from anyone in the clearing. The trail turns southwards as it leads through the trees.  The southern destination of this trail is a campsite. } {Ambush} {} {Forest} {} {1.000} {}
 E { 2527} {e} {e} {2} {0} {} {1.000}
@@ -13138,7 +13136,7 @@ R { 3073} {0} {<228>} {Into Morgul Vale} {<228>. ^<088>} {The road continues alo
 E { 3072} {w} {w} {8} {0} {} {1.000}
 E { 3074} {e} {e} {2} {0} {} {1.000}
 
-R { 3074} {0} {<228>} {A Choice of Direction} {<228>. ^<088>} {Though the cracked and broken road continues to the east and west, small paths branch off of it here to both the north and the south.  Once a small bridge stood over the stream\; it is now broken and in ruins, but you believe it possible to walk across on the pieces that have fallen into the water.    As you pause here, a prickling sensation runs down your spine, and you become aware of something to the east.  At first the feeling is very much undefined, but it shapes itself into a presence, an angry and watchful conscious malice that guards this valley. } {NotYetSet} {} {Hills} {} {1.000} {}
+R { 3074} {0} {<228>} {A Choice of Direction} {<228>. ^<088>} {Though the cracked and broken road continues to the east and west, small paths branch off of it here to both the north and the south.  Once a small bridge stood over the stream; it is now broken and in ruins, but you believe it possible to walk across on the pieces that have fallen into the water.    As you pause here, a prickling sensation runs down your spine, and you become aware of something to the east.  At first the feeling is very much undefined, but it shapes itself into a presence, an angry and watchful conscious malice that guards this valley. } {NotYetSet} {} {Hills} {} {1.000} {}
 E { 3073} {w} {w} {8} {0} {} {1.000}
 E { 3075} {n} {n} {1} {0} {} {1.000}
 E { 4353} {e} {e} {2} {0} {} {1.000}
@@ -13229,6 +13227,7 @@ E { 3092} {w} {w} {8} {0} {} {1.000}
 
 R { 3095} {0} {<228>} {No way!  You are fighting for your life!} {<228>, `<088>} {} {Gnoll Fort} {} {Field} {} {1.000} {}
 E { 3089} {n} {n} {1} {0} {} {1.000}
+E { 3543} {e} {e} {2} {0} {} {1.000}
 
 R { 3096} {0} {<228>} {The Gnoll Camp} {<228>, `<088>} {This is an open area between the side of the Long Hall, and the rising wall of the valley, to your south.  The muddy ground is churned up by the tilling of many feet, mostly gnolls and some dog-like creature, from the few discernible tracks you can make out.  A door, covered in runes, leads into a small build to the south.  The clear area continues both west and east from here, as well. } {Gnoll Camp} {} {Field} {} {1.000} {}
 E { 3089} {e} {e} {2} {0} {} {1.000}
@@ -13261,7 +13260,7 @@ R { 3103} {0} {<278>} {} {<278>[ ]<088>} {} {Gnoll Camp} {} {Inside} {} {1.000} 
 E { 3101} {s} {s} {4} {0} {} {1.000}
 E { 3104} {w} {open vault;w} {8} {0} {} {1.000}
 
-R { 3104} {0} {<148>} {It seems to be locked.} {$} {[MAPON] H:544/576 M:67/130 V:288/311 XP:539272 C:*> The rock vault seems to be closed. } {Gnoll Camp} {} {Underground} {} {1.000} {}
+R { 3104} {0} {<fdf>} {It seems to be locked.} {?} {[MAPON] H:544/576 M:67/130 V:288/311 XP:539272 C:*> The rock vault seems to be closed. } {Gnoll Camp} {} {} {} {1.000} {}
 E { 3103} {e} {e} {2} {0} {} {1.000}
 
 R { 3105} {0} {<278>} {The Gnoll Nursery} {<278>[ ]<088>} {You are in what seems to be the room where all the little gnoll children are cared for.  It looks very much like a tornado ripped through this room, with bits of broken toys, and scattered clothes and bedding spread all around.  Some of the bits of bedding have been wound into what look like small nests, which you guess are used for sleeping on.  The only exit from this room is back to the west. } {Gnoll Camp} {} {Inside} {} {1.000} {}
@@ -13997,7 +13996,7 @@ E { 3284} {n} {n} {1} {0} {} {1.000}
 R { 3284} {0} {<fff>} {} {!!!} {} {NotYetSet} {} {} {} {1.000} {}
 E { 3283} {s} {s} {4} {0} {} {1.000}
 
-R { 3285} {0} {<aca>} {At the Bottom of the Ravine on the Path to Mt. Belknap} {<aca>( *<088>} {The dense overcropping of pine trees begins to intertwine, casting a shadow over the ravine.  The underlining path continues toward Mount Belknap in the far off distance.  Sharp pine needles layer the rocky ground below, rustling slightly as a chill breeze blows through. } {The Sierra Range} {} {Forest} {} {1.000} {}
+R { 3285} {0} {<afa>} {At the Bottom of the Ravine on the Path to Mt. Belknap} { } {The dense overcropping of pine trees begins to intertwine, casting a shadow over the ravine.  The underlining path continues toward Mount Belknap in the far off distance.  Sharp pine needles layer the rocky ground below, rustling slightly as a chill breeze blows through. } {The Sierra Range} {} {Forest} {} {1.000} {}
 E { 1394} {s} {s} {4} {0} {} {1.000}
 E { 3296} {n} {n} {1} {0} {} {1.000}
 E { 3297} {e} {e} {2} {0} {} {1.000}
@@ -14041,181 +14040,180 @@ E { 3295} {e} {e} {2} {0} {} {1.000}
 R { 3295} {0} {<238>} {At the Peak of Mt. Belknap} {<238>/ \<088>} {A beautiful scene spans out as far as the eye can see.  Large pines adorn the mountain side and lush green grass covers the ground.  Various wildflowers sprout up in every direction mixing with the grass and creating a brilliant spectical of color. } {Mount Belknap} {} {Mountains} {} {1.000} {}
 E { 3294} {w} {w} {8} {0} {} {1.000}
 
-R { 3296} {0} {<aca>} {The Vast Sierra Forest in the Mt. Belknap Canyon} {<aca>( *<088>} {You enter the woods that have legends written all about them.  You scan around furiously and feel threatened by every move anyone or anything makes. } {The Sierra Range} {} {Forest} {} {1.000} {}
+R { 3296} {0} {<afa>} {The Vast Sierra Forest in the Mt. Belknap Canyon} { } {You enter the woods that have legends written all about them.  You scan around furiously and feel threatened by every move anyone or anything makes. } {The Sierra Range} {} {Forest} {} {1.000} {}
 E { 3285} {s} {s} {4} {0} {} {1.000}
 E { 3298} {e} {e} {2} {0} {} {1.000}
 E { 3299} {n} {n} {1} {0} {} {1.000}
 
-R { 3297} {0} {<aca>} {The Beginning of a Beautifully Dark Forest} {<aca>( *<088>} {The darkness deepens, blotting out all light as the path branches out into a dense forest trail.  The surrounding trees are sharp to the touch as their needles protrude outward.  The underlining ground rustles with old, dried pine cones and needles that layer the trail. } {The Sierra Range} {} {Forest} {} {1.000} {}
+R { 3297} {0} {<afa>} {The Beginning of a Beautifully Dark Forest} { } {The darkness deepens, blotting out all light as the path branches out into a dense forest trail.  The surrounding trees are sharp to the touch as their needles protrude outward.  The underlining ground rustles with old, dried pine cones and needles that layer the trail. } {The Sierra Range} {} {Forest} {} {1.000} {}
 E { 3285} {w} {w} {8} {0} {} {1.000}
 E { 3298} {n} {n} {1} {0} {} {1.000}
 
-R { 3298} {0} {<aca>} {In The Darkness of The Sierra Range} {<aca>( *<088>} {Ominous sounds fill the brisk air of the forest from all directions.  The ground below is covered in a thick carpet of dried leaves, needles and pine cones that gently rustle in the chill breeze that flows through, carrying on it the sweet scent of wildflowers and moist grass. } {The Sierra Range} {} {Forest} {} {1.000} {}
+R { 3298} {0} {<afa>} {In The Darkness of The Sierra Range} { } {Ominous sounds fill the brisk air of the forest from all directions.  The ground below is covered in a thick carpet of dried leaves, needles and pine cones that gently rustle in the chill breeze that flows through, carrying on it the sweet scent of wildflowers and moist grass. } {The Sierra Range} {} {Forest} {} {1.000} {}
 E { 3297} {s} {s} {4} {0} {} {1.000}
 E { 3296} {w} {w} {8} {0} {} {1.000}
 E { 3304} {n} {n} {1} {0} {} {1.000}
 E { 3305} {e} {e} {2} {0} {} {1.000}
 
-R { 3299} {0} {<aca>} {The Northern End of the Sierra Mountains} {<aca>( *<088>} {A thick carpet of sharp, dried pine needles cover the once lush grassy forest bottom.  A brisk breeze blows through carrying with it the sweet cent of wildflowers and moist grass from the  off in the distance.  A canopy created from the trees above filters out mcuh of the light, leaving the forest shrouded in darkness here. } {The Sierra Range} {} {Forest} {} {1.000} {}
+R { 3299} {0} {<afa>} {The Northern End of the Sierra Mountains} { } {A thick carpet of sharp, dried pine needles cover the once lush grassy forest bottom.  A brisk breeze blows through carrying with it the sweet cent of wildflowers and moist grass from the  off in the distance.  A canopy created from the trees above filters out mcuh of the light, leaving the forest shrouded in darkness here. } {The Sierra Range} {} {Forest} {} {1.000} {}
 E { 3296} {s} {s} {4} {0} {} {1.000}
 E { 3300} {n} {n} {1} {0} {} {1.000}
 E { 3304} {e} {e} {2} {0} {} {1.000}
 
-R { 3300} {0} {<aca>} {The Northernmost End of the Sierra Forest Range} {<aca>( *<088>} {A thick carpet of sharp, dried pine needles cover the once lush grassy forest bottom.  A brisk breeze blows through carrying with it the sweet cent of wildflowers and moist grass from the  off in the distance.  A canopy created from the trees above filters out mcuh of the light, leaving the forest shrouded in darkness here. } {The Sierra Range} {} {Forest} {} {1.000} {}
+R { 3300} {0} {<afa>} {The Northernmost End of the Sierra Forest Range} { } {A thick carpet of sharp, dried pine needles cover the once lush grassy forest bottom.  A brisk breeze blows through carrying with it the sweet cent of wildflowers and moist grass from the  off in the distance.  A canopy created from the trees above filters out mcuh of the light, leaving the forest shrouded in darkness here. } {The Sierra Range} {} {Forest} {} {1.000} {}
 E { 3299} {s} {s} {4} {0} {} {1.000}
 E { 3301} {w} {w} {8} {0} {} {1.000}
 E { 3303} {e} {e} {2} {0} {} {1.000}
 
-R { 3301} {0} {<148>} {The Entrance of a Steep and Damp Cave} {<148>. .<088>} {The cave is shrouded in darkness and spans out a great distance from east to west.  Sharp stalactites protrude form the ceiling above like the teeth of a dragon.  The surrounding walls are formed from rough hard stone that is covered with a thin layer of slimy feeling  moss.  In the center of the cave is a large, burned out campfire surround with the remains of partially eaten animals, bones and what appears to be broken, blood covered armor and clothing. } {The Sierra Range} {} {Underground} {} {1.000} {}
+R { 3301} {0} {<afa>} {} { } {} {The Sierra Range} {} {} {} {1.000} {}
 E { 3300} {e} {e} {2} {0} {} {1.000}
 E { 3302} {w} {w} {8} {0} {} {1.000}
 
-R { 3302} {0} {<148>} {A Steep and Damp Cave} {<148>. .<088>} {The cave is shrouded in darkness and spans out a great distance.  Sharp stalactites protrude form the ceiling above like the teeth of a dragon and  the surrounding walls are formed from rough hard stone that is covered with a thin layer of slimy feeling  moss.  Two large tunnels branch out from here leading east and west. } {The Sierra Range} {} {Underground} {} {1.000} {}
+R { 3302} {0} {<afa>} {There is no room to get in there.} { } {} {The Sierra Range} {} {} {} {1.000} {}
 E { 3301} {e} {e} {2} {0} {} {1.000}
-E { 5385} {w} {w} {8} {0} {} {1.000}
 
-R { 3303} {0} {<aca>} {Wandering Aimlessly Through the Woods} {<aca>( *<088>} {The forest is slightly less dense here though the trees are still tightly packed, blotting out any light from above.  The rustling of dried leaves moving acrossed the ground can be heard as a genlte breeze blows through, carrying on it the sweet scent of pine and wildflowers.  Sharp prickly pine-needles snag at anything within their grasp, dropping to the forest floor creating a thin carpet overtop the once lush grass below. } {The Sierra Range} {} {Forest} {} {1.000} {}
+R { 3303} {0} {<afa>} {Wandering Aimlessly Through the Woods} { } {The forest is slightly less dense here though the trees are still tightly packed, blotting out any light from above.  The rustling of dried leaves moving acrossed the ground can be heard as a genlte breeze blows through, carrying on it the sweet scent of pine and wildflowers.  Sharp prickly pine-needles snag at anything within their grasp, dropping to the forest floor creating a thin carpet overtop the once lush grass below. } {The Sierra Range} {} {Forest} {} {1.000} {}
 E { 3300} {w} {w} {8} {0} {} {1.000}
 E { 3304} {s} {s} {4} {0} {} {1.000}
 E { 3307} {e} {e} {2} {0} {} {1.000}
 
-R { 3304} {0} {<aca>} {In The Darkness of The Sierra Range} {<aca>( *<088>} {You torch burns out and quickly you light your backup.  Whew, a close call in your adventure.  Who knows what types of animals may have attacked you in the dark. } {The Sierra Range} {} {Forest} {} {1.000} {}
+R { 3304} {0} {<afa>} {In The Darkness of The Sierra Range} { } {You torch burns out and quickly you light your backup.  Whew, a close call in your adventure.  Who knows what types of animals may have attacked you in the dark. } {The Sierra Range} {} {Forest} {} {1.000} {}
 E { 3299} {w} {w} {8} {0} {} {1.000}
 E { 3303} {n} {n} {1} {0} {} {1.000}
 E { 3298} {s} {s} {4} {0} {} {1.000}
 E { 3306} {e} {e} {2} {0} {} {1.000}
 
-R { 3305} {0} {<aca>} {In the Deep Darkness of The Sierra Range} {<aca>( *<088>} {A thick carpet of sharp, dried pine needles cover the once lush grassy forest bottom.  A brisk breeze blows through carrying with it the sweet cent of wildflowers and moist grass from the  off in the distance.  A canopy created from the trees above filters out mcuh of the light, leaving the forest shrouded in darkness here. } {The Sierra Range} {} {Forest} {} {1.000} {}
+R { 3305} {0} {<afa>} {In the Deep Darkness of The Sierra Range} { } {A thick carpet of sharp, dried pine needles cover the once lush grassy forest bottom.  A brisk breeze blows through carrying with it the sweet cent of wildflowers and moist grass from the  off in the distance.  A canopy created from the trees above filters out mcuh of the light, leaving the forest shrouded in darkness here. } {The Sierra Range} {} {Forest} {} {1.000} {}
 E { 3298} {w} {w} {8} {0} {} {1.000}
 E { 3306} {n} {n} {1} {0} {} {1.000}
 
-R { 3306} {0} {<aca>} {In the Deep Darkness of the Sierra Range} {<aca>( *<088>} {The darkness surrounds you as you walk through the woods.  You want to get out of here as soon as possible.  Yet you feel strangely at home.  Who knows why? } {The Sierra Range} {} {Forest} {} {1.000} {}
+R { 3306} {0} {<afa>} {In the Deep Darkness of the Sierra Range} { } {The darkness surrounds you as you walk through the woods.  You want to get out of here as soon as possible.  Yet you feel strangely at home.  Who knows why? } {The Sierra Range} {} {Forest} {} {1.000} {}
 E { 3305} {s} {s} {4} {0} {} {1.000}
 E { 3304} {w} {w} {8} {0} {} {1.000}
 E { 3307} {n} {n} {1} {0} {} {1.000}
 E { 3309} {e} {e} {2} {0} {} {1.000}
 
-R { 3307} {0} {<aca>} {Lost in the Woods} {<aca>( *<088>} {A thick carpet of sharp, dried pine needles cover the once lush grassy forest bottom.  A brisk breeze blows through carrying with it the sweet cent of wildflowers and moist grass from the  off in the distance.  A canopy created from the trees above filters out mcuh of the light, leaving the forest shrouded in darkness here. } {The Sierra Range} {} {Forest} {} {1.000} {}
+R { 3307} {0} {<afa>} {Lost in the Woods} { } {A thick carpet of sharp, dried pine needles cover the once lush grassy forest bottom.  A brisk breeze blows through carrying with it the sweet cent of wildflowers and moist grass from the  off in the distance.  A canopy created from the trees above filters out mcuh of the light, leaving the forest shrouded in darkness here. } {The Sierra Range} {} {Forest} {} {1.000} {}
 E { 3306} {s} {s} {4} {0} {} {1.000}
 E { 3303} {w} {w} {8} {0} {} {1.000}
 E { 3308} {e} {e} {2} {0} {} {1.000}
 
-R { 3308} {0} {<aca>} {Lost Somewhere in the Woods} {<aca>( *<088>} {Ominous sounds fill the brisk air of the forest from all directions.  The ground below is covered in a thick carpet of dried leaves, needles and pine cones that gently rustle in the chill breeze that flows through, carrying on it the sweet scent of wildflowers and moist grass. } {The Sierra Range} {} {Forest} {} {1.000} {}
+R { 3308} {0} {<afa>} {Lost Somewhere in the Woods} { } {Ominous sounds fill the brisk air of the forest from all directions.  The ground below is covered in a thick carpet of dried leaves, needles and pine cones that gently rustle in the chill breeze that flows through, carrying on it the sweet scent of wildflowers and moist grass. } {The Sierra Range} {} {Forest} {} {1.000} {}
 E { 3307} {w} {w} {8} {0} {} {1.000}
 E { 3309} {s} {s} {4} {0} {} {1.000}
 E { 3310} {e} {e} {2} {0} {} {1.000}
 
-R { 3309} {0} {<aca>} {In the Deepest Darkness of the Sierra Range} {<aca>( *<088>} {You see a track just ahead and feel this may be your way out of this place which lives and dies in darkness.  For such a noble mountain it is surrounded by dreary woods. } {The Sierra Range} {} {Forest} {} {1.000} {}
+R { 3309} {0} {<afa>} {In the Deepest Darkness of the Sierra Range} { } {You see a track just ahead and feel this may be your way out of this place which lives and dies in darkness.  For such a noble mountain it is surrounded by dreary woods. } {The Sierra Range} {} {Forest} {} {1.000} {}
 E { 3308} {n} {n} {1} {0} {} {1.000}
 E { 3306} {w} {w} {8} {0} {} {1.000}
 
-R { 3310} {0} {<aca>} {Somewhere in the Huge Sierra Forest} {<aca>( *<088>} {The forest is slightly less dense here though the trees are still tightly packed, blotting out any light from above.  The rustling of dried leaves moving acrossed the ground can be heard as a genlte breeze blows through, carrying on it the sweet scent of pine and wildflowers.  Sharp prickly pine-needles snag at anything within their grasp, dropping to the forest floor creating a thin carpet overtop the once lush grass below. } {The Sierra Range} {} {Forest} {} {1.000} {}
+R { 3310} {0} {<afa>} {Somewhere in the Huge Sierra Forest} { } {The forest is slightly less dense here though the trees are still tightly packed, blotting out any light from above.  The rustling of dried leaves moving acrossed the ground can be heard as a genlte breeze blows through, carrying on it the sweet scent of pine and wildflowers.  Sharp prickly pine-needles snag at anything within their grasp, dropping to the forest floor creating a thin carpet overtop the once lush grass below. } {The Sierra Range} {} {Forest} {} {1.000} {}
 E { 3308} {w} {w} {8} {0} {} {1.000}
 E { 3311} {e} {e} {2} {0} {} {1.000}
 
-R { 3311} {0} {<228>} {Looking onto a Vast Prairie} {<228>, `<088>} {The forest opens up into a lush, green prairie as far as the eye can see, beautiful wildflowers of all colors sprout up from between the grassy-blades creating a rainbow like spectacle.  A gentle breeze blows past picking up the scent of pine and the different , yet distinct scents of the flowers that surround you. } {The Sierra Range} {} {Field} {} {1.000} {}
+R { 3311} {0} {<afa>} {Looking onto a Vast Prairie} { } {The forest opens up into a lush, green prairie as far as the eye can see, beautiful wildflowers of all colors sprout up from between the grassy-blades creating a rainbow like spectacle.  A gentle breeze blows past picking up the scent of pine and the different , yet distinct scents of the flowers that surround you. } {The Sierra Range} {} {Field} {} {1.000} {}
 E { 3310} {w} {w} {8} {0} {} {1.000}
 E { 3312} {s} {s} {4} {0} {} {1.000}
 E { 3317} {e} {e} {2} {0} {} {1.000}
 
-R { 3312} {0} {<228>} {In the Tall Grass of an Emerald Field} {<228>, `<088>} {The grass here has grown unchecked and it quite tall.  Underfoot the ground is moist and a little soft.  A gentle breeze blows through carrying the scent of pine amd wildflowers from off in the distance. } {The Sierra Range} {} {Field} {} {1.000} {}
+R { 3312} {0} {<afa>} {In the Tall Grass of an Emerald Field} { } {The grass here has grown unchecked and it quite tall.  Underfoot the ground is moist and a little soft.  A gentle breeze blows through carrying the scent of pine amd wildflowers from off in the distance. } {The Sierra Range} {} {Field} {} {1.000} {}
 E { 3311} {n} {n} {1} {0} {} {1.000}
 E { 3313} {e} {e} {2} {0} {} {1.000}
 
-R { 3313} {0} {<228>} {In the Tall Grass of an Emerald Field} {<228>, `<088>} {The grass here has grown unchecked and it quite tall.  Underfoot the ground is moist and a little soft.  A gentle breeze blows through carrying the scent of pine amd wildflowers from off in the distance. } {The Sierra Range} {} {Field} {} {1.000} {}
+R { 3313} {0} {<afa>} {In the Tall Grass of an Emerald Field} { } {The grass here has grown unchecked and it quite tall.  Underfoot the ground is moist and a little soft.  A gentle breeze blows through carrying the scent of pine amd wildflowers from off in the distance. } {The Sierra Range} {} {Field} {} {1.000} {}
 E { 3312} {w} {w} {8} {0} {} {1.000}
 E { 3314} {s} {s} {4} {0} {} {1.000}
 E { 3316} {e} {e} {2} {0} {} {1.000}
 E { 3317} {n} {n} {1} {0} {} {1.000}
 
-R { 3314} {0} {<228>} {An Emerald Green Field} {<228>, `<088>} {A lush, emerald-green grass carpets the ground as far as the eye can see almost glowing as light hits it. } {The Sierra Range} {} {Field} {} {1.000} {}
+R { 3314} {0} {<afa>} {An Emerald Green Field} { } {A lush, emerald-green grass carpets the ground as far as the eye can see almost glowing as light hits it. } {The Sierra Range} {} {Field} {} {1.000} {}
 E { 3313} {n} {n} {1} {0} {} {1.000}
 E { 3315} {e} {e} {2} {0} {} {1.000}
 
-R { 3315} {0} {<228>} {An Emerald Green Field} {<228>, `<088>} {A lush, emerald-green grass carpets the ground as far as the eye can see almost glowing as light hits it. } {The Sierra Range} {} {Field} {} {1.000} {}
+R { 3315} {0} {<afa>} {An Emerald Green Field} { } {A lush, emerald-green grass carpets the ground as far as the eye can see almost glowing as light hits it. } {The Sierra Range} {} {Field} {} {1.000} {}
 E { 3314} {w} {w} {8} {0} {} {1.000}
 E { 3316} {n} {n} {1} {0} {} {1.000}
 E { 3323} {s} {s} {4} {0} {} {1.000}
 E { 3325} {e} {e} {2} {0} {} {1.000}
 
-R { 3316} {0} {<228>} {In the Tall Grass of an Emerald Field} {<228>, `<088>} {The grass here has grown unchecked and it quite tall.  Underfoot the ground is moist and a little soft.  A gentle breeze blows through carrying the scent of pine amd wildflowers from off in the distance. } {The Sierra Range} {} {Field} {} {1.000} {}
+R { 3316} {0} {<afa>} {In the Tall Grass of an Emerald Field} { } {The grass here has grown unchecked and it quite tall.  Underfoot the ground is moist and a little soft.  A gentle breeze blows through carrying the scent of pine amd wildflowers from off in the distance. } {The Sierra Range} {} {Field} {} {1.000} {}
 E { 3315} {s} {s} {4} {0} {} {1.000}
 E { 3313} {w} {w} {8} {0} {} {1.000}
 E { 3322} {e} {e} {2} {0} {} {1.000}
 E { 3318} {n} {n} {1} {0} {} {1.000}
 
-R { 3317} {0} {<228>} {In the Shrubbery That Surrounds the Emerald Field} {<228>, `<088>} {Small shrubs grow along the edges of the prairie creating a barrier that separates it from the forest.  Lush green grass gives off an emerald hue acented by the beauty of multi-colored wildflowers that sprout up all around. } {The Sierra Range} {} {Field} {} {1.000} {}
+R { 3317} {0} {<afa>} {In the Shrubbery That Surrounds the Emerald Field} { } {Small shrubs grow along the edges of the prairie creating a barrier that separates it from the forest.  Lush green grass gives off an emerald hue acented by the beauty of multi-colored wildflowers that sprout up all around. } {The Sierra Range} {} {Field} {} {1.000} {}
 E { 3313} {s} {s} {4} {0} {} {1.000}
 E { 3318} {e} {e} {2} {0} {} {1.000}
 E { 3311} {w} {w} {8} {0} {} {1.000}
 
-R { 3318} {0} {<228>} {In the Shrubbery That Surrounds the Emerald Field} {<228>, `<088>} {Small shrubs grow along the edges of the prairie creating a barrier that separates it from the forest.  Lush green grass gives off an emerald hue acented by the beauty of multi-colored wildflowers that sprout up all around. } {The Sierra Range} {} {Field} {} {1.000} {}
+R { 3318} {0} {<afa>} {In the Shrubbery That Surrounds the Emerald Field} { } {Small shrubs grow along the edges of the prairie creating a barrier that separates it from the forest.  Lush green grass gives off an emerald hue acented by the beauty of multi-colored wildflowers that sprout up all around. } {The Sierra Range} {} {Field} {} {1.000} {}
 E { 3317} {w} {w} {8} {0} {} {1.000}
 E { 3319} {e} {e} {2} {0} {} {1.000}
 E { 3316} {s} {s} {4} {0} {} {1.000}
 
-R { 3319} {0} {<228>} {The Beginnings of a Small Babbling Brook} {<228>, `<088>} {A small babling brook runs through the prairie here feeding the grassy lands a large amount of moisture.  The grass surrounding the brook grows  tall and spans quite a distance.  Barely visible now are several multi-colored wildflowers, well hidden beneath the grass. } {The Sierra Range} {} {Field} {} {1.000} {}
+R { 3319} {0} {<afa>} {The Beginnings of a Small Babbling Brook} { } {A small babling brook runs through the prairie here feeding the grassy lands a large amount of moisture.  The grass surrounding the brook grows  tall and spans quite a distance.  Barely visible now are several multi-colored wildflowers, well hidden beneath the grass. } {The Sierra Range} {} {Field} {} {1.000} {}
 E { 3318} {w} {w} {8} {0} {} {1.000}
 E { 3320} {e} {e} {2} {0} {} {1.000}
 E { 3322} {s} {s} {4} {0} {} {1.000}
 
-R { 3320} {0} {<228>} {In the Shrubbery That Surrounds the Emerald Field} {<228>, `<088>} {Small shrubs grow along the edges of the prairie creating a barrier that separates it from the forest.  Lush green grass gives off an emerald hue acented by the beauty of multi-colored wildflowers that sprout up all around. } {The Sierra Range} {} {Field} {} {1.000} {}
+R { 3320} {0} {<afa>} {In the Shrubbery That Surrounds the Emerald Field} { } {Small shrubs grow along the edges of the prairie creating a barrier that separates it from the forest.  Lush green grass gives off an emerald hue acented by the beauty of multi-colored wildflowers that sprout up all around. } {The Sierra Range} {} {Field} {} {1.000} {}
 E { 3319} {w} {w} {8} {0} {} {1.000}
 E { 3321} {s} {s} {4} {0} {} {1.000}
 
-R { 3321} {0} {<228>} {On the Edge of the Unknown, Past the Field} {<228>, `<088>} {You are at the edge of the unknown, on the eastern side of the field.  The earth just seems to fall from beneath your feet here. } {The Sierra Range} {} {Field} {} {1.000} {}
+R { 3321} {0} {<afa>} {On the Edge of the Unknown, Past the Field} { } {You are at the edge of the unknown, on the eastern side of the field.  The earth just seems to fall from beneath your feet here. } {The Sierra Range} {} {Field} {} {1.000} {}
 E { 3320} {n} {n} {1} {0} {} {1.000}
 E { 3322} {w} {w} {8} {0} {} {1.000}
 E { 3326} {s} {s} {4} {0} {} {1.000}
 
-R { 3322} {0} {<228>} {A Small Babbling Brook} {<228>, `<088>} {The water of the brook is crystal clear and quite cool, perhaps created from the melting snow off the peak of Mount Belknap.  Beartiful wildflowers sprout, though barely visible through the grassy blades that surround the brook. } {The Sierra Range} {} {Field} {} {1.000} {}
+R { 3322} {0} {<afa>} {A Small Babbling Brook} { } {The water of the brook is crystal clear and quite cool, perhaps created from the melting snow off the peak of Mount Belknap.  Beartiful wildflowers sprout, though barely visible through the grassy blades that surround the brook. } {The Sierra Range} {} {Field} {} {1.000} {}
 E { 3321} {e} {e} {2} {0} {} {1.000}
 E { 3319} {n} {n} {1} {0} {} {1.000}
 E { 3316} {w} {w} {8} {0} {} {1.000}
 E { 3325} {s} {s} {4} {0} {} {1.000}
 
-R { 3323} {0} {<228>} {The Beginning of a Long Granite Stone Wall} {<228>, `<088>} {A beautiful stone wall divides one side of the field and the other.  You look at it carefully and find the intricacies in every stone placed here.  It is miraculous that something this old still survives today. } {The Sierra Range} {} {Field} {} {1.000} {}
+R { 3323} {0} {<afa>} {The Beginning of a Long Granite Stone Wall} { } {A beautiful stone wall divides one side of the field and the other.  You look at it carefully and find the intricacies in every stone placed here.  It is miraculous that something this old still survives today. } {The Sierra Range} {} {Field} {} {1.000} {}
 E { 3315} {n} {n} {1} {0} {} {1.000}
 E { 3324} {e} {e} {2} {0} {} {1.000}
 
-R { 3324} {0} {<228>} {A Long, Worn Down, Granite Stone Wall} {<228>, `<088>} {The granite is falling apart, but this wall is still very noble and stands as a clear boundary between farmers once here. } {The Sierra Range} {} {Field} {} {1.000} {}
+R { 3324} {0} {<afa>} {A Long, Worn Down, Granite Stone Wall} { } {The granite is falling apart, but this wall is still very noble and stands as a clear boundary between farmers once here. } {The Sierra Range} {} {Field} {} {1.000} {}
 E { 3323} {w} {w} {8} {0} {} {1.000}
 E { 3327} {e} {e} {2} {0} {} {1.000}
 E { 3325} {n} {n} {1} {0} {} {1.000}
 E { 3329} {s} {s} {4} {0} {} {1.000}
 
-R { 3325} {0} {<228>} {The Ends of a Small Babbling Brook} {<228>, `<088>} {The  babbling brook comes to an end here, widening into a small, clear, cool pond.  The water ripples sending light wakes across the surface as a gentle breezes blows overtop the water. } {The Sierra Range} {} {Field} {} {1.000} {}
+R { 3325} {0} {<afa>} {The Ends of a Small Babbling Brook} { } {The  babbling brook comes to an end here, widening into a small, clear, cool pond.  The water ripples sending light wakes across the surface as a gentle breezes blows overtop the water. } {The Sierra Range} {} {Field} {} {1.000} {}
 E { 3315} {w} {w} {8} {0} {} {1.000}
 E { 3326} {e} {e} {2} {0} {} {1.000}
 E { 3322} {n} {n} {1} {0} {} {1.000}
 E { 3324} {s} {s} {4} {0} {} {1.000}
 
-R { 3326} {0} {<228>} {An Emerald Green Field} {<228>, `<088>} {A lush, emerald-green grass carpets the ground as far as the eye can see almost glowing as light hits it. } {The Sierra Range} {} {Field} {} {1.000} {}
+R { 3326} {0} {<afa>} {An Emerald Green Field} { } {A lush, emerald-green grass carpets the ground as far as the eye can see almost glowing as light hits it. } {The Sierra Range} {} {Field} {} {1.000} {}
 E { 3325} {w} {w} {8} {0} {} {1.000}
 E { 3321} {n} {n} {1} {0} {} {1.000}
 E { 3327} {s} {s} {4} {0} {} {1.000}
 
-R { 3327} {0} {<228>} {A Worn Down, Long Granite Stone Wall} {<228>, `<088>} {The granite in this part of the wall is well worn and crumbles if enough force is applied.  If carefully traversed it may maintain it's integrity. } {The Sierra Range} {} {Field} {} {1.000} {}
+R { 3327} {0} {<afa>} {A Worn Down, Long Granite Stone Wall} { } {The granite in this part of the wall is well worn and crumbles if enough force is applied.  If carefully traversed it may maintain it's integrity. } {The Sierra Range} {} {Field} {} {1.000} {}
 E { 3326} {n} {n} {1} {0} {} {1.000}
 E { 3324} {w} {w} {8} {0} {} {1.000}
 E { 3328} {s} {s} {4} {0} {} {1.000}
 
-R { 3328} {0} {<228>} {On the Side of the Well Beaten Path} {<228>, `<088>} {The ground here is hard and well traveled, deep indentations mare the trail on either side from what appears to wagon wheels, while rocks protrude from the inner path making walking unpleasant.  The trail forks leading north, south and west. } {The Sierra Range} {} {Field} {} {1.000} {}
+R { 3328} {0} {<afa>} {On the Side of the Well Beaten Path} { } {The ground here is hard and well traveled, deep indentations mare the trail on either side from what appears to wagon wheels, while rocks protrude from the inner path making walking unpleasant.  The trail forks leading north, south and west. } {The Sierra Range} {} {Field} {} {1.000} {}
 E { 3327} {n} {n} {1} {0} {} {1.000}
 E { 3329} {w} {w} {8} {0} {} {1.000}
 E { 3331} {s} {s} {4} {0} {} {1.000}
 
-R { 3329} {0} {<228>} {A Well Beaten Path to a Dark Entrance} {<228>, `<088>} {This entrance is covered with spider webs.  It is unlikely to have been used very often, that or the spiders around here are prodigious workers. } {The Sierra Range} {} {Field} {} {1.000} {}
+R { 3329} {0} {<afa>} {A Well Beaten Path to a Dark Entrance} { } {This entrance is covered with spider webs.  It is unlikely to have been used very often, that or the spiders around here are prodigious workers. } {The Sierra Range} {} {Field} {} {1.000} {}
 E { 3328} {e} {e} {2} {0} {} {1.000}
 E { 3324} {n} {n} {1} {0} {} {1.000}
 E { 3330} {s} {s} {4} {0} {} {1.000}
 
-R { 3330} {0} {<148>} {Entering the Sierra Cave Range} {<148>. .<088>} {This is a huge cave that spans about a hundred feet wide and approximately three-hundred feet long.  There are strange drawings made in red clay on the walls.  They depict battles and hunts with men in crude clothing and wielding even cruder weapons. } {The Sierra Range} {} {Underground} {} {1.000} {}
+R { 3330} {0} {<afa>} {Entering the Sierra Cave Range} { } {This is a huge cave that spans about a hundred feet wide and approximately three-hundred feet long.  There are strange drawings made in red clay on the walls.  They depict battles and hunts with men in crude clothing and wielding even cruder weapons. } {The Sierra Range} {} {Underground} {} {1.000} {}
 E { 3329} {n} {n} {1} {0} {} {1.000}
 E { 3331} {e} {e} {2} {0} {} {1.000}
 E { 3332} {s} {s} {4} {0} {} {1.000}
 
-R { 3331} {0} {<148>} {Entering the Sierra Cave Range} {<148>. .<088>} {The cave entrance is covered in spider webs.  beyond them is a  dark and surprisingly warm cave.  The air is humid, leaving a sticky feel to the surrounding area. } {The Sierra Range} {} {Underground} {} {1.000} {}
+R { 3331} {0} {<afa>} {Entering the Sierra Cave Range} { } {The cave entrance is covered in spider webs.  beyond them is a  dark and surprisingly warm cave.  The air is humid, leaving a sticky feel to the surrounding area. } {The Sierra Range} {} {Underground} {} {1.000} {}
 E { 3330} {w} {w} {8} {0} {} {1.000}
 E { 3328} {n} {n} {1} {0} {} {1.000}
 E { 3333} {s} {s} {4} {0} {} {1.000}
@@ -14224,7 +14222,7 @@ R { 3332} {0} {<afa>} {Inside the depths of the Sierra Caves} {WMo} {The air ins
 E { 3330} {n} {n} {1} {0} {} {1.000}
 E { 3333} {e} {e} {2} {0} {} {1.000}
 
-R { 3333} {0} {<148>} {Inside the depths of the Sierra Caves} {<148>. .<088>} {The air inside of the cave is warm and humid.  Carpeting the cave floor are broken, chewed looking bones scattered from wall to wall.  Protruding from the ground and ceiling above are sharp looking stalctites resembling the teeth of a dragon and giving the cave a threatening appearance. } {The Sierra Range} {} {Underground} {} {1.000} {}
+R { 3333} {0} {<afa>} {Inside the depths of the Sierra Caves} { } {The air inside of the cave is warm and humid.  Carpeting the cave floor are broken, chewed looking bones scattered from wall to wall.  Protruding from the ground and ceiling above are sharp looking stalctites resembling the teeth of a dragon and giving the cave a threatening appearance. } {The Sierra Range} {} {Underground} {} {1.000} {}
 E { 3332} {w} {w} {8} {0} {} {1.000}
 E { 3331} {n} {n} {1} {0} {} {1.000}
 
@@ -15069,8 +15067,8 @@ E { 3021} {w} {w} {8} {0} {} {1.000}
 R { 3542} {0} {} {#MAP UNDO: Deleting room 3543.} { } {} {Little Kyoto} {} {} {} {1.000} {}
 E { 3022} {s} {s} {4} {0} {} {1.000}
 
-R { 3543} {0} {<278>} {The Chief's Sleeping Chambers} {<278>[ ]<088>} {This is a fairly small room, which seems to be used as some sort of sleeping chamber.  There is a smallish fireplace in the southern wall, which provides warmth, and all of the lighting for the room, save for a single guttering torch up on the northern wall.  There is actually a bed in one corner, made up of straw or some other material pounded together into a mattress of sorts. } {Gnoll Fort} {} {Inside} {} {1.000} {}
-E { 2559} {w} {open door;w} {8} {0} {} {1.000}
+R { 3543} {0} {} {No way!  You are fighting for your life!} { } {} {Gnoll Fort} {} {} {} {1.000} {}
+E { 3095} {w} {w} {8} {0} {} {1.000}
 
 R { 3544} {0} {} {} { } {} {} {} {} {} {1.000} {}
 
@@ -15343,12 +15341,12 @@ R { 3606} {0} {<aca>} {The South-West Corner of the Fortress} {<aca>( *<088>} {Y
 E { 3596} {e} {e} {2} {0} {} {1.000}
 E { 3605} {n} {n} {1} {0} {} {1.000}
 
-R { 3607} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 3607} {0} {<148>} {In a Dark Cave} {<148>. .<088>} {Before you to the south is the mouth of an old cave.  The cave burrows into the mountainside to the south and is shrouded in darkness.  There is a sense of evil coming from the cave, but it is probably just your overactive imagination. } {Unset} {} {Underground} {} {1.000} {}
 E { 3591} {n} {n} {1} {0} {} {1.000}
-E { 3608} {d} {d} {32} {0} {} {1.000}
+E { 3608} {s} {s} {4} {0} {} {1.000}
 
-R { 3608} {4104} {<148>} {} {<148>. .<088>} {} {Unset} {} {Underground} {} {1.000} {}
-E { 3607} {u} {u} {16} {0} {} {1.000}
+R { 3608} {0} {<148>} {In the Abandoned Mine} {<148>. .<088>} {You are in a granite tunnel that was hewn out of the mountain side centuries ago by dwarven miners.  The walls are clean and dry here and lead into the depths of the mine. } {Unset} {} {Underground} {} {1.000} {}
+E { 3607} {n} {n} {1} {0} {} {1.000}
 E { 4643} {s} {s} {4} {0} {} {1.000}
 
 R { 3609} {0} {<228>} {Entry Courtyard of the Hill Giant Compound} {<228>, .<088>} {Caught within the space between the exterior gates to the east and huge bronze doors to the west, this courtyard is open to the sky and surrounded by towering walls.  The ground is covered in trampled grass, green along the edges of the courtyard but worn down to bare dirt on a path that connects the gates with the doors. } {Hill Giant Fortress} {} {Field} {} {1.000} {}
@@ -17316,17 +17314,13 @@ R { 4068} {0} {<aca>} {Trail Past the Ranger Post} {<aca>( *<088>} {You are on t
 E { 4066} {s} {s} {4} {0} {} {1.000}
 E { 4063} {e} {e} {2} {0} {} {1.000}
 E { 4069} {n} {n} {1} {0} {} {1.000}
-E { 4645} {w} {w} {8} {0} {} {1.000}
 
-R { 4069} {0} {<aca>} {Southwestern Trail} {<aca>( *<088>} {You are on the trail, and you can still see the Ranger Post to the southeast of here.  Something appears not quite right on the trail ahead, unfortunately, there is no other way to go.  The trail continues north and back south. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
+R { 4069} {0} {} {Southwestern Trail} { } {You are on the trail, and you can still see the Ranger Post to the southeast of here.  Something appears not quite right on the trail ahead, unfortunately, there is no other way to go.  The trail continues north and back south. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
 E { 4068} {s} {s} {4} {0} {} {1.000}
 E { 4070} {n} {n} {1} {0} {} {1.000}
-E { 4648} {w} {w} {8} {0} {} {1.000}
 
 R { 4070} {0} {} {Alas, you cannot go that way.} { } {} {Southern Forest Trail} {} {} {} {1.000} {}
 E { 4069} {s} {s} {4} {0} {} {1.000}
-E { 4649} {d} {d} {32} {0} {} {1.000}
-E { 4650} {n} {n} {1} {0} {} {1.000}
 
 R { 4071} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 3668} {w} {w} {8} {0} {} {1.000}
@@ -18512,12 +18506,10 @@ E { 4352} {n} {n} {1} {0} {} {1.000}
 R { 4352} {0} {<268>} {Bird Isle} {<268>~ ~<088>} {You have arrived on a small rocky island inhabited only by birds.  The island is very small and you can only see winged forms in the sky.  You wonder what these birds find for food, but by looking at all of the bones on the island, you realize they are well fed.  Closer inspection of the bones reveals that they are predominantly humanoid!  } {Graecia} {} {Shore} {} {1.000} {}
 E { 4351} {s} {s} {4} {0} {} {1.000}
 
-R { 4353} {0} {<228>} {A Crest in the Road} {<228>. ^<088>} {The road comes to the top of a small rise here, and gives you some vantage to view the Vale.  To the west, the vale slopes gently toward the forests of fair Ithilien, while to the east lies a city.    The cracked and yellowed walls of this once fair place, and the dark iron gate at the road's end are the skeletal jaw bone and teeth for the pale tower that rises behind them.  From this tower a beam of piercing white light streams forth, darting to the left and the right, searching coldly and endlessly for those who would trespass against the Lord of this dark place.    A small path, well hidden in the rocks and brambles, leads to the north, away from those terrible gates. } {NotYetSet} {} {Hills} {} {1.000} {}
+R { 4353} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E { 3074} {w} {w} {8} {0} {} {1.000}
-E { 5381} {n} {n} {1} {0} {} {1.000}
-E { 5382} {e} {e} {2} {0} {} {1.000}
 
-R { 4354} {0} {<238>} {A Forgotten Mountain Trail} {<238>/ \<088>} {This small path winds steeply up and southward into the haze and chill of the Fence of Shadows, the mountains that encircle and protect Mordor.  The wind howls about this high place, buffeting you with sand and small pieces of dead plants.  Very little grows here\; between the wind and almost complete lack of water, this is an inhospitable place. } {Unset} {} {Mountains} {} {1.000} {}
+R { 4354} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E { 3074} {n} {n} {1} {0} {} {1.000}
 
 R { 4355} {0} {<278>} {Secret Passage} {<278>[ ]<088>} {You have arrived at the southern end of the storeroom.  You see water to the south, as this large chamber opens up to the great ocean.  You can hear the familiar sound of the powerful waves crashing against the rocks, and you hear the sounds of bird flying nearby. } {Unset} {} {Inside} {} {1.000} {}
@@ -18568,24 +18560,22 @@ E { 4367} {n} {n} {1} {0} {} {1.000}
 R { 4366} {0} {<278>} {Alas, you cannot go that way.} {<278>[ ]<088>} {} {Hill Giant Fortress} {} {} {} {1.000} {}
 E { 4365} {e} {e} {2} {0} {} {1.000}
 
-R { 4367} {0} {<278>} {Fortress Court} {<278>[ ]<088>} {Groin vaults soar above the floor of this huge court within the fortress. Torches, each billowing thick smoke upwards as they spill light onto the floor and walls, line the space.  A set of cast bronze doors to the east, depicting the victories of previous generations on their surfaces, lead east.  A grand torch-lit hallway cuts straight south and two simple iron banded doors lead north and west, further into the fortress's less ceremonial spaces. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 4365} {s} {unl door south;open door south;s} {4} {0} {} {1.000}
+R { 4367} {0} {<278>} {That's not a door.} {<278>[ ]<088>} {H:479/622 M:137/137 V:332/360 XP:1764919 C:*> Fortress Court    Groin vaults soar above the floor of this huge court within the fortress. Torches, each billowing thick smoke upwards as they spill light onto the floor and walls, line the space.  A set of cast bronze doors to the east, depicting the victories of previous generations on their surfaces, lead east.  A grand torch-lit hallway cuts straight south and two simple iron banded doors lead north and west, further into the fortress's less ceremonial spaces. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
+E { 4365} {s} {s} {4} {0} {} {1.000}
 E { 4368} {n} {open door north;n} {1} {0} {} {1.000}
 E { 4369} {e} {open door east;e} {2} {0} {} {1.000}
 E { 4370} {w} {open door west;w} {8} {0} {} {1.000}
 
-R { 4368} {0} {<278>} {Service Hallway} {<278>[ ]<088>} {This section of service hallway snakes around a corner to the north and leads to a staircase to the west.  Torches provide light and illumiate an iron banded door to the south.  A large stone slab, which froms a desk area next to the southern door, acts as a guard station. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 4367} {s} {unlock iron south;open iron south;s} {4} {0} {} {1.000}
-E { 5388} {w} {w} {8} {0} {} {1.000}
-E { 4381} {n} {n} {1} {0} {} {1.000}
+R { 4368} {0} {} {} { } {} {} {} {} {} {1.000} {}
+E { 4367} {s} {s} {4} {0} {} {1.000}
 
 R { 4369} {0} {<278>} {Great Hall} {<278>[ ]<088>} {This grand space, arched over with a soaring ceiling supported on tree sized beams, spreads out east and west with torches lining the stone walls.  A fireplace, big enough to spit roast an adult dragon, sits along the southern side of the hall.  A wood table, it's surface higher than the head of any human, runs along in front of the hearth.  At the far eastern end, a great archway leads to the throne room.  To the west a pair of cast bronze doors, each depicting a great battle on their surface, lead to the grand court of the fortress. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 4367} {w} {open door west;w} {8} {0} {} {1.000}
+E { 4367} {w} {open door;w} {8} {0} {} {1.000}
 E { 4371} {e} {e} {2} {0} {} {1.000}
 
 R { 4370} {0} {<278>} {Entry to Kitchen} {<278>[ ]<088>} {Rows of tables are lined up against the northern and southern walls of this long room.  Each a place for final preperation of meals to be taken to the Great Hall.  A simple iron banded door leads east, into the Fortress Court while the kitchen lies to the west, its heat radiates into this space. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 4367} {e} {open door;e} {2} {0} {} {1.000}
-E { 4372} {w} {unl door west;open door west;w} {8} {0} {} {1.000}
+E { 4372} {w} {w} {8} {0} {} {1.000}
 
 R { 4371} {0} {<278>} {Throne Room} {<278>[ ]<088>} {Rising a few meters above the floor of the Great Hall to the west, this elevated room is dominated by a throne of enormous size.  Covered in furs, pelts, and adorn at the top with two dragon skulls, it is impressive by any standards.  Woven tapestries, depicting the great spoils of war won in battle by these giants, hang on almost every wall surface. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 4369} {w} {w} {8} {0} {} {1.000}
@@ -18597,13 +18587,13 @@ E { 4379} {n} {n} {1} {0} {} {1.000}
 
 R { 4373} {0} {<278>} {Cold Food Storage} {<278>[ ]<088>} {Huge blocks of ice, drug in from the peaks of the Stoneforge Mountains to the west and stacked high against the western wall, make this space very cold. The rest of the room is packed with racks of vegetables, hooks of meat, and various morsels being preserved for the giant's feasts.  A solid iron bound door leads south and a thick wooden door leads north to the kitchen. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 4372} {n} {n} {1} {0} {} {1.000}
-E { 4386} {s} {unl door south;open door south;s} {4} {0} {} {1.000}
+E { 4386} {s} {unlock iron;open iron;s} {4} {0} {} {1.000}
 
 R { 4374} {0} {<278>} {Guest Hallway} {<278>[ ]<088>} {A series of large animal pelts, each oriented lengthwise down the hallway, provide a wonderful carpeted floor along this guest hallway.  To the south a wonderfully carved wooden door leads into a guest room while an iron bound door to the north leads into the back of the fortress.  This hallway heads east and west from here. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 4386} {n} {unl door north;open door north;n} {1} {0} {} {1.000}
+E { 4386} {n} {n} {1} {0} {} {1.000}
 E { 4375} {e} {e} {2} {0} {} {1.000}
 E { 4376} {w} {w} {8} {0} {} {1.000}
-E { 4378} {s} {open door south;s} {4} {0} {} {1.000}
+E { 4378} {s} {s} {4} {0} {} {1.000}
 
 R { 4375} {0} {<278>} {Guest Hallway} {<278>[ ]<088>} {A carpeted run of animal pelts, that run down this hallway as it heads west, dominate the feeling of this hallway.  Their richness juxtaposes the stone fortress wall to the south with warmth and softness.  To the north a carved wooden door, covered in the crests of the Chief's family, leads to a guest room.  An iron bound door leads east to the torch lined hallway that runs into the fortress. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 4374} {w} {w} {8} {0} {} {1.000}
@@ -18618,7 +18608,7 @@ R { 4377} {0} {<278>} {Guest Room} {<278>[ ]<088>} {A single giant bed sits the 
 E { 4376} {s} {open door;s} {4} {0} {} {1.000}
 
 R { 4378} {0} {<278>} {Main Guest Chamber} {<278>[ ]<088>} {A single giant bed sits the the center of this beautiful room.  Windows to the west overlook the nearby rolling hills, which are framed beyond with the Stoneforge Mountains.  A staired platform, perched atop a series of wheels, allows smaller guests access to the sleeping surface of the giant bed.  A carved wooden door leads north. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 4374} {n} {open door;n} {1} {0} {} {1.000}
+E { 4374} {n} {n} {1} {0} {} {1.000}
 
 R { 4379} {0} {<278>} {Kitchen} {<278>[ ]<088>} {Firepits the size of houses line the western side of this long space.  Giant chimneys direct the heat up and out of the space above each one.  Huge tables run opposite the line of firepits, each with a thick chopping block top and sturdy legs.  To the north an oversized swinging door leads to the servant mess hall and to the south the kitchen continues.  On the Eastern wall a iron gate blocks passage into the central stairwell. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 4372} {s} {s} {4} {0} {} {1.000}
@@ -18626,20 +18616,19 @@ E { 4380} {n} {n} {1} {0} {} {1.000}
 
 R { 4380} {0} {<278>} {Common Mess Hall} {<278>[ ]<088>} {Lines of long tables and benches adorn this otherwise bleak room.  Torches line the walls for light and piles of dishes and utensils cover the messy tables.  An oversized swinging door leads south to the kitchen while an iron bound door leads east into he service hallway of the fortress. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 4379} {s} {s} {4} {0} {} {1.000}
-E { 4383} {e} {open door;e} {2} {0} {} {1.000}
+E { 4381} {e} {open door;e} {2} {0} {} {1.000}
 
 R { 4381} {0} {<278>} {Service Hallway} {<278>[ ]<088>} {This long wide hallway cuts through the back of the fortress\; running east and west to join the common parts.  To the south the hallway turns south, and snakes around a corner to a shaft that is cut into the floor.  A swinging door lies to the west, connecting the common mess hall. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 4383} {w} {open door;w} {8} {0} {} {1.000}
+E { 4380} {w} {open door;w} {8} {0} {} {1.000}
 E { 4382} {e} {e} {2} {0} {} {1.000}
-E { 4368} {s} {s} {4} {0} {} {1.000}
+E { 4383} {s} {s} {4} {0} {} {1.000}
 
 R { 4382} {0} {<278>} {Service Hallway} {<278>[ ]<088>} {Torches line this wide, worn, and highly trafficked hallway.  The flicking lights and billowing smoke waft upwards, darkening the ceiling while lighting the floor.  Continuing east the hallway runs for some distance before culminating at the internal courtyard station and west towards the kitchen. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 4381} {w} {w} {8} {0} {} {1.000}
 E { 4387} {e} {e} {2} {0} {} {1.000}
 
-R { 4383} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 4381} {e} {e} {2} {0} {} {1.000}
-E { 4380} {w} {w} {8} {0} {} {1.000}
+R { 4383} {0} {<278>} {Service Hallway} {<278>[ ]<088>} {This section of service hallway snakes around a corner to the north and leads to a staircase to the west.  Torches provide light and illumiate an iron banded door to the south.  A large stone slab, which froms a desk area next to the southern door, acts as a guard station. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
+E { 4381} {n} {n} {1} {0} {} {1.000}
 
 R { 4384} {0} {<278>} {Common Room} {<278>[ ]<088>} {A single giant bed sits the the center of this beautiful room.  A domed skylight above the bed, glazed with stained glass, allows the outside to pour into the room.  A staired platform, perched atop a series of wheels, allows smaller guests access to the sleeping surface of the giant bed.  A carved wooden door leads south. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 4375} {s} {open door;s} {4} {0} {} {1.000}
@@ -19688,38 +19677,36 @@ R { 4642} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 1660} {n} {n} {1} {0} {} {1.000}
 E { 1659} {s} {s} {4} {0} {} {1.000}
 
-R { 4643} {0} {<148>} {In the Abandoned Mine} {<148>. .<088>} {You are in a granite tunnel that was hewn out of the mountain side centuries ago by dwarven miners.  The walls are clean and dry here and lead into the depths of the mine. } {Unset} {} {Underground} {} {1.000} {}
+R { 4643} {0} {<148>} {In the Old Tunnels} {<148>. .<088>} {Having just come upon a T junction in the dwarven tunnels, you are faced with another decision: which way to go?  The rough granite walls channel a slight breeze from the north as well as a rippling sound.  To the south, there is a small alcove. } {Unset} {} {Underground} {} {1.000} {}
 E { 3608} {n} {n} {1} {0} {} {1.000}
-E { 4644} {s} {s} {4} {0} {} {1.000}
-
-R { 4644} {0} {<148>} {In the Old Tunnels} {<148>. .<088>} {Having just come upon a T junction in the dwarven tunnels, you are faced with another decision: which way to go?  The rough granite walls channel a slight breeze from the north as well as a rippling sound.  To the south, there is a small alcove. } {Unset} {} {Underground} {} {1.000} {}
-E { 4643} {n} {n} {1} {0} {} {1.000}
-E { 4646} {w} {w} {8} {0} {} {1.000}
-
-R { 4645} {0} {<aca>} {Off the Southwestern Trail} {<aca>( *<088>} {You are taking a big risk leaving the trail this close to the Ranger Station.  The Park Ranger could spot you easily here.  He strongly frowns on people poaching in his woods. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 4068} {e} {e} {2} {0} {} {1.000}
-E { 4648} {n} {n} {1} {0} {} {1.000}
-
-R { 4646} {0} {<148>} {In the Old Tunnels} {<148>. .<088>} {You are standing in one of the old dwarven tunnels.  The granite walls are rough and clean\; being free of both dust and blood.  There is a faint breeze from the east and the west opens into a glory hole. } {Unset} {} {Underground} {} {1.000} {}
-E { 4644} {e} {e} {2} {0} {} {1.000}
-E { 4647} {n} {n} {1} {0} {} {1.000}
-E { 5232} {w} {w} {8} {0} {} {1.000}
-
-R { 4647} {0} {<148>} {In the Old Tunnels} {<148>. .<088>} {This north-south passage was evidently formed from the rough granite as the dwarves were burrowing their tunnels in search of wealth.  The rough granite walls are covered in a thin layer of dust, as is the floor of the tunnel. } {Unset} {} {Underground} {} {1.000} {}
-E { 4646} {s} {s} {4} {0} {} {1.000}
-
-R { 4648} {0} {<aca>} {Off the Southwestern Trail} {<aca>( *<088>} {You are taking a big risk leaving the trail this close to the Ranger Station.  The Park Ranger could spot you easily here.  He strongly frowns on people poaching in his woods. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
+E { 4644} {w} {w} {8} {0} {} {1.000}
 E { 4645} {s} {s} {4} {0} {} {1.000}
-E { 4069} {e} {e} {2} {0} {} {1.000}
 
-R { 4649} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E { 4070} {u} {u} {16} {0} {} {1.000}
+R { 4644} {0} {<148>} {In the Old Tunnels} {<148>. .<088>} {You are standing in one of the old dwarven tunnels.  The granite walls are rough and clean\; being free of both dust and blood.  There is a faint breeze from the east and the west opens into a glory hole. } {Unset} {} {Underground} {} {1.000} {}
+E { 4643} {e} {e} {2} {0} {} {1.000}
+E { 4646} {n} {n} {1} {0} {} {1.000}
 
-R { 4650} {0} {<aca>} {Northwestern Trail} {<aca>( *<088>} {You are still on the trail, but looking to the north now, you see a huge mountain, who's top is lost amidst the clouds.  The trail continues on both to the north and the south of here. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 4070} {s} {s} {4} {0} {} {1.000}
-E { 5233} {e} {e} {2} {0} {} {1.000}
-E { 5238} {n} {n} {1} {0} {} {1.000}
-E { 5239} {w} {w} {8} {0} {} {1.000}
+R { 4645} {0} {<148>} {In the Old Tunnels} {<148>. .<088>} {You are in a dead end alcove off of the old dwarven tunnels.  The wall to the south shows chisel marks as though it were going to be opened into a longer tunnel, but work was stopped for some reason.  To the north, the air carries the scent of outdoors and the sound of a brook. } {Unset} {} {Underground} {} {1.000} {}
+E { 4643} {n} {n} {1} {0} {} {1.000}
+
+R { 4646} {0} {<148>} {In the Old Tunnels} {<148>. .<088>} {This north-south passage was evidently formed from the rough granite as the dwarves were burrowing their tunnels in search of wealth.  The rough granite walls are covered in a thin layer of dust, as is the floor of the tunnel. } {Unset} {} {Underground} {} {1.000} {}
+E { 4644} {s} {s} {4} {0} {} {1.000}
+E { 4647} {n} {n} {1} {0} {} {1.000}
+
+R { 4647} {0} {<148>} {In the Old Tunnels} {<148>. .<088>} {You are in a junction of the old dwarven tunnels.  There are passages leading north, south, and west.  The old granite walls are rough here and covered in a light layer of dust. } {Unset} {} {Underground} {} {1.000} {}
+E { 4646} {s} {s} {4} {0} {} {1.000}
+E { 4648} {n} {n} {1} {0} {} {1.000}
+E { 4649} {w} {w} {8} {0} {} {1.000}
+
+R { 4648} {0} {<148>} {In the Old Tunnels} {<148>. .<088>} {The dwarven tunnel dead ends here.  The wall to the north bears chisel marks as though the dwarves meant to continue their explorations when they were interrupted.  The floor is covered with a scattering of bones as though several bodies were dismembered here. } {Unset} {} {Underground} {} {1.000} {}
+E { 4647} {s} {s} {4} {0} {} {1.000}
+
+R { 4649} {0} {<148>} {In the Old Tunnels} {<148>. .<088>} {The walls of this rough hewn passage are made of solid granite as is the floor\; and both are covered in a thick layer of dust.  The passage continues to the east and ends in a glory hole to the south. } {Unset} {} {Underground} {} {1.000} {}
+E { 4647} {e} {e} {2} {0} {} {1.000}
+E { 4650} {s} {s} {4} {0} {} {1.000}
+
+R { 4650} {0} {<148>} {In the Glory Hole} {<148>. .<088>} {You are standing in the northeast corner of the great glory hole.  The solid granite wall soars over you to incredible heights and is lost in the shadows overhead.  To the north, there is a tunnel entrance. } {Unset} {} {Underground} {} {1.000} {}
+E { 4649} {n} {n} {1} {0} {} {1.000}
 
 R { 4651} {0} {<278>} {Inside the Hut} {<278>[ ]<088>} {You have entered a native's hut.  No one seems alarmed at your presence, but they do seem to ignore you.  Then again, they also pay no heed to the animals wandering in and out of here either. } {The Native Village} {} {Inside} {} {1.000} {}
 E { 3625} {w} {w} {8} {0} {} {1.000}
@@ -21446,11 +21433,9 @@ E { 5053} {e} {e} {2} {0} {} {1.000}
 R { 5063} {0} {<148>} {Before the Falls} {<148>~ ~<088>} {The water is starting to speed up again, but the waves aren't crashing around like the last stretch of rapids.  Although the thundering noise to the east is deafening you are starting to think they may not be rapids but something a lot more dreadful.  The bushes to the north might allow a quick cut through to where the river loops back around. } {Unset} {} {River} {} {1.000} {}
 E { 5052} {d} {d} {32} {0} {} {1.000}
 E { 5064} {w} {w} {8} {0} {} {1.000}
-E { 5305} {e} {e} {2} {0} {} {1.000}
 
 R { 5064} {0} {<148>} {River} {<148>~ ~<088>} {The water is still moving at the same rate of speed here and the thundering noise from the east is getting a lot louder.  There must be some real thick rapids ahead to the east, you start to moan at the thought of entering another stretch of rapids. } {Unset} {} {River} {} {1.000} {}
 E { 5063} {e} {e} {2} {0} {} {1.000}
-E { 5303} {w} {w} {8} {0} {} {1.000}
 
 R { 5065} {0} {<278>} {Western Receiving Room} {<278>[ ]<088>} {A door lies to the west of here that has a small sign on it.  It is in a language that you don't seem to be able to make out.  It must be some kind of magical writing of some sort.  There is a small table in the corner of this end.  On it lies a few candles and a book. } {Dark Temple} {} {Inside} {} {1.000} {}
 E { 3945} {e} {e} {2} {0} {} {1.000}
@@ -21998,7 +21983,7 @@ E { 5200} {s} {s} {4} {0} {} {1.000}
 R { 5200} {0} {<278>} {Central Courtyard} {<278>[ ]<088>} {This large central courtyard is surrounded by giant walls on each side. Large archways are set into each of the walls, leading every direction. } {The Great Eastern Desert} {} {Inside} {} {1.000} {}
 E { 5199} {n} {n} {1} {0} {} {1.000}
 
-R { 5201} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 5201} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 4362} {n} {n} {1} {0} {} {1.000}
 E { 4361} {s} {s} {4} {0} {} {1.000}
 
@@ -22007,7 +21992,7 @@ E { 3610} {s} {unlock iron;open iron;s} {4} {0} {} {1.000}
 E { 5204} {w} {unlock iron;open iron west;w} {8} {0} {} {1.000}
 E { 5207} {n} {n} {1} {0} {} {1.000}
 
-R { 5203} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 5203} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 4361} {w} {w} {8} {0} {} {1.000}
 E { 3610} {e} {e} {2} {0} {} {1.000}
 
@@ -22022,7 +22007,7 @@ E { 5208} {e} {e} {2} {0} {} {1.000}
 R { 5206} {0} {<278>} {Weapon Forge} {<278>[ ]<088>} {A giant chimney climbs out of the ceiling far above\; beneath it a roaring fire heats the space from a stonewalled pit at the rooms center.  Anvils, baffles, and racks of giant weapons in various states of completion lie about the room.  A pair of double doors lead south, into the hallway. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 5205} {s} {s} {4} {0} {} {1.000}
 
-R { 5207} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 5207} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 5205} {n} {n} {1} {0} {} {1.000}
 E { 5202} {s} {s} {4} {0} {} {1.000}
 
@@ -22031,7 +22016,7 @@ E { 5205} {w} {w} {8} {0} {} {1.000}
 E { 5210} {s} {s} {4} {0} {} {1.000}
 E { 5211} {e} {unl door east;open door east;e} {2} {0} {} {1.000}
 
-R { 5209} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 5209} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 3610} {w} {w} {8} {0} {} {1.000}
 E { 3609} {e} {e} {2} {0} {} {1.000}
 
@@ -22091,15 +22076,15 @@ E { 5217} {w} {w} {8} {0} {} {1.000}
 E { 5222} {s} {s} {4} {0} {} {1.000}
 E { 5224} {n} {n} {1} {0} {} {1.000}
 
-R { 5222} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 5222} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 5221} {n} {n} {1} {0} {} {1.000}
 E { 5220} {sw} {sw} {12} {0} {} {1.000}
 
-R { 5223} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 5223} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 5220} {s} {s} {4} {0} {} {1.000}
 E { 5217} {n} {n} {1} {0} {} {1.000}
 
-R { 5224} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 5224} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 5218} {w} {w} {8} {0} {} {1.000}
 E { 5221} {s} {s} {4} {0} {} {1.000}
 
@@ -22111,807 +22096,9 @@ E { 5227} {n} {n} {1} {0} {} {1.000}
 E { 5220} {e} {e} {2} {0} {} {1.000}
 E { 5228} {w} {w} {8} {0} {} {1.000}
 
-R { 5227} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 5227} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 5226} {s} {s} {4} {0} {} {1.000}
 E { 5216} {n} {n} {1} {0} {} {1.000}
 
 R { 5228} {0} {} {You Mess With the Bull You Get the Horns} {<fba>DT!<ccc>} {A gritty white sand covers this room with numerous broken bones littered about.  Moving further into the room a thunderous roar vibrates your entire body.  Feeling a brush of wind, you glance to the south with just enough time to see and hear the chains from a ceiling mounted battering ram with a minotaur skull face come crashing through your body.  As your torso flies away from your still standing legs and the room starts to fade, you see your hard won gear being crushed and scattered about the room. } {Minotaur Temple} {} {Underground} {} {1.000} {}
 E { 5226} {e} {e} {2} {0} {} {1.000}
-
-R { 5229} {0} {<148>} {In the Glory Hole} {<148>. .<088>} {You are standing in the northeast corner of the great glory hole.  The solid granite wall soars over you to incredible heights and is lost in the shadows overhead.  To the north, there is a tunnel entrance. } {Unset} {} {Underground} {} {1.000} {}
-E { 5230} {w} {w} {8} {0} {} {1.000}
-E { 5232} {s} {s} {4} {0} {} {1.000}
-
-R { 5230} {0} {<148>} {In the Glory Hole} {<148>. .<088>} {Extending to the south, east, and west of you is the expanse of the great dwarven glory hole.  The wall soars over your head into the shadows gathered around the ceiling that the lighting crystal just cannot dispel fully. } {Unset} {} {Underground} {} {1.000} {}
-E { 5229} {e} {e} {2} {0} {} {1.000}
-E { 5231} {s} {s} {4} {0} {} {1.000}
-E { 5235} {u} {u} {16} {0} {} {1.000}
-
-R { 5231} {0} {<148>} {In the Glory Hole} {<148>. .<088>} {You are standing in the center of the great dwarven glory hole.  You can make out the walls only by squinting into the shadows.  High overhead, you can see the great lighting crystal that allows light to pass in from the outside of the mountain.  Engraved on the floor is the symbol of the Mordain clan, which it is rumored that they stole from the god of the ancient ones who lived beneath the mountain before the dwarves existed. } {Unset} {} {Underground} {} {1.000} {}
-E { 5230} {n} {n} {1} {0} {} {1.000}
-E { 5232} {e} {e} {2} {0} {} {1.000}
-E { 5236} {u} {u} {16} {0} {} {1.000}
-
-R { 5232} {0} {<148>} {In the Old Tunnels} {<148>. .<088>} {The walls of this rough hewn passage are made of solid granite as is the floor\; and both are covered in a thick layer of dust.  The passage continues to the east and ends in a glory hole to the south. } {Unset} {} {Underground} {} {1.000} {}
-E { 5231} {w} {w} {8} {0} {} {1.000}
-E { 5229} {n} {n} {1} {0} {} {1.000}
-E { 5234} {u} {u} {16} {0} {} {1.000}
-E { 4646} {e} {e} {2} {0} {} {1.000}
-
-R { 5233} {0} {<aca>} {Off the Northwestern Trail} {<aca>( *<088>} {Once again, you have decided to risk the wrath of the Park Ranger.  Normally he is a really nice guy, but you are pushing your luck.  He really hates poachers. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 4650} {w} {w} {8} {0} {} {1.000}
-E { 5237} {n} {n} {1} {0} {} {1.000}
-
-R { 5234} {0} {<268>} {In the Air} {<268>. .<088>} {Able to rest in the air above the carnage raging beneath you, you place your back to the eastern wall of the glory hole and contemplate this huge cavern.  The dwarves were able to perform some pretty incredible construction for little guys without wings.  Each chisel mark was a triumph at this height above the ground. } {Unset} {} {Air} {} {1.000} {}
-E { 5232} {d} {d} {32} {0} {} {1.000}
-E { 5236} {w} {w} {8} {0} {} {1.000}
-
-R { 5235} {0} {<268>} {In the Air} {<268>. .<088>} {Resting above the northern side of the glory hole, you almost have time to reflect upon your adventures\; then you notice the roosts on the ceiling look to be recently used!  Perhaps this is not such a good place to rest? } {Unset} {} {Air} {} {1.000} {}
-E { 5230} {d} {d} {32} {0} {} {1.000}
-E { 5236} {s} {s} {4} {0} {} {1.000}
-
-R { 5236} {0} {<268>} {In the Air} {<268>. .<088>} {You are in the air directly beneath the huge lighting crystal embedded in the cavern ceiling.  You can even catch glimpses of the sky outside through its facets.  Suddenly, you realize how exposed you are\; attack could come from every side!  You have an overwhelming impulse to take cover and hide. } {Unset} {} {Air} {} {1.000} {}
-E { 5231} {d} {d} {32} {0} {} {1.000}
-E { 5234} {e} {e} {2} {0} {} {1.000}
-E { 5235} {n} {n} {1} {0} {} {1.000}
-
-R { 5237} {0} {<aca>} {Off the Northwestern Trail} {<aca>( *<088>} {Once again, you have decided to risk the wrath of the Park Ranger.  Normally he is a really nice guy, but you are pushing your luck.  He really hates poachers. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5233} {s} {s} {4} {0} {} {1.000}
-E { 5238} {w} {w} {8} {0} {} {1.000}
-
-R { 5238} {0} {<aca>} {Northwestern Trail} {<aca>( *<088>} {You are still on the trail, but as you look ahead, you see that to the north, it bends off to one side.  At this point however, it still runs straight to the north and south. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5237} {e} {e} {2} {0} {} {1.000}
-E { 4650} {s} {s} {4} {0} {} {1.000}
-E { 5240} {w} {w} {8} {0} {} {1.000}
-E { 5241} {n} {n} {1} {0} {} {1.000}
-
-R { 5239} {0} {<aca>} {Off the Northwestern Trail} {<aca>( *<088>} {Once again, you have decided to risk the wrath of the Park Ranger.  Normally he is a really nice guy, but you are pushing your luck.  He really hates poachers. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 4650} {e} {e} {2} {0} {} {1.000}
-E { 5240} {n} {n} {1} {0} {} {1.000}
-
-R { 5240} {0} {<aca>} {Off the Northwestern Trail} {<aca>( *<088>} {Once again, you have decided to risk the wrath of the Park Ranger.  Normally he is a really nice guy, but you are pushing your luck.  He really hates poachers. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5239} {s} {s} {4} {0} {} {1.000}
-E { 5238} {e} {e} {2} {0} {} {1.000}
-
-R { 5241} {0} {<aca>} {Northwestern Bend} {<aca>( *<088>} {You are on a bend in the trail.  It leads east and back south toward the Ranger Post. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5238} {s} {s} {4} {0} {} {1.000}
-E { 5242} {e} {e} {2} {0} {} {1.000}
-E { 5299} {n} {n} {1} {0} {} {1.000}
-E { 5301} {w} {w} {8} {0} {} {1.000}
-
-R { 5242} {0} {<aca>} {Just Past the Bend} {<aca>( *<088>} {You are on the trail heading east.  It appears that there is something blocking the way off in the distance. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5241} {w} {w} {8} {0} {} {1.000}
-E { 5243} {n} {n} {1} {0} {} {1.000}
-E { 5245} {e} {e} {2} {0} {} {1.000}
-
-R { 5243} {0} {<aca>} {Off the Northern Trail} {<aca>( *<088>} {You try to forge your way straight through to the foothills of the mountain north of here, but you can't get through the thick vegetation.  Try following the trail. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5242} {s} {s} {4} {0} {} {1.000}
-E { 5244} {e} {e} {2} {0} {} {1.000}
-
-R { 5244} {0} {<aca>} {A doe walks in from the south.} {<aca>( *<088>} {H:647/656 M:141/141 V:352/372 XP:1931683 C:*> Off the Northern Trail    You try to forge your way straight through to the foothills of the mountain north of here, but you can't get through the thick vegetation.  Try following the trail. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5243} {w} {w} {8} {0} {} {1.000}
-E { 5245} {s} {s} {4} {0} {} {1.000}
-
-R { 5245} {0} {<aca>} {Trail in the Forest} {<aca>( *<088>} {You are hiking along the nature trail, and can see animals all around you. You marvel in the different species of trees that grow in the forest.  The trail continues to the east and back west. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5244} {n} {n} {1} {0} {} {1.000}
-E { 5242} {w} {w} {8} {0} {} {1.000}
-E { 5246} {e} {e} {2} {0} {} {1.000}
-
-R { 5246} {0} {<aca>} {Northern Trail} {<aca>( *<088>} {You are on the trail.  It veers south here to go around a really massive elm tree.  You can see the Ranger Station south and west of here. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5245} {w} {w} {8} {0} {} {1.000}
-E { 5247} {s} {s} {4} {0} {} {1.000}
-
-R { 5247} {0} {<aca>} {Trail Around the Elm} {<aca>( *<088>} {You are on the trail.  You are passing just south of the massive elm tree which seems to dominate this part of the forest.  It is so large that it obstructs your view of the mountain to the north.  The trail continues to the east and back west. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5246} {n} {n} {1} {0} {} {1.000}
-E { 5248} {e} {e} {2} {0} {} {1.000}
-E { 5256} {s} {s} {4} {0} {} {1.000}
-
-R { 5248} {0} {<aca>} {Trail Around the Elm} {<aca>( *<088>} {You are on the trail.  The mountain is coming back into view now.  You can see the sharp southern cliff well from this angle.  The trail continues north and back south from here. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5247} {w} {w} {8} {0} {} {1.000}
-E { 5249} {n} {n} {1} {0} {} {1.000}
-E { 5257} {s} {s} {4} {0} {} {1.000}
-E { 5258} {e} {e} {2} {0} {} {1.000}
-
-R { 5249} {0} {<aca>} {Trail Leading Away From the Elm} {<aca>( *<088>} {You continue walking down the trail, as it starts to curve back to the east. From here, you finally get a good look at the flower-covered foothills which surround the base of the huge mountain.  The trail continues on to the east, and back to the south. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5248} {s} {s} {4} {0} {} {1.000}
-E { 5250} {n} {n} {1} {0} {} {1.000}
-E { 5252} {e} {e} {2} {0} {} {1.000}
-
-R { 5250} {0} {<aca>} {Wilderness} {<aca>( *<088>} {You have strayed away from the trail.  The animals are looking at you like you are their next meal.  You aren't sure who you should be more afraid of, them or the Park Ranger. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5249} {s} {s} {4} {0} {} {1.000}
-E { 5251} {e} {e} {2} {0} {} {1.000}
-
-R { 5251} {0} {<aca>} {Wilderness} {<aca>( *<088>} {You have strayed away from the trail.  The animals are looking at you like you are their next meal.  You aren't sure who you should be more afraid of, them or the Park Ranger. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5250} {w} {w} {8} {0} {} {1.000}
-E { 5252} {s} {s} {4} {0} {} {1.000}
-
-R { 5252} {0} {<aca>} {Northeastern Trail} {<aca>( *<088>} {You are on the trail, which seems to be working it's way out of the forest. The trail continues east and back west. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5251} {n} {n} {1} {0} {} {1.000}
-E { 5249} {w} {w} {8} {0} {} {1.000}
-E { 5255} {e} {e} {2} {0} {} {1.000}
-E { 5258} {s} {s} {4} {0} {} {1.000}
-
-R { 5253} {0} {<aca>} {Northeastern Trail} {<aca>( *<088>} {You are still walking along the trail, which seems to be heading into the foothills of the great mountain to the north.  You can either keep following it as you're doing, or head back to the west. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5255} {w} {w} {8} {0} {} {1.000}
-E { 5254} {n} {n} {1} {0} {} {1.000}
-E { 5298} {sw} {sw} {12} {0} {} {1.000}
-
-R { 5254} {0} {<aca>} {Northern Trail} {<aca>( *<088>} {You continue walking down the trail, which continues on out of the forest to the south, and onward to the mountain to the north. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5253} {s} {s} {4} {0} {} {1.000}
-E { 5259} {w} {w} {8} {0} {} {1.000}
-E { 5260} {n} {n} {1} {0} {} {1.000}
-E { 5295} {e} {e} {2} {0} {} {1.000}
-
-R { 5255} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 5253} {e} {e} {2} {0} {} {1.000}
-E { 5252} {w} {w} {8} {0} {} {1.000}
-
-R { 5256} {0} {<aca>} {Into the Heart of the Forest} {<aca>( *<088>} {You are headed into the heart of the forest.  You are having a difficult time making it further inward.  Suddenly you hear a bone chilling roar from that direction and decide that it would be safer on the trail. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5247} {n} {n} {1} {0} {} {1.000}
-E { 5257} {e} {e} {2} {0} {} {1.000}
-
-R { 5257} {0} {<aca>} {Into the Heart of the Forest} {<aca>( *<088>} {You are headed into the heart of the forest.  You are having a difficult time making it further inward.  Suddenly you hear a bone chilling roar from that direction and decide that it would be safer on the trail. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5256} {w} {w} {8} {0} {} {1.000}
-E { 5248} {n} {n} {1} {0} {} {1.000}
-
-R { 5258} {0} {<aca>} {Wilderness} {<aca>( *<088>} {You have strayed away from the trail.  The animals are looking at you like you are their next meal.  You aren't sure who you should be more afraid of, them or the Park Ranger. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5248} {w} {w} {8} {0} {} {1.000}
-E { 5252} {n} {n} {1} {0} {} {1.000}
-E { 5298} {e} {e} {2} {0} {} {1.000}
-
-R { 5259} {0} {<aca>} {Off the Northern Trail} {<aca>( *<088>} {Thick vegetation prevents passage to the foothills of the northern mountains.  Green and brown underbrush has grown into a solid wall of lush plant life.  One large oak tree rises above the verdant ground.  The oak is humongous, standing above everything that surrounds it except the mountain range in whose shadow it stands. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5254} {e} {e} {2} {0} {} {1.000}
-
-R { 5260} {0} {<aca>} {Trail Leaving the Forest} {<aca>( *<088>} {You are on the nature trail, which leads towards the edge of the forest. You are getting a really good view of the mountain from here, including a large ominous looking cliff on the southern face. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5254} {s} {s} {4} {0} {} {1.000}
-E { 5261} {n} {n} {1} {0} {} {1.000}
-
-R { 5261} {0} {<aca>} {Almost at the Edge of the Forest} {<aca>( *<088>} {You can see the edge of the forest from here.  The animals of the forest tend to shy away from this area, prefering instead the safety of the inner forest. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5260} {s} {s} {4} {0} {} {1.000}
-E { 5262} {n} {n} {1} {0} {} {1.000}
-
-R { 5262} {0} {<aca>} {Edge of the Forest} {<aca>( *<088>} {You find yourself at the edge of the forest.  Beyond here are the foothills of a solitary mountain peak.  The trail continues up. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5261} {s} {s} {4} {0} {} {1.000}
-E { 5263} {u} {u} {16} {0} {} {1.000}
-
-R { 5263} {0} {<228>} {Into the Foothills} {<228>. ^<088>} {You have ascended out of the forest and into the rolling foothills of the majestic mountain above you.  The trees have thinned out considerably.  You see prairies full of wild grasses and flowers spreading out before you. } {Southern Forest Trail} {} {Hills} {} {1.000} {}
-E { 5262} {d} {d} {32} {0} {} {1.000}
-E { 5264} {n} {n} {1} {0} {} {1.000}
-
-R { 5264} {0} {<228>} {In the Foothills} {<228>. ^<088>} {You stroll through the rolling hills leading up to the mountain overhead. The grass seems to grow a little better and the flowers a little brighter above the canopy of the forest below. } {Southern Forest Trail} {} {Hills} {} {1.000} {}
-E { 5263} {s} {s} {4} {0} {} {1.000}
-E { 5265} {u} {u} {16} {0} {} {1.000}
-
-R { 5265} {0} {<228>} {In the Foothills} {<228>. ^<088>} {You stroll through the rolling hills leading up to the mountain overhead. The grass seems to grow a little better and the flowers a little brighter above the canopy of the forest below. } {Southern Forest Trail} {} {Hills} {} {1.000} {}
-E { 5264} {d} {d} {32} {0} {} {1.000}
-E { 5266} {n} {n} {1} {0} {} {1.000}
-
-R { 5266} {0} {<228>} {Top of the Foothills} {<228>. ^<088>} {You have reached the highest part of the foothills, and are directly below the base of the mountain itself.  This trail is turning into quite a workout. There must be something well worth the effort at the end of the trail. } {Southern Forest Trail} {} {Hills} {} {1.000} {}
-E { 5265} {s} {s} {4} {0} {} {1.000}
-E { 5267} {u} {u} {16} {0} {} {1.000}
-
-R { 5267} {0} {<238>} {Path Around the Base of the Mountain} {<238>/ \<088>} {You are on a small trail meandering around the base of a lone mountain.  The top of the mountain is lost in the clouds overhead. } {Southern Forest Trail} {} {Mountains} {} {1.000} {}
-E { 5266} {d} {d} {32} {0} {} {1.000}
-E { 5268} {w} {w} {8} {0} {} {1.000}
-
-R { 5268} {0} {<238>} {Path Along the Northern Face} {<238>/ \<088>} {You are on a trail along the northern face of the mountain.  Above you, you see a variety of mountain dwelling animals seemingly mocking your inability to scale the mountain. } {Southern Forest Trail} {} {Mountains} {} {1.000} {}
-E { 5267} {e} {e} {2} {0} {} {1.000}
-E { 5269} {w} {w} {8} {0} {} {1.000}
-
-R { 5269} {0} {<238>} {Beginning of the Detour} {<238>/ \<088>} {The trail before you comes abruptly to a halt.  There is a large pile of debris fallen across the trail.  The path has been diverted to the north. There is a small sign here. } {Southern Forest Trail} {} {Mountains} {} {1.000} {}
-E { 5268} {e} {e} {2} {0} {} {1.000}
-E { 5270} {n} {n} {1} {0} {} {1.000}
-
-R { 5270} {0} {<238>} {Detour Around the Rock Slide} {<238>/ \<088>} {You are heading away from the mountain here.  There is a large variety of rocks making up the slide, from pebbles to large boulders.  It makes quite an obstacle to walk around. } {Southern Forest Trail} {} {Mountains} {} {1.000} {}
-E { 5269} {s} {s} {4} {0} {} {1.000}
-E { 5271} {w} {w} {8} {0} {} {1.000}
-
-R { 5271} {0} {<238>} {Detour Around the Rock Slide} {<238>/ \<088>} {The path is beginning to veer back toward the mountain now, you must be nearing the end of the Detour. } {Southern Forest Trail} {} {Mountains} {} {1.000} {}
-E { 5270} {e} {e} {2} {0} {} {1.000}
-E { 5272} {s} {s} {4} {0} {} {1.000}
-
-R { 5272} {0} {<238>} {End of the Detour} {<238>/ \<088>} {You rejoin the older trail here.  Thoughts of another rock slide make you slightly wary, but you soon forget your fears as you explore further down the trail. } {Southern Forest Trail} {} {Mountains} {} {1.000} {}
-E { 5271} {n} {n} {1} {0} {} {1.000}
-E { 5273} {w} {w} {8} {0} {} {1.000}
-
-R { 5273} {0} {<238>} {Path Around the Northern Face} {<238>/ \<088>} {You are on a trail around the mountain.  Further west you see a large feature running up the side of the mountain.  Unfortunately, it is too far away to really get a good view of what it is. } {Southern Forest Trail} {} {Mountains} {} {1.000} {}
-E { 5272} {e} {e} {2} {0} {} {1.000}
-E { 5274} {w} {w} {8} {0} {} {1.000}
-
-R { 5274} {0} {<238>} {Path at the Spine} {<238>/ \<088>} {You are directly below the ridge that runs up the northwest face of the mountain.  It has been named the Spine by the locals because of its resemblance to a backbone sticking up on the back of the mountain. } {Southern Forest Trail} {} {Mountains} {} {1.000} {}
-E { 5273} {e} {e} {2} {0} {} {1.000}
-E { 5275} {s} {s} {4} {0} {} {1.000}
-
-R { 5275} {0} {<238>} {Path Along the West Face} {<238>/ \<088>} {You are on a small trail meandering around the base of the mountain.  You can still see the Spine from this point, with its ominous ridge sticking up like the backbone of an ancient giant. } {Southern Forest Trail} {} {Mountains} {} {1.000} {}
-E { 5274} {n} {n} {1} {0} {} {1.000}
-E { 5276} {s} {s} {4} {0} {} {1.000}
-
-R { 5276} {0} {<238>} {Path Around the West Face} {<238>/ \<088>} {You are on the west face of the mountain now.  The top of the mountain is lost among the clouds above.  The side of the mountain looks like it may be climbable here. } {Southern Forest Trail} {} {Mountains} {} {1.000} {}
-E { 5275} {n} {n} {1} {0} {} {1.000}
-E { 5277} {u} {u} {16} {0} {} {1.000}
-E { 5285} {s} {s} {4} {0} {} {1.000}
-
-R { 5277} {0} {<278>} {Path on the Mountain} {<278>[ ]<088>} {You are on a path on the side of the mountain.  It looks like a long way to the top from here.  You can see the top of the mountain disappear into the clouds. } {Southern Forest Trail} {} {Inside} {} {1.000} {}
-E { 5276} {d} {d} {32} {0} {} {1.000}
-E { 5278} {s} {s} {4} {0} {} {1.000}
-
-R { 5278} {0} {<278>} {Path on the Mountain} {<278>[ ]<088>} {You are on a path on the side of the mountain.  It seems like a long hike to the top from here.  The path back down the mountain seems like it would be a lot easier. } {Southern Forest Trail} {} {Inside} {} {1.000} {}
-E { 5277} {n} {n} {1} {0} {} {1.000}
-E { 5279} {u} {u} {16} {0} {} {1.000}
-
-R { 5279} {0} {<278>} {Halfway Up} {<278>[ ]<088>} {You are about halfway up the mountain now.  You can see the peak off in the distance above you. } {Southern Forest Trail} {} {Inside} {} {1.000} {}
-E { 5278} {d} {d} {32} {0} {} {1.000}
-E { 5280} {n} {n} {1} {0} {} {1.000}
-
-R { 5280} {0} {<278>} {Worn Path} {<278>[ ]<088>} {You are on a path worn into the bare rock of the mountain.  The plants up here have become smaller and wind bent, showing the years that they have survived the harsh winds.  It appears that they are trying to hug the ground for warmth. } {Southern Forest Trail} {} {Inside} {} {1.000} {}
-E { 5279} {s} {s} {4} {0} {} {1.000}
-E { 5281} {e} {e} {2} {0} {} {1.000}
-
-R { 5281} {0} {<278>} {Worn Path Near the Top} {<278>[ ]<088>} {The worn trail continues its climb up the mountain.  You are at the snow line.  The plants are starting to lose their battle with the harsh conditions at this altitude and are becoming more and more sparse. } {Southern Forest Trail} {} {Inside} {} {1.000} {}
-E { 5280} {w} {w} {8} {0} {} {1.000}
-E { 5282} {s} {s} {4} {0} {} {1.000}
-
-R { 5282} {0} {<278>} {Worn Path Near the Top} {<278>[ ]<088>} {The worn trail continues it's climb up the mountain.  You are at the snow line.  The plants are starting to lose their battle with the harsh conditions at this altitude and are becoming more and more sparse. } {Southern Forest Trail} {} {Inside} {} {1.000} {}
-E { 5281} {n} {n} {1} {0} {} {1.000}
-E { 5283} {w} {w} {8} {0} {} {1.000}
-
-R { 5283} {0} {<278>} {Almost at the Top} {<278>[ ]<088>} {You are almost at the top of the mountain, and the peak is visible just above you.  Your breath becomes labored as you struggle to breathe the thin mountain air.  The cold winds rip at your clothes, sending a chill down your back. } {Southern Forest Trail} {} {Inside} {} {1.000} {}
-E { 5282} {e} {e} {2} {0} {} {1.000}
-E { 5284} {u} {u} {16} {0} {} {1.000}
-
-R { 5284} {0} {<278>} {Mountain Peak} {<278>[ ]<088>} {You have finally reached the top of the mountain.  It is very cold here, and the ground is covered in pristine white snow.  Wisps of clouds float by far below you, giving you the feeling of being on top of the world...  until you glance upward.  A swirling vortex extends upward into a bank of ink-black clouds.  If only you could fly, you might be able to see where the vortex leads.    You are amazed to find a gnarled oak tree up here.  Sitting on one of the tree's branches is a golden-feathered owl, which fixes you with one of its } {Southern Forest Trail} {} {Inside} {} {1.000} {}
-E { 5283} {d} {d} {32} {0} {} {1.000}
-
-R { 5285} {0} {<238>} {Path Around the West Face} {<238>/ \<088>} {You are on a small trail meandering around the base of a lone mountain.  The top of the mountain is lost in the clouds overhead. } {Southern Forest Trail} {} {Mountains} {} {1.000} {}
-E { 5276} {n} {n} {1} {0} {} {1.000}
-E { 5286} {s} {s} {4} {0} {} {1.000}
-
-R { 5286} {0} {<238>} {Path at the Southwest Face} {<238>/ \<088>} {You find yourself at the western edge of the southern cliff face.  The cliff extends east from here and quite a ways up.  There are a few brave trees growing on the cliff face but that is the only thing that can survive on the sheer cliff. } {Southern Forest Trail} {} {Mountains} {} {1.000} {}
-E { 5285} {n} {n} {1} {0} {} {1.000}
-E { 5287} {e} {e} {2} {0} {} {1.000}
-
-R { 5287} {0} {<238>} {Path Along the Base of the Southern Cliff} {<238>/ \<088>} {You are on a small trail that follows the base of the southern cliff face. You can see the peak of the mountain just passing out of sight as you enter the shadow of the cliff. } {Southern Forest Trail} {} {Mountains} {} {1.000} {}
-E { 5286} {w} {w} {8} {0} {} {1.000}
-E { 5288} {e} {e} {2} {0} {} {1.000}
-
-R { 5288} {0} {<238>} {Path Under the Southern Cliff} {<238>/ \<088>} {You are on a small trail that runs along the base of the southern cliff. The cliff seems to slant outward at the top, looming over the path and leaving it in an ominous shadow. } {Southern Forest Trail} {} {Mountains} {} {1.000} {}
-E { 5287} {w} {w} {8} {0} {} {1.000}
-E { 5289} {e} {e} {2} {0} {} {1.000}
-
-R { 5289} {0} {<238>} {Path Under the Southern Cliff} {<238>/ \<088>} {You are on a small trail that runs along the base of the southern cliff. The cliff seems to slant outward at the top, looming over the path and leaving it in an ominous shadow. } {Southern Forest Trail} {} {Mountains} {} {1.000} {}
-E { 5288} {w} {w} {8} {0} {} {1.000}
-E { 5290} {e} {e} {2} {0} {} {1.000}
-
-R { 5290} {0} {<238>} {Path Along the Base of the Southern Cliff} {<238>/ \<088>} {You are on a small trail along the southern face.  You are at the edge of the shadow cast by the imposing cliff that dominates most of the southern part of the mountain.  You can now catch glimpses of the peak through the clouds. } {Southern Forest Trail} {} {Mountains} {} {1.000} {}
-E { 5289} {w} {w} {8} {0} {} {1.000}
-E { 5291} {e} {e} {2} {0} {} {1.000}
-
-R { 5291} {0} {<238>} {Path at the Southeast Face} {<238>/ \<088>} {You are on a small trail meandering around the base of the mountain.  From here you can see the southern cliff and the much more gradual slope of the eastern face.  It is still unclimbable here, but you see several animals among the sparse vegetation of the mountain. } {Southern Forest Trail} {} {Mountains} {} {1.000} {}
-E { 5290} {w} {w} {8} {0} {} {1.000}
-E { 5292} {n} {n} {1} {0} {} {1.000}
-
-R { 5292} {0} {<238>} {Path Along the Eastern Face} {<238>/ \<088>} {You are on a small trail along the base of the eastern face.  You are still unable to scale this portion of the mountain.  You marvel at the ease that some animals have in scrambling up the rocky face of the mountain to graze on the sparse plants. } {Southern Forest Trail} {} {Mountains} {} {1.000} {}
-E { 5291} {s} {s} {4} {0} {} {1.000}
-E { 5293} {n} {n} {1} {0} {} {1.000}
-
-R { 5293} {0} {<238>} {} {<238>/ \<088>} {} {Southern Forest Trail} {} {} {} {1.000} {}
-E { 5292} {s} {s} {4} {0} {} {1.000}
-E { 5294} {w} {w} {8} {0} {} {1.000}
-
-R { 5294} {0} {} {} {?} {} {Southern Forest Trail} {} {} {} {1.000} {}
-E { 5293} {e} {e} {2} {0} {} {1.000}
-
-R { 5295} {0} {<aca>} {Off the Trail} {<aca>( *<088>} {You have strayed away from the trail.  The animals begin to eye you hungrily.  You better get back to the trail before the Park Ranger spots you. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5254} {w} {w} {8} {0} {} {1.000}
-E { 5296} {e} {e} {2} {0} {} {1.000}
-
-R { 5296} {0} {<aca>} {Further Off the Trail} {<aca>( *<088>} {You have really wandered off now.  The Park Ranger will have you thrown out if he catches you all the way back here! } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5295} {w} {w} {8} {0} {} {1.000}
-E { 5297} {e} {e} {2} {0} {} {1.000}
-
-R { 5297} {0} {} {} {END} {} {} {} {} {} {1.000} {}
-E { 5296} {w} {w} {8} {0} {} {1.000}
-
-R { 5298} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 5258} {w} {w} {8} {0} {} {1.000}
-E { 5253} {ne} {ne} {3} {0} {} {1.000}
-
-R { 5299} {0} {<aca>} {Wilderness} {<aca>( *<088>} {You have strayed away from the trail.  The animals are looking at you like you are their next meal.  You aren't sure who you should be more afraid of, them or the Park Ranger. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5241} {s} {s} {4} {0} {} {1.000}
-E { 5300} {w} {w} {8} {0} {} {1.000}
-
-R { 5300} {0} {<aca>} {Wilderness} {<aca>( *<088>} {You have strayed away from the trail.  The animals are looking at you like you are their next meal.  You aren't sure who you should be more afraid of, them or the Park Ranger. } {Southern Forest Trail} {} {Forest} {} {1.000} {}
-E { 5299} {e} {e} {2} {0} {} {1.000}
-E { 5301} {s} {s} {4} {0} {} {1.000}
-
-R { 5301} {0} {<aca>} {} {<aca>( *<088>} {} {Southern Forest Trail} {} {} {} {1.000} {}
-E { 5300} {n} {n} {1} {0} {} {1.000}
-E { 5241} {e} {e} {2} {0} {} {1.000}
-E { 5302} {w} {w} {8} {0} {} {1.000}
-
-R { 5302} {0} {} {} {END} {} {Southern Forest Trail} {} {} {} {1.000} {}
-E { 5301} {e} {e} {2} {0} {} {1.000}
-
-R { 5303} {0} {<148>} {River} {<148>~ ~<088>} {The river has started to slow enough to where the waves aren't crashing around anymore.  It is still flowing pretty fast but that could be for different reasons.  However you hear a thundering noise to the east, it might be another section of rapids. } {Unset} {} {River} {} {1.000} {}
-E { 5064} {e} {e} {2} {0} {} {1.000}
-E { 5304} {w} {w} {8} {0} {} {1.000}
-
-R { 5304} {0} {<148>} {River} {<148>~ ~<088>} {The rapids are still pretty fierce here, but you think they are starting to calm down just a bit.  The waves aren't tossing you around like a rag doll anymore and you are starting to feel safer now. } {Unset} {} {River} {} {1.000} {}
-E { 5303} {e} {e} {2} {0} {} {1.000}
-
-R { 5305} {0} {<148>} {Waterfall} {<148>~ ~<088>} {You now know what the thundering noise was, it is a waterfall, you are slowly being drawn to it.  Try as hard as you might you cannot swim away from it, but constant swimming keeps you in one spot.  You will soon get tired and go over the edge. } {Unset} {} {River} {} {1.000} {}
-E { 5063} {w} {w} {8} {0} {} {1.000}
-E { 5052} {d} {d} {32} {0} {} {1.000}
-
-R { 5306} {0} {<aca>} {Under the Shade} {<aca>( *<088>} {The path twists around several large oaks, their branches casting shadows on the ground which twist around each other and form intricate, chaotic patterns of pure randomness.  The path goes deeper into the forest to the north. } {Willow Wood} {} {Forest} {} {1.000} {}
-E {  977} {e} {e} {2} {0} {} {1.000}
-E { 5307} {n} {n} {1} {0} {} {1.000}
-
-R { 5307} {0} {<aca>} {Under the Shade} {<aca>( *<088>} {The trees spread out from each other and a slight breeze picks up several leaves and scatters them around you.  The shadows are more widely spaced apart and light shines brightly through the branches in many places.  The path continues to the north and south. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5306} {s} {s} {4} {0} {} {1.000}
-E { 5308} {n} {n} {1} {0} {} {1.000}
-
-R { 5308} {0} {<aca>} {Beneath the Willows} {<aca>( *<088>} {The trees at this point lose their scattered appearance and begin to form neat orderly rows.  The path continues north into an orderly forest or to the south through some scattered trees and out of the woods.  A small village can be seen to the southwest. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5307} {s} {s} {4} {0} {} {1.000}
-E { 5309} {n} {n} {1} {0} {} {1.000}
-
-R { 5309} {0} {<aca>} {Willow Wood} {<aca>( *<088>} {A sense of peace and tranquility fills the area at the entrance to this large wood.  The trees here are all in nice orderly rows, each quite recently trimmed } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5308} {s} {s} {4} {0} {} {1.000}
-E { 5310} {n} {n} {1} {0} {} {1.000}
-
-R { 5310} {0} {<aca>} {Willow Wood} {<aca>( *<088>} {A path through Willow Wood leads to the north and south.  On each side of the path, rows of willow trees stand silent watch over all who pass this way. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5309} {s} {s} {4} {0} {} {1.000}
-E { 5311} {n} {n} {1} {0} {} {1.000}
-
-R { 5311} {0} {<aca>} {Willow Wood} {<aca>( *<088>} {The path through Willow Wood continues to the north and to the south.  East of here lies a small wooden building. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5310} {s} {s} {4} {0} {} {1.000}
-E { 5312} {e} {e} {2} {0} {} {1.000}
-E { 5313} {n} {n} {1} {0} {} {1.000}
-
-R { 5312} {0} {<278>} {Check Point} {<278>[ ]<088>} {This small wooden building is used as a checkpoint by the Willow Wood guard. A small selection of weapons decorates the walls.  The only furnishings in this room is a small group of chairs against the northern wall and a small wooden table in the center of this room. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5311} {w} {w} {8} {0} {} {1.000}
-
-R { 5313} {0} {<aca>} {Willow Wood} {<aca>( *<088>} {Woodland creatures flit through the trees above at this small clearing.  To the west of here, a dirt path leads through the Willow Wood. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5311} {s} {s} {4} {0} {} {1.000}
-E { 5314} {e} {e} {2} {0} {} {1.000}
-E { 5315} {w} {w} {8} {0} {} {1.000}
-
-R { 5314} {0} {<aca>} {A Small Clearing} {<aca>( *<088>} {Woodland creatures flit through the trees above at this small clearing.  To the west of here, a dirt path leads through the Willow Wood. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5313} {w} {w} {8} {0} {} {1.000}
-
-R { 5315} {0} {<aca>} {Willow Wood} {<aca>( *<088>} {The dirt path through Willow Wood leads east and west.  Ordered rows of willow trees stand sentry over all who come this way. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5313} {e} {e} {2} {0} {} {1.000}
-E { 5316} {w} {w} {8} {0} {} {1.000}
-
-R { 5316} {0} {<aca>} {Willow Wood} {<aca>( *<088>} {A cool breeze filters through the willow trees at this point in the path.  A small wooden building lies to the north, the guards keeping watch over their beloved woods. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5315} {e} {e} {2} {0} {} {1.000}
-E { 5317} {n} {n} {1} {0} {} {1.000}
-E { 5318} {s} {s} {4} {0} {} {1.000}
-E { 5324} {w} {w} {8} {0} {} {1.000}
-
-R { 5317} {0} {<278>} {Check Point} {<278>[ ]<088>} {This checkpoint appears to be seldom used.  The table and chairs have grown cracked and have begun to allow a small mold growth on their legs.  To the south of here lies a dirt path which leads through the Willow Wood. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5316} {s} {s} {4} {0} {} {1.000}
-
-R { 5318} {0} {<aca>} {Willow Wood} {<aca>( *<088>} {The dirt path continues to the north and west through the Willow Wood.  The rows of trees swaying with the breeze flowing in from the north. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5316} {n} {n} {1} {0} {} {1.000}
-E { 5319} {w} {w} {8} {0} {} {1.000}
-
-R { 5319} {0} {<aca>} {Willow Wood} {<aca>( *<088>} {The path through the Willow Wood leads east and west from here.  Small animals scamper about along the edges of the path, grabbing up berries and nuts along the way. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5318} {e} {e} {2} {0} {} {1.000}
-E { 5320} {w} {w} {8} {0} {} {1.000}
-
-R { 5320} {0} {<aca>} {Willow Wood} {<aca>( *<088>} {Rows of trees stringently force the path to the north and east.  A steady breeze flows in from the north, keeping the shady parts of Willow Wood cool. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5319} {e} {e} {2} {0} {} {1.000}
-E { 5321} {n} {n} {1} {0} {} {1.000}
-
-R { 5321} {0} {<aca>} {Willow Wood} {<aca>( *<088>} {The dirt path continues north and south through Willow Wood.  A steady breeze flowing in from the north.  Light from above filters through the treetops causing shadows to flit about regularly. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5320} {s} {s} {4} {0} {} {1.000}
-E { 5322} {n} {n} {1} {0} {} {1.000}
-
-R { 5322} {0} {<aca>} {Willow Wood} {<aca>( *<088>} {The path continues to the south and east.  A small wooden building lies just to the west of here.  These checkpoints spaced fairly regularly throughout the Willow Wood and used to keep order within this lovely place. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5321} {s} {s} {4} {0} {} {1.000}
-E { 5323} {e} {e} {2} {0} {} {1.000}
-E { 5325} {w} {w} {8} {0} {} {1.000}
-
-R { 5323} {0} {<aca>} {Willow Wood} {<aca>( *<088>} {Large berry bushes line the edges of the path, leading north and west. Small animals come by and grab juicy berries on their way.  Small birds fly about above, their song filtering down below. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5322} {w} {w} {8} {0} {} {1.000}
-E { 5326} {n} {n} {1} {0} {} {1.000}
-
-R { 5324} {0} {<aca>} {A Clearing} {<aca>( *<088>} {A cool breeze filters through the willow trees at this point in the path.  A small wooden building lies to the north, the guards keeping watch over their beloved woods. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5316} {e} {e} {2} {0} {} {1.000}
-
-R { 5325} {0} {<278>} {Check Point} {<278>[ ]<088>} {This wooden building serves as a checkpoint for the Willow Wood guardsmen. Two small cots sit along the southern wall, the blankets covering them made up nicely.  A small wooden footlocker lies on the western wall, storing the guards personal belongings. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5322} {e} {e} {2} {0} {} {1.000}
-
-R { 5326} {0} {<aca>} {Willow Wood} {<aca>( *<088>} {The path bends here, from south to west, leading on towards a wooden watch tower. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5323} {s} {s} {4} {0} {} {1.000}
-E { 5327} {w} {w} {8} {0} {} {1.000}
-
-R { 5327} {0} {<aca>} {Willow Wood} {<aca>( *<088>} {The dirt path continues to the east and west.  Just to the east lies a wooden shack.  Sounds of horses come in from the west, where stands a wooden building. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5326} {e} {e} {2} {0} {} {1.000}
-E { 5328} {w} {w} {8} {0} {} {1.000}
-
-R { 5328} {0} {<aca>} {Willow Wood} {<aca>( *<088>} {To the north of the dirt path there lies a wooden watch tower.  The path itself stretches east and west.  Shadows of birds cover the ground as they fly overhead. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5327} {e} {e} {2} {0} {} {1.000}
-E { 5329} {w} {w} {8} {0} {} {1.000}
-E { 5334} {n} {n} {1} {0} {} {1.000}
-
-R { 5329} {0} {<aca>} {Willow Wood} {<aca>( *<088>} {The path comes to an intersection here.  To the west of here lies a stables, the scent and sounds of horses coming from that direction.  To the south along the path lies a large mansion, the outsides of which are decorated with lavish elegance.  The path leads eastward back into Willow Wood. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5328} {e} {e} {2} {0} {} {1.000}
-E { 5330} {s} {s} {4} {0} {} {1.000}
-E { 5333} {w} {w} {8} {0} {} {1.000}
-
-R { 5330} {0} {<aca>} {Willow Wood} {<aca>( *<088>} {The path leads north and west from here.  To the south lies a small checkpoint building.  West of here lies a gigantic mansion.  The path to the north leads back into the Willow Wood. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5329} {n} {n} {1} {0} {} {1.000}
-E { 5331} {s} {s} {4} {0} {} {1.000}
-E { 5332} {w} {w} {8} {0} {} {1.000}
-
-R { 5331} {0} {<278>} {Check Point} {<278>[ ]<088>} {This checkpoint serves as a gatehouse for this large mansion.  The eastern wall in this room is lined with nearly a dozen cots.  It would appear that normally several guards are stationed here to keep watch over the mansion. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5330} {n} {n} {1} {0} {} {1.000}
-
-R { 5332} {0} {<aca>} {Willow Wood} {<aca>( *<088>} {The path ends here at a large oaken door.  The knocker on the door is made of pure ivory.  To the east of here the path leads into Willow Wood, long lines of trees guarding both sides. } {Willow Wood} {} {Forest} {} {1.000} {}
-E { 5330} {e} {e} {2} {0} {} {1.000}
-E { 5336} {w} {open oaken;w} {8} {0} {} {1.000}
-
-R { 5333} {0} {<278>} {Stable} {<278>[ ]<088>} {The scent of horse dung fills the air of these stables.  The prized horses of the willow guard reside here. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5329} {e} {e} {2} {0} {} {1.000}
-
-R { 5334} {0} {<278>} {Willow Wood} {<278>[ ]<088>} {The base floor of this watchtower is bare of any furnishings.  A small staircase leads around the perimeter to the upper floor where guards can keep watch over the Willow Wood. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5328} {s} {s} {4} {0} {} {1.000}
-E { 5335} {u} {u} {16} {0} {} {1.000}
-
-R { 5335} {0} {<278>} {Watch Tower} {<278>[ ]<088>} {The walls of this upper floor are made up of glass, forming one large window.  The guards of Willow Wood can keep an eye over the entire area from this room. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5334} {d} {d} {32} {0} {} {1.000}
-
-R { 5336} {0} {<278>} {Entrance} {<278>[ ]<088>} {The floor here is made of marble and covered with a gigantic plush rug.  To the north and south stretch torch-lined hallways.  To the west a spiral staircase leads to the upper floor of this beautiful mansion. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5332} {e} {open oaken;e} {2} {0} {} {1.000}
-E { 5337} {n} {n} {1} {0} {} {1.000}
-E { 5344} {s} {s} {4} {0} {} {1.000}
-
-R { 5337} {0} {<278>} {Hallway} {<278>[ ]<088>} {This large hallway stretches northward toward a large study area.  To the south of here is the main entryway to this beautiful mansion.  Torches on the walls of this area, oddly, do not give off any heat. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5336} {s} {s} {4} {0} {} {1.000}
-E { 5338} {n} {n} {1} {0} {} {1.000}
-
-R { 5338} {0} {<278>} {Hallway} {<278>[ ]<088>} {Torches line the walls on each side of this hallway, none of which give out any heat whatsoever.  The hallway continues south toward the mansion's entry. Following this hallway northward leads to a large study. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5337} {s} {s} {4} {0} {} {1.000}
-E { 5339} {n} {n} {1} {0} {} {1.000}
-
-R { 5339} {0} {<278>} {Hallway} {<278>[ ]<088>} {The torches on either side of this hallway lack any heat.  To the north of here lies a large study, while heading south down the hallway leads to a large entry hall.  Just to the east is what looks like a waiting room. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5338} {s} {s} {4} {0} {} {1.000}
-E { 5340} {e} {e} {2} {0} {} {1.000}
-E { 5341} {n} {n} {1} {0} {} {1.000}
-
-R { 5340} {0} {<278>} {Sitting Room} {<278>[ ]<088>} {This small sitting room is furnished with nearly a dozen plush chairs.  A hand crafted wooden table displays a bowl of fresh fruit. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5339} {w} {w} {8} {0} {} {1.000}
-
-R { 5341} {0} {<278>} {Study} {<278>[ ]<088>} {The majority of this room is taken up by a huge oaken desk.  Quill pens and parchment lie scattered about on the surface, small chicken-scratch writing covering its surface.  A small portrait of a redheaded girl hangs on the eastern wall.  To the west lies some sort of storage room, and to the south a large torch-lined hallway stretches for some distance. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5339} {s} {s} {4} {0} {} {1.000}
-E { 5342} {w} {w} {8} {0} {} {1.000}
-
-R { 5342} {0} {<278>} {Conservatory} {<278>[ ]<088>} {This storage room is used to hold musical instruments.  Most of which have fallen into disrepair from lack of use.  A thick layer of dust has settled on everything.  A wooden door blocks an exit to the north, and a study lies to the east. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5341} {e} {e} {2} {0} {} {1.000}
-E { 5343} {n} {open door;n} {1} {0} {} {1.000}
-
-R { 5343} {0} {<278>} {Trophy hall} {<278>[ ]<088>} {The walls of this room are decorated completely with medals, ribbons, and the heads of fallen beasts.  In one corner sits a glass cabinet full of jewels and other goodies plundered in battle.  Two glorious suits of armor stand guard along the east wall.  The only exit is the door to the south. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5342} {s} {open door;s} {4} {0} {} {1.000}
-
-R { 5344} {0} {<278>} {Hallway} {<278>[ ]<088>} {This wooden hallway is lined on both sides with torches that completely lack heat.  Large oaken doors block every exit from this room except to the north where the large entry area of the mansion lies. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5336} {n} {n} {1} {0} {} {1.000}
-E { 5345} {e} {open door east;e} {2} {0} {} {1.000}
-E { 5346} {s} {open door south;s} {4} {0} {} {1.000}
-E { 5351} {w} {open door west;w} {8} {0} {} {1.000}
-
-R { 5345} {0} {<278>} {Lavatory} {<278>[ ]<088>} {This lavatory is reserved for the guards of Willow Wood.  It is not as lavish as the rest of the rooms in this mansion.  Dimly lit, dirty, and damp. The air here is muggy and the stench almost unbearable. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5344} {w} {open door;w} {8} {0} {} {1.000}
-
-R { 5346} {0} {<278>} {Servants' Quarter} {<278>[ ]<088>} {Several pairs of bunk beds line the walls in this room, each with a small footlocker at its base.  A large wooden table fills much of the center of this room, the surface of which is covered in small bone dice and ivory cards. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5344} {n} {n} {1} {0} {} {1.000}
-E { 5350} {e} {e} {2} {0} {} {1.000}
-E { 5352} {w} {w} {8} {0} {} {1.000}
-
-R { 5347} {0} {<278>} {Supply Room} {<278>[ ]<088>} {This large storeroom is piled high with wooden crates and large steel drums. To the south lies a foyer, and a finely polished wooden door blocks an exit to the east. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5351} {e} {open door;e} {2} {0} {} {1.000}
-E { 5348} {s} {s} {4} {0} {} {1.000}
-
-R { 5348} {0} {<278>} {Foyer} {<278>[ ]<088>} {This entry area is used to load and unload supplies.  A storage room lies to the north filled with crates and barrels.  To the west a large pantry provides a spicy aroma, one that makes the stomach grumble with hunger. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5347} {n} {n} {1} {0} {} {1.000}
-E { 5349} {w} {open door;w} {8} {0} {} {1.000}
-
-R { 5349} {0} {<278>} {Pantry} {<278>[ ]<088>} {Bags and bottles of spices and herbs line the walls in this small pantry area.  The spicy scents in this room are nearly overwhelming.  To the south lies the wine cellar of this rich estate.  West of here is a huge kitchen. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5348} {e} {open door;e} {2} {0} {} {1.000}
-E { 5353} {w} {w} {8} {0} {} {1.000}
-E { 5355} {s} {open door south;s} {4} {0} {} {1.000}
-
-R { 5350} {0} {<278>} {Servants' Quarter} {<278>[ ]<088>} {Several footlockers fill the eastern end of this room.  The only other furnishings in this room is a large wooden table, which is covered in armor- polishing equipment and weapon-sharpening tools. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5346} {w} {w} {8} {0} {} {1.000}
-
-R { 5351} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 5347} {w} {w} {8} {0} {} {1.000}
-E { 5344} {e} {e} {2} {0} {} {1.000}
-
-R { 5352} {0} {<278>} {Servants' Quarter} {<278>[ ]<088>} {The walls in this room are lined with pairs of bunk beds.  Each bed is made from sturdy oak. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5346} {e} {e} {2} {0} {} {1.000}
-
-R { 5353} {0} {<278>} {Kitchen} {<278>[ ]<088>} {At the center of this room is a giant stove, flanked on both sides by small fire pits causing the temperature in here to soar.  To the east of here lies a large panty area, and to the west, a dining room. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5349} {e} {e} {2} {0} {} {1.000}
-E { 5354} {w} {w} {8} {0} {} {1.000}
-
-R { 5354} {0} {<278>} {Dining Room} {<278>[ ]<088>} {A large table fills the center of this room, plush backed chairs seated around the edge.  Two crystal chandeliers hang above the table providing light for this room.  The candles in the chandelier do not give off any heat, keeping the temperature in here quite cool.  To the east of here lies a large cooking area, and to the north is the main entry hall. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5353} {e} {e} {2} {0} {} {1.000}
-E { 5380} {n} {n} {1} {0} {} {1.000}
-
-R { 5355} {0} {<278>} {Wine Cellar} {<278>[ ]<088>} {The walls of this room are filled, floor to ceiling, with bottles of wine. Vintages from across the land are scattered around the room.  A wooden door to is the only exit. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5349} {n} {open door;n} {1} {0} {} {1.000}
-
-R { 5356} {0} {<278>} {Great Hall} {<278>[ ]<088>} {This entry hall is decorated with several paintings.  A large oaken staircase spirals upward to the second floor.  A glass door blocks the entrance to a large garden filled with hundreds of flowers.  A dining area lies to the south through a closed wooden door.  To the north a ballroom, used for entertaining guests and hosting parties for the nobles. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5380} {s} {open door south;s} {4} {0} {} {1.000}
-E { 5357} {n} {n} {1} {0} {} {1.000}
-E { 5358} {w} {w} {8} {0} {} {1.000}
-E { 5359} {u} {u} {16} {0} {} {1.000}
-E { 5372} {e} {e} {2} {0} {} {1.000}
-
-R { 5357} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E { 5356} {s} {s} {4} {0} {} {1.000}
-
-R { 5358} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E { 5356} {e} {e} {2} {0} {} {1.000}
-
-R { 5359} {0} {<278>} {Balcony} {<278>[ ]<088>} {A large spiral staircase leads down from this balcony to the main entry area of the mansion.  A window to the west overlooks the garden below.  A hallway stretches to the east and south of here, to the north lies a small room. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5356} {d} {d} {32} {0} {} {1.000}
-E { 5360} {n} {n} {1} {0} {} {1.000}
-E { 5369} {e} {e} {2} {0} {} {1.000}
-E { 5368} {s} {s} {4} {0} {} {1.000}
-
-R { 5360} {0} {<278>} {Hallway} {<278>[ ]<088>} {The eastern wall of this room is dominated by an iron vault door.  To the south of here lies a large balcony with a spiral staircase leading downward. There is no furniture or decoration to this room. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5359} {s} {s} {4} {0} {} {1.000}
-
-R { 5361} {0} {<278>} {Hallway} {<278>[ ]<088>} {This oaken walled hallway leads east and west.  To the north of here lies a small lounge area.  South of here lie the rooms used for noble guests.  A large balcony lies just west of here. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5369} {w} {w} {8} {0} {} {1.000}
-E { 5362} {n} {n} {1} {0} {} {1.000}
-E { 5363} {e} {e} {2} {0} {} {1.000}
-E { 5367} {s} {open door south;s} {4} {0} {} {1.000}
-
-R { 5362} {0} {<278>} {Lounge} {<278>[ ]<088>} {This carpeted room contains a large sofa, several plush chairs, a small wooden table, and a shelf lined with books.  Small end tables stand at either end of the sofa.  To the south of this lounge is a large hallway. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5361} {s} {s} {4} {0} {} {1.000}
-
-R { 5363} {0} {<278>} {Hallway} {<278>[ ]<088>} {The wooden hallway ends here at the entrance to the master bedroom.  The torches on each side giving off no heat whatsoever.  To the south of here lies a large audience chamber. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5361} {w} {w} {8} {0} {} {1.000}
-E { 5364} {e} {open door east;e} {2} {0} {} {1.000}
-E { 5365} {s} {open door south;s} {4} {0} {} {1.000}
-
-R { 5364} {0} {<278>} {Master Bedroom} {<278>[ ]<088>} {The master bedroom is the most lavishly decorated of any room in this mansion.  Silken tapestries hang from the ceiling, gold thread running through them.  A sense of peace and calming fills the entire room. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5363} {w} {w} {8} {0} {} {1.000}
-E { 5366} {n} {n} {1} {0} {} {1.000}
-
-R { 5365} {0} {<278>} {Audience Chamber} {<278>[ ]<088>} {A very large circular table dominates the center of this room, surrounded by several plush chairs.  At the eastern end of the room is a slightly larger, more elaborate chair reminiscent of a throne. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5363} {n} {open door;n} {1} {0} {} {1.000}
-
-R { 5366} {0} {<278>} {A Dressing Area} {<278>[ ]<088>} {The southern wall of this room is dominated by a large oaken wardrobe. Clothes, created from some of the finest fabrics, hang from steel beams along the eastern and western walls.  To the south lies the main bedroom area. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5364} {s} {open door;s} {4} {0} {} {1.000}
-
-R { 5367} {0} {<278>} {Guest Room} {<278>[ ]<088>} {This room is reserved for noble guests who wish to stay for a night in this mansion, or for those that might have had a bit much to drink the night before. A large four-post bed dominates most of this room.  To the north is a hallway stretching east and west. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5361} {n} {open door;n} {1} {0} {} {1.000}
-
-R { 5368} {0} {<278>} {Hallway} {<278>[ ]<088>} {The torches lining this hallway give off no heat, keeping the temperature in here quite cool.  Just east of here lies a large lavatory.  The sounds of crying children flows into this room from the south.  A large balcony lies to the north. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5359} {n} {n} {1} {0} {} {1.000}
-E { 5370} {e} {open door east;e} {2} {0} {} {1.000}
-E { 5371} {s} {open door south;s} {4} {0} {} {1.000}
-
-R { 5369} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 5361} {e} {e} {2} {0} {} {1.000}
-E { 5359} {w} {w} {8} {0} {} {1.000}
-
-R { 5370} {0} {<278>} {Lavatory} {<278>[ ]<088>} {This lavatory is richly decorated.  Ivory counters have been kept immaculate with ever amenity one could ever desire.  The smell of sage and lavender hangs softly in the air. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5368} {w} {open door;w} {8} {0} {} {1.000}
-
-R { 5371} {0} {<278>} {Nursery} {<278>[ ]<088>} {The only pieces of furniture in this room are the small cribs lining the east wall.  Dozens of small toys lie scattered about on the floor. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5368} {n} {open door;n} {1} {0} {} {1.000}
-
-R { 5372} {0} {<278>} {Entrance} {<278>[ ]<088>} {The floor here is made of marble and covered with a gigantic plush rug.  To the north and south stretch torch-lined hallways.  To the west a spiral staircase leads to the upper floor of this beautiful mansion. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5356} {w} {w} {8} {0} {} {1.000}
-E { 5373} {n} {n} {1} {0} {} {1.000}
-
-R { 5373} {0} {<278>} {Hallway} {<278>[ ]<088>} {This large hallway stretches northward toward a large study area.  To the south of here is the main entryway to this beautiful mansion.  Torches on the walls of this area, oddly, do not give off any heat. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5372} {s} {s} {4} {0} {} {1.000}
-E { 5374} {n} {n} {1} {0} {} {1.000}
-
-R { 5374} {0} {<278>} {Hallway} {<278>[ ]<088>} {Torches line the walls on each side of this hallway, none of which give out any heat whatsoever.  The hallway continues south toward the mansion's entry. Following this hallway northward leads to a large study. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5373} {s} {s} {4} {0} {} {1.000}
-E { 5375} {n} {n} {1} {0} {} {1.000}
-
-R { 5375} {0} {<278>} {Hallway} {<278>[ ]<088>} {The torches on either side of this hallway lack any heat.  To the north of here lies a large study, while heading south down the hallway leads to a large entry hall.  Just to the east is what looks like a waiting room. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5374} {s} {s} {4} {0} {} {1.000}
-E { 5376} {e} {e} {2} {0} {} {1.000}
-E { 5377} {n} {n} {1} {0} {} {1.000}
-
-R { 5376} {0} {<278>} {Sitting Room} {<278>[ ]<088>} {This small sitting room is furnished with nearly a dozen plush chairs.  A hand crafted wooden table displays a bowl of fresh fruit. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5375} {w} {w} {8} {0} {} {1.000}
-
-R { 5377} {0} {<278>} {Study} {<278>[ ]<088>} {The majority of this room is taken up by a huge oaken desk.  Quill pens and parchment lie scattered about on the surface, small chicken-scratch writing covering its surface.  A small portrait of a redheaded girl hangs on the eastern wall.  To the west lies some sort of storage room, and to the south a large torch-lined hallway stretches for some distance. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5375} {s} {s} {4} {0} {} {1.000}
-E { 5378} {w} {w} {8} {0} {} {1.000}
-
-R { 5378} {0} {<278>} {Conservatory} {<278>[ ]<088>} {This storage room is used to hold musical instruments.  Most of which have fallen into disrepair from lack of use.  A thick layer of dust has settled on everything.  A wooden door blocks an exit to the north, and a study lies to the east. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5377} {e} {e} {2} {0} {} {1.000}
-E { 5379} {n} {open door;n} {1} {0} {} {1.000}
-
-R { 5379} {0} {<278>} {Trophy hall} {<278>[ ]<088>} {The walls of this room are decorated completely with medals, ribbons, and the heads of fallen beasts.  In one corner sits a glass cabinet full of jewels and other goodies plundered in battle.  Two glorious suits of armor stand guard along the east wall.  The only exit is the door to the south. } {Willow Wood} {} {Inside} {} {1.000} {}
-E { 5378} {s} {open door;s} {4} {0} {} {1.000}
-
-R { 5380} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 5356} {n} {n} {1} {0} {} {1.000}
-E { 5354} {s} {s} {4} {0} {} {1.000}
-
-R { 5381} {0} {<228>} {A Small Path} {<228>. ^<088>} {This small path quickly ascends from the floor of the valley through a large field of concealing boulders.  Few things grow on this lifeless slope, but the rocks themselves provide some hiding spot from the awful light of that tower.    Even the smallest breeze whistles a shrill, braying note as it moves between these rocks, a grating and restless siren working upon your ears.  Small sandy pebbles follow the wind, bouncing down between the boulders, and pelting you with grit. } {NotYetSet} {} {Hills} {} {1.000} {}
-E { 4353} {s} {s} {4} {0} {} {1.000}
-
-R { 5382} {0} {<228>} {Onward to the Great Gate} {<228>. ^<088>} {The great iron gates of the fearsome city loom large to your east.  No rocks and certainly no trees stand near to the road\; you feel completely exposed to the searching gaze of the guardians of the city, and naked to the vigilant sight of the pale beam of light.    From this distance you can see figures upon the city's walls\; some creatures do live in this dark and fearsome land. } {NotYetSet} {} {Hills} {} {1.000} {}
-E { 4353} {w} {w} {8} {0} {} {1.000}
-E { 5383} {e} {e} {2} {0} {} {1.000}
-
-R { 5383} {0} {<228>} {The Westgate of Minas Morgul} {<228>, `<088>} {The gates of Minas Morgul tower over you, a leering and rusted scar in the bone white walls of the city.  Flecks of rust have fallen off of them and have colored the road a dingy pale red, but the gates stand strong, barring entrance to the city by unwanted guests.    Bits and pieces of trash are blown about in front of the gate by swirling eddies of wind\; they hit the gate and softly flutter away, or get caught in the cruel spikes that have been bolted to its face.  There is little noise here but the wind. } {NotYetSet} {} {Field} {} {1.000} {}
-E { 5382} {w} {w} {8} {0} {} {1.000}
-E { 5384} {e} {open gate;e} {2} {0} {} {1.000}
-
-R { 5384} {0} {<228>} {Inside the West Gate} {<228>, `<088>} {This wide street's cobblestones have been smashed and pulled up in places, but the road is still passable.  Small pieces of rubbish either lie where they were dropped or blow slowly about, pulled at the capricious whim of the foul smelling wind.    Crude hands have scarred the masonries of every building facing the road with runes and lewd sketches, and cruel wills have chipped and broken the once carefully and lovingly designed stonework. } {NotYetSet} {} {Field} {} {1.000} {}
-E { 5383} {w} {w} {8} {0} {} {1.000}
-
-R { 5385} {0} {<148>} {A Steep and Damp Cave} {<148>. .<088>} {The cave is shrouded in darkness and spans out a great distance.  Sharp stalactites protrude form the ceiling above like the teeth of a dragon and  the surrounding walls are formed from rough hard stone that is covered with a thin layer of slimy feeling  moss.  Two large tunnels branch out from here leading east and west. } {The Sierra Range} {} {Underground} {} {1.000} {}
-E { 3302} {e} {e} {2} {0} {} {1.000}
-E { 5386} {w} {w} {8} {0} {} {1.000}
-
-R { 5386} {0} {<148>} {A Steep and Damp Cave} {<148>. .<088>} {The cave is shrouded in darkness and spans out a great distance.  Sharp stalactites protrude form the ceiling above like the teeth of a dragon and  the surrounding walls are formed from rough hard stone that is covered with a thin layer of slimy feeling  moss.  Two large tunnels branch out from here leading east and west. } {The Sierra Range} {} {Underground} {} {1.000} {}
-E { 5385} {e} {e} {2} {0} {} {1.000}
-
-R { 5387} {0} {<278>} {Iron Lined Cell} {<278>[ ]<088>} {This small cell's walls are entirely lined with iron.  An iron clad door is the only exit to the north.  A simple bed pile, of rotton leaves and debris, lies next to the southern wall.  Scorch marks cover almost every surface. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5414} {n} {unlock iron;open iron;n} {1} {0} {} {1.000}
-
-R { 5388} {0} {<278>} {Stairwell to Lower Level} {<278>[ ]<088>} {A large shaft has been down into the rock beneath the fortress here, stairs carved expertly, head into the depths below.  A large iron chandelier hangs from above, shining light into the stairwell.  To the east the stairwell opens up on to the service hallway and an iron gate to the west leads to the kitchen. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 4368} {e} {e} {2} {0} {} {1.000}
-E { 5389} {d} {d} {32} {0} {} {1.000}
-
-R { 5389} {0} {<278>} {Stairwell to Upper Level} {<278>[ ]<088>} {A large shaft has been into the rock here, stairs carved expertly, head up onto the ground level of the fortress..  A large iron chandelier hangs from far above, shining light into the stairwell.  To the east the stairwell opens up into a large hewn chamber.  The solid rock of this shaft is marbled with veins of granite, a few of which almost sparkle with illumination. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5388} {u} {u} {16} {0} {} {1.000}
-E { 5390} {e} {e} {2} {0} {} {1.000}
-
-R { 5390} {0} {<278>} {Large Hewn Chamber} {<278>[ ]<088>} {This large chamber with smooth hewn walls and high ceiling  is lit by several smoky torches.  Several benches and tables are pushed up against the walls forming areas for gathering.  To the east a large wooden door is framed in the rock wall and to the north and south tunnels have been cut into the rock. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5389} {w} {w} {8} {0} {} {1.000}
-E { 5391} {n} {n} {1} {0} {} {1.000}
-E { 5396} {e} {e} {2} {0} {} {1.000}
-E { 5397} {s} {s} {4} {0} {} {1.000}
-
-R { 5391} {0} {<278>} {Marble Hallway} {<278>[ ]<088>} {This hallway is made of a smooth, polished stone.  A slight rosy hue can be detected in your light.  Great care must have been taken to craft the hallway. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5390} {s} {s} {4} {0} {} {1.000}
-E { 5392} {w} {w} {8} {0} {} {1.000}
-
-R { 5392} {0} {<278>} {Rubble Filled Marble Hallway} {<278>[ ]<088>} {You are in a hallway which has not been cleared out fully.  Piles of rock are pushed up against both sides of the hallway clearing a rough path to the north.  What little of the floor you see is remarkably smooth and finished. Strange that there would be debris scattered on it.  A small opening to the west gives you access to what looks like a natural cavern.  The hallway continues on to the east. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5391} {e} {e} {2} {0} {} {1.000}
-E { 5393} {w} {open door;w} {8} {0} {} {1.000}
-E { 5394} {n} {n} {1} {0} {} {1.000}
-
-R { 5393} {0} {} {} {LOC} {} {Hill Giant Fortress} {} {} {} {1.000} {}
-E { 5392} {e} {e} {2} {0} {} {1.000}
-
-R { 5394} {0} {<278>} {Strange Finished Chamber} {<278>[ ]<088>} {A large chamber lies before you.  The walls are smooth and reflect a remarkably high quality of stonework.  Strange mosaics are set into the walls. To the west, you see another chamber very similar to this one. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5392} {s} {s} {4} {0} {} {1.000}
-E { 5395} {w} {w} {8} {0} {} {1.000}
-
-R { 5395} {0} {<278>} {Chamber in Process of Being Cleared} {<278>[ ]<088>} {This chamber is still in the process of being cleared. Several tools are strewn here and there. Large piles of rubble are still found in here and the walls are still in the process of being roughed out. It looks like great care is being taken in the excavation process for some reason. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5394} {e} {e} {2} {0} {} {1.000}
-
-R { 5396} {0} {<278>} {Chamber of the Keeper} {<278>[ ]<088>} {This is the room of the Foreman of the Hill Giant Construction crews. He appears to be in charge of the building of the dungeons located under the compound. A desk stand over to one side, stacks of papers piled high upon it. A bunk sits in one corner and there are many skins covering the floor against the inherent dampness associated with caves. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5390} {w} {w} {8} {0} {} {1.000}
-
-R { 5397} {0} {<278>} {Southern End of the Marshalling Area} {<278>[ ]<088>} {Several crates are pushed into the corner.  The floors are have been worn smooth by the passing of many men over a long period of time. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5390} {n} {n} {1} {0} {} {1.000}
-E { 5398} {s} {s} {4} {0} {} {1.000}
-E { 5408} {e} {e} {2} {0} {} {1.000}
-
-R { 5398} {0} {<278>} {Stone Tunnel} {<278>[ ]<088>} {You stand at the intersection of two intersecting tunnels cut into the solid rock beneath the fortress.  The tunnel leads off to the east and west from here, each lined with a enough torches to light their path.  The the south the entrance to the dungeon lies behind an iron gate. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5397} {n} {n} {1} {0} {} {1.000}
-E { 5399} {e} {e} {2} {0} {} {1.000}
-E { 5403} {s} {open gate;s} {4} {0} {} {1.000}
-
-R { 5399} {0} {<278>} {Stone Tunnel} {<278>[ ]<088>} {This part of the tunnel has smooth walls, ceiling, and floor.  It continues westward to an intersection and eastward to its end.  A few torches flicker on the northern wall, causing shadows to dance across the floor. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5398} {w} {w} {8} {0} {} {1.000}
-E { 5400} {e} {e} {2} {0} {} {1.000}
-
-R { 5400} {0} {<278>} {Blocked End of the Tunnel} {<278>[ ]<088>} {The hallway ends here.  To the east, a giant rock has been pushed into the hallway, effectively sealing it.  The stone is charred, covered in gouges, and appears to have been hastily moved into the tunnel's path.  To the south a small alcove sits into the wall. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5399} {w} {w} {8} {0} {} {1.000}
-E { 5401} {s} {s} {4} {0} {} {1.000}
-
-R { 5401} {0} {<148>} {Small Alcove} {<148>. .<088>} {This small alcove looks to be an incomplete room.  The walls are rough, unfinished, and with all the debris on the ground it looks like it was an abandoned effort. } {Hill Giant Fortress} {} {Underground} {} {1.000} {}
-E { 5400} {n} {n} {1} {0} {} {1.000}
-
-R { 5402} {0} {<278>} {Smooth Hallway} {<278>[ ]<088>} {The walls of this hallway are smooth, cut beautifully into the rock, and have torches hung along their surfaces.  To the south a set of large wooden doors, with a Bugbear crest, are set into the smooth stone walls of the tunnel. To the west this hallway intersects a large tunnel. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5407} {w} {w} {8} {0} {} {1.000}
-E { 5404} {s} {open doors;s} {4} {0} {} {1.000}
-
-R { 5403} {0} {<278>} {Dungeon Entrance} {<278>[ ]<088>} {This large natural cavern, that forms a perfect choke point for the tunnel that leads south, has been turned into a large entrance chamber.  Framed into the solid rock a large iron gate leads north into the underground tunnel system.  To the south a smaller chamber has been carved into the rock. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5398} {n} {open gate;n} {1} {0} {} {1.000}
-E { 5417} {s} {s} {4} {0} {} {1.000}
-
-R { 5404} {0} {<278>} {Entrance to Bugbear Complex} {<278>[ ]<088>} {Two braziers burn brightly next to a large wooden door to the north.  A stunning animal fur carpet, centered in the room, quits this hard surfaced space.  A guard station lies to the south and a large common room sits to the east. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5402} {n} {open doors;n} {1} {0} {} {1.000}
-E { 5405} {e} {e} {2} {0} {} {1.000}
-E { 5409} {s} {s} {4} {0} {} {1.000}
-
-R { 5405} {0} {<278>} {Bugbear Common Room} {<278>[ ]<088>} {Numerous interesting things fill this room.  Mounted heads of game trophies, murals that depict great victories of the bugbears and a few paintings of chief cover the walls.  large fur covered couches sit grouped in the center of the room.  The common room of the bugbears continues to the south and to the west the entrance chamber to their lair sits. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5404} {w} {w} {8} {0} {} {1.000}
-E { 5406} {e} {e} {2} {0} {} {1.000}
-E { 5410} {s} {s} {4} {0} {} {1.000}
-
-R { 5406} {0} {<278>} {Bugbear Sleeping Quarters} {<278>[ ]<088>} {Several cots fill this room. A row of pegs are set into the walls. Cloaks and bags hang from these pegs. A bench sits in front of an extinguished brazier. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5405} {w} {w} {8} {0} {} {1.000}
-
-R { 5407} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 5402} {e} {e} {2} {0} {} {1.000}
-E { 5408} {w} {w} {8} {0} {} {1.000}
-
-R { 5408} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 5407} {e} {e} {2} {0} {} {1.000}
-E { 5397} {w} {w} {8} {0} {} {1.000}
-
-R { 5409} {0} {<278>} {Bugbears Guard Post} {<278>[ ]<088>} {A brass brazier lights this alcove.  A stool rests next to a large wooden weapons rack.  Towards the east lies the common room of the bugbears while to the north the entrance to the tunnel system leads north. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5404} {n} {n} {1} {0} {} {1.000}
-E { 5410} {e} {e} {2} {0} {} {1.000}
-
-R { 5410} {0} {<278>} {Bugbear Common Room} {<278>[ ]<088>} {A large fireplace lines the south wall.  Several furs and hides lie on the floor.  The remains of what looks like a keg of some liquid sits in the center of the room.  A room set aside for the soldiers of the bugbears lies to the west and an ornately carved door to the east bares the symbols of the bugbear leader. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5409} {w} {w} {8} {0} {} {1.000}
-E { 5405} {n} {n} {1} {0} {} {1.000}
-E { 5411} {e} {open door;e} {2} {0} {} {1.000}
-
-R { 5411} {0} {<278>} {Bugbear Chief's Room} {<278>[ ]<088>} {The personal effects of the chief are scattered about the room, stuff animal heads line the walls, and a few fur pelts cover the oversized bed at the rooms center.  A desk is pushed up against the wall, a burning oil lamp rests on its surface.  A carved wooden door leads west. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5410} {w} {w} {8} {0} {} {1.000}
-
-R { 5412} {0} {<278>} {Dungeon Warden's Station} {<278>[ ]<088>} {This almost symetrical cube room, carved smooth into the rock, has a large outcropping at its center that acts as a station for the dungeon warden.  A large iron light, home to a handful of burning torches, hangs on a chain from above.  Directly to the east and west large iron gates provide access to and prevent travel from the rows of cells that have been carved into the rock beneath the fortress above. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5417} {n} {n} {1} {0} {} {1.000}
-E { 5413} {e} {unl gate east;open gate east;e} {2} {0} {} {1.000}
-E { 5414} {w} {unl gate west;open gate west;w} {8} {0} {} {1.000}
-
-R { 5413} {0} {<278>} {Animal Cages} {<278>[ ]<088>} {This section of the dungeon appears to be more of a kennel than a place for prisoners.  The stone walls are squared off, smooth, and run off towards the east.  To the north an oversized sliding gate blocks passage to a animal pen. To the west a iron gate leads to the Warden's Station. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5412} {w} {unl gate;open gate;w} {8} {0} {} {1.000}
-E { 5415} {e} {e} {2} {0} {} {1.000}
-
-R { 5414} {0} {<278>} {Dungeon Tunnel} {<278>[ ]<088>} {A single torch hung on the northern wall illuminates this damp, dark, and rough tunnel.  Hewn roughly into the surrounding rock the tunnel's walls are rough and uneven.  The floor has been covered in a thick layer of hay, most of which is discolored with dried blood or other bodily fluids.  A iron clad door leads to a cell south while the iron gate to the east leads to the Warden's Station. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5412} {e} {unl gate;open gate;e} {2} {0} {} {1.000}
-E { 5418} {w} {w} {8} {0} {} {1.000}
-E { 5387} {s} {unlock iron south;open iron south;s} {4} {0} {} {1.000}
-
-R { 5415} {0} {<278>} {Animal Cages} {<278>[ ]<088>} {The smooth carved walls of this tunnel continue on to the west and east from here.  Torches line the southern face of the tunnel, providing enough light to see into the cage to the north.  A large sliding iron gate blocks passage into the pen.  The Warden's Station lies off to the west while the animal cages continue towards the east, where a strange humming sound is coming from. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5413} {w} {w} {8} {0} {} {1.000}
-E { 5416} {e} {e} {2} {0} {} {1.000}
-
-R { 5416} {0} {<278>} {End of Row} {<278>[ ]<088>} {You are at the end of the row of animal cages.  To the north, you see a cage which appears to have been locked and left for some time.  Wood panels have been erected behind the sliding iron gate and upon them large symbols depicting death have been scrawled.  An intense humming noise eminates from within the cage.  The row of pens heads west from here. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5415} {w} {w} {8} {0} {} {1.000}
-
-R { 5417} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 5412} {s} {s} {4} {0} {} {1.000}
-E { 5403} {n} {n} {1} {0} {} {1.000}
-
-R { 5418} {0} {<278>} {Dungeon Tunnel} {<278>[ ]<088>} {You are at the intersection of two tunnels within the fortress's dungeon. Off to the east, through an iron gate you see the flickers of light coming from the Warden's Station, while the tunnel to the north plunges into darkness. Iron clad doors are set into the rock walls of the tunnel to the south and west. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5414} {e} {e} {2} {0} {} {1.000}
-E { 5419} {n} {n} {1} {0} {} {1.000}
-E { 5423} {s} {unlock iron south;open iron south;s} {4} {0} {} {1.000}
-E { 5424} {w} {unlock iron west;open iron west;w} {8} {0} {} {1.000}
-
-R { 5419} {0} {<278>} {Dungeon Tunnel} {<278>[ ]<088>} {Darkness is the defining feature of this crudely formed section of the dungeon.  Three iron clad doors, leading west, north, and east have been cut into the rough rock walls.  The faintest glimmer of light can be seen to the south as the tunnel continues. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5418} {s} {s} {4} {0} {} {1.000}
-E { 5420} {w} {unlock door west;open door west;w} {8} {0} {} {1.000}
-E { 5421} {n} {unlock door north;open door north;n} {1} {0} {} {1.000}
-E { 5422} {e} {unlock door east;open door east;e} {2} {0} {} {1.000}
-
-R { 5420} {0} {<278>} {Dungeon Cell} {<278>[ ]<088>} {All along the walls of this room are manacles of all shapes and sizes.  The rusted chains are pegged into the wall.  The floor are bloodstained from the previous occupants of this cell.  Rats scurry from you at your approach.  The smell of death is very strong in here. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5419} {e} {unlock door;open door;e} {2} {0} {} {1.000}
-
-R { 5421} {0} {<278>} {It's already unlocked, it seems.} {<278>[ ]<088>} {} {Hill Giant Fortress} {} {} {} {1.000} {}
-E { 5419} {s} {unlock door;open door;s} {4} {0} {} {1.000}
-
-R { 5422} {0} {<278>} {Dungeon Cell} {<278>[ ]<088>} {All along the walls of this room are manacles of all shapes and sizes.  The rusted chains are pegged into the wall.  The floor are bloodstained from the previous occupants of this cell.  Rats scurry from you at your approach.  The smell of death is very strong in here. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5419} {w} {unlock door;open door;w} {8} {0} {} {1.000}
-
-R { 5423} {0} {<278>} {Dungeon Cell} {<278>[ ]<088>} {Reaking of waste, rot, and suffering this cell has been hewn out of solid rock.  Straw has been piled in the far corner, appearently in an attempt to fashion some semblance of a bed.  A few buckets, full of water, excrament, and rotting food slop, are spread about the room.  An iron clad door to the north is the only exit. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5418} {n} {unlock iron;open iron;n} {1} {0} {} {1.000}
-
-R { 5424} {0} {<278>} {Torture Chamber} {<278>[ ]<088>} {This area contains various implements for torturing prisoners large and small. There are iron maidens, a huge rack, thumbscrews, chains, whips, branding irons and many other items of pain infliction. Several of the instruments still have their last occupants in them, all in various states of decomposition. A large fire burns perpetually in the middle of the room. The fire gives the room a hellish look to it. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5418} {e} {unlock iron;open iron;e} {2} {0} {} {1.000}

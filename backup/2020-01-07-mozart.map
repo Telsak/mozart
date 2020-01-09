@@ -16,7 +16,7 @@ F 139
 
 G 0
 
-I 4065
+I 5387
 
 L {ASCII NESW LINE} {NO EXITS} {#}
 L {ASCII NESW LINE} {N} {o}
@@ -5446,11 +5446,11 @@ R { 1269} {0} {<aca>} {} {<aca>( *<088>} {} {NotYetSet} {} {Forest} {} {1.000} {
 E { 1268} {s} {s} {4} {0} {} {1.000}
 E { 1270} {n} {n} {1} {0} {} {1.000}
 
-R { 1270} {0} {<aca>} {Scorched Road} {<aca>( *<088>} {You step onto what looks like a scorched road of some clear material.  The road seems to have been exposed to great heat many times in the past.  From the fresh remains of travelers and adventurers along the road, you feel like moving on quickly. } {NotYetSet} {} {Forest} {} {1.000} {}
+R { 1270} {0} {<fff>} {Scorched Road} { } {You step onto what looks like a scorched road of some clear material.  The road seems to have been exposed to great heat many times in the past.  From the fresh remains of travelers and adventurers along the road, you feel like moving on quickly. } {NotYetSet} {} {Forest} {} {1.000} {}
 E { 1269} {s} {s} {4} {0} {} {1.000}
 E { 1271} {n} {n} {1} {0} {} {1.000}
 
-R { 1271} {0} {<228>} {Scorched Road} {<228>, `<088>} {The road you are standing on has been almost totally destroyed by constant applications of tremendous heat.  The ground is fused into a polished black surface and there is no evidence of plant life having ever been able to live in this area. } {NotYetSet} {} {Field} {} {1.000} {}
+R { 1271} {0} {<fff>} {Scorched Road} { } {The road you are standing on has been almost totally destroyed by constant applications of tremendous heat.  The ground is fused into a polished black surface and there is no evidence of plant life having ever been able to live in this area. } {NotYetSet} {} {Field} {} {1.000} {}
 E { 1270} {s} {s} {4} {0} {} {1.000}
 
 R { 1272} {0} {<aca>} {In the Bushes} {<aca>( *<088>} {Bushes cluster along a narrow path through the Amber Forest, its path winding between the trees.  The earthen trail has been torn and gouged by the passage of some number of creatures.  The smell of fresh turned soil and the thick odor of decaying leaves fills the air. } {Amber Forest} {} {Forest} {} {1.000} {}
@@ -10945,7 +10945,7 @@ R { 2556} {0} {<278>} {The Long Hall} {<278>[ ]<088>} {This is the western end o
 E { 2555} {e} {e} {2} {0} {} {1.000}
 E { 2557} {s} {open door south;s} {4} {0} {} {1.000}
 E { 2558} {n} {open door;n} {1} {0} {} {1.000}
-E { 3119} {w} {open door west;w} {8} {0} {} {1.000}
+E { 3119} {w} {w} {8} {0} {} {1.000}
 
 R { 2557} {0} {<228>} {The Gnoll Camp} {<228>, `<088>} {This is the west end of the open area of the gnoll camp.  It seems to be relatively little used, as there are very few signs of footprints of any sort in the ground.  To the north a large wooden door leads into the western end of the long gnoll hall while a small building lies to the south, a wooden door at its entrance. } {Gnoll Fort} {} {Field} {} {1.000} {}
 E { 2556} {n} {open door north;n} {1} {0} {} {1.000}
@@ -10954,12 +10954,11 @@ E { 3112} {s} {open door south;s} {4} {0} {} {1.000}
 E { 3114} {w} {w} {8} {0} {} {1.000}
 
 R { 2558} {0} {<278>} {The Chief's Antechamber} {<278>[ ]<088>} {You are standing in a smallish hallway, which leads off from the main portion of the Hall.  There are more hides covering the walls, and even some crude attempts at art in a few locations.  There are a couple of very battered shields set up high on the wall, along with a couple of broken swords and axes. You would guess these are trophies of some sort, which are kept as reminders. There are a couple of natural alcoves near the north end of the room, which might be used by guards of some sort.  There is a good sized room to the north of here, and the Hall is back to the south. } {Gnoll Fort} {} {Inside} {} {1.000} {}
-E { 2556} {s} {open black;s} {4} {0} {} {1.000}
+E { 2556} {s} {s} {4} {0} {} {1.000}
 E { 2559} {n} {n} {1} {0} {} {1.000}
 
-R { 2559} {0} {<278>} {The Chief's Quarters} {<278>[ ]<088>} {This is a rather large square room, with trophies up on the wall, and hides, some of them actually of humans and dwarves, splayed out on the ceiling. Against the northern wall, there is a large and rather poorly carved wooden throne, which is covered in a thin layer of human skin.  The two fireplaces in this room are the first ones you have seen in this place that are actually well ventilated, and this room is actually mostly free of smoke.  A few guttering torches high on the walls provide some additional lighting.  The only exits from this room are back to the south to the antechamber, or through a wooden door to the east. } {Gnoll Fort} {} {Inside} {} {1.000} {}
+R { 2559} {0} {<fff>} {} { } {} {NotYetSet} {} {} {} {1.000} {}
 E { 2558} {s} {s} {4} {0} {} {1.000}
-E { 3543} {e} {open door;e} {2} {0} {} {1.000}
 
 R { 2560} {0} {<aca>} {A Path Through a Small Stand of Trees} {<aca>( *<088>} {A path leads east through these trees, towards a small clearing.  It appears that a screen of undergrowth would hide this trail from anyone in the clearing. The trail turns southwards as it leads through the trees.  The southern destination of this trail is a campsite. } {Ambush} {} {Forest} {} {1.000} {}
 E { 2527} {e} {e} {2} {0} {} {1.000}
@@ -13229,6 +13228,7 @@ E { 3092} {w} {w} {8} {0} {} {1.000}
 
 R { 3095} {0} {<228>} {No way!  You are fighting for your life!} {<228>, `<088>} {} {Gnoll Fort} {} {Field} {} {1.000} {}
 E { 3089} {n} {n} {1} {0} {} {1.000}
+E { 3543} {e} {e} {2} {0} {} {1.000}
 
 R { 3096} {0} {<228>} {The Gnoll Camp} {<228>, `<088>} {This is an open area between the side of the Long Hall, and the rising wall of the valley, to your south.  The muddy ground is churned up by the tilling of many feet, mostly gnolls and some dog-like creature, from the few discernible tracks you can make out.  A door, covered in runes, leads into a small build to the south.  The clear area continues both west and east from here, as well. } {Gnoll Camp} {} {Field} {} {1.000} {}
 E { 3089} {e} {e} {2} {0} {} {1.000}
@@ -13261,7 +13261,7 @@ R { 3103} {0} {<278>} {} {<278>[ ]<088>} {} {Gnoll Camp} {} {Inside} {} {1.000} 
 E { 3101} {s} {s} {4} {0} {} {1.000}
 E { 3104} {w} {open vault;w} {8} {0} {} {1.000}
 
-R { 3104} {0} {<148>} {It seems to be locked.} {$} {[MAPON] H:544/576 M:67/130 V:288/311 XP:539272 C:*> The rock vault seems to be closed. } {Gnoll Camp} {} {Underground} {} {1.000} {}
+R { 3104} {0} {<fdf>} {It seems to be locked.} {?} {[MAPON] H:544/576 M:67/130 V:288/311 XP:539272 C:*> The rock vault seems to be closed. } {Gnoll Camp} {} {} {} {1.000} {}
 E { 3103} {e} {e} {2} {0} {} {1.000}
 
 R { 3105} {0} {<278>} {The Gnoll Nursery} {<278>[ ]<088>} {You are in what seems to be the room where all the little gnoll children are cared for.  It looks very much like a tornado ripped through this room, with bits of broken toys, and scattered clothes and bedding spread all around.  Some of the bits of bedding have been wound into what look like small nests, which you guess are used for sleeping on.  The only exit from this room is back to the west. } {Gnoll Camp} {} {Inside} {} {1.000} {}
@@ -15069,8 +15069,8 @@ E { 3021} {w} {w} {8} {0} {} {1.000}
 R { 3542} {0} {} {#MAP UNDO: Deleting room 3543.} { } {} {Little Kyoto} {} {} {} {1.000} {}
 E { 3022} {s} {s} {4} {0} {} {1.000}
 
-R { 3543} {0} {<278>} {The Chief's Sleeping Chambers} {<278>[ ]<088>} {This is a fairly small room, which seems to be used as some sort of sleeping chamber.  There is a smallish fireplace in the southern wall, which provides warmth, and all of the lighting for the room, save for a single guttering torch up on the northern wall.  There is actually a bed in one corner, made up of straw or some other material pounded together into a mattress of sorts. } {Gnoll Fort} {} {Inside} {} {1.000} {}
-E { 2559} {w} {open door;w} {8} {0} {} {1.000}
+R { 3543} {0} {} {No way!  You are fighting for your life!} { } {} {Gnoll Fort} {} {} {} {1.000} {}
+E { 3095} {w} {w} {8} {0} {} {1.000}
 
 R { 3544} {0} {} {} { } {} {} {} {} {} {1.000} {}
 
@@ -18517,7 +18517,7 @@ E { 3074} {w} {w} {8} {0} {} {1.000}
 E { 5381} {n} {n} {1} {0} {} {1.000}
 E { 5382} {e} {e} {2} {0} {} {1.000}
 
-R { 4354} {0} {<238>} {A Forgotten Mountain Trail} {<238>/ \<088>} {This small path winds steeply up and southward into the haze and chill of the Fence of Shadows, the mountains that encircle and protect Mordor.  The wind howls about this high place, buffeting you with sand and small pieces of dead plants.  Very little grows here\; between the wind and almost complete lack of water, this is an inhospitable place. } {Unset} {} {Mountains} {} {1.000} {}
+R { 4354} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E { 3074} {n} {n} {1} {0} {} {1.000}
 
 R { 4355} {0} {<278>} {Secret Passage} {<278>[ ]<088>} {You have arrived at the southern end of the storeroom.  You see water to the south, as this large chamber opens up to the great ocean.  You can hear the familiar sound of the powerful waves crashing against the rocks, and you hear the sounds of bird flying nearby. } {Unset} {} {Inside} {} {1.000} {}
@@ -18637,7 +18637,7 @@ R { 4382} {0} {<278>} {Service Hallway} {<278>[ ]<088>} {Torches line this wide,
 E { 4381} {w} {w} {8} {0} {} {1.000}
 E { 4387} {e} {e} {2} {0} {} {1.000}
 
-R { 4383} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 4383} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 4381} {e} {e} {2} {0} {} {1.000}
 E { 4380} {w} {w} {8} {0} {} {1.000}
 
@@ -22828,7 +22828,7 @@ E { 5407} {w} {w} {8} {0} {} {1.000}
 E { 5404} {s} {open doors;s} {4} {0} {} {1.000}
 
 R { 5403} {0} {<278>} {Dungeon Entrance} {<278>[ ]<088>} {This large natural cavern, that forms a perfect choke point for the tunnel that leads south, has been turned into a large entrance chamber.  Framed into the solid rock a large iron gate leads north into the underground tunnel system.  To the south a smaller chamber has been carved into the rock. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5398} {n} {open gate;n} {1} {0} {} {1.000}
+E { 5398} {n} {n} {1} {0} {} {1.000}
 E { 5417} {s} {s} {4} {0} {} {1.000}
 
 R { 5404} {0} {<278>} {Entrance to Bugbear Complex} {<278>[ ]<088>} {Two braziers burn brightly next to a large wooden door to the north.  A stunning animal fur carpet, centered in the room, quits this hard surfaced space.  A guard station lies to the south and a large common room sits to the east. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
@@ -22844,11 +22844,11 @@ E { 5410} {s} {s} {4} {0} {} {1.000}
 R { 5406} {0} {<278>} {Bugbear Sleeping Quarters} {<278>[ ]<088>} {Several cots fill this room. A row of pegs are set into the walls. Cloaks and bags hang from these pegs. A bench sits in front of an extinguished brazier. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 5405} {w} {w} {8} {0} {} {1.000}
 
-R { 5407} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 5407} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 5402} {e} {e} {2} {0} {} {1.000}
 E { 5408} {w} {w} {8} {0} {} {1.000}
 
-R { 5408} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 5408} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 5407} {e} {e} {2} {0} {} {1.000}
 E { 5397} {w} {w} {8} {0} {} {1.000}
 
@@ -22885,15 +22885,13 @@ E { 5416} {e} {e} {2} {0} {} {1.000}
 R { 5416} {0} {<278>} {End of Row} {<278>[ ]<088>} {You are at the end of the row of animal cages.  To the north, you see a cage which appears to have been locked and left for some time.  Wood panels have been erected behind the sliding iron gate and upon them large symbols depicting death have been scrawled.  An intense humming noise eminates from within the cage.  The row of pens heads west from here. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 5415} {w} {w} {8} {0} {} {1.000}
 
-R { 5417} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 5417} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 5412} {s} {s} {4} {0} {} {1.000}
 E { 5403} {n} {n} {1} {0} {} {1.000}
 
 R { 5418} {0} {<278>} {Dungeon Tunnel} {<278>[ ]<088>} {You are at the intersection of two tunnels within the fortress's dungeon. Off to the east, through an iron gate you see the flickers of light coming from the Warden's Station, while the tunnel to the north plunges into darkness. Iron clad doors are set into the rock walls of the tunnel to the south and west. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 5414} {e} {e} {2} {0} {} {1.000}
 E { 5419} {n} {n} {1} {0} {} {1.000}
-E { 5423} {s} {unlock iron south;open iron south;s} {4} {0} {} {1.000}
-E { 5424} {w} {unlock iron west;open iron west;w} {8} {0} {} {1.000}
 
 R { 5419} {0} {<278>} {Dungeon Tunnel} {<278>[ ]<088>} {Darkness is the defining feature of this crudely formed section of the dungeon.  Three iron clad doors, leading west, north, and east have been cut into the rough rock walls.  The faintest glimmer of light can be seen to the south as the tunnel continues. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 5418} {s} {s} {4} {0} {} {1.000}
@@ -22909,9 +22907,3 @@ E { 5419} {s} {unlock door;open door;s} {4} {0} {} {1.000}
 
 R { 5422} {0} {<278>} {Dungeon Cell} {<278>[ ]<088>} {All along the walls of this room are manacles of all shapes and sizes.  The rusted chains are pegged into the wall.  The floor are bloodstained from the previous occupants of this cell.  Rats scurry from you at your approach.  The smell of death is very strong in here. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 5419} {w} {unlock door;open door;w} {8} {0} {} {1.000}
-
-R { 5423} {0} {<278>} {Dungeon Cell} {<278>[ ]<088>} {Reaking of waste, rot, and suffering this cell has been hewn out of solid rock.  Straw has been piled in the far corner, appearently in an attempt to fashion some semblance of a bed.  A few buckets, full of water, excrament, and rotting food slop, are spread about the room.  An iron clad door to the north is the only exit. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5418} {n} {unlock iron;open iron;n} {1} {0} {} {1.000}
-
-R { 5424} {0} {<278>} {Torture Chamber} {<278>[ ]<088>} {This area contains various implements for torturing prisoners large and small. There are iron maidens, a huge rack, thumbscrews, chains, whips, branding irons and many other items of pain infliction. Several of the instruments still have their last occupants in them, all in various states of decomposition. A large fire burns perpetually in the middle of the room. The fire gives the room a hellish look to it. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5418} {e} {unlock iron;open iron;e} {2} {0} {} {1.000}
