@@ -45,16 +45,18 @@
 #NOP: Crude search by $itemwords, then forces a carriage return for formatting
 #ALIAS {find}
 {
-  look %1;
+  #VAR itemwords NULL;
+  #DELAY 0.3 {look %1};
   #DELAY 1 {finditem $itemwords}
 }
 
 #NOP: Lets us pick an item ourselves without looking
 #ALIAS {finditem}
 {
-  #SYS {grep %1 mozart.db};
-  #SHOWME \ ;
-  #CR
+    #VAR item_ %1;
+    #VAR item NULL;
+    #DELAY 0.5 {#VAR item $item_};
+    #DELAY 0.5 {#SYS {grep $item mozart.db}}
 }
 
 #NOP: Lets us assign a room vnum to where an item is located!
