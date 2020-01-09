@@ -22,7 +22,7 @@
 22,3610,Armor,common-steel-helm,a animal pelt helm,Head,5,Hit-N-Dam: +1
 23,3610,Armor,animal-pelt-kilt,an animal pelt kilt,Legs,4,Hitroll: +1,Dexterity: +3,Hit Points: +5
 24,3610,Axe,spiked-whittled-club,a whittled spiked club,2d8,cleave,Hit-N-Dam: +2,Constitution: +5
-25,ROOMVNUM,Clothing,orcish-cloak-crude,an orcish cloak,Neck About,0,Hitroll: +1,Armor: +10
+25,1631,Clothing,orcish-cloak-crude,an orcish cloak,Neck About,0,Hitroll: +1,Armor: +10
 26,ROOMVNUM,Mace,large-misshapen-troll-club,a Troll's Club,5d3,pound,Hitroll: +2,Recuperation: +20,Hit Points: +10,Damroll: +3
 27,ROOMVNUM,Armor,silversteel-helm-helmet,a silversteel helm,Head,7,Hit-N-Dam: +1,Darksight
 28,1381,Jewelry,necklace-rock-multicolored-animal-sinew,a rock necklace,Neck,0,Hitroll: +1
@@ -45,9 +45,62 @@
 45,ROOMVNUM,Jewelry,beetle-eye-earrings,beetle eye earrings,Ears,0,Hitroll: +1
 46,ROOMVNUM,Potion,tar-potion,a potion of tar,Hold,0
 47,ROOMVNUM,Armor,expedition-bronze-pauldron,Telsak's bronze pauldron,Arms,10,Zeal: +10,Morale: +10,Righteousness: +10,Hitroll: +2,Damroll: +1
-48,ROOMVNUM,Staff,staff-command,a Staff of Command,Hold,0
-49,ROOMVNUM,Jewelry,pendant-Galob,a Pendant of Galob,Neck,0,Wisdom: +7,Intelligence: +7,Mana: +7
+48,FIXTHISEMPTY
+49,2408,Jewelry,pendant-Galob,a Pendant of Galob,Neck,0,Wisdom: +7,Intelligence: +7,Mana: +7
 50,ROOMVNUM,Clothing,gloves-soft-ice-crystal,gloves of soft ice,Hands,0,Hands of the Master: +80,Accuracy: +80,Outflank: +80,Hit-N-Dam: +3,Iron Grip: +80
 51,4333,Clothing,golden-fleece-wool,the Golden Fleece,About,0,Intelligence: +7,Armor: +15
 52,4044,Jewelry,jeweled-girdle-black,a jeweled girdle,Waist,0,Armor: +10,Strength: +10
-53,ROOMVNUM,Wand,platinum-wand,a platinum wand,Hold,0
+53,1745,Wand,platinum-wand,a platinum wand,Hold,0
+54,2663,Armor,dwarf-steel-sleeves,dwarf steel sleeves,Arms,7,Hitroll: +1,Armor: +5
+55,2663,Armor,dwarf-steel-leggings,dwarf steel leggings,Legs,7,Hitroll: +1,Armor: +5
+56,2663,Armor,dwarf-steel-plate,dwarf steel plate,Body,14,Constitution: +7,Armor: +3,Hitroll: +1
+57,2663,Armor,dwarf-steel-gauntlets,dwarf steel gauntlets,Hands,7,Hitroll: +1,Armor: +5
+58,ROOMVNUM,Armor,common-plate-sleeves,a pair of plate sleeves,Arms,9,Hitroll: +1,Dexterity: -2,Strength: +7
+59,2663,Throwable Hammer,hammer-dwarven,a dwarven hammer,1d8,crush
+60,2393,Clothing,shadowy-cloak,a shadowy cloak,About,0,Strength: -1,Dexterity: +4,Hitroll: +2
+61,395,Other,hawk-eyes,hawk eyes,Face,0,,Darksight
+62,ROOMVNUM,Potion,glowing-wight-ichor,glowing wight ichor,Hold,0
+63,4392,Armor,giant-horned-helm,a giant horned helm,Head,12,Hit-N-Dam: +1,Strength: +8,True-Sight
+64,4392,Armor,blue-dragon-scale-shirt,a blue dragon scale shirt,Body,10,Armor: +10,Hitroll: +2,Hide: -10
+65,4392,Greatsword,Giant-Two-Handed-Sword,a giant two-handed sword,4d6,slash,Stun: +3,Hit-N-Dam: +2
+66,4392,Armor,hardened-pelt-helm,a animal pelt helm,Head,5,Hit-N-Dam: +1
+67,ROOMVNUM,Armor,silversteel-leg-leggings,silversteel leggings,Legs,10,Hit Points: +20,Bash: +5,Alignment-Ward
+68,ROOMVNUM,Throwable Dagger,dragon-tooth,a dragon tooth,2d6,pierce,Hit-N-Dam: +3
+69,ROOMVNUM,Sword,bushido-blade,a bushido blade,9d2,slash,Dexterity: +1,Hit-N-Dam: +1
+70,4463,Armor,adamant-buckler,an adamant buckler,Shield,11,Hitroll: +2,Reflex Saves: +5,Armor: +7
+71,ROOMVNUM,Armor,fine-large-round-shield,a large round shield,Shield,6,Armor: +10,Parry: +7,Hit Points: +15,Hitroll: +1
+72,ROOMVNUM,Staff,evasion-stave,an evasion stave,Hold,0,Armor: +25,Lose: +25,Hit-N-Dam: +1,Dodge: +10
+73,4523,Sword,needle-sword,a needle sword,2d6,pierce,Hit-N-Dam: +2,Weapon Spell: Poison at Character Level
+74,4640,Armor,flayed-dried-skin-bracer,a flayed skin bracer,Arms,4,Hit-N-Dam: +1,Mysticism: +5,Mana: +10
+75,2192,Sword,steel-longsword,a steel longsword,1d20,slash
+76,4640,Armor,woven-bone-leggings,a pair of bone leggings,Legs,5,Hit Points: +10,Hit-N-Dam: +1
+77,ROOMVNUM,Staff,staff-scrying-slender-wooden,a staff of scrying,Hold,0,spell-Scry:lvl-40:charge-10,Divination: +5,Intelligence: +6
+78,2559,Throwable Axe,runed-battle-axe,a runed battle axe,4d4,cleave,Hit-N-Dam: +3,Intelligence: -5
+79,848,Jewelry,cheap-rhinestone-earrings-pair,cheap rhinestone earrings,Ears,0,Hitroll: +1,Hit Points: +15
+80,1313,Clothing,black-velvet-gloves,black velvet gloves,Hands,0,Mana: +15,Mysticism: +5
+81,3034,Star,throwing-star,a throwing star,1d4,slash,Hitroll: +2,Throwing Expertise: +10
+82,3235,Treasure,smooth-quartz-ball,a smooth quartz ball,Hold,0,Hit-N-Dam: +1,Sense-Life,Detect-Magic,Floating,Detect-Evil
+83,3235,Staff,staff-serpentine,a green serpentine staff,Hold,0,Geomancy: +8
+84,2643,Armor,arms-Toutatis-burnished-bronze-arm-protectors,the arms of Toutatis,Arms,8,Damroll: +1,Translocation: +5,Flying,Detect-Evil,Water-Breath
+85,5206,Throwable Hammer,bone-hammer,a bone handled hammer,4d3,crush,Hitroll: +3,Damroll: +1,Hit Points: +20
+86,ROOMVNUM,Jewelry,strange-crown,a strange crown,Head,0,Hit-N-Dam: +1,Strength: +7
+87,ROOMVNUM,Glasses,pair-spectacles,a pair of spectacles,Face,0,Mana: +10,Mysticism: +5
+88,2032,Clothing,silk-kimono,a silk kimono,Body,0,Hit-N-Dam: +1
+89,2157,Armor,iron-skullcap-skull-cap,an iron skullcap,Head,10,Armor: +6,Hit-N-Dam: +1
+90,3016,Greatsword,huge-finest-Muramasa-blade,a muramasa blade,3d10,slash,Hit-N-Dam: +2,Weapon Spell: Faerie Fire at Level 5
+91,2643,Armor,Vitalstatistix-shield-ceremonial,Vitalstatistix' Shield,Shield,20,Strength: +7,Intelligence: +7,Wisdom: +7,Dexterity: +7,Constitution: +7
+92,5383,Sword,uruk-scimitar-wickedly-curved,an uruk scimitar,3d6,slash,Hit-N-Dam: +1,Strength: +5,Intelligence: -20
+93,5383,Clothing,servant-short-gray-robe,a servant's robe,About,0,Armor: +10,Hitroll: +1
+94,5411,Armor,spiked-collar,a spiked collar,Neck,0,Damroll: +1,Recuperation: +5
+95,5411,Armor,spiked-helm,a spiked helm,Head,4,Armor: +15,Damroll: +1
+96,5396,Whip,whip-barbed-tooth,a tooth-barbed whip,4d5,whip/sting,Damroll: +1,Hitroll: +3
+97,3097,Jewelry,root-amulet,a root amulet,Neck,0,Armor: +5,Geomancy: +3,Mana: +20,Mysticism: +5,Wisdom: +5
+98,ROOMVNUM,Jewelry,jade-ring,a jade ring,Finger,0,Wisdom: +9,Healing: +3,Constitution: +9,Intelligence: +9
+99,ROOMVNUM,Talisman,quartz-ring,a quartz ring,Finger Hold,0,Hit-N-Dam: +1,Geomancy: +7,Mana: +15
+100,ROOMVNUM,Jewelry,shiny-quartz-bracelet,a quartz bracelet,Wrist,0,Brilliance: +3,Hit-N-Dam: +1,Mana: +10
+101,ROOMVNUM,Sword,blade-shadowfire,a blade of shadowfire,4d3,slash,Damroll: +2,Hitroll: +2
+102,ROOMVNUM,Throwable Dagger,diamond-nail-file,a diamond nail file,4d4,pierce,Hit-N-Dam: +2
+103,ROOMVNUM,Throwable Dagger,Asterix-dagger,Asterix' Dagger,2d4,pierce,Hit-N-Dam: +3
+104,2851,Throwable Spear,gythka-long-spear,a gythka,3d7,stab,Hit-N-Dam: +3
+105,ROOMVNUM,Mace,rough-wooden-club,a rough wooden club,3d3,pound,Hit-N-Dam: +1
+106,ROOMVNUM,Staff,staff-command,a Staff of Command,Hold,0,spell-Charm:lvl-30:charge-25
