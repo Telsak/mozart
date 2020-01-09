@@ -10,6 +10,24 @@
 
 #NOP === WEAPONS ===
 
-
 #NOP === JEWELRY ===
 
+
+
+
+#NOP --- Shorter descriptions ---
+#SUB {It glows white!} {(glow)} 
+#HIG {(glow)} {<fff>}
+#SUB {It is blessed!} {(blessed)}
+#HIG {(blessed)} {<bdf>}
+#SUB {It has a soft glowing aura!} {(visible)} 
+#HIG {(visible)} {white}
+#SUB {It glows blue!} {(magic)} 
+#HIG {(magic)} {<efa>}
+#SUB {It glows white!} {(good)} 
+#HIG {(good)} {white}
+#SUB {It glows red!} {(evil)} 
+#HIG {(evil)} {<eaa>}
+#SUB {It is invisible.} {(invis)} 
+#HIG {(invis)} {<ccc>}
+#SUB {It emits a faint humming sound!} {(hum)}
