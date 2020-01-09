@@ -4,13 +4,30 @@ import os
 import re
 import csv
 
+def staffLine(itemtype,keywords,longname,slot,ac,charges,spell,effects,attributes):
+    """
+    For staffs and wands we pull spell+level and max charges of the item
+    """
+    attributestring, effectstring, chargestring = "", "", ""
+    for key in attributes: # iterate over the dict to turn it into a long string
+        attributestring += (key + ':' + str(attributes[key]) + ',') 
+    for key in effects: # same here as with attributes
+        effectstring += str(key) + ','
+    for key in spell:
+        chargestring += "{}:lvl-{}:charge-{},".format(key, spell[key], charges)
+    
+    attributestring = attributestring[:-1] # get rid of trailing commas
+    effectstring = effectstring[:-1]
+    chargestring = chargestring[:-1]
+
+    return ','.join([itemtype,keywords,longname,slot,ac,chargestring,attributestring,effectstring])
+
 def armorLine(itemtype,keywords,longname,slot,ac,effects,attributes):
     """
     Format the parsed item data into a single-line for storing in a file.
     attributes is a dict containing the item stat bonuses, like +hitpoints etc.
     effects is a dict containing permanent spell effects, like Darksight etc.
     """
-
     attributestring, effectstring = "", ""
     for key in attributes: # iterate over the dict to turn it into a long string
         attributestring += (key + ':' + str(attributes[key]) + ',') 
@@ -27,7 +44,6 @@ def weaponLine(itemtype,keywords,longname,dice,damtype,effects,attributes):
     effects is a dict containing permanent spell effects, like Darksight etc.
     dice and damtype is specific for weapons only.
     """
-    
     attributestring, effectstring = "", ""
     for key in attributes: # iterate over the dict to turn it into a long string
         attributestring += (key + ':' + str(attributes[key]) + ',') 
@@ -61,7 +77,7 @@ def changeVNUM(path, fileName, itemID, newVnum):
 
 # Set some tracking variables before we open the itemfile
 spells, effects, attributes = {}, {},  {}
-itemtype, dmgtype, dmgdice, armor  = "0", "0", "0", "0"
+spellcharges, itemtype, dmgtype, dmgdice, armor  = "0", "0", "0", "0", "0"
 filesPath = "/home/telsak/mud/"
 watchFile = ".itemlog_temp"
 outFile = "mozart.db"
@@ -73,7 +89,9 @@ if arguments == 3 and sys.argv[1] == "setvnum":
     changeVNUM(filesPath, outFile, sys.argv[2], sys.argv[3])
     sys.exit(0)
     
-itemID = int(grabNumLines(filesPath, outFile, ',')) + 1
+# next itemID will be number of lines (items) in file + 1, only problem is if we manually delete an item
+# there will be gaps. Each item has a , in it, which we match on to count items.
+itemID = int(grabNumLines(filesPath, outFile, ',')) + 1 
 
 f = open(watchFile)
 for line in f.readlines():
@@ -95,8 +113,10 @@ for line in f.readlines():
         dmgtype = line.split()[-1][:-1]
     elif "spell" in line:
         level = line.split()[1]
-        spell = "Spell-" + str(line.split()[4:][0].replace('.',''))
+        spell = "spell-" + str(line.split()[4:][0].replace('.',''))
         spells[spell] = level
+    elif "charges" in line: # grab wand/staff charges
+        spellcharges = line.split()[5].rstrip('.')
     elif line[0] == ' ': # This is for all attributes and active spell effects
         if ":" in line:
             attr = line.split(':')[0].lstrip()
@@ -108,12 +128,15 @@ for line in f.readlines():
             effects[attr] = attr_val
 f.close()
 
-if dmgdice == "0": # If the last item found was NOT a weapon, use non-weapon formatting
+if dmgdice != "0": # format according to the weapon template
+    outputline = str(itemID) + ",ROOMVNUM," + str(weaponLine(itemtype,keywords,longname,dmgdice,dmgtype,effects,attributes))
+
+elif spellcharges != "0": # item has spell charges
+    outputline = str(itemID) + ",ROOMVNUM," + str(staffLine(itemtype,keywords,longname,equipslot,armor,spellcharges,spells,effects,attributes))
+
+else: # If the last item found was NOT a weapon or has no charges, use armor/clothing formatting
     outputline = str(itemID) + ",ROOMVNUM," + str(armorLine(itemtype,keywords,longname,equipslot,armor,effects,attributes))
 
-else: # format according to the weapon template
-    outputline = str(itemID) + ",ROOMVNUM," + str(weaponLine(itemtype,keywords,longname,dmgdice,dmgtype,effects,attributes))
-    
 while outputline[-1:] == ",": # while to strip ALL trailing commas
     outputline = outputline[:-1]
 
