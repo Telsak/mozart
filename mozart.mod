@@ -3,6 +3,14 @@
 #ACTION {^Where Now?} {#MAP GOTO 2411}
 #ACTION {^Sliding Down Mt. Belknap} {#MAP GOTO 1389}
 #ACTION {^The Beginning of the Path to Mount Belknap} {#MAP GOTO 1393}
+#ACTION {^Under the Outcropping} {#MAP GOTO 5013}
+
+#ACTION {^Blue Lift} {exit}
+#ACTION {^North - Too dark to tell} {#IF {$playerpos == 4947} {#MAP GOTO 4976}}
+#ACTION {^North - Outside the Lift} {#MAP GOTO 4947}
+#ACTION {^North - Smoke Filled Hallway} {#MAP GOTO 4976}
+#ACTION {^tower.  To the north can be see a luxurious hallway, much the same as the} {#MAP GOTO 4972}
+#ACTION {^Penthouse Blue Lift} {#MAP GOTO 4965}
  
 #NOP ==== Retreat triggers and alias ====
 #ALIAS {f} {#VAR retreat 0;flee}
@@ -15,7 +23,7 @@
   #IF {$retreat == 3} {#MAP MOVE e};
   #ELSEIF {$retreat == 6} {#MAP MOVE s};
   #ELSEIF {$retreat == 9} {#MAP MOVE w};
-  #ELSEIF {$retreat == 12} {#MAP MOVE n}
+  #ELSEIF {$retreat == 12} {#MAP MOVE n};
   #ELSE {#MAP LEAVE;#SHOWME ! CAREFUL - MAP UNSYNCED !}
 }
 
@@ -25,6 +33,9 @@
 #ACTION {sends you sprawling with a powerful bash!} {stand} {5}
 #ACTION {you topple over and fall to the ground} {stand} {5}
 #ACTION {leg beneath yours, sending you flying to the ground.$} {stand}
+#ACTION {picks you up and throws you %1.} {#MAP move %1}
+#HIGHLIGHT {throws you %1.$} {cyan}
+#ACTION {^You hit the ground with a thud.} {stand}
 
 #NOP ====== Grouping ======
 #ACTION {You are now a member of %1's group.} {#VAR Group 1;#VAR GroupLeader %1}
@@ -56,7 +67,7 @@
   #FORMAT statusbg %+${col}s;
   #REPLACE statusbg { } {=};
   #SHOWME {$statusbg} {$rawSplit};
-  #math offset {($col / 5) * 2}
+  #math offset {$col / 5}
 }
 
 #ALIAS {mapstate} {
@@ -89,10 +100,6 @@
   #MATH rawSplit {(($termHeight / 5) * 2)};
   #SPLIT $rawSplit 1
 }
-
-
-
-
 
 #NOP ====== Rebuffing ======
 #ALIAS {resetbuffs}
@@ -175,7 +182,7 @@
   #ELSEIF {$spell[SenseLife] == 0} {cast 'Sense Life'}
 }
 
-#NOP ==== Data gathering ====
+#NOP ==== Data gathering ==== 
 #ALIAS {sc} {#LOG overwrite .score; score; #DELAY 0.4 {#LOG {off}}}
 #ALIAS {at} {#LOG overwrite .attributes; attr; #DELAY 0.4 {#LOG {off}}}
 #ALIAS {le} {#LOG overwrite .learned; spells; skills; weapon; special; #DELAY 0.4 {#LOG {off}}}
@@ -188,15 +195,13 @@
 #ALIAS {login} {#session mozart ymca.cnap.hv.se 4500} {5}
 #ALIAS {logout} {save; rent} {5}
 
-#ALIAS {flyon} {remove mocc;wear carpet}
-#ALIAS {flyoff} {remove carpet;wear mocc}
-
 #ALIAS {food} {ccf;get mush;eat mush}
 #ALIAS {setw} {#var watersrc %1}
 #ALIAS {water} {ccw $watersrc;#2 dri $watersrc}
 
 #AC {^You have become more adept at %1!} {learn %1}
 
+#NOP ==== Flymode ====
 #MACRO {\e[15~} {#IF {$flymode < 1} {mapoff;#VAR flymode 1;#VAR return_position $playerpos} {#VAR flymode 0;#MAP goto $return_position}}
 
 #MACRO {\eOr} {#IF {$mapedit < 1 && $flymode > 0} {#MAP move s} {s}} 
@@ -208,9 +213,7 @@
 #MACRO {\eOu} {#IF {$mapedit < 1 && $flymode > 0} {rinfo} {look}}
 
 #MACRO {\e[11~} {#MAP flag asciivnum}
-#MACRO {\e[12~} {
-  #IF {$mapedit > 0} {mapoff} {mapon}
-}
+#MACRO {\e[12~} {#IF {$mapedit > 0} {mapoff} {mapon}}
 #MACRO {\eOl} {#VAR flymode 0;walk}
 
 #CONFIG           {256 COLORS}  {ON}
