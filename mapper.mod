@@ -1,5 +1,6 @@
 #ACTION {^Terrain: %1.} {#var tempTerrain %1} {5}
 #ACTION {^Terrain: %1 Exits:} {#var tempTerrain %1;#replace {tempTerrain} { } {}} {4}
+
 #ALIAS {mst} {#MAP set roomterrain $tempTerrain;#CR}
 #MACRO {\e[13~} {set_terrain} 
 #MACRO {\e[14~} {mst}
@@ -15,6 +16,10 @@
 #ALIAS {listroom} {#map list {%0} {} {} {} {} {}} {5}
 #ALIAS {gz} {#MAP get roomarea roomarea}
 
+#ACTION {There is no room to get in there.} {#MAP undo}
+#ACTION {As you try to leave, you slip.} {#MAP undo;stand}
+
+
 #ALIAS {mapoff}
 {
 	#MAP {flag} {static} {on};
@@ -22,7 +27,6 @@
 	#ECHO {Room writes disabled!};
 	#EVENT {MAP ENTER ROOM} {#MAP get ROOMVNUM playerpos}
 }
-#nop	#SUB {^H:} {[MAPOFF] H:}
 
 #ALIAS {mapon}
 {
@@ -30,6 +34,8 @@
 	#MAP set roomarea ${roomarea};
     #DELAY {0.3} {#SCRIPT {sed '/You realize/,+1d' -i .tinlog}};
     #DELAY {0.3} {#SCRIPT {sed '/You open/,+1d' -i .tinlog}};
+    #DELAY {0.3} {#SCRIPT {sed '/no wall there/,+1d' -i .tinlog}};
+    #DELAY {0.3} {#SCRIPT {sed '/As you try to leave/,+1d' -i .tinlog}};
 	#DELAY {0.3} {#SCRIPT {head -n1 ~/mud/.tinlog | sed 's/.*> //' | cat ~/mud/.roomnameheader -}};
 	#DELAY {0.3} {#SCRIPT {grep Terrain ~/mud/.tinlog | cut -f2 -d ' ' | cat ~/mud/.roomterrainheader -}};
 	#DELAY {0.3} {#SCRIPT {awk 'NR==2,/Exits:/' ~/mud/.tinlog | head -n-1 | tr '\n' ' ' | sed 's/\;/\\\;/g' | cat ~/mud/.roomdescheader -}};
@@ -43,23 +49,21 @@
     #VAR mapedit 1
 }
 
-#nop	#SUB {^H:} {[MAPON] H:}
-
-#ALIAS {msr} {#map set roomname} {5}
-#ALIAS {note} {#map set roomnote %0; #echo {RoomNote = <229>%0}} {5}
-#ALIAS {rinfo} {#map info} {5}
+#ALIAS {msr} {#MAP set roomname} {5}
+#ALIAS {note} {#MAP set roomnote %0; #echo {RoomNote = <229>%0}} {5}
+#ALIAS {rinfo} {#MAP info} {5}
 #ALIAS {save} 
 {
-	#showme "Map saved.";
-	#map write mozart.map;
-	#showme "Player saved.";
+	#SHOWME "Map saved.";
+	#MAP write mozart.map;
+	#SHOWME "Player saved.";
 	saveplayer
 }
 
-#ALIAS {saveplayer}{#system echo $playerpos > .mozart.plr} {5}
-#ALIAS {setup} 
+#ALIAS {saveplayer}{#SYSTEM echo $playerpos > .mozart.plr} {5}
+#ALIAS {setup}
 {
-    #VAR zcol {<fff>};
+    #var zcol <fff>;
 	#map read mozart.map;
     findsplit;
 	#map flag vtmap on;
@@ -73,7 +77,7 @@
 }
 
 #ALIAS {symbol} {#map set roomsymbol %0; #echo {RoomSymbol = <229>%0}} {5}
-#ALIAS {undo} {#if {$varedit == 1} {#map undo};#else {#showme Nothing to undo!}} {5}
+#ALIAS {undo} {#if {$mapedit == 1} {#map undo};#else {#showme Nothing to undo!}} {5}
 #ALIAS {walk} {#path walk} {5}
 #ALIAS {zone} {#variable {roomarea} {%0}; #echo {Zone set to:<229> ${roomarea}};statusbar} {5}
 #ALIAS {nozone} {#variable {roomarea} {NotYetSet}; #echo {Zone un-set}}
