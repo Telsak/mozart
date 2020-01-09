@@ -53,10 +53,9 @@
 #NOP: Lets us pick an item ourselves without looking
 #ALIAS {finditem}
 {
-    #VAR item_ %1;
     #VAR item NULL;
-    #DELAY 0.5 {#VAR item $item_};
-    #DELAY 0.5 {#SYS {grep -i $item mozart.db}}
+    #VAR item %1;
+    #SYS {grep -i $item mozart.db}
 }
 
 #NOP: Lets us assign a room vnum to where an item is located!
