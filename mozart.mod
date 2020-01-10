@@ -18,8 +18,7 @@
 #ALIAS {rs} {#VAR retreat 6;retreat s}
 #ALIAS {rw} {#VAR retreat 9;retreat w}
 #ALIAS {re} {#VAR retreat 3;retreat e}
-#ACTION {^You flee head over heels.}
-{
+#ACTION {^You flee head over heels.} {
   #IF {$retreat == 3} {#MAP MOVE e};
   #ELSEIF {$retreat == 6} {#MAP MOVE s};
   #ELSEIF {$retreat == 9} {#MAP MOVE w};
@@ -31,9 +30,27 @@
 #ALIAS {repair} {remove %1;give %1 blacksmith;wear %1;wield %1}
 
 
-#NOP ====== Combat ======
-#ACTION {%*{C:few|C:critical|C:excellent|C:awful|C:pretty|C:big|C:quite|C:small}%*} {#VAR combat 1}
+#NOP ====== Prompt ======
+#ACTION {^H:%1/%2 M:%3/%4 V:%5/%6 XP:%7 C:%8>} {
+  #VAR curH %1;
+  #VAR maxH %2;
+  #VAR curM %3;
+  #VAR maxM %4;
+  #VAR curV %5;
+  #VAR maxV %6;
+  #VAR tnlX %7;
+  #VAR targH %8;
+  check_combat
+}
 
+#ALIAS {check_combat} {
+  #SWITCH {"$targH"} {
+    #CASE {"*"} {#VAR combat 0};
+    #DEFAULT {#VAR combat 1}
+  }
+}
+
+#NOP ====== Combat ======
 #ACTION {sends you sprawling with a powerful bash!} {stand} {5}
 #ACTION {you topple over and fall to the ground} {stand} {5}
 #ACTION {leg beneath yours, sending you flying to the ground.$} {stand}
@@ -122,7 +139,6 @@
   #DELAY {0.3} {affe}
 }
 
-#ACTION {M:%1/%2 V:%3C:*>} {#VAR curM %1; #VAR maxM %2; #VAR combat 0}
 
 #ACTION {^You lie down and rest your tired bones.$} {#VAR standing 0}
 #ACTION {^You go to sleep.$} {#VAR standing 0}
