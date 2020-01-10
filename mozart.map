@@ -1953,21 +1953,21 @@ E {  419} {d} {d} {32} {0} {} {1.000}
 E { 1382} {e} {e} {2} {0} {} {1.000}
 E { 1574} {w} {w} {8} {0} {} {1.000}
 
-R {  419} {0} {<fff>} {Mountain Pass} { } {You have just carefully descended down into the mountain valley you were so recently admiring a short time ago.  It now seems you will have great difficulty getting back to the valley overlook.    Your worries about going back vanish, however, as you marvel at the splendor of the pristine valley ahead of you.  The Eastern Mountains block your path to the east and west, but the valley continues to the north. } {NotYetSet} {} {Mountains} {} {1.000} {}
+R {  419} {0} {<238>} {Mountain Pass} {<238>/ \<088>} {You have just carefully descended down into the mountain valley you were so recently admiring a short time ago.  It now seems you will have great difficulty getting back to the valley overlook.    Your worries about going back vanish, however, as you marvel at the splendor of the pristine valley ahead of you.  The Eastern Mountains block your path to the east and west, but the valley continues to the north. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E {  418} {u} {u} {16} {0} {} {1.000}
 E {  420} {n} {n} {1} {0} {} {1.000}
 
-R {  420} {0} {<fff>} {Mountain Pass} { } {The valley before you is simply amazing.  It is as if no one has visited this place in hundreds of years.  The scenery that surrounds you seems unmatched in all your travels.  You start to think of all the chaos in your life and wonder if it might be the right time to settle down.  You begin to unconsciously search for a suitable site for a castle.  The valley extends to the north and south. } {NotYetSet} {} {Mountains} {} {1.000} {}
+R {  420} {0} {<238>} {Mountain Pass} {<238>/ \<088>} {The valley before you is simply amazing.  It is as if no one has visited this place in hundreds of years.  The scenery that surrounds you seems unmatched in all your travels.  You start to think of all the chaos in your life and wonder if it might be the right time to settle down.  You begin to unconsciously search for a suitable site for a castle.  The valley extends to the north and south. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E {  419} {s} {s} {4} {0} {} {1.000}
 E {  421} {n} {n} {1} {0} {} {1.000}
 
-R {  421} {0} {<fff>} {Mountain Pass} { } {As you stay in the center of the valley, you make your way further into the valley.  To the south you see the sharp cliff you descended earlier.  To the north you see what seems to be some sort of rockslide.  From this vantage point, you can't see if it is passable or not. } {NotYetSet} {} {Mountains} {} {1.000} {}
+R {  421} {0} {<238>} {Mountain Pass} {<238>/ \<088>} {As you stay in the center of the valley, you make your way further into the valley.  To the south you see the sharp cliff you descended earlier.  To the north you see what seems to be some sort of rockslide.  From this vantage point, you can't see if it is passable or not. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E {  420} {s} {s} {4} {0} {} {1.000}
 E {  422} {n} {n} {1} {0} {} {1.000}
 
-R {  422} {0} {<fff>} {Blocked Mountain Pass} { } {You have made your way to the edge of a massive rockslide.  It is quite substantial and fills the entire valley.  You decide to try and make your way over the sharp rocks, but after a few attempts see that it is not a wise move.    It appears that your adventure down this valley has come to an end.  All you can see from here is the Eastern Mountains as they extend north from your position and then expand out only to come together at a point distant from here.  You realize that this rockslide prevents you from seeing the mountain enclave to the north created by the terrain. } {NotYetSet} {} {Mountains} {} {1.000} {}
+R {  422} {0} {<238>} {Blocked Mountain Pass} {<238>/ \<088>} {You have made your way to the edge of a massive rockslide.  It is quite substantial and fills the entire valley.  You decide to try and make your way over the sharp rocks, but after a few attempts see that it is not a wise move.    It appears that your adventure down this valley has come to an end.  All you can see from here is the Eastern Mountains as they extend north from your position and then expand out only to come together at a point distant from here.  You realize that this rockslide prevents you from seeing the mountain enclave to the north created by the terrain. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E {  421} {s} {s} {4} {0} {} {1.000}
-E { 1654} {n} {n} {1} {0} {} {1.000}
+E { 1654} {n} {dig n;n} {1} {0} {} {1.000}
 
 R {  423} {0} {<afa>} {A Tiny Cave} {<148>. .<088>} {You are standing in a tiny cave, with room for very few people.  There is a large crack leading outside to the west, and the cave narrows to a tunnel which seems to lead east.  You think that you might be able to squeeze yourself through the crack. } {Goblin Caves} {} {Underground} {} {1.000} {}
 E {  409} {w} {w} {8} {0} {} {1.000}
@@ -7054,8 +7054,9 @@ E { 1620} {w} {w} {8} {0} {} {1.000}
 R { 1653} {0} {} {} {^^^} {} {} {} {} {} {1.000} {}
 E { 1382} {w} {w} {8} {0} {} {1.000}
 
-R { 1654} {0} {<fff>} {North of the Rockslide} {Order area} {Your wisdom has delivered you to the north side of the rockslide. Unfortunately, your expectations of what the enclave would be like have not been met.  A great shadowy forest greets you to the north.  Beyond the forest, you see what seems to be the rooftops of several large buildings or a single castle.  The beautiful valley you just left lies to the south. } {NotYetSet} {} {Mountains} {} {1.000} {}
-E {  422} {s} {s} {4} {0} {} {1.000}
+R { 1654} {0} {<238>} {North of the Rockslide} {<238>/ \<088>} {Your wisdom has delivered you to the north side of the rockslide. Unfortunately, your expectations of what the enclave would be like have not been met.  A great shadowy forest greets you to the north.  Beyond the forest, you see what seems to be the rooftops of several large buildings or a single castle.  The beautiful valley you just left lies to the south. } {NotYetSet} {} {Mountains} {} {1.000} {}
+E {  422} {s} {dig s;s} {4} {0} {} {1.000}
+E { 5425} {n} {n} {1} {0} {} {1.000}
 
 R { 1655} {4104} {} {} { } {} {NotYetSet} {} {} {} {1.000} {}
 E {  413} {e} {e} {2} {0} {} {1.000}
@@ -16510,7 +16511,7 @@ E { 3864} {s} {s} {4} {0} {} {1.000}
 R { 3866} {0} {<278>} {A Stone Altar} {<278>[ ]<088>} {The room is bare expect for a large stone altar that sits in the center. The altar is one large stone block with symbols and runes covering it.  What looks to be a picture of an animal that you don't recognize is carved into the top of the altar.  A thick layer of dust covers most surfaces in this room. The sound made in this room is muffled in some way.  No other exits can be seen. } {NotYetSet} {} {Inside} {} {1.000} {}
 E { 3864} {n} {n} {1} {0} {} {1.000}
 
-R { 3867} {0} {} {It seems to be locked.} { } {H:590/590 M:131/134 V:343/343 XP:-25087 C:*> The large metal door seems to be closed. } {NotYetSet} {} {} {} {1.000} {}
+R { 3867} {0} {} {It seems to be locked.} {LOC} {H:590/590 M:131/134 V:343/343 XP:-25087 C:*> The large metal door seems to be closed. } {NotYetSet} {} {} {} {1.000} {}
 E { 3862} {e} {e} {2} {0} {} {1.000}
 
 R { 3868} {0} {<148>} {Inside the Flower Mound} {<148>. .<088>} {You plunge into the magical green liquid, and gasp in astonishment as a tingling feeling pervades your body and the world begins to spin around you in ever larger circles. When you come to your senses, you find yourself *inside* of the flower mound. You stare in amazement at your surroundings, realizing that you must now be the size of a small grasshopper. You can see no way at present to return to the world you know, so you decide to explore further this place of magic and mystery. } {NotYetSet} {} {Underground} {} {1.000} {}
@@ -19779,12 +19780,13 @@ R { 4665} {0} {<238>} {A Steep Trail} {<238>/ \<088>} {Here lies a steep, rocky 
 E { 4697} {s} {s} {4} {0} {} {1.000}
 E { 4666} {n} {n} {1} {0} {} {1.000}
 
-R { 4666} {0} {<238>} {The End of the Trail} {<238>/ \<088>} {As you fade into the mountains, you get an increasing sense of foreboding. You can barely make out featureless, craggy mountains in the darkness that surrounds you.  A dark, jagged, wide crack opens up before you leading into the mountains themselves. } {NotYetSet} {} {Mountains} {} {1.000} {}
+R { 4666} {0} {<238>} {The End of the Trail} {!!!} {As you fade into the mountains, you get an increasing sense of foreboding. You can barely make out featureless, craggy mountains in the darkness that surrounds you.  A dark, jagged, wide crack opens up before you leading into the mountains themselves. } {The Abyss} {} {Mountains} {} {1.000} {}
 E { 4665} {s} {s} {4} {0} {} {1.000}
 E { 4667} {d} {d} {32} {0} {} {1.000}
 
-R { 4667} {0} {<148>} {Gateway to the Abyss} {<148>. .<088>} {As you enter the jagged crack, you feel coldness emanate from the rocks.  As you look ahead you are stricken by an overwhelming sense of panic.  You fear to think what may lie ahead of you. } {NotYetSet} {} {Underground} {} {1.000} {}
+R { 4667} {0} {<148>} {Gateway to the Abyss} {<148>. .<088>} {As you enter the jagged crack, you feel coldness emanate from the rocks.  As you look ahead you are stricken by an overwhelming sense of panic.  You fear to think what may lie ahead of you. } {The Abyss} {} {Underground} {} {1.000} {}
 E { 4666} {u} {u} {16} {0} {} {1.000}
+E { 5430} {d} {d} {32} {0} {} {1.000}
 
 R { 4668} {0} {<aca>} {The Forest of Rhowyn} {<aca>( *<088>} {You are standing on a path leading through the forest.  To the north, very close by, you can hear the sound of running water.  The path leads north and south.  The abundance of trees makes it very gloomy here, but you can still make out details. } {The Forest of Rhowyn} {} {Forest} {} {1.000} {}
 E { 4663} {s} {s} {4} {0} {} {1.000}
@@ -19982,6 +19984,7 @@ E { 4716} {w} {w} {8} {0} {} {1.000}
 
 R { 4716} {0} {<278>} {A Large Waterfall} {<278>[ ]<088>} {A large waterfall pours from a gap in the rock ceiling far above.  The water has formed a small pool that gradually turns into a river.  The river flows through the rock walls that lead off into the distance to the east.  No other way out of this small cavern can be seen except to follow the river eastward. } {NotYetSet} {} {Inside} {} {1.000} {}
 E { 4715} {e} {e} {2} {0} {} {1.000}
+E { 5429} {s} {s} {4} {0} {} {1.000}
 
 R { 4717} {0} {<148>} {} {<148>~ ~<088>} {} {NotYetSet} {} {} {} {1.000} {}
 E { 4713} {w} {w} {8} {0} {} {1.000}
@@ -22915,3 +22918,68 @@ E { 5418} {n} {unlock iron;open iron;n} {1} {0} {} {1.000}
 
 R { 5424} {0} {<278>} {Torture Chamber} {<278>[ ]<088>} {This area contains various implements for torturing prisoners large and small. There are iron maidens, a huge rack, thumbscrews, chains, whips, branding irons and many other items of pain infliction. Several of the instruments still have their last occupants in them, all in various states of decomposition. A large fire burns perpetually in the middle of the room. The fire gives the room a hellish look to it. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 5418} {e} {unlock iron;open iron;e} {2} {0} {} {1.000}
+
+R { 5425} {0} {<aca>} {Trail into a Shadowy Forest} {<aca>( *<088>} {You are at what appears to be a very strange forest.  It seems to move as if it's alive.  The combination of a steady wind from the side of the mountain and the density of the forest canopy create a strange effect in the overgrown forest.  Before you is the beginning of a small trail into the forest.  It extends to the north and east. } {NotYetSet} {} {Forest} {} {1.000} {}
+E { 1654} {s} {s} {4} {0} {} {1.000}
+E { 5426} {e} {e} {2} {0} {} {1.000}
+E { 5427} {n} {n} {1} {0} {} {1.000}
+
+R { 5426} {0} {<aca>} {Trail in the Shadowy Forest} {<aca>( *<088>} {You make your way along the small but curiously worn path in these dark woods.  You get an eerie feeling that you are being watched and that someone or something is moving around you.  Perhaps it's just the haunting shadows produced by the forest canopy obscuring the sun.  The trail continues to the east and west. } {NotYetSet} {} {Forest} {} {1.000} {}
+E { 5425} {w} {w} {8} {0} {} {1.000}
+
+R { 5427} {0} {<aca>} {Trail in the Shadowy Forest} {<aca>( *<088>} {You make your way along the small but curiously worn path in these dark woods.  You get an eerie feeling that you are being watched and that someone or something is moving around you.  Perhaps it's just the haunting shadows produced by the forest canopy obscuring the sun.    This branch of the trail continues north, east.  The trail exits the woods to the south.  For some reason south looks very inviting. } {NotYetSet} {} {Forest} {} {1.000} {}
+E { 5425} {s} {s} {4} {0} {} {1.000}
+E { 5428} {e} {e} {2} {0} {} {1.000}
+
+R { 5428} {0} {<aca>} {Trail in the Shadowy Forest} {<aca>( *<088>} {This part of the trail is quite narrow, but still well traveled.  The trees and underbrush simply haven't been pushed back very well.  After this long in these strange woods, you are beginning to adapt to the shadows, but it is not something you plan on staying to enjoy.  The trail continues to the north and west. } {NotYetSet} {} {Forest} {} {1.000} {}
+E { 5427} {w} {w} {8} {0} {} {1.000}
+
+R { 5429} {0} {<278>} {A Small Cove} {<278>[ ]<088>} {The removal of the stone block that was set into the cavern wall reveals a small cove.  The cove is above the water level of the small pool and well away from the waterfall.  Books, papers, metal utensils, pots, and other small items are scattered around the rock floor.  A small cot sits in the corner next to a stone desk of sorts.  A chest can barely be made out under a cot in the corner. The air smells quite foul and uninviting but is otherwise quite breathable.  No other way out, except back through the hole left by the stone block can be seen. } {NotYetSet} {} {Inside} {} {1.000} {}
+E { 4716} {n} {n} {1} {0} {} {1.000}
+
+R { 5430} {0} {<148>} {Into the Dark} {<148>. .<088>} {Heat! Unbearable, torturing heat tears through to the very fiber of your being as you enter the Abyss. Beyond your pain, you are just able to make out walls that emit a blood red glow. Waves of panic wash over you, forcing you to try and flee, although something is pulling you, drawing you nearer, deeper. This assault on your soul nearly drives you insane. } {The Abyss} {} {Underground} {} {1.000} {}
+E { 4667} {u} {u} {16} {0} {} {1.000}
+E { 5431} {n} {n} {1} {0} {} {1.000}
+
+R { 5431} {0} {<148>} {Cavern of Lost Souls} {<148>. .<088>} {You wander into a dimly lit, cavernous room.  A pervading feeling of death and evil fills the room.  The darkness seems to be aware of your presence and visions of gruesome deaths, mutilation and torture are shown to you.  You sense other presences here.  You start as you realise these must be the souls of those who have passed from the land of the living, to be trapped forever in the land of the dead. } {The Abyss} {} {Underground} {} {1.000} {}
+E { 5430} {s} {s} {4} {0} {} {1.000}
+E { 5432} {n} {n} {1} {0} {} {1.000}
+
+R { 5432} {0} {<148>} {Into the Caverns} {<148>. .<088>} {You are within a dark cavern, from which other caverns can be seen.  You hear waves coming from the cavern to the east, as you see a glowing mist within the cavern to the west. } {The Abyss} {} {Underground} {} {1.000} {}
+E { 5431} {s} {s} {4} {0} {} {1.000}
+E { 5433} {w} {w} {8} {0} {} {1.000}
+
+R { 5433} {0} {<148>} {Misty Cavern} {<148>. .<088>} {As you enter the cavern, you are immediately surrounded by the mist, which glows a sickly green color.  Feelings of death and despair rush over you threatening to overpower you and leave you trapped here for eternity. } {The Abyss} {} {Underground} {} {1.000} {}
+E { 5432} {e} {e} {2} {0} {} {1.000}
+E { 5434} {w} {w} {8} {0} {} {1.000}
+
+R { 5434} {0} {<148>} {Western End of the Misty Cavern} {<148>. .<088>} {The entire west wall is made up of two enormous doors, which emit a soft red aura.  There is a small hole in one of the doors, possibly a key hole.  The mist seems to avoid contact with the door, and you suddenly hear wailing from beyond the doors. } {The Abyss} {} {Underground} {} {1.000} {}
+E { 5433} {e} {e} {2} {0} {} {1.000}
+E { 5435} {w} {open doors;w} {8} {0} {} {1.000}
+
+R { 5435} {0} {<278>} {Realm of the Dead} {<278>[ ]<088>} {You are within a large, dark room.  The walls, ceiling, and floor are all charcoal black.  There is a large chest at the back of the room, and you can an exit to the north. } {The Abyss} {} {Inside} {} {1.000} {}
+E { 5434} {e} {e} {2} {0} {} {1.000}
+E { 5436} {n} {n} {1} {0} {} {1.000}
+
+R { 5436} {0} {<278>} {The Gate} {<278>[ ]<088>} {You enter a large barren room except for a large, black object on the north wall.  On closer observation the object appears to be some sort of portal. Looking in the portal you only see darkness, but you hear a loud crashing sound. } {The Abyss} {} {Inside} {} {1.000} {}
+E { 5435} {s} {s} {4} {0} {} {1.000}
+E { 5437} {n} {n} {1} {0} {} {1.000}
+
+R { 5437} {0} {<268>} {The Other Side} {<268>~ ~<088>} {As you step through the portal, you find yourself in a different place.  You see that the crashing sounds you have been hearing were actually coming from the north, where there is what seems to be a bleak, ocean shore.  You see sizable waves crash against the shore, producing the crashing sound. } {The Abyss} {} {Shore} {} {1.000} {}
+E { 5436} {s} {s} {4} {0} {} {1.000}
+E { 5438} {n} {n} {1} {0} {} {1.000}
+
+R { 5438} {0} {<268>} {Ocean Shore} {<268>~ ~<088>} {You are standing on the shore of a bleak ocean.  The ocean is black and the sand on the shore looks and feels like charcoal.  The sky is a dark grey, and is over cast with dark clouds.  You begin to panic as you notice no other sounds than the waves crashing on the beach. } {The Abyss} {} {Shore} {} {1.000} {}
+E { 5437} {s} {s} {4} {0} {} {1.000}
+E { 5439} {n} {n} {1} {0} {} {1.000}
+
+R { 5439} {0} {} {On the Ocean of Despair} { } {As you float just above the jet black waters of the ocean, you occasionally glimpse movement out of the corner of your eye. When you turn to see what the movement was, you see nothing, not even a rippling in the surface of the water. } {The Abyss} {} {Water} {} {1.000} {}
+E { 5438} {s} {s} {4} {0} {} {1.000}
+E { 5440} {w} {w} {8} {0} {} {1.000}
+
+R { 5440} {0} {} {On the Ocean of Despair} { } {As you float just above the jet black waters of the ocean, you occasionally glimpse movement out of the corner of your eye. When you turn to see what the movement was, you see nothing, not even a rippling in the surface of the water. } {The Abyss} {} {Water} {} {1.000} {}
+E { 5439} {e} {e} {2} {0} {} {1.000}
+E { 5441} {s} {s} {4} {0} {} {1.000}
+
+R { 5441} {0} {} {You flee head over heels.} { } {} {The Abyss} {} {} {} {1.000} {}
+E { 5440} {n} {n} {1} {0} {} {1.000}
