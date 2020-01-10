@@ -27,6 +27,10 @@
   #ELSE {#MAP LEAVE;#SHOWME ! CAREFUL - MAP UNSYNCED !}
 }
 
+#NOP ====== General ======
+#ALIAS {repair} {remove %1;give %1 blacksmith;wear %1;wield %1}
+
+
 #NOP ====== Combat ======
 #ACTION {%*{C:few|C:critical|C:excellent|C:awful|C:pretty|C:big|C:quite|C:small}%*} {#VAR combat 1}
 
