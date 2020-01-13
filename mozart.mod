@@ -4,6 +4,8 @@
 #ACTION {^Sliding Down Mt. Belknap} {#MAP GOTO 1389}
 #ACTION {^The Beginning of the Path to Mount Belknap} {#MAP GOTO 1393}
 #ACTION {^Under the Outcropping} {#MAP GOTO 5013}
+#ACTION {^Bottom of the Trap} {#MAP GOTO 4649}
+
 
 #ACTION {^Blue Lift} {exit}
 #ACTION {^North - Too dark to tell} {#IF {$playerpos == 4947} {#MAP GOTO 4976}}
@@ -28,6 +30,8 @@
 
 #NOP ====== General ======
 #ALIAS {repair} {remove %1;give %1 blacksmith;wear %1;wield %1}
+#MACRO {\e[24~} {#MAP set roomcolor>;symbol}
+#ALIAS {ter} {#MAP goto %1;#MAP set roomterrain %2}
 
 
 #NOP ====== Prompt ======
@@ -79,15 +83,20 @@
 
 #NOP ====== Statusbar at top split ======
 #EVENT {MAP UPDATED VTMAP} {statusbar}
-#EVENT {SCREEN RESIZE} {findsplit}
+#EVENT {SCREEN RESIZE} {findsplit;#SCREEN get cols col}
+
+#ALIAS {setmap} {
+  #MATH mapwidth {$col - 30};
+  #DRAW white tube unicode box 1 1 {$rawSplit} {$mapwidth + 1} \ ;
+  #MAP offset 2 2 {$rawSplit} $mapwidth
+}
 
 #ALIAS {statusbar} {default;mapstate;arealine;roomline;mapzone}
 
 #ALIAS {default} {
-  #FORMAT col %C;
   #FORMAT statusbg %+${col}s;
   #REPLACE statusbg { } {=};
-  #SHOWME {$statusbg} {$rawSplit};
+  #SHOWME {<eee>$statusbg} {$rawSplit};
   #math offset {$col / 5}
 }
 
@@ -117,7 +126,7 @@
 }
 
 #ALIAS {findsplit} {
-  #FORMAT termHeight %R;
+  #SCREEN get rows termHeight;
   #MATH rawSplit {(($termHeight / 5) * 2)};
   #SPLIT $rawSplit 1
 }
