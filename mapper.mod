@@ -69,6 +69,7 @@
 	#map flag vtmap on;
 	getplayer;
 	#map goto $playerpos[1];
+    #CONFIG charset utf-8;
     mapoff;
     zone Unset;
     resetbuffs;
