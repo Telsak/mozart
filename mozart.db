@@ -50,7 +50,7 @@
 50,ROOMVNUM,Clothing,gloves-soft-ice-crystal,gloves of soft ice,Hands,0,Hands of the Master: +80,Accuracy: +80,Outflank: +80,Hit-N-Dam: +3,Iron Grip: +80
 51,4333,Clothing,golden-fleece-wool,the Golden Fleece,About,0,Intelligence: +7,Armor: +15
 52,4044,Jewelry,jeweled-girdle-black,a jeweled girdle,Waist,0,Armor: +10,Strength: +10
-53,1745,Wand,platinum-wand,a platinum wand,Hold,0
+53,FIXTHISEMPTY
 54,2663,Armor,dwarf-steel-sleeves,dwarf steel sleeves,Arms,7,Hitroll: +1,Armor: +5
 55,2663,Armor,dwarf-steel-leggings,dwarf steel leggings,Legs,7,Hitroll: +1,Armor: +5
 56,2663,Armor,dwarf-steel-plate,dwarf steel plate,Body,14,Constitution: +7,Armor: +3,Hitroll: +1
@@ -102,5 +102,15 @@
 102,ROOMVNUM,Throwable Dagger,diamond-nail-file,a diamond nail file,4d4,pierce,Hit-N-Dam: +2
 103,ROOMVNUM,Throwable Dagger,Asterix-dagger,Asterix' Dagger,2d4,pierce,Hit-N-Dam: +3
 104,2851,Throwable Spear,gythka-long-spear,a gythka,3d7,stab,Hit-N-Dam: +3
-105,ROOMVNUM,Mace,rough-wooden-club,a rough wooden club,3d3,pound,Hit-N-Dam: +1
+105,1617,Mace,rough-wooden-club,a rough wooden club,3d3,pound,Hit-N-Dam: +1
 106,ROOMVNUM,Staff,staff-command,a Staff of Command,Hold,0,spell-Charm:lvl-30:charge-25
+107,4266,Other,pteranodon-wings,a set of pteranodon wings,Neck About,0,Armor: +5,Flying
+108,5499,Armor,ankylosaurus-shield-scales-bone,an ankylosaurus shield,Shield,5,Strength: +15,Hit-N-Dam: +1,Armor: +25
+109,ROOMVNUM,Sword,curved-scimitar,a curved scimitar,1d7,slash,Hitroll: +1,Damroll: +1
+110,ROOMVNUM,Wand,platinum-wand,a platinum wand,Hold,0,spell-Magic:lvl-10:charge-20
+111,ROOMVNUM,Sword,silver-sword,a silver sword,2d9,slash/dazzle,Hit-N-Dam: +3,Resistance: energy
+112,5409,Clothing,dinosaur-mask,a dinosaur mask,Face,0,Strength: +5,Sense-Life
+113,2421,Jewelry,Akinra-medallion,the medallion of Akinra,Neck,0,Wisdom: -1,Mana: +50
+114,ROOMVNUM,Throwable Dagger,sacrificial-knife,a sacrificial knife,2d7,pierce
+115,2424,Armor,well-used-bracer-defense,a bracer of defense,Arms,5,Hitroll: +1,Abjuration: +7,Armor: +40
+116,2466,Throwable Dagger,dagger-slicing,a dagger of slicing,2d10,pierce,Hitroll: +3,Damroll: -3
