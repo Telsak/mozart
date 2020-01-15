@@ -6,7 +6,7 @@
 #ACTION {^Under the Outcropping} {#MAP GOTO 5013}
 #ACTION {^Bottom of the Trap} {#MAP GOTO 4649}
 
-
+#HIGHLIGHT {footsteps echo off in all directions except to the west, where death echos} {cyan}
 #ACTION {^Blue Lift} {exit}
 #ACTION {^North - Too dark to tell} {#IF {$playerpos == 4947} {#MAP GOTO 4976}}
 #ACTION {^North - Outside the Lift} {#MAP GOTO 4947}
@@ -32,7 +32,19 @@
 #ALIAS {repair} {remove %1;give %1 blacksmith;wear %1;wield %1}
 #MACRO {\e[24~} {#MAP set roomcolor;symbol}
 #ALIAS {ter} {#MAP goto %1;#MAP set roomterrain %2}
-#HIGHLIGHT {footsteps echo off in all directions except to the west, where death echos} {cyan}
+
+#NOP ===== Food/Thirst (assumes create food/water) =====
+#ACTION {You are hungry} {#VAR hunger 1} 
+#ACTION {You are thirsty} {#VAR thirst 1}
+#ACTION {You are no longer thirsty} {#VAR thirst 0}
+#ACTION {Your thirst is satiated} {#VAR thirst 0}
+#ACTION {You are no longer hungry} {#VAR hunger 0}
+#ACTION {%*{You are still hungry|^You do not see a mush here.}%*} {eat}
+#ACTION {You are still thirsty} {eat}
+#ALIAS {eat} {
+  #IF {$hunger == 1 && $combat == 0} {food};
+  #IF {$thirst == 1 && $combat == 0} {water}
+}
 
 #NOP ====== Prompt ======
 #ACTION {^H:%1/%2 M:%3/%4 V:%5/%6 XP:%7 C:%8>} {
@@ -57,6 +69,16 @@
 #NOP ====== Combat ======
 #ALIAS {sanc} {get purp bag;qua pur}
 #ALIAS {invis} {get roll bag;eat roll}
+
+#ACTION {%*{is dead!$|is destroyed!$}%*} {
+  #IF {$combat == 1} {
+    #SWITCH {"$playerarea"} {
+      #CASE {"Mac Mordain Cadal"} {get all.pur corps}
+    }
+  }{#SHOWME Not your kill - not looting}
+}
+
+#MACRO {\eOp} {hitall}
 #ACTION {sends you sprawling with a powerful bash!} {stand} {5}
 #ACTION {you topple over and fall to the ground} {stand} {5}
 #ACTION {leg beneath yours, sending you flying to the ground.$} {stand}
@@ -147,6 +169,8 @@
   #VAR spell[ResistPoison] 0;
   #VAR spell[DetectMagic] 0;
   #VAR spell[SenseLife] 0;
+  #VAR hunger 0;
+  #VAR thirst 0;
   #DELAY {0.3} {affe}
 }
 
@@ -227,8 +251,7 @@
 #ALIAS {logout} {save; rent} {5}
 
 #ALIAS {food} {ccf;get mush;eat mush}
-#ALIAS {setw} {#var watersrc %1}
-#ALIAS {water} {ccw $watersrc;#2 dri $watersrc}
+#ALIAS {water} {ccw ale;dri ale;dri ale}
 
 #AC {^You have become more adept at %1!} {learn %1}
 
