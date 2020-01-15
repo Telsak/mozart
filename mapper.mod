@@ -25,7 +25,10 @@
 	#MAP {flag} {static} {on};
     #VAR mapedit 0;
 	#ECHO {Room writes disabled!};
-	#EVENT {MAP ENTER ROOM} {#MAP get ROOMVNUM playerpos}
+	#EVENT {MAP ENTER ROOM} {
+      #MAP get ROOMVNUM playerpos;
+      #MAP get ROOMAREA playerarea
+    }
 }
 
 #ALIAS {mapon}
