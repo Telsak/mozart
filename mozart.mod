@@ -30,9 +30,9 @@
 
 #NOP ====== General ======
 #ALIAS {repair} {remove %1;give %1 blacksmith;wear %1;wield %1}
-#MACRO {\e[24~} {#MAP set roomcolor>;symbol}
+#MACRO {\e[24~} {#MAP set roomcolor;symbol}
 #ALIAS {ter} {#MAP goto %1;#MAP set roomterrain %2}
-
+#HIGHLIGHT {footsteps echo off in all directions except to the west, where death echos} {cyan}
 
 #NOP ====== Prompt ======
 #ACTION {^H:%1/%2 M:%3/%4 V:%5/%6 XP:%7 C:%8>} {
@@ -55,6 +55,8 @@
 }
 
 #NOP ====== Combat ======
+#ALIAS {sanc} {get purp bag;qua pur}
+#ALIAS {invis} {get roll bag;eat roll}
 #ACTION {sends you sprawling with a powerful bash!} {stand} {5}
 #ACTION {you topple over and fall to the ground} {stand} {5}
 #ACTION {leg beneath yours, sending you flying to the ground.$} {stand}
