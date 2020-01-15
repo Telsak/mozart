@@ -83,7 +83,7 @@
 83,3235,Staff,staff-serpentine,a green serpentine staff,Hold,0,Geomancy: +8
 84,2643,Armor,arms-Toutatis-burnished-bronze-arm-protectors,the arms of Toutatis,Arms,8,Damroll: +1,Translocation: +5,Flying,Detect-Evil,Water-Breath
 85,5206,Throwable Hammer,bone-hammer,a bone handled hammer,4d3,crush,Hitroll: +3,Damroll: +1,Hit Points: +20
-86,ROOMVNUM,Jewelry,strange-crown,a strange crown,Head,0,Hit-N-Dam: +1,Strength: +7
+86,5619,Jewelry,strange-crown,a strange crown,Head,0,Hit-N-Dam: +1,Strength: +7
 87,ROOMVNUM,Glasses,pair-spectacles,a pair of spectacles,Face,0,Mana: +10,Mysticism: +5
 88,2032,Clothing,silk-kimono,a silk kimono,Body,0,Hit-N-Dam: +1
 89,2157,Armor,iron-skullcap-skull-cap,an iron skullcap,Head,10,Armor: +6,Hit-N-Dam: +1
@@ -114,3 +114,41 @@
 114,ROOMVNUM,Throwable Dagger,sacrificial-knife,a sacrificial knife,2d7,pierce
 115,2424,Armor,well-used-bracer-defense,a bracer of defense,Arms,5,Hitroll: +1,Abjuration: +7,Armor: +40
 116,2466,Throwable Dagger,dagger-slicing,a dagger of slicing,2d10,pierce,Hitroll: +3,Damroll: -3
+117,5619,Whip,whip-Medusa,the whip of Medusa,2d8,whip,Hitroll: +2,Damroll: +2
+118,3243,Clothing,silk-black-robe,a black silk robe,About,0,Armor: +5,Reflex Saves: +5
+119,5614,Other,staff-witches,the staff of witches,Hold,0,Mana: +20,Willpower Saves: +4
+120,5615,Jewelry,bracelet-worn,a worn bracelet,Wrist,0,Hit-N-Dam: +1,Strength: +2
+121,5609,Clothing,shifting-shadow-cloak-swarm,a swarm of shifting shadows,Neck,0,Sneak: +5,Hitroll: +1,Dexterity: +6,Resistance: energy
+122,5636,Jewelry,skull-ring-wicked-small,a skull ring,Finger,0,Mysticism: +10,Hit Points: +25,Susceptibility: drain,Necromancy: +8,Mana: +25
+123,5636,Mace,unholy-wicked-mace,an unholy mace,4d3,pound,Hit-N-Dam: +2
+124,5635,Axe,great-axe,a great axe,4d6,cleave
+125,ROOMVNUM,Armor,dwarf-mask,a fierce dwarf mask,Face,7,Constitution: +5,Resistance: fire,Darksight
+126,5648,Jewelry,silver-trinket,a silver trinket,Neck,0,Hit-N-Dam: +1,Armor: +10,Mana: +20
+127,ROOMVNUM,Dagger,ghast-fang-long-yellowed-fossilized,a ghast fang,2d3,pierce,Weapon Spell: Paralyze at Level 80,Weapon Spell Chance: 2%,Damroll: +1,Curse
+128,5664,Sword,sword-flame-tongue,a flame tongue,2d8,slash,Weapon Spell: Flame Tongue at Level 1,Hit-N-Dam: +1
+129,ROOMVNUM,Clothing,rubber-galoshes,heavy rubber galoshes,Feet,0,Waterwalking: +25,Armor: +10
+130,5672,Whip,red-whip,a red tipped whip,5d4,whip,Hit-N-Dam: +2
+131,5672,Armor,maroon-chain-mail,maroon chain mail,Body,10,Mana: +15,Mysticism: +3,Hitroll: +1
+132,5672,Whip,maroon-whip,a maroon tipped whip,4d3,whip,Hit-N-Dam: +2
+133,3945,Whip,green-whip,a green tipped whip,5d4,whip,Hit-N-Dam: +2
+134,3945,Armor,green-chain-mail,green chain mail,Body,13,Mana: +20,Mysticism: +3,Hitroll: +2
+135,5739,Clothing,puppet-string-band,a puppet's band,Wrist,0,Susceptibility: charm,Hitroll: +2
+136,5739,Clothing,leather-belt-circle,a leather circle belt,Waist,0,Dexterity: +3,Strength: +3,All Saves: +2
+137,2571,Other,red-ball,a small red ball,Hold,0,Hitroll: +2,Sneak: +5,Dexterity: +7,Intelligence: +2
+138,2570,Clothing,leather-bracer,a leather bracer,Arms,0,Constitution: +3,Strength: +12
+139,2567,Other,toy-horse,a Toy Horse,Hold,0,Armor: +10
+140,2568,Other,lucky-rabbit-foot,Lucky's rabbit foot,Hold,0,Intelligence: +7,Jinx: +15,Wisdom: +7,Constitution: +7
+141,2568,Star,lucky-star,Lucky's star,1d6,slash,Hitroll: +3,All Saves: +2,Damroll: +1
+142,2566,Sword,circus-guard-scimitar,a circus guard's scimitar,2d9,slash,Hit-N-Dam: +2,Bash: +3
+143,2566,Clothing,circus-guard-sash,a circus guard's sash,Waist,0,Hitroll: +1,Wisdom: +5,Strength: +5
+144,2570,Jewelry,boars-head-torque,a boar's head torque,Neck,0,Hide: -6,Damroll: +1,Gaze-Reflection
+145,2594,Head,dragon-head,a dragon head,Head,0,Constitution: +5,Hitroll: +2,Scrying
+146,2594,Treasure,picture-Veronica,a picture of Veronica,Hold,0,Hit-N-Dam: +1
+147,3538,Fist Weapon,ghostly-hand,a ghostly hand,6d2,punch,Immunity: drain,Dexterity: +4,Hit-N-Dam: +1
+148,2584,Clothing,jester's-hat,a jester's hat,Head,0,Wisdom: -7,Intelligence: -4,Hitroll: +1,Dexterity: +17
+149,2585,Dagger,kids-prize-dagger,a circus prize dagger,3d1,pierce,Hit-N-Dam: +2
+150,2584,Clothing,colorful-clown-vest,a colorful clown vest,Body,0,Charisma: +5,Armor: +10,Hitroll: +2
+151,2588,Clothing,snakeskin-pants-snake-skin,a pair of snakeskin pants,Legs,0,Dexterity: +8,Hitroll: +1,Sneak: +5,Snake Strike: +7
+152,2588,Armor,belly-dancers-top-shirt,a belly dancer's top,Body,5,Compulsion: +5,Armor: +15,Charisma: +5,Hitroll: +1
+153,3524,Other,beard-pile-hair,a beard,Neck,0,Strength: +5,Pyromancy: -4,Berserk: +5,Damroll: +1
+154,ROOMVNUM,Axe,labrys-axe,Labrys,7d2,cleave,Damroll: +2,Hitroll: +3,Iron Grip: +10,Bash: +5
