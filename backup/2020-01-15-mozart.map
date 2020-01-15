@@ -17,7 +17,7 @@ F 8203
 
 G 0
 
-I 1484
+I 841
 
 L {ASCII NESW LINE} {NO EXITS} {#}
 L {ASCII NESW LINE} {N} {o}
@@ -9833,7 +9833,7 @@ R { 2272} {0} {} {Twisting Rapids} {} {A small leaf, caught on the surface of th
 E { 2271} {s} {s} {4} {0} {} {1.000} {}
 E { 2273} {e} {e} {2} {0} {} {1.000} {}
 
-R { 2273} {0} {} {Twisting Rapids} {} {A hiss of mist rises from a fast descent of the river over a shale shelf barely submerged just around the bend turning the river north.  White flecks of bubbly froth being to form above the shelf and turn to full white caps as they crash down on the canyon's river bed below.  The caps then continue north where the hisses turn to roars. } {Rilghorn River} {} {River} {} {100.000} {}
+R { 2273} {0} {} {Twisting Rapids} {} {A hiss of mist rises from a fast descent of the river over a shale shelf barely submerged just around the bend turning the river north.  White flecks of bubbly froth being to form above the shelf and turn to full white caps as they crash down on the canyon's river bed below.  The caps then continue north where the hisses turn to roars. } {Rilghorn River} {} {River} {} {1.000} {}
 E { 2272} {w} {w} {8} {0} {} {1.000} {}
 E { 2274} {n} {n} {1} {0} {} {1.000} {}
 
