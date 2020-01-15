@@ -17,7 +17,7 @@ F 8203
 
 G 0
 
-I 1484
+I 202
 
 L {ASCII NESW LINE} {NO EXITS} {#}
 L {ASCII NESW LINE} {N} {o}
@@ -22171,7 +22171,6 @@ E { 5212} {n} {n} {1} {0} {} {1.000} {}
 E { 5214} {d} {d} {32} {0} {} {1.000} {}
 
 R { 5214} {0} {} {In the Labyrinth} {} {Branching tunnels merge with branching tunnels in this mist filled labyrinth.  With the thickness of the fog and darkness around you it it is almost impossible to tell where to go or where you have been.  Even your own footsteps echo off in all possible directions around you. } {Minotaur Temple} {} {Underground} {} {1.000} {}
-E { 5213} {u} {u} {16} {0} {} {1.000} {}
 E { 5223} {s} {s} {4} {0} {} {1.000} {}
 E { 5219} {e} {e} {2} {0} {} {1.000} {}
 E { 5741} {w} {w} {8} {0} {} {1.000} {}
@@ -22182,7 +22181,7 @@ E { 5223} {n} {n} {1} {0} {} {1.000} {}
 E { 5216} {e} {e} {2} {0} {} {1.000} {}
 E { 5740} {w} {w} {8} {0} {} {1.000} {}
 
-R { 5216} {8} {} {In the Labyrinth} {} {Branching tunnels merge with branching tunnels in this mist filled labyrinth.  With the thickness of the fog and darkness around you it it is almost impossible to tell where to go or where you have been.  Even your own footsteps echo off in all possible directions around you. } {Minotaur Temple} {} {Underground} {} {1.000} {}
+R { 5216} {4104} {} {In the Labyrinth} {} {Branching tunnels merge with branching tunnels in this mist filled labyrinth.  With the thickness of the fog and darkness around you it it is almost impossible to tell where to go or where you have been.  Even your own footsteps echo off in all possible directions around you. } {Minotaur Temple} {} {Underground} {} {1.000} {}
 E { 5215} {w} {w} {8} {0} {} {1.000} {}
 E { 5222} {n} {n} {1} {0} {} {1.000} {}
 
@@ -24355,6 +24354,7 @@ E { 5740} {e} {e} {2} {0} {} {1.000} {}
 R { 5743} {0} {} {Alas, you cannot go that way.} { } {} {Minotaur Temple} {} {Underground} {} {1.000} {}
 E { 5741} {e} {e} {2} {0} {} {1.000} {}
 E { 5221} {n} {n} {1} {0} {} {1.000} {}
+E { 5213} {u} {u} {16} {0} {} {1.000} {}
 
 R { 5744} {0} {} {In the Labyrinth} { } {Branching tunnels merge with branching tunnels in this mist filled labyrinth.  With the thickness of the fog and darkness around you it it is almost impossible to tell where to go or where you have been.  Even your own footsteps echo off in all possible directions around you. Terrain: Underground. A really delicious-looking magic mushroom lies here.  (magic) [2] A long-tailed grey rat scurries about. (Red Aura) } {Minotaur Temple} {} {Underground} {} {1.000} {}
 E { 5748} {s} {s} {4} {0} {} {1.000} {}
@@ -24365,7 +24365,6 @@ E { 5220} {w} {w} {8} {0} {} {1.000} {}
 R { 5745} {0} {} {Alas, you cannot go that way.} { } {} {Minotaur Temple} {} {Underground} {} {1.000} {}
 E { 5228} {w} {w} {8} {0} {} {1.000} {}
 E { 5747} {s} {s} {4} {0} {} {1.000} {}
-E { 5749} {sw} {sw} {12} {0} {} {1.000} {}
 E { 5750} {e} {e} {2} {0} {} {1.000} {}
 
 R { 5746} {0} {} {Alas, you cannot go that way.} { } {} {Minotaur Temple} {} {Underground} {} {1.000} {}
