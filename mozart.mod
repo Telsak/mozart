@@ -38,16 +38,16 @@
 #ALIAS {ter} {#MAP goto %1;#MAP set roomterrain %2}
 
 #NOP ===== Food/Thirst (assumes create food/water) =====
-#ACTION {You are hungry} {#VAR hunger 1} 
-#ACTION {You are thirsty} {#VAR thirst 1}
-#ACTION {You are no longer thirsty} {#VAR thirst 0}
-#ACTION {Your thirst is satiated} {#VAR thirst 0}
-#ACTION {You are no longer hungry} {#VAR hunger 0}
-#ACTION {You are still hungry} {mushroom}
-#ACTION {You are still thirsty} {water}
+#ACTION {^You are getting hungry} {#VAR hunger 1} 
+#ACTION {^You are getting thirsty} {#VAR thirst 1}
+#ACTION {^You are no longer thirsty} {#VAR thirst 0}
+#ACTION {^Your thirst is satiated} {#VAR thirst 0}
+#ACTION {^You are full} {#VAR hunger 0}
+#ACTION {^You are still hungry} {mushroom}
+#ACTION {^You are still thirsty} {water}
 #ALIAS {food} {
-  #IF {$hunger == "1"} {mushroom} {#SHOWME Not hungry!};
-  #IF {$thirst == "1"} {water} {#SHOWME Not thirsty!}
+  #IF {$hunger == 1} {mushroom} {#SHOWME Not hungry!};
+  #IF {$thirst == 1} {water} {#SHOWME Not thirsty!}
 }
 
 #ALIAS {mushroom} {ccf;get mush;eat mush}
