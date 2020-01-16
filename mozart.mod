@@ -5,6 +5,10 @@
 #ACTION {^The Beginning of the Path to Mount Belknap} {#MAP GOTO 1393}
 #ACTION {^Under the Outcropping} {#MAP GOTO 5013}
 #ACTION {^Bottom of the Trap} {#MAP GOTO 4649}
+#ACTION {^steps leads to the Temple Basement, a passageway leading to the board rooms.$} {#MAP GOTO 185}
+
+#ACTION {^You are too exhausted.} {#MAP undo}
+#ACTION {^Alas, you cannot go that way.} {#IF {$mapedit > 0} {#MAP undo}}
 
 #HIGHLIGHT {footsteps echo off in all directions except to the west, where death echos} {cyan}
 #ACTION {^Blue Lift} {exit}
@@ -39,12 +43,15 @@
 #ACTION {You are no longer thirsty} {#VAR thirst 0}
 #ACTION {Your thirst is satiated} {#VAR thirst 0}
 #ACTION {You are no longer hungry} {#VAR hunger 0}
-#ACTION {%*{You are still hungry|^You do not see a mush here.}%*} {eat}
-#ACTION {You are still thirsty} {eat}
-#ALIAS {eat} {
-  #IF {$hunger == 1 && $combat == 0} {food};
-  #IF {$thirst == 1 && $combat == 0} {water}
+#ACTION {You are still hungry} {mushroom}
+#ACTION {You are still thirsty} {water}
+#ALIAS {food} {
+  #IF {$hunger == "1"} {mushroom} {#SHOWME Not hungry!};
+  #IF {$thirst == "1"} {water} {#SHOWME Not thirsty!}
 }
+
+#ALIAS {mushroom} {ccf;get mush;eat mush}
+#ALIAS {water} {ccw ale;drink ale;drink ale}
 
 #NOP ====== Prompt ======
 #ACTION {^H:%1/%2 M:%3/%4 V:%5/%6 XP:%7 C:%8>} {
@@ -73,7 +80,8 @@
 #ACTION {%*{is dead!$|is destroyed!$}%*} {
   #IF {$combat == 1} {
     #SWITCH {"$playerarea"} {
-      #CASE {"Mac Mordain Cadal"} {get all.pur corps}
+      #CASE {"Mac Mordain Cadal"} {get all.pur corps};
+      #CASE {"The Gaullish Village"} {get all.mag corps}
     }
   }{#SHOWME Not your kill - not looting}
 }
@@ -243,15 +251,8 @@
 #ALIAS {le} {#LOG overwrite .learned; spells; skills; weapon; special; #DELAY 0.4 {#LOG {off}}}
 
 
-#ACTION {^steps leads to the Temple Basement, a passageway leading to the board rooms.$} {#MAP GOTO 185}
-#ACTION {^You are too exhausted.} {#MAP undo}
-#ACTION {^Alas, you cannot go that way.} {#IF {$mapedit > 0} {#MAP undo}}
-
 #ALIAS {login} {#session mozart ymca.cnap.hv.se 4500} {5}
 #ALIAS {logout} {save; rent} {5}
-
-#ALIAS {food} {ccf;get mush;eat mush}
-#ALIAS {water} {ccw ale;dri ale;dri ale}
 
 #AC {^You have become more adept at %1!} {learn %1}
 
