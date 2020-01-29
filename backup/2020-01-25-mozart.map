@@ -1688,8 +1688,8 @@ R {  347} {0} {} {Outside the South Gate of Nevrast} {} {Fields of freshly worke
 E {  346} {n} {n} {1} {0} {} {1.000} {}
 E {  354} {s} {s} {4} {0} {} {1.000} {}
 
-R {  348} {0} {} {Nevrast Sewer System} {} {Slimy water fills the passage here, leaving barely enough room for air to breathe. The air in question is an experience to be avoided. The water is flowing eastward fairly swiftly, and the ceiling is getting lower. } {Nevrast} {} {River} {} {1.000} {}
-E {  593} {u} {unl grate;open grate;u} {16} {0} {} {1.000} {}
+R {  348} {0} {<afa>} {Nevrast Sewer System} { } {Slimy water fills the passage here, leaving barely enough room for air to breathe. The air in question is an experience to be avoided. The water is flowing eastward fairly swiftly, and the ceiling is getting lower. } {Nevrast} {} {River} {} {1.000} {}
+E {  593} {u} {u} {16} {0} {} {1.000} {}
 E { 1327} {e} {e} {2} {0} {} {1.000} {}
 
 R {  349} {0} {} {The Grubby Inn} {} {You are inside the old Grubby Inn.  Loud voices and clattering dishes make the smarmy dive seem busier than it really is.  Coils of greasy steam rise from a cauldron bubbling over a roaring hearth.  The vile smell makes you dizzy, but as you sit down to catch your breath, the chair breaks. } {Nevrast} {} {Inside} {} {1.000} {}
@@ -2697,56 +2697,54 @@ E {  597} {n} {n} {1} {0} {} {1.000} {}
 
 R {  593} {0} {} {Nevrast Sewer System} {} {A thick stream of sewage, surprisingly deep, flowing into this room from the west. It swirls into a central area, and then down through a barely visible grate in the floor. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  592} {w} {w} {8} {0} {} {1.000} {}
-E {  348} {d} {unl grate;open grate;d} {32} {0} {} {1.000} {}
+E {  348} {d} {open grate;d} {32} {0} {} {1.000} {}
 
 R {  594} {0} {} {Nevrast Sewer System} {} {A thin stream of smelly ooze flows sluggishly along the center of this tunnel, with just enough clear space along each side to stay dry. A dim glow comes from the ceiling to the north. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  592} {n} {n} {1} {0} {} {1.000} {}
 E {  595} {s} {s} {4} {0} {} {1.000} {}
 
-R {  595} {0} {} {Nevrast Sewer System} {} {The dark stone walls of the tunnel shimmer faintly with moisture, condensation running slowly back down into the stream that splits the floor. The pervasive odor of sewage rises from the stream and fills the air, seemingly stronger from the south. } {Nevrast} {} {Underground} {} {1.000} {}
+R {  595} {0} {<afa>} {Nevrast Sewer System} { } {The dark stone walls of the tunnel shimmer faintly with moisture, condensation running slowly back down into the stream that splits the floor. The pervasive odor of sewage rises from the stream and fills the air, seemingly stronger from the south. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  594} {n} {n} {1} {0} {} {1.000} {}
 E {  596} {s} {s} {4} {0} {} {1.000} {}
 
-R {  596} {0} {} {Nevrast Sewer System} {} {The tunnel splits into three directions here, and a large puddle has backed up against the south wall. Streams of muck flow into the puddle from the east and west, and out to the north. } {Nevrast} {} {Underground} {} {1.000} {}
+R {  596} {0} {<afa>} {Nevrast Sewer System} { } {The tunnel splits into three directions here, and a large puddle has backed up against the south wall. Streams of muck flow into the puddle from the east and west, and out to the north. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  595} {n} {n} {1} {0} {} {1.000} {}
 E { 1329} {w} {w} {8} {0} {} {1.000} {}
 E { 3186} {e} {e} {2} {0} {} {1.000} {}
 
-R {  597} {0} {} {Nevrast Sewer System} {} {A thick river of slime and refuse flows in from the north and out to the south. Along both sides of the flow are slightly raised walkways, to help avoid actively wading. } {Nevrast} {} {Underground} {} {1.000} {}
+R {  597} {0} {<afa>} {Nevrast Sewer System} { } {A thick river of slime and refuse flows in from the north and out to the south. Along both sides of the flow are slightly raised walkways, to help avoid actively wading. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  592} {s} {s} {4} {0} {} {1.000} {}
 E {  598} {n} {n} {1} {0} {} {1.000} {}
 
-R {  598} {0} {} {Nevrast Sewer System} {} {This is the junction of four seperate tunnels, one in each of the cardinal directions. Sewage flows in from the north, west, and east, and out to the south. Small bridges span the streams, but they're fairly grimy as well. } {Nevrast} {} {Underground} {} {1.000} {}
+R {  598} {0} {<afa>} {Nevrast Sewer System} { } {This is the junction of four seperate tunnels, one in each of the cardinal directions. Sewage flows in from the north, west, and east, and out to the south. Small bridges span the streams, but they're fairly grimy as well. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  597} {s} {s} {4} {0} {} {1.000} {}
 E {  599} {w} {w} {8} {0} {} {1.000} {}
 E { 3190} {e} {e} {2} {0} {} {1.000} {}
-E { 6204} {n} {n} {1} {0} {} {1.000} {}
 
-R {  599} {0} {} {Nevrast Sewer System} {} {A stream of revolting crud runs down the center of this tunnel, flowing from west to east. Several small pipes protrude from the ceiling, occasionally dropping a noisome tidbit. } {Nevrast} {} {Underground} {} {1.000} {}
+R {  599} {0} {<afa>} {Nevrast Sewer System} { } {A stream of revolting crud runs down the center of this tunnel, flowing from west to east. Several small pipes protrude from the ceiling, occasionally dropping a noisome tidbit. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  598} {e} {e} {2} {0} {} {1.000} {}
 E {  600} {w} {w} {8} {0} {} {1.000} {}
 
-R {  600} {0} {} {Nevrast Sewer System} {} {The tunnel turns here, leading both north and east. A rivulet of water and less savory substances follows the curve, heading east. A band of stained rock along the south-west wall implies that at times the flow is swift enough to overflow onto the walkway. } {Nevrast} {} {Underground} {} {1.000} {}
+R {  600} {0} {<afa>} {Nevrast Sewer System} { } {The tunnel turns here, leading both north and east. A rivulet of water and less savory substances follows the curve, heading east. A band of stained rock along the south-west wall implies that at times the flow is swift enough to overflow onto the walkway. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  599} {e} {e} {2} {0} {} {1.000} {}
 E {  601} {n} {n} {1} {0} {} {1.000} {}
 
-R {  601} {0} {} {Nevrast Sewer System} {} {The stream of garbage-laden water running down the middle of the passage here is still relatively unmixed, with almost clear water merely carrying along the tainted leavings dropped into it. To the north, the sound of rushing water is faintly audible. } {Nevrast} {} {Underground} {} {1.000} {}
+R {  601} {0} {<afa>} {Nevrast Sewer System} { } {The stream of garbage-laden water running down the middle of the passage here is still relatively unmixed, with almost clear water merely carrying along the tainted leavings dropped into it. To the north, the sound of rushing water is faintly audible. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  600} {s} {s} {4} {0} {} {1.000} {}
 E {  602} {n} {n} {1} {0} {} {1.000} {}
 
-R {  602} {0} {} {Nevrast Sewer System} {} {A small geyser of water pours from the upper north-western corner here, from the end of a large pipe. The pipe follows the ceiling to the east, out of sight. The water from the pipe washes down a pair of channels cut into the stone floor, one leading east and the other south. } {Nevrast} {} {Underground} {} {1.000} {}
+R {  602} {0} {<afa>} {Nevrast Sewer System} { } {A small geyser of water pours from the upper north-western corner here, from the end of a large pipe. The pipe follows the ceiling to the east, out of sight. The water from the pipe washes down a pair of channels cut into the stone floor, one leading east and the other south. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  601} {s} {s} {4} {0} {} {1.000} {}
 E {  603} {e} {e} {2} {0} {} {1.000} {}
 
-R {  603} {0} {} {Nevrast Sewer System} {} {A stream of slightly dirty water flow into this area from the east and west. A pair of thick pipes enter from the same directions, before disappearing into the norteast and northwestern corners of the ceiling. } {Nevrast} {} {Underground} {} {1.000} {}
+R {  603} {0} {<afa>} {Nevrast Sewer System} { } {A stream of slightly dirty water flow into this area from the east and west. A pair of thick pipes enter from the same directions, before disappearing into the norteast and northwestern corners of the ceiling. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  602} {w} {w} {8} {0} {} {1.000} {}
 E {  604} {e} {e} {2} {0} {} {1.000} {}
 
-R {  604} {0} {} {Nevrast Sewer System} {} {Streams of filthy water flow into this junction from the east and west, and exit to the south, where they join.  A pair of thick pipes enter from the same directions, along the northern edge of the ceiling, before diving into the north wall above a large iron grate.  A small stone platform raises the floor beneath the pipes above water level. } {Nevrast} {} {Underground} {} {1.000} {}
+R {  604} {0} {<afa>} {Nevrast Sewer System} { } {Streams of filthy water flow into this junction from the east and west, and exit to the south, where they join.  A pair of thick pipes enter from the same directions, along the northern edge of the ceiling, before diving into the north wall above a large iron grate.  A small stone platform raises the floor beneath the pipes above water level. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  603} {w} {w} {8} {0} {} {1.000} {}
 E { 3194} {e} {e} {2} {0} {} {1.000} {}
 E { 3195} {n} {open grate;n} {1} {0} {} {1.000} {}
-E { 6204} {s} {s} {4} {0} {} {1.000} {}
 
 R {  605} {0} {} {The Edge of the Old Forest} {} {The path leading to the Old Forest disappears as it enters the trees. A sinister feeling is in the air here.  There is a tangible sense of queerness about this forest.  The trees are thick and obviously very old.  Grey-green moss hangs from the great limbs of these massive trees. A faint rustling can be heard coming from the forest. } {Old Forest} {} {Forest} {} {1.000} {}
 E {  587} {e} {e} {2} {0} {} {1.000} {}
@@ -5734,24 +5732,23 @@ E { 1324} {e} {e} {2} {0} {} {1.000} {}
 R { 1326} {0} {<afa>} {} {Mag} {} {Nevrast} {} {} {} {1.000} {}
 E { 1324} {w} {w} {8} {0} {} {1.000} {}
 
-R { 1327} {0} {} {Nevrast Sewer System} {} {The roof of the passage now contacts the surface of the flow, making this into an oversized pipe of sorts. The current continues pulling toward the east. Dimly visible through the murk is a thin crack along the floor. } {Nevrast} {} {River} {} {1.000} {}
+R { 1327} {0} {<afa>} {Nevrast Sewer System} { } {The roof of the passage now contacts the surface of the flow, making this into an oversized pipe of sorts. The current continues pulling toward the east. Dimly visible through the murk is a thin crack along the floor. } {Nevrast} {} {River} {} {1.000} {}
 E {  348} {w} {w} {8} {0} {} {1.000} {}
 E { 1328} {e} {e} {2} {0} {} {1.000} {}
-E { 6205} {d} {open crack;d} {32} {0} {} {1.000} {}
 
-R { 1328} {0} {} {Nevrast Sewer System} {} {The tunnel gets much narrower here, and becomes swifter, then ends in a large pipe that channels the flow off to somewhere.  If you stay here you'll certainly be drawn along with it. } {Nevrast} {} {River} {} {1.000} {}
+R { 1328} {0} {<afa>} {Nevrast Sewer System} { } {The tunnel gets much narrower here, and becomes swifter, then ends in a large pipe that channels the flow off to somewhere.  If you stay here you'll certainly be drawn along with it. } {Nevrast} {} {River} {} {1.000} {}
 E { 1327} {w} {w} {8} {0} {} {1.000} {}
 
-R { 1329} {0} {} {Nevrast Sewer System} {} {The revolting stream running down the south side of the tunnel flows fairly swiftly eastward. Unrecognizable, and thankfully so, lumps of something bob merrily along within it. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 1329} {0} {<afa>} {Nevrast Sewer System} { } {The revolting stream running down the south side of the tunnel flows fairly swiftly eastward. Unrecognizable, and thankfully so, lumps of something bob merrily along within it. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  596} {e} {e} {2} {0} {} {1.000} {}
 E { 1330} {w} {w} {8} {0} {} {1.000} {}
 
-R { 1330} {0} {} {Nevrast Sewer System} {} {Another, smaller, stream of refuse joins into the one running down the tunnel from a small alcove to the south. A main flow comes in from the west and continues eastward. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 1330} {0} {<afa>} {Nevrast Sewer System} { } {Another, smaller, stream of refuse joins into the one running down the tunnel from a small alcove to the south. A main flow comes in from the west and continues eastward. } {Nevrast} {} {Underground} {} {1.000} {}
 E { 1329} {e} {e} {2} {0} {} {1.000} {}
 E { 1331} {w} {w} {8} {0} {} {1.000} {}
 E { 3184} {s} {s} {4} {0} {} {1.000} {}
 
-R { 1331} {0} {} {Nevrast Sewer System} {} {The smell here is atrocious, meaty and disgusting. The stream of sewage is particularly lumpy, oozing eastward rapidly as if attempting to get away from itself. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 1331} {0} {<afa>} {Nevrast Sewer System} { } {The smell here is atrocious, meaty and disgusting. The stream of sewage is particularly lumpy, oozing eastward rapidly as if attempting to get away from itself. } {Nevrast} {} {Underground} {} {1.000} {}
 E { 1330} {e} {e} {2} {0} {} {1.000} {}
 E { 3187} {w} {w} {8} {0} {} {1.000} {}
 
@@ -6909,18 +6906,18 @@ E { 1604} {e} {e} {2} {0} {} {1.000} {}
 
 R { 1604} {0} {} {An Old Mine} {} {Large iron rails adorn the floor of the tunnel heading to the north and west.  Dust falls from the ceiling above, pelting anyone unfortunate enough to be caught beneath it.  The walls are rough and marred by chisel marks.  A single notch is carved into each wall, though it has been left empty. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
 E { 1603} {w} {w} {8} {0} {} {1.000} {}
-E { 1605} {n} {n} {1} {0} {} {1.000} {}
+E { 1622} {n} {n} {1} {0} {} {1.000} {}
 
 R { 1605} {0} {} {An Abrupt Turn} {} {The rails in this tunnel lead south and west.  The ground, uneven and jagged, is covered in a thick layer of dust and rock.  The beams overhead are cracked but holding strong.  Adorning one of the beams is a small chain; attached to it is a lantern that has seen better days. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
-E { 1604} {s} {s} {4} {0} {} {1.000} {}
+E { 1622} {s} {s} {4} {0} {} {1.000} {}
 E { 1606} {w} {w} {8} {0} {} {1.000} {}
 
 R { 1606} {0} {} {An Old Mine} {} {Battered and dinged, yet operational, the rails that line the ground of this tunnel lead to the north and east.  A gentle breeze flows softly through this part of the mine from an unknown source, kicking up dust and leaving a haze in the air.  The walls have a slimy look about them, though they remain dry to the touch. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
 E { 1605} {e} {e} {2} {0} {} {1.000} {}
-E { 1607} {n} {n} {1} {0} {} {1.000} {}
+E { 1623} {n} {n} {1} {0} {} {1.000} {}
 
 R { 1607} {0} {} {A Dark Cave} {} {Iron rails stretch to the north, south, and east in this cavern.  The room is barren with the exception of the rails that adorn the floor.  Large beams loom high overheard, dropping dust into the air.  The dwarves that built these mines must have had some reason to not finish this tunnel; unfortunately, what it was will remain a mystery. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
-E { 1606} {s} {s} {4} {0} {} {1.000} {}
+E { 1623} {s} {s} {4} {0} {} {1.000} {}
 E { 1608} {e} {e} {2} {0} {} {1.000} {}
 E { 1624} {n} {n} {1} {0} {} {1.000} {}
 
@@ -6983,16 +6980,20 @@ R { 1621} {4104} {} {} { } {} {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
 E { 1603} {n} {n} {1} {0} {} {1.000} {}
 E { 1602} {s} {s} {4} {0} {} {1.000} {}
 
-R { 1623} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 1624} {s} {s} {4} {0} {} {1.000} {}
-E { 1625} {n} {n} {1} {0} {} {1.000} {}
+R { 1622} {4104} {} {} { } {} {Mac Mordain Cadal} {} {} {} {1.000} {}
+E { 1605} {n} {n} {1} {0} {} {1.000} {}
+E { 1604} {s} {s} {4} {0} {} {1.000} {}
+
+R { 1623} {4104} {} {} { } {} {Mac Mordain Cadal} {} {} {} {1.000} {}
+E { 1607} {n} {n} {1} {0} {} {1.000} {}
+E { 1606} {s} {s} {4} {0} {} {1.000} {}
 
 R { 1624} {0} {} {An Old Mine} {} {A thick layer of dust covers the tunnel floor; protruding from underneath the dust are two large iron rails, leading to the north and south.  Splinters of wood layer the edges of the tunnel walls, following the rails deeper into the mine.  The air is dry and stale, and tastes of dirt. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
 E { 1607} {s} {s} {4} {0} {} {1.000} {}
-E { 1623} {n} {n} {1} {0} {} {1.000} {}
+E { 1625} {n} {n} {1} {0} {} {1.000} {}
 
 R { 1625} {0} {} {A Bend in the Tunnel} {} {The mine here has odd iron rails firmly attached to the floor.  The stone floor has a thick layer of dust from the exposed beams holding the ceiling up. Despite the wood mass lost as dust, they seem to be doing a fairly good job of it. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
-E { 1623} {s} {s} {4} {0} {} {1.000} {}
+E { 1624} {s} {s} {4} {0} {} {1.000} {}
 E { 1626} {w} {w} {8} {0} {} {1.000} {}
 
 R { 1626} {0} {} {A Bend in the Tunnel} {} {The mine has odd iron rails attached to the floor here.  The stone floor is covered in dust from the exposed beams above that are quite busy holding the ceiling above your head. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
@@ -7955,6 +7956,7 @@ E { 1846} {e} {e} {2} {0} {} {1.000} {}
 
 R { 1845} {0} {} {The Barrow} {} {Shattered stone covers the floor here, apparently covers for gaps in the center of the south, east, and west walls.  The rest of the three walls and all the other stonework is made of a dark grey stone, cut to the approximate size size of a dinner plate.  The three holes in the walls are burial chambers, used to lay the deceased to rest.  An odor hangs heavily in the air, one part dust, two parts rot and decay.  A short passage north leads to a narrow corridor. } {Mac Mordain Cadal} {} {Inside} {} {1.000} {}
 E { 1844} {n} {n} {1} {0} {} {1.000} {}
+E { 5648} {d} {d} {32} {0} {} {1.000} {}
 
 R { 1846} {0} {} {The Barrow} {} {This narrow stone corridor is built of grey, dinner plate-sized stones.  The corridor forms an ell here with passages leading to the north and west. Cobwebs have collected along the joins between the walls and the ceiling giving the corridor the appearance of having a rounded ceiling.  Dust, sand, and a white powder are mixed on the floor, nearly obscuring the stones used there. The scent of rot fills the chill, dry air. } {The Barrow} {} {Inside} {} {1.000} {}
 E { 1844} {w} {w} {8} {0} {} {1.000} {}
@@ -13664,48 +13666,48 @@ E { 3183} {u} {u} {16} {0} {} {1.000} {}
 R { 3183} {0} {} {An Odd Plateau} {} {Grasping the lip of the cliff-top, you haul yourself over the top.  Standing  up, you take a moment to gaze about your surroundings.  It appears to be an  odd collection of branches and large sapling trees.  On a second glance, you see it is a nest... but it must be sixty feet across! } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 3182} {d} {d} {32} {0} {} {1.000} {}
 
-R { 3184} {0} {} {Nevrast Sewer System} {} {Dark stains run down the walls from just below the ceiling here, leading down into the muck pooled upon the floor. Just above them, rusty pipes drip with the remains of the deposit made down them. A thin stream of water comes from a lower pipe and pushes the mess northward. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3184} {0} {<afa>} {Nevrast Sewer System} { } {Dark stains run down the walls from just below the ceiling here, leading down into the muck pooled upon the floor. Just above them, rusty pipes drip with the remains of the deposit made down them. A thin stream of water comes from a lower pipe and pushes the mess northward. } {Nevrast} {} {Underground} {} {1.000} {}
 E { 1330} {n} {n} {1} {0} {} {1.000} {}
 
 R { 3185} {0} {} {Beautiful Gardens} {} {A path skirts small, perfectly trimmed trees that line the eastern and southern walls.  Several groupings of rounded bushes dot a grassy area next to the path.  Clearly someone spends a great deal of time tending to this garden. } {Nevrast} {} {Field} {} {1.000} {}
 E {  967} {w} {w} {8} {0} {} {1.000} {}
 E {  171} {n} {n} {1} {0} {} {1.000} {}
 
-R { 3186} {0} {} {Nevrast Sewer System} {} {The walls are stained with loathsome filth here, oozing from the outlet pipes protruding from the ceiling. It smells faintly avian, in a nasty sort of way. Another pipe, near the floor, produces a little stream of water, which washes the residue westward. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3186} {0} {<afa>} {Nevrast Sewer System} { } {The walls are stained with loathsome filth here, oozing from the outlet pipes protruding from the ceiling. It smells faintly avian, in a nasty sort of way. Another pipe, near the floor, produces a little stream of water, which washes the residue westward. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  596} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3187} {0} {} {Nevrast Sewer System} {} {The stench here is almost overpowering, convincing all but the stoutest of stomachs to add to the mess that runs down the floor. Two thick streams of filth, from the alcoves to the west and to the south, merge here and continue eastward. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3187} {0} {<afa>} {Nevrast Sewer System} { } {The stench here is almost overpowering, convincing all but the stoutest of stomachs to add to the mess that runs down the floor. Two thick streams of filth, from the alcoves to the west and to the south, merge here and continue eastward. } {Nevrast} {} {Underground} {} {1.000} {}
 E { 1331} {e} {e} {2} {0} {} {1.000} {}
 E { 3188} {s} {s} {4} {0} {} {1.000} {}
 E { 3189} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3188} {0} {} {Nevrast Sewer System} {} {The stone walls here are encrusted with things better left unseen, and even better unsmelt. A definite carnivore odor overlays the whole area. The fresher water being piped into the filth from the outlet pipes above strives in vain to force it all northward. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3188} {0} {<afa>} {Nevrast Sewer System} { } {The stone walls here are encrusted with things better left unseen, and even better unsmelt. A definite carnivore odor overlays the whole area. The fresher water being piped into the filth from the outlet pipes above strives in vain to force it all northward. } {Nevrast} {} {Underground} {} {1.000} {}
 E { 3187} {n} {n} {1} {0} {} {1.000} {}
 
-R { 3189} {0} {} {Nevrast Sewer System} {} {A horrifying melange of odors fills the room, exuded from the thick coating of slimy glop sliding down the walls from the pipes above. A pair of thick pipes about halfway down the walls spray water into the morass, encouraging it to flow eastward and out of this area. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3189} {0} {<afa>} {Nevrast Sewer System} { } {A horrifying melange of odors fills the room, exuded from the thick coating of slimy glop sliding down the walls from the pipes above. A pair of thick pipes about halfway down the walls spray water into the morass, encouraging it to flow eastward and out of this area. } {Nevrast} {} {Underground} {} {1.000} {}
 E { 3187} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3190} {0} {} {Nevrast Sewer System} {} {Stinky raw sewage trickles westward along down the middle of the passage. The thin ledge along the northern wall is in disrepair, having crumbled slightly into the flow. The southern ledge looks sturdy enough. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3190} {0} {<afa>} {Nevrast Sewer System} { } {Stinky raw sewage trickles westward along down the middle of the passage. The thin ledge along the northern wall is in disrepair, having crumbled slightly into the flow. The southern ledge looks sturdy enough. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  598} {w} {w} {8} {0} {} {1.000} {}
 E { 3191} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3191} {0} {} {Nevrast Sewer System} {} {A large pool of sewage has backed up here, for whatever reason. It will be impossible to get around the corner while staying dry, without some flight. The flow from the north is obviously greater than the amount spilling out of the pool to the west, so the problem may yet get worse if it's not repaired. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3191} {0} {<afa>} {Nevrast Sewer System} { } {A large pool of sewage has backed up here, for whatever reason. It will be impossible to get around the corner while staying dry, without some flight. The flow from the north is obviously greater than the amount spilling out of the pool to the west, so the problem may yet get worse if it's not repaired. } {Nevrast} {} {Underground} {} {1.000} {}
 E { 3190} {w} {w} {8} {0} {} {1.000} {}
 E { 3192} {n} {n} {1} {0} {} {1.000} {}
 
-R { 3192} {0} {} {Nevrast Sewer System} {} {A swift flow of dirty liquid, mostly water, rushes from the passage to the north. It continues southward from this room, entering a large pool just visible that direction. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3192} {0} {<afa>} {Nevrast Sewer System} { } {A swift flow of dirty liquid, mostly water, rushes from the passage to the north. It continues southward from this room, entering a large pool just visible that direction. } {Nevrast} {} {Underground} {} {1.000} {}
 E { 3191} {s} {s} {4} {0} {} {1.000} {}
 E { 3193} {n} {n} {1} {0} {} {1.000} {}
 
-R { 3193} {0} {} {Nevrast Sewer System} {} {The end of a large copper pipe turns into the room from the north-eastern corner, near the ceiling. The valves on the end have been cranked open, and it is spraying forth a torrent of water. The water runs along the floor into a set of grooves carved there, which lead the water out to the south and west, respectively. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3193} {0} {<afa>} {Nevrast Sewer System} { } {The end of a large copper pipe turns into the room from the north-eastern corner, near the ceiling. The valves on the end have been cranked open, and it is spraying forth a torrent of water. The water runs along the floor into a set of grooves carved there, which lead the water out to the south and west, respectively. } {Nevrast} {} {Underground} {} {1.000} {}
 E { 3192} {s} {s} {4} {0} {} {1.000} {}
 E { 3194} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3194} {0} {} {Many Tunnels} {} {This is a twisty underground tunnel with many exits and entrances.  The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them.  The tunnel floor has been worn smooth by the passage of many feet. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3194} {0} {<afa>} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances.  The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them.  The tunnel floor has been worn smooth by the passage of many feet. } {Nevrast} {} {Underground} {} {1.000} {}
 E { 3193} {e} {e} {2} {0} {} {1.000} {}
 E {  604} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3195} {0} {} {Nevrast Sewer System} {} {The room is filled with pipes, including a truly gargantuan one that comes out of the floor and goes into the ceiling, in the north end of the room. Several of the pipes merge into the pipe, while others run along by themselves. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3195} {0} {<afa>} {Nevrast Sewer System} { } {The room is filled with pipes, including a truly gargantuan one that comes out of the floor and goes into the ceiling, in the north end of the room. Several of the pipes merge into the pipe, while others run along by themselves. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  604} {s} {s} {4} {0} {} {1.000} {}
 
 R { 3196} {4104} {} {} { } {} {} {} {} {} {1.000} {}
@@ -25787,7 +25789,6 @@ E { 6087} {e} {e} {2} {0} {} {1.000} {}
 
 R { 6086} {0} {} {Entrance to Eternal Passageway} { } {You stand at the entrance to the Eternal Passageway, a seemingly endless myriad of rooms with twisting corridors that lead off in every direction.  This place is forbidden to the townsfolk\; legend has it that the ninja live in secrecy here and navigate the passage with confidence.  There is a sign here. You can leave east, or you can brave the passage and enter to the south. } {Little Kyoto} {} {Inside} {} {1.000} {}
 E { 6085} {e} {e} {2} {0} {} {1.000} {}
-E { 6209} {s} {s} {4} {0} {} {1.000} {}
 
 R { 6087} {0} {} {Small Passage} { } {You are in a small passage in the side of the tunnel.  The passage ends as quickly as it began however, you can't go any further.  There is a hole about ten feet above you that allows a glimpse of a hallway above.  The passage way is to the west. } {Little Kyoto} {} {Underground} {} {1.000} {}
 E { 6085} {w} {w} {8} {0} {} {1.000} {}
@@ -26172,10 +26173,10 @@ E { 6196} {n} {n} {1} {0} {} {1.000} {}
 
 R { 6179} {0} {} {East-West Passage} { } {A two pace wide ring of stone has been arranged in the southeastern corner, enclosing a pile of ashes and charcoal.  Some branches with a metal rod nestled between them form a crude spit\; the soot blackened walls around the fire pit have been splattered with globs of grease and fat.  A doorway sits in the wall to the north\; quiet bleating and incoherent grunting can be heard within. } {Brute Village} {} {Inside} {} {1.000} {}
 E { 6177} {w} {w} {8} {0} {} {1.000} {}
-E { 6180} {n} {open door;n} {1} {0} {} {1.000} {}
+E { 6180} {n} {n} {1} {0} {} {1.000} {}
 
 R { 6180} {0} {} {A Smelly Den} { } {Sweat and musky body odor scents permeate the eight by six pace room, combining with the rank smell of uncured and damp fur.  Haphazardly scattered objects makes the place look like a pig sty, with raw pelts draped on the walls and piled in the northeast corner.  A number of crude but brutal looking weapons lie on the greasy floor, keeping company with the remnants of several meals.  Against the southwestern corner, a low pen has been constructed out of branches which have been roped together. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6179} {s} {open door;s} {4} {0} {} {1.000} {}
+E { 6179} {s} {s} {4} {0} {} {1.000} {}
 
 R { 6181} {0} {} {Serpentine Hallway} { } {Occupying most of the space in the north is a lattice of metal supporting a stone facing, while the dark passage leads off to a bend in the west.  Set at waist height in the eastern wall, an iron ring has been attached to a short length of chain that runs into a hole above the wall to the north.  In front of the wall, a few thumb-sized flakes of stone are scattered across the floor, their lighter color contrasting with the grimy, dark paving. } {Brute Village} {} {Inside} {} {1.000} {}
 E { 6177} {n} {pull ring;n} {1} {0} {} {1.000} {}
@@ -26268,117 +26269,3 @@ R { 6203} {0} {} {The Dark Shrine} { } {A flickering light emanates from the wes
 E { 6202} {n} {n} {1} {0} {} {1.000} {}
 E { 6198} {w} {w} {8} {0} {} {1.000} {}
 E { 6196} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6204} {0} {} {Nevrast Sewer System} { } {A sludgy river of crud flows in from the north, lapping at the slender walkways that run down the east and west walls. The smelly stuff continues on to the south, occasionally supplimented by glop dripping from the pipes in the ceiling. } {Nevrast} {} {Underground} {} {1.000} {}
-E {  598} {s} {s} {4} {0} {} {1.000} {}
-E {  604} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6205} {0} {} {Beneath the Crack} { } {This room is about half full of sewage, which leaks in from the crack above. The dry half of the room is protected from flooding be an eerily glowing green barrier, which seems to emanate from the tunnel to the north. } {Nevrast} {} {Underground} {} {1.000} {}
-E { 1327} {u} {u} {16} {0} {} {1.000} {}
-E { 6206} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6206} {0} {} {A Green Glowing Tunnel} { } {A green glow, barely bright enough to see by, illuminates this tunnel through the earth. The walls are slimy with moisture, and glisten slightly. The source of the glow is indeterminate, perhaps the walls themselves. To the south you can hear water flowing, while to the east the tunnel heads slightly downward. } {Nevrast} {} {Underground} {} {1.000} {}
-E { 6205} {s} {s} {4} {0} {} {1.000} {}
-E { 6207} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6207} {0} {} {A Twisting Tunnel} { } {The floor of this tunnel slopes steadily downward to the south, while to the west a greenish glow shines down upon the area. The walls are very rough, with few tool marks, as if this were a mostly natural passage. } {Nevrast} {} {Underground} {} {1.000} {}
-E { 6206} {w} {w} {8} {0} {} {1.000} {}
-E { 6208} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6208} {0} {} {A Twisting Tunnel} { } {The floor of this tunnel slopes steadily downward to the south, while to the west a greenish glow shines down upon the area. The walls are very rough, with few tool marks, as if this were a mostly natural passage. } {Nevrast} {} {Underground} {} {1.000} {}
-E { 6207} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6209} {0} {} {Eternal Passageway} { } {This is one of the many rooms in the Eternal Passageway, twisting tunnels lead off in every direction. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6086} {n} {n} {1} {0} {} {1.000} {}
-E { 6210} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6210} {0} {} {Eternal Passageway} { } {This is one of the many rooms in the Eternal Passageway.  Twisting tunnels lead off in every direction. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6209} {n} {n} {1} {0} {} {1.000} {}
-E { 6211} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6211} {0} {} {Eternal Passageway} { } {This is one of the many rooms in the Eternal Passageway.  Twisting tunnels lead off in every direction. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6210} {n} {n} {1} {0} {} {1.000} {}
-E { 6219} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6212} {0} {} {Walkway} { } {You stand in a straight, normal walkway\; the twisting passages of the Eternal Passageway left behind.  There is no moss or lichen here, and the tunnel seems much more defined, more man-made.  You can continue down the hallway eastward or you can re-enter the maze to the west. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6219} {w} {w} {8} {0} {} {1.000} {}
-E { 6220} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6213} {0} {} {Walkway} { } {You stand in a walkway opposite from the Eternal Passageway, which lies a little ways to the west.  You can continue towards a round room to the east, where you think you hear some voices in attentive conversation. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6220} {w} {w} {8} {0} {} {1.000} {}
-E { 6214} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6214} {0} {} {Round Room} { } {You are in the ante-chamber to the secret ninja lair, where the masters of the art of invisibility make their abode and practice their deadly skills.  You can enter the initial training hall directly to the north, and you can re-enter the walkway to the west. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6213} {w} {w} {8} {0} {} {1.000} {}
-E { 6215} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6215} {0} {} {Ninja Training Hall} { } {You've found the ninja training hall, where the ninja go to hone their skills and practice their deadly art.  You have an eerie feeling that you are being watched, and would feel safer going back south.  There are two hallways to the east and west. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6214} {s} {s} {4} {0} {} {1.000} {}
-E { 6216} {w} {w} {8} {0} {} {1.000} {}
-E { 6224} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6216} {0} {} {Ninja Hallway} { } {This hallway leads down from the training hall to the first chunin chamber, the rooms of the lower-ranking ninja line it on both sides.  You can continue north down the hall, enter a sleeping chamber to the west, or go back east to the training hall.  There is also a small hole going down to a room about ten feet below. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6215} {e} {e} {2} {0} {} {1.000} {}
-E { 6217} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6217} {0} {} {Ninja Hallway} { } {The hallway extends to the north and south, it's bare walls and floor create echos of  your movement.  Through a small doorway to the east you can see a small sleeping chamber. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6216} {s} {s} {4} {0} {} {1.000} {}
-E { 6218} {e} {e} {2} {0} {} {1.000} {}
-E { 6221} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6218} {0} {} {Genin's Quarters} { } {This is the sleeping chamber of a genin ninja, the lowest ranking ninja. It is bare, save for the essentials of a bed roll and sitting mat.  The hallway lies to the west. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6217} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6219} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 6212} {e} {e} {2} {0} {} {1.000} {}
-E { 6211} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6220} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 6213} {e} {e} {2} {0} {} {1.000} {}
-E { 6212} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6221} {0} {} {Ninja Hallway} { } {You stand just outside of the chunin's chamber to the north and the kunoichi's chamber to the east.  The hallway continues to south.  The cold stone surfaces of the floor and walls create echoes with any movement. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6217} {s} {s} {4} {0} {} {1.000} {}
-E { 6222} {w} {w} {8} {0} {} {1.000} {}
-E { 6223} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6222} {0} {} {Kunoichi's Quarters} { } {You've entered that living space of a Kunoichi, female ninja.  Various feminine things lie around the room. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6221} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6223} {0} {} {Chunin's Quarters} { } {This is the sleeping chamber of a chunin, a higher ranking ninja.  The room is bare, save for the essentials, but you can't shake the feeling that you are being watched. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6221} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6224} {0} {} {Ninja Hallway} { } {This hallway leads down from the training hall to the Shinobi's chamber, where the rooms of the higher-ranking ninja are found.  You can continue down the hallway or you can enter a sleeping chamber to the east. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6215} {w} {w} {8} {0} {} {1.000} {}
-E { 6225} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6225} {0} {} {Ninja Hallway} { } {You begin to feel severe apprehension as you draw nearer to the Shinobi's chamber, and begin to wonder if it's already to late to turn back.  You can continue north or south, and you can enter a sleeping chamber to the east. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6224} {s} {s} {4} {0} {} {1.000} {}
-E { 6226} {e} {e} {2} {0} {} {1.000} {}
-E { 6227} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6226} {0} {} {Chunin's Quarters} { } {This is the sleeping chamber of a chunin, a higher ranking ninja.  The room is bare, save for the essentials, but you can't shake the feeling that you are being watched. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6225} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6227} {0} {} {Ninja Hallway} { } {You can almost feel the hairs prick up on the back of your neck.  You have an unshakeable feeling that you are being watched.  You can follow the hallway north and south, and you can enter a chamber to the west. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6225} {s} {s} {4} {0} {} {1.000} {}
-E { 6228} {w} {w} {8} {0} {} {1.000} {}
-E { 6229} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6228} {0} {} {Chunin's Quarters} { } {This is the sleeping chamber of a chunin, a higher ranking ninja.  The room is bare, save for the essentials, but you can't shake the feeling that you are being watched. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6227} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6229} {0} {} {Outside Shinobi's Chamber} { } {You stand just outside the Shinobi's chamber, marveling that you are still alive.  You just know that you are being watched, and you feel as if you've just willingly walked into an ambush.  You can go south up the hallway, east into another sleeping chamber, or north into the clutches of the Shinobi. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6227} {s} {s} {4} {0} {} {1.000} {}
-E { 6230} {e} {e} {2} {0} {} {1.000} {}
-E { 6231} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6230} {0} {} {Chunin's Quarters} { } {This is the sleeping chamber of a chunin, a higher ranking ninja.  The room is bare, save for the essentials, but you can't shake the feeling that you are being watched. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6229} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6231} {0} {} {Shinobi's Chambers} { } {You are in the living quarters of the leader of the ninja - the Shinobi. Various poisons and fighting implements lay about the room, and a mysterious exit leads north.  You can go back to the hallway to the south. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6229} {s} {s} {4} {0} {} {1.000} {}
-E { 6232} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6232} {0} {} {Treasure Room} { } {The room where the ninja store their gold, the profit of years of assassination and thievery from the town of Little Kyoto.  The ill-gotten wealth of the masters of invisibility lies all around you, carelessly tossed here and then forgotten.  You can exit south. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6231} {s} {s} {4} {0} {} {1.000} {}

@@ -13,11 +13,11 @@ CROOMS <ccc>
 CSYMBOLS <adc>
 CUSER <dbe>
 
-F 8203
+F 8451
 
 G 0
 
-I 202
+I 841
 
 L {ASCII NESW LINE} {NO EXITS} {#}
 L {ASCII NESW LINE} {N} {o}
@@ -215,7 +215,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -26172,10 +26172,10 @@ E { 6196} {n} {n} {1} {0} {} {1.000} {}
 
 R { 6179} {0} {} {East-West Passage} { } {A two pace wide ring of stone has been arranged in the southeastern corner, enclosing a pile of ashes and charcoal.  Some branches with a metal rod nestled between them form a crude spit\; the soot blackened walls around the fire pit have been splattered with globs of grease and fat.  A doorway sits in the wall to the north\; quiet bleating and incoherent grunting can be heard within. } {Brute Village} {} {Inside} {} {1.000} {}
 E { 6177} {w} {w} {8} {0} {} {1.000} {}
-E { 6180} {n} {open door;n} {1} {0} {} {1.000} {}
+E { 6180} {n} {n} {1} {0} {} {1.000} {}
 
 R { 6180} {0} {} {A Smelly Den} { } {Sweat and musky body odor scents permeate the eight by six pace room, combining with the rank smell of uncured and damp fur.  Haphazardly scattered objects makes the place look like a pig sty, with raw pelts draped on the walls and piled in the northeast corner.  A number of crude but brutal looking weapons lie on the greasy floor, keeping company with the remnants of several meals.  Against the southwestern corner, a low pen has been constructed out of branches which have been roped together. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6179} {s} {open door;s} {4} {0} {} {1.000} {}
+E { 6179} {s} {s} {4} {0} {} {1.000} {}
 
 R { 6181} {0} {} {Serpentine Hallway} { } {Occupying most of the space in the north is a lattice of metal supporting a stone facing, while the dark passage leads off to a bend in the west.  Set at waist height in the eastern wall, an iron ring has been attached to a short length of chain that runs into a hole above the wall to the north.  In front of the wall, a few thumb-sized flakes of stone are scattered across the floor, their lighter color contrasting with the grimy, dark paving. } {Brute Village} {} {Inside} {} {1.000} {}
 E { 6177} {n} {pull ring;n} {1} {0} {} {1.000} {}

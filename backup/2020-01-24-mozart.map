@@ -215,7 +215,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -1688,8 +1688,8 @@ R {  347} {0} {} {Outside the South Gate of Nevrast} {} {Fields of freshly worke
 E {  346} {n} {n} {1} {0} {} {1.000} {}
 E {  354} {s} {s} {4} {0} {} {1.000} {}
 
-R {  348} {0} {} {Nevrast Sewer System} {} {Slimy water fills the passage here, leaving barely enough room for air to breathe. The air in question is an experience to be avoided. The water is flowing eastward fairly swiftly, and the ceiling is getting lower. } {Nevrast} {} {River} {} {1.000} {}
-E {  593} {u} {unl grate;open grate;u} {16} {0} {} {1.000} {}
+R {  348} {0} {<afa>} {Nevrast Sewer System} { } {Slimy water fills the passage here, leaving barely enough room for air to breathe. The air in question is an experience to be avoided. The water is flowing eastward fairly swiftly, and the ceiling is getting lower. } {Nevrast} {} {River} {} {1.000} {}
+E {  593} {u} {u} {16} {0} {} {1.000} {}
 E { 1327} {e} {e} {2} {0} {} {1.000} {}
 
 R {  349} {0} {} {The Grubby Inn} {} {You are inside the old Grubby Inn.  Loud voices and clattering dishes make the smarmy dive seem busier than it really is.  Coils of greasy steam rise from a cauldron bubbling over a roaring hearth.  The vile smell makes you dizzy, but as you sit down to catch your breath, the chair breaks. } {Nevrast} {} {Inside} {} {1.000} {}
@@ -2697,56 +2697,54 @@ E {  597} {n} {n} {1} {0} {} {1.000} {}
 
 R {  593} {0} {} {Nevrast Sewer System} {} {A thick stream of sewage, surprisingly deep, flowing into this room from the west. It swirls into a central area, and then down through a barely visible grate in the floor. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  592} {w} {w} {8} {0} {} {1.000} {}
-E {  348} {d} {unl grate;open grate;d} {32} {0} {} {1.000} {}
+E {  348} {d} {open grate;d} {32} {0} {} {1.000} {}
 
 R {  594} {0} {} {Nevrast Sewer System} {} {A thin stream of smelly ooze flows sluggishly along the center of this tunnel, with just enough clear space along each side to stay dry. A dim glow comes from the ceiling to the north. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  592} {n} {n} {1} {0} {} {1.000} {}
 E {  595} {s} {s} {4} {0} {} {1.000} {}
 
-R {  595} {0} {} {Nevrast Sewer System} {} {The dark stone walls of the tunnel shimmer faintly with moisture, condensation running slowly back down into the stream that splits the floor. The pervasive odor of sewage rises from the stream and fills the air, seemingly stronger from the south. } {Nevrast} {} {Underground} {} {1.000} {}
+R {  595} {0} {<afa>} {Nevrast Sewer System} { } {The dark stone walls of the tunnel shimmer faintly with moisture, condensation running slowly back down into the stream that splits the floor. The pervasive odor of sewage rises from the stream and fills the air, seemingly stronger from the south. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  594} {n} {n} {1} {0} {} {1.000} {}
 E {  596} {s} {s} {4} {0} {} {1.000} {}
 
-R {  596} {0} {} {Nevrast Sewer System} {} {The tunnel splits into three directions here, and a large puddle has backed up against the south wall. Streams of muck flow into the puddle from the east and west, and out to the north. } {Nevrast} {} {Underground} {} {1.000} {}
+R {  596} {0} {<afa>} {Nevrast Sewer System} { } {The tunnel splits into three directions here, and a large puddle has backed up against the south wall. Streams of muck flow into the puddle from the east and west, and out to the north. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  595} {n} {n} {1} {0} {} {1.000} {}
 E { 1329} {w} {w} {8} {0} {} {1.000} {}
 E { 3186} {e} {e} {2} {0} {} {1.000} {}
 
-R {  597} {0} {} {Nevrast Sewer System} {} {A thick river of slime and refuse flows in from the north and out to the south. Along both sides of the flow are slightly raised walkways, to help avoid actively wading. } {Nevrast} {} {Underground} {} {1.000} {}
+R {  597} {0} {<afa>} {Nevrast Sewer System} { } {A thick river of slime and refuse flows in from the north and out to the south. Along both sides of the flow are slightly raised walkways, to help avoid actively wading. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  592} {s} {s} {4} {0} {} {1.000} {}
 E {  598} {n} {n} {1} {0} {} {1.000} {}
 
-R {  598} {0} {} {Nevrast Sewer System} {} {This is the junction of four seperate tunnels, one in each of the cardinal directions. Sewage flows in from the north, west, and east, and out to the south. Small bridges span the streams, but they're fairly grimy as well. } {Nevrast} {} {Underground} {} {1.000} {}
+R {  598} {0} {<afa>} {Nevrast Sewer System} { } {This is the junction of four seperate tunnels, one in each of the cardinal directions. Sewage flows in from the north, west, and east, and out to the south. Small bridges span the streams, but they're fairly grimy as well. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  597} {s} {s} {4} {0} {} {1.000} {}
 E {  599} {w} {w} {8} {0} {} {1.000} {}
 E { 3190} {e} {e} {2} {0} {} {1.000} {}
-E { 6204} {n} {n} {1} {0} {} {1.000} {}
 
-R {  599} {0} {} {Nevrast Sewer System} {} {A stream of revolting crud runs down the center of this tunnel, flowing from west to east. Several small pipes protrude from the ceiling, occasionally dropping a noisome tidbit. } {Nevrast} {} {Underground} {} {1.000} {}
+R {  599} {0} {<afa>} {Nevrast Sewer System} { } {A stream of revolting crud runs down the center of this tunnel, flowing from west to east. Several small pipes protrude from the ceiling, occasionally dropping a noisome tidbit. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  598} {e} {e} {2} {0} {} {1.000} {}
 E {  600} {w} {w} {8} {0} {} {1.000} {}
 
-R {  600} {0} {} {Nevrast Sewer System} {} {The tunnel turns here, leading both north and east. A rivulet of water and less savory substances follows the curve, heading east. A band of stained rock along the south-west wall implies that at times the flow is swift enough to overflow onto the walkway. } {Nevrast} {} {Underground} {} {1.000} {}
+R {  600} {0} {<afa>} {Nevrast Sewer System} { } {The tunnel turns here, leading both north and east. A rivulet of water and less savory substances follows the curve, heading east. A band of stained rock along the south-west wall implies that at times the flow is swift enough to overflow onto the walkway. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  599} {e} {e} {2} {0} {} {1.000} {}
 E {  601} {n} {n} {1} {0} {} {1.000} {}
 
-R {  601} {0} {} {Nevrast Sewer System} {} {The stream of garbage-laden water running down the middle of the passage here is still relatively unmixed, with almost clear water merely carrying along the tainted leavings dropped into it. To the north, the sound of rushing water is faintly audible. } {Nevrast} {} {Underground} {} {1.000} {}
+R {  601} {0} {<afa>} {Nevrast Sewer System} { } {The stream of garbage-laden water running down the middle of the passage here is still relatively unmixed, with almost clear water merely carrying along the tainted leavings dropped into it. To the north, the sound of rushing water is faintly audible. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  600} {s} {s} {4} {0} {} {1.000} {}
 E {  602} {n} {n} {1} {0} {} {1.000} {}
 
-R {  602} {0} {} {Nevrast Sewer System} {} {A small geyser of water pours from the upper north-western corner here, from the end of a large pipe. The pipe follows the ceiling to the east, out of sight. The water from the pipe washes down a pair of channels cut into the stone floor, one leading east and the other south. } {Nevrast} {} {Underground} {} {1.000} {}
+R {  602} {0} {<afa>} {Nevrast Sewer System} { } {A small geyser of water pours from the upper north-western corner here, from the end of a large pipe. The pipe follows the ceiling to the east, out of sight. The water from the pipe washes down a pair of channels cut into the stone floor, one leading east and the other south. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  601} {s} {s} {4} {0} {} {1.000} {}
 E {  603} {e} {e} {2} {0} {} {1.000} {}
 
-R {  603} {0} {} {Nevrast Sewer System} {} {A stream of slightly dirty water flow into this area from the east and west. A pair of thick pipes enter from the same directions, before disappearing into the norteast and northwestern corners of the ceiling. } {Nevrast} {} {Underground} {} {1.000} {}
+R {  603} {0} {<afa>} {Nevrast Sewer System} { } {A stream of slightly dirty water flow into this area from the east and west. A pair of thick pipes enter from the same directions, before disappearing into the norteast and northwestern corners of the ceiling. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  602} {w} {w} {8} {0} {} {1.000} {}
 E {  604} {e} {e} {2} {0} {} {1.000} {}
 
-R {  604} {0} {} {Nevrast Sewer System} {} {Streams of filthy water flow into this junction from the east and west, and exit to the south, where they join.  A pair of thick pipes enter from the same directions, along the northern edge of the ceiling, before diving into the north wall above a large iron grate.  A small stone platform raises the floor beneath the pipes above water level. } {Nevrast} {} {Underground} {} {1.000} {}
+R {  604} {0} {<afa>} {Nevrast Sewer System} { } {Streams of filthy water flow into this junction from the east and west, and exit to the south, where they join.  A pair of thick pipes enter from the same directions, along the northern edge of the ceiling, before diving into the north wall above a large iron grate.  A small stone platform raises the floor beneath the pipes above water level. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  603} {w} {w} {8} {0} {} {1.000} {}
 E { 3194} {e} {e} {2} {0} {} {1.000} {}
 E { 3195} {n} {open grate;n} {1} {0} {} {1.000} {}
-E { 6204} {s} {s} {4} {0} {} {1.000} {}
 
 R {  605} {0} {} {The Edge of the Old Forest} {} {The path leading to the Old Forest disappears as it enters the trees. A sinister feeling is in the air here.  There is a tangible sense of queerness about this forest.  The trees are thick and obviously very old.  Grey-green moss hangs from the great limbs of these massive trees. A faint rustling can be heard coming from the forest. } {Old Forest} {} {Forest} {} {1.000} {}
 E {  587} {e} {e} {2} {0} {} {1.000} {}
@@ -3709,11 +3707,11 @@ E {  838} {n} {n} {1} {0} {} {1.000} {}
 E {  840} {e} {e} {2} {0} {} {1.000} {}
 E {  871} {s} {s} {4} {0} {} {1.000} {}
 
-R {  840} {0} {} {The Leering Gargoyle Inn} {Zzz} {You are in the common room of the venerable Leering Gargoyle Inn.  Here, various bar patrons and city dwellers converse pleasantly, while several bartenders and serving maids keep the drinks flowing.  A large, glowing fireplace illuminates the room and you see a well-worn stone staircase leading up.  A door to the west leads to the Grand Plaza Square. } {Raven's Bluff} {} {Inside} {} {1.000} {}
+R {  840} {0} {<278>} {The Leering Gargoyle Inn} {Zz } {You are in the common room of the venerable Leering Gargoyle Inn.  Here, various bar patrons and city dwellers converse pleasantly, while several bartenders and serving maids keep the drinks flowing.  A large, glowing fireplace illuminates the room and you see a well-worn stone staircase leading up.  A door to the west leads to the Grand Plaza Square. } {Raven's Bluff} {} {Inside} {} {1.000} {}
 E {  839} {w} {w} {8} {0} {} {1.000} {}
 E {  841} {u} {u} {16} {0} {} {1.000} {}
 
-R {  841} {0} {} {The Leering Gargoyle Reception} {} {You are standing in the reception area of the Leering Gargoyle Inn.  Here, several plush chairs and comfortable benches line the walls, and a large wooden desk with a carefully lettered sign is against the northern wall.  A large stone staircase leads downwards to the common room of the Inn. } {Raven's Bluff} {} {Inside} {} {1.000} {}
+R {  841} {0} {<278>} {The Leering Gargoyle Reception} {<278>[ ]<088>} {You are standing in the reception area of the Leering Gargoyle Inn.  Here, several plush chairs and comfortable benches line the walls, and a large wooden desk with a carefully lettered sign is against the northern wall.  A large stone staircase leads downwards to the common room of the Inn. } {Raven's Bluff} {} {Inside} {} {1.000} {}
 E {  840} {d} {d} {32} {0} {} {1.000} {}
 
 R {  842} {0} {} {Plaza Square} {} {You are standing in the middle of the busiest street in Raven's Bluff, Plaza Square.  Countless numbers of city dwellers crowd around you, impairing your progress and obstructing your view.  You can barely make out the ornate and decorated Grand Plaza to the north, and Main Street stretches towards both the east and west.  You also notice another intersection to the south. } {Raven's Bluff} {} {City} {} {1.000} {}
@@ -5734,24 +5732,23 @@ E { 1324} {e} {e} {2} {0} {} {1.000} {}
 R { 1326} {0} {<afa>} {} {Mag} {} {Nevrast} {} {} {} {1.000} {}
 E { 1324} {w} {w} {8} {0} {} {1.000} {}
 
-R { 1327} {0} {} {Nevrast Sewer System} {} {The roof of the passage now contacts the surface of the flow, making this into an oversized pipe of sorts. The current continues pulling toward the east. Dimly visible through the murk is a thin crack along the floor. } {Nevrast} {} {River} {} {1.000} {}
+R { 1327} {0} {<afa>} {Nevrast Sewer System} { } {The roof of the passage now contacts the surface of the flow, making this into an oversized pipe of sorts. The current continues pulling toward the east. Dimly visible through the murk is a thin crack along the floor. } {Nevrast} {} {River} {} {1.000} {}
 E {  348} {w} {w} {8} {0} {} {1.000} {}
 E { 1328} {e} {e} {2} {0} {} {1.000} {}
-E { 6205} {d} {open crack;d} {32} {0} {} {1.000} {}
 
-R { 1328} {0} {} {Nevrast Sewer System} {} {The tunnel gets much narrower here, and becomes swifter, then ends in a large pipe that channels the flow off to somewhere.  If you stay here you'll certainly be drawn along with it. } {Nevrast} {} {River} {} {1.000} {}
+R { 1328} {0} {<afa>} {Nevrast Sewer System} { } {The tunnel gets much narrower here, and becomes swifter, then ends in a large pipe that channels the flow off to somewhere.  If you stay here you'll certainly be drawn along with it. } {Nevrast} {} {River} {} {1.000} {}
 E { 1327} {w} {w} {8} {0} {} {1.000} {}
 
-R { 1329} {0} {} {Nevrast Sewer System} {} {The revolting stream running down the south side of the tunnel flows fairly swiftly eastward. Unrecognizable, and thankfully so, lumps of something bob merrily along within it. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 1329} {0} {<afa>} {Nevrast Sewer System} { } {The revolting stream running down the south side of the tunnel flows fairly swiftly eastward. Unrecognizable, and thankfully so, lumps of something bob merrily along within it. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  596} {e} {e} {2} {0} {} {1.000} {}
 E { 1330} {w} {w} {8} {0} {} {1.000} {}
 
-R { 1330} {0} {} {Nevrast Sewer System} {} {Another, smaller, stream of refuse joins into the one running down the tunnel from a small alcove to the south. A main flow comes in from the west and continues eastward. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 1330} {0} {<afa>} {Nevrast Sewer System} { } {Another, smaller, stream of refuse joins into the one running down the tunnel from a small alcove to the south. A main flow comes in from the west and continues eastward. } {Nevrast} {} {Underground} {} {1.000} {}
 E { 1329} {e} {e} {2} {0} {} {1.000} {}
 E { 1331} {w} {w} {8} {0} {} {1.000} {}
 E { 3184} {s} {s} {4} {0} {} {1.000} {}
 
-R { 1331} {0} {} {Nevrast Sewer System} {} {The smell here is atrocious, meaty and disgusting. The stream of sewage is particularly lumpy, oozing eastward rapidly as if attempting to get away from itself. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 1331} {0} {<afa>} {Nevrast Sewer System} { } {The smell here is atrocious, meaty and disgusting. The stream of sewage is particularly lumpy, oozing eastward rapidly as if attempting to get away from itself. } {Nevrast} {} {Underground} {} {1.000} {}
 E { 1330} {e} {e} {2} {0} {} {1.000} {}
 E { 3187} {w} {w} {8} {0} {} {1.000} {}
 
@@ -6909,18 +6906,18 @@ E { 1604} {e} {e} {2} {0} {} {1.000} {}
 
 R { 1604} {0} {} {An Old Mine} {} {Large iron rails adorn the floor of the tunnel heading to the north and west.  Dust falls from the ceiling above, pelting anyone unfortunate enough to be caught beneath it.  The walls are rough and marred by chisel marks.  A single notch is carved into each wall, though it has been left empty. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
 E { 1603} {w} {w} {8} {0} {} {1.000} {}
-E { 1605} {n} {n} {1} {0} {} {1.000} {}
+E { 1622} {n} {n} {1} {0} {} {1.000} {}
 
 R { 1605} {0} {} {An Abrupt Turn} {} {The rails in this tunnel lead south and west.  The ground, uneven and jagged, is covered in a thick layer of dust and rock.  The beams overhead are cracked but holding strong.  Adorning one of the beams is a small chain; attached to it is a lantern that has seen better days. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
-E { 1604} {s} {s} {4} {0} {} {1.000} {}
+E { 1622} {s} {s} {4} {0} {} {1.000} {}
 E { 1606} {w} {w} {8} {0} {} {1.000} {}
 
 R { 1606} {0} {} {An Old Mine} {} {Battered and dinged, yet operational, the rails that line the ground of this tunnel lead to the north and east.  A gentle breeze flows softly through this part of the mine from an unknown source, kicking up dust and leaving a haze in the air.  The walls have a slimy look about them, though they remain dry to the touch. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
 E { 1605} {e} {e} {2} {0} {} {1.000} {}
-E { 1607} {n} {n} {1} {0} {} {1.000} {}
+E { 1623} {n} {n} {1} {0} {} {1.000} {}
 
 R { 1607} {0} {} {A Dark Cave} {} {Iron rails stretch to the north, south, and east in this cavern.  The room is barren with the exception of the rails that adorn the floor.  Large beams loom high overheard, dropping dust into the air.  The dwarves that built these mines must have had some reason to not finish this tunnel; unfortunately, what it was will remain a mystery. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
-E { 1606} {s} {s} {4} {0} {} {1.000} {}
+E { 1623} {s} {s} {4} {0} {} {1.000} {}
 E { 1608} {e} {e} {2} {0} {} {1.000} {}
 E { 1624} {n} {n} {1} {0} {} {1.000} {}
 
@@ -6983,16 +6980,20 @@ R { 1621} {4104} {} {} { } {} {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
 E { 1603} {n} {n} {1} {0} {} {1.000} {}
 E { 1602} {s} {s} {4} {0} {} {1.000} {}
 
-R { 1623} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 1624} {s} {s} {4} {0} {} {1.000} {}
-E { 1625} {n} {n} {1} {0} {} {1.000} {}
+R { 1622} {4104} {} {} { } {} {Mac Mordain Cadal} {} {} {} {1.000} {}
+E { 1605} {n} {n} {1} {0} {} {1.000} {}
+E { 1604} {s} {s} {4} {0} {} {1.000} {}
+
+R { 1623} {4104} {} {} { } {} {Mac Mordain Cadal} {} {} {} {1.000} {}
+E { 1607} {n} {n} {1} {0} {} {1.000} {}
+E { 1606} {s} {s} {4} {0} {} {1.000} {}
 
 R { 1624} {0} {} {An Old Mine} {} {A thick layer of dust covers the tunnel floor; protruding from underneath the dust are two large iron rails, leading to the north and south.  Splinters of wood layer the edges of the tunnel walls, following the rails deeper into the mine.  The air is dry and stale, and tastes of dirt. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
 E { 1607} {s} {s} {4} {0} {} {1.000} {}
-E { 1623} {n} {n} {1} {0} {} {1.000} {}
+E { 1625} {n} {n} {1} {0} {} {1.000} {}
 
 R { 1625} {0} {} {A Bend in the Tunnel} {} {The mine here has odd iron rails firmly attached to the floor.  The stone floor has a thick layer of dust from the exposed beams holding the ceiling up. Despite the wood mass lost as dust, they seem to be doing a fairly good job of it. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
-E { 1623} {s} {s} {4} {0} {} {1.000} {}
+E { 1624} {s} {s} {4} {0} {} {1.000} {}
 E { 1626} {w} {w} {8} {0} {} {1.000} {}
 
 R { 1626} {0} {} {A Bend in the Tunnel} {} {The mine has odd iron rails attached to the floor here.  The stone floor is covered in dust from the exposed beams above that are quite busy holding the ceiling above your head. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
@@ -7955,6 +7956,7 @@ E { 1846} {e} {e} {2} {0} {} {1.000} {}
 
 R { 1845} {0} {} {The Barrow} {} {Shattered stone covers the floor here, apparently covers for gaps in the center of the south, east, and west walls.  The rest of the three walls and all the other stonework is made of a dark grey stone, cut to the approximate size size of a dinner plate.  The three holes in the walls are burial chambers, used to lay the deceased to rest.  An odor hangs heavily in the air, one part dust, two parts rot and decay.  A short passage north leads to a narrow corridor. } {Mac Mordain Cadal} {} {Inside} {} {1.000} {}
 E { 1844} {n} {n} {1} {0} {} {1.000} {}
+E { 5648} {d} {d} {32} {0} {} {1.000} {}
 
 R { 1846} {0} {} {The Barrow} {} {This narrow stone corridor is built of grey, dinner plate-sized stones.  The corridor forms an ell here with passages leading to the north and west. Cobwebs have collected along the joins between the walls and the ceiling giving the corridor the appearance of having a rounded ceiling.  Dust, sand, and a white powder are mixed on the floor, nearly obscuring the stones used there. The scent of rot fills the chill, dry air. } {The Barrow} {} {Inside} {} {1.000} {}
 E { 1844} {w} {w} {8} {0} {} {1.000} {}
@@ -8757,7 +8759,7 @@ E { 2030} {n} {open door;n} {1} {0} {} {1.000} {}
 R { 2034} {0} {} {Bedroom} {} {You have entered one of the chambers where the geishas wait for their customers.  There are several mats and pillows lying around, and you can hear giggles and moans emanating from all around you.  The only exit is back through the paper screen. } {Little Kyoto} {} {Inside} {} {1.000} {}
 E { 2028} {n} {open door;n} {1} {0} {} {1.000} {}
 
-R { 2035} {0} {} {The Old Gate} {} {An ancient archway curves gracefully overhead, its smooth paleness nearly luminous, contrasting with the dull granite passage that it breaks.  On its north face, text from three languages has been engraved in characters two spans high.  The south side of the arch has recesses in the walls, space for counterbalancing systems for the now-missing doors. } {Brute Village} {} {Inside} {} {1.000} {}
+R { 2035} {0} {} {The Old Gate} {} {An ancient archway curves gracefully overhead, its smooth paleness nearly luminous, contrasting with the dull granite passage that it breaks.  On its north face, text from three languages has been engraved in characters two spans high.  The south side of the arch has recesses in the walls, space for counterbalancing systems for the now-missing doors. } {Unset} {} {Inside} {} {1.000} {}
 E { 1591} {n} {n} {1} {0} {} {1.000} {}
 E { 5817} {s} {s} {4} {0} {} {1.000} {}
 
@@ -13019,7 +13021,6 @@ E { 3023} {n} {n} {1} {0} {} {1.000} {}
 R { 3025} {0} {} {Hall} {} {This hallway is dark and gloomy, a hollow reflection of the lives of the priests whose chambers line it.  These rooms are where they spend most of their time when they aren't deep in ceremony or meditation.  You can enter a chamber to the east or you can follow the hall to the south. } {Little Kyoto} {} {Inside} {} {1.000} {}
 E { 3016} {w} {w} {8} {0} {} {1.000} {}
 E { 3031} {e} {e} {2} {0} {} {1.000} {}
-E { 6112} {s} {s} {4} {0} {} {1.000} {}
 
 R { 3026} {0} {} {Clearing} { } {A quaint little forest clearing where you could stop for a bit and enjoy your surroundings.  You can see some forest animals playing in a beautiful meadow just to the south, and a path leads east towards the sound of rushing water.  The forest grows denser to the south. } {Little Kyoto} {} {Forest} {} {1.000} {}
 E { 6075} {n} {n} {1} {0} {} {1.000} {}
@@ -13664,48 +13665,48 @@ E { 3183} {u} {u} {16} {0} {} {1.000} {}
 R { 3183} {0} {} {An Odd Plateau} {} {Grasping the lip of the cliff-top, you haul yourself over the top.  Standing  up, you take a moment to gaze about your surroundings.  It appears to be an  odd collection of branches and large sapling trees.  On a second glance, you see it is a nest... but it must be sixty feet across! } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 3182} {d} {d} {32} {0} {} {1.000} {}
 
-R { 3184} {0} {} {Nevrast Sewer System} {} {Dark stains run down the walls from just below the ceiling here, leading down into the muck pooled upon the floor. Just above them, rusty pipes drip with the remains of the deposit made down them. A thin stream of water comes from a lower pipe and pushes the mess northward. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3184} {0} {<afa>} {Nevrast Sewer System} { } {Dark stains run down the walls from just below the ceiling here, leading down into the muck pooled upon the floor. Just above them, rusty pipes drip with the remains of the deposit made down them. A thin stream of water comes from a lower pipe and pushes the mess northward. } {Nevrast} {} {Underground} {} {1.000} {}
 E { 1330} {n} {n} {1} {0} {} {1.000} {}
 
 R { 3185} {0} {} {Beautiful Gardens} {} {A path skirts small, perfectly trimmed trees that line the eastern and southern walls.  Several groupings of rounded bushes dot a grassy area next to the path.  Clearly someone spends a great deal of time tending to this garden. } {Nevrast} {} {Field} {} {1.000} {}
 E {  967} {w} {w} {8} {0} {} {1.000} {}
 E {  171} {n} {n} {1} {0} {} {1.000} {}
 
-R { 3186} {0} {} {Nevrast Sewer System} {} {The walls are stained with loathsome filth here, oozing from the outlet pipes protruding from the ceiling. It smells faintly avian, in a nasty sort of way. Another pipe, near the floor, produces a little stream of water, which washes the residue westward. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3186} {0} {<afa>} {Nevrast Sewer System} { } {The walls are stained with loathsome filth here, oozing from the outlet pipes protruding from the ceiling. It smells faintly avian, in a nasty sort of way. Another pipe, near the floor, produces a little stream of water, which washes the residue westward. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  596} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3187} {0} {} {Nevrast Sewer System} {} {The stench here is almost overpowering, convincing all but the stoutest of stomachs to add to the mess that runs down the floor. Two thick streams of filth, from the alcoves to the west and to the south, merge here and continue eastward. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3187} {0} {<afa>} {Nevrast Sewer System} { } {The stench here is almost overpowering, convincing all but the stoutest of stomachs to add to the mess that runs down the floor. Two thick streams of filth, from the alcoves to the west and to the south, merge here and continue eastward. } {Nevrast} {} {Underground} {} {1.000} {}
 E { 1331} {e} {e} {2} {0} {} {1.000} {}
 E { 3188} {s} {s} {4} {0} {} {1.000} {}
 E { 3189} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3188} {0} {} {Nevrast Sewer System} {} {The stone walls here are encrusted with things better left unseen, and even better unsmelt. A definite carnivore odor overlays the whole area. The fresher water being piped into the filth from the outlet pipes above strives in vain to force it all northward. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3188} {0} {<afa>} {Nevrast Sewer System} { } {The stone walls here are encrusted with things better left unseen, and even better unsmelt. A definite carnivore odor overlays the whole area. The fresher water being piped into the filth from the outlet pipes above strives in vain to force it all northward. } {Nevrast} {} {Underground} {} {1.000} {}
 E { 3187} {n} {n} {1} {0} {} {1.000} {}
 
-R { 3189} {0} {} {Nevrast Sewer System} {} {A horrifying melange of odors fills the room, exuded from the thick coating of slimy glop sliding down the walls from the pipes above. A pair of thick pipes about halfway down the walls spray water into the morass, encouraging it to flow eastward and out of this area. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3189} {0} {<afa>} {Nevrast Sewer System} { } {A horrifying melange of odors fills the room, exuded from the thick coating of slimy glop sliding down the walls from the pipes above. A pair of thick pipes about halfway down the walls spray water into the morass, encouraging it to flow eastward and out of this area. } {Nevrast} {} {Underground} {} {1.000} {}
 E { 3187} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3190} {0} {} {Nevrast Sewer System} {} {Stinky raw sewage trickles westward along down the middle of the passage. The thin ledge along the northern wall is in disrepair, having crumbled slightly into the flow. The southern ledge looks sturdy enough. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3190} {0} {<afa>} {Nevrast Sewer System} { } {Stinky raw sewage trickles westward along down the middle of the passage. The thin ledge along the northern wall is in disrepair, having crumbled slightly into the flow. The southern ledge looks sturdy enough. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  598} {w} {w} {8} {0} {} {1.000} {}
 E { 3191} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3191} {0} {} {Nevrast Sewer System} {} {A large pool of sewage has backed up here, for whatever reason. It will be impossible to get around the corner while staying dry, without some flight. The flow from the north is obviously greater than the amount spilling out of the pool to the west, so the problem may yet get worse if it's not repaired. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3191} {0} {<afa>} {Nevrast Sewer System} { } {A large pool of sewage has backed up here, for whatever reason. It will be impossible to get around the corner while staying dry, without some flight. The flow from the north is obviously greater than the amount spilling out of the pool to the west, so the problem may yet get worse if it's not repaired. } {Nevrast} {} {Underground} {} {1.000} {}
 E { 3190} {w} {w} {8} {0} {} {1.000} {}
 E { 3192} {n} {n} {1} {0} {} {1.000} {}
 
-R { 3192} {0} {} {Nevrast Sewer System} {} {A swift flow of dirty liquid, mostly water, rushes from the passage to the north. It continues southward from this room, entering a large pool just visible that direction. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3192} {0} {<afa>} {Nevrast Sewer System} { } {A swift flow of dirty liquid, mostly water, rushes from the passage to the north. It continues southward from this room, entering a large pool just visible that direction. } {Nevrast} {} {Underground} {} {1.000} {}
 E { 3191} {s} {s} {4} {0} {} {1.000} {}
 E { 3193} {n} {n} {1} {0} {} {1.000} {}
 
-R { 3193} {0} {} {Nevrast Sewer System} {} {The end of a large copper pipe turns into the room from the north-eastern corner, near the ceiling. The valves on the end have been cranked open, and it is spraying forth a torrent of water. The water runs along the floor into a set of grooves carved there, which lead the water out to the south and west, respectively. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3193} {0} {<afa>} {Nevrast Sewer System} { } {The end of a large copper pipe turns into the room from the north-eastern corner, near the ceiling. The valves on the end have been cranked open, and it is spraying forth a torrent of water. The water runs along the floor into a set of grooves carved there, which lead the water out to the south and west, respectively. } {Nevrast} {} {Underground} {} {1.000} {}
 E { 3192} {s} {s} {4} {0} {} {1.000} {}
 E { 3194} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3194} {0} {} {Many Tunnels} {} {This is a twisty underground tunnel with many exits and entrances.  The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them.  The tunnel floor has been worn smooth by the passage of many feet. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3194} {0} {<afa>} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances.  The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them.  The tunnel floor has been worn smooth by the passage of many feet. } {Nevrast} {} {Underground} {} {1.000} {}
 E { 3193} {e} {e} {2} {0} {} {1.000} {}
 E {  604} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3195} {0} {} {Nevrast Sewer System} {} {The room is filled with pipes, including a truly gargantuan one that comes out of the floor and goes into the ceiling, in the north end of the room. Several of the pipes merge into the pipe, while others run along by themselves. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 3195} {0} {<afa>} {Nevrast Sewer System} { } {The room is filled with pipes, including a truly gargantuan one that comes out of the floor and goes into the ceiling, in the north end of the room. Several of the pipes merge into the pipe, while others run along by themselves. } {Nevrast} {} {Underground} {} {1.000} {}
 E {  604} {s} {s} {4} {0} {} {1.000} {}
 
 R { 3196} {4104} {} {} { } {} {} {} {} {} {1.000} {}
@@ -24710,9 +24711,8 @@ E { 5816} {s} {s} {4} {0} {} {1.000} {}
 R { 5816} {0} {} {Outside Tomb} { } {You are outside what appears to be a large tomb, sealed with a great stone door.  There is an epitaph written on the wall here in glowing golden letters, as though scrawled with magic fire.  You can go north back into the hall of skulls. } {Little Kyoto} {} {Inside} {} {1.000} {}
 E { 5815} {n} {n} {1} {0} {} {1.000} {}
 
-R { 5817} {0} {} {Faded Glory} { } {The wide hallway proceeds south into the mountain, the mica particles in the granite slabs glinting dully whenever any light passes over them.  Any sounds made softly echo, the expanse of the tunnel soaking up most of them before they can be reflected.  Fading murals line the walls, and a human body has been discarded here, bent and broken at unnatural angles. } {Brute Village} {} {Inside} {} {1.000} {}
+R { 5817} {0} {} {Faded Glory} { } {The wide hallway proceeds south into the mountain, the mica particles in the granite slabs glinting dully whenever any light passes over them.  Any sounds made softly echo, the expanse of the tunnel soaking up most of them before they can be reflected.  Fading murals line the walls, and a human body has been discarded here, bent and broken at unnatural angles. } {Unset} {} {Inside} {} {1.000} {}
 E { 2035} {n} {n} {1} {0} {} {1.000} {}
-E { 6117} {s} {s} {4} {0} {} {1.000} {}
 
 R { 5818} {0} {} {A Chilly Bend} { } {The small mountain path turns dangerously here, moving eastward along a narrow, icy ledge.  The howling wind penetrates your bones, and it is easy to see why nothing lives here.    Interestingly enough, the path appears to have once been used by large carts.  Ancient wheel marks are still visible trundling downward from here toward the vale below. } {Morgul Vale} {} {Mountains} {} {1.000} {}
 E { 4354} {n} {n} {1} {0} {} {1.000} {}
@@ -25738,7 +25738,7 @@ E { 5826} {e} {e} {2} {0} {} {1.000} {}
 R { 6073} {0} {} {The Holding Chamber} { } {The room appears to be used as a preparation room for some sort of arcane rituals. Runic symbols are scratched in blood over all the walls, and small cages line the walls.  In one of the cages lies the amputated form of a once living victim.  Whoever lives here must use some sort of barbaric sacrifices to condone some of the horrors you see here. } {Fireant Complex} {} {Underground} {} {1.000} {}
 E { 5824} {e} {e} {2} {0} {} {1.000} {}
 
-R { 6074} {1026} {} {Forest Path} { } {A quaint little path through a beautiful forest of light green.  You can hear the birds singing in the breeze, and somewhere in the distance you hear the sound of rushing water.  The path continues south into the Minakami Woods and north to Little Kyoto. } {Little Kyoto} {} {Forest} {} {1.000} {}
+R { 6074} {2} {} {Forest Path} { } {A quaint little path through a beautiful forest of light green.  You can hear the birds singing in the breeze, and somewhere in the distance you hear the sound of rushing water.  The path continues south into the Minakami Woods and north to Little Kyoto. } {Little Kyoto} {} {Forest} {} {1.000} {}
 E { 2995} {n} {n} {1} {0} {} {1.000} {}
 E { 6075} {s} {s} {4} {0} {} {1.000} {}
 
@@ -25787,7 +25787,6 @@ E { 6087} {e} {e} {2} {0} {} {1.000} {}
 
 R { 6086} {0} {} {Entrance to Eternal Passageway} { } {You stand at the entrance to the Eternal Passageway, a seemingly endless myriad of rooms with twisting corridors that lead off in every direction.  This place is forbidden to the townsfolk\; legend has it that the ninja live in secrecy here and navigate the passage with confidence.  There is a sign here. You can leave east, or you can brave the passage and enter to the south. } {Little Kyoto} {} {Inside} {} {1.000} {}
 E { 6085} {e} {e} {2} {0} {} {1.000} {}
-E { 6209} {s} {s} {4} {0} {} {1.000} {}
 
 R { 6087} {0} {} {Small Passage} { } {You are in a small passage in the side of the tunnel.  The passage ends as quickly as it began however, you can't go any further.  There is a hole about ten feet above you that allows a glimpse of a hallway above.  The passage way is to the west. } {Little Kyoto} {} {Underground} {} {1.000} {}
 E { 6085} {w} {w} {8} {0} {} {1.000} {}
@@ -25892,493 +25891,3 @@ E { 5572} {n} {n} {1} {0} {} {1.000} {}
 R { 6111} {0} {} {A Slight Ridge on Dagorlad} { } {The land falls away in an easily manageable drop, in the direction of Morannon.  The defensive possibilities, limited as they must be in this terrible place, are immediately obvious.  To the south is one of the mighty gates, with its guard tower peeking over its summit.  To the west and north the Battle Plain runs on, but any progress eastwards is blocked by rocks of the Ash Mountains. } {Forest of Ithilien} {} {Field} {} {1.000} {}
 E { 6109} {s} {s} {4} {0} {} {1.000} {}
 E { 6107} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6112} {0} {} {Hall} { } {You are about halfway down the dark hall, and a spirit of gloom is upon you.  You can continue along the hall to the north and south, and you can enter a priest's chamber to the east.  You get the distinct impression that this place could wilt flowers at will. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 3025} {n} {n} {1} {0} {} {1.000} {}
-E { 6113} {e} {e} {2} {0} {} {1.000} {}
-E { 6114} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6113} {0} {} {Priest's Chamber} { } {This sparse chamber has barren walls with little ornamentation except for a few dovetail joints connecting wooden beams.  The hard stone floor contains only a simple bed roll placed against the east wall.  A small window lets in a glimpse of the outside and the hallway is to the west. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6112} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6114} {0} {} {Hall} { } {You have reached the end of the hall, where you can continue south into the counting room.  The last priest's chamber lies to the east, and you can follow the hallway back north. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6112} {n} {n} {1} {0} {} {1.000} {}
-E { 6115} {e} {e} {2} {0} {} {1.000} {}
-E { 6116} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6115} {0} {} {Priest's Chamber} { } {This sparse chamber has barren walls with little ornamentation except for a few dovetail joints connecting wooden beams.  The hard stone floor contains only a simple bed roll placed against the east wall.  A small window lets in a glimpse of the outside and the hallway lies to the west. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6114} {w} {w} {8} {0} {} {1.000} {}
-E { 6136} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6116} {0} {} {Counting Room} { } {The room where certain disillusioned priests can go to count their beads and regain their lost faith.  Sometimes certain priests preparing for sexual encounters sit here and count them over and over thousands of times for a month before they feel purified and ready to procreate. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6114} {n} {n} {1} {0} {} {1.000} {}
-E { 6139} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6117} {0} {} {Faded Glory} { } {Murals three paces high adorn the enclosing walls, their washed-out colors interrupted by two large arches to the east and west and a much smaller square section passage to the south.  The grooves in the ground veer from the north into the east\; the images continue unbroken on each side of the corridor.  The southern passage has been relatively crudely hacked into first the granite slabs, then the rock beyond, breaking the continuity of the paintings. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 5817} {n} {n} {1} {0} {} {1.000} {}
-E { 6118} {w} {w} {8} {0} {} {1.000} {}
-E { 6120} {e} {e} {2} {0} {} {1.000} {}
-E { 6133} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6118} {1026} {} {The Western Gallery} { } {The western end of the gallery is sealed by large stone boulders.  While the work is more recent than the hallway, the quality of the craftsmanship fitting them together shows they were made by the same hands.  Ominous dwarven runes are chiseled into the larger rocks as a either warning or ward, but it is impossible to discern which.  A rough-hewn corridor begins to the south and seems to extend west, further into inky darkness. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6117} {e} {e} {2} {0} {} {1.000} {}
-E { 6119} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6119} {0} {} {An Abrupt Turn} { } {The passage undergoes an abrupt change in direction, the five pace wide tunnel to the north turning into a slightly narrower corridor heading west.   In the corner, some long-dead rats have been pinned to the floor by broken- off spear shafts. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6118} {n} {n} {1} {0} {} {1.000} {}
-E { 6150} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6120} {0} {} {The Eastern Gallery} { } {A slight draft flows from the archway in the east, heading toward the junction in the west.  Its eddying currents brings a metallic tang along with the sharp scent of oil.  Grooves in the granite blocks of the floor curve in from the west and turn sharply, bearing north. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6117} {w} {w} {8} {0} {} {1.000} {}
-E { 6121} {n} {n} {1} {0} {} {1.000} {}
-E { 6124} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6121} {0} {} {The Courtyard} { } {The large cavern reeks of accumulated horse dung and the scent of rotting flesh, no doubt accentuated by the lack of proper ventilation.  Large wooden casks have been stacked together against the western wall, some of which have been smashed open to spill their contents.  Two smaller grottos branch off  to the north and east, into an ominous, malevolent, darkness, while the main branch lies back south.  Grooves worn into the granite blocks of the floor swerve in from the south and bend towards the eastern grotto. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6120} {s} {s} {4} {0} {} {1.000} {}
-E { 6122} {n} {n} {1} {0} {} {1.000} {}
-E { 6123} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6122} {0} {} {Makeshift Stables} { } {Copious quantities of blood from half a dozen slaughtered horses soaks through the piles of hay.  Some have been gutted, others beheaded, but all show signs of being cruelly killed.  In the middle, the torso of a human lies on the ground, its voluminous robes nearly obscuring it.  Four trails of blood lead from it to detached limbs shackled to a quartet of the dead animals. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6121} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6123} {0} {} {The Courtyard} { } {Charred wood and melted metal are all that remains of a number of carts that were parked in the eastern end of the cavern.  A more intact wreck lies in the southwestern end\; partly hitched to the rotting remains of two horses, a four-wheeler looks like it lost one of its front wheels and swerved into the wall.  The body of its driver has been thrown out of its seat and is crumpled in a pile against the wall, now a putrefied, bloody mess.  Flies buzz unrelentingly about the entire scene. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6121} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6124} {0} {} {A Converted Forge} { } {Work benches line the eastern and western sides of the long chamber, waist high to a man.  Next to one with a bucket of elongated, diamond-shaped spear heads, a number of wooden shafts lean against the wall, while others lie scattered on the ground.  A partially complete chain mail shirt is pooled atop another, and sword blades rest on several tables, their tangs waiting to be fitted with hilts. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6120} {w} {w} {8} {0} {} {1.000} {}
-E { 6125} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6125} {0} {} {A Converted Forge} { } {The coolness in this area is typical of disused forges\; the stone, tools, and materials used conspire toward this end, absorbing the heat.  Numerous molds and dies lie about, along with tongs and grapples to handle them. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6124} {n} {n} {1} {0} {} {1.000} {}
-E { 6126} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6126} {0} {} {Wide Passage} { } {A curved roof arches over the fifteen pace wide corridor, leading to larger areas to the east and west.  The floor has been worn by large amounts of traffic in the past, but now the items stacked along its walls indicate that it is no longer a main thoroughfare.  Piled high are stacks of wood, large lumpy sacks, wooden barrels, and pallets of ingots. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6125} {w} {w} {8} {0} {} {1.000} {}
-E { 6127} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6127} {0} {} {The Back Door} { } {High vaulted ceilings help ensure that the weight of the mountain does not come crashing down.  An area large enough to marshal a sizable number of troops, this is now home to a colony of bats roosting above.  Over time, their acidic guano has built up and eaten away at the grainy flagstones, pockmarking the once-smooth floor.  A large chamber lies to the south through an archway, while a corridor leads west.  To the east, part of the rock wall has been superbly crafted into a huge gate with extremely fine shut lines.  Nothing lies beyond the gate save unyielding mountain rock, though. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6126} {w} {w} {8} {0} {} {1.000} {}
-E { 6128} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6128} {0} {} {Top of a Shaft} { } {Unguarded by rail or barrier, a twenty pace wide hole dominates the large chamber, which echoes hollowly with every sound.  Commencing from the lip, a broad ramp spirals down the inside of the shaft, providing a slow means of negotiating it.  Wreckage on the northern side of the rim, however, mars the entire construction.  Sizable chunks of earth have been gouged out of the side of the rim, leaving behind fearsome claw marks, and, far below, much of  the ramp appears to be totally absent.  Descent here is still possible, though. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6127} {n} {n} {1} {0} {} {1.000} {}
-E { 6129} {d} {d} {32} {0} {} {1.000} {}
-
-R { 6129} {0} {} {Filled-In Mineshaft} { } {Thirty paces down, the ramp becomes impassable, with great portions of it missing.  No doubt, the detached rock from the footpath adds to the pile of rubble below, prematurely ending the descent.  Two horizontal shafts have been expertly walled off from the ramp, indicating that everything done may have been intentional.  Near the lower limit of travel, there is an accumulation of debris that appears more recent than its surroundings. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6128} {u} {u} {16} {0} {} {1.000} {}
-E { 6130} {d} {dig d;d} {32} {0} {} {1.000} {}
-
-R { 6130} {0} {} {A Reopened Shaft} { } {Sloping steeply downwards and to the west, rubble litters the upper eastern end of an old mine gallery.  The shaft itself displays the signs of highly competent dwarven workmanship, being evenly formed if a bit low, forcing anyone taller than the average human to stoop over.  Old cuttings in the sides reveal where seams of ore were followed as the dwarves chased the riches of the mountain.  The floor glistens slightly, and the plinking sound of dripping can be heard to the west. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6129} {u} {dig u;u} {16} {0} {} {1.000} {}
-E { 6131} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6131} {0} {} {Flooded Shaft} { } {Halfway along the steeply descending tunnel, the floor disappears into still mirror-like water.  Walls shine with condensation, rivulets trickling downward. An occasional drip from the ceiling breaks the silence and the surface of the water, sending ripples out to reflect from the sides.  The roof tapers to the  west and dives into the inky liquid, rendering the tunnel totally submerged.   Floating on the water's surface is a thin oily sheen, dimly reflecting blue  and green swirls. } {Brute Village} {} {Water} {} {1.000} {}
-E { 6130} {e} {e} {2} {0} {} {1.000} {}
-E { 6132} {d} {d} {32} {0} {} {1.000} {}
-
-R { 6132} {0} {} {Flooded Shaft} { } {Being underwater accentuates the vibrations and stresses affecting the very mountain.  Pops and low booms are propagated by the water, to be felt and heard as they are transmitted to the body.  Still sloping steeply down toward the west, the shaft ends abruptly, blocked off at that end by a collapse.  Placed around the tunnel are items that make this look like an armory, albeit a damp one.  Several spears lean against the northern wall, their points up, while lying on the floor are a number of swords.  Everything here, unfortunately, appears either too rusted or too rotted to be of use. } {Brute Village} {} {Underwater} {} {1.000} {}
-E { 6131} {u} {u} {16} {0} {} {1.000} {}
-
-R { 6133} {0} {} {Blocked Passage} { } {Ample evidence of the pickaxes and chisels used to hack out the passage is displayed on the rough hewn walls.  Footing has to be carefully picked further south in the corridor, due to the rubble liberally coating the floor from the cave in there.  Evidently, the construction was not as robust as the dwarven work to the north, resulting in the corridor's end at a pile of rocks with the remains of a wooden door poking out where a doorway might have been.    There's more here than meets the eye. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6117} {n} {n} {1} {0} {} {1.000} {}
-E { 6134} {s} {dig s;s} {4} {0} {} {1.000} {}
-
-R { 6134} {0} {} {Air Pocket in the Rubble} { } {A relatively clear space five paces in diameter exists within the rubble caused by collapsed ceilings in all directions.  Air can be felt moving  around, possibly indicating that the blockages are not insurmountably thick. Part of a flat wooden object pokes out of the pile in the north, and many  footsteps can be heard further west. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6133} {n} {dig n;n} {1} {0} {} {1.000} {}
-E { 6135} {w} {dig w;w} {8} {0} {} {1.000} {}
-
-R { 6135} {0} {} {Outside the Laboratory} { } {The passageway has suffered a collapse to the east, with the ceiling and all that it supported laid in a jumble on the ground.  To the west, the structure looks sound, while a stout, iron banded door with a sign blocks the way south. The scent of burned matter seeps in from that direction. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6134} {e} {dig e;e} {2} {0} {} {1.000} {}
-E { 6136} {w} {w} {8} {0} {} {1.000} {}
-E { 6144} {s} {open door;s} {4} {0} {} {1.000} {}
-
-R { 6136} {0} {} {Pen Passageway} { } {Unevenly worked stones line the four-pace-wide passage extending to the south.  The moisture in the air leaves them slightly slick, and the damp  flagstones make for mildly treacherous footing.  In the west wall, a large  iron door sits in an equally stout frame of metal\; a lever pokes out of the  ground to its right.  Iron sconces line the western wall, with the occasional  unlit torch still to be found in some.  An intermittent banging can be heard  from the south, as well as what is recognizably a voice. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6135} {e} {e} {2} {0} {} {1.000} {}
-E { 6137} {w} {open door;w} {8} {0} {} {1.000} {}
-E { 6138} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6137} {0} {} {A Holding Pen} { } {Devoid of anything besides an upturned wooden bowl in the southwest corner, the confined space measuring five paces square would undoubtedly be unpleasant to spend any amount of time in.  Small marks have been scratched into the wall not far from the bowl. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6136} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6138} {0} {} {Pen Passageway} { } {There is noise clearly originating from the other side of the thick iron door in the west side of the passage.  A male voice randomly ranges from low murmurs to shrill yells, most of which is unintelligible, accompanied by the occasional thump.  The flagstones in front of the door show heavy scuffing, indicating relatively recent traffic.  A lever protrudes from the floor to the right of the door. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6136} {n} {n} {1} {0} {} {1.000} {}
-E { 6139} {s} {s} {4} {0} {} {1.000} {}
-E { 6143} {w} {pull lever;w} {8} {0} {} {1.000} {}
-
-R { 6139} {0} {} {Pen Passageway} { } {Already unevenly and hastily constructed, the condition of the hallway  begins to deteriorate further here.  Entire flagstones are splintered,  pulverized, shattered, or otherwise totally ruined, rendering the flooring  almost unusable.  Unintelligible muttering, screaming, and occasionally  banging echoes in from the hallway to the north.  A heavy iron door is set to the west, and the unbroken dust on the floor in front of it indicates its disuse.  To the right of the door, a lever protrudes from the ground, but like the ground itself, it is battered and bent out of shape. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6138} {n} {n} {1} {0} {} {1.000} {}
-E { 6140} {w} {w} {8} {0} {} {1.000} {}
-E { 6141} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6140} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E { 6139} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6141} {0} {} {Pen Passageway} { } {The unmistakable stench of death hangs heavy in the air in this corner of the passageway, its source being through an unnaturally dark doorway in the west.  An iron door lays mangled, twisted, and still half-hanging from one of its hinges, partially concealing a lever to the right of the opening.  Bloody drag marks lead from the north and east into the doorway, while the south wall features a large splatter of gore at head height.  To the east, the passage continues for a short distance before a collapse prevents further travel. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6139} {n} {n} {1} {0} {} {1.000} {}
-E { 6142} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6142} {0} {} {'Ware Waking the Slumbering Bear} { } {Resembling a slaughterhouse in sight as well as smell, a strong musky odor wars with the stench of blood and rotting flesh.  Piles of broken and gnawed bones litter the floor of the small cell, jumbled together so that it is difficult to tell just how many remains lay here, or what they even were.  A neat stack of cracked skulls to the south of the door frame contrasts with tufts of blood-matted fur haphazardly covering many of the surfaces in the room. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6141} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6143} {0} {} {With a deafening grinding, the iron door to the west begins to slide.} { } {H:870/870 M:160/160 V:494/494 XP:3117053 C:*> A Holding Pen    A small square chamber no larger than five paces per side, it is filled by an ornate wooden chair and the acrid stench of fear.  Carved with a pattern resembling ivy, the high back rest and seat are covered with red velvet upholstery.  Thick leather straps are attached to each arm rest, the seat, and the legs, which are bolted to the floor. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6138} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6144} {0} {} {The Laboratory} { } {The slight scent of charred matter lingers, with fine soot and ash readily exploding into the air whenever a slight draft wafts through.  A number of bookcases have been toppled, some partially burned.  One lies broken across a singed desk in the middle of the area, its contents spilled out below.  The substantial collection of tomes held by the shelves had provided fuel for the fire - in fact, a pile had been deliberately gathered and lit, their skeletons standing out in the heaps of ash around the room.  Only a few remain untouched by the flames, in poor condition but potentially still readable.  The rest of the laboratory continues to the south, while a towering archway to the east  leads into a large, eerie chamber to the east. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6135} {n} {open door;n} {1} {0} {} {1.000} {}
-E { 6145} {e} {e} {2} {0} {} {1.000} {}
-E { 6147} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6145} {0} {} {The Summoning Chamber} { } {Originally an octagonal chamber thirty paces across, two of the faces to the east have been demolished, revealing bare mountain rock.  In the center of the gray slate floor, a pentagram ten paces wide has been marked out in crimson  tiling.  Save for four unlit candelabra hanging from the octagon's perimeter, the rest of the room is bare.  Two high archways, to the south and west, lead out to the ruined laboratory. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6144} {w} {w} {8} {0} {} {1.000} {}
-E { 6146} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6146} {0} {} {The Laboratory} { } {Two large, blood-splattered tables mounted with numerous shackles dominate the area, each measuring five paces long by two paces wide.  A tin pannier partially filled with some substance is directly under the center of each.  Saw blades, trepanning tools and other nasty looking implements line the walls, many having not been cleaned since their last use.  The laboratory continues to the west, while a high archway leads into an eerie chamber to the north. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6145} {n} {n} {1} {0} {} {1.000} {}
-E { 6147} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6147} {0} {} {The Laboratory} { } {Shattered glass crackles underfoot, the floor being liberally sprinkled with it.  Broken vials and beakers line splintered racks on the west and south walls, their lead stoppers now useless for keeping their contents in.  Stains on shards and flagstones alike give evidence that many held liquid.  A workbench in the middle of the space has been split into two, dumping alchemical apparatus onto the ground.  The laboratory continues in an L shape to the north and east. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6146} {e} {e} {2} {0} {} {1.000} {}
-E { 6144} {n} {n} {1} {0} {} {1.000} {}
-E { 6148} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6148} {0} {} {Outside the Laboratory} { } {Formerly an intersection, the corridor to the west has caved in, leaving a solid oaken door reinforced with iron banding to the south and the empty  doorway to the north as the only exits.  A sign is attached to the southern  door.  The air is slightly hazy with minute particles drifting all about,  carrying the occasional scent of charred wood.    There's more here than meets the eye. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6147} {n} {n} {1} {0} {} {1.000} {}
-E { 6149} {s} {unlock door;open door;s} {4} {0} {} {1.000} {}
-
-R { 6149} {0} {} {East-West Passage} { } {In the west, which is lit by a low glow, a rumbling can be detected, so low that it is partly felt in the chest cavity rather than heard as sound.  Two doors break up the monotony of the hallway, a wooden iron banded one in the north and a set of double doors marked with a symbol of a clawed hand in the south.  The latter pair have been scored by numerous cuts and show other signs of an unsuccessful attempt to break through. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6148} {n} {unl door north;open door north;n} {1} {0} {} {1.000} {}
-E { 6193} {e} {e} {2} {0} {} {1.000} {}
-E { 6194} {w} {w} {8} {0} {} {1.000} {}
-E { 6168} {s} {unl doors south;open doors south;s} {4} {0} {} {1.000} {}
-
-R { 6150} {0} {} {Rough-Hewn Corridor} { } {The floor, in sharp contrast with the irregular walls, is worn smooth, and slopes nearly imperceptibly down toward the west, easing movement in that direction.  Slight crunching sounds accompanied by skittering can be barely made out, though their source is impossible to discern. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6119} {e} {e} {2} {0} {} {1.000} {}
-E { 6151} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6151} {0} {} {Rough-Hewn Corridor} { } {A flurry of clicking sounds close to the ground precedes your arrival in this section of corridor.  The ensuing silence is broken only by the crunching of small chunks of stone underfoot.  Despite the gloom, you note gouges scored into the otherwise undamaged northern wall near the ground.    There's more here than meets the eye. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6150} {e} {e} {2} {0} {} {1.000} {}
-E { 6152} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6152} {0} {} {Rough-Hewn Corridor} { } {Low echoes sound from the west of the passage, while to the east the air smells and feels somewhat lighter and cooler.  A higher pitched scraping noise can be intermittently heard in the latter direction.  Several cracks have  formed in the northern wall here, radiating from several enormous blows to the rock face.  The force behind each one must have been truly substantial. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6151} {e} {e} {2} {0} {} {1.000} {}
-E { 6153} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6153} {0} {} {A Three-Way Intersection} { } {A burst of raucous laughter caroms in from the north, bouncing off the hard surfaces\; it is followed by the sound of voices speaking in a low, guttural tongue.  The intersection was once lit up, but now two empty iron sconces occupy space on the western wall.  A sense of oppressiveness filters in from the south, almost visibly clouding the air.  The tunnel east, in comparison, feels much quieter, much less foreboding. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6152} {e} {e} {2} {0} {} {1.000} {}
-E { 6154} {s} {s} {4} {0} {} {1.000} {}
-E { 6185} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6154} {0} {} {Rough-Hewn Corridor} { } {Multiple passageways branch off from this area.  Dim light reflects off the floor to the south, and the very air seems thicker, more oppressive, in that direction.  A damaged, partly collapsed tunnel branches off to the east and twists into the unknown.  To the north, the passage forks again, and hard, guttural laughter can be heard. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6153} {n} {n} {1} {0} {} {1.000} {}
-E { 6155} {e} {e} {2} {0} {} {1.000} {}
-E { 6191} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6155} {0} {} {Rough-Hewn Corridor} { } {This section of passage has been damaged quite severely, parts of the ceiling and walls have come loose, although it is still structurally sound. Someone was caught by the collapse\; a body has been crushed under a pile of fallen ceiling, leaving only bent legs jutting out. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6154} {w} {w} {8} {0} {} {1.000} {}
-E { 6156} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6156} {0} {} {Rough-Hewn Corridor} { } {Small pieces of stone litter the floor, shaken loose by what must have been a great force that ripped through the area.  The pock-marked ceiling displays gaps as large as a human head where chunks of rock have worked loose to shatter upon the hard cavern floor.  The walls here are irregular and jagged\; the eastern wall in particular is nearly completely collapsed. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6155} {n} {n} {1} {0} {} {1.000} {}
-E { 6157} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6157} {0} {} {Rough-Hewn Corridor} { } {The corridor is cluttered with debris, which impedes movement somewhat.  The most common items seem to be pieces of wood, many recognizably from furniture or doors.  Several lengths of frayed rope are tangled through the mess, and iron bolts are scattered throughout.  Scrapes along the floor, streaked with dried blood, span the width of the tunnel and vanish.  Huge chunks of the eastern wall are missing, seemingly shattered by forceful blows, exposing  the stone of the mountain beyond. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6156} {n} {n} {1} {0} {} {1.000} {}
-E { 6158} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6158} {0} {} {The Western Edge} { } {A gaping fissure opens up in the ground to the east, and the rising heat  ripples and distorts the very air.  Red-hot rock lines the walls of the chasm, and an even brighter glow spills in from far below.  A rickety rope bridge, swaying noticeably in the updraft, marks the only way across, its ends anchored securely into the rock by iron spikes.    There's more here than meets the eye. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6157} {n} {n} {1} {0} {} {1.000} {}
-E { 6159} {w} {w} {8} {0} {} {1.000} {}
-E { 6163} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6159} {0} {} {Short Hallway} { } {A single torch mounted on the southern wall illuminates a small area with its flickering light, occasionally flaring up whenever a slight breath of air passes though.  The torchlight, while making it difficult for anyone to pass unnoticed, manages to throw a small alcove in the opposite wall into shadow. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6158} {e} {e} {2} {0} {} {1.000} {}
-E { 6160} {n} {n} {1} {0} {} {1.000} {}
-E { 6161} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6160} {0} {} {Guard Post} { } {Merely a tiny alcove off the corridor, the space is barely enough to fit three people.  Two rickety wooden chairs made out of the pale wood from the  Amber Forest are placed against the north wall to face south, while a bowl  lies on the floor between them.    There's more here than meets the eye. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6159} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6161} {0} {} {End of the Hallway} { } {The passage terminates before a massive steel door sunk securely in the rock of the north wall.  On either side, empty iron sconces have been placed at head height\; below the western one, a sign has been attached.  The sounds from the east reflect off the closely-confined walls, creating a jumbled background buzz. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6159} {e} {e} {2} {0} {} {1.000} {}
-E { 6162} {n} {unlock door;open door;n} {1} {0} {} {1.000} {}
-
-R { 6162} {0} {} {It seems to be locked.} { } {H:614/870 M:150/160 V:494/494 XP:1780460 C:*> The massive steel door seems to be closed. } {Brute Village} {} {} {} {1.000} {}
-E { 6161} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6163} {0} {} {The Western Edge} { } {A gaping fissure opens up in the ground to the east, and the rising heat  ripples and distorts the very air.  Red-hot rock lines the walls of the chasm, and an even brighter glow spills in from far below.  A rickety rope bridge, swaying noticeably in the updraft, marks the only way across, its ends anchored securely into the rock by iron spikes. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6158} {n} {n} {1} {0} {} {1.000} {}
-E { 6164} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6164} {0} {} {View of the Mantle} { } {Heated waves of air blast up from the roiling magma far below, making negotiating the rickety bridge hot work.  Fortunately, the scarlet and yellow molten rock lights up the area sufficiently that the crossing can be done with both hands free.  The span itself does not inspire much confidence\; assorted planks, ropes and pieces of metal have been cobbled together and slung across the chasm.  It sags heavily in the middle, yet despite all the creaking and swaying, seems like it will hold steady enough. } {Brute Village} {} {Underground} {} {1.000} {}
-E { 6163} {w} {w} {8} {0} {} {1.000} {}
-E { 6194} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6165} {0} {} {East-West Passage} { } {A flurry of scuttling sounds precedes your arrival at a section of corridor in which a narrow hole has been chewed through the north wall.  Less than a pace in diameter, an irregular round shape has been gnawed through the stone, leaving small pieces of rock lying around the opening\; a sinuous object lies on the ground nearby, twitching slightly. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6193} {w} {w} {8} {0} {} {1.000} {}
-E { 6166} {n} {n} {1} {0} {} {1.000} {}
-E { 6176} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6166} {0} {} {A Tight Fit} { } {The narrow crawlspace is angled steeply downward, with two shallow bends from top to bottom making its negotiation a little more difficult.  The irregular surfaces of the tunnel do not conform with that of a natural formation nor something worked by tools\; instead they lie somewhere between the two extremes, although marks can be seen on them.  A sharp smell wafts up from the bottom, along with echoes of soft chittering. } {Brute Village} {} {Underground} {} {1.000} {}
-E { 6165} {s} {s} {4} {0} {} {1.000} {}
-E { 6167} {d} {d} {32} {0} {} {1.000} {}
-
-R { 6167} {0} {} {The Vermin Nest} { } {A network of narrow tunnels branches out from the irregularly shaped cavern, with a relatively wide one leading upwards.  Dark droppings are scattered all over the floor amongst occasional bits of refuse, giving rise to an extremely strong acrid stench.  Sounds of scampering and chittering echo out of the myriad burrows, whilst sporadic glimpses of glowing eyes staring back can be caught from deep within them. } {Brute Village} {} {Underground} {} {1.000} {}
-E { 6166} {u} {u} {16} {0} {} {1.000} {}
-
-R { 6168} {0} {} {Living Quarters} { } {A well finished corridor six paces wide leads to the south, a roll of thick scarlet carpet guiding the way.  Extravagant oil lanterns hang from the smoothly finished stone walls every ten paces, although they are unlit. Doorways to the west and east contain stout iron banded doors, while to the north a pair of double doors block travel. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6149} {n} {open doors north;n} {1} {0} {} {1.000} {}
-E { 6169} {s} {s} {4} {0} {} {1.000} {}
-E { 6173} {w} {open door west;w} {8} {0} {} {1.000} {}
-E { 6174} {e} {open door east;e} {2} {0} {} {1.000} {}
-
-R { 6169} {0} {} {Living Quarters} { } {Doors bound the southern section of this short, well-made corridor, with a thick red carpet inviting travel to the north.  An imposing circular stone portal prevents progress to the south while a pair of iron-banded wooden doors are located in the east and west walls.  Two lamps mounted on opposite sides of the passage would normally provide illumination in this area, although they are currently unlit. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6168} {n} {n} {1} {0} {} {1.000} {}
-E { 6170} {w} {open door west;w} {8} {0} {} {1.000} {}
-E { 6171} {s} {unlock portal;open portal;s} {4} {0} {} {1.000} {}
-E { 6172} {e} {open door east;e} {2} {0} {} {1.000} {}
-
-R { 6170} {0} {} {The Cramped Room} { } {The narrow room has barely enough space to contain its simple furnishings, which consist of a double bunk bed and a low table with an oil lamp.  The doorway is nearly flush with the north wall, while the cots are located hard against the south and west, leaving a strip under two paces wide around the remaining two sides of the berth for the rest. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6169} {e} {open door;e} {2} {0} {} {1.000} {}
-
-R { 6171} {0} {} {You don't seem to have the proper key.} { } {H:883/883 M:157/161 V:474/474 XP:3821891 C:*> It seems to be locked.  H:883/883 M:157/161 V:474/474 XP:3821891 C:*> The stone portal seems to be closed. } {Brute Village} {} {} {} {1.000} {}
-E { 6169} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6172} {0} {} {The High Priest's Bedchamber} { } {A short obsidian statuette rests on a stone plinth in the east side of the room, greeting visitors with a malevolent stare.  Thin prayer mats lie on the floor in front of the shrine, with a short whip-like stick within arm's length of them.  Astrology charts cover the stones on the north wall of the chamber. On the opposite side, a low wooden slat frame keeps a hard mattress covered with dark furs just a hand span from the floor. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6169} {w} {open door;w} {8} {0} {} {1.000} {}
-
-R { 6173} {0} {} {A Ransacked Bedchamber} { } {The room has been ransacked, with objects lying in disarray everywhere.  A large four post bed has been shifted from its original position against the south wall, and its mattress slashed, spilling feathers all around.  A redwood armoire in the north of the chamber has had its drawers ripped out, their contents spilled to the floor.  Some five paces to the south of the doorway, a band of lighter colored stone loops all the way around from the floor to the ceiling in an east to west direction.  In the west, a wooden screen shields off a small space, leaving only the ceiling visible over its top. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6168} {e} {open door;e} {2} {0} {} {1.000} {}
-E { 6175} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6174} {0} {} {The Alchemist's Bedchamber} { } {This almost-square room measures roughly seven paces along each side, comfortably accommodating the spartan furnishings.  A narrow bunk has been placed against the eastern wall with a chest at its foot, while a bookshelf, an armchair and a small table with a lamp with something poking out from under it have been grouped together in the south.  The pungent odor of unidentifiable chemicals permeates the room, and is particularly strong around the bed and chair.  Lying on the floor is an empty jar marked with a label, its lead stopper a short distance away.    There's more here than meets the eye. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6168} {w} {open door;w} {8} {0} {} {1.000} {}
-
-R { 6175} {0} {} {The Bath} { } {A massive copper bath tub occupies most of the space enclosed by the screen. Short marble shelves have been affixed to the walls within reach of it, with towels placed on one of them. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6173} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6176} {0} {} {East-West Passage} { } {The floor is covered in sandy granules, interspersed with larger chunks of the walls or ceiling which have been loosened by the forces that have caused large portions of the hallway to split and crack.  Toward the middle, swathes have been cleared, signs of traffic passing through since the damage occurred. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6165} {w} {w} {8} {0} {} {1.000} {}
-E { 6177} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6177} {0} {} {A Three-Way Intersection} { } {Near one end of the passageway, several choices in direction present themselves.  To the east, where a greasy scent can be traced, the corridor continues for a short distance before it ends.  Northwards and to the west, dull reddish light glows, causing a rectangular section of the southern wall to reflect more light than its surroundings.  Along the corridor, a line of torch holders have been placed at head height, some containing burnt out brands. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6176} {w} {w} {8} {0} {} {1.000} {}
-E { 6178} {n} {n} {1} {0} {} {1.000} {}
-E { 6179} {e} {e} {2} {0} {} {1.000} {}
-E { 6181} {s} {pull torch;s} {4} {0} {} {1.000} {}
-
-R { 6178} {0} {} {Before the Shrine} { } {Leprous walls line the passage between a large, gloomy chamber to the north and an intersection to the south.  Large portions of the obsidian slabs that sheathed the walls have detached to shatter on the ground, leaving jagged shards littering the floor. } {Brute Village} {} {Underground} {} {1.000} {}
-E { 6177} {s} {s} {4} {0} {} {1.000} {}
-E { 6196} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6179} {0} {} {East-West Passage} { } {A two pace wide ring of stone has been arranged in the southeastern corner, enclosing a pile of ashes and charcoal.  Some branches with a metal rod nestled between them form a crude spit\; the soot blackened walls around the fire pit have been splattered with globs of grease and fat.  A doorway sits in the wall to the north\; quiet bleating and incoherent grunting can be heard within. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6177} {w} {w} {8} {0} {} {1.000} {}
-E { 6180} {n} {open door;n} {1} {0} {} {1.000} {}
-
-R { 6180} {0} {} {A Smelly Den} { } {Sweat and musky body odor scents permeate the eight by six pace room, combining with the rank smell of uncured and damp fur.  Haphazardly scattered objects makes the place look like a pig sty, with raw pelts draped on the walls and piled in the northeast corner.  A number of crude but brutal looking weapons lie on the greasy floor, keeping company with the remnants of several meals.  Against the southwestern corner, a low pen has been constructed out of branches which have been roped together. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6179} {s} {open door;s} {4} {0} {} {1.000} {}
-
-R { 6181} {0} {} {Serpentine Hallway} { } {Occupying most of the space in the north is a lattice of metal supporting a stone facing, while the dark passage leads off to a bend in the west.  Set at waist height in the eastern wall, an iron ring has been attached to a short length of chain that runs into a hole above the wall to the north.  In front of the wall, a few thumb-sized flakes of stone are scattered across the floor, their lighter color contrasting with the grimy, dark paving. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6177} {n} {pull ring;n} {1} {0} {} {1.000} {}
-E { 6182} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6182} {0} {} {Serpentine Hallway} { } {The rough stone slabs of the hallway are covered by wooden slats off in the far south, resulting in a space two to three paces narrower than the current five pace wide corridor.  Relatively fresh air from the east mixes with the fetid smell oozing in from the south, providing momentary relief. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6181} {e} {e} {2} {0} {} {1.000} {}
-E { 6183} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6183} {0} {} {Surrounded by Horror} { } {Soft objects squish underfoot in this foul-smelling stretch of corridor. The floor is covered with thousands of writhing and wriggling maggots, their pale, translucent bodies bloated far larger than normal.  Occasional plopping sounds from the sides highlights that the walls are are closed in, and lined with wooden slats with gaps half a span wide in between.  The horrible smell emanates from behind the false panels. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6182} {n} {n} {1} {0} {} {1.000} {}
-E { 6184} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6184} {0} {} {Surrounded by Horror} { } {An iron bound door in the east is outlined by the soft glow of light from behind, where the prickling sense of dark magic being practiced radiates from. The provided splash of illumination on the floor shows live maggots squirming around everywhere except near the doorway, which is clear.  A few of the wooden slats covering the south wall have been broken, spilling out a corpse to lie rigidly face down. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6183} {w} {w} {8} {0} {} {1.000} {}
-E { 6195} {e} {open door;e} {2} {0} {} {1.000} {}
-
-R { 6185} {0} {} {Rough-Hewn Corridor} { } {The dark stone of the hallway is covered with a thin layer of fine, lighter colored powder.  Footprints and other tracks have swept clear a path between the east and west, while the dust layer lightens to the south. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6153} {s} {s} {4} {0} {} {1.000} {}
-E { 6186} {e} {e} {2} {0} {} {1.000} {}
-E { 6188} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6186} {0} {} {The Barracks} { } {The rank odor associated with many unwashed bodies pent up in an enclosed area permeates the large, rectangular chamber, with the sour smell of stale sweat the most prominent.  Each six paces wide and approximately four paces high, numerous filthy cots line the walls here, contributing to the musty,  disheveled atmosphere. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6185} {w} {w} {8} {0} {} {1.000} {}
-E { 6187} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6187} {0} {} {The Barracks} { } {A body has been suspended spread-eagled by ropes run through iron spikes hammered into the walls, causing the odoriferous atmosphere.  Its taut limbs are at the same level as the top bunks that line the sides, but the torso dangles lower.  The flagstones below it are stained with a mixture of blood, excrement, and urine. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6186} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6188} {0} {} {Outside the Crushed Barracks} { } {Fine dust is caked thickly in this area\; gravel is scattered throughout, particularly around the western wall, where a massive pile of rubble totally blocks a doorway.  Part of the straight edges are still visible, although  more than half of it has collapsed, leaving no glimpse of the room beyond, nor any real way to access it.  Some markings have been deeply etched into the wall above the door, and the rough jaggedness of the lines seems to indicate a claw or talon rather than a tool. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6185} {e} {e} {2} {0} {} {1.000} {}
-E { 6189} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6189} {0} {} {Partially Collapsed Corridor} { } {Major structural failure has occurred in this section of corridor\; half the ceiling and the whole western wall have collapsed, leaving jagged bare stone showing.  The displaced pieces have settled into a sloping mass, and even the corridor itself slants sharply downwards to the south.  Splotches of dried blood can be seen all over the floor as well, with many of them seeming to originate from underneath the rubble to the west. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6188} {n} {n} {1} {0} {} {1.000} {}
-E { 6190} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6190} {0} {} {Picking Through Rubble} { } {A massive heap of boulders prevents further movement southward, the corridor having utterly collapsed.  Sticking partly out of the pile are a booted leg and a hand, far enough apart that they could not still be attached to the same person. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6189} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6191} {0} {} {Rough-Hewn Corridor} { } {Dim guttering light spills into the hallway through an open doorway in the west, throwing shadows off the uneven walls.  The corridor was cleared of debris sometime in the past, with small chunks of stone and several pieces of wood stacked in the corner. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6154} {n} {n} {1} {0} {} {1.000} {}
-E { 6192} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6192} {0} {} {The Leader's Room} { } {Everything in the room adds to the air of military precision, from the placement of the large oaken desk to the way that a sword and an axe have been angled on their hangers.  Numerous parchments containing reports are neatly stacked on the desk, along with two human skulls serving as candle holders.  A high backed oak chair matches the table, while two simple stools have been placed in front, not too subtle signs of power play.  Maps have been hung on two of the other walls, with pins marking down positions of interest.  A narrow cot has been placed in the south, its spartan nature fitting in with the rest of the furnishings in the chamber. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6191} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6193} {0} {} {East-West Passage} { } {The smooth passageway is wide enough to indicate that it was a major thoroughfare through the complex.  Flagstones have been worn smooth by the passage of many feet, and the walls are lined by sconces, many with burnt out torches still in them. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6149} {w} {w} {8} {0} {} {1.000} {}
-E { 6165} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6194} {0} {} {The Eastern Edge} { } {A gaping fissure yawns in the west, its craggy walls a mixture of crimson highlights and dark shadows.  The cleft passage is covered with detritus, making footing near the edge precarious.  The sole way across the abyss is provided by a glorified gangplank, secured on this end by anchor ropes and iron pitons driven into the ground. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6149} {e} {e} {2} {0} {} {1.000} {}
-E { 6164} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6195} {0} {} {Unholy Rites} { } {Dark magic positively crackles through the atmosphere of the chamber, creating a fey ambiance.  The sound of sibilant chanting echoes around, the source difficult to pinpoint, but recognizably feminine in timbre.  Eight candle stumps arrayed to form a circle three paces in diameter in the east provide flickering illumination, casting myriad dancing shadows upon the walls.    The candle light reveals bodies decorating the sides of the room, although they are strangely rope-like and red in color.  Small scales are scattered on the ground, while in the south a pale, fibrous pile rests in front of a floor standing mirror, the cracks in its surface refracting the spectrum of colors. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6184} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6196} {0} {} {Entry to the Shrine} { } {An extensive archway leads into an area lined with wooden pews facing the north end of the chamber.  A ruddy glow emanating from the northwest throws jagged shadows onto the jet walls, which glint softly even with the low light. A band of red mosaic marked with hieroglyphs of small horrendous figures mixed in with other, more traditional symbols encircles the room.  Dark patches and streaks mark parts of the floor, increasing in concentration toward the exit. Underlying the strong smell of incense is something more cloying, and a soft chittering can be heard further in. } {Brute Village} {} {Underground} {} {1.000} {}
-E { 6178} {s} {s} {4} {0} {} {1.000} {}
-E { 6197} {w} {w} {8} {0} {} {1.000} {}
-E { 6203} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6197} {0} {} {Entry to the Shrine} { } {A flickering crimson glow illuminates the north end of the area, but leaves the southern part of the room covered in shifting shadows.  Looming out of the darkness, an obsidian statuette stares northwards, while several clumps huddle in the southwest corner where a charnel house reek wafting around is the strongest.  Burnt chunks of wood are scattered about\; toward the southeast some are nearly intact and recognizably benches.  Barely audible, a low, undulating moan can be heard coming from the direction of the radiance. } {Brute Village} {} {Underground} {} {1.000} {}
-E { 6196} {e} {e} {2} {0} {} {1.000} {}
-E { 6198} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6198} {0} {} {The Dark Shrine} { } {Near total devastation reigns in this area with two gaping holes, one in the remnants of the western wall and a flaming chasm in the floor foremost in the destruction.  Large chunks of black stone previously sheathing the wall are scattered widely, indicating a great deal of force sent them flying.  Signs of violence abound, with festering bodies and detached limbs littering the debris strewn ground.  The cloying odor of decay has combined with the strong sulfurous reek rising from the fiery hole to create a most unpleasant miasma. } {Brute Village} {} {Underground} {} {1.000} {}
-E { 6197} {s} {s} {4} {0} {} {1.000} {}
-E { 6199} {d} {d} {32} {0} {} {1.000} {}
-E { 6200} {n} {n} {1} {0} {} {1.000} {}
-E { 6203} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6199} {0} {} {Into the Fiery Chasm} { } {The craggy walls of the chasm afford easy purchase for climbing, although the flames that occasionally gout from the bottom twenty paces from the rim would make it hot work.  Noxious gases accompanying the flames complete the difficult environment, and are the source of a low moaning sound as they vent upwards over the uneven surfaces.  Further west, the inferno grows in strength\; heading that way might prove unwise. } {Brute Village} {} {Underground} {} {1.000} {}
-E { 6198} {u} {u} {16} {0} {} {1.000} {}
-
-R { 6200} {0} {} {The Dark Shrine} { } {The focus of the chamber, a massive altar dedicated to the performance of dark rites, has been partially destroyed.  A grotesque obsidian structure forged to reflect the object of the congregation's worship, its upper portion  has been smashed off, leaving a jagged black stump still taller than the  height of a man.  Tiny, glassy shards of obsidian are strewn on and around  the altar, their former shape now lost forever.  Bloodied, armored corpses  form a ring south of the altar\; apparently a stand was made here to no avail.    The western wall of the room has been partially collapsed, from the south all the way to a caved in doorway in the north.  Rubble litters the floor, but has been piled up around the door frame, leaving a gap three spans wide near the top.  A low whistling sound can be heard to the south, the direction of the source of the illumination in the area. } {Brute Village} {} {Underground} {} {1.000} {}
-E { 6198} {s} {s} {4} {0} {} {1.000} {}
-E { 6201} {w} {w} {8} {0} {} {1.000} {}
-E { 6202} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6201} {0} {} {The Vestry} { } {This is a small room measuring seven paces deep by six paces wide.  Most of the furnishings are piled up into the eastern end, obstructing the doorway and leaving the rest of the chamber almost bare.  Amongst the barricade, a wardrobe, a desk and two chairs lie splintered.  Mounted on the walls are a variety of metal implements, including tongs, a blood-crusted, hooked knife and two censers hung on chains. } {Brute Village} {} {Underground} {} {1.000} {}
-E { 6200} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6202} {0} {} {The Dark Shrine} { } {The upper half of a large obsidian statue lies smashed against the northeast corner, surrounded by shattered chunks of wall.  It impacted halfway up, cracking loose the jet black stone that sheathes the chamber.  The event must have been rapid, as some unfortunate lies crushed under the bulk, with only his mangled legs poking out.  Two braziers stand against the north wall, the smell of incense still strong from them.  Dim illumination is provided by a ruby glow to the west and southwest. } {Brute Village} {} {Underground} {} {1.000} {}
-E { 6200} {w} {w} {8} {0} {} {1.000} {}
-E { 6203} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6203} {0} {} {The Dark Shrine} { } {A flickering light emanates from the west, bathing everything with a reddish tint.  Pews in this part of the chamber are in disarray, with a few having been knocked over and others oddly melted.  The sickly sweet smell of decay is strong in this area, in large part due to the putrefying carcasses sprawled on the ground and draped over the benches.  A barely perceptible moaning sound wafts through the air, its source ominous and uncertain. } {Brute Village} {} {Underground} {} {1.000} {}
-E { 6202} {n} {n} {1} {0} {} {1.000} {}
-E { 6198} {w} {w} {8} {0} {} {1.000} {}
-E { 6196} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6204} {0} {} {Nevrast Sewer System} { } {A sludgy river of crud flows in from the north, lapping at the slender walkways that run down the east and west walls. The smelly stuff continues on to the south, occasionally supplimented by glop dripping from the pipes in the ceiling. } {Nevrast} {} {Underground} {} {1.000} {}
-E {  598} {s} {s} {4} {0} {} {1.000} {}
-E {  604} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6205} {0} {} {Beneath the Crack} { } {This room is about half full of sewage, which leaks in from the crack above. The dry half of the room is protected from flooding be an eerily glowing green barrier, which seems to emanate from the tunnel to the north. } {Nevrast} {} {Underground} {} {1.000} {}
-E { 1327} {u} {u} {16} {0} {} {1.000} {}
-E { 6206} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6206} {0} {} {A Green Glowing Tunnel} { } {A green glow, barely bright enough to see by, illuminates this tunnel through the earth. The walls are slimy with moisture, and glisten slightly. The source of the glow is indeterminate, perhaps the walls themselves. To the south you can hear water flowing, while to the east the tunnel heads slightly downward. } {Nevrast} {} {Underground} {} {1.000} {}
-E { 6205} {s} {s} {4} {0} {} {1.000} {}
-E { 6207} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6207} {0} {} {A Twisting Tunnel} { } {The floor of this tunnel slopes steadily downward to the south, while to the west a greenish glow shines down upon the area. The walls are very rough, with few tool marks, as if this were a mostly natural passage. } {Nevrast} {} {Underground} {} {1.000} {}
-E { 6206} {w} {w} {8} {0} {} {1.000} {}
-E { 6208} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6208} {0} {} {A Twisting Tunnel} { } {The floor of this tunnel slopes steadily downward to the south, while to the west a greenish glow shines down upon the area. The walls are very rough, with few tool marks, as if this were a mostly natural passage. } {Nevrast} {} {Underground} {} {1.000} {}
-E { 6207} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6209} {0} {} {Eternal Passageway} { } {This is one of the many rooms in the Eternal Passageway, twisting tunnels lead off in every direction. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6086} {n} {n} {1} {0} {} {1.000} {}
-E { 6210} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6210} {0} {} {Eternal Passageway} { } {This is one of the many rooms in the Eternal Passageway.  Twisting tunnels lead off in every direction. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6209} {n} {n} {1} {0} {} {1.000} {}
-E { 6211} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6211} {0} {} {Eternal Passageway} { } {This is one of the many rooms in the Eternal Passageway.  Twisting tunnels lead off in every direction. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6210} {n} {n} {1} {0} {} {1.000} {}
-E { 6219} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6212} {0} {} {Walkway} { } {You stand in a straight, normal walkway\; the twisting passages of the Eternal Passageway left behind.  There is no moss or lichen here, and the tunnel seems much more defined, more man-made.  You can continue down the hallway eastward or you can re-enter the maze to the west. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6219} {w} {w} {8} {0} {} {1.000} {}
-E { 6220} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6213} {0} {} {Walkway} { } {You stand in a walkway opposite from the Eternal Passageway, which lies a little ways to the west.  You can continue towards a round room to the east, where you think you hear some voices in attentive conversation. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6220} {w} {w} {8} {0} {} {1.000} {}
-E { 6214} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6214} {0} {} {Round Room} { } {You are in the ante-chamber to the secret ninja lair, where the masters of the art of invisibility make their abode and practice their deadly skills.  You can enter the initial training hall directly to the north, and you can re-enter the walkway to the west. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6213} {w} {w} {8} {0} {} {1.000} {}
-E { 6215} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6215} {0} {} {Ninja Training Hall} { } {You've found the ninja training hall, where the ninja go to hone their skills and practice their deadly art.  You have an eerie feeling that you are being watched, and would feel safer going back south.  There are two hallways to the east and west. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6214} {s} {s} {4} {0} {} {1.000} {}
-E { 6216} {w} {w} {8} {0} {} {1.000} {}
-E { 6224} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6216} {0} {} {Ninja Hallway} { } {This hallway leads down from the training hall to the first chunin chamber, the rooms of the lower-ranking ninja line it on both sides.  You can continue north down the hall, enter a sleeping chamber to the west, or go back east to the training hall.  There is also a small hole going down to a room about ten feet below. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6215} {e} {e} {2} {0} {} {1.000} {}
-E { 6217} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6217} {0} {} {Ninja Hallway} { } {The hallway extends to the north and south, it's bare walls and floor create echos of  your movement.  Through a small doorway to the east you can see a small sleeping chamber. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6216} {s} {s} {4} {0} {} {1.000} {}
-E { 6218} {e} {e} {2} {0} {} {1.000} {}
-E { 6221} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6218} {0} {} {Genin's Quarters} { } {This is the sleeping chamber of a genin ninja, the lowest ranking ninja. It is bare, save for the essentials of a bed roll and sitting mat.  The hallway lies to the west. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6217} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6219} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 6212} {e} {e} {2} {0} {} {1.000} {}
-E { 6211} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6220} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 6213} {e} {e} {2} {0} {} {1.000} {}
-E { 6212} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6221} {0} {} {Ninja Hallway} { } {You stand just outside of the chunin's chamber to the north and the kunoichi's chamber to the east.  The hallway continues to south.  The cold stone surfaces of the floor and walls create echoes with any movement. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6217} {s} {s} {4} {0} {} {1.000} {}
-E { 6222} {w} {w} {8} {0} {} {1.000} {}
-E { 6223} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6222} {0} {} {Kunoichi's Quarters} { } {You've entered that living space of a Kunoichi, female ninja.  Various feminine things lie around the room. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6221} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6223} {0} {} {Chunin's Quarters} { } {This is the sleeping chamber of a chunin, a higher ranking ninja.  The room is bare, save for the essentials, but you can't shake the feeling that you are being watched. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6221} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6224} {0} {} {Ninja Hallway} { } {This hallway leads down from the training hall to the Shinobi's chamber, where the rooms of the higher-ranking ninja are found.  You can continue down the hallway or you can enter a sleeping chamber to the east. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6215} {w} {w} {8} {0} {} {1.000} {}
-E { 6225} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6225} {0} {} {Ninja Hallway} { } {You begin to feel severe apprehension as you draw nearer to the Shinobi's chamber, and begin to wonder if it's already to late to turn back.  You can continue north or south, and you can enter a sleeping chamber to the east. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6224} {s} {s} {4} {0} {} {1.000} {}
-E { 6226} {e} {e} {2} {0} {} {1.000} {}
-E { 6227} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6226} {0} {} {Chunin's Quarters} { } {This is the sleeping chamber of a chunin, a higher ranking ninja.  The room is bare, save for the essentials, but you can't shake the feeling that you are being watched. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6225} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6227} {0} {} {Ninja Hallway} { } {You can almost feel the hairs prick up on the back of your neck.  You have an unshakeable feeling that you are being watched.  You can follow the hallway north and south, and you can enter a chamber to the west. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6225} {s} {s} {4} {0} {} {1.000} {}
-E { 6228} {w} {w} {8} {0} {} {1.000} {}
-E { 6229} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6228} {0} {} {Chunin's Quarters} { } {This is the sleeping chamber of a chunin, a higher ranking ninja.  The room is bare, save for the essentials, but you can't shake the feeling that you are being watched. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6227} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6229} {0} {} {Outside Shinobi's Chamber} { } {You stand just outside the Shinobi's chamber, marveling that you are still alive.  You just know that you are being watched, and you feel as if you've just willingly walked into an ambush.  You can go south up the hallway, east into another sleeping chamber, or north into the clutches of the Shinobi. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6227} {s} {s} {4} {0} {} {1.000} {}
-E { 6230} {e} {e} {2} {0} {} {1.000} {}
-E { 6231} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6230} {0} {} {Chunin's Quarters} { } {This is the sleeping chamber of a chunin, a higher ranking ninja.  The room is bare, save for the essentials, but you can't shake the feeling that you are being watched. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6229} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6231} {0} {} {Shinobi's Chambers} { } {You are in the living quarters of the leader of the ninja - the Shinobi. Various poisons and fighting implements lay about the room, and a mysterious exit leads north.  You can go back to the hallway to the south. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6229} {s} {s} {4} {0} {} {1.000} {}
-E { 6232} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6232} {0} {} {Treasure Room} { } {The room where the ninja store their gold, the profit of years of assassination and thievery from the town of Little Kyoto.  The ill-gotten wealth of the masters of invisibility lies all around you, carelessly tossed here and then forgotten.  You can exit south. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 6231} {s} {s} {4} {0} {} {1.000} {}
