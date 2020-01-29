@@ -11,12 +11,16 @@
 #ACTION {^Alas, you cannot go that way.} {#IF {$mapedit > 0} {#MAP undo}}
 
 #HIGHLIGHT {footsteps echo off in all directions except to the west, where death echos} {cyan}
+#HIGHLIGHT {There's more here than meets the eye.} {cyan}
 #ACTION {^Blue Lift} {exit}
 #ACTION {^North - Too dark to tell} {#IF {$playerpos == 4947} {#MAP GOTO 4976}}
 #ACTION {^North - Outside the Lift} {#MAP GOTO 4947}
 #ACTION {^North - Smoke Filled Hallway} {#MAP GOTO 4976}
 #ACTION {^tower.  To the north can be see a luxurious hallway, much the same as the} {#MAP GOTO 4972}
 #ACTION {^Penthouse Blue Lift} {#MAP GOTO 4965}
+#ACTION {conflict.  You can just make out some kind of entrance at the base of this} {#MAP GOTO 1592}
+#ACTION {^Sandy Basin} {#MAP GOTO 2889}
+
  
 #NOP ==== Retreat triggers and alias ====
 #ALIAS {f} {#VAR retreat 0;flee}
@@ -34,13 +38,34 @@
 
 #NOP ====== General ======
 #ALIAS {repair} {remove %1;give %1 blacksmith;wear %1;wield %1}
+#ALIAS {recall} {c succor;recite recall}
 #MACRO {\e[24~} {#MAP set roomcolor;symbol}
 #ALIAS {ter} {#MAP goto %1;#MAP set roomterrain %2}
+#ALIAS {scry} {remove flame;get scry bag;hold scry;use scry;remove scry;put scry bag;hold flame}
+
+#ALIAS {qr} {#VAR runtarget %1;#DELAY 1 {#VAR runtarget NULL};
+  #SWITCH {"$runtarget"} {
+    #CASE {"nev"} {findroom 206};
+    #CASE {"rb"} {findroom 842};
+    #CASE {"nt"} {findroom 1431};
+    #CASE {"fg"} {findroom 1739};
+    #CASE {"order"} {findroom 1592};
+    #CASE {"gaul"} {findroom 2643}
+    #DEFAULT {
+      #SHOWME nev - City of Nevrast;
+      #SHOWME rb - Raven's Bluff;
+      #SHOWME nt - New Thalos;
+      #SHOWME fg - Fire Giant Keep;
+      #SHOWME gaul - Gaullish Village;
+      #SHOWME order - Eternal Stalemate
+    }
+  }
+}
+
 
 #NOP ===== Food/Thirst (assumes create food/water) =====
 #ACTION {^You are getting hungry} {#VAR hunger 1} 
 #ACTION {^You are getting thirsty} {#VAR thirst 1}
-#ACTION {^You are no longer thirsty} {#VAR thirst 0}
 #ACTION {^Your thirst is satiated} {#VAR thirst 0}
 #ACTION {^You are full} {#VAR hunger 0}
 #ACTION {^You are still hungry} {mushroom}
@@ -77,6 +102,11 @@
 #ALIAS {sanc} {get purp bag;qua pur}
 #ALIAS {invis} {get roll bag;eat roll}
 
+#HIGHLIGHT {%1 stands up.} {<bdf>}
+#HIGHLIGHT {%1 feet very slowly.} {<bdf>}
+
+
+#ACTION {A purple potion: You can't carry that many items.} {put all.pur bag;get all.pur corpse}
 #ACTION {%*{is dead!$|is destroyed!$}%*} {
   #IF {$combat == 1} {
     #SWITCH {"$playerarea"} {
@@ -177,6 +207,12 @@
   #VAR spell[ResistPoison] 0;
   #VAR spell[DetectMagic] 0;
   #VAR spell[SenseLife] 0;
+  #VAR spell[Freedom] 0;
+  #VAR spell[Waterwalking] 0;
+  #VAR spell[ResistFire] 0;
+  #VAR spell[ResistCold] 0;
+  #VAR spell[Strength] 0;
+  #VAR spell[Alkar] 0;
   #VAR hunger 0;
   #VAR thirst 0;
   #DELAY {0.3} {affe}
@@ -198,8 +234,14 @@
 #ACTION {^You feel righteous.} {#VAR spell[Bless] 1}
 #ACTION {^You feel courageous.$} {#Var spell[Courage] 1}
 #ACTION {^You feel your awareness improve.$} {#VAR spell[SenseLife] 1}
+#ACTION {^You feel buoyant.} {#VAR spell[Waterwalking] 1}
+#ACTION {^Your skin turns a little reddish.} {#VAR spell[ResistFire] 1}
+#ACTION {^Your skin turns a little bluish.} {#VAR spell[ResistCold] 1}
+#ACTION {^You feel stronger.} {#VAR spell[Strength] 1}
+#ACTION {^Your skin turns slightly slippery.} {#VAR spell[Freedom] 1}
+#ACTION {^You are surrounded in an aura of soft gold.} {#VAR spell[Alkar] 1}
 
-#ACTION {%*{Detect Evil|Detect Good|Bless|Armor|Detect Invisibility|Alignment Ward|Courage|Resist Poison|Detect Magic}%*}
+#ACTION {%*{Detect Evil|Detect Good|Bless|Armor|Detect Invisibility|Alignment Ward|Courage|Resist Poison|Detect Magic|Waterwalking|Strength|Freedom|Alkar}%*}
 {
   #IF {"%0"=="%*Detect Evil%*" && $affects > 0} {#VAR spell[DetectEvil] 1};
   #IF {"%0"=="%*Detect Good%*" && $affects > 0} {#VAR spell[DetectGood] 1};
@@ -211,21 +253,33 @@
   #IF {"%0"=="%*Courage%*" && $affects > 0} {#VAR spell[Courage] 1};
   #IF {"%0"=="%*Resist Poison%*" && $affects > 0} {#VAR spell[ResistPoison] 1};
   #IF {"%0"=="%*Detect Magic%*" && $affects > 0} {#VAR spell[DetectMagic] 1};
+  #IF {"%0"=="%*Resist Fire%*" && $affects > 0} {#VAR spell[ResistFire] 1};
+  #IF {"%0"=="%*Resist Cold%*" && $affects > 0} {#VAR spell[ResistCold] 1};
+  #IF {"%0"=="%*Strength%*" && $affects > 0} {#VAR spell[Strength] 1};
+  #IF {"%0"=="%*Freedom%*" && $affects > 0} {#VAR spell[Freedom] 1};
+  #IF {"%0"=="%*Alkar%*" && $affects > 0} {#VAR spell[Alkar] 1};
+  #IF {"%0"=="%*Waterwalking%*" && $affects > 0} {#VAR spell[Waterwalking] 1};
   #IF {"%0"=="%*Sense Life%*" && $affects > 0} {#VAR spell[SenseLife] 1}
 }
 
 #NOP == Fading Spells ==
-#ACTION {^You feel less protected.} {#VAR spell[Armor] 0}
-#ACTION {^The white in your vision fades away.} {#VAR spell[DetectGood] 0}
-#ACTION {^Your divine assistance fades.} {#VAR spell[Bless] 0}
-#ACTION {^The yellow in your vision fades away.$} {#VAR spell[DetectInvis] 0}
-#ACTION {^The red in your vision fades away.$} {#VAR spell[DetectEvil] 0}
-#ACTION {^The blue in your vision fades away.} {#VAR spell[DetectMagic] 0}
-#ACTION {^You feel less morally protected.$} {#VAR spell[AlignmentWard] 0}
-#ACTION {^Your shield of force dissipates.$} {#VAR spell[Shield] 0}
-#ACTION {^You feel more timid.} {#VAR spell[Courage] 0}
-#ACTION {^You feel less resistant to poison.} {#VAR spell[ResistPoison] 0}
-#ACTION {^You feel less aware of your surroundings!} {#VAR spell[SenseLife] 0}
+#ACTION {^You feel less protected} {#VAR spell[Armor] 0}
+#ACTION {^The white in your vision fades away} {#VAR spell[DetectGood] 0}
+#ACTION {^Your divine assistance fades} {#VAR spell[Bless] 0}
+#ACTION {^The yellow in your vision fades away} {#VAR spell[DetectInvis] 0}
+#ACTION {^The red in your vision fades away} {#VAR spell[DetectEvil] 0}
+#ACTION {^The blue in your vision fades away} {#VAR spell[DetectMagic] 0}
+#ACTION {^You feel less morally protected} {#VAR spell[AlignmentWard] 0}
+#ACTION {^Your shield of force dissipates} {#VAR spell[Shield] 0}
+#ACTION {^You feel more timid} {#VAR spell[Courage] 0}
+#ACTION {^You feel less resistant to poison} {#VAR spell[ResistPoison] 0}
+#ACTION {^You feel less aware of your surroundings} {#VAR spell[SenseLife] 0}
+#ACTION {^You feel less buoyant} {#VAR spell[Waterwalking] 0}
+#ACTION {^It seems a bit warmer} {#VAR spell[ResistFire] 0}
+#ACTION {^It seems a bit colder} {#VAR spell[ResistCold] 0}
+#ACTION {^You feel much weaker} {#VAR spell[Strength] 0}
+#ACTION {^Your slippery coat melts off of you} {#VAR spell[Freedom] 0}
+#ACTION {^Your golden aura is snuffed out} {#VAR spell[Alkar] 0}
 
 #TICKER {mana} {#MATH manapercent $curM*10/$maxM} {10}
 #TICKER {rebuff} {#IF {$manapercent > 5 && $combat == 0 && $standing == 1} {recast}} {10}
@@ -241,15 +295,20 @@
   #ELSEIF {$spell[DetectEvil] == 0} {cast 'detect evil'};
   #ELSEIF {$spell[Courage] == 0} {cast 'courage'};
   #ELSEIF {$spell[DetectMagic] == 0} {cast 'detect magic'};
-  #ELSEIF {$spell[ResistPoison] == 0} {cast 'Resist Poison'};
-  #ELSEIF {$spell[SenseLife] == 0} {cast 'Sense Life'}
+  #ELSEIF {$spell[ResistPoison] == 0} {cast 'resist poison'};
+  #ELSEIF {$spell[Waterwalking] == 0} {cast 'waterwalking'};
+  #ELSEIF {$spell[ResistFire] == 0} {cast 'resist fire'};
+  #ELSEIF {$spell[Strength] == 0} {cast 'strength'};
+  #ELSEIF {$spell[Freedom] == 0} {cast 'freedom'};
+  #ELSEIF {$spell[ResistCold] == 0} {cast 'resist cold'};
+  #ELSEIF {$spell[Alkar] == 0} {cast 'alkar'};
+  #ELSEIF {$spell[SenseLife] == 0} {cast 'sense life'}
 }
 
 #NOP ==== Data gathering ==== 
 #ALIAS {sc} {#LOG overwrite .score; score; #DELAY 0.4 {#LOG {off}}}
 #ALIAS {at} {#LOG overwrite .attributes; attr; #DELAY 0.4 {#LOG {off}}}
 #ALIAS {le} {#LOG overwrite .learned; spells; skills; weapon; special; #DELAY 0.4 {#LOG {off}}}
-
 
 #ALIAS {login} {#session mozart ymca.cnap.hv.se 4500} {5}
 #ALIAS {logout} {save; rent} {5}
