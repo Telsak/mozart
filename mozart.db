@@ -1,5 +1,5 @@
 1,UNSET,Armor,hemlock-bracers,a set of hemlock bracers,Arms,9,Armor: +30
-2,UNSET,Whip,long-willow-branch,a long willow branch,1d22,whip,Hit-N-Dam: +2,Nature's Blessings: +10
+2,5308,Whip,long-willow-branch,a long willow branch,1d22,whip,Hit-N-Dam: +2,Nature's Blessings: +10
 3,3275,Hammer,troll-maul,a troll maul,3d6,crush,Dexterity: -5,Hit-N-Dam: +3
 4,ROOMVNUM,Clothing,quartz-cloak,a quartz cloak,Neck,0,Hit-N-Dam: +1,Hit Points: +30,Armor: +10
 5,795,Clothing,ITEM,a butcher's apron,Legs,0,Armor: +10,Cooking: +5,Hitroll: +1
@@ -7,7 +7,7 @@
 7,804,Clothing,marshal's-leather-cloak-gold-epaulettes,the Marshal's cloak,About,0,Armor: +10,Hitroll: +1,Hit Points: +10
 8,890,Jewelry,spiked-earring,a spiked earring,Ears,0,Hit Points: -5,Mana: +10
 9,ROOMVNUM,Armor,bark-visor-narrow,a bark visor,Face,6,Resistance: cold,Constitution: +6
-10,ROOMVNUM,Armor,ornate-carved-willow-wooden-leg-guards,a bark arm guard,Arms,4,Armor: +15,Hit-N-Dam: +1
+10,5308,Armor,ornate-carved-willow-wooden-arm-guards,a bark arm guard,Arms,4,Armor: +15,Hit-N-Dam: +1
 11,2402,Talisman,ring-flying,a ring of flying,Finger,0,Hitroll: +1,Dispel on Removal: Fly,Translocation: +3,Armor: -5
 12,1012,Armor,shield-tattered,a tattered shield,Shield,5,Movement: +25,Hitroll: +2
 13,1012,Clothing,leggings-slimy,a pair of slimy leggings,Legs,0,Constitution: +7,Hit Points: +1
@@ -66,7 +66,7 @@
 66,4392,Armor,hardened-pelt-helm,a animal pelt helm,Head,5,Hit-N-Dam: +1
 67,ROOMVNUM,Armor,silversteel-leg-leggings,silversteel leggings,Legs,10,Hit Points: +20,Bash: +5,Alignment-Ward
 68,ROOMVNUM,Throwable Dagger,dragon-tooth,a dragon tooth,2d6,pierce,Hit-N-Dam: +3
-69,ROOMVNUM,Sword,bushido-blade,a bushido blade,9d2,slash,Dexterity: +1,Hit-N-Dam: +1
+69,3015,Sword,bushido-blade,a bushido blade,9d2,slash,Dexterity: +1,Hit-N-Dam: +1
 70,4463,Armor,adamant-buckler,an adamant buckler,Shield,11,Hitroll: +2,Reflex Saves: +5,Armor: +7
 71,ROOMVNUM,Armor,fine-large-round-shield,a large round shield,Shield,6,Armor: +10,Parry: +7,Hit Points: +15,Hitroll: +1
 72,ROOMVNUM,Staff,evasion-stave,an evasion stave,Hold,0,Armor: +25,Lose: +25,Hit-N-Dam: +1,Dodge: +10
@@ -95,7 +95,7 @@
 95,5411,Armor,spiked-helm,a spiked helm,Head,4,Armor: +15,Damroll: +1
 96,5396,Whip,whip-barbed-tooth,a tooth-barbed whip,4d5,whip/sting,Damroll: +1,Hitroll: +3
 97,3097,Jewelry,root-amulet,a root amulet,Neck,0,Armor: +5,Geomancy: +3,Mana: +20,Mysticism: +5,Wisdom: +5
-98,ROOMVNUM,Jewelry,jade-ring,a jade ring,Finger,0,Wisdom: +9,Healing: +3,Constitution: +9,Intelligence: +9
+98,3015,Jewelry,jade-ring,a jade ring,Finger,0,Wisdom: +9,Healing: +3,Constitution: +9,Intelligence: +9
 99,ROOMVNUM,Talisman,quartz-ring,a quartz ring,Finger Hold,0,Hit-N-Dam: +1,Geomancy: +7,Mana: +15
 100,ROOMVNUM,Jewelry,shiny-quartz-bracelet,a quartz bracelet,Wrist,0,Brilliance: +3,Hit-N-Dam: +1,Mana: +10
 101,ROOMVNUM,Sword,blade-shadowfire,a blade of shadowfire,4d3,slash,Damroll: +2,Hitroll: +2
@@ -151,4 +151,79 @@
 151,2588,Clothing,snakeskin-pants-snake-skin,a pair of snakeskin pants,Legs,0,Dexterity: +8,Hitroll: +1,Sneak: +5,Snake Strike: +7
 152,2588,Armor,belly-dancers-top-shirt,a belly dancer's top,Body,5,Compulsion: +5,Armor: +15,Charisma: +5,Hitroll: +1
 153,3524,Other,beard-pile-hair,a beard,Neck,0,Strength: +5,Pyromancy: -4,Berserk: +5,Damroll: +1
-154,ROOMVNUM,Axe,labrys-axe,Labrys,7d2,cleave,Damroll: +2,Hitroll: +3,Iron Grip: +10,Bash: +5
+154,5219,Axe,labrys-axe,Labrys,7d2,cleave,Damroll: +2,Hitroll: +3,Iron Grip: +10,Bash: +5
+155,516,Jewelry,elvish-blessing-ring,a ring of Elvish blessing,Finger,0,Hit Points: +15,Hitroll: +2,Detect-Evil
+156,5755,Light,ghostly-flame,a ghostly flame,Hold,0,Hit-N-Dam: +2,Resistance: energy,Alignment-Ward
+157,5494,Clothing,reptile-scale-cloak,a reptile cloak,Neck,0,Strength: +8,Hitroll: +2,Sneak: +10
+158,5494,Mace,bone-club,a bone club,1d8,pound,Hitroll: +3
+159,5494,Armor,dinosaur-boots,dinosaur boots,Feet,15,Kick: +5,Armor: +15
+160,5494,Throwable Spear,flint-spear,a flint spear,3d5,stab,Bash: +3,Hit-N-Dam: +1
+161,5490,Mace,club-dinosaur-huge-reptile's-jaw,dinosaur club,5d4,pound,Damroll: +2,Immunity: poison,Hitroll: +1
+162,5499,Whip,tongue-whip,a tongue whip,4d4,whip,Damroll: +1,Silver Tongue: +5
+163,ROOMVNUM,Armor,Minoan-boots,Minoan boots,Feet,4,Track: +10,Sneak: +10,Fortitude Saves: +4
+164,ROOMVNUM,Greatsword,fine-bastard-sword,a fine bastard sword,2d10,slash,Damroll: +3,Hitroll: -1
+165,ROOMVNUM,Sword,polished-longsword-shiny-sword,a polished longsword,2d4,slash,Bash: +5,Hitroll: +2,Armor: +5
+166,ROOMVNUM,Sword,holy-avenger-sword,Telsak's Holy Avenger sword,4d5,slash,Strength: +7,Weapon Spell: Smite at Level 1,Hit-N-Dam: +3,Righteousness: +20
+167,ROOMVNUM,Jewelry,greenstone-ring,a greenstone ring,Finger,0,Constitution: +7,Immunity: poison,Hit-N-Dam: +1
+168,ROOMVNUM,Clothing,shiny-leggings-health,the leggings of health,Legs,0,Hitroll: +2,Immunity: poison,Hit Points: +30,Damroll: +1,Constitution: +15
+169,ROOMVNUM,Clothing,gloves-versatility,the gloves of versatility,Hands,0,Hit-N-Dam: +1,Mana: +20,Steal: +10,Hit Points: +25,Armor: +10
+170,ROOMVNUM,Jewelry,troll-necklace,the troll necklace,Neck,0,Damroll: +2,Wisdom: -15,Hitroll: +1,Recuperation: +30
+171,ROOMVNUM,Jewelry,pearl-earring,the pearl earring,Ears,0,Constitution: +4,Hit-N-Dam: +1,Water-Breath
+172,ROOMVNUM,Jewelry,large-golden-chain,a golden chain,Waist,0,Immunity: drain,Damroll: +1,Wisdom: +4,Movement: +25
+173,2026,Flail,nunchakas,nunchakas,5d5,smash,Strength: +3,Hitroll: +3,Damroll: +1,Flexible Kata: +75
+174,4644,Armor,fur-cloak,a giant's hide armor,Body,10,Geomancy: +3,Hit-N-Dam: +1,Strength: +8
+175,4528,Clothing,demonic-sleeves,Demonic Sleeves,Arms,0,Hit-N-Dam: +1,Hit Points: +15
+176,4519,Mace,mace-thob-heavy-stone,the Mace of Thob,6d3,pound,Hit-N-Dam: +2,Intelligence: -6,Movement: -5,Strength: +5
+177,4528,Fist Weapon,Skal's-skull-pain-hideous,Skal's skull of pain,3d6,punch/bite,Necromancy: +5,Hit-N-Dam: +3,Weapon Spell: Curse at Level 10
+178,ROOMVNUM,Armor,bracken-boots,bracken boots,Feet,3,Kick: +3,Strength: +2,Constitution: +2
+179,5869,Clothing,tiny-shawl,a tiny shawl,Neck About,0,Mana: +20,Reflex Saves: +2,Mysticism: +3
+180,5888,Jewelry,royal-hedgehog-crown-tiny-jeweled,the royal hedgehog crown,Head,0,Hit-N-Dam: +1,Strength: +5,Constitution: +10
+181,ROOMVNUM,Melee Staff,nun's-nun-cane,a nun's cane,4d5,pound,Hit-N-Dam: +2
+182,5871,Jewelry,nubbin-pendant,a nubbin pendant,Neck,0,Hit-N-Dam: +1,Armor: +10,Strength: +6
+183,3012,Jewelry,jade-earring,a jade earring,Ears,0,Hitroll: +1,Alignment-Ward
+184,3012,Throwable Dagger,ginzu-knife,a ginzu knife,2d6,pierce,Backstab: +5,Hit-N-Dam: +1
+185,ROOMVNUM,Whip,stolen-whip-torture-Qilat-bloody-hand,a severed hand whip,6d2,whip,Hit-N-Dam: +2
+186,2026,Jewelry,jade-necklace,a jade necklace,Neck,0,Strength: +4,Hit-N-Dam: +1,Constitution: +6
+187,5381,Sword,katana-blade,a katana,7d3,slash,Hit-N-Dam: +3,Dexterity: +5
+188,2466,Jewelry,large-gold-bracelet-sapphire,a sapphire bracelet,Wrist,0,Hit Points: -35,Damroll: +1,Mana: +35,Recuperation: -3
+189,ROOMVNUM,Jewelry,ring-gold-thin,a thin gold ring,Finger,0,Hit Points: +35,Immunity: poison
+190,5381,Armor,helm-blackened-Mordorean-steel,a Mordorean steel helm,Head,10,Constitution: +5,Hit-N-Dam: +1
+191,5381,Armor,Mordorean-black-iron-leggings,Mordorean iron leggings,Legs,10,Hitroll: +1,Hit Points: +10,Constitution: +6
+192,5682,Armor,brimstone-bracer-dully-glowing,a brimstone bracer,Wrist,5,Stonereading: +15,Damroll: +1
+193,1586,Sword,wakizashi-blade,a wakizashi,3d7,slash,Parry: +10,Hit-N-Dam: +2,Dexterity: +5
+194,ROOMVNUM,Armor,silversteel-armor,silversteel armor,Body,20,Hit-N-Dam: +1,Armor: +10,Movement: -5,Strength: +10
+195,ROOMVNUM,Armor,silversteel-gloves,silversteel gloves,Hands,5,Resistance: fire,Hit-N-Dam: +1,Strength: +7
+196,5308,Armor,ornate-ornately-carved-willow-bracer,an ornate willow bracer,Arms,15,Fortitude Saves: +7,Armor: +15,Damroll: +2
+197,ROOMVNUM,Armor,carved-blackwood-mask,a carved blackwood mask,Face,5,Hit-N-Dam: +1,Sense-Life
+198,6192,Jewelry,large-steel-ring,a large steel ring,Finger,0,Hitall: +5,Hit-N-Dam: +1
+199,3015,Glasses,jade-glasses,a pair of jade glasses,Face,0,,Alignment-Ward,Scrying
+200,3009,Pole Arm,naginata,a naginata,5d6,cleave/pierce
+201,6184,Jewelry,crested-ring-grey-unobtrusive,a crested ring,Finger,0,Find Deathtraps: +50,Find Hidden Doors: +50
+202,6184,Throwable Dagger,survival-knife-wide-blade,a survival knife,4d3,pierce,Weapon Spell: Weakness at Level 1,Weapon Spell Charges: +2
+203,1591,Wand,sage's-skull-human-cranium-large,a sage's skull,Hold,0,spell-Speak:lvl-35:charge-6,Read Magic: +3,Hit-N-Dam: +1,Wisdom: +8,Intelligence: +10
+204,6131,Staff,waterlogged-helm-slimy-metal,a slimy metal helm,Head,0,spell-Water:lvl-45:charge-6,Acid Splash: +10,Resistance: fire,Hit-N-Dam: +1
+205,6184,Clothing,dark-leggings-pair,a pair of dark leggings,Legs,0,Sneak: +4,Armor: +7,Hit-N-Dam: +1
+206,6174,Other,Lorraine's-visage-female-face,Lorraine's visage,Face,0,Hitroll: +1,Recuperation: -10,Hit Points: +10,Animate Dead: +7,Gaze-Reflection
+207,6174,Clothing,second-skin-thin-shirt-pale-leather-pile,the second skin,Body,0,Necromancy: +5,Armor: +10,Blackmagic: +5,Hit-N-Dam: +1,Hit Points: +25
+208,6142,Wand,fur-matted-blood-pelt-mass-brown,a blood-matted pelt,Neck About,0,spell-Wave:lvl-35:charge-10,Strength: +10,Armor: +10,Resistance: cold,Berserk: +10,Constitution: -10
+209,ROOMVNUM,Potion,jar-eyeballs-bloodshot-bloody-jiggling,a jar of bloody eyeballs,Hold,0
+210,ROOMVNUM,Potion,vial-demonic-essence-stoppered-vapors,a vial of demonic essence,Hold,0
+211,ROOMVNUM,Potion,jar-intestines-bile-greenish-fluids-pickled-tracts,a jar of bile-pickled intestines,Hold,0
+212,ROOMVNUM,Other,bone-charm-splintered-long-knuckle,a bone charm,Hold,0,,Detect-Good
+213,6172,Other,mummified-creature-tiny-fetal-demonic-idol,a demonic idol,Neck,0,Mysticism: +15,Dispel Good: +4,Compulsion: +5,Damroll: +1,Unholy Word: +6
+214,6180,Axe,notched-steel-axe,a notched steel axe,2d11,cleave,Hitall: +8,Berserk: +6,Hit-N-Dam: +2
+215,ROOMVNUM,Container,pinch-dust-glittering-motes-conical-pile,a lead crucible,Hold,0,Alchemy: +4
+216,2466,Armor,winged-boots,winged boots,Feet,1,Dexterity: +18,Movement: +50
+217,ROOMVNUM,Throwable Dagger,crude-shiv,a crude shiv,2d4,pierce,Pick: +3,Damroll: +1
+218,3189,Other,slimy-otyugh-tentacle-bracelet,a slimy tentacle,Wrist,0,Constitution: +10,Damroll: +1,Hit Points: -5
+219,3195,Jewelry,necklace-alligator-teeth-long-string-studded,a necklace of alligator teeth,Neck,0,Berserk: +3,Swimming: +10,Damroll: +1
+220,3195,Armor,nice-alligator-boots,alligator boots,Feet,5,Hitroll: +1,Strength: +5,Movement: +40,Waterwalking
+221,ROOMVNUM,Sword,short-sword-speed-gleaming,a short sword of speed,2d8,slash/stab,Hitroll: +3,Dexterity: +11,Armor: +15
+222,5308,Armor,ornate-willow-body-armor-wooden-carved-decorated,ornate willow body armor,Body,25,Hit-N-Dam: +1,Pain Immunity: +20
+223,602,Staff,old-dented-sewer-worker's-hat,a sewer worker's hat,Head,0,spell-Ever:lvl-10:charge-5,Armor: +10,Resistance: poison,Constitution: +10,Darksight
+224,5308,Armor,ornate-carved-willow-wooden-leg-guards,ornate willow leg guards,Legs,14,Nature's Blessings: +7,Hitroll: +2,Damroll: +1
+225,3196,Armor,large-black-cockroach-roach-carapace,a black carapace,About,10,Climb Walls: +10,Armor: +5,Dexterity: +6,Hit Points: +20
+226,6231,Jewelry,jade-bracelet,a jade bracelet,Wrist,0,Constitution: +4,Dexterity: +5,Strength: +6,Hit-N-Dam: +1
+227,6222,Armor,kabuto,a kabuto,Head,15,Strength: +2,Intelligence: +4,Dexterity: +3,Hit-N-Dam: +1
+228,6223,Armor,hi-kane-do,a hi-kane-do,Body,18,Strength: +3,Hitroll: +2,Dexterity: +6
+229,6230,Clothing,tosei-do-shirt-silk,a tosei-do,Body,0,Reflex Saves: +6,Hitroll: +2
