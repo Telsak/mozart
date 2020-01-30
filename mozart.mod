@@ -280,6 +280,7 @@
 #ACTION {^You feel much weaker} {#VAR spell[Strength] 0}
 #ACTION {^Your slippery coat melts off of you} {#VAR spell[Freedom] 0}
 #ACTION {^Your golden aura is snuffed out} {#VAR spell[Alkar] 0}
+#ACTION {^Your golden aura fades away} {#VAR spell[Alkar] 0}
 
 #TICKER {mana} {#MATH manapercent $curM*10/$maxM} {10}
 #TICKER {rebuff} {#IF {$manapercent > 5 && $combat == 0 && $standing == 1} {recast}} {10}
