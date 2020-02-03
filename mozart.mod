@@ -123,6 +123,7 @@
 #ACTION {picks you up and throws you %1.} {#MAP move %1}
 #HIGHLIGHT {throws you %1.$} {cyan}
 #ACTION {^You hit the ground with a thud.} {stand}
+#ACTION {^You miss %1 with your stun attempt!} {stand}
 
 #NOP ====== Grouping ======
 #ACTION {You are now a member of %1's group.} {#VAR Group 1;#VAR GroupLeader %1}
