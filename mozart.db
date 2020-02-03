@@ -209,7 +209,7 @@
 209,ROOMVNUM,Potion,jar-eyeballs-bloodshot-bloody-jiggling,a jar of bloody eyeballs,Hold,0
 210,ROOMVNUM,Potion,vial-demonic-essence-stoppered-vapors,a vial of demonic essence,Hold,0
 211,ROOMVNUM,Potion,jar-intestines-bile-greenish-fluids-pickled-tracts,a jar of bile-pickled intestines,Hold,0
-212,ROOMVNUM,Other,bone-charm-splintered-long-knuckle,a bone charm,Hold,0,,Detect-Good
+212,6172,Other,bone-charm-splintered-long-knuckle,a bone charm,Hold,0,,Detect-Good
 213,6172,Other,mummified-creature-tiny-fetal-demonic-idol,a demonic idol,Neck,0,Mysticism: +15,Dispel Good: +4,Compulsion: +5,Damroll: +1,Unholy Word: +6
 214,6180,Axe,notched-steel-axe,a notched steel axe,2d11,cleave,Hitall: +8,Berserk: +6,Hit-N-Dam: +2
 215,ROOMVNUM,Container,pinch-dust-glittering-motes-conical-pile,a lead crucible,Hold,0,Alchemy: +4
@@ -228,3 +228,10 @@
 228,6223,Armor,hi-kane-do,a hi-kane-do,Body,18,Strength: +3,Hitroll: +2,Dexterity: +6
 229,6230,Clothing,tosei-do-shirt-silk,a tosei-do,Body,0,Reflex Saves: +6,Hitroll: +2
 230,5665,Greatsword,flaming-greatsword-burning-two-handed-sword,a two-handed flaming greatsword,6d4,slash,Weapon Spell: Faerie Fire at Level 6,Damroll: +5,Hitroll: +3
+231,5170,Other,icicle,an icicle,Hold,0,Mana: +10,Mysticism: +10
+232,5156,Other,tiny-cube-ice,a small cube of ice,Hold,0,Hitroll: +3,Immunity: cold,Recuperation: -20
+233,4523,Armor,black-boots,black boots,Feet,8,Movement: +25,Sneak: +8,Hide: +8
+234,ROOMVNUM,Whip,towel,a towel,1d3,whip
+235,1904,Hammer,long-handled-shovel-hammer,a long-handled shovel,1d19,crush
+236,ROOMVNUM,Armor,shield-antique-paladin-golden,an antique golden shield,Shield,13,Divine Magics: +3,Hitroll: +1,Wisdom: +6,Willpower Saves: +4
+237,6275,Throwable Dagger,cleaved-shard-dagger,a cleaved shard,8d1,pierce,Hit-N-Dam: +2
