@@ -215,7 +215,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -6853,7 +6853,7 @@ R { 1590} {0} {} {The White Mountain Path} {} {This slender path winds itself be
 E { 1589} {w} {w} {8} {0} {} {1.000} {}
 E { 3051} {e} {e} {2} {0} {} {1.000} {}
 
-R { 1591} {0} {} {A Mysterious Entrance} {*?*} {The pale rock of the natural cavern in the mountainside gives way to well- worked granite slabs cladding the sides and paving the ground.  A difficult construction material to use due to its weight and hardness, it has been skillfully formed and coaxed into position, leaving only hair-width joins.  The cave is wide enough to accommodate two carts side by side, and grooves on the floor show that it has seen heavy traffic in the past. } {Brute Village} {} {Inside} {} {1.000} {}
+R { 1591} {0} {} {A Mysterious Entrance} {} {The pale rock of the natural cavern in the mountainside gives way to well- worked granite slabs cladding the sides and paving the ground.  A difficult construction material to use due to its weight and hardness, it has been skillfully formed and coaxed into position, leaving only hair-width joins.  The cave is wide enough to accommodate two carts side by side, and grooves on the floor show that it has seen heavy traffic in the past. } {Unset} {} {Inside} {} {1.000} {}
 E { 1589} {n} {n} {1} {0} {} {1.000} {}
 E { 2035} {s} {s} {4} {0} {} {1.000} {}
 
@@ -8295,19 +8295,18 @@ R { 1919} {0} {} {Outside the Mausoleum} {} {Sadly, the only variation in your h
 E { 1915} {e} {e} {2} {0} {} {1.000} {}
 E { 1920} {w} {w} {8} {0} {} {1.000} {}
 
-R { 1920} {0} {<faa>} {Within the Mausoleum} {!!!} {This place doesn't look any better on the inside.  It is a little bit dryer, and little bit lighter, and a little bit more odorous.  There is an open casket in the center of the room, and several lining the walls. Most of these are open as well, and you can see skeletal hands grasping from within. } {Swamp Cemetary} {} {Inside} {} {1.000} {}
+R { 1920} {0} {<faa>} {No way!  You are fighting for your life!} {!!!} {} {Fetid Swamp} {} {} {} {1.000} {}
 E { 1919} {e} {e} {2} {0} {} {1.000} {}
-E { 6238} {d} {open casket;d} {32} {0} {} {1.000} {}
 
 R { 1921} {0} {} {A Muddy Road} {} {The path from the east widens here into a fully-sized road.  The wagon tracks are deeper here, and the foliage is cut back enough that the sky should be visible.  Unfortunately no clouds can be seen due to a thick smoke hiding everything above the treeline. } {Unset} {} {Forest} {} {1.000} {}
 E { 1866} {e} {e} {2} {0} {} {1.000} {}
 E { 1922} {w} {w} {8} {0} {} {1.000} {}
 
-R { 1922} {0} {} {A Muddy Road} {} {The road continues to wind through this forest, and into a cloud of smoke. Soot, black and oily clings at everything.  The ground is much less muddy, the swamp being dried quickly out of the ground by whatever is causing this much smoke.  The road continues into the west, but in that direction the smoke is thick enough to obscure vision and hide the road. } {Unset} {} {Forest} {} {1.000} {}
+R { 1922} {0} {} {You flee head over heels.} {} {You have become more adept at retreat!  H:332/567 M:131/133 V:117/322 XP:465110 C:*> [  1] retreat              [---       ] } {Unset} {} {Forest} {} {1.000} {}
 E { 1921} {e} {e} {2} {0} {} {1.000} {}
 E { 1923} {w} {w} {8} {0} {} {1.000} {}
 
-R { 1923} {0} {} {Lost in the Smoke} {} {Blinding black smoke chokes the road.  Coughing, you stumble forward, unsure if you are still on the path. Terrain: Desert. [2] A corpse, set on fire, stumbles around. A flaming corpse is surrounded by a fiery aura! } {Unset} {} {Desert.} {} {1.000} {}
+R { 1923} {0} {} {Lost in the Smoke} {} {Blinding black smoke chokes the road.  Coughing, you stumble forward, unsure if you are still on the path. Terrain: Desert. A corpse, set on fire, stumbles around. A flaming corpse is surrounded by a fiery aura!  H:567/567 M:130/133 V:127/322 XP:464173 C:*>  A flaming corpse dismembers you as he burns you. } {Unset} {} {Desert} {} {1.000} {}
 E { 1922} {e} {e} {2} {0} {} {1.000} {}
 
 R { 1924} {0} {} {Dry Tunnel} {} {You are walking along a small, strangely dry tunnel deep within the sewers of Raven's Bluff.  The tunnel opens up towards and intersection to the west, and it also continues on to your south. } {Raven's Bluff Sewers} {} {Inside} {} {1.000} {}
@@ -8764,7 +8763,7 @@ E { 2030} {n} {open door;n} {1} {0} {} {1.000} {}
 R { 2034} {0} {} {Bedroom} {} {You have entered one of the chambers where the geishas wait for their customers.  There are several mats and pillows lying around, and you can hear giggles and moans emanating from all around you.  The only exit is back through the paper screen. } {Little Kyoto} {} {Inside} {} {1.000} {}
 E { 2028} {n} {open door;n} {1} {0} {} {1.000} {}
 
-R { 2035} {1026} {} {The Old Gate} {} {An ancient archway curves gracefully overhead, its smooth paleness nearly luminous, contrasting with the dull granite passage that it breaks.  On its north face, text from three languages has been engraved in characters two spans high.  The south side of the arch has recesses in the walls, space for counterbalancing systems for the now-missing doors. } {Brute Village} {} {Inside} {} {1.000} {}
+R { 2035} {0} {} {The Old Gate} {} {An ancient archway curves gracefully overhead, its smooth paleness nearly luminous, contrasting with the dull granite passage that it breaks.  On its north face, text from three languages has been engraved in characters two spans high.  The south side of the arch has recesses in the walls, space for counterbalancing systems for the now-missing doors. } {Brute Village} {} {Inside} {} {1.000} {}
 E { 1591} {n} {n} {1} {0} {} {1.000} {}
 E { 5817} {s} {s} {4} {0} {} {1.000} {}
 
@@ -9827,7 +9826,7 @@ R { 2268} {0} {} {} {} {} {Rilghorn River} {} {River} {} {1.000} {}
 E { 2267} {s} {s} {4} {0} {} {1.000} {}
 E { 2276} {n} {n} {1} {0} {} {1.000} {}
 
-R { 2269} {0} {} {The River of Lost Souls} {} {The sky is enshrouded by a cloud of dust blown off the cliffs rising high to the east and west, forming a canyon through which this river passes.  The wind catches in small caves and crevices scattered along the rocky walls.  It howls and moans, whispering tales of lives once lived and places long ago visited and since destroyed.  The haunting words sing to you a low funeral dirge about the death of man in perhaps an age yet to be lived.  The sounds are constant and pulsing, each syllabic beat indicating another age recorded and another soul's lament. } {Unset} {} {River} {} {1.000} {}
+R { 2269} {0} {} {The River of Lost Souls} {} {The sky is enshrouded by a cloud of dust blown off the cliffs rising high to the east and west, forming a canyon through which this river passes.  The wind catches in small caves and crevices scattered along the rocky walls.  It howls and moans, whispering tales of lives once lived and places long ago visited and since destroyed.  The haunting words sing to you a low funeral dirge about the death of man in perhaps an age yet to be lived.  The sounds are constant and pulsing, each syllabic beat indicating another age recorded and another soul's lament. } {Rilghorn River} {} {River} {} {1.000} {}
 E { 2267} {n} {n} {1} {0} {} {1.000} {}
 E { 4041} {s} {s} {4} {0} {} {1.000} {}
 
@@ -11618,7 +11617,7 @@ R { 2689} {4104} {} {} { } {} {Kerrin} {} {} {} {1.000} {}
 E { 2685} {w} {w} {8} {0} {} {1.000} {}
 E { 2686} {e} {e} {2} {0} {} {1.000} {}
 
-R { 2690} {0} {} {Southern Wellspring} {<add>(<fff>F<add>)<088>} {This well lit common room holds the dwarven city's southern well. A shaft descends down nearly seventy feet, allowing the sturdy dwarves to draw pure, cold water straight from a deep underground stream. Water brought up and not used is left in a small basin on the west wall from which bubbles a tiny fountain. Lighting is provided by an ancient and dim dwarven crystal. } {Kerrin} {} {Inside} {} {1.000} {}
+R { 2690} {0} {<278>} {Southern Wellspring} {<add>(<fff>F<add>)<088>} {This well lit common room holds the dwarven city's southern well. A shaft descends down nearly seventy feet, allowing the sturdy dwarves to draw pure, cold water straight from a deep underground stream. Water brought up and not used is left in a small basin on the west wall from which bubbles a tiny fountain. Lighting is provided by an ancient and dim dwarven crystal. } {Kerrin} {} {Inside} {} {1.000} {}
 E { 2685} {s} {s} {4} {0} {} {1.000} {}
 
 R { 2691} {0} {} {Warden's Post} {} {This cheerful room is the counterpart to the eastern guard room for the Southern Delve.  Lit by two dwarven crystals and warmed by a vented fireplace, this room is used by the watch officers, and as such is slightly more plushly decorated.  It is carpeted with thick burgundy carpet into which has been woven a stylized portrait of the dwarven god of protection, Azash.  Four large, stuffed leather chairs allow for quiet relaxation, and a bookshelf on the south wall holds many books on siegecraft and stoneworkings.  Two small cots have been inset into the western wall. } {Kerrin} {} {Inside} {} {1.000} {}
@@ -11687,7 +11686,6 @@ E { 2715} {e} {open copper;e} {2} {0} {} {1.000} {}
 
 R { 2706} {0} {} {Mining Stock} {G} {Run by Nattas, a dwarf so tall that many jokingly refer to him as half-man (a joke which he does not take so lightly), this small shop caters to the needs of the private mining expeditions funded by King Kerrin and the nobility to explore deeper and deeper into the mountains roots.  The store provides all sorts of picks, lights, chisels, ropes and other useful items, but like Nattas himself, the prices are quite high... } {Kerrin} {} {Inside} {} {1.000} {}
 E { 2705} {s} {s} {4} {0} {} {1.000} {}
-E { 2713} {d} {d} {32} {0} {} {1.000} {}
 
 R { 2707} {0} {} {General Store} {} {Central to the economy of Kerrin's realm is the general store run by Dinkel, third cousin once removed to the King himself!  Cluttered with shelves, this shop stores items to meet many basic needs. } {Kerrin} {} {Inside} {} {1.000} {}
 E { 2705} {n} {n} {1} {0} {} {1.000} {}
@@ -11716,7 +11714,6 @@ E { 2714} {n} {n} {1} {0} {} {1.000} {}
 
 R { 2713} {0} {} {Chamber of Masks} {} {This small room is filled with props and other materials suitable to help in disguising someone.  A clutter of trunks holds false beards, clothes for nearly every profession, a series of inexpensive, but serviceable weapons, and various powders and colorings. } {Kerrin} {} {Inside} {} {1.000} {}
 E { 2712} {w} {w} {8} {0} {} {1.000} {}
-E { 2706} {u} {u} {16} {0} {} {1.000} {}
 
 R { 2714} {0} {} {The Hideaway} {} {This small room apparently is used transiently; it holds none of the knick-knacks that a permanent dwelling place might hold.  A small cot with rumpled sheets stands along one wall of the room, and a dingy wood dresser sits } {Kerrin} {} {Inside} {} {1.000} {}
 E { 2712} {s} {s} {4} {0} {} {1.000} {}
@@ -11751,7 +11748,7 @@ R { 2721} {0} {<278>} {The Boar's Rest Nest} {Inn} {This quiet room is the entry
 E { 2720} {s} {s} {4} {0} {} {1.000} {}
 E { 2722} {u} {u} {16} {0} {} {1.000} {}
 
-R { 2722} {0} {} {The Boar's Rest Reception} {} {You stand in the reception area of the Boar's Rest Nest.  Several chairs (only slightly low for humans and elves) and an incongruous pair of teal elven- made loveseats make up most of the room's furniture.  A large wooden desk sits in the north east corner of the room, above which is an elegantly chiseled sign.  A stairway cut into the southern end of the room leads down to the Inn's Entrance. } {Kerrin} {} {Inside} {} {1.000} {}
+R { 2722} {0} {<278>} {The Boar's Rest Reception} {<278>[ ]<088>} {You stand in the reception area of the Boar's Rest Nest.  Several chairs (only slightly low for humans and elves) and an incongruous pair of teal elven- made loveseats make up most of the room's furniture.  A large wooden desk sits in the north east corner of the room, above which is an elegantly chiseled sign.  A stairway cut into the southern end of the room leads down to the Inn's Entrance. } {Kerrin} {} {Inside} {} {1.000} {}
 E { 2721} {d} {d} {32} {0} {} {1.000} {}
 
 R { 2723} {0} {} {The Pike's Gills Tavern} {} {Gundar Rockroot's tavern is the pride of dwarvish drinking, and the envy of many outland barkeeps.  Thick, dark ale flows almost constantly from the two taps behind Gundar's bar, and good coin flows from his patrons to purchase it. Two young dwarven lads bring refreshments and food (Gundar's roast lamb is considered the house special) to the comfortably spaced tables along the western wall of the room.  A fire burns continuously in the fireplace at the southern end of the room; the flickering light dances merrily on the chin of the stuffed dragon-head mounted on the mantle. } {Kerrin} {} {Inside} {} {1.000} {}
@@ -12071,7 +12068,7 @@ E { 2798} {e} {e} {2} {0} {} {1.000} {}
 E { 2800} {s} {s} {4} {0} {} {1.000} {}
 E { 2811} {w} {w} {8} {0} {} {1.000} {}
 
-R { 2800} {0} {} {First South Shaft} {} {This small tunnel slopes slightly upward from the north to the south.  The iron rails are rusted and dull from disuse, and a thick coating of rock dust and dirt lies on the floor.  The dwarven crystals that light the tunnel flicker with age; the light is poor, but quite enough to see by. } {Kerrin} {} {Underground} {} {1.000} {}
+R { 2800} {0} {<148>} {First South Shaft} {<148>. .<088>} {This small tunnel slopes slightly upward from the north to the south.  The iron rails are rusted and dull from disuse, and a thick coating of rock dust and dirt lies on the floor.  The dwarven crystals that light the tunnel flicker with age; the light is poor, but quite enough to see by. } {Kerrin} {} {Underground} {} {1.000} {}
 E { 2799} {n} {n} {1} {0} {} {1.000} {}
 E { 2801} {s} {s} {4} {0} {} {1.000} {}
 
@@ -15357,23 +15354,23 @@ E { 5046} {e} {e} {2} {0} {} {1.000} {}
 
 R { 3587} {0} {} {The Waters of the Silver River} {} {You are on the silver river, which flows westerly through a small forest. You can see a path to the south, it leads up into the hills.  From downstream, you can faintly see something or someone moving, but it is impossible to be sure who or what is there. } {Unset} {} {River} {} {1.000} {}
 E { 1663} {s} {s} {4} {0} {} {1.000} {}
-E { 6283} {w} {w} {8} {0} {} {1.000} {}
+E { 3588} {w} {w} {8} {0} {} {1.000} {}
 
 R { 3588} {0} {} {The Waters of the Silver River} {} {You are on the silver river.  It is flowing west through a small forest. To the west, you can see a tree, waving in the wind.  To the south lies a large hilly area. } {Unset} {} {River} {} {1.000} {}
-E { 6283} {e} {e} {2} {0} {} {1.000} {}
-E { 6284} {w} {w} {8} {0} {} {1.000} {}
+E { 3587} {e} {e} {2} {0} {} {1.000} {}
+E { 3589} {w} {w} {8} {0} {} {1.000} {}
 
 R { 3589} {0} {} {The Waters of the Silver River} {} {You are on the silver river.  It is flowing west through a small forest. To the west, you can see a tree, waving in the wind.  To the south lies a large hilly area. } {Unset} {} {River} {} {1.000} {}
-E { 6284} {e} {e} {2} {0} {} {1.000} {}
-E { 6285} {w} {w} {8} {0} {} {1.000} {}
+E { 3588} {e} {e} {2} {0} {} {1.000} {}
+E { 3590} {w} {w} {8} {0} {} {1.000} {}
 
 R { 3590} {0} {} {The Waters of the Silver River} {} {You are on the silver river.  It turns here, flowing from east to north through a small forest. } {Unset} {} {River} {} {1.000} {}
-E { 6285} {e} {e} {2} {0} {} {1.000} {}
-E { 6287} {w} {w} {8} {0} {} {1.000} {}
+E { 3589} {e} {e} {2} {0} {} {1.000} {}
+E { 3591} {w} {w} {8} {0} {} {1.000} {}
 E { 3592} {n} {n} {1} {0} {} {1.000} {}
 
 R { 3591} {0} {} {On the Riverbank} {} {You are in a small clearing on the bank of the Silver River, named for the passions of the dwarves that discovered it while mining the mountain to the south.  To the east, the Silver River is babbling quietly to itself.  The combined effect of the glade and the river noise make you feel very safe here, as though nothing could harm you. } {Unset} {} {Shore} {} {1.000} {}
-E { 6287} {e} {e} {2} {0} {} {1.000} {}
+E { 3590} {e} {e} {2} {0} {} {1.000} {}
 E { 5630} {s} {s} {4} {0} {} {1.000} {}
 
 R { 3592} {0} {} {} {} {} {Unset} {} {} {} {1.000} {}
@@ -15414,11 +15411,10 @@ R { 3599} {0} {} {Rapids on the Silver River} {} {The churning rapids take a dra
 E { 3598} {s} {s} {4} {0} {} {1.000} {}
 E { 3600} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3600} {0} {} {On the Silver River} {} {The current of the river moves in quickly from the east, surging from rapids that one can see, but also hear upstream to the east.  The banks of the river widen quickly as the northern shore diverges away from the treeline short to the south.  A few huge boulders to the north have tumbled down from high above the treeline.  Through those trees glimpses of a huge stone fortress can be seen, and a large cleared trail leads to its outer edges.  To the west the river continues, cutting slowly through the forested hills on either side.    There's more here than meets the eye. } {Hill Giant Fortress} {} {River} {} {1.000} {}
+R { 3600} {0} {} {On the Silver River} {} {The current of the river moves in quickly from the east, surging from rapids that one can see, but also hear upstream to the east.  The banks of the river widen quickly as the northern shore diverges away from the treeline short to the south.  A few huge boulders to the north have tumbled down from high above the treeline.  Through those trees glimpses of a huge stone fortress can be seen, and a large cleared trail leads to its outer edges.  To the west the river continues, cutting slowly through the forested hills on either side. } {Unset} {} {River} {} {1.000} {}
 E { 3599} {e} {e} {2} {0} {} {1.000} {}
 E { 3597} {s} {s} {4} {0} {} {1.000} {}
 E { 3603} {w} {w} {8} {0} {} {1.000} {}
-E { 6268} {n} {n} {1} {0} {} {1.000} {}
 
 R { 3601} {0} {} {On the Silver River} {} {The water on this part of the river flows lazily between its wide banks, as the forested hills direct its flow east from here.  A series of large trees, that have fell across the river, block travel any further to the west.  To the south, through the gaps in the tree trunks growing along the shore, you can see the walls of a huge stone fortress. } {Unset} {} {River} {} {1.000} {}
 E { 3603} {e} {e} {2} {0} {} {1.000} {}
@@ -17305,9 +17301,8 @@ R { 4040} {0} {<ddd>} {Door to the Crypt} {} {Facing to the south, you are confr
 E {  521} {u} {u} {16} {0} {} {1.000} {}
 E { 5467} {s} {open door;s} {4} {0} {} {1.000} {}
 
-R { 4041} {0} {} {The River of Lost Souls} {} {Screaming with the cries of a howling pursuit, the river drops over a rocky shelf and pools itself in a briney, reddish hollow of the canyon.  An eddy forms, the water spinning almost as quickly as the noise.  Thousands of voices crying out their complaint against the living, the sky filling with bitter and stinging particles of sandy dust.  The lucky droplets which escape to the east add to the cacophony, roaring as stones and ledges jutting out from the canyon walls attempt to destroy and prevent the water's passage.  The canyon appears to narrow, although in the painful visibility of cloudy dust little is certain.  The rock walls seem to open to the east and to the north, provided of course that your bearings have not been confused by the screaming thousands of souls in your mind. Terrain: River. } {Unset} {} {River} {} {1.000} {}
+R { 4041} {0} {} {The River of Lost Souls} {} {Screaming with the cries of a howling pursuit, the river drops over a rocky shelf and pools itself in a briney, reddish hollow of the canyon.  An eddy forms, the water spinning almost as quickly as the noise.  Thousands of voices crying out their complaint against the living, the sky filling with bitter and stinging particles of sandy dust.  The lucky droplets which escape to the east add to the cacophony, roaring as stones and ledges jutting out from the canyon walls attempt to destroy and prevent the water's passage.  The canyon appears to narrow, although in the painful visibility of cloudy dust little is certain.  The rock walls seem to open to the east and to the north, provided of course that your bearings have not been confused by the screaming thousands of souls in your mind. Terrain: River. } {Rilghorn River} {} {River.} {} {1.000} {}
 E { 2269} {n} {n} {1} {0} {} {1.000} {}
-E { 6233} {e} {e} {2} {0} {} {1.000} {}
 
 R { 4042} {0} {} {A Hut in the Forest} {} {The small wooden hut nestled between two trees is a haphazard building made of broken tree limbs, twigs, and mud.  The teepee shaped structure has an open doorway, showing a small interior with just enough room for the bedroll sitting on the ground.  The ground surrounding the hut is trampled and worn by continued passage. } {Graecia} {} {Inside} {} {1.000} {}
 E { 2360} {w} {w} {8} {0} {} {1.000} {}
@@ -18773,10 +18768,9 @@ R { 4386} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 4373} {n} {n} {1} {0} {} {1.000} {}
 E { 4374} {s} {s} {4} {0} {} {1.000} {}
 
-R { 4387} {0} {} {Service Hallway} {} {Torches line this wide section of the service hallway, flaring slightly to the south, an alcove has been created and filled with stacked crates, shelves, and boxes storing materials for the fortress.  The hallway continues east and west from here.    There's more here than meets the eye. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
+R { 4387} {0} {} {Service Hallway} {} {Torches line this wide section of the service hallway, flaring slightly to the south, an alcove has been created and filled with stacked crates, shelves, and boxes storing materials for the fortress.  The hallway continues east and west from here. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 4382} {w} {w} {8} {0} {} {1.000} {}
 E { 4388} {e} {e} {2} {0} {} {1.000} {}
-E { 6271} {s} {open boxes;s} {4} {0} {} {1.000} {}
 
 R { 4388} {0} {} {Service Hallway} {} {Wide and heavily used, this section of the service hallway runs parallel to the fortress walls.  Torches light its entire length and it continues for some way both to the west and east.  Natural light spills in a ways to the east, as do the sounds of the outside. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 4387} {w} {w} {8} {0} {} {1.000} {}
@@ -19095,16 +19089,16 @@ E { 4525} {e} {e} {2} {0} {} {1.000} {}
 E { 4526} {s} {s} {4} {0} {} {1.000} {}
 E { 4529} {w} {open cell;w} {8} {0} {} {1.000} {}
 
-R { 4464} {0} {} {Orcish Tunnel} {} {This foul, cramped tunnel has piles of garbage and filth piled up against the walls.  The ceiling drips heavily from the condensed breath of the orcs who live here\; the water mixes with the trash on the floor to make a putrid, decaying mess. } {Skal's Realm} {} {Underground} {} {1.000} {}
+R { 4464} {0} {<148>} {Orcish Tunnel} {<148>. .<088>} {This foul, cramped tunnel has piles of garbage and filth piled up against the walls.  The ceiling drips heavily from the condensed breath of the orcs who live here\; the water mixes with the trash on the floor to make a putrid, decaying mess. } {Skal's Realm} {} {Underground} {} {1.000} {}
 E { 4459} {w} {w} {8} {0} {} {1.000} {}
 E { 4465} {s} {s} {4} {0} {} {1.000} {}
 
-R { 4465} {0} {} {Orcish Tunnel} {} {This foul, cramped tunnel has piles of garbage and filth piled up against the walls.  The ceiling drips heavily from the condensed breath of the orcs who live here\; the water mixes with the trash on the floor to make a putrid, decaying mess. } {Skal's Realm} {} {Underground} {} {1.000} {}
+R { 4465} {0} {<148>} {Orcish Tunnel} {<148>. .<088>} {This foul, cramped tunnel has piles of garbage and filth piled up against the walls.  The ceiling drips heavily from the condensed breath of the orcs who live here\; the water mixes with the trash on the floor to make a putrid, decaying mess. } {Skal's Realm} {} {Underground} {} {1.000} {}
 E { 4464} {n} {n} {1} {0} {} {1.000} {}
 E { 4466} {e} {e} {2} {0} {} {1.000} {}
 E { 4520} {s} {s} {4} {0} {} {1.000} {}
 
-R { 4466} {0} {} {Warriors' Barracks} {} {This fine cave has piles of rags strewn about it, probably the sleeping pallets of the orc warriors who make it their home.    The floor, where not covered by rags, is piled high with rubbish and the remains of meals long since eaten.  Small spiders and roaches infest this place, feasting off of the orc's waste (and being feasted upon by the orcs). } {Skal's Realm} {} {Underground} {} {1.000} {}
+R { 4466} {0} {<148>} {Warriors' Barracks} {<148>. .<088>} {This fine cave has piles of rags strewn about it, probably the sleeping pallets of the orc warriors who make it their home.    The floor, where not covered by rags, is piled high with rubbish and the remains of meals long since eaten.  Small spiders and roaches infest this place, feasting off of the orc's waste (and being feasted upon by the orcs). } {Skal's Realm} {} {Underground} {} {1.000} {}
 E { 4465} {w} {w} {8} {0} {} {1.000} {}
 
 R { 4467} {0} {} {An Acient Cave-in} {} {The old rails meet an abrupt dead end here.  Though the tunnel once continued further to the south, a cave in has blocked any further passage in that direction.  Light is provided by a single dwarven crystal that flickers badly. } {Kerrin} {} {Underground} {} {1.000} {}
@@ -19321,23 +19315,23 @@ E { 4517} {u} {u} {16} {0} {} {1.000} {}
 R { 4519} {0} {<148>} {Thob's Cave} {<fda>!!!<ccc>} {This filthy cave is the home of Thob.  It is the height of trollish luxury, with large stones for furniture and piles of garbage, decaying material and broken equipment covering everything to nearly knee height.  The stench is tremendous. } {The Underdark} {} {Underground} {} {1.000} {}
 E { 4454} {e} {e} {2} {0} {} {1.000} {}
 
-R { 4520} {0} {} {Orcish Tunnel} {} {This foul, cramped tunnel has piles of garbage and filth piled up against the walls.  The ceiling drips heavily from the condensed breath of the orcs who live here\; the water mixes with the trash on the floor to make a putrid, decaying mess. } {Skal's Realm} {} {Underground} {} {1.000} {}
+R { 4520} {0} {<148>} {Orcish Tunnel} {<148>. .<088>} {This foul, cramped tunnel has piles of garbage and filth piled up against the walls.  The ceiling drips heavily from the condensed breath of the orcs who live here\; the water mixes with the trash on the floor to make a putrid, decaying mess. } {Skal's Realm} {} {Underground} {} {1.000} {}
 E { 4465} {n} {n} {1} {0} {} {1.000} {}
 E { 4521} {w} {w} {8} {0} {} {1.000} {}
 E { 4522} {s} {s} {4} {0} {} {1.000} {}
 
-R { 4521} {0} {} {Warriors' Barracks} {} {This fine cave has piles of rags strewn about it, probably the sleeping pallets of the orc warriors who make it their home.    The floor, where not covered by rags, is piled high with rubbish and the remains of meals long since eaten.  Small spiders and roaches infest this place, feasting off of the orc's waste (and being feasted upon by the orcs). } {Skal's Realm} {} {Underground} {} {1.000} {}
+R { 4521} {0} {<148>} {Warriors' Barracks} {<148>. .<088>} {This fine cave has piles of rags strewn about it, probably the sleeping pallets of the orc warriors who make it their home.    The floor, where not covered by rags, is piled high with rubbish and the remains of meals long since eaten.  Small spiders and roaches infest this place, feasting off of the orc's waste (and being feasted upon by the orcs). } {Skal's Realm} {} {Underground} {} {1.000} {}
 E { 4520} {e} {e} {2} {0} {} {1.000} {}
 
-R { 4522} {0} {} {Orcish Tunnel} {} {This foul, cramped tunnel has piles of garbage and filth piled up against the walls.  The ceiling drips heavily from the condensed breath of the orcs who live here\; the water mixes with the trash on the floor to make a putrid, decaying mess. } {Skal's Realm} {} {Underground} {} {1.000} {}
+R { 4522} {0} {<148>} {Orcish Tunnel} {<148>. .<088>} {This foul, cramped tunnel has piles of garbage and filth piled up against the walls.  The ceiling drips heavily from the condensed breath of the orcs who live here\; the water mixes with the trash on the floor to make a putrid, decaying mess. } {Skal's Realm} {} {Underground} {} {1.000} {}
 E { 4520} {n} {n} {1} {0} {} {1.000} {}
 E { 4523} {s} {s} {4} {0} {} {1.000} {}
 E { 4524} {w} {open cell;w} {8} {0} {} {1.000} {}
 
-R { 4523} {0} {} {Cave of the Champion} {} {This cave is lavish by orcish standards.  A bed covered with furs sits against the east wall, a large (open) trunk holds piles of dirty but serviceable clothing, and a table with two chairs sits in the center of the room.    Sound does not echo so much in this room because of a great, bearskin carpet covering the floor. } {Skal's Realm} {} {Underground} {} {1.000} {}
+R { 4523} {0} {<148>} {Cave of the Champion} {<148>. .<088>} {This cave is lavish by orcish standards.  A bed covered with furs sits against the east wall, a large (open) trunk holds piles of dirty but serviceable clothing, and a table with two chairs sits in the center of the room.    Sound does not echo so much in this room because of a great, bearskin carpet covering the floor. } {Skal's Realm} {} {Underground} {} {1.000} {}
 E { 4522} {n} {n} {1} {0} {} {1.000} {}
 
-R { 4524} {0} {} {Slave Pen} {} {This filthy, squalid hole houses the most abject of all orcs, the female slaves.  Here they wait in filthy misery for the tender ministrations of Garn the Champion.  Rotting blankets make up their bedding, and a small hole in the floor serves as a garbage repository.  Surprisingly, this miserable cave shows signs of being cleaned some time back, possibly straightened by its inhabitants in a pitiful attempt to have some small control of their lives. } {Skal's Realm} {} {Underground} {} {1.000} {}
+R { 4524} {0} {<148>} {Slave Pen} {<148>. .<088>} {This filthy, squalid hole houses the most abject of all orcs, the female slaves.  Here they wait in filthy misery for the tender ministrations of Garn the Champion.  Rotting blankets make up their bedding, and a small hole in the floor serves as a garbage repository.  Surprisingly, this miserable cave shows signs of being cleaned some time back, possibly straightened by its inhabitants in a pitiful attempt to have some small control of their lives. } {Skal's Realm} {} {Underground} {} {1.000} {}
 E { 4522} {e} {open cell;e} {2} {0} {} {1.000} {}
 
 R { 4525} {0} {} {Warriors' Barracks} {} {This fine cave has piles of rags strewn about it, probably the sleeping pallets of the orc warriors who make it their home.    The floor, where not covered by rags, is piled high with rubbish and the remains of meals long since eaten.  Small spiders and roaches infest this place, feasting off of the orc's waste (and being feasted upon by the orcs). } {Skal's Realm} {} {Underground} {} {1.000} {}
@@ -21992,15 +21986,13 @@ E { 5161} {n} {n} {1} {0} {} {1.000} {}
 R { 5161} {0} {} {The Arctica Glacier} {} {Before you lies a vast ice plane.  There are few animals on your way forward.  As the wind blows over you armor, a chill runs across your spine.  To the northeast a huge blue ice tree rises into the sky.  It's canopy opens high above the glacier and its icy limbs and crystal leaves blow in the whipping arctic winds. } {Arctica} {} {Arctic} {} {1.000} {}
 E { 5160} {s} {s} {4} {0} {} {1.000} {}
 E { 5162} {n} {n} {1} {0} {} {1.000} {}
-E { 6258} {e} {e} {2} {0} {} {1.000} {}
 
 R { 5162} {0} {} {Near the Giant Blue Ice Tree} {} {The trunk of this strange ice tree has snow drifts built up around its base as it rises into the sky to the northeast.  As light filters through its crystal leaves some of it refracts and spreads colorful prisims of light across the snow.  In every other direction the glacier extends out into the horizon. } {Arctica} {} {Arctic} {} {1.000} {}
 E { 5161} {s} {s} {4} {0} {} {1.000} {}
-E { 6262} {n} {n} {1} {0} {} {1.000} {}
-E { 6261} {e} {e} {2} {0} {} {1.000} {}
+E { 5163} {n} {n} {1} {0} {} {1.000} {}
 
-R { 5163} {0} {} {The Center of the Glacier} { } {There is not much around you to look at.  The tree is to your southeast, the lake to your west and the canyon to your northwest.  You start becoming weary of this ice that surrounds you and your thoughts wonder off to warm places, far far away from here.  To the north a large chasm opens into the ice, its depths could easily cause a crushing death. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6262} {s} {s} {4} {0} {} {1.000} {}
+R { 5163} {0} {} {} { } {} {Arctica} {} {} {} {1.000} {}
+E { 5162} {s} {s} {4} {0} {} {1.000} {}
 E { 5164} {n} {n} {1} {0} {} {1.000} {}
 E { 5165} {e} {e} {2} {0} {} {1.000} {}
 
@@ -22009,13 +22001,11 @@ E { 5163} {s} {s} {4} {0} {} {1.000} {}
 
 R { 5165} {0} {} {The North Side of the Blue Tree} { } {On this side of the tree you can see a crack in the trunk.  You wonder what it would lead to, if anything.  Large enough to climb into the tree the crack climbs up the trunk. } {Arctica} {} {Arctic} {} {1.000} {}
 E { 5163} {w} {w} {8} {0} {} {1.000} {}
-E { 6267} {e} {e} {2} {0} {} {1.000} {}
-E { 6239} {s} {s} {4} {0} {} {1.000} {}
+E { 5166} {e} {e} {2} {0} {} {1.000} {}
 
 R { 5166} {0} {} {The Eastern Edge of the Glacier} { } {You are approaching the eastern side of the glacier.  You see that it ends where the mountain side begins.  You look back at where you landed on this plane and see that you are quite a distance from it.  The mountains surround the glacier to this side and there is no way of climbing their walls, as they are covered in misty ice. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6267} {w} {w} {8} {0} {} {1.000} {}
+E { 5165} {w} {w} {8} {0} {} {1.000} {}
 E { 5167} {e} {e} {2} {0} {} {1.000} {}
-E { 6260} {s} {s} {4} {0} {} {1.000} {}
 
 R { 5167} {0} {} {At the Mountain Side Edge} { } {You are standing right beside the mountain face.  Here you can see the glacier creep along oh so slowly.  The constant cracks and thunderous bangs you hear seem to originate from here.  It must be caused by the tons of ice rubbing against the rock face, smashing and crushing everything that bounds it. } {Arctica} {} {Arctic} {} {1.000} {}
 E { 5166} {w} {w} {8} {0} {} {1.000} {}
@@ -22024,7 +22014,6 @@ E { 5168} {s} {s} {4} {0} {} {1.000} {}
 R { 5168} {0} {} {A Small Cave} { } {This cave is large enough to fit humans, but is roughly cut.  It must have been created by the pressures exerted on the mountain by the glacier as it continues creeping eastward. } {Arctica} {} {Arctic} {} {1.000} {}
 E { 5167} {n} {n} {1} {0} {} {1.000} {}
 E { 5169} {e} {e} {2} {0} {} {1.000} {}
-E { 6260} {w} {w} {8} {0} {} {1.000} {}
 
 R { 5169} {0} {} {The End of the Rough Ice Cave} { } {You have arrived at the east end of a tunnel in the mountain side.  There is a large gust of wind blowing from the north.  Inside the tunnel is a crack. You peer in and see a whole new realm.  It is totally barren on the other side and there seems to be very little life. } {Arctica} {} {Arctic} {} {1.000} {}
 E { 5168} {w} {w} {8} {0} {} {1.000} {}
@@ -22903,7 +22892,6 @@ E { 5384} {e} {open gate;e} {2} {0} {} {1.000} {}
 
 R { 5384} {0} {<228>} {Inside the West Gate} {<228>, `<088>} {This wide street's cobblestones have been smashed and pulled up in places, but the road is still passable.  Small pieces of rubbish either lie where they were dropped or blow slowly about, pulled at the capricious whim of the foul smelling wind.    Crude hands have scarred the masonries of every building facing the road with runes and lewd sketches, and cruel wills have chipped and broken the once carefully and lovingly designed stonework. } {Morgul Vale} {} {Field} {} {1.000} {}
 E { 5383} {w} {w} {8} {0} {} {1.000} {}
-E { 6237} {n} {n} {1} {0} {} {1.000} {}
 
 R { 5385} {0} {} {A Steep and Damp Cave} {} {The cave is shrouded in darkness and spans out a great distance.  Sharp stalactites protrude form the ceiling above like the teeth of a dragon and  the surrounding walls are formed from rough hard stone that is covered with a thin layer of slimy feeling  moss.  Two large tunnels branch out from here leading east and west. } {The Sierra Range} {} {Underground} {} {1.000} {}
 E { 3302} {e} {e} {2} {0} {} {1.000} {}
@@ -22989,7 +22977,6 @@ R { 5405} {0} {} {Bugbear Common Room} {} {Numerous interesting things fill this
 E { 5404} {w} {w} {8} {0} {} {1.000} {}
 E { 5406} {e} {e} {2} {0} {} {1.000} {}
 E { 5410} {s} {s} {4} {0} {} {1.000} {}
-E { 6272} {n} {open panel;n} {1} {0} {} {1.000} {}
 
 R { 5406} {0} {} {Bugbear Sleeping Quarters} {} {Several cots fill this room. A row of pegs are set into the walls. Cloaks and bags hang from these pegs. A bench sits in front of an extinguished brazier. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 5405} {w} {w} {8} {0} {} {1.000} {}
@@ -23732,7 +23719,7 @@ E { 6107} {e} {e} {2} {0} {} {1.000} {}
 R { 5572} {0} {} {Outside the Western Gate of Morannon} { } {The towering western part of the Black Gate seems to lean over top of you here.  Facing this imposing mass, you see to the right a strong tower, set back into the surrounding rocks with its outer wall flush with the line of the gates.  The gate shows no seams, and is an iron monolith.  An exception is one point low to the ground, where you can make out a rectangle slightly larger in size than a man.    Behind you lies a rise of land above the Battle Plain which lies in front of Morannon, and along the line of the gates to the left lies the mid-point. } {Forest of Ithilien} {} {Field} {} {1.000} {}
 E { 5571} {n} {n} {1} {0} {} {1.000} {}
 E { 6108} {e} {e} {2} {0} {} {1.000} {}
-E { 6110} {s} {open gate;s} {4} {0} {} {1.000} {}
+E { 6110} {s} {s} {4} {0} {} {1.000} {}
 
 R { 5573} {0} {<fba>} {A Side Path Through the Forest} { } {The dirt path takes a southern turn here.  Far to the north you can hear the rumbling waterfall.  The trees whisper louder, pleading you to turn, yet the shadows beckon you forward. } {The Ruins of DeTreille} {} {Forest} {} {1.000} {}
 E { 3125} {w} {w} {8} {0} {} {1.000} {}
@@ -25905,9 +25892,8 @@ R { 6109} {0} {} {Outside the Eastern Gate of Morannon} { } {This section of the
 E { 6108} {w} {w} {8} {0} {} {1.000} {}
 E { 6111} {n} {n} {1} {0} {} {1.000} {}
 
-R { 6110} {0} {} {Outside the Western Gate of Morannon} {?} {The towering western part of the Black Gate seems to lean over top of you here.  Facing this imposing mass, you see to the right a strong tower, set back into the surrounding rocks with its outer wall flush with the line of the gates.  The gate shows no seams, and is an iron monolith.  An exception is one point low to the ground, where you can make out a rectangle slightly larger in size than a man.    Behind you lies a rise of land above the Battle Plain which lies in front of Morannon, and along the line of the gates to the left lies the mid-point. } {Forest of Ithilien} {} {Field} {} {1.000} {}
+R { 6110} {0} {} {} {?} {} {Forest of Ithilien} {} {} {} {1.000} {}
 E { 5572} {n} {n} {1} {0} {} {1.000} {}
-E { 6236} {s} {open portcullis;s} {4} {0} {} {1.000} {}
 
 R { 6111} {0} {} {A Slight Ridge on Dagorlad} { } {The land falls away in an easily manageable drop, in the direction of Morannon.  The defensive possibilities, limited as they must be in this terrible place, are immediately obvious.  To the south is one of the mighty gates, with its guard tower peeking over its summit.  To the west and north the Battle Plain runs on, but any progress eastwards is blocked by rocks of the Ash Mountains. } {Forest of Ithilien} {} {Field} {} {1.000} {}
 E { 6109} {s} {s} {4} {0} {} {1.000} {}
@@ -26014,7 +26000,7 @@ E { 6144} {s} {open door;s} {4} {0} {} {1.000} {}
 
 R { 6136} {0} {} {Pen Passageway} { } {Unevenly worked stones line the four-pace-wide passage extending to the south.  The moisture in the air leaves them slightly slick, and the damp  flagstones make for mildly treacherous footing.  In the west wall, a large  iron door sits in an equally stout frame of metal\; a lever pokes out of the  ground to its right.  Iron sconces line the western wall, with the occasional  unlit torch still to be found in some.  An intermittent banging can be heard  from the south, as well as what is recognizably a voice. } {Brute Village} {} {Inside} {} {1.000} {}
 E { 6135} {e} {e} {2} {0} {} {1.000} {}
-E { 6137} {w} {unl door;open door;w} {8} {0} {} {1.000} {}
+E { 6137} {w} {open door;w} {8} {0} {} {1.000} {}
 E { 6138} {s} {s} {4} {0} {} {1.000} {}
 
 R { 6137} {0} {} {A Holding Pen} { } {Devoid of anything besides an upturned wooden bowl in the southwest corner, the confined space measuring five paces square would undoubtedly be unpleasant to spend any amount of time in.  Small marks have been scratched into the wall not far from the bowl. } {Brute Village} {} {Inside} {} {1.000} {}
@@ -26252,7 +26238,7 @@ E { 6149} {e} {e} {2} {0} {} {1.000} {}
 E { 6164} {w} {w} {8} {0} {} {1.000} {}
 
 R { 6195} {0} {} {Unholy Rites} { } {Dark magic positively crackles through the atmosphere of the chamber, creating a fey ambiance.  The sound of sibilant chanting echoes around, the source difficult to pinpoint, but recognizably feminine in timbre.  Eight candle stumps arrayed to form a circle three paces in diameter in the east provide flickering illumination, casting myriad dancing shadows upon the walls.    The candle light reveals bodies decorating the sides of the room, although they are strangely rope-like and red in color.  Small scales are scattered on the ground, while in the south a pale, fibrous pile rests in front of a floor standing mirror, the cracks in its surface refracting the spectrum of colors. } {Brute Village} {} {Inside} {} {1.000} {}
-E { 6184} {w} {open door;w} {8} {0} {} {1.000} {}
+E { 6184} {w} {w} {8} {0} {} {1.000} {}
 
 R { 6196} {0} {} {Entry to the Shrine} { } {An extensive archway leads into an area lined with wooden pews facing the north end of the chamber.  A ruddy glow emanating from the northwest throws jagged shadows onto the jet walls, which glint softly even with the low light. A band of red mosaic marked with hieroglyphs of small horrendous figures mixed in with other, more traditional symbols encircles the room.  Dark patches and streaks mark parts of the floor, increasing in concentration toward the exit. Underlying the strong smell of incense is something more cloying, and a soft chittering can be heard further in. } {Brute Village} {} {Underground} {} {1.000} {}
 E { 6178} {s} {s} {4} {0} {} {1.000} {}
@@ -26274,7 +26260,7 @@ E { 6198} {u} {u} {16} {0} {} {1.000} {}
 
 R { 6200} {0} {} {The Dark Shrine} { } {The focus of the chamber, a massive altar dedicated to the performance of dark rites, has been partially destroyed.  A grotesque obsidian structure forged to reflect the object of the congregation's worship, its upper portion  has been smashed off, leaving a jagged black stump still taller than the  height of a man.  Tiny, glassy shards of obsidian are strewn on and around  the altar, their former shape now lost forever.  Bloodied, armored corpses  form a ring south of the altar\; apparently a stand was made here to no avail.    The western wall of the room has been partially collapsed, from the south all the way to a caved in doorway in the north.  Rubble litters the floor, but has been piled up around the door frame, leaving a gap three spans wide near the top.  A low whistling sound can be heard to the south, the direction of the source of the illumination in the area. } {Brute Village} {} {Underground} {} {1.000} {}
 E { 6198} {s} {s} {4} {0} {} {1.000} {}
-E { 6201} {w} {dig w;w} {8} {0} {} {1.000} {}
+E { 6201} {w} {w} {8} {0} {} {1.000} {}
 E { 6202} {e} {e} {2} {0} {} {1.000} {}
 
 R { 6201} {0} {} {The Vestry} { } {This is a small room measuring seven paces deep by six paces wide.  Most of the furnishings are piled up into the eastern end, obstructing the doorway and leaving the rest of the chamber almost bare.  Amongst the barricade, a wardrobe, a desk and two chairs lie splintered.  Mounted on the walls are a variety of metal implements, including tongs, a blood-crusted, hooked knife and two censers hung on chains. } {Brute Village} {} {Underground} {} {1.000} {}
@@ -26402,218 +26388,3 @@ E { 6232} {n} {n} {1} {0} {} {1.000} {}
 
 R { 6232} {0} {} {Treasure Room} { } {The room where the ninja store their gold, the profit of years of assassination and thievery from the town of Little Kyoto.  The ill-gotten wealth of the masters of invisibility lies all around you, carelessly tossed here and then forgotten.  You can exit south. } {Little Kyoto} {} {Inside} {} {1.000} {}
 E { 6231} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6233} {0} {} {The River of Lost Souls} { } {The passage narrows as water crashes down over a small ledge of stone. Sight is negated by the persistent swirl of dust, stone and mist in the air. The air is thick, tasting foul and smelling strongly of trapped ozone.  Light has dropped to nothing as, even without sight of the sky, the walls become more claustrophobic.  A great weight seems to press down against you, the result of the humid air and tight confines as you pass under the mountains themselves. Teeth stand above you, embedded in the cave's high ceiling, dripping an ominous ichor that grows thicker as it nears the cave to the north.  The river continues to flow towards the east, as the howling, nearly deafening sound to the west, is distorted and echoing here. } {Unset} {} {River} {} {1.000} {}
-E { 4041} {w} {w} {8} {0} {} {1.000} {}
-E { 6234} {n} {n} {1} {0} {} {1.000} {}
-E { 6235} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6234} {0} {} {} {<fba>DT!} {} {Unset} {} {} {} {1.000} {}
-E { 6233} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6235} {0} {} {The River of Lost Souls} { } {A thick stream of light pushes through the toothy ceiling.  Pillars of salt hang down towards the river flowing quickly through this natural cavern.  The walls are smooth and white, millenia of mineral deposits having built up on the rock, discoloring the stone.  Streaks of black flow through the water. To the west nothing is visible, and only a cacophony of speech can be heard. The east is dark and silent as the river begins to slow. } {Unset} {} {River} {} {1.000} {}
-E { 6233} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6236} {0} {} {A Postern Gate} { } {This heavily-guarded post is a simple way to pass through Morannon without opening the mighty Black Gate itself.  A roof covered with wooden shakes encloses this side of the postern gate, which appears large enough for a single rider to pass through, but not a wagon or even a small cart.    A heavy portcullis closes this side of the small entrance, sealing off the passage which runs through the thick door of the Black Gate. } {Forest of Ithilien} {} {Inside} {} {1.000} {}
-E { 6110} {n} {n} {1} {0} {} {1.000} {}
-E { 6278} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6237} {0} {} {Soldier's Way} { } {Though trash lines the sides of this wide avenue the cobblestones remain smooth and well fitted, if a bit slick with grime.  The statues that once lined both sides of this street have been thrown down\; only rubble remains as a hint of what this must have once looked like.    One statue stands still, along the eastern side of the street.  Over its head white paint has been poured.  It stands with its ghastly white face surveying all who pass. } {Morgul Vale} {} {Field} {} {1.000} {}
-E { 5384} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6238} {0} {} {Inside the Coffin} { } {The smell is not getting any better.  You are glad there is nothing above that can be placed over the casket and seal you in.  The light grows stronger as you descend. } {Swamp Cemetary} {} {Inside} {} {1.000} {}
-E { 1920} {u} {u} {16} {0} {} {1.000} {}
-
-R { 6239} {0} {} {Inside the Trunk of the Huge Blue Tree} { } {You can see very little of anything inside this tree trunk.  The insides are hollow and there seems to be a type of ladder running up and down it.  You are standing on a small dirt ledge within the trunk.  The ladder rungs run up to the top of the tree.  The wind blows across its branches fiercely and it's icy branches sway with each gust. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 5165} {n} {n} {1} {0} {} {1.000} {}
-E { 6240} {u} {u} {16} {0} {} {1.000} {}
-E { 6241} {d} {d} {32} {0} {} {1.000} {}
-
-R { 6240} {0} {} {In the Icy Canopy} { } {The crystal clear ice leaves of this tree cast prisms of light everywhere. Icy branches blow in the constant freeing wind that rushes down the faces of the Arctica Mountains that surround this glacier. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6239} {d} {d} {32} {0} {} {1.000} {}
-
-R { 6241} {0} {} {Down the Trunk of the Great Blue Tree} { } {You hang on to the root like rungs on the side of the trunk walls.  You hope they are strong enough to hold your weight up.  The opening gets wider and you feel a cold blast of air rush up from below. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6239} {u} {u} {16} {0} {} {1.000} {}
-E { 6242} {d} {d} {32} {0} {} {1.000} {}
-
-R { 6242} {0} {} {Further Down the Trunk of the Great Blue Tree} { } {You hear your voices echo off the sides of the walls around you.  You know you cannot be too far off from the bottom of this trunk's base.  The ice ladder continues downwards into the root system of the tree or it climbs upwards, towards the surface. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6241} {u} {u} {16} {0} {} {1.000} {}
-E { 6243} {d} {d} {32} {0} {} {1.000} {}
-
-R { 6243} {0} {} {The Bottom of the Blue Tree's Trunk} { } {You have reached the bottom of the trunk.  What you see surprises you.  You see bones of those less fortunate than you scattered about the place.  On the slowly melting walls you see articles of clothing frozen in time, deep inside the blocks of ice.  You must be well within the glacier now, in a complicated system of tunnels yards below the glacier's surface. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6242} {u} {u} {16} {0} {} {1.000} {}
-E { 6244} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6244} {0} {} {Within the Glacier's Caves} { } {You move from the base of the trunk to a cave that is very jagged.  The enormous stresses and strains which occur between the tons of ice and the earth must create these openings.  They are barely large enough for a human to stand upright in, but wide enough so that three may stand broadside.  They continue to the north and there is a small crevice to the east. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6243} {s} {s} {4} {0} {} {1.000} {}
-E { 6245} {e} {e} {2} {0} {} {1.000} {}
-E { 6246} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6245} {0} {} {A Small Crevice} { } {You enter a small crevice in the ice.  You look all around you, but there is very little to keep your interest in this place.  There is a small patch of melting ice laying in a puddle.  You can hear the dripping of the ice melting all around you. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6244} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6246} {0} {} {A Sharp Corner} { } {The ice crevice turns sharply here, heading east and south through the glacier's icy base.  The ice is dirty, littered with boulders, rocks, and debris brought down from the mountains far to the north. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6244} {s} {s} {4} {0} {} {1.000} {}
-E { 6247} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6247} {0} {} {Around the Corner of the Ice Crevice} { } {You make your way around the corner.  It is difficult to see anything clearly in these caves as the ice's translucent nature hides clear views. Cracks and crevices move north and west, around this sharp corner. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6246} {w} {w} {8} {0} {} {1.000} {}
-E { 6248} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6248} {0} {} {Deep within the Glacier Caves} { } {The meandering icy crevices open into a slightly larger hallowed out chamber here.  Cracks head east and south, their shimmering passageways are littered with debris and rocks from the Arctica Mountains. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6247} {s} {s} {4} {0} {} {1.000} {}
-E { 6249} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6249} {0} {} {Deep within the Glacier Cave} { } {The meandering icy crevices open into a slightly larger hallowed out chamber here.  Cracks head west and north, their shimmering passageways are littered with debris and rocks from the Arctica Mountains.  An intersection of passageways lies to the north. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6248} {w} {w} {8} {0} {} {1.000} {}
-E { 6250} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6250} {0} {} {Icy Intersection} { } {Three tight crevices converge here at an frozen intersection.  To the east it runs straight for some distance, and to the north it opens into a larger cavern.  To the south a slithering path cuts though the ice, its twisting and sharp turns allow for only the shortest of views. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6249} {s} {s} {4} {0} {} {1.000} {}
-E { 6251} {n} {n} {1} {0} {} {1.000} {}
-E { 6252} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6251} {0} {} {A Dead End Cavern} { } {The meandering and fractured ice crevices and tunnels below the glacier have been opened up here, into a grand cavern.  Ice carvings line the walls and a few crystals provide enough light to send it into the thick ice, illuminating frozen corpses and equipment from adventurers of the past. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6250} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6252} {0} {} {An Icy Tunnel} { } {Excavated out of the solid ice, a carved tunnel heads east from here. Patterns and carvings adorn the walls and as the tunnel heads east it opens into a large chamber with a soaring carved dome ceiling. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6250} {w} {w} {8} {0} {} {1.000} {}
-E { 6253} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6253} {0} {} {Ice Cavern} { } {There are four openings in the ice that surrounds you.  A crevice cuts into the ice in every direction.  To the north you hear the sound of shifting ice as it grinds together.  To the west a tunnel opens up while the east offers a larger cavern.  To the south a crack cuts quickly into the ice, sloping downwards as it moves at a steep decline. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6252} {w} {w} {8} {0} {} {1.000} {}
-E { 6254} {n} {n} {1} {0} {} {1.000} {}
-E { 6255} {e} {e} {2} {0} {} {1.000} {}
-E { 6256} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6254} {0} {} {} {<fba>DT!} {} {Arctica} {} {} {} {1.000} {}
-E { 6253} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6255} {0} {} {} { } {} {Arctica} {} {} {} {1.000} {}
-E { 6253} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6256} {0} {} {Down a Sloping Path} { } {The ground starts to really fall away here, descending quickly as it moves south.  The solid ice that surrounds you offers no hand holds or means to slow your descent should you slip.  To the north the ground levels out, with branching tunnels heading in each direction. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6253} {n} {n} {1} {0} {} {1.000} {}
-E { 6257} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6257} {0} {} {Further Down the Sloping Path} { } {The path here has become almost vertical as it moves though the ice.  The walls on either side of you are partially melting and offer no means to stop you from slipping.  To the north the path climbs quickly, back into the frozen solid ice. } {Arctica} {} {Inside} {} {1.000} {}
-E { 6256} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6258} {0} {} {} { } {} {Arctica} {} {} {} {1.000} {}
-E { 5161} {w} {w} {8} {0} {} {1.000} {}
-E { 6259} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6259} {0} {} {The Edge of the Glacier and Mountain Side} { } {You are now at the edge of the glacier.  The mountain side surrounds you to the south and west.  The great blue tree is to your northwest now. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6258} {w} {w} {8} {0} {} {1.000} {}
-E { 6263} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6260} {0} {} {An Opening in the Mountain Side} { } {There seems to have been a rock slide at this place.  The rock side is very rough and sharp slivers of rock protrude from the mountain side.  There are blue crystals broken free from the mountain side at your feet, which glimmer with a sparkling blue color and are scattered all around.  There is a cave to the east. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 5168} {e} {e} {2} {0} {} {1.000} {}
-E { 5166} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6261} {4104} {} {} { } {} {Arctica} {} {} {} {1.000} {}
-E { 5162} {w} {w} {8} {0} {} {1.000} {}
-E { 6263} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6262} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 5163} {n} {n} {1} {0} {} {1.000} {}
-E { 5162} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6263} {0} {} {To the East of the Glacier} { } {You are now approaching the west side of the glacier.  The mountain seems to wrap around the glacier here, like a wall.  To your east there is a cave entrance into the side of the mountain.  All around you there is ice and more ice, and that magnificent tree to your west. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6259} {s} {s} {4} {0} {} {1.000} {}
-E { 6264} {e} {e} {2} {0} {} {1.000} {}
-E { 6261} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6264} {0} {} {An Opening in the Mountain Side} { } {There seems to have been a rock slide at this place.  The rock side is very rough and sharp slivers of rock protrude from the mountain side.  There are blue crystals broken free from the mountain side at your feet, which glimmer with a sparkling blue color and are scattered all around.  There is a cave to the east. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6263} {w} {w} {8} {0} {} {1.000} {}
-E { 6265} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6265} {0} {} {A Small Cave} { } {This cave is large enough to fit humans, but is roughly cut.  It must have been created by the pressures exerted on the mountain by the glacier as it continues creeping eastward. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6264} {w} {w} {8} {0} {} {1.000} {}
-E { 6266} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6266} {0} {} {The End of the Rough Ice Cave} { } {You have arrived at the east end of a tunnel in the mountain side.  There is a large gust of wind blowing from the north.  Inside the tunnel is a crack. You peer in and see a whole new realm.  It is totally barren on the other side and there seems to be very little life. } {Arctica} {} {Arctic} {} {1.000} {}
-E { 6265} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6267} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 5166} {e} {e} {2} {0} {} {1.000} {}
-E { 5165} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6268} {0} {} {Behind the Huge Boulders} { } {With the hillside rising quickly to the north and the waters of the Silver River running by to the south, these boulders have created a place along the shore safe enough to exit the river. } {Hill Giant Fortress} {} {Hills} {} {1.000} {}
-E { 3600} {s} {s} {4} {0} {} {1.000} {}
-E { 6286} {d} {d} {32} {0} {} {1.000} {}
-
-R { 6269} {0} {} {Under the Silver River's Northern Bank} { } {A circular pit, lined with stone and a hard packed floor, is cut into the rocky bank of the river here.  Large boulders, balanced and weighted to easily swing over this pit provide an enclosure above.  To the south a half submerged tunnel traverses under the Silver River. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 6268} {u} {open boulder u;u} {16} {0} {} {1.000} {}
-E { 6270} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6270} {0} {} {Beneath the Silver River} { } {This half submerged tunnel runs directly under the Silver River.  Water drips constantly from above but finds enough porus ground below to only fill the tunnel up half way.  To the north it climbs up and under the northern bank and to the south it dead ends at the back side of a well balanced boulder, part of the fortress's foundation. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 6269} {n} {n} {1} {0} {} {1.000} {}
-E { 6276} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6271} {0} {} {Secret Stairwell} { } {This small shaft cut into the ground has a steep staircase within its confines.  A single torch is mounted on the back wall, but it is extinguished, leaving the room dark.  There is a small opening to the north which appears to be blocked by a stack of large boxes beyond. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 4387} {n} {open boxes;n} {1} {0} {} {1.000} {}
-E { 6276} {d} {d} {32} {0} {} {1.000} {}
-
-R { 6272} {0} {} {Rubble Filled Hallway} { } {The hallway here is starting to get cluttered with rubble.  You also notice that to the east the hallway starts to become a natural underground cave. There is a small variation in the rock wall to the south which seems out of place.    There's more here than meets the eye. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5405} {s} {open panel;s} {4} {0} {} {1.000} {}
-E { 6273} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6273} {0} {} {Secret Bugbear Hallway} { } {This dark cluttered but well used hallway provides an alternative means in and out of the fortress for the bugbears that shelter within its walls.  It was once a naturally occuring cavern system but over time it has been fashioned into a smooth walled tunnel.  It continues to the north and west from here. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 6272} {w} {w} {8} {0} {} {1.000} {}
-E { 6274} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6274} {0} {} {Rubble Strewn Secret Hallway} { } {The rock carved tunnel meanders around veins of solid granite to work their way under the foundations of the fortress's walls.  To the west, you can see a torch lit area filled with crates and various tools.  The tunnel leads on to the south into a secret access tunnel used by the Bugbears. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 6273} {s} {s} {4} {0} {} {1.000} {}
-E { 6275} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6275} {0} {} {Tunnel Storage Room} { } {This tunnel chamber appears to be a secret storage chamber for the Bugbear residents of the Fortress.  Racks of weapons, shelves of parisables, and crates full of armor cover the walls.  The tunnel continues to the north and east from here. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 6274} {e} {e} {2} {0} {} {1.000} {}
-E { 6276} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6276} {0} {} {Secret Shaft} { } {Hewn into the foundation of the fortress above, this shaft leads upwards into a secret chamber within.  Solid stone walls, of large stacked boulders, form the foundation of the walls above.  To the south the tunnel meanders its way under the fortress.    There's more here than meets the eye. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 6275} {s} {s} {4} {0} {} {1.000} {}
-E { 6271} {u} {u} {16} {0} {} {1.000} {}
-E { 6270} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6277} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E { 6276} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6278} {0} {} {Behind Morannon} { } {You are standing directly beneath the smooth black wall of Morannon, which towers above you.  Three gates span the pass through the mountains, but you can see no mechanism of how they might open.  Nor can you conceive of how such a stupendous feat could be accomplished, as even a team of Oliphants from Far Harad would be hard-pressed to budge these seemingly immovable slabs.    A faint trail runs along the western portion of the gates to a small structure notched into it at the bottom: presumably a postern gate.  To the south, the trail runs away from Morannon, between the guard towers. } {Forest of Ithilien} {} {Field} {} {1.000} {}
-E { 6236} {w} {w} {8} {0} {} {1.000} {}
-E { 6279} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6279} {0} {} {Cirith Gorgor} { } {Watched from all sides, this is a perilous spot indeed.  To the north rises the smooth, black wall of the Morannon, closing Mordor to even the mightiest of siege engines.  To the west is Narchost, the first of the guard towers.  It is built into the rocks of the Mountains of Shadow, and its north wall is flush with the Black Gate itself.  On the other side, to the east, is its twin: Carchost.  This tower marks the western end of the Ash Mountains, and it is more massive but not quite as tall as its companion.    Only to the south does there appear to be an escape from the relentless scrutiny of the towers and the gates.  There you perceive a barely noticeable slope downwards, out of Cirith Gorgor. } {Forest of Ithilien} {} {Field} {} {1.000} {}
-E { 6278} {n} {n} {1} {0} {} {1.000} {}
-E { 6280} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6280} {0} {} {Courtyard of Carchost} { } {A jagged spur of rock from Ered Lithui, the Ash Mountains, cuts off the view of the Black Gate to the North, as well as a rampart of Carchost, the eastern twin of the Towers of the Teeth.  Some attempt has been made to adorn the flattened earth with flagstones, but they are weathered, cracked, and covered in dust in many places.    A broad open space between the towers and behind Morannon lies to the west. To the east lies a doorway leading into Carchost.  A fenced field to the south appears to be a spot for mustering or drilling the hordes who slavishly serve the Dark Lord. } {Forest of Ithilien} {} {Field} {} {1.000} {}
-E { 6279} {w} {w} {8} {0} {} {1.000} {}
-E { 6281} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6281} {0} {} {Entrance of Carchost} { } {Filled with many columns, this wide room is lit with iron braziers which have stained the ceiling black with smoke and soot.  Each column widens at its base and as its peak, giving the impression of a cave.    A doorway marks the main entrance way to the west.  Out the north of this hall there is a small room filled with equipment.  A larger opening to the south reveals rows of tables in a long room. } {Forest of Ithilien} {} {Inside} {} {1.000} {}
-E { 6280} {w} {w} {8} {0} {} {1.000} {}
-E { 6282} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6282} {0} {} {Weapons Room} { } {Concerned only with function, and not with display, the cruel Orcs and their even more vicious masters care for their weapons in this room.  A tub of grease sits atop a table, evidently used to maintain a suit of heavy leather armor which rests nearby.  A grinding wheel for swords and bolts stands in the corner, and dozens of simple spears line the wall nearest the doorway leading to the entrance hall.    That doorway lies to the south.  To the east you see another room similar to the one you are in. } {Forest of Ithilien} {} {Inside} {} {1.000} {}
-E { 6281} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6283} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 3588} {w} {w} {8} {0} {} {1.000} {}
-E { 3587} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6284} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 3589} {w} {w} {8} {0} {} {1.000} {}
-E { 3588} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6285} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 3590} {w} {w} {8} {0} {} {1.000} {}
-E { 3589} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6286} {8} {} {} { } {} {} {} {} {} {1.000} {}
-E { 6268} {u} {u} {16} {0} {} {1.000} {}
-E { 6269} {d} {d} {32} {0} {} {1.000} {}
-
-R { 6287} {8} {} {} { } {} {} {} {} {} {1.000} {}
-E { 3591} {w} {w} {8} {0} {} {1.000} {}
-E { 3590} {e} {e} {2} {0} {} {1.000} {}
