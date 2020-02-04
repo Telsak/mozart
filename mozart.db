@@ -235,3 +235,11 @@
 235,1904,Hammer,long-handled-shovel-hammer,a long-handled shovel,1d19,crush
 236,ROOMVNUM,Armor,shield-antique-paladin-golden,an antique golden shield,Shield,13,Divine Magics: +3,Hitroll: +1,Wisdom: +6,Willpower Saves: +4
 237,6275,Throwable Dagger,cleaved-shard-dagger,a cleaved shard,8d1,pierce,Hit-N-Dam: +2
+238,ROOMVNUM,Jewelry,silver-diamond-wedding-ring,a silver wedding ring,Finger,0,Damroll: +1
+239,ROOMVNUM,Sword,Mordorean-black-iron-rusted-scimitar,a black scimitar,2d7,slash,Hit-N-Dam: +1,Hit Points: +5
+240,ROOMVNUM,Jewelry,dwarven-ring-steel,a steel dwarven ring,Finger Hold,0,Hitroll: +1,Constitution: +7,Strength: +7
+241,ROOMVNUM,Throwable Dagger,barbers-shears,a pair of barber's shears,2d4,pierce
+242,6329,Jewelry,ring-black,a black ring,Finger,0,Hitroll: -1,Mana: +25,Armor: +10,Movement: +25,Hit Points: +25
+243,6325,Armor,furry-boots,a pair of furry boots,Feet,10,Movement: -20,Mana: +25
+244,6325,Throwable Dagger,broken-stiletto-blade,a broken stiletto blade,2d5,pierce,Hitroll: -2,Weapon Spell: Poison at Level 6,Damroll: +2
+245,6325,Clothing,tattered-cloak,a tattered cloak,Neck About,0,Movement: -20,Armor: +10
