@@ -17,7 +17,7 @@ F 8203
 
 G 0
 
-I 202
+I 841
 
 L {ASCII NESW LINE} {NO EXITS} {#}
 L {ASCII NESW LINE} {N} {o}
@@ -215,7 +215,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -14096,7 +14096,6 @@ E { 5787} {n} {n} {1} {0} {} {1.000} {}
 R { 3284} {0} {} {Outside the Cursed Library} {} {You have made it to the front of the building with no problems, but still have a strange urge to turn back and flee this vile land.  Something tugs at your sleeve telling you that this is not how it has always been.  It is like someone or something has plagued the land, and forced it into it's own evil way of living.  The huge double doors in front of you seem bonded by some powerful magic.  You feel as if you should not be standing here, and should leave soon. } {Cursed Library} {} {Field} {} {1.000} {}
 E { 5786} {s} {s} {4} {0} {} {1.000} {}
 E { 5788} {w} {w} {8} {0} {} {1.000} {}
-E { 6325} {n} {unl doors;open doors;n} {1} {0} {} {1.000} {}
 
 R { 3285} {0} {} {At the Bottom of the Ravine on the Path to Mt. Belknap} {} {The dense overcropping of pine trees begins to intertwine, casting a shadow over the ravine.  The underlining path continues toward Mount Belknap in the far off distance.  Sharp pine needles layer the rocky ground below, rustling slightly as a chill breeze blows through. } {The Sierra Range} {} {Forest} {} {1.000} {}
 E { 1394} {s} {s} {4} {0} {} {1.000} {}
@@ -26766,14 +26765,3 @@ E { 6320} {n} {n} {1} {0} {} {1.000} {}
 
 R { 6324} {0} {} {It seems to be locked.} { } {H:1027/1027 M:100/172 V:536/536 XP:8092270 C:*> The storage shed door seems to be closed. } {Elven Outpost} {} {} {} {1.000} {}
 E { 1872} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6325} {0} {} {Inside the Cursed Library} { } {The room has been torn apart by some powerful force of magic, or just pure evilness.  The walls have been charred a deep black, and the room is almost utterly black.  You can sense danger all about you. } {Cursed Library} {} {Inside} {} {1.000} {}
-E { 3284} {s} {unl doors;open doors;s} {4} {0} {} {1.000} {}
-E { 6326} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6326} {0} {} {The Library Chapel} { } {beautiful tapestries that hung on the wall are now shredded and hanging by their last lines of thread.  The walls have been ripped apart, and stuff is strewn everywhere. } {Cursed Library} {} {Inside} {} {1.000} {}
-E { 6325} {e} {e} {2} {0} {} {1.000} {}
-E { 6327} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6327} {0} {} {At the Altar} { } {This is the only place in the library that is unaffected by all the turmoil around you.  The cloth is still intact, and clean, and the altar is standing in one piece, seemingly untouched.  The only odd thing about it is the room is completely dark. } {Cursed Library} {} {Inside} {} {1.000} {}
-E { 6326} {e} {e} {2} {0} {} {1.000} {}

@@ -8085,7 +8085,6 @@ R { 1872} {0} {} {Entrance to the Barracks} {} {You are standing between several
 E { 1870} {n} {n} {1} {0} {} {1.000} {}
 E { 1873} {e} {open door east;e} {2} {0} {} {1.000} {}
 E { 1875} {w} {open door west;w} {8} {0} {} {1.000} {}
-E { 6324} {s} {open storage south;s} {4} {0} {} {1.000} {}
 
 R { 1873} {0} {} {Inside the Major's Barracks} {} {This room is well furnished.  There is one table with two chairs pushed against the east wall.  There is a comfortable looking bed against the north wall.  Several maps hang on the walls.  The maps seem to be of the lands immediately surrounding Nevrast.  There are strange markings covering the maps. There is a sash hanging from the back of a chair.  The quality of the material and markings on it indicate that this is an officer's quarters.  This barracks has a wall dividing it into two rooms.  A doorway leads to the second room. } {Elven Outpost} {} {Inside} {} {1.000} {}
 E { 1872} {w} {open door;w} {8} {0} {} {1.000} {}
@@ -9333,23 +9332,23 @@ E { 3053} {n} {n} {1} {0} {} {1.000} {}
 E { 2149} {s} {s} {4} {0} {} {1.000} {}
 E { 3035} {e} {e} {2} {0} {} {1.000} {}
 
-R { 2149} {0} {} {} {} {} {Morgul Vale} {} {} {} {1.000} {}
+R { 2149} {0} {} {Through the White Mountains} {} {This slender path winds itself along between the steep cliffs.  Though high up, the temperature is surprisingly warm.  Pines grow up the sides of the valleys, and grasses have begun to sprout in the thin soil. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 2148} {n} {n} {1} {0} {} {1.000} {}
 E { 2150} {e} {e} {2} {0} {} {1.000} {}
 
-R { 2150} {0} {} {} {} {} {Morgul Vale} {} {} {} {1.000} {}
+R { 2150} {0} {} {Through the White Mountains} {} {The path begins to head downward into a fertile river valley. You can see the grasslands somewhat to the east of you, and a great river flowing north and south through them. The temperature is fairly warm, and the breeze is pleasant fresh. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 2149} {w} {w} {8} {0} {} {1.000} {}
 E { 2151} {e} {e} {2} {0} {} {1.000} {}
 
-R { 2151} {0} {} {An Eastward Road} {} {The great eastern road continues here under the branches of trees that grow ever more frail looking.  The once smooth pavement of the road is cracked and pitted\; in places large cobblestones have been removed and thrown to the side. Large, yellowish weeds have pushed up through the spaces between the stones, making walking here somewhat difficult.    The natural sounds of the forest have quieted somewhat\; the normally varied chatter of birds has been replaced with the harsh and eager cawing of crows. } {Morgul Vale} {} {Field} {} {1.000} {}
+R { 2151} {0} {} {Through the White Mountains} {} {The path begins to head downward into a fertile river valley.  You can see the grasslands somewhat to the east of you, and a great river flowing north and south through them.  The temperature is fairly warm, and the breeze is pleasantly fresh. } {NotYetSet} {} {Mountains} {} {1.000} {}
 E { 2150} {w} {w} {8} {0} {} {1.000} {}
 E { 2152} {e} {e} {2} {0} {} {1.000} {}
 
-R { 2152} {0} {} {The Mouth of Morgul Vale} {} {The great eastern road passes here under the watchful and angry guard of Ephel Duath.  Towering mountains rise steeply to the north and to the south.  A small stream, the dying remains of what might have been a happy brook, trickles black, brackish water down from the east.  Along its shore no plants will grow.    The wind rustles through the few dry and yellow grasses that somehow survive here\; even the crows have quieted, completing the hollow, lifeless feeling that this place gives. } {Morgul Vale} {} {Hills} {} {1.000} {}
+R { 2152} {0} {} {Into the Grasslands} {} {The trail comes down out of the White mountains into lush grassland.  The sound of birds brightly chirping, and the wind rushing through the tall grasses carries a high soprano sound to the low movement of the river that lies somewhat to your east. } {NotYetSet} {} {Field} {} {1.000} {}
 E { 2151} {w} {w} {8} {0} {} {1.000} {}
 E { 2153} {e} {e} {2} {0} {} {1.000} {}
 
-R { 2153} {0} {} {Into Morgul Vale} {} {The road continues along the edge of the dying stream, the only sound being the soft moaning of the wind as it flows gratefully from the east down toward the west.  A harsh haze sits about the mountain peaks to your north and south, blocking much of the sunlight from the ground.    The corpse of a small black squirrel lies pinned to the ground on the southern side of the road, some feet from the edge of the stream.  It is the only sign you have had that life exists in this dreary place. } {Morgul Vale} {} {Hills} {} {1.000} {}
+R { 2153} {0} {} {Along the Banks of the Anduin} {} {The grassy fields end at the edge of the wide, and slowly flowing river Anduin. Green rushes and cat tails grow thickly along the sides of the river; the soft earth provides perfect opportunity for the growth of flowers of all sorts.   Somewhat to the south you can see the white walls of a great rampart. } {NotYetSet} {} {Shore} {} {1.000} {}
 E { 2152} {w} {w} {8} {0} {} {1.000} {}
 E { 3066} {e} {e} {2} {0} {} {1.000} {}
 
@@ -11717,7 +11716,7 @@ E { 2714} {n} {n} {1} {0} {} {1.000} {}
 
 R { 2713} {0} {} {Chamber of Masks} {} {This small room is filled with props and other materials suitable to help in disguising someone.  A clutter of trunks holds false beards, clothes for nearly every profession, a series of inexpensive, but serviceable weapons, and various powders and colorings. } {Kerrin} {} {Inside} {} {1.000} {}
 E { 2712} {w} {w} {8} {0} {} {1.000} {}
-E { 2706} {u} {open trapdoor;u} {16} {0} {} {1.000} {}
+E { 2706} {u} {u} {16} {0} {} {1.000} {}
 
 R { 2714} {0} {} {The Hideaway} {} {This small room apparently is used transiently; it holds none of the knick-knacks that a permanent dwelling place might hold.  A small cot with rumpled sheets stands along one wall of the room, and a dingy wood dresser sits } {Kerrin} {} {Inside} {} {1.000} {}
 E { 2712} {s} {s} {4} {0} {} {1.000} {}
@@ -13198,19 +13197,19 @@ R { 3065} {0} {<148>} {Acrid Passage} {<148>. .<088>} {Swirling green smoke limi
 E { 3064} {w} {w} {8} {0} {} {1.000} {}
 E { 3649} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3066} {0} {} {The River Anduin} {} {The river Anduin flows slowly, softly, almost imperceptibly toward the ocean to the south.  Its quiet waters are clear, and filled with trout and other fish.  It is a powerful river, deep and alive. } {Morgul Vale} {} {Shore} {} {1.000} {}
+R { 3066} {0} {} {The River Anduin} {} {The river Anduin flows slowly, softly, almost imperceptibly toward the ocean to the south.  Its quiet waters are clear, and filled with trout and other fish.  It is a powerful river, deep and alive. } {NotYetSet} {} {Shore} {} {1.000} {}
 E { 2153} {w} {w} {8} {0} {} {1.000} {}
 E { 3067} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3067} {0} {} {A Crest in the Road} {} {} {Morgul Vale} {} {} {} {1.000} {}
+R { 3067} {0} {} {Along the Banks of the Anduin} {} {The western bank of Anduin is dominated by thick rushes, and soft, almost swampy ground.  Many small animal paths lead from this place east, toward the heavier forest that beckons to you with peaceful, shady arms. } {NotYetSet} {} {Shore} {} {1.000} {}
 E { 3066} {w} {w} {8} {0} {} {1.000} {}
 E { 3068} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3068} {0} {} {Into the Forests of Ithilien} {} {The broad, leafy oaks and elms of the forest of Ithilien hold themselves above you, giving you a pleasant, dappled screen from the sun above.  Birds can be heard chattering in the trees, the rustle of leaves gives away the presence of chipmunks, and other small animals.    Fairly quickly, a trail forms and begins to head east. } {Morgul Vale} {} {Forest} {} {1.000} {}
+R { 3068} {0} {} {Into the Forests of Ithilien} {} {The broad, leafy oaks and elms of the forest of Ithilien hold themselves above you, giving you a pleasant, dappled screen from the sun above.  Birds can be heard chattering in the trees, the rustle of leaves gives away the presence of chipmunks, and other small animals.    Fairly quickly, a trail forms and begins to head east. } {NotYetSet} {} {Forest} {} {1.000} {}
 E { 3067} {w} {w} {8} {0} {} {1.000} {}
 E { 3643} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3069} {0} {} {You flee head over heels.} {} {You have become more adept at retreat!  H:187/1027 M:95/172 V:423/536 XP:8152283 C:*> [  1] retreat              [-----     ]  H:187/1027 M:95/172 V:423/536 XP:8152283 C:*> rw PANIC!  You couldn't escape! } {Morgul Vale} {} {} {} {1.000} {}
+R { 3069} {0} {} {The Crossroads} {} {} {NotYetSet} {} {Forest} {} {1.000} {}
 E { 3619} {w} {w} {8} {0} {} {1.000} {}
 E { 3070} {n} {n} {1} {0} {} {1.000} {}
 E { 3071} {e} {e} {2} {0} {} {1.000} {}
@@ -13219,11 +13218,11 @@ R { 3070} {0} {} {Ring of Trees Around the Cross-Roads} {} {Clearly this ring of
 E { 3069} {s} {s} {4} {0} {} {1.000} {}
 E { 3076} {n} {n} {1} {0} {} {1.000} {}
 
-R { 3071} {0} {} {No way!  You are fighting for your life!} {} {} {Morgul Vale} {} {} {} {1.000} {}
+R { 3071} {0} {} {An Eastward Road} {} {The great eastern road continues here under the branches of trees that grow ever more frail looking.  The once smooth pavement of the road is cracked and pitted; in places large cobblestones have been removed and thrown to the side. Large, yellowish weeds have pushed up through the spaces between the stones, making walking here somewhat difficult.    The natural sounds of the forest have quieted somewhat; the normally varied chatter of birds has been replaced with the harsh and eager cawing of crows. } {NotYetSet} {} {Field} {} {1.000} {}
 E { 3069} {w} {w} {8} {0} {} {1.000} {}
 E { 3072} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3072} {0} {} {} {} {} {Morgul Vale} {} {} {} {1.000} {}
+R { 3072} {0} {} {The Mouth of Morgul Vale} {} {The great eastern road passes here under the watchful and angry guard of Ephel Duath.  Towering mountains rise steeply to the north and to the south.  A small stream, the dying remains of what might have been a happy brook, trickles black, brackish water down from the east.  Along its shore no plants will grow.    The wind rustles through the few dry and yellow grasses that somehow survive here\; even the crows have quieted, completing the hollow, lifeless feeling that this place gives. } {Morgul Vale} {} {Hills} {} {1.000} {}
 E { 3071} {w} {w} {8} {0} {} {1.000} {}
 E { 3073} {e} {e} {2} {0} {} {1.000} {}
 
@@ -13231,7 +13230,7 @@ R { 3073} {0} {} {Into Morgul Vale} {} {The road continues along the edge of the
 E { 3072} {w} {w} {8} {0} {} {1.000} {}
 E { 3074} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3074} {0} {} {} {} {} {Morgul Vale} {} {} {} {1.000} {}
+R { 3074} {0} {} {A Choice of Direction} {} {Though the cracked and broken road continues to the east and west, small paths branch off of it here to both the north and the south.  Once a small bridge stood over the stream\; it is now broken and in ruins, but you believe it possible to walk across on the pieces that have fallen into the water.    As you pause here, a prickling sensation runs down your spine, and you become aware of something to the east.  At first the feeling is very much undefined, but it shapes itself into a presence, an angry and watchful conscious malice that guards this valley. } {Morgul Vale} {} {Hills} {} {1.000} {}
 E { 3073} {w} {w} {8} {0} {} {1.000} {}
 E { 3075} {n} {n} {1} {0} {} {1.000} {}
 E { 4353} {e} {e} {2} {0} {} {1.000} {}
@@ -14096,7 +14095,6 @@ E { 5787} {n} {n} {1} {0} {} {1.000} {}
 R { 3284} {0} {} {Outside the Cursed Library} {} {You have made it to the front of the building with no problems, but still have a strange urge to turn back and flee this vile land.  Something tugs at your sleeve telling you that this is not how it has always been.  It is like someone or something has plagued the land, and forced it into it's own evil way of living.  The huge double doors in front of you seem bonded by some powerful magic.  You feel as if you should not be standing here, and should leave soon. } {Cursed Library} {} {Field} {} {1.000} {}
 E { 5786} {s} {s} {4} {0} {} {1.000} {}
 E { 5788} {w} {w} {8} {0} {} {1.000} {}
-E { 6325} {n} {unl doors;open doors;n} {1} {0} {} {1.000} {}
 
 R { 3285} {0} {} {At the Bottom of the Ravine on the Path to Mt. Belknap} {} {The dense overcropping of pine trees begins to intertwine, casting a shadow over the ravine.  The underlining path continues toward Mount Belknap in the far off distance.  Sharp pine needles layer the rocky ground below, rustling slightly as a chill breeze blows through. } {The Sierra Range} {} {Forest} {} {1.000} {}
 E { 1394} {s} {s} {4} {0} {} {1.000} {}
@@ -18952,7 +18950,7 @@ E { 4428} {s} {open door;s} {4} {0} {} {1.000} {}
 
 R { 4428} {0} {} {The King's Map Room} {} {Though there are many trophies and weapons hanging on the walls, this room is dominated by the huge, mahogany table that is in its center.  This table is covered by maps, both of the surrounding countryside, and of the dwarf-hold itself, its roads, its dwellings and its mines.  Notations in scribbled dwarvish cover the maps, and brownish stains are left on the edges where beer has been spilled by someone's carelessness.    Soft couches sit against the western and southern walls, and a desk sits in the northeast corner of the room.  Light is provided by fully seven dwarven crystals, which have been set about the room in a haphazard fashion. } {Kerrin} {} {Inside} {} {1.000} {}
 E { 4427} {n} {open door;n} {1} {0} {} {1.000} {}
-E { 4429} {e} {open door east;e} {2} {0} {} {1.000} {}
+E { 4429} {e} {open door;e} {2} {0} {} {1.000} {}
 
 R { 4429} {0} {} {Throne Room of King Kerrin} {} {Perfectly etched tiles of lapis lazuli and jade have been carefully placed together to make the floor approaching the High King's Throne appear as a towering mountain.  At the top of the mosaic sits the Throne, made of the purest gold and inlaid with patterns of sparkling diamonds.  The huge, vaulted ceiling has had the patterns of constellations carved into it\; glittering dwarven crystals sparkle like the stars, and softly illuminate the room.    To either side of the Throne stands a stone sentinel in the shape of a muscular dwarf.  Though they do not move, they seem to stare at anyone who enters the room, ever vigilant guardians of the King. } {Kerrin} {} {Inside} {} {1.000} {}
 E { 4424} {n} {n} {1} {0} {} {1.000} {}
@@ -22893,20 +22891,19 @@ E { 5354} {s} {s} {4} {0} {} {1.000} {}
 
 R { 5381} {0} {} {A Small Path} {} {This small path quickly ascends from the floor of the valley through a large field of concealing boulders.  Few things grow on this lifeless slope, but the rocks themselves provide some hiding spot from the awful light of that tower.    Even the smallest breeze whistles a shrill, braying note as it moves between these rocks, a grating and restless siren working upon your ears.  Small sandy pebbles follow the wind, bouncing down between the boulders, and pelting you with grit. } {Morgul Vale} {} {Hills} {} {1.000} {}
 E { 4353} {s} {s} {4} {0} {} {1.000} {}
-E { 6289} {n} {n} {1} {0} {} {1.000} {}
+E { 5889} {n} {n} {1} {0} {} {1.000} {}
 
-R { 5382} {0} {} {} {} {} {Morgul Vale} {} {} {} {1.000} {}
+R { 5382} {0} {} {Onward to the Great Gate} {} {The great iron gates of the fearsome city loom large to your east.  No rocks and certainly no trees stand near to the road\; you feel completely exposed to the searching gaze of the guardians of the city, and naked to the vigilant sight of the pale beam of light.    From this distance you can see figures upon the city's walls\; some creatures do live in this dark and fearsome land. } {Morgul Vale} {} {Hills} {} {1.000} {}
 E { 4353} {w} {w} {8} {0} {} {1.000} {}
 E { 5383} {e} {e} {2} {0} {} {1.000} {}
 
-R { 5383} {0} {} {} {} {} {Morgul Vale} {} {} {} {1.000} {}
+R { 5383} {0} {} {The Westgate of Minas Morgul} {} {The gates of Minas Morgul tower over you, a leering and rusted scar in the bone white walls of the city.  Flecks of rust have fallen off of them and have colored the road a dingy pale red, but the gates stand strong, barring entrance to the city by unwanted guests.    Bits and pieces of trash are blown about in front of the gate by swirling eddies of wind\; they hit the gate and softly flutter away, or get caught in the cruel spikes that have been bolted to its face.  There is little noise here but the wind. } {Morgul Vale} {} {Field} {} {1.000} {}
 E { 5382} {w} {w} {8} {0} {} {1.000} {}
 E { 5384} {e} {open gate;e} {2} {0} {} {1.000} {}
 
-R { 5384} {0} {} {Inside the West Gate} {} {} {Morgul Vale} {} {} {} {1.000} {}
+R { 5384} {0} {<228>} {Inside the West Gate} {<228>, `<088>} {This wide street's cobblestones have been smashed and pulled up in places, but the road is still passable.  Small pieces of rubbish either lie where they were dropped or blow slowly about, pulled at the capricious whim of the foul smelling wind.    Crude hands have scarred the masonries of every building facing the road with runes and lewd sketches, and cruel wills have chipped and broken the once carefully and lovingly designed stonework. } {Morgul Vale} {} {Field} {} {1.000} {}
 E { 5383} {w} {w} {8} {0} {} {1.000} {}
 E { 6237} {n} {n} {1} {0} {} {1.000} {}
-E { 6299} {s} {s} {4} {0} {} {1.000} {}
 
 R { 5385} {0} {} {A Steep and Damp Cave} {} {The cave is shrouded in darkness and spans out a great distance.  Sharp stalactites protrude form the ceiling above like the teeth of a dragon and  the surrounding walls are formed from rough hard stone that is covered with a thin layer of slimy feeling  moss.  Two large tunnels branch out from here leading east and west. } {The Sierra Range} {} {Underground} {} {1.000} {}
 E { 3302} {e} {e} {2} {0} {} {1.000} {}
@@ -23077,7 +23074,7 @@ E { 1654} {s} {s} {4} {0} {} {1.000} {}
 E { 5426} {e} {e} {2} {0} {} {1.000} {}
 E { 5427} {n} {n} {1} {0} {} {1.000} {}
 
-R { 5426} {0} {} {Trail in the Shadowy Forest} {} {You make your way along the small but curiously worn path in these dark woods.  You get an eerie feeling that you are being watched and that someone or something is moving around you.  Perhaps it's just the haunting shadows produced by the forest canopy obscuring the sun.  The trail continues to the east and west. } {NotYetSet} {} {Forest} {} {1.000} {}
+R { 5426} {0} {<aca>} {Trail in the Shadowy Forest} {<aca>( *<088>} {You make your way along the small but curiously worn path in these dark woods.  You get an eerie feeling that you are being watched and that someone or something is moving around you.  Perhaps it's just the haunting shadows produced by the forest canopy obscuring the sun.  The trail continues to the east and west. } {NotYetSet} {} {Forest} {} {1.000} {}
 E { 5425} {w} {w} {8} {0} {} {1.000} {}
 
 R { 5427} {0} {} {You flee head over heels.} {} {} {Unset} {} {} {} {1.000} {}
@@ -25026,15 +25023,15 @@ E { 5867} {s} {unlock throne;open throne;s} {4} {0} {} {1.000} {}
 E { 5993} {n} {n} {1} {0} {} {1.000} {}
 
 R { 5889} {0} {} {At the Foot of the Winding Stair} { } {A hurried scramble between the boulders below finds you standing at the foot of a great staircase, completely concealed from the sorcerous light that searches the valley from the tower below.    This staircase, carved from the rock of the mountain, winds up and eastward as far as you can see, fading into the mists and ashy clouds that seem to cloak the Fence of Shadows in impenetrable gloom. } {Morgul Vale} {} {Mountains} {} {1.000} {}
-E { 6289} {s} {s} {4} {0} {} {1.000} {}
+E { 5381} {s} {s} {4} {0} {} {1.000} {}
 E { 5890} {e} {e} {2} {0} {} {1.000} {}
 
 R { 5890} {0} {} {The Winding Stair} { } {The great staircase winds upward from the west to the north.  It is littered with small pebbles and sand, and many of the stairs are cracked, but the steps themselves show precision in their craftsmanship\; no crude hand made this path. } {Morgul Vale} {} {Mountains} {} {1.000} {}
 E { 5889} {w} {w} {8} {0} {} {1.000} {}
-E { 6290} {n} {n} {1} {0} {} {1.000} {}
+E { 5891} {n} {n} {1} {0} {} {1.000} {}
 
 R { 5891} {0} {} {The Winding Stair} { } {The stair turns its upward climb from north to east here.  The wind flows gently down the slight channel in the mountain, slowly drying your mouth and eyes as it passes you. } {Morgul Vale} {} {Mountains} {} {1.000} {}
-E { 6290} {s} {s} {4} {0} {} {1.000} {}
+E { 5890} {s} {s} {4} {0} {} {1.000} {}
 E { 5892} {e} {e} {2} {0} {} {1.000} {}
 
 R { 5892} {0} {} {The Winding Stair} { } {The great stair continues on straight up the face of the mount and more or less directly east.  The chill in the air is somewhat more pronounced here\; things will soon become quite cold if this trend continues. } {Morgul Vale} {} {Mountains} {} {1.000} {}
@@ -26423,8 +26420,6 @@ E { 6278} {e} {e} {2} {0} {} {1.000} {}
 
 R { 6237} {0} {} {Soldier's Way} { } {Though trash lines the sides of this wide avenue the cobblestones remain smooth and well fitted, if a bit slick with grime.  The statues that once lined both sides of this street have been thrown down\; only rubble remains as a hint of what this must have once looked like.    One statue stands still, along the eastern side of the street.  Over its head white paint has been poured.  It stands with its ghastly white face surveying all who pass. } {Morgul Vale} {} {Field} {} {1.000} {}
 E { 5384} {s} {s} {4} {0} {} {1.000} {}
-E { 6288} {e} {e} {2} {0} {} {1.000} {}
-E { 6291} {n} {n} {1} {0} {} {1.000} {}
 
 R { 6238} {0} {} {Inside the Coffin} { } {The smell is not getting any better.  You are glad there is nothing above that can be placed over the casket and seal you in.  The light grows stronger as you descend. } {Swamp Cemetary} {} {Inside} {} {1.000} {}
 E { 1920} {u} {u} {16} {0} {} {1.000} {}
@@ -26554,7 +26549,7 @@ E { 6270} {s} {s} {4} {0} {} {1.000} {}
 
 R { 6270} {0} {} {Beneath the Silver River} { } {This half submerged tunnel runs directly under the Silver River.  Water drips constantly from above but finds enough porus ground below to only fill the tunnel up half way.  To the north it climbs up and under the northern bank and to the south it dead ends at the back side of a well balanced boulder, part of the fortress's foundation. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 6269} {n} {n} {1} {0} {} {1.000} {}
-E { 6276} {s} {open boulder;s} {4} {0} {} {1.000} {}
+E { 6276} {s} {s} {4} {0} {} {1.000} {}
 
 R { 6271} {0} {} {Secret Stairwell} { } {This small shaft cut into the ground has a steep staircase within its confines.  A single torch is mounted on the back wall, but it is extinguished, leaving the room dark.  There is a small opening to the north which appears to be blocked by a stack of large boxes beyond. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 4387} {n} {open boxes;n} {1} {0} {} {1.000} {}
@@ -26615,165 +26610,10 @@ R { 6285} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E { 3590} {w} {w} {8} {0} {} {1.000} {}
 E { 3589} {e} {e} {2} {0} {} {1.000} {}
 
-R { 6286} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 6286} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 6268} {u} {u} {16} {0} {} {1.000} {}
 E { 6269} {d} {d} {32} {0} {} {1.000} {}
 
-R { 6287} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 6287} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 3591} {w} {w} {8} {0} {} {1.000} {}
 E { 3590} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6288} {0} {} {Narallf's Hide Shop} { } {This small shop stands in what might once have been the ground floor of a residence.  Dirty, half cleaned hides of various animals hang from wooden pegs hammered into the walls.  Soot has clumped thickly on the ceiling, and falls in large chunks when rattled by a loud noise. } {Morgul Vale} {} {Inside} {} {1.000} {}
-E { 6237} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6289} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 5889} {n} {n} {1} {0} {} {1.000} {}
-E { 5381} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6290} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 5891} {n} {n} {1} {0} {} {1.000} {}
-E { 5890} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6291} {0} {} {Soldier's Way} { } {Though trash lines the sides of this wide avenue the cobblestones remain smooth and well fitted, if a bit slick with grime.  The statues that once lined both sides of this street have been thrown down\; only rubble remains as a hint of what this must have once looked like.    To the west stands one of the great watchtowers of the city. } {Morgul Vale} {} {Field} {} {1.000} {}
-E { 6237} {s} {s} {4} {0} {} {1.000} {}
-E { 6292} {n} {n} {1} {0} {} {1.000} {}
-E { 6293} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6292} {0} {} {Soldier's Way} { } {Though trash lines the sides of this wide avenue the cobblestones remain smooth and well fitted, if a bit slick with grime.  The statues that once lined both sides of this street have been thrown down\; only rubble remains as a hint of what this must have once looked like. } {Morgul Vale} {} {Field} {} {1.000} {}
-E { 6291} {s} {s} {4} {0} {} {1.000} {}
-E { 6295} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6293} {0} {} {Tower Barracks} { } {This large box-like room takes up the entire base of one of Minas Morgul's guard towers.  On either wall stand crudely crafted bunk beds, in the center of the room sits a table with chairs, and at the foot of each bed sits an open locker filled with dirty rags and other oddities.    A small staircase on the south wall leads up toward the watch post above. There are no windows. } {Morgul Vale} {} {Inside} {} {1.000} {}
-E { 6291} {e} {e} {2} {0} {} {1.000} {}
-E { 6294} {u} {u} {16} {0} {} {1.000} {}
-
-R { 6294} {0} {} {Atop the Northern Watchtower} { } {From this high point Morgul Vale is fully visible, a brown scar slashing westward through dark and forbidding mountains toward the fairer lands beyond the crossroads.  Minas Morgul sits eastward, a brooding hill of violence straddling Sauron's Road.  In the southern part of the city stands a bone white, slender tower from which issues a searching beam of light. } {Morgul Vale} {} {Inside} {} {1.000} {}
-E { 6293} {d} {d} {32} {0} {} {1.000} {}
-
-R { 6295} {0} {} {Soldier's Way} { } {Though trash lines the sides of this wide avenue the cobblestones remain smooth and well fitted, if a bit slick with grime.  The statues that once lined both sides of this street have been thrown down\; only rubble remains as a hint of what this must have once looked like.    To the north stands an open archway through which can be seen an operating smithy, and to the south stands an empty shell of a building. } {Morgul Vale} {} {Field} {} {1.000} {}
-E { 6292} {w} {w} {8} {0} {} {1.000} {}
-E { 6296} {n} {n} {1} {0} {} {1.000} {}
-E { 6298} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6296} {0} {} {Smithy of Azgurath} { } {The center of this wide brick enclosure holds an open fire pit and a large bellows, the principle tools of an armorer.  Sturdy iron pincers, hammers and other pieces of equipment hang from pegs on the walls, and a small bin of raw iron sits at the back of the room.    An ill repaired staircase along the eastern wall of this building leads up to a door in the ceiling. } {Morgul Vale} {} {Inside} {} {1.000} {}
-E { 6295} {s} {s} {4} {0} {} {1.000} {}
-E { 6297} {u} {u} {16} {0} {} {1.000} {}
-
-R { 6297} {0} {} {Azgurath's Rest} { } {This cluttered and dirty place is dominated by a large iron bed.  The height of orcish luxury, this bed actually has a mattress, though it is difficult to find beneath the mounds of rags and old clothing that seem to have found their way atop it.    The rest of the room is not much cleaner.  Dirty rags, moldy bread and piles of dust litter the floor.  What spartan furniture there is is buried under heaps of odd things\; broken bits of failed creations or ruined repair jobs make moving about this place a difficult task! } {Morgul Vale} {} {Inside} {} {1.000} {}
-E { 6296} {d} {d} {32} {0} {} {1.000} {}
-
-R { 6298} {0} {} {An Abandoned Warehouse} { } {The northern half of this low building's ceiling has collapsed, leaving a pile of loose rock and wood before the entrance.  Small piles of dust and trash litter the flat stone floor under what is left of the roof, and water drips down from holes in the ceiling.    The air here, hardly stirred by the breeze in the street, smells of the musty and somewhat foul smell of old death. } {Morgul Vale} {} {Inside} {} {1.000} {}
-E { 6295} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6299} {0} {} {Arena Road} { } {Caked grime and mud have covered this once well paved road with a carpet of foul smelling filth.  The walls of the broken and abandoned buildings that line this road have been defaced by the city's inhabitants, but perhaps the most wrenching sight along this road are the trees.    Planted in manicured boxes along either side of the street, the great trees that once covered the arena road with a canopy of shade stand now as lifeless, petrified skeletons. } {Morgul Vale} {} {Field} {} {1.000} {}
-E { 5384} {n} {n} {1} {0} {} {1.000} {}
-E { 6300} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6300} {0} {} {Arena Road} { } {Caked grime and mud have covered this once well paved road with a carpet of foul smelling filth.  The walls of the broken and abandoned buildings that line this road have been defaced by the city's inhabitants, but perhaps the most wrenching sight along this road are the trees.    Planted in manicured boxes along either side of the street, the great trees that once covered the arena road with a canopy of shade stand now as lifeless, petrified skeletons.    To the west stands one of the great watchtowers of the city\; to the east lies the arena. } {Morgul Vale} {} {Field} {} {1.000} {}
-E { 6299} {n} {n} {1} {0} {} {1.000} {}
-E { 6301} {w} {w} {8} {0} {} {1.000} {}
-E { 6303} {s} {s} {4} {0} {} {1.000} {}
-E { 6320} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6301} {0} {} {Tower Barracks} { } {This large box-like room takes up the entire base of one of Minas Morgul's guard towers.  On either wall stand crudely crafted bunk beds, in the center of the room sits a table with chairs, and at the foot of each bed sits an open locker filled with dirty rags and other oddities.    A small staircase on the south wall leads up toward the watch post above. There are no windows. } {Morgul Vale} {} {Inside} {} {1.000} {}
-E { 6300} {e} {e} {2} {0} {} {1.000} {}
-E { 6302} {u} {u} {16} {0} {} {1.000} {}
-
-R { 6302} {0} {} {Atop the Southern Watchtower} { } {From this high point Morgul Vale is fully visible, a brown scar slashing westward through dark and forbidding mountains toward the fairer lands beyond the crossroads.  Minas Morgul sits eastward, a brooding hill of violence straddling Sauron's Road.  In the southern part of the city stands a bone white, slender tower from which issues a searching beam of light. } {Morgul Vale} {} {Inside} {} {1.000} {}
-E { 6301} {d} {d} {32} {0} {} {1.000} {}
-
-R { 6303} {0} {} {Rath Miraelin} { } {This slender road winds itself between the ruins of tall buildings and the skeletons of tall trees.  Hints of the beautiful architecture that once stood here are all that is left\; the orcs and their masters have busily gouged the stones, and torn down or mutilated what they could not immediately use. } {Morgul Vale} {} {Field} {} {1.000} {}
-E { 6300} {n} {n} {1} {0} {} {1.000} {}
-E { 6304} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6304} {0} {} {Rath Miraelin} { } {This slender road winds itself between the ruins of tall buildings and the skeletons of tall trees.  Hints of the beautiful architecture that once stood here are all that is left\; the orcs and their masters have busily gouged the stones, and torn down or mutilated what they could not immediately use.    Directly to the west stands a large, squarish building, from which occasionally issue low moans and loud, harsh cries. } {Morgul Vale} {} {Field} {} {1.000} {}
-E { 6303} {n} {n} {1} {0} {} {1.000} {}
-E { 6305} {w} {w} {8} {0} {} {1.000} {}
-E { 6306} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6305} {0} {} {The Hospice of Minas Morgul} { } {This wide entry hall's floor is smeared with blood and grime.  Smudge marks in the filth suggest that the individuals brought here are usually dragged, or drag themselves.  The walls of the place are cracked and chipped with age, and the vaulted ceiling has begun to leak.  Etched into the stone where the walls meet the ceiling are runes which read,            'Here waits the Hand of Healing in Gentle Readiness.' } {Morgul Vale} {} {Inside} {} {1.000} {}
-E { 6304} {e} {e} {2} {0} {} {1.000} {}
-E { 6319} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6306} {0} {} {Rath Miraelin} { } {This slender road winds itself between the ruins of tall buildings and the skeletons of tall trees.  Hints of the beautiful architecture that once stood here are all that is left\; the orcs and their masters have busily gouged the stones, and torn down or mutilated what they could not immediately use.    A small side-road leads east, toward a slender building that seems to have withstood the orcish onslaught surprisingly well. } {Morgul Vale} {} {Field} {} {1.000} {}
-E { 6304} {w} {w} {8} {0} {} {1.000} {}
-E { 6307} {s} {s} {4} {0} {} {1.000} {}
-E { 6317} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6307} {0} {} {Rath Miraelin} { } {This slender road winds itself between the ruins of tall buildings and the skeletons of tall trees.  Hints of the beautiful architecture that once stood here are all that is left\; the orcs and their masters have busily gouged the stones, and torn down or mutilated what they could not immediately use. } {Morgul Vale} {} {Field} {} {1.000} {}
-E { 6306} {n} {n} {1} {0} {} {1.000} {}
-E { 6308} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6308} {0} {} {Rath Miraelin} { } {This slender road winds itself between the ruins of tall buildings and the skeletons of tall trees.  Hints of the beautiful architecture that once stood here are all that is left\; the orcs and their masters have busily gouged the stones, and torn down or mutilated what they could not immediately use. } {Morgul Vale} {} {Field} {} {1.000} {}
-E { 6307} {n} {n} {1} {0} {} {1.000} {}
-E { 6309} {w} {w} {8} {0} {} {1.000} {}
-E { 6310} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6309} {0} {} {Into the Rubble} { } {The rubble here is somewhat more passable than in most places in the city. The walls of this cathedral like building still stand, but the ceiling has collapsed and fallen to the ground.  Loose rock clatter as you move among them. At some steps you hear faint echoes from below you\; now and again your foot slips between the rocks. } {Morgul Vale} {} {Field} {} {1.000} {}
-E { 6308} {e} {e} {2} {0} {} {1.000} {}
-E { 6316} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6310} {0} {} {Rath Miraelin} { } {This slender road winds itself between the ruins of tall buildings and the skeletons of tall trees.  Hints of the beautiful architecture that once stood here are all that is left\; the orcs and their masters have busily gouged the stones, and torn down or mutilated what they could not immediately use.    To the east of you stands a large building with sturdy oak doors.  It seems to have survived the destruction intact.  The windows are barred, and the closed door shows signs of recent repair. } {Morgul Vale} {} {Field} {} {1.000} {}
-E { 6308} {w} {w} {8} {0} {} {1.000} {}
-E { 6311} {e} {open door;e} {2} {0} {} {1.000} {}
-
-R { 6311} {0} {} {Anithil} { } {You stand in what was once perhaps a theater.  The building itself seems to have been added to at different times\; it shows many varying styles of architecture.  The stone benches suggest that at one time this was an outdoor ampitheater.  Later perhaps, black and white marble pillars were added to support a lofted ceiling.  Still later the windows were bricked in with coarse stone and mortar.    Whatever it once was, this place has become a holding pen.  Small pallets of straw lie about the floor, and it smells thickly of orc. } {Morgul Vale} {} {Inside} {} {1.000} {}
-E { 6310} {w} {open door;w} {8} {0} {} {1.000} {}
-E { 6312} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6312} {0} {} {On the Stage} { } {The floor of the stage is made of wood.  In places it has rotted through, but it has remained relatively sturdy.  Straw and garbage litters the floor, gathered together in mounds by the sad creature's that are forced to live here. } {Morgul Vale} {} {Inside} {} {1.000} {}
-E { 6311} {w} {w} {8} {0} {} {1.000} {}
-E { 6313} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6313} {0} {} {Backstage} { } {The clutter of wires, cables, rope, props and curtains that fill the backstage of any theater have here been pulled down and converted into hammocks, or simply torn apart by the busy orcs.  The whole of the place smells foul and musky.  Small splatters of blood and liquor stain the floor.  Violence hangs about this backstage, and the old, stale smell of fear gnaws at you as you pass through. } {Morgul Vale} {} {Inside} {} {1.000} {}
-E { 6312} {w} {w} {8} {0} {} {1.000} {}
-E { 6314} {n} {n} {1} {0} {} {1.000} {}
-E { 6315} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6314} {0} {} {Dressing Room} { } {The windows to this small room have been bricked in, and it now serves as a semiprivate area for favored orcish warriors to indulge themselves with the pitiful slaves that are kept here.  Whatever furniture was once here has long since been destroyed.  All that is left in the room of note is a large pile of greasy and dirty rags. } {Morgul Vale} {} {Inside} {} {1.000} {}
-E { 6313} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6315} {0} {} {Dressing Room} { } {The windows to this small room have been bricked in, and it now serves as a semiprivate area for favored orcish warriors to indulge themselves with the pitiful slaves that are kept here.  Whatever furniture was once here has long since been destroyed.  All that is left in the room of note is a large pile of greasy and dirty rags. } {Morgul Vale} {} {Inside} {} {1.000} {}
-E { 6313} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6316} {0} {} {On Unstable Ground} { } {The floor of the building here has fallen away, and the moaning of wind through this place suggests by the deep note it sounds that there is a great opening beneath the floor.  As you listen, the stones beneath your feet shift and move\; you nearly lose your balance! } {Morgul Vale} {} {Inside} {} {1.000} {}
-E { 6309} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6317} {0} {} {The Hall of Records} { } {This slender building's walls stand some twenty feet high.  They are lined up to the edge of the domed ceiling with shelf atop shelf.  A runner along the edge of the ceiling suggests that at one time a ladder might have been attached, but it has long since been destroyed.    The floor and the lower walls still bear the scorch marks of an ancient fire.  Charred wood and an occasional brass book binding lie amidst the dust. It appears that none of the base creatures of Mordor have entered here. } {Morgul Vale} {} {Inside} {} {1.000} {}
-E { 6306} {w} {w} {8} {0} {} {1.000} {}
-E { 6318} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6318} {0} {} {The Hall of Records} { } {This slender building's walls stand some twenty feet high.  They are lined up to the edge of the domed ceiling with shelf atop shelf.  A runner along the edge of the ceiling suggests that at one time a ladder might have been attached, but it has long since been destroyed.    The floor and the lower walls still bear the scorch marks of an ancient fire.  Charred wood and an occasional brass book binding lie amidst the dust. It appears that none of the base creatures of Mordor have entered here. } {Morgul Vale} {} {Inside} {} {1.000} {}
-E { 6317} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6319} {0} {} {The Surgery} { } {In the center of this foul smelling place stands a table.  Two crystals set into the ceiling give slight light to the place, highlighting the surface of the surgery board, which is covered in slime and filth.  Four manacles have been stapled to the table, to prevent a patient from escaping, and odd surgical implements lie strewn about the floor.    Along the walls lie the trophies of the healer's knife: mangled hands and feet, arms and legs all rot where they were tossed. } {Morgul Vale} {} {Inside} {} {1.000} {}
-E { 6305} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6320} {0} {} {You flee head over heels.} { } {} {Morgul Vale} {} {} {} {1.000} {}
-E { 6300} {w} {w} {8} {0} {} {1.000} {}
-E { 6321} {n} {open door;n} {1} {0} {} {1.000} {}
-E { 6322} {e} {e} {2} {0} {} {1.000} {}
-E { 6323} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6321} {0} {} {Slave Pen} { } {Once a library, the windows of this large, vaulted building have been boarded shut and the books removed to secure it as a slave pen.  Small piles of rags lie about the floor and an odd, worn shoe sits on its side near the door.    Though this place does not smell particularly good, its inhabitants have made some efforts to keep it sanitary.  A latrine has been set up on the north wall, and the shelves that once held books are now used as sleeping niches. } {Morgul Vale} {} {Inside} {} {1.000} {}
-E { 6320} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6322} {0} {} {The Arena} { } {Low slung rows of benches surround a shallow, narrow pit that runs generally from the east to the west.  The floor of the pit is covered in dirt\; no real effort has been made to clear the remains of whatever was involved in the last contest.    To the south stands a heavily barred cage door. } {Morgul Vale} {} {Field} {} {1.000} {}
-E { 6320} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6323} {0} {} {House of the Arena Master} { } {This building once served as the public waste repository for Minas Ithil. It now stands proudly as the residence of Brop, master of the arena of Minas Morgul.  It has only become dirtier with age.  Piles of rags and other nameless filth lie about, rotted meat either hangs from the rafters or lies on whatever stone formations serve as tables and the pits in the center of the room are filled with rancid trash. } {Morgul Vale} {} {Inside} {} {1.000} {}
-E { 6320} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6324} {0} {} {It seems to be locked.} { } {H:1027/1027 M:100/172 V:536/536 XP:8092270 C:*> The storage shed door seems to be closed. } {Elven Outpost} {} {} {} {1.000} {}
-E { 1872} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6325} {0} {} {Inside the Cursed Library} { } {The room has been torn apart by some powerful force of magic, or just pure evilness.  The walls have been charred a deep black, and the room is almost utterly black.  You can sense danger all about you. } {Cursed Library} {} {Inside} {} {1.000} {}
-E { 3284} {s} {unl doors;open doors;s} {4} {0} {} {1.000} {}
-E { 6326} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6326} {0} {} {The Library Chapel} { } {beautiful tapestries that hung on the wall are now shredded and hanging by their last lines of thread.  The walls have been ripped apart, and stuff is strewn everywhere. } {Cursed Library} {} {Inside} {} {1.000} {}
-E { 6325} {e} {e} {2} {0} {} {1.000} {}
-E { 6327} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6327} {0} {} {At the Altar} { } {This is the only place in the library that is unaffected by all the turmoil around you.  The cloth is still intact, and clean, and the altar is standing in one piece, seemingly untouched.  The only odd thing about it is the room is completely dark. } {Cursed Library} {} {Inside} {} {1.000} {}
-E { 6326} {e} {e} {2} {0} {} {1.000} {}
