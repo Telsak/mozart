@@ -214,6 +214,7 @@
   #VAR spell[ResistCold] 0;
   #VAR spell[Strength] 0;
   #VAR spell[Alkar] 0;
+  #VAR spell[Darksight] 0;
   #VAR hunger 0;
   #VAR thirst 0;
   #DELAY {0.3} {affe}
@@ -232,6 +233,7 @@
 #ACTION {^You are briefly surrounded by a holy aura.} {#VAR spell[AlignmentWard] 1}
 #ACTION {^You are surrounded by a strong force shield.} {#VAR spell[Shield] 1}
 #ACTION {^Your eyes tingle.} {affe}
+#ACTION {^Your eyes glow red.} {#VAR spell[Darksight] 1}
 #ACTION {^You feel righteous.} {#VAR spell[Bless] 1}
 #ACTION {^You feel courageous.$} {#Var spell[Courage] 1}
 #ACTION {^You feel your awareness improve.$} {#VAR spell[SenseLife] 1}
@@ -242,7 +244,7 @@
 #ACTION {^Your skin turns slightly slippery.} {#VAR spell[Freedom] 1}
 #ACTION {^You are surrounded in an aura of soft gold.} {#VAR spell[Alkar] 1}
 
-#ACTION {%*{Detect Evil|Detect Good|Bless|Armor|Detect Invisibility|Alignment Ward|Courage|Resist Poison|Detect Magic|Waterwalking|Strength|Freedom|Alkar}%*}
+#ACTION {%*{Detect Evil|Detect Good|Bless|Armor|Detect Invisibility|Alignment Ward|Courage|Resist Poison|Detect Magic|Waterwalking|Strength|Freedom|Alkar|Darksight}%*}
 {
   #IF {"%0"=="%*Detect Evil%*" && $affects > 0} {#VAR spell[DetectEvil] 1};
   #IF {"%0"=="%*Detect Good%*" && $affects > 0} {#VAR spell[DetectGood] 1};
@@ -260,6 +262,7 @@
   #IF {"%0"=="%*Freedom%*" && $affects > 0} {#VAR spell[Freedom] 1};
   #IF {"%0"=="%*Alkar%*" && $affects > 0} {#VAR spell[Alkar] 1};
   #IF {"%0"=="%*Waterwalking%*" && $affects > 0} {#VAR spell[Waterwalking] 1};
+  #IF {"%0"=="%*Darksight%*" && $affects > 0} {#VAR spell[Darksight] 1};
   #IF {"%0"=="%*Sense Life%*" && $affects > 0} {#VAR spell[SenseLife] 1}
 }
 
@@ -282,7 +285,7 @@
 #ACTION {^Your slippery coat melts off of you} {#VAR spell[Freedom] 0}
 #ACTION {^Your golden aura is snuffed out} {#VAR spell[Alkar] 0}
 #ACTION {^Your golden aura fades away} {#VAR spell[Alkar] 0}
-
+#ACTION {^You feel disoriented as you lose your darksight.} {#VAR spell[Darksight] 0}
 #TICKER {mana} {#MATH manapercent $curM*10/$maxM} {10}
 #TICKER {rebuff} {#IF {$manapercent > 5 && $combat == 0 && $standing == 1} {recast}} {10}
 
@@ -304,6 +307,7 @@
   #ELSEIF {$spell[Freedom] == 0} {cast 'freedom'};
   #ELSEIF {$spell[ResistCold] == 0} {cast 'resist cold'};
   #ELSEIF {$spell[Alkar] == 0} {cast 'alkar'};
+  #ELSEIF {$spell[Darksight] == 0} {cast 'darksight'};
   #ELSEIF {$spell[SenseLife] == 0} {cast 'sense life'}
 }
 
