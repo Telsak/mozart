@@ -243,3 +243,7 @@
 243,6325,Armor,furry-boots,a pair of furry boots,Feet,10,Movement: -20,Mana: +25
 244,6325,Throwable Dagger,broken-stiletto-blade,a broken stiletto blade,2d5,pierce,Hitroll: -2,Weapon Spell: Poison at Level 6,Damroll: +2
 245,6325,Clothing,tattered-cloak,a tattered cloak,Neck About,0,Movement: -20,Armor: +10
+246,ROOMVNUM,Jewelry,dewdrop-necklace,a dewdrop necklace,Neck,0,Wisdom: +3,Mana: +25,Nature's Blessings: +4,Alignment-Ward
+247,ROOMVNUM,Dart,poison-dart,a poison dart,1d1,pierce,Hitroll: +3,Weapon Spell: Poison at Level 1
+248,ROOMVNUM,Throwable Hammer,faerie-floss,a pile of Faerie Floss,3d4,crush,Hitroll: +3,Weapon Spell: Web at Level 8
+249,ROOMVNUM,Armor,statue-boots,statue boots,Feet,5,Armor: +20,Hitroll: +1,Recuperation: +5,Movement: -80

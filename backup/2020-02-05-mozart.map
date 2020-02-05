@@ -17,7 +17,7 @@ F 8203
 
 G 0
 
-I 1484
+I 202
 
 L {ASCII NESW LINE} {NO EXITS} {#}
 L {ASCII NESW LINE} {N} {o}
@@ -215,7 +215,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -16620,43 +16620,43 @@ E { 3869} {d} {d} {32} {0} {} {1.000} {}
 R { 3869} {0} {} {Inside the Flower Mound} {} {As you climb deeper into the flower mound, you again hear the tinkling laughter that mystified you back in the meadow. You get the odd feeling that you are being laughed at, though by what, you couldn't say. } {NotYetSet} {} {Underground} {} {1.000} {}
 E { 3870} {d} {d} {32} {0} {} {1.000} {}
 
-R { 3870} {0} {} {Entrance to the Faerie Kingdom} {} {Vibrant green stems erupt from their roots in the soil, holding magnificent explosions of multi-colored plumes that soar to the sky.  Stalks of grass, colored of gold and jade, touch the clouds, and weep inward at their apex.  In the surrounding clusters of thick grassy terrain, the unmistakable ruby sheen of a taunt-skinned apple peeks through.  Several of these mountainous fruits have fallen and restrict immediate passage to all but a few directions, however distinctly treaded pathways weave around them.  Near a trail to the east, the face of an olive colored boulder has been smoothed and writing has been engraved upon it.  Within the ground is a pool of unsettled violet liquid, contained by a meager lip of sand\; it has no visible bottom.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3870} {0} {} {Entrance to the Faerie Kingdom} {} {Vibrant green stems erupt from their roots in the soil, holding magnificent explosions of multi-colored plumes that soar to the sky.  Stalks of grass, colored of gold and jade, touch the clouds, and weep inward at their apex.  In the surrounding clusters of thick grassy terrain, the unmistakable ruby sheen of a taunt-skinned apple peeks through.  Several of these mountainous fruits have fallen and restrict immediate passage to all but a few directions, however distinctly treaded pathways weave around them.  Near a trail to the east, the face of an olive colored boulder has been smoothed and writing has been engraved upon it.  Within the ground is a pool of unsettled violet liquid, contained by a meager lip of sand\; it has no visible bottom. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3871} {e} {e} {2} {0} {} {1.000} {}
 E { 3877} {s} {s} {4} {0} {} {1.000} {}
 E { 3879} {w} {w} {8} {0} {} {1.000} {}
 E { 1567} {d} {d} {32} {0} {} {1.000} {}
 
-R { 3871} {0} {} {A Path through the Grass} {} {Grass spires to either side of the path, which is bare save for soil and rocks. Lanterns made of dew-drops cling to the trailside and continue down the visible east-to-west pathway.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3871} {0} {} {A Path through the Grass} {} {Grass spires to either side of the path, which is bare save for soil and rocks. Lanterns made of dew-drops cling to the trailside and continue down the visible east-to-west pathway. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3870} {w} {w} {8} {0} {} {1.000} {}
 E { 3872} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3872} {0} {} {A Path through the Grass} {} {Large rocks rest to either side of the trail, distinguishing it from other, smaller routes, and exposing it as intentionally maintained.  The tip of a stout root protrudes slightly from the ground beneath, and a canopy of grass overhead is interlaced, filtering out much of the sky-light.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3872} {0} {} {A Path through the Grass} {} {Large rocks rest to either side of the trail, distinguishing it from other, smaller routes, and exposing it as intentionally maintained.  The tip of a stout root protrudes slightly from the ground beneath, and a canopy of grass overhead is interlaced, filtering out much of the sky-light. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3871} {w} {w} {8} {0} {} {1.000} {}
 E { 3873} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3873} {0} {} {A path through the Grass} {} {The pathway meets with a titanic buttercup positioned along the bend. Spiraling in an unusually opportune way, the leaves of the buttercup form a stepping structure that could be used to scale its length.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3873} {0} {} {A path through the Grass} {} {The pathway meets with a titanic buttercup positioned along the bend. Spiraling in an unusually opportune way, the leaves of the buttercup form a stepping structure that could be used to scale its length. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3872} {w} {w} {8} {0} {} {1.000} {}
 E { 3874} {s} {s} {4} {0} {} {1.000} {}
 E { 3892} {u} {u} {16} {0} {} {1.000} {}
 
-R { 3874} {0} {} {A Grassy Pathway} {} {The path widens here briefly to allow for the roots of a both a buttercup -- further to the north -- and a daffodil - to the south - to entwine with one another.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3874} {0} {} {A Grassy Pathway} {} {The path widens here briefly to allow for the roots of a both a buttercup -- further to the north -- and a daffodil - to the south - to entwine with one another. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3873} {n} {n} {1} {0} {} {1.000} {}
 E { 3875} {s} {s} {4} {0} {} {1.000} {}
 
-R { 3875} {0} {} {A Grassy Pathway} {} {A procession of yellow petals litters the ground from a molting daffodil dangling over the trail.  Due to a few apparent holes in its stem, the daffodils condition appears stable, but moderately diminished.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3875} {0} {} {A Grassy Pathway} {} {A procession of yellow petals litters the ground from a molting daffodil dangling over the trail.  Due to a few apparent holes in its stem, the daffodils condition appears stable, but moderately diminished. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3874} {n} {n} {1} {0} {} {1.000} {}
 E { 3876} {s} {s} {4} {0} {} {1.000} {}
 E { 3893} {u} {u} {16} {0} {} {1.000} {}
 
-R { 3876} {0} {} {A Path Through the Grass} {} {A family of mushrooms grows to one side of the trail.  Underfoot, the soil is loosely packed from plant tendrils of a daffodil to the north that have unsettled most of it.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3876} {0} {<228>} {A path through the Grass} {<228>, `<088>} {A family of mushrooms grows to one side of the trail.  Underfoot, the soil is loosely packed from plant tendrils of a daffodil to the north that have unsettled most of it. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3875} {n} {n} {1} {0} {} {1.000} {}
 E { 3894} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3877} {0} {} {A Path through the Grass} {} {You walk along a grassy pathway that leads to the north and south. The grass has been carefully manicured to make it suitable for tiny feet like yours, but the bushes and trees that line the pathway tower overhead, almost beyond your vision. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3877} {0} {<228>} {A Path through the Grass} {<228>, `<088>} {You walk along a grassy pathway that leads to the north and south. The grass has been carefully manicured to make it suitable for tiny feet like yours, but the bushes and trees that line the pathway tower overhead, almost beyond your vision. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3870} {n} {n} {1} {0} {} {1.000} {}
 E { 3878} {s} {s} {4} {0} {} {1.000} {}
 
-R { 3878} {0} {} {A Path through the Grass} {} {The grassy pathway continues to the north and east. You notice that the grass is somewhat browner here.    You can hear giggling coming from around you, but are unable to locate its source. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3878} {0} {<228>} {A Path through the Grass} {<228>, `<088>} {The grassy pathway continues to the north and east. You notice that the grass is somewhat browner here.    You can hear giggling coming from around you, but are unable to locate its source. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3877} {n} {n} {1} {0} {} {1.000} {}
 E { 3904} {e} {e} {2} {0} {} {1.000} {}
 
@@ -16722,20 +16722,20 @@ E { 3873} {d} {d} {32} {0} {} {1.000} {}
 R { 3893} {0} {<278>} {} {<278>[ ]<088>} {} {NotYetSet} {} {} {} {1.000} {}
 E { 3875} {d} {d} {32} {0} {} {1.000} {}
 
-R { 3894} {0} {} {A Grassy Pathway} {} {Polished stones have been laid deeply into the ground below.  A spattering of dried red fluid is smeared across some of their faces, obscuring the writing on most of them.  They continue south where some of them are upheaved by the flora.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3894} {0} {} {A Grassy Pathway} {} {Polished stones have been laid deeply into the ground below.  A spattering of dried red fluid is smeared across some of their faces, obscuring the writing on most of them.  They continue south where some of them are upheaved by the flora. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3876} {e} {e} {2} {0} {} {1.000} {}
 E { 3895} {s} {s} {4} {0} {} {1.000} {}
 
-R { 3895} {0} {} {Under a Tulip} {} {The light filtering through the ceiling of grass is tinted distinctly red from a tulip bulb that governs the sky like a crimson sun.  Unusual for such a well-kept way, the trunk is positioned square in the middle, making travel a bit more laborious.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3895} {0} {} {Under a Tulip} {} {The light filtering through the ceiling of grass is tinted distinctly red from a tulip bulb that governs the sky like a crimson sun.  Unusual for such a well-kept way, the trunk is positioned square in the middle, making travel a bit more laborious. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3894} {n} {n} {1} {0} {} {1.000} {}
 E { 3896} {s} {s} {4} {0} {} {1.000} {}
 E { 3897} {u} {u} {16} {0} {} {1.000} {}
 
-R { 3896} {0} {} {A Path Through the Grass} {} {A path from the west meets with a path from the north, forming an abrupt turn.  To the north a large Tulip overshadows the trail.  To the west, a clearing can be seen in the far distance.  A stone altar is erected on the paths bow.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Inside} {} {1.000} {}
+R { 3896} {0} {} {A path through the Grass} {} {A path from the west meets with a path from the north, forming an abrupt turn.  To the north a large Tulip overshadows the trail.  To the west, a clearing can be seen in the far distance.  A stone altar is erected on the paths bow. } {The Faerie Kingdom} {} {Inside} {} {1.000} {}
 E { 3895} {n} {n} {1} {0} {} {1.000} {}
 E { 3903} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3897} {0} {} {A Tulip} {} {Huddled together in a loose bulb, deep-blush petals ascend upward, turning the space into a scarlet-drenched arena.  Near the base of one of the petals, close to the core and stem, is a hole.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Inside} {} {1.000} {}
+R { 3897} {0} {} {A Tulip} {} {Huddled together in a loose bulb, deep-blush petals ascend upward, turning the space into a scarlet-drenched arena.  Near the base of one of the petals, close to the core and stem, is a hole. } {NotYetSet} {} {Inside} {} {1.000} {}
 E { 3895} {d} {d} {32} {0} {} {1.000} {}
 
 R { 3898} {0} {} {Atop the Lily} {} {Six oblong petals collect into somewhat of a star formation.  At their base, theyre colored by a brilliant purple that gradually fades to complete white near their tip.  It offers quite an outlook over the realm. } {The Faerie Kingdom} {} {Inside} {} {1.000} {}
@@ -16747,12 +16747,12 @@ E { 3879} {d} {d} {32} {0} {} {1.000} {}
 R { 3900} {0} {} {Petals of an Orchid} {} {Several buds, each holding 5 petals, sprout haphazardly in almost every direction.  Each petal is packed with rich purples and reds that grow deeper in color as they reach the center of their blossoms stamen\; a striking contrast against the smoldering skyline.  Several smaller branches of the orchid hold tiny bulbs that have yet to bloom. } {The Faerie Kingdom} {} {Inside} {} {1.000} {}
 E { 3886} {d} {d} {32} {0} {} {1.000} {}
 
-R { 3901} {0} {} {The Faerie Ring} {} {Small toadstools sprout between the weft of matted grass, serving as asylum to the daytime sun and night-time prowlers.  The trail is lost in a clearing to the south, where, instead, a round tree stump orients the daytime foot traffic.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3901} {0} {} {The Faerie Ring} {} {Small toadstools sprout between the weft of matted grass, serving as asylum to the daytime sun and night-time prowlers.  The trail is lost in a clearing to the south, where, instead, a round tree stump orients the daytime foot traffic. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3891} {w} {w} {8} {0} {} {1.000} {}
 E { 3902} {e} {e} {2} {0} {} {1.000} {}
 E { 3905} {s} {s} {4} {0} {} {1.000} {}
 
-R { 3902} {0} {} {Near the Faerie Ring} {} {The trail is more worn here.  The grass dances and quivers to the bustle of critters that swim through its stalks\; some of it has been trampled on to the path.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3902} {0} {} {Near the Faerie Ring} {} {The trail is more worn here.  The grass dances and quivers to the bustle of critters that swim through its stalks\; some of it has been trampled on to the path. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3901} {w} {w} {8} {0} {} {1.000} {}
 E { 3903} {e} {e} {2} {0} {} {1.000} {}
 
@@ -16762,9 +16762,8 @@ E { 3896} {e} {e} {2} {0} {} {1.000} {}
 
 R { 3904} {0} {} {A Path through the Grass} { } {As you continue along the pathway, you notice that the foilage around you has changed as well. It is as if Autumn has come to this part of the Fairy Kingdom. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3878} {w} {w} {8} {0} {} {1.000} {}
-E { 6328} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3905} {0} {} {Center of the Faerie Ring} {} {The clearing is filled with posts for trading, paraphernalia for recreation and lodging for traveling.  Most of the constructs appear closed or abandon, except for a shop to the east.  A plump tree stump hugs the earth to the west.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Inside} {} {1.000} {}
+R { 3905} {0} {} {Center of the Faerie Ring} {} {The clearing is filled with posts for trading, paraphernalia for recreation and lodging for traveling.  Most of the constructs appear closed or abandon, except for a shop to the east.  A plump tree stump hugs the earth to the west. } {The Faerie Kingdom} {} {Inside} {} {1.000} {}
 E { 3901} {n} {n} {1} {0} {} {1.000} {}
 E { 3906} {e} {e} {2} {0} {} {1.000} {}
 E { 3907} {w} {w} {8} {0} {} {1.000} {}
@@ -16795,51 +16794,48 @@ R { 3911} {0} {<aca>} {Forest Trail} {<aca>( *<088>} {Small, fuzzy ferns sprout 
 E { 3910} {n} {n} {1} {0} {} {1.000} {}
 E { 3936} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3912} {0} {} {Edge of the Faerie Ring} {} {The grass grows in tall tufts as it reaches this outer edge of a clearing that stretches to the north and west, creating somewhat of a circular barrier. To the east, a treaded pathway ventures into, and out of, the fray of green reeds, but visibility stops short as it takes a sharp turn to the south.  A tall wall of grass stands at attention to the south, but it seems to be rather sparse. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3912} {0} {<228>} {Edge of the Faerie Ring} {<228>, `<088>} {The grass grows in tall tufts as it reaches this outer edge of a clearing that stretches to the north and west, creating somewhat of a circular barrier. To the east, a treaded pathway ventures into, and out of, the fray of green reeds, but visibility stops short as it takes a sharp turn to the south.  A tall wall of grass stands at attention to the south, but it seems to be rather sparse. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3909} {w} {w} {8} {0} {} {1.000} {}
 E { 3905} {n} {n} {1} {0} {} {1.000} {}
 E { 3913} {e} {e} {2} {0} {} {1.000} {}
 E { 3917} {s} {s} {4} {0} {} {1.000} {}
 
-R { 3913} {0} {} {Entrance to the Garden} {} {The brown, gnarled trunk of an apple tree digs its roots deep into the dark soil, symbiotically fed by the mashed refuse of its fallen, decaying fruit. Rich, red orbs cluster tightly together, hanging from sprawling branches above.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3913} {0} {<228>} {Entrance to the Garden} {<228>, `<088>} {The brown, gnarled trunk of an apple tree digs its roots deep into the dark soil, symbiotically fed by the mashed refuse of its fallen, decaying fruit. Rich, red orbs cluster tightly together, hanging from sprawling branches above. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3912} {w} {w} {8} {0} {} {1.000} {}
 E { 3914} {s} {s} {4} {0} {} {1.000} {}
 
-R { 3914} {0} {} {The Garden} {} {Rows of vegetables, bushes and large leafy greens fill much of the visible garden space.  Above some of the vegetation, a geyser of water can be spotted, and even further in the distance, the top of a peach tree pokes above the horizon of hedges. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3914} {0} {<228>} {The Garden} {<228>, `<088>} {Rows of vegetables, bushes and large leafy greens fill much of the visible garden space.  Above some of the vegetation, a geyser of water can be spotted, and even further in the distance, the top of a peach tree pokes above the horizon of hedges. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3913} {n} {n} {1} {0} {} {1.000} {}
 E { 3915} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3915} {0} {} {The Garden} {} {Rows of vegetables, bushes and large leafy greens fill much of the visible garden space.  Above some of the vegetation, a geyser of water can be spotted, and even further in the distance, the top of a peach tree pokes above the horizon of hedges. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3915} {0} {<228>} {The Garden} {<228>, `<088>} {Rows of vegetables, bushes and large leafy greens fill much of the visible garden space.  Above some of the vegetation, a geyser of water can be spotted, and even further in the distance, the top of a peach tree pokes above the horizon of hedges. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3914} {w} {w} {8} {0} {} {1.000} {}
 E { 3916} {e} {e} {2} {0} {} {1.000} {}
-E { 6330} {s} {s} {4} {0} {} {1.000} {}
 
-R { 3916} {0} {} {The Garden} {} {Superficial grooves in the soil run east to west, ushering the lose water along their basins to nourish the vegetation planted throughout this ocean of earth.  To the south a row of mulberry bushes block travel. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3916} {0} {<228>} {The Garden} {<228>, `<088>} {Superficial grooves in the soil run east to west, ushering the lose water along their basins to nourish the vegetation planted throughout this ocean of earth.  To the south a row of mulberry bushes block travel. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3915} {w} {w} {8} {0} {} {1.000} {}
-E { 6337} {e} {e} {2} {0} {} {1.000} {}
 
-R { 3917} {0} {} {Marigold Lane} {} {The supple green stems of marigolds bow their blossoms to one another on either side of the trail in a staggered pattern.  Upon each of their heads rests petals so tightly huddled it looks as though they would explode upon the blooming of a single more.  A thin veil of grass seemingly obstructs passage to the north. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3917} {0} {<228>} {Marigold Lane} {<228>, `<088>} {The supple green stems of marigolds bow their blossoms to one another on either side of the trail in a staggered pattern.  Upon each of their heads rests petals so tightly huddled it looks as though they would explode upon the blooming of a single more.  A thin veil of grass seemingly obstructs passage to the north. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3912} {n} {n} {1} {0} {} {1.000} {}
 E { 3918} {s} {s} {4} {0} {} {1.000} {}
 
-R { 3918} {0} {} {Marigold Lane} {} {Bunches of forget-me-nots poke their faces between the lush flora that lines the trailside, their purple star-shaped petals snuggling against some fuzzy ferns and perky poppy flowers.  Above them all tower rows of plush marigolds. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3918} {0} {<228>} {Marigold Lane} {<228>, `<088>} {Bunches of forget-me-nots poke their faces between the lush flora that lines the trailside, their purple star-shaped petals snuggling against some fuzzy ferns and perky poppy flowers.  Above them all tower rows of plush marigolds. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3917} {n} {n} {1} {0} {} {1.000} {}
 E { 3919} {s} {s} {4} {0} {} {1.000} {}
 
-R { 3919} {0} {} {Marigold Lane} {} {The western side of the trail suddenly gives way to a field in full bloom. The terrain is almost entirely a bedding of wild flowers in every color imaginable.  A row of marigolds guide the trail to the north and south. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3919} {0} {<228>} {Marigold Lane} {<228>, `<088>} {The western side of the trail suddenly gives way to a field in full bloom. The terrain is almost entirely a bedding of wild flowers in every color imaginable.  A row of marigolds guide the trail to the north and south. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3918} {n} {n} {1} {0} {} {1.000} {}
 E { 3920} {w} {w} {8} {0} {} {1.000} {}
 E { 3921} {s} {s} {4} {0} {} {1.000} {}
 
-R { 3920} {0} {} {Flowering Meadow} {} {You enter a meadow that is abundant with wildflowers. It stretches away to the west. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3920} {0} {<228>} {Flowering Meadow} {<228>, `<088>} {You enter a meadow that is abundant with wildflowers. It stretches away to the west. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3919} {e} {e} {2} {0} {} {1.000} {}
-E { 6340} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3921} {0} {} {Marigold Lane} {} {Glistening blue gemstones have been carved into a petals likeness and placed onto the crown of a rose stem, creating a single lucent flower among the many marigolds.  Under the roses shimmering shadow, the cap of a mushroom has begun to crystalize into the same blue gemstone material, exactly where the light of the rose touches it.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3921} {0} {<228>} {Marigold Lane} {<228>, `<088>} {Glistening blue gemstones have been carved into a petals likeness and placed onto the crown of a rose stem, creating a single lucent flower among the many marigolds.  Under the roses shimmering shadow, the cap of a mushroom has begun to crystalize into the same blue gemstone material, exactly where the light of the rose touches it. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3919} {n} {n} {1} {0} {} {1.000} {}
 E { 3922} {s} {s} {4} {0} {} {1.000} {}
 
-R { 3922} {0} {} {Marigold Lane} {} {The scenery changes abruptly, from the colorful marigolds to the north and the brush to the south, to a wicked looking bramble patch to the west.  Looking to have been alive at some point due to its gratuitous growth, its now almost completely drained of color and water, leaving its calcified vines to strangle the neighboring plant life.  On the eastern side, a treacherous looking thistle bush stabs its way into the trail, fighting past the beautiful marigolds. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3922} {0} {<228>} {Marigold Lane} {<228>, `<088>} {The scenery changes abruptly, from the colorful marigolds to the north and the brush to the south, to a wicked looking bramble patch to the west.  Looking to have been alive at some point due to its gratuitous growth, its now almost completely drained of color and water, leaving its calcified vines to strangle the neighboring plant life.  On the eastern side, a treacherous looking thistle bush stabs its way into the trail, fighting past the beautiful marigolds. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3921} {n} {n} {1} {0} {} {1.000} {}
 E { 3923} {e} {e} {2} {0} {} {1.000} {}
 E { 3935} {s} {s} {4} {0} {} {1.000} {}
@@ -16887,13 +16883,12 @@ E { 3933} {w} {w} {8} {0} {} {1.000} {}
 R { 3933} {0} {} {Marigold Lane} { } {You continue along Marigold Lane.  In the distance to the south, you see a glistening sapphire lake. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3932} {e} {e} {2} {0} {} {1.000} {}
 E { 3934} {n} {n} {1} {0} {} {1.000} {}
-E { 6342} {s} {s} {4} {0} {} {1.000} {}
 
 R { 3934} {0} {} {Marigold Lane} { } {As you walk along the lane here, a gust of wind passes through, sending the marigolds swaying, and nearly knocking you off your feet. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3933} {s} {s} {4} {0} {} {1.000} {}
 E { 3935} {n} {n} {1} {0} {} {1.000} {}
 
-R { 3935} {0} {} {Marigold Lane} {} {A bramble patch to the northwest softens out to a thicket of brush on the trails western side.  A thistle bush to the east pokes its thorns through the stems of Marigolds that battle against it for the suns warmth.  Some of the flowers seem to have died from dehydration due to the puncture wounds in them. Written on a small sign is a snide remark.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
+R { 3935} {0} {} {Marigold Lane} { } {A bramble patch to the northwest softens out to a thicket of brush on the trails western side.  A thistle bush to the east pokes its thorns through the stems of Marigolds that battle against it for the suns warmth.  Some of the flowers seem to have died from dehydration due to the puncture wounds in them. Written on a small sign is a snide remark. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
 E { 3934} {s} {s} {4} {0} {} {1.000} {}
 E { 3922} {n} {n} {1} {0} {} {1.000} {}
 
@@ -26782,70 +26777,3 @@ E { 6327} {w} {w} {8} {0} {} {1.000} {}
 
 R { 6327} {0} {} {At the Altar} { } {This is the only place in the library that is unaffected by all the turmoil around you.  The cloth is still intact, and clean, and the altar is standing in one piece, seemingly untouched.  The only odd thing about it is the room is completely dark. } {Cursed Library} {} {Inside} {} {1.000} {}
 E { 6326} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6328} {0} {} {A Path through the Grass} { } {An oak leaf has fallen across the pathway here. It is arched in the center, providing a tunnel for you to walk through. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
-E { 3904} {w} {w} {8} {0} {} {1.000} {}
-E { 6329} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6329} {0} {} {A Path through the Grass} { } {The grass has been neglected here\; it rises high overhead, making it difficult for you to proceed. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
-E { 6328} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6330} {0} {} {The Garden} { } {The air is visibly misty from the moisture rising out of the soil.  Whats left of the precipitation collects in tiny holes punched into the ground, seeded with vegetables.  The entrance to the garden can be seen off to the northwest, marked by an apple tree. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
-E { 3915} {n} {n} {1} {0} {} {1.000} {}
-E { 6331} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6331} {0} {} {The Garden} { } {A row of rhubarb plants grapple their way out of the dirt on the eastern edge of the trail, sheltering the smaller vegetation under its expanse.  The grassy landscape to the west continues out of sight with no pparent trail by which to travel.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
-E { 6330} {n} {n} {1} {0} {} {1.000} {}
-E { 6332} {e} {e} {2} {0} {} {1.000} {}
-E { 6333} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6332} {0} {} {The Gravel Cul-De-Sac} { } {Small white pebbles have been spilled onto the ground, barely contained by a work of herringbone brick masonry that surrounds them.  To the west, clusters of rhubarb leaves sprout like natural umbrellas over the landscape, and to the east a large, white, tiered fountain spews water into the air.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
-E { 6331} {w} {w} {8} {0} {} {1.000} {}
-E { 6334} {s} {s} {4} {0} {} {1.000} {}
-E { 6335} {n} {n} {1} {0} {} {1.000} {}
-E { 6338} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6333} {0} {} {The Garden} { } {An assortment of gardening tools protrude from the soil at the end of a row of rhubarb plants.  To the east, the trail meets with a littering of pristine white pebbles and, to the north, the trail meanders further into, and out of, the garden. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
-E { 6331} {n} {n} {1} {0} {} {1.000} {}
-E { 6334} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6334} {0} {} {The Gravel Cul-De-Sac} { } {You are wandering through a garden that is abundant with fruit trees and vegetables of every variety imaginable. The earth is rich and black, and it gives off a pleasant, pungent odor. Insects as big as you are crawl along the ground and buzz through the balmy air. You can see Faeries flitting among the plants and trees, gathering food when they are not playing mischievous pranks on one another. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
-E { 6333} {w} {w} {8} {0} {} {1.000} {}
-E { 6332} {n} {n} {1} {0} {} {1.000} {}
-E { 6339} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6335} {0} {} {The Gravel Cul-De-Sac} { } {Small white pebbles have been spilled onto the ground, barely contained by a work of herringbone brick masonry that surrounds them.  To the southeast, a large, white, tiered fountain spews water into the air.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
-E { 6332} {s} {s} {4} {0} {} {1.000} {}
-E { 6336} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6336} {0} {} {The Neck of the Cul-De-Sac} { } {Small white pebbles have been spilled onto the ground, barely contained by a work of herringbone brick masonry that surround them.  To the north, the path narrows into a walkway made of the same loose gravel underfoot and, to the south, the path widens into a cul-de-sac with a large, white, tiered fountain in the middle.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
-E { 6335} {w} {w} {8} {0} {} {1.000} {}
-E { 6337} {n} {n} {1} {0} {} {1.000} {}
-E { 6338} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6337} {0} {} {The Garden} { } {Brilliant white gravel lays loosely strewn in a north-to-south pathway, kept in order by a herringbone brick pattern inlaid to the surrounding soil.  A cottage, faced with square hedges, and encompassed by a white, stockade fence looks quite lavish to the north. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
-E { 6336} {s} {s} {4} {0} {} {1.000} {}
-E { 3916} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6338} {0} {} {A Beautiful Fountain} { } {A large, circular fountain dominates the center of the gravel cul-de-sac. Several partially bloomed lily blossoms float in its body and bask in the light.  A steady stream of water shoots from its tip in a tulip pattern.  Some of the water blows far enough to water the nearby vegetables.    There's more here than meets the eye. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
-E { 6336} {n} {n} {1} {0} {} {1.000} {}
-E { 6332} {w} {w} {8} {0} {} {1.000} {}
-E { 6339} {s} {s} {4} {0} {} {1.000} {}
-
-R { 6339} {0} {} {The Garden} { } {Small white pebbles have been spilled onto the ground, barely contained by a work of herringbone brick masonry that surrounds them.  To the north, a large, white, tiered fountain spews water into the air and, to the south, the verdant fields roll out of sight. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
-E { 6334} {w} {w} {8} {0} {} {1.000} {}
-E { 6338} {n} {n} {1} {0} {} {1.000} {}
-
-R { 6340} {0} {} {Flowering Meadow} {} {As you cross to the other side of the meadow, you come to a huge beehive. Honeybees buzz protectively around the hive, threatening to attack anyone who would try to enter it. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
-E { 3920} {e} {e} {2} {0} {} {1.000} {}
-E { 6341} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6341} {0} {} {Inside the Beehive} {} {You enter the beehive very cautiously, ducking as a Worker Bee buzzes past, bearing a stinger the size of your arm. } {The Faerie Kingdom} {} {Inside} {} {1.000} {}
-E { 6340} {e} {e} {2} {0} {} {1.000} {}
-
-R { 6342} {0} {} {Marigold Lane} { } {You come to the shore of a large, blue lake. It would likely be just a pond in your old world, but here it seems expansive and rather deep. Far to the south, you see a golden crocus rising up from the water. To the west, you can see a fallen willow tree. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
-E { 3933} {n} {n} {1} {0} {} {1.000} {}
-E { 6343} {w} {w} {8} {0} {} {1.000} {}
-
-R { 6343} {0} {} {A Fallen Willow Tree} { } {A willow tree has toppled to the ground here. It has obviously lain here for a long time, as the leaves have all decayed and the wood has rotted. You see a little burrow leading underneath the tree. } {The Faerie Kingdom} {} {Field} {} {1.000} {}
-E { 6342} {e} {e} {2} {0} {} {1.000} {}
