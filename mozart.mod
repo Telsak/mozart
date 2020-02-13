@@ -28,11 +28,16 @@
 #ALIAS {rs} {#VAR retreat 6;retreat s}
 #ALIAS {rw} {#VAR retreat 9;retreat w}
 #ALIAS {re} {#VAR retreat 3;retreat e}
+#ALIAS {rd} {#VAR retreat 5;retreat d}
+#ALIAS {ru} {#VAR retreat 2;retreat u}
+
 #ACTION {^You flee head over heels.} {
   #IF {$retreat == 3} {#MAP MOVE e};
   #ELSEIF {$retreat == 6} {#MAP MOVE s};
   #ELSEIF {$retreat == 9} {#MAP MOVE w};
   #ELSEIF {$retreat == 12} {#MAP MOVE n};
+  #ELSEIF {$retreat == 2} {#MAP MOVE u};
+  #ELSEIF {$retreat == 5} {#MAP MOVE d};
   #ELSE {#MAP LEAVE;#SHOWME ! CAREFUL - MAP UNSYNCED !}
 }
 
