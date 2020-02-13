@@ -236,14 +236,59 @@
 236,ROOMVNUM,Armor,shield-antique-paladin-golden,an antique golden shield,Shield,13,Divine Magics: +3,Hitroll: +1,Wisdom: +6,Willpower Saves: +4
 237,6275,Throwable Dagger,cleaved-shard-dagger,a cleaved shard,8d1,pierce,Hit-N-Dam: +2
 238,ROOMVNUM,Jewelry,silver-diamond-wedding-ring,a silver wedding ring,Finger,0,Damroll: +1
-239,ROOMVNUM,Sword,Mordorean-black-iron-rusted-scimitar,a black scimitar,2d7,slash,Hit-N-Dam: +1,Hit Points: +5
-240,ROOMVNUM,Jewelry,dwarven-ring-steel,a steel dwarven ring,Finger Hold,0,Hitroll: +1,Constitution: +7,Strength: +7
-241,ROOMVNUM,Throwable Dagger,barbers-shears,a pair of barber's shears,2d4,pierce
+239,6302,Sword,Mordorean-black-iron-rusted-scimitar,a black scimitar,2d7,slash,Hit-N-Dam: +1,Hit Points: +5
+240,2707,Jewelry,dwarven-ring-steel,a steel dwarven ring,Finger Hold,0,Hitroll: +1,Constitution: +7,Strength: +7
+241,2702,Throwable Dagger,barbers-shears,a pair of barber's shears,2d4,pierce
 242,6329,Jewelry,ring-black,a black ring,Finger,0,Hitroll: -1,Mana: +25,Armor: +10,Movement: +25,Hit Points: +25
 243,6325,Armor,furry-boots,a pair of furry boots,Feet,10,Movement: -20,Mana: +25
 244,6325,Throwable Dagger,broken-stiletto-blade,a broken stiletto blade,2d5,pierce,Hitroll: -2,Weapon Spell: Poison at Level 6,Damroll: +2
 245,6325,Clothing,tattered-cloak,a tattered cloak,Neck About,0,Movement: -20,Armor: +10
-246,ROOMVNUM,Jewelry,dewdrop-necklace,a dewdrop necklace,Neck,0,Wisdom: +3,Mana: +25,Nature's Blessings: +4,Alignment-Ward
-247,ROOMVNUM,Dart,poison-dart,a poison dart,1d1,pierce,Hitroll: +3,Weapon Spell: Poison at Level 1
+246,3876,Jewelry,dewdrop-necklace,a dewdrop necklace,Neck,0,Wisdom: +3,Mana: +25,Nature's Blessings: +4,Alignment-Ward
+247,3879,Dart,poison-dart,a poison dart,1d1,pierce,Hitroll: +3,Weapon Spell: Poison at Level 1
 248,ROOMVNUM,Throwable Hammer,faerie-floss,a pile of Faerie Floss,3d4,crush,Hitroll: +3,Weapon Spell: Web at Level 8
 249,ROOMVNUM,Armor,statue-boots,statue boots,Feet,5,Armor: +20,Hitroll: +1,Recuperation: +5,Movement: -80
+250,6384,Melee Staff,druid-staff,a druidic staff,5d4,pound,Weapon Spell: Chill at Level 2,Mana: +20,Hit-N-Dam: +1
+251,6380,Clothing,prisoners-uniform,a prisoner's uniform,Body,0,Willpower Saves: -10,Hit-N-Dam: -3,Susceptibility: cold
+252,6377,Whip,jailer-black-bullwhip-whip,a black bullwhip,2d6,whip,Hit-N-Dam: +1
+253,ROOMVNUM,Key,book-ancient-tome-key,an ancient tome,Hold,0
+254,6404,Throwable Spear,coral-spear,a coral headed spear,1d8,stab,Hit-N-Dam: +1
+255,4670,Mace,large-leg-bone,a large leg bone,3d2,pound
+256,4343,Sword,fine-pirate-saber,a pirate saber,4d4,slash,Recuperation: +5,Hit-N-Dam: +3
+257,4343,Armor,shield-buckler,a buckler,Shield,15,Constitution: +3,Hitroll: +1
+258,6499,Armor,glittering-arm-plate,a glittering arm plate,Arms,6,Resistance: drain,Necromancy: +6,Hit Points: +20
+259,6482,Sword,black-blade-sword,a black blade,4d4,slash,Damroll: +2,Hitroll: +3
+260,6537,Sword,sword-life-healthy-green-glow,the sword of life,1d10,slash,Healing: +10,Hitroll: +5,Weapon Spell: Group Cure Light at Level 85,Hit Points: +100
+261,6537,Armor,boots-resistance,the boots of resistance,Feet,8,Hit Points: +30,Fortitude Saves: +4,Armor: +20,Resistance: energy,Abjuration: +4
+262,ROOMVNUM,Sword,wererat-sword,a slender long sword,8d1,slash,Hit-N-Dam: +2
+263,ROOMVNUM,Star,shuriken-star,a shuriken,3d8,slash
+264,ROOMVNUM,Clothing,scaled-mantle,a scaled mantle,About,0,Hitroll: +2,Immunity: poison,Recuperation: +6,Mysticism: +6,Swimming: +20
+265,ROOMVNUM,Mace,strange-mace,a strange mace,4d5,pound,Hitroll: +3,Weapon Spell Charges: +23,Weapon Spell: Weakness at Level 3
+266,ROOMVNUM,Other,bronze-head-bust-dwarf,a bronze head,Hold,0,Hit-N-Dam: +2,Strength: +7,Armor: +10
+267,ROOMVNUM,Other,crimson-wings,a pair of crimson wings,Waist,0,Armor: +3,Hit-N-Dam: +1,Flying,Detect-Invisibility
+268,ROOMVNUM,Throwable Hammer,golden-harp,a golden harp,3d4,crush,Hitroll: -3,Damroll: +3
+269,ROOMVNUM,Armor,crystal-sash,a crystal sash,About Waist,10,Lightning Strike: +5,Hit-N-Dam: +1,True-Sight
+270,ROOMVNUM,Jewelry,thorn-bracelet,a thorn bracelet,Wrist,0,Immunity: poison,Damroll: +2,Constitution: -5
+271,ROOMVNUM,Armor,coral-plate-breastplate,a coral breastplate,Body,15,Hitroll: +3,Fortitude Saves: +5,Damroll: +1
+272,ROOMVNUM,Clothing,Ichita's-crest-queen-badger-head,Queen Ichita's crest,Neck,0,Wisdom: +10,Damroll: +1,Hitroll: +2,Sense-Life
+273,ROOMVNUM,Armor,badger-claws-fur-gloves,badger claws,Hands,5,Damroll: +1,Constitution: +5,Strength: +5,Hitroll: +2
+274,ROOMVNUM,Sword,spider-sword,a Spider Sword,1d23,slash,Weapon Spell: Faerie Fire at Level 3,Immunity: paralysis,Hit-N-Dam: +3
+275,ROOMVNUM,Clothing,ice-mage-cloak,an ice mage's cloak,Neck About,0,Resistance: cold,Mana: +10,Hitroll: +3,Mysticism: +10
+276,ROOMVNUM,Jewelry,jade-crown,a jade crown,Head,0,Constitution: +12,Wisdom: +12,Hit-N-Dam: +1
+277,ROOMVNUM,Clothing,parishioner-sleeves,parishioner's sleeves,Arms,0,Strength: -2,Hitroll: +2,Damroll: +1
+278,ROOMVNUM,Clothing,peasant-cloak,a peasant's cloak,About Waist,0,Armor: +20,Resistance: cold,Hitroll: +2
+279,ROOMVNUM,Jewelry,peasant-ring,a peasant's ring,Finger,0,Palm: +10,Sneak: +3,Plant: +10,Hide: +3,Hitroll: +1
+280,ROOMVNUM,Jewelry,ring-tentacles-small-purple,a Ring of Tentacles,Finger,0,Hit-N-Dam: +2,Susceptibility: fire, cold, electricity, acid
+281,ROOMVNUM,Jewelry,ring-golden,a golden ring,Finger,0,Intelligence: +15
+282,ROOMVNUM,Armor,large-studded-iron-helmet,a studded iron helmet,Head,10,Bash: +2,Armor: +10,Movement: -10,Hit-N-Dam: +1
+283,ROOMVNUM,Sword,long-saber,a long, curved saber,1d8,slash,Hit-N-Dam: +2
+284,ROOMVNUM,Pole Arm,ThorKrin-halberd,a ThorKrin's halberd,3d8,cleave
+285,ROOMVNUM,Jewelry,hand-ring,the hand ring,Finger,0,Damroll: +1
+286,ROOMVNUM,Armor,metal-shackle,a shackle,Wrist,6,Immunity: paralysis
+287,ROOMVNUM,Sword,fine-scimitar,a fine scimitar,5d3,slash,Hit-N-Dam: +2
+288,ROOMVNUM,Armor,yeti-leggings,yeti leggings,Legs,6,Damroll: +1,Hydromancy: +5,Movement: -30,Dexterity: -4,Hitroll: +2
+289,ROOMVNUM,Jewelry,twisted-ice-twig,a twisted twig of ice,Hold Face,0,Hitroll: +1
+290,ROOMVNUM,Armor,ice-bracer,an ice bracer,Arms,9,Armor: +15,Hit-N-Dam: +1
+291,ROOMVNUM,Jewelry,ice-loop,a loop of ice,Finger,0,Hit-N-Dam: +1,Intelligence: +5
+292,ROOMVNUM,Armor,ice-boots,a pair of ice boots,Feet,8,Dexterity: +6,Armor: +10,Strength: +4
+293,ROOMVNUM,Armor,snowy-helmet,a snowy helmet,Head,10,Strength: +4,Hit Points: +20
+294,ROOMVNUM,Jewelry,cypress-charm-wooden,a cypress charm,Neck,0,Mana: +75,Hitroll: -2,Susceptibility: fire,Damroll: +1,Gaze-Reflection

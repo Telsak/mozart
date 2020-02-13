@@ -13,7 +13,7 @@ CROOMS <ccc>
 CSYMBOLS <adc>
 CUSER <dbe>
 
-F 8451
+F 8203
 
 G 0
 
@@ -215,7 +215,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -6985,7 +6985,7 @@ R { 1620} {0} {} {In the Tunnels} {} {You are in a maze of tunnels that form a w
 E { 1616} {w} {w} {8} {0} {} {1.000} {}
 E { 1652} {e} {e} {2} {0} {} {1.000} {}
 
-R { 1621} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 1621} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 3592} {n} {n} {1} {0} {} {1.000} {}
 E { 3590} {s} {s} {4} {0} {} {1.000} {}
 
@@ -6993,7 +6993,7 @@ R { 1622} {0} {} {Makeshift Campsite} { } {Cleared out between two giant rows of
 E {  472} {s} {s} {4} {0} {} {1.000} {}
 E {  464} {n} {n} {1} {0} {} {1.000} {}
 
-R { 1623} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 1623} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 3593} {n} {n} {1} {0} {} {1.000} {}
 E { 3592} {s} {s} {4} {0} {} {1.000} {}
 
@@ -13792,7 +13792,7 @@ E { 3208} {s} {s} {4} {0} {} {1.000} {}
 E { 3205} {w} {w} {8} {0} {} {1.000} {}
 E { 3210} {n} {n} {1} {0} {} {1.000} {<ffa>}
 
-R { 3210} {1026} {} {Empire of Dirt} {} {You are walking along a vast, barren field of nothingness.  The sky is a deep brown, and not a single cloud in the sky is visible.  The ground you are walking on is also an ugly brown.  Everywhere you look, you see brown.  Even you appear to be brown. } {The Great Eastern Desert} {} {Desert} {} {1.000} {}
+R { 3210} {2} {} {Empire of Dirt} {} {You are walking along a vast, barren field of nothingness.  The sky is a deep brown, and not a single cloud in the sky is visible.  The ground you are walking on is also an ugly brown.  Everywhere you look, you see brown.  Even you appear to be brown. } {The Great Eastern Desert} {} {Desert} {} {1.000} {}
 E { 3209} {s} {s} {4} {0} {} {1.000} {}
 E { 3211} {n} {n} {1} {0} {} {1.000} {}
 E { 3212} {e} {e} {2} {0} {} {1.000} {}
@@ -14425,7 +14425,6 @@ R { 3351} {0} {} {The Sea of Dragons} {} {You are on the clear blue water of the
 E { 3373} {n} {n} {1} {0} {} {1.000} {}
 E { 3354} {w} {w} {8} {0} {} {1.000} {}
 E { 2481} {s} {s} {4} {0} {} {1.000} {}
-E { 7322} {e} {e} {2} {0} {} {1.000} {}
 
 R { 3352} {4104} {<fff>} {} { } {} {NotYetSet} {} {River} {} {1.000} {}
 E { 3370} {e} {e} {2} {0} {} {1.000} {}
@@ -15857,7 +15856,7 @@ R { 3701} {0} {} {A Bend in the Path} {} {The forest floor is bathed in a carpet
 E { 3700} {w} {w} {8} {0} {} {1.000} {}
 E { 3702} {s} {s} {4} {0} {} {1.000} {}
 
-R { 3702} {0} {} {The End of the Path} {} {The path comes to a sudden end here, and the forest proper emerges to the south.  A signpost has been driven into the ground where the path  ends, its worn wooden face hanging by a single rusty nail.     There's more here than meets the eye. } {Loa Forest} {} {Forest} {} {1.000} {}
+R { 3702} {0} {} {The End of the Path} {} {The path comes to a sudden end here, and the forest proper emerges to the south.  A signpost has been driven into the ground where the path  ends, its worn wooden face hanging by a single rusty nail.  } {Loa Forest} {} {Forest} {} {1.000} {}
 E { 3701} {n} {n} {1} {0} {} {1.000} {}
 E { 3703} {s} {s} {4} {0} {} {1.000} {}
 
@@ -15867,10 +15866,9 @@ E { 3704} {e} {e} {2} {0} {} {1.000} {}
 E { 3708} {s} {s} {4} {0} {} {1.000} {}
 E { 3709} {w} {w} {8} {0} {} {1.000} {}
 
-R { 3704} {0} {} {A Large Burrow} {} {The entrance to a sizable burrow, far too large to belong to a squirrel or hare, has been dug here between the twisted roots of a towering tree. Small black and gray hairs are caught on the roots and in a small bush nearby, possibly an indication of whatever animal calls this burrow its  home.  Thickets block travel to the east, while the large tree prevents  further travel north\; the forest continues to the west and south.    There's more here than meets the eye. } {Loa Forest} {} {Forest} {} {1.000} {}
+R { 3704} {0} {} {A Large Burrow} {} {The entrance to a sizable burrow, far too large to belong to a squirrel or hare, has been dug here between the twisted roots of a towering tree. Small black and gray hairs are caught on the roots and in a small bush nearby, possibly an indication of whatever animal calls this burrow its  home.  Thickets block travel to the east, while the large tree prevents  further travel north\; the forest continues to the west and south. } {Loa Forest} {} {Forest} {} {1.000} {}
 E { 3703} {w} {w} {8} {0} {} {1.000} {}
 E { 3705} {s} {s} {4} {0} {} {1.000} {}
-E { 7321} {d} {dig d;d} {32} {0} {} {1.000} {}
 
 R { 3705} {0} {} {Within the Forest} {} {Stately trees sway gracefully, pushed by a firm but gentle breeze.  The forest floor here is covered in a delicate bed of mosses, marred only by the  tiny paw prints of scampering forest creatures.  The forest itself continues  in every direction. } {Loa Forest} {} {Forest} {} {1.000} {}
 E { 3704} {n} {n} {1} {0} {} {1.000} {}
@@ -22121,7 +22119,7 @@ E { 5179} {e} {e} {2} {0} {} {1.000} {}
 E { 5369} {w} {w} {8} {0} {} {1.000} {}
 E { 7231} {s} {s} {4} {0} {} {1.000} {}
 
-R { 5181} {0} {} {A Sudden Blizzard Strikes!} {<Ex} {You are totally blinded by the gusts of snow.  The valley is lost and you cannot see more than an inch in front of you.  You wander, hands out, hoping to find a way to safety or to survive this blizzard. } {Arctica} {} {Inside} {} {1.000} {}
+R { 5181} {0} {} {A Sudden Blizzard Strikes!} { } {You are totally blinded by the gusts of snow.  The valley is lost and you cannot see more than an inch in front of you.  You wander, hands out, hoping to find a way to safety or to survive this blizzard. } {Arctica} {} {Inside} {} {1.000} {}
 E { 5159} {n} {n} {1} {0} {} {1.000} {}
 E { 5182} {w} {w} {8} {0} {} {1.000} {}
 
@@ -22763,7 +22761,7 @@ E { 5338} {n} {n} {1} {0} {} {1.000} {}
 E { 5337} {s} {s} {4} {0} {} {1.000} {}
 E { 7199} {w} {w} {8} {0} {} {1.000} {}
 
-R { 5337} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 5337} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 5344} {s} {s} {4} {0} {} {1.000} {}
 E { 5336} {n} {n} {1} {0} {} {1.000} {}
 
@@ -22859,7 +22857,7 @@ E { 5358} {w} {open door;w} {8} {0} {} {1.000} {}
 R { 5363} {0} {} {Audience Chamber} { } {A very large circular table dominates the center of this room, surrounded by several plush chairs.  At the eastern end of the room is a slightly larger, more elaborate chair reminiscent of a throne. } {Willow Wood} {} {Inside} {} {1.000} {}
 E { 5358} {n} {open door;n} {1} {0} {} {1.000} {}
 
-R { 5364} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 5364} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 5357} {e} {e} {2} {0} {} {1.000} {}
 E { 5348} {w} {w} {8} {0} {} {1.000} {}
 
@@ -30598,7 +30596,7 @@ R { 7221} {0} {} {A Bend in the Passage} { } {The passage here turns either sout
 E { 7220} {s} {open doors;s} {4} {0} {} {1.000} {}
 E { 7258} {e} {e} {2} {0} {} {1.000} {}
 
-R { 7222} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 7222} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 5380} {n} {n} {1} {0} {} {1.000} {}
 
 R { 7223} {0} {} {An Ornate Staircase} { } {The staircase continues to wind its way downward.  A slight breeze from above you causes the chandelier to slowly turn, and cast dancing lights upon the glistening surface of the walls.  The walls here are adorned with pictures of former frost giant kings.  You may continue either up or down the staircase. } {Arctica} {} {Underground} {} {1.000} {}
@@ -30691,7 +30689,6 @@ E { 7243} {s} {s} {4} {0} {} {1.000} {}
 
 R { 7243} {0} {} {A Dead End} { } {The tunnel comes to a stop here.  There are empty shelves lining the walls, and some empty meat hooks hanging from the ceiling.  The east wall is devoid of shelving, and shows signs of wear in one patch.  Perhaps this is a small storage facility.  The only exit leads back north. } {Arctica} {} {Underground} {} {1.000} {}
 E { 7242} {n} {n} {1} {0} {} {1.000} {}
-E { 7281} {e} {e} {2} {0} {} {1.000} {}
 
 R { 7244} {0} {} {A Wide Tunnel} { } {The passage continues to wind its way northward, and the light seems to slowly grow more bright.  The ivory glow casts no shadows on the walls, but the pictures and carvings seem to almost come to life all around you.  The passage continues north and south. } {Arctica} {} {Underground} {} {1.000} {}
 E { 7240} {s} {s} {4} {0} {} {1.000} {}
@@ -30730,20 +30727,20 @@ R { 7252} {0} {} {A Well Lit Passage} { } {The passage here is brightly lit by p
 E { 7251} {e} {e} {2} {0} {} {1.000} {}
 E { 7262} {w} {w} {8} {0} {} {1.000} {}
 
-R { 7253} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 7253} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 7250} {n} {n} {1} {0} {} {1.000} {}
 E { 7249} {s} {s} {4} {0} {} {1.000} {}
 
 R { 7254} {0} {} {Armory} { } {This long room has racks attached to either side.  Weapons, ammo, and pelts of leather are stacked on the racks.  There are also large dummies, used for holding armor, set against the northern wall.  The only exit is back south. } {Arctica} {} {Underground} {} {1.000} {}
 E { 7251} {s} {s} {4} {0} {} {1.000} {}
 
-R { 7255} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 7255} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 7249} {n} {n} {1} {0} {} {1.000} {}
 E { 7248} {s} {s} {4} {0} {} {1.000} {}
 
 R { 7256} {0} {} {A Bend in the Passage} { } {The passage here turns either south or east.  The passage east is lit with a soft glowing light, while the south is not dark, but is obviously not lighted. The ice on the walls casts beautiful colors about the entire passageway. Standing in the corner of the passage is a tall statue, carved of ice and crystal.  It is a warrior suited in full battle gear, and wielding a large spear.  You can exit south or east. } {Arctica} {} {Underground} {} {1.000} {}
 
-R { 7257} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 7257} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 7239} {e} {e} {2} {0} {} {1.000} {}
 E { 7238} {w} {w} {8} {0} {} {1.000} {}
 
@@ -30780,18 +30777,17 @@ R { 7265} {0} {} {A Bright Tunnel} { } {The globes continue to cast a soft glow 
 E { 7264} {w} {w} {8} {0} {} {1.000} {}
 E { 7266} {e} {e} {2} {0} {} {1.000} {}
 
-R { 7266} {0} {} {A Fork in the Tunnel} { } {The tunnel here forks on two different directions.  To the south you see much the same - a bright tunnel lit by globes of light.  To the north is much more beauty.  There are pedestals of artwork, and the light is of a rainbow hue.  You can travel north, south, or back west. } {The Frost Giant Stronghold} {} {Underground} {} {1.000} {}
+R { 7266} {0} {} {A Fork in the Tunnel} { } {The tunnel here forks on two different directions.  To the south you see much the same - a bright tunnel lit by globes of light.  To the north is much more beauty.  There are pedestals of artwork, and the light is of a rainbow hue.  You can travel north, south, or back west. } {Arctica} {} {Underground} {} {1.000} {}
 E { 7265} {w} {w} {8} {0} {} {1.000} {}
 E { 7267} {s} {s} {4} {0} {} {1.000} {}
 E { 7269} {n} {n} {1} {0} {} {1.000} {}
 
-R { 7267} {0} {} {A Bright Tunnel} { } {The globes of light cast bright patterns on the icy walls of the passageway. There is still no noticeable artwork in these tunnels, but their regality shows through their simplicity.  You can continue north or south. } {The Frost Giant Stronghold} {} {Underground} {} {1.000} {}
+R { 7267} {0} {} {A Bright Tunnel} { } {The globes of light cast bright patterns on the icy walls of the passageway. There is still no noticeable artwork in these tunnels, but their regality shows through their simplicity.  You can continue north or south. } {Arctica} {} {Underground} {} {1.000} {}
 E { 7266} {n} {n} {1} {0} {} {1.000} {}
 E { 7268} {s} {s} {4} {0} {} {1.000} {}
 
-R { 7268} {0} {} {A Bend in the Tunnel} { } {The passage here turns to the east.  There is also a large set of double doors set into the southern wall.  The globes of light continue to illuminate the passage to both the north and the east.  You can exit north or east, or south through the doors. } {The Frost Giant Stronghold} {} {Underground} {} {1.000} {}
+R { 7268} {0} {} {A Bend in the Tunnel} { } {The passage here turns to the east.  There is also a large set of double doors set into the southern wall.  The globes of light continue to illuminate the passage to both the north and the east.  You can exit north or east, or south through the doors. } {Arctica} {} {Underground} {} {1.000} {}
 E { 7267} {n} {n} {1} {0} {} {1.000} {}
-E { 7425} {e} {e} {2} {0} {} {1.000} {}
 
 R { 7269} {0} {} {} { } {You are freezing!  H:524/1069 M:90/175 V:553/553 XP:1148182 C:*> A Majestic Passageway    You cannot fully describe how regal this passage is.  There is a thick blue carpet sprawled upon the floor, and the globes of light are not present. Rather the walls themselves have a radiant glow.  There are fantastic paintings and sculptures mounted on the walls, or on pedestals nearby.  The entire hallway has a feeling of royalty to it.  You can exit north or south. } {Arctica} {} {Underground} {} {1.000} {}
 E { 7266} {s} {s} {4} {0} {} {1.000} {}
@@ -30804,51 +30800,47 @@ E { 7271} {n} {n} {1} {0} {} {1.000} {}
 R { 7271} {0} {} {A Majestic Passageway} { } {Beautiful crystal globes hang from the ceiling, their light casting along the walls and place their fingers of light upon everything you see.  The paintings stop here and the entire wall on both sides is a massive mural.  You stand in awe, staring at the complete story that unfolds before your eyes, almost as if the mural was alive.  The main passageway heads north and south, with a slightly smaller heads east. } {Arctica} {} {Underground} {} {1.000} {}
 E { 7270} {s} {s} {4} {0} {} {1.000} {}
 E { 7272} {e} {e} {2} {0} {} {1.000} {}
-E { 7440} {n} {n} {1} {0} {} {1.000} {}
 
 R { 7272} {0} {} {Decorated Passageway} { } {Hung on both walls, murals depict the struggle of the frost giants war against the cloud giants.  Casting their defeat with as much claims to a valiant fight as possible, the murals also depict their building of these passageways in defeat and banishment.  A few of the most detailed murals tell of the future, of their reclaiming their rightful rule.  To the west the grand passageway heads north and south and towards the east you can see entrances to a large hall and a set of granite doors. } {Arctica} {} {Underground} {} {1.000} {}
 E { 7271} {w} {w} {8} {0} {} {1.000} {}
 E { 7273} {e} {e} {2} {0} {} {1.000} {}
 
-R { 7273} {0} {} {Grand Rotunda of Giants} { } {The carvings on the walls, and the murals hung along side them depict the rule of the current king.  The lighting globes that hang in the tunnel are brighter towards the west while the passageway heads east, where it turns towards the south.  A white granite set of double doors is set into the northern wall.  The ceiling of this part of the tunnel is domed, reaching upwards into the solid rock of the mountain.  Hung over the large opening in the southern wall is a mural depicting a great feast. } {The Frost Giant Stronghold} {} {Underground} {} {1.000} {}
+R { 7273} {0} {} {Grand Rotunda of Giants} { } {The carvings on the walls, and the murals hung along side them depict the rule of the current king.  The lighting globes that hang in the tunnel are brighter towards the west while the passageway heads east, where it turns towards the south.  A white granite set of double doors is set into the northern wall.  The ceiling of this part of the tunnel is domed, reaching upwards into the solid rock of the mountain.  Hung over the large opening in the southern wall is a mural depicting a great feast. } {Arctica} {} {Underground} {} {1.000} {}
 E { 7272} {w} {w} {8} {0} {} {1.000} {}
 E { 7274} {n} {n} {1} {0} {} {1.000} {}
-E { 7430} {s} {s} {4} {0} {} {1.000} {}
+E { 7275} {s} {s} {4} {0} {} {1.000} {}
 E { 7279} {e} {e} {2} {0} {} {1.000} {}
 
 R { 7274} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E { 7273} {s} {s} {4} {0} {} {1.000} {}
 
-R { 7275} {0} {} {A Large Hall} { } {You have entered into a vast chamber.  The walls are adorned with suits of armor and paintings of high quality.  There are six tables of enormous size occupying the majority of the floor as well.  This massive dining hall wraps around an enormous kitchen with a chimney spire that climbs into the mountain. The hall continues to the west and the spire kitchen lies to the south. } {The Frost Giant Stronghold} {} {Underground} {} {1.000} {}
-E { 7430} {n} {n} {1} {0} {} {1.000} {}
+R { 7275} {0} {} {A Large Hall} { } {You have entered into a vast chamber.  The walls are adorned with suits of armor and paintings of high quality.  There are six tables of enormous size occupying the majority of the floor as well.  This massive dining hall wraps around an enormous kitchen with a chimney spire that climbs into the mountain. The hall continues to the west and the spire kitchen lies to the south. } {Arctica} {} {Underground} {} {1.000} {}
+E { 7273} {n} {n} {1} {0} {} {1.000} {}
 E { 7276} {w} {w} {8} {0} {} {1.000} {}
 E { 7278} {s} {s} {4} {0} {} {1.000} {}
 
-R { 7276} {0} {} {A Large Hall} { } {The walls here are adorned with massive suits of icy armor.  There are six tables of enormous size occupying the majority of the floor as well.  This massive dining hall wraps around an enormous kitchen with a chimney spire that climbs into the mountain.  The hall continues to the south and east and the spire kitchen lies to the southeast. } {The Frost Giant Stronghold} {} {Underground} {} {1.000} {}
+R { 7276} {0} {} {A Large Hall} { } {The walls here are adorned with massive suits of icy armor.  There are six tables of enormous size occupying the majority of the floor as well.  This massive dining hall wraps around an enormous kitchen with a chimney spire that climbs into the mountain.  The hall continues to the south and east and the spire kitchen lies to the southeast. } {Arctica} {} {Underground} {} {1.000} {}
 E { 7275} {e} {e} {2} {0} {} {1.000} {}
 E { 7277} {s} {s} {4} {0} {} {1.000} {}
 
-R { 7277} {0} {} {A Large Hall} { } {The walls here are adorned with massive suits of icy armor.  There are six tables of enormous size occupying the majority of the floor as well.  This massive dining hall wraps around an enormous kitchen with a chimney spire that climbs into the mountain.  The hall continues to the north and south and the spire kitchen lies to the east. } {The Frost Giant Stronghold} {} {Underground} {} {1.000} {}
+R { 7277} {0} {} {A Large Hall} { } {The walls here are adorned with massive suits of icy armor.  There are six tables of enormous size occupying the majority of the floor as well.  This massive dining hall wraps around an enormous kitchen with a chimney spire that climbs into the mountain.  The hall continues to the north and south and the spire kitchen lies to the east. } {Arctica} {} {Underground} {} {1.000} {}
 E { 7276} {n} {n} {1} {0} {} {1.000} {}
 E { 7278} {e} {e} {2} {0} {} {1.000} {}
-E { 7432} {s} {s} {4} {0} {} {1.000} {}
 
-R { 7278} {0} {} {Chimney Kitchen} {f} {Dozens of open firepits, each twenty feet across, sit under a chimney that is carved upwards into the mountain.  Boiling pots large enough for giant stews, stacked stone ovens, and rotisserie spits all send their heat upwards, climbing into the arctic air. } {The Frost Giant Stronghold} {} {Underground} {} {1.000} {}
+R { 7278} {0} {} {Chimney Kitchen} { } {Dozens of open firepits, each twenty feet across, sit under a chimney that is carved upwards into the mountain.  Boiling pots large enough for giant stews, stacked stone ovens, and rotisserie spits all send their heat upwards, climbing into the arctic air. } {Arctica} {} {Underground} {} {1.000} {}
 E { 7277} {w} {w} {8} {0} {} {1.000} {}
 E { 7275} {n} {n} {1} {0} {} {1.000} {}
-E { 7429} {e} {e} {2} {0} {} {1.000} {}
-E { 7431} {s} {s} {4} {0} {} {1.000} {}
 
-R { 7279} {0} {} {A Bend in the Passage} { } {Globes of light hang from the ceiling and illuminate the passage.  To the west, a grand rotunda opens the tunnel wider.  Far off to the south the tunnel grows warmer than most of the hallways.  The smell of cooking food floats though the air. } {The Frost Giant Stronghold} {} {Underground} {} {1.000} {}
+R { 7279} {0} {} {A Bend in the Passage} { } {Globes of light hang from the ceiling and illuminate the passage.  To the west, a grand rotunda opens the tunnel wider.  Far off to the south the tunnel grows warmer than most of the hallways.  The smell of cooking food floats though the air. } {Arctica} {} {Underground} {} {1.000} {}
 E { 7273} {w} {w} {8} {0} {} {1.000} {}
-E { 7435} {s} {s} {4} {0} {} {1.000} {}
 E { 7280} {n} {n} {1} {0} {} {1.000} {}
 
-R { 7280} {0} {} {} {Inf} {} {} {} {} {} {1.000} {}
+R { 7280} {0} {} {A Well Used Passage} { } {The smell of cooking food overwhelms this part of the tunnel.  Directly to the south the passageway turns warm, and there is evidence of fire and food on the walls and in the air.  To the north the tunnel turns towards the west. } {Arctica} {} {Underground} {} {1.000} {}
 E { 7279} {s} {s} {4} {0} {} {1.000} {}
+E { 7281} {n} {n} {1} {0} {} {1.000} {}
 
-R { 7281} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E { 7243} {w} {w} {8} {0} {} {1.000} {}
+R { 7281} {0} {} {A Bend in the Passage} { } {Globes of light hang from the ceiling and illuminate the passage.  To the west, a grand rotunda opens the tunnel wider.  Far off to the south the tunnel grows warmer than most of the hallways.  The smell of cooking food floats though the air. } {Arctica} {} {Underground} {} {1.000} {}
+E { 7280} {s} {s} {4} {0} {} {1.000} {}
 
 R { 7282} {0} {} {Northern shore of Arctica Lake} { } {The frozen surface of Arctica Lake spreads out towards the southwest from here and to the west a ways you see a rocky peninsula jutting out into the lake.  Southeast from here a giant blue tree of ice rises into the sky, it's crystal clear ice leaves sparkle.  Far to the north the Arctica Mountains shape and form the river of ice that becomes the great glacier. } {Arctica} {} {Arctic} {} {1.000} {}
 E { 5163} {e} {e} {2} {0} {} {1.000} {}
@@ -30893,11 +30885,11 @@ R { 7291} {0} {} {Rock Finger} { } {Huge boulders make up this rocky peninsula t
 E { 7284} {n} {n} {1} {0} {} {1.000} {}
 E { 7294} {s} {s} {4} {0} {} {1.000} {}
 
-R { 7292} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 7292} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 7285} {n} {n} {1} {0} {} {1.000} {}
 E { 7284} {s} {s} {4} {0} {} {1.000} {}
 
-R { 7293} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 7293} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 7284} {w} {w} {8} {0} {} {1.000} {}
 E { 7283} {e} {e} {2} {0} {} {1.000} {}
 
@@ -30920,11 +30912,11 @@ R { 7298} {0} {} {The Glacier's Edge} { } {With the sheer cliff edge of the glac
 E { 7297} {w} {w} {8} {0} {} {1.000} {}
 E { 7301} {e} {e} {2} {0} {} {1.000} {}
 
-R { 7299} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 7299} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 7286} {w} {w} {8} {0} {} {1.000} {}
 E { 7285} {e} {e} {2} {0} {} {1.000} {}
 
-R { 7300} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 7300} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 7287} {w} {w} {8} {0} {} {1.000} {}
 E { 7286} {e} {e} {2} {0} {} {1.000} {}
 
@@ -30939,7 +30931,7 @@ E { 7301} {n} {n} {1} {0} {} {1.000} {}
 R { 7303} {0} {} {The Glacier's Edge} { } {The enormous cliff that is the edge of the Arctica Glacier lies just to the south, the valley floor below is almost to far to see though the mist flowing off the ice.  To the west the shore of a glacier lake follows along side the edge.  To the east, far in the distance, a strange blue tree grows out of the solid ice. } {Arctica} {} {Arctic} {} {1.000} {}
 E { 7301} {w} {w} {8} {0} {} {1.000} {}
 
-R { 7304} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+R { 7304} {8} {} {} { } {} {} {} {} {} {1.000} {}
 E { 7290} {s} {s} {4} {0} {} {1.000} {}
 E { 7282} {n} {n} {1} {0} {} {1.000} {}
 
@@ -31003,489 +30995,3 @@ E { 7320} {n} {n} {1} {0} {} {1.000} {}
 
 R { 7320} {0} {} {A Wide Passage} { } {This large passage has been decorated with white, evenly spaced floor tiles. Hanging on the east wall is a beautiful tapestry of a white stag, it's magnificent antlers proudly displayed as it leaps through the forest. } {Fiery Cavern} {} {Inside} {} {1.000} {}
 E { 7319} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7321} {0} {} {Inside a Large Burrow} { } {A large messy den opens up beneath the hole on the surface.  Tree roots poke experimentally into the walls of the burrow, but have been gnawed back  and systematically pruned, their intrusion discouraged.  Bits of black and  white fur are strewn about haphazardly.  Bits of rotting meat and small  animal bones line the walls of the burrow, the former meals of whatever creature calls this place home. } {Loa Forest} {} {Underground} {} {1.000} {}
-E { 3704} {u} {u} {16} {0} {} {1.000} {}
-
-R { 7322} {0} {} {The Sea of Dragons} { } {The clear, blue waters of the Sea of Dragons extends in all compass directions, all the way to each horizon.  The sea is relatively calm, the occasional wave seemingly caused by the plethora of animals which grace the depths below you. } {Sea of Dragons} {} {Water} {} {1.000} {}
-E { 3351} {w} {w} {8} {0} {} {1.000} {}
-E { 7323} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7323} {0} {} {The Sea of Dragons} { } {The clear, blue waters of the Sea of Dragons extends in all compass directions, all the way to each horizon.  The sea is relatively calm, the occasional wave seemingly caused by the plethora of animals which grace the depths below you. } {Sea of Dragons} {} {Water} {} {1.000} {}
-E { 7322} {w} {w} {8} {0} {} {1.000} {}
-E { 7324} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7324} {0} {} {The Sea of Dragons} { } {The clear, blue waters of the Sea of Dragons extends in all compass directions, all the way to each horizon.  The sea is relatively calm, the occasional wave seemingly caused by the plethora of animals which grace the depths below you. } {Sea of Dragons} {} {Water} {} {1.000} {}
-E { 7323} {n} {n} {1} {0} {} {1.000} {}
-E { 7325} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7325} {0} {} {The Sea of Dragons} { } {The calm, clear waters of the blue Sea of Dragons continue into infinity in nearly every direction.  But to the south, a goodly distance yet away, a small rock is faintly visible jutting into the sea.  Perhaps this rock is a sign of land, a place to stop and reside in relative comfort.  Or perhaps it is part of the deadly coral reef that rumors grow about, and the rock will assist in the tearing of your body apart. } {Sea of Dragons} {} {Water} {} {1.000} {}
-E { 7324} {n} {n} {1} {0} {} {1.000} {}
-E { 7326} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7326} {0} {} {The Sea of Dragons} { } {The waves increase in intensity here as they rebound from the land which you are drawing closer to, the rock from the distance now appearing to be an island, and quite a large one.  To even your untrained eye, the island now seems to be only a few leagues off, and a pleasant cove appears to be your destination should the current continue to carry you. } {Sea of Dragons} {} {Water} {} {1.000} {}
-E { 7325} {n} {n} {1} {0} {} {1.000} {}
-E { 7327} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7327} {0} {} {Cove on the Approach to the Island} { } {The current and waves pull at you, carrying you gently along with their rocking into a small cove.  The island reaches into the Dragon Sea, a thick forest visible past the high rocks and towering cliffs raised high above the surface of the water and providing many crevices and resting places for the flock of birds which soar above you, as if investigating and savoring the sun all in the same motion.  To your south and into the island the cliffs drop and meet at a river delta, which cuts a path into the forest and towards the center of the island. } {Sea of Dragons} {} {Water} {} {1.000} {}
-E { 7326} {n} {n} {1} {0} {} {1.000} {}
-E { 7328} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7328} {0} {} {The River Delta} { } {Here, where the cliffs meet and the river flows, meeting with the Dragon Sea which extends to the north as far as you can see, lies a thick forest. The trees are spaced no more than a hand width apart and are interwoven and entangled into a thick mesh.  The trees are so thickly grafted together that it is almost impossible to find a place through.  The only visible way deeper into the island is by the river and against the flow of it at that. } {Sea of Dragons} {} {River} {} {1.000} {}
-E { 7327} {n} {n} {1} {0} {} {1.000} {}
-E { 7329} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7329} {0} {} {The River's Bend} { } {The water flows rapidly to the east, the riverbed gained in width, but the trees on the shoreline, still stubbornly intertwined as before.  In the water you notice a distressing lack of wildlife, the water flowing too quickly for any surface swimmers to handle the currents, and the rapids are too opaque to see what lives upon the bottom.  The river continues east, bending here as it does. } {Sea of Dragons} {} {River} {} {1.000} {}
-E { 7328} {n} {n} {1} {0} {} {1.000} {}
-E { 7330} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7330} {0} {} {On the River} { } {The water continues to flow from the south, through the bends and towards the Dragon Sea.  To the south the forest thins slightly and the river seems to be growing slower the farther from the Dragon Sea you travel. } {Sea of Dragons} {} {River} {} {1.000} {}
-E { 7329} {w} {w} {8} {0} {} {1.000} {}
-E { 7331} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7331} {0} {} {A Bend in a River} { } {The river seems to run a little slower now, and as you look into the water, you can see that more marine life exists in this part of the river. The tree trunks are still impassable, so you are forced to continue along the river for now. } {Sea of Dragons} {} {River} {} {1.000} {}
-E { 7330} {n} {n} {1} {0} {} {1.000} {}
-E { 7332} {w} {w} {8} {0} {} {1.000} {}
-
-R { 7332} {0} {} {Along the River} { } {The river continues to slow the further south you go. As you look around, to the south-east in the distance, you can see a beautiful city.   Your pace quickens at the prospect of exploring that fair city. Undoubtedly there will be plentiful opportunities for enriching your purse in such a city as that. } {Sea of Dragons} {} {River} {} {1.000} {}
-E { 7331} {e} {e} {2} {0} {} {1.000} {}
-E { 7333} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7333} {0} {} {Along the River} { } {The sound of something extremely large thrashing around in the tree trunks startles you.  You decide the wiser choice would be to move on quickly up or down the river before whatever it is discovers you within easy reach.    You notice blood in the water, drifting downstream from somewhere unseen as of yet - your pulse quickens and you hope that your blood will not be mixed with it any time soon... } {Sea of Dragons} {} {River} {} {1.000} {}
-E { 7332} {n} {n} {1} {0} {} {1.000} {}
-E { 7334} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7334} {0} {} {Along the River} { } {A small sandy beachhead juts out into the river at this bend.  A small wooden hut squats on the sand looking innocent enough, but a feeling of forboding overcomes you as you approach it.    You notice the corpse of a drow warrior hanging from a tree over the river, its dark blood polluting the water downstream.  Obviously something does not welcome the denizens of the underdark on this river. } {Sea of Dragons} {} {River} {} {1.000} {}
-E { 7333} {n} {n} {1} {0} {} {1.000} {}
-E { 7366} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7335} {0} {} {The River Master looks at you.} { } {Along the River    The water flowing from the east divides here, part of it flowing quickly to the south where you can hear the rumble of a great waterfall, the rest moving more slowly to the west where a sandy beach is barely visible.    Upstream you can only see more of the impenetrable green foliage of the immense jungle.  The fair city that was visible downstream has now been obscured by overhanging trees and you hope that you haven't lost your bearings in the twists and turns of the river. } {Sea of Dragons} {} {River} {} {1.000} {}
-E { 7366} {w} {w} {8} {0} {} {1.000} {}
-E { 7367} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7336} {0} {} {The Source} { } {The river comes pouring out of a huge rift in the ground here and flows to the west.  A small path is visible, carving a way through the jungle to the east.  A bird calls mockingly through the trees, urging you onwards into the green foliage. } {Sea of Dragons} {} {River} {} {1.000} {}
-E { 7367} {w} {w} {8} {0} {} {1.000} {}
-E { 7359} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7337} {0} {} {A Jungle Path} { } {Your boots make no noise on the soft jungle floor except for the crunch of a squashed bug every now and then.  Jungle birds call out to you from every side, managing to sound both mocking and inviting.  Off to the north, the sound of something large crashing through the underbrush in panic startles you. } {Sea of Dragons} {} {Forest} {} {1.000} {}
-E { 7359} {w} {w} {8} {0} {} {1.000} {}
-E { 7360} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7338} {0} {} {A Jungle Path} { } {The path curves here, heading to the north and to the west.  A wooden stake has been driven into the loamy ground, a grimacing skull perched on top.  The jungle suddenly seems a good deal more ominous, and your eyes dart around, searching for signs of hostile life in the dense greenery surrounding you. } {Sea of Dragons} {} {Forest} {} {1.000} {}
-E { 7360} {w} {w} {8} {0} {} {1.000} {}
-E { 7368} {n} {n} {1} {0} {} {1.000} {}
-
-R { 7339} {0} {} {Jungle Intersection} { } {Another path branches off to the east here.  You stand at the intersection, pondering which way looks more promising.  The vegetation appears to thin slightly to the east, and the path in that direction seems somewhat broader.  To the north, the jungle only closes in tighter. } {Sea of Dragons} {} {Forest} {} {1.000} {}
-E { 7368} {s} {s} {4} {0} {} {1.000} {}
-E { 7340} {e} {e} {2} {0} {} {1.000} {}
-E { 7361} {n} {n} {1} {0} {} {1.000} {}
-
-R { 7340} {0} {} {A Bushy Path} { } {The forest begins to thin as you move to the east.  The walls of a large city are visible now and then far off in the distance through the tree trunks to the south.  The jungle to the west looks much more intimidating than the widening path to the south. } {Sea of Dragons} {} {Forest} {} {1.000} {}
-E { 7339} {w} {w} {8} {0} {} {1.000} {}
-E { 7341} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7341} {0} {} {A Bushy Path} { } {You begin to think the path has a mind of its own, intentionally twisting and turning to keep you from reaching your destination. The forest keeps growing thinner to the east.  Leaves cover the path and muffle your footsteps as you slink along. } {Sea of Dragons} {} {Forest} {} {1.000} {}
-E { 7340} {n} {n} {1} {0} {} {1.000} {}
-E { 7342} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7342} {0} {} {A Bushy Path} { } {Large bushes cover each side of the path, blocking your view of what lies beyond.  Your feet rustle through the leaves covering the ground.  A snake, disturbered by your passing, slithers away and into cover in the bushes off the path. } {Sea of Dragons} {} {Field} {} {1.000} {}
-E { 7341} {w} {w} {8} {0} {} {1.000} {}
-E { 7343} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7343} {0} {} {A Dusty Path} { } {The bushes to either side of the path have died here, and the soil has become dry.  A wind comes blowing down the path and kicks up dust, blowing it into your face, stinging your eyes.  Covering your eyes, you stumble onward.    The path curves once again, more dusty desolation to the north and the lush greenery of the jungle to the west. } {Sea of Dragons} {} {Field} {} {1.000} {}
-E { 7342} {w} {w} {8} {0} {} {1.000} {}
-E { 7344} {n} {n} {1} {0} {} {1.000} {}
-
-R { 7344} {0} {} {A Dusty Path} { } {You stumble along, barely able to stay on the path you are following, as the wind picks up and a dust storm develops.  You hurry onward, hoping to find some sanctuary close by where you can take cover from the vicious winds. } {Sea of Dragons} {} {Field} {} {1.000} {}
-E { 7343} {s} {s} {4} {0} {} {1.000} {}
-E { 7345} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7345} {0} {} {A Dusty Path} { } {A great mountain looms before you to the north, a small trail winding its way up between the rocks.  The desolate path you've been following continues to the south and west.  Small farmhouses lie abandoned in the distance, the farmers gone when the soil they depended on dried up and blew away. } {Sea of Dragons} {} {Field} {} {1.000} {}
-E { 7344} {w} {w} {8} {0} {} {1.000} {}
-E { 7346} {n} {n} {1} {0} {} {1.000} {}
-E { 7347} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7346} {0} {} {A Mountain Trail} {?} {Winding up through a series of large boulders, sections of the mountain that have fallen from far above, a small trail twists west and south from here.  The size of the boulders and their positions make it hard to see any further than the next turn on the path. } {Sea of Dragons} {} {Mountains} {} {1.000} {}
-E { 7345} {s} {s} {4} {0} {} {1.000} {}
-E { 7348} {w} {w} {8} {0} {} {1.000} {}
-
-R { 7347} {0} {} {A Dusty Path} { } {Dust swirls all around you, getting into your eyes, your mouth, your nose. Through the haze you make out a stone structure to your east, offering some sanctuary from the elements.  The path continues to the north and south. } {Sea of Dragons} {} {Field} {} {1.000} {}
-E { 7345} {n} {n} {1} {0} {} {1.000} {}
-
-R { 7348} {0} {} {A Mountain Trail} { } {As the mountain climbs upwards to the north the trail runs straight up a ridge to the north while turning east here, to wind through a series of large boulders.  Sparse vegetation clings to the rocks along the side of the trail. Far to the west one can catch glimpses of a river running in the valley, beyond which the Dragon Sea dominates the entire horizon. } {Sea of Dragons} {} {Mountains} {} {1.000} {}
-E { 7346} {e} {e} {2} {0} {} {1.000} {}
-E { 7349} {n} {n} {1} {0} {} {1.000} {}
-
-R { 7349} {0} {} {A Mountain Trail} { } {Wispy clouds are beginning to surround you now and your ears pop due to the altitude.  To the east you see the summit of the mountain, its ragged and sharp top betraying this ranges youth.  The trail continues south down a ridge and it also moves north into the wispy clouds that cover the ground like a blanket. } {Sea of Dragons} {} {Mountains} {} {1.000} {}
-E { 7348} {s} {s} {4} {0} {} {1.000} {}
-E { 7350} {n} {n} {1} {0} {} {1.000} {}
-
-R { 7350} {0} {} {Near the Mountain's Peak} { } {The peak of this mountain is another couple hundred feet above you to the east.  The trail meanders just slightly off an straight path on its way upwards.  To the south the trail follows a decending ridge towards lower elevations. } {Sea of Dragons} {} {Mountains} {} {1.000} {}
-E { 7349} {s} {s} {4} {0} {} {1.000} {}
-E { 7351} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7351} {0} {} {Moutain Peak} { } {The vistas from this vantage point are stunning, the Dragon Sea to the northwest and the entire Empire to the south are laid out like an unreal painting.  A trail heads west, almost perfectly straight, and south into a shallow rocky depression just off of this soaring peak.  Wispy clouds roll across the ground here as the rocks scrape their undersides. } {Sea of Dragons} {} {Mountains} {} {1.000} {}
-E { 7350} {w} {w} {8} {0} {} {1.000} {}
-E { 7352} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7352} {0} {} {A Rocky Depression} { } {A strange rusted iron ring sits at the center of this rocky depression that lies just south of the mountain's peak to the north.  Concentric circles, paths worn by footprints that have hidden from the erosion of time simply by being at such a high altitude, ring the rusted iron protrusion.  A flat trapdoor, mostly covered in dirt, is hinged into the rusted iron ring.  A large latch on its surface looks to be a locking mechanism. } {Sea of Dragons} {} {Mountains} {} {1.000} {}
-E { 7351} {n} {n} {1} {0} {} {1.000} {}
-
-R { 7353} {0} {} {The Jungle} { } {The sound of beating drums reaches your ears faintly\; it's too hard to get a fix on which direction they're coming from, however.  The path curves around to the west and south.  Your boots are starting to sink into the ground as the area here seems to be getting more and more swampy.    A solitary, roughly built hut stands before you to the north, squatting under the heavy foliage.  It appears to be uninhabited at the moment but you are still leery of disturbing its occupant. } {Sea of Dragons} {} {Forest} {} {1.000} {}
-E { 7361} {s} {s} {4} {0} {} {1.000} {}
-E { 7354} {n} {n} {1} {0} {} {1.000} {}
-E { 7355} {w} {w} {8} {0} {} {1.000} {}
-
-R { 7354} {0} {} {A Native's Hut} { } {This primitive hut seems to be serving as some sort of guard shack, an advance warning station for the native villagers.  A fire smolders in the center of the shack, the smoke drifting up through a hole in the ceiling.  A rack of spears stands against one wall, some straw mats on the other side.    A large drum sits by the door, the device by which the natives communicate messages and warnings.  You can only assume that the villagers have already been warned of your approach through their jungle. } {Sea of Dragons} {} {Inside} {} {1.000} {}
-E { 7353} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7355} {0} {} {The Jungle} { } {The sound of drums is growing louder as you walk farther down the trail into the jungle.  The flies are starting to become a real annoyance, raising welts all over the uncovered parts of your body.  You hurry onward, hoping to find relief somewhere soon. } {Sea of Dragons} {} {Forest} {} {1.000} {}
-E { 7353} {e} {e} {2} {0} {} {1.000} {}
-E { 7356} {w} {w} {8} {0} {} {1.000} {}
-
-R { 7356} {0} {} {The Jungle} { } {The path you've been following finally disappears.  As you look around in every direction, nothing appears promising\; just more of the same greenery everywhere you look.  You can still head back down the path to the east if you don't want to risk getting lost deeper in this foreboding jungle forest. } {Sea of Dragons} {} {Forest} {} {1.000} {}
-E { 7355} {e} {e} {2} {0} {} {1.000} {}
-E { 7357} {n} {n} {1} {0} {} {1.000} {}
-E { 7362} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7357} {0} {} {The Jungle} { } {The jungle seems to close in behind you as you move forward, making it impossible to retrace your steps, even if you were sure of which way you actually came from.  You move onwards, hacking at the vines which seem to be almost animatedly grabbing at your legs, impeding your progress. } {Sea of Dragons} {} {Forest} {} {1.000} {}
-E { 7356} {s} {s} {4} {0} {} {1.000} {}
-E { 7358} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7358} {0} {} {The Jungle} { } {Sweat pours down your face, stinging your eyes, as you struggle to continue through the dense underbrush.  The drums seem to be getting louder however, so your hopes rise at the prospect of encountering something besides the biting insects which continuously hover around you in a cloud. } {Sea of Dragons} {} {Forest} {} {1.000} {}
-E { 7357} {w} {w} {8} {0} {} {1.000} {}
-
-R { 7359} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 7337} {e} {e} {2} {0} {} {1.000} {}
-E { 7336} {w} {w} {8} {0} {} {1.000} {}
-
-R { 7360} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 7338} {e} {e} {2} {0} {} {1.000} {}
-E { 7337} {w} {w} {8} {0} {} {1.000} {}
-
-R { 7361} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 7353} {n} {n} {1} {0} {} {1.000} {}
-E { 7339} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7362} {0} {} {The Jungle} { } {As you wander deeper into the jungle, you lose your bearings.  The trees all look the same, and the sun is obscured behind the think layer of treetops. Something about moss growing on the same side of every tree goes through your head, but you can't remember which side it was supposed to be.    You trip and almost break your leg in a large hole in the ground.  After scraping some more dirt away, the opening appears to be large enough for you to climb down. } {Sea of Dragons} {} {Forest} {} {1.000} {}
-E { 7356} {n} {n} {1} {0} {} {1.000} {}
-E { 7363} {w} {w} {8} {0} {} {1.000} {}
-
-R { 7363} {0} {} {The Jungle} { } {It seems like you've been wandering around this jungle for an extremely long time.  The little voice in your head starts screaming something about stumbling into a patch of quicksand and no one ever finding your corpse.  Your pace quickens and your eyes dart around frantically, looking for some sign of civilization. } {Sea of Dragons} {} {Forest} {} {1.000} {}
-E { 7362} {e} {e} {2} {0} {} {1.000} {}
-E { 7364} {n} {n} {1} {0} {} {1.000} {}
-E { 7365} {w} {w} {8} {0} {} {1.000} {}
-
-R { 7364} {0} {} {The Jungle} { } {A huge fallen tree blocks your way further into the jungle in this direction.  Its girth must be over three hundred feet, and it reaches as far as you can see in either direction.    A humanoid skeleton is halfway buried underneath the tree.  You shudder to think of the horrible, lingering death he must have faced.  Definitely the wrong time to be standing under this particular tree. } {Sea of Dragons} {} {Inside} {} {1.000} {}
-E { 7363} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7365} {0} {} {A Boggy Path} {<fda>(<fff>+<fda>)} {This path is moist and damp.  To your north and south you can see a large marshland.  A dense fog hangs in the air and this makes your journey quite } {The Temple of the Lizard-men} {} {Swamp} {} {1.000} {}
-E { 7363} {e} {e} {2} {0} {} {1.000} {}
-E { 7369} {w} {w} {8} {0} {} {1.000} {}
-
-R { 7366} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 7335} {e} {e} {2} {0} {} {1.000} {}
-E { 7334} {w} {w} {8} {0} {} {1.000} {}
-
-R { 7367} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 7336} {e} {e} {2} {0} {} {1.000} {}
-E { 7335} {w} {w} {8} {0} {} {1.000} {}
-
-R { 7368} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 7339} {n} {n} {1} {0} {} {1.000} {}
-E { 7338} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7369} {1026} {} {A Boggy Path} { } {This path is moist and damp.  To your north and south you can see a large marshland.  A dense fog hangs in the air and this makes your journey quite } {The Temple of the Lizard-men} {} {Swamp} {} {1.000} {}
-E { 7365} {e} {e} {2} {0} {} {1.000} {}
-E { 7370} {w} {w} {8} {0} {} {1.000} {}
-
-R { 7370} {0} {} {A Boggy Path} { } {This path is moist and damp.  To your north and west you can see a large swamp area which spreads for as far as you can see.  A dense fog hangs in the } {The Temple of the Lizard-men} {} {Swamp} {} {1.000} {}
-E { 7369} {e} {e} {2} {0} {} {1.000} {}
-E { 7371} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7371} {0} {} {A Boggy Path} { } {This path is moist and damp.  To your west you can see a large swamp area which spreads for as far as you can see.  The fog at this point is not so } {The Temple of the Lizard-men} {} {Swamp} {} {1.000} {}
-E { 7370} {n} {n} {1} {0} {} {1.000} {}
-E { 7372} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7372} {0} {} {The Entrance of the Dragons Temple} { } {You are now standing in front of a set of great bronze doors.  You notice sculptures on the walls and gates that are showing creatures that very much resemble lizard-men.  They appear to be much older and much more civilized than the lizard-men with a more accentuated draconic look.  There are exits to the north and south. } {The Temple of the Lizard-men} {} {Swamp} {} {1.000} {}
-E { 7371} {n} {n} {1} {0} {} {1.000} {}
-E { 7373} {s} {open bronze;s} {4} {0} {} {1.000} {}
-
-R { 7373} {0} {} {The Temple Nave} { } {The nave of the temple is huge.  There are nearly a hundred fifty feet from the great bronze doors to the dragon-shaped altar at the southern end of the hall.  The aisles leading down the hall are flanked by massive pillars carved with intricate friezes.  The hall continues to the north and south and there are bronze doors that lead to the east and west. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7372} {n} {open bronze;n} {1} {0} {} {1.000} {}
-E { 7374} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7374} {0} {} {The Temple Nave} { } {The nave of the temple is huge.  There are nearly a hundred fifty feet from the great bronze doors to the dragon-shaped altar at the southern end of the hall.  The aisles leading down the hall are flanked by massive pillars carved with intricate friezes.  The hall continues to the north and south and there are bronze doors that lead to the east and west. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7373} {n} {n} {1} {0} {} {1.000} {}
-E { 7375} {e} {e} {2} {0} {} {1.000} {}
-E { 7379} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7375} {0} {} {The Outer Sanctum} { } {Tapestries made of painted skins cover the north and south walls of this room.  Facing each tapestry is a pair of white stone pews, intricately carved with the temple's standard dragon motif.  There are bronze doors in the east and west. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7374} {w} {open door west;w} {8} {0} {} {1.000} {}
-E { 7376} {e} {open door east;e} {2} {0} {} {1.000} {}
-
-R { 7376} {0} {} {The Inner Sanctum} { } {The north and south walls of this room are lined with ceiling-high golden shelves.  A limestone fireplace carved in the temple's dragon motif juts from the center of the east wall.  There are six small rounded tables scattered in the room.  On top of each of the tables is a jade vase of cut yellow swamp lilies.  There are bronze doors to the south and west. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7375} {w} {open door west;w} {8} {0} {} {1.000} {}
-E { 7377} {s} {open door south;s} {4} {0} {} {1.000} {}
-
-R { 7377} {0} {} {The Outer Sanctum} { } {The walls and ceiling of this room are paneled with gold plates.  Dominating the room is a huge carved stone desk.  In front of it are several wooden chairs of lizard-man manufacture.  There is an exit to the west and a bronze door to the north. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7376} {n} {n} {1} {0} {} {1.000} {}
-E { 7378} {w} {w} {8} {0} {} {1.000} {}
-
-R { 7378} {0} {} {The Temple Nave} { } {The nave of the temple is huge.  There are nearly a hundred fifty feet from the great bronze doors to the dragon-shaped altar at the southern end of the hall.  The aisles leading down the hall are flanked by massive pillars carved with intricate friezes.  The nave now begins to broaden on either side. Glowing stones set in the ceiling cast a pale light over the room.  Stronger beams of light comes from the wide opening in the ceiling. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7377} {e} {e} {2} {0} {} {1.000} {}
-E { 7379} {w} {w} {8} {0} {} {1.000} {}
-E { 7381} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7379} {0} {} {The Temple Nave} { } {The nave of the temple is huge.  There are nearly a hundred fifty feet from the great bronze doors to the dragon-shaped altar at the southern end of the hall.  The aisles leading down the hall are flanked by massive pillars carved with intricate friezes.  The nave now begins to broaden on either side. Glowing stones set in the ceiling cast a pale light over the room.  Stronger beams of light comes from the wide opening in the ceiling.  There are exits to } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7378} {e} {e} {2} {0} {} {1.000} {}
-E { 7374} {n} {n} {1} {0} {} {1.000} {}
-E { 7380} {s} {s} {4} {0} {} {1.000} {}
-E { 7382} {w} {w} {8} {0} {} {1.000} {}
-
-R { 7380} {0} {} {The Temple Nave} { } {The nave of the temple is huge.  There are nearly a hundred fifty feet from the great bronze doors to the dragon-shaped altar at the southern end of the hall.  The aisles leading down the hall are flanked by massive pillars carved with intricate friezes.  The nave now begins to broaden on either side. Glowing stones set in the ceiling cast a pale light over the room.  Stronger beams of light comes from the wide opening in the ceiling. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7379} {n} {n} {1} {0} {} {1.000} {}
-E { 7381} {e} {e} {2} {0} {} {1.000} {}
-E { 7383} {w} {w} {8} {0} {} {1.000} {}
-
-R { 7381} {0} {} {The Temple Nave} { } {The nave of the temple is huge.  There are nearly a hundred fifty feet from the great bronze doors to the dragon-shaped altar at the southern end of the hall.  The aisles leading down the hall are flanked by massive pillars carved with intricate friezes.  The nave now begins to broaden on either side. Glowing stones set in the ceiling cast a pale light over the room.  Stronger beams of light comes from the wide opening in the ceiling. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7380} {w} {w} {8} {0} {} {1.000} {}
-E { 7378} {n} {n} {1} {0} {} {1.000} {}
-
-R { 7382} {0} {} {The Temple Nave} { } {The nave of the temple is huge.  There are nearly a hundred fifty feet from the great bronze doors to the dragon-shaped altar at the southern end of the hall.  The aisles leading down the hall are flanked by massive pillars carved with intricate friezes.  The nave now begins to broaden on either side. Glowing stones set in the ceiling cast a pale light over the room.  Stronger beams of light comes from the wide opening in the ceiling. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7379} {e} {e} {2} {0} {} {1.000} {}
-E { 7383} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7383} {0} {} {The Temple Nave} { } {The nave of the temple is huge.  There are nearly a hundred fifty feet from the great bronze doors to the dragon-shaped altar at the southern end of the hall.  The aisles leading down the hall are flanked by massive pillars carved with intricate friezes.  The nave now begins to broaden on either side. Glowing stones set in the ceiling cast a pale light over the room.  Stronger beams of light comes from the wide opening in the ceiling.  There are exits to } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7382} {n} {n} {1} {0} {} {1.000} {}
-E { 7380} {e} {e} {2} {0} {} {1.000} {}
-E { 7384} {w} {w} {8} {0} {} {1.000} {}
-
-R { 7384} {0} {} {The Main Store Room} { } {The walls of this room are lined with ceiling-high shelves holding innumerable bundles, boxes, crocks, and shrouded piles of material.  Half a dozen pine crates are scattered about the floor.  There is an exit to the east, a door to the north and a staircase leading down. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7383} {e} {e} {2} {0} {} {1.000} {}
-E { 7385} {d} {d} {32} {0} {} {1.000} {}
-
-R { 7385} {0} {} {A Guard Room} { } {This dark and damp room has a door in the south wall and a staircase leading up.  A large hooded stove stands against the south wall.  Two large oak tables surrounded by benches stand in the center of the room.  Above and slightly in front of the stove, metal cooking gear hangs from an iron rack suspended by a chain from the ceiling.  These cooking items were probably salvaged from unlucky travelers who ventured a little too far. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7384} {u} {u} {16} {0} {} {1.000} {}
-E { 7386} {s} {open door;s} {4} {0} {} {1.000} {}
-
-R { 7386} {0} {} {A Hallway} { } {This damp, stone paved hallway is lit from time to time by smoking torches. Some green and dimly fluorescent moss covers the walls and ceiling.  There are exits to the east and south with a door leading to the north. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7385} {n} {n} {1} {0} {} {1.000} {}
-E { 7387} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7387} {0} {} {A Hallway} { } {This damp, stone paved hallway is lit from time to time by smoking torches. Some green and dimly fluorescent moss covers the walls and ceiling.  There are exits to the east and west.  There is also a staircase leading down. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7386} {w} {w} {8} {0} {} {1.000} {}
-E { 7388} {d} {d} {32} {0} {} {1.000} {}
-E { 7397} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7388} {0} {} {An Underground Beach} { } {You are standing on a small underground beach.  To the south you can see a vast cavern containing an underground lake.  There is a double row of nine pillars supporting the ceiling.  You can see a few small sandy islands on the lake.  There is a sign on a near-by wall.  There are exits leading upwards and to the east and south. } {The Temple of the Lizard-men} {} {Shore} {} {1.000} {}
-E { 7387} {u} {u} {16} {0} {} {1.000} {}
-E { 7389} {s} {s} {4} {0} {} {1.000} {}
-E { 7395} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7389} {0} {} {An Underground Lake} { } {This underground lake seems very deep.  There is no doubt in your mind that you have found the source of the swamp that sits far above you.  The water is very cold and dark.  Who knows what may lurk here but it does not seem the kind of place that the lizard-men would like. } {The Temple of the Lizard-men} {} {Water} {} {1.000} {}
-E { 7388} {n} {n} {1} {0} {} {1.000} {}
-E { 7390} {s} {s} {4} {0} {} {1.000} {}
-E { 7394} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7390} {0} {} {An Underground Lake} { } {This underground lake seems very deep.  There is no doubt in your mind that you have found the source of the swamp that sits far above you.  The water is very cold and dark.  Who knows what may lurk here but it does not seem the kind of place that the lizard-men would like. } {The Temple of the Lizard-men} {} {Water} {} {1.000} {}
-E { 7389} {n} {n} {1} {0} {} {1.000} {}
-E { 7391} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7391} {0} {} {An Underground Lake} { } {This underground lake seems very deep.  There is no doubt in your mind that you have found the source of the swamp that sits far above you.  The water is very cold and dark.  Who knows what may lurk here but it does not seem the kind of place that the lizard-men would like. } {The Temple of the Lizard-men} {} {Water} {} {1.000} {}
-E { 7390} {w} {w} {8} {0} {} {1.000} {}
-E { 7392} {e} {e} {2} {0} {} {1.000} {}
-E { 7394} {n} {n} {1} {0} {} {1.000} {}
-
-R { 7392} {0} {} {An Underground Lake} { } {This underground lake seems very deep.  There is no doubt in your mind that you have found the source of the swamp that sits far above you.  The water is very cold and dark.  Who knows what may lurk here but it does not seem the kind of place that the lizard-men would like. } {The Temple of the Lizard-men} {} {Water} {} {1.000} {}
-E { 7391} {w} {w} {8} {0} {} {1.000} {}
-E { 7393} {n} {n} {1} {0} {} {1.000} {}
-
-R { 7393} {0} {} {An Underground Lake} { } {This underground lake seems very deep.  There is no doubt in your mind that you have found the source of the swamp that sits far above you.  The water is very cold and dark.  Who knows what may lurk here but it does not seem the kind of place that the lizard-men would like.  There are exits to the north, south and west. } {The Temple of the Lizard-men} {} {Water} {} {1.000} {}
-E { 7392} {s} {s} {4} {0} {} {1.000} {}
-E { 7394} {w} {w} {8} {0} {} {1.000} {}
-E { 7396} {n} {n} {1} {0} {} {1.000} {}
-
-R { 7394} {0} {} {An Underground Lake} { } {This underground lake seems very deep.  There is no doubt in your mind that you have found the source of the swamp that sits far above you.  The water is very cold and dark.  Who knows what may lurk here but it does not seem the kind of place that the lizard-men would like. } {The Temple of the Lizard-men} {} {Water} {} {1.000} {}
-E { 7393} {e} {e} {2} {0} {} {1.000} {}
-E { 7391} {s} {s} {4} {0} {} {1.000} {}
-E { 7389} {w} {w} {8} {0} {} {1.000} {}
-E { 7395} {n} {n} {1} {0} {} {1.000} {}
-
-R { 7395} {0} {} {An Underground Beach} { } {You are standing on a small underground beach.  To the south you can see a vast cavern containing an underground lake.  There is a double row of nine pillars supporting the ceiling.  You can see a few small sandy islands on the lake.  There is a sign on a near-by wall.  There are exits leading to the west, east and south. } {The Temple of the Lizard-men} {} {Shore} {} {1.000} {}
-E { 7394} {s} {s} {4} {0} {} {1.000} {}
-E { 7388} {w} {w} {8} {0} {} {1.000} {}
-E { 7396} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7396} {0} {} {An Underground Beach} { } {You are standing on a small underground beach.  To the south you can see a vast cavern containing an underground lake.  There is a double row of nine pillars supporting the ceiling.  You can see a few small sandy islands on the lake.  There is a sign on a near-by wall.  There are exits leading upwards and to the west and south. } {The Temple of the Lizard-men} {} {Shore} {} {1.000} {}
-E { 7395} {w} {w} {8} {0} {} {1.000} {}
-E { 7393} {s} {s} {4} {0} {} {1.000} {}
-E { 7399} {u} {u} {16} {0} {} {1.000} {}
-
-R { 7397} {0} {} {A Hallway} { } {This damp, stone paved hallway is lit from time to time by smoking torches. Some green and dimly fluorescent moss covers the walls and ceiling.  There are exits to the east, south and west. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7387} {w} {w} {8} {0} {} {1.000} {}
-E { 7398} {s} {s} {4} {0} {} {1.000} {}
-E { 7399} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7398} {0} {} {A Practice Hall} { } {This gigantic room is supported by nine pairs of round pillars.  Weapon racks flanking the outside of each row of pillars hold a hedge of spears, bone knifes, and wooden maces.  Hanging on the walls are several leather shields. The floor is ankle-deep in white sand.  There is only one exit to the north from this room. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7397} {n} {n} {1} {0} {} {1.000} {}
-
-R { 7399} {0} {} {A Hallway} { } {This damp, stone paved hallway is lit from time to time by smoking torches. Some green and dimly fluorescent moss covers the walls and ceiling.  There are exits to the east and west.  There is also a staircase leading down. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7397} {w} {w} {8} {0} {} {1.000} {}
-E { 7396} {d} {d} {32} {0} {} {1.000} {}
-E { 7400} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7400} {0} {} {A Hallway} { } {This damp, stone paved hallway is lit from time to time by smoking torches. Some green and dimly fluorescent moss covers the walls and ceiling.  There are exits to the west and south and there is a small door leading northwards. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7399} {w} {w} {8} {0} {} {1.000} {}
-E { 7401} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7401} {0} {} {The East Concourse} { } {This damp, stone paved hallway is lit from time to time by smoking torches. Some green and dimly fluorescent moss covers the walls and ceiling.  There are exits to the north and south. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7400} {n} {n} {1} {0} {} {1.000} {}
-E { 7402} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7402} {0} {} {The East Concourse} { } {This damp, stone paved hallway is lit from time to time by smoking torches. Some green and dimly fluorescent moss covers the walls and ceiling.  There are exits to the north and south. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7401} {n} {n} {1} {0} {} {1.000} {}
-E { 7403} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7403} {0} {} {The East Concourse} { } {This damp, stone paved hallway is lit from time to time by smoking torches. Some green and dimly fluorescent moss covers the walls and ceiling.  There are exits to the north, east and south. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7402} {n} {n} {1} {0} {} {1.000} {}
-E { 7404} {e} {e} {2} {0} {} {1.000} {}
-E { 7407} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7404} {0} {} {The East Concourse} { } {This damp, stone paved hallway is lit from time to time by smoking torches. Some green and dimly fluorescent moss covers the walls and ceiling.  There are door to the north and south and an open exit to the west. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7403} {w} {w} {8} {0} {} {1.000} {}
-E { 7405} {n} {open door north;n} {1} {0} {} {1.000} {}
-E { 7406} {s} {open door south;s} {4} {0} {} {1.000} {}
-
-R { 7405} {0} {} {The Main Larder} { } {Every inch of wall space in this room is taken up with sturdy wooden shelves piled high with bags, rusty bottles and wooden boxes.  It seems that lizard-men priests live far better than the others of their race.  The only exit is to the south through a door. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7404} {s} {open door;s} {4} {0} {} {1.000} {}
-
-R { 7406} {0} {} {A Common Room} { } {The southwest corner of this room contains a hooded stove.  There are two wooden tables surrounded by benches sitting in the middle of the room.  The only exit is to the north through a door. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7404} {n} {open door;n} {1} {0} {} {1.000} {}
-
-R { 7407} {0} {} {The East Concourse} { } {This damp, stone paved hallway is lit from time to time by smoking torches. Some green and dimly fluorescent moss covers the walls and ceiling.  There are exits to the north and south. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7403} {n} {n} {1} {0} {} {1.000} {}
-E { 7408} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7408} {0} {} {The East Concourse} { } {This damp, stone paved hallway is lit from time to time by smoking torches. Some green and dimly fluorescent moss covers the walls and ceiling.  There is an exit to the north and a small filled-in hole leading down. } {The Temple of the Lizard-men} {} {Inside} {} {1.000} {}
-E { 7407} {n} {n} {1} {0} {} {1.000} {}
-E { 7409} {d} {dig d;d} {32} {0} {} {1.000} {}
-
-R { 7409} {0} {} {A Small Earth Tunnel} { } {You are standing in a secret earth tunnel.  You are walking in mud and it is very damp.  Water is leaking from the ceiling.  Strange fungi are growing on the walls giving off a faint light.  There are exits leading up and to the east. } {The Temple of the Lizard-men} {} {Underground} {} {1.000} {}
-E { 7408} {u} {dig u;u} {16} {0} {} {1.000} {}
-E { 7410} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7410} {0} {} {A Small Earth Tunnel} { } {You are standing in a secret earth tunnel.  You are walking in mud and it is very damp.  Water is leaking from the ceiling.  Strange fungi are growing on the walls giving off a faint light.  There are exits leading to the north, south, east and west. } {The Temple of the Lizard-men} {} {Underground} {} {1.000} {}
-E { 7409} {w} {w} {8} {0} {} {1.000} {}
-E { 7411} {n} {n} {1} {0} {} {1.000} {}
-E { 7412} {s} {s} {4} {0} {} {1.000} {}
-E { 7413} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7411} {0} {} {A Small Earth Cave} { } {You are in a small earth cave.  Water is leaking from the walls and ceiling. Skins are stacked in one corner of the room and wooden spears and maces are resting against the wall.  There is an exit leading to the south. } {The Temple of the Lizard-men} {} {Underground} {} {1.000} {}
-E { 7410} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7412} {0} {} {A Small Earth Cave} { } {You are in a small earth cave.  Water is leaking from the walls and ceiling. Skins are stacked in one corner of the room and wooden spears and maces are resting against the wall.  There is an exit leading to the north. } {The Temple of the Lizard-men} {} {Underground} {} {1.000} {}
-E { 7410} {n} {n} {1} {0} {} {1.000} {}
-
-R { 7413} {0} {} {A Small Earth Tunnel} { } {You are standing in a secret earth tunnel.  You are walking in mud and it is very damp.  Water is leaking from the ceiling.  Strange fungi are growing on the walls giving off a faint light.  There are exits leading to the east and to the west. } {The Temple of the Lizard-men} {} {Underground} {} {1.000} {}
-E { 7410} {w} {w} {8} {0} {} {1.000} {}
-E { 7414} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7414} {0} {} {A Main Room} { } {This huge earth room is the lizard-men home.  Beds made of tanned skins are scattered in the room.  Wooden and bone items and weapons are resting on the ground.  Fish and dead animals are stacked in one corner.  The smell is overbearing.  There are exits to the north, south, east and west. } {The Temple of the Lizard-men} {} {Underground} {} {1.000} {}
-E { 7413} {w} {w} {8} {0} {} {1.000} {}
-E { 7415} {n} {n} {1} {0} {} {1.000} {}
-E { 7419} {e} {e} {2} {0} {} {1.000} {}
-E { 7420} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7415} {0} {} {A Main Room} { } {This huge earth room is the lizard-men home.  Beds made of tanned skins are scattered in the room.  Wooden and bone items and weapons are resting on the ground.  Fish and dead animals are stacked in one corner.  The smell is overbearing.  There are exits to the south and east. } {The Temple of the Lizard-men} {} {Underground} {} {1.000} {}
-E { 7414} {s} {s} {4} {0} {} {1.000} {}
-E { 7416} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7416} {0} {} {A Main Room} { } {This huge earth room is the lizard-men home.  Beds made of tanned skins are scattered in the room.  Wooden and bone items and weapons are resting on the ground.  Fish and dead animals are stacked in one corner.  The smell is } {The Temple of the Lizard-men} {} {Underground} {} {1.000} {}
-E { 7415} {w} {w} {8} {0} {} {1.000} {}
-E { 7417} {e} {e} {2} {0} {} {1.000} {}
-E { 7419} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7417} {0} {} {A Main Room} { } {This huge earth room is the lizard-men home.  Beds made of tanned skins are scattered in the room.  Wooden and bone items and weapons are resting on the ground.  Fish and dead animals are stacked in one corner.  The smell is overbearing.  There are exits to the south and to the west. } {The Temple of the Lizard-men} {} {Underground} {} {1.000} {}
-E { 7416} {w} {w} {8} {0} {} {1.000} {}
-E { 7418} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7418} {0} {} {A Main Room} { } {This huge earth room is the lizard-men home.  Beds made of tanned skins are scattered in the room.  Wooden and bone items and weapons are resting on the ground.  Fish and dead animals are stacked in one corner.  The smell is overbearing.  There are exits to the north, south, and west. } {The Temple of the Lizard-men} {} {Underground} {} {1.000} {}
-E { 7417} {n} {n} {1} {0} {} {1.000} {}
-E { 7419} {w} {w} {8} {0} {} {1.000} {}
-E { 7422} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7419} {0} {} {A Main Room} { } {This huge earth room is the lizard-men home.  Beds made of tanned skins are scattered in the room.  Wooden and bone items and weapons are resting on the ground.  Fish and dead animals are stacked in one corner.  The smell is overbearing.  There are exits to the north, south, east and west. } {The Temple of the Lizard-men} {} {Underground} {} {1.000} {}
-E { 7418} {e} {e} {2} {0} {} {1.000} {}
-E { 7416} {n} {n} {1} {0} {} {1.000} {}
-E { 7414} {w} {w} {8} {0} {} {1.000} {}
-E { 7421} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7420} {0} {} {A Main Room} { } {This huge earth room is the lizard-men home.  Beds made of tanned skins are scattered in the room.  Wooden and bone items and weapons are resting on the ground.  Fish and dead animals are stacked in one corner.  The smell is overbearing.  There are exits to the north and east. } {The Temple of the Lizard-men} {} {Underground} {} {1.000} {}
-E { 7414} {n} {n} {1} {0} {} {1.000} {}
-E { 7421} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7421} {0} {} {A Main Room} { } {This huge earth room is the lizard-men home.  Beds made of tanned skins are scattered in the room.  Wooden and bone items and weapons are resting on the ground.  Fish and dead animals are stacked in one corner.  The smell is overbearing.  There are exits to the north, east and west. } {The Temple of the Lizard-men} {} {Underground} {} {1.000} {}
-E { 7420} {w} {w} {8} {0} {} {1.000} {}
-E { 7419} {n} {n} {1} {0} {} {1.000} {}
-E { 7422} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7422} {0} {} {A Main Room} { } {This huge earth room is the lizard-men home.  Beds made of tanned skins are scattered in the room.  Wooden and bone items and weapons are resting on the ground.  Fish and dead animals are stacked in one corner.  The smell is overbearing.  There are exits to the north, south, east and west. } {The Temple of the Lizard-men} {} {Underground} {} {1.000} {}
-E { 7421} {w} {w} {8} {0} {} {1.000} {}
-E { 7418} {n} {n} {1} {0} {} {1.000} {}
-E { 7423} {s} {s} {4} {0} {} {1.000} {}
-E { 7424} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7423} {0} {} {The Chief's Room} { } {This is the room of the lizard-men's chief.  There is a bed made of skins in one corner of the room and war trophies are resting along the walls.  A small spear rests against the south facing wall.  There is only one exit to the north. } {The Temple of the Lizard-men} {} {Underground} {} {1.000} {}
-E { 7422} {n} {n} {1} {0} {} {1.000} {}
-
-R { 7424} {0} {} {The Shaman's Room} { } {You are in a small earth cave.  Water is leaking from the walls and ceiling. Skins are stacked in one corner of the room and wooden spears and maces are resting against the wall.  There is an exit leading to the west. } {The Temple of the Lizard-men} {} {Underground} {} {1.000} {}
-E { 7422} {w} {w} {8} {0} {} {1.000} {}
-
-R { 7425} {0} {} {A Bright Tunnel} { } {The globes of light fill the passage with their soft glow.  There is still no artwork displayed, as there has been elsewhere.  You do notice, however, that the halls here are much more immaculate.  You can continue west or east. } {The Frost Giant Stronghold} {} {Underground} {} {1.000} {}
-E { 7268} {w} {w} {8} {0} {} {1.000} {}
-E { 7426} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7426} {0} {} {A Bright Tunnel} { } {The globes continue to light your passage along this beautiful passageway. It appears that the passage comes to a stop just ahead.  You can exit east or west. } {The Frost Giant Stronghold} {} {Underground} {} {1.000} {}
-E { 7425} {w} {w} {8} {0} {} {1.000} {}
-E { 7427} {e} {e} {2} {0} {} {1.000} {}
-
-R { 7427} {0} {} {End of the Tunnel} { } {The passage turns gently here, more of a curve than a turn, as it heads north and west.  Set into the eastern wall is a massive set of silver, double doors.  There are strange runes and carving on the face of both of them.  You can exit west, or east through the silver doors. } {The Frost Giant Stronghold} {} {Underground} {} {1.000} {}
-E { 7426} {w} {w} {8} {0} {} {1.000} {}
-E { 7428} {e} {open massive;e} {2} {0} {} {1.000} {}
-E { 7433} {n} {n} {1} {0} {} {1.000} {}
-
-R { 7428} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E { 7427} {w} {w} {8} {0} {} {1.000} {}
-
-R { 7429} {0} {} {Partially Charred Tunnel} { } {The wall to the west, in which a few openings pass through, is blackened with soot and evidence of extreme heat.  Above you, in the ceiling a passage opens in to a large chimney that climbs upwards, allow youa small glimpse of the sky so far above. } {The Frost Giant Stronghold} {} {Underground} {} {1.000} {}
-E { 7433} {s} {s} {4} {0} {} {1.000} {}
-E { 7278} {w} {w} {8} {0} {} {1.000} {}
-E { 7434} {n} {n} {1} {0} {} {1.000} {}
-
-R { 7430} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 7275} {s} {s} {4} {0} {} {1.000} {}
-E { 7273} {n} {n} {1} {0} {} {1.000} {}
-
-R { 7431} {0} {} {A Large Hall} { } {The walls here are adorned with massive suits of icy armor.  There are six tables of enormous size occupying the majority of the floor as well.  This massive dining hall wraps around an enormous kitchen with a chimney spire that climbs into the mountain.  The hall continues to the north and west and the spire kitchen lies to the north. } {The Frost Giant Stronghold} {} {Underground} {} {1.000} {}
-E { 7278} {n} {n} {1} {0} {} {1.000} {}
-E { 7432} {w} {w} {8} {0} {} {1.000} {}
-
-R { 7432} {0} {} {A Large Hall} { } {The walls here are adorned with massive suits of icy armor.  There are six tables of enormous size occupying the majority of the floor as well.  This massive dining hall wraps around an enormous kitchen with a chimney spire that climbs into the mountain.  The hall continues to the north and east and the spire kitchen lies to the northeast. } {The Frost Giant Stronghold} {} {Underground} {} {1.000} {}
-E { 7431} {e} {e} {2} {0} {} {1.000} {}
-E { 7277} {n} {n} {1} {0} {} {1.000} {}
-
-R { 7433} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 7429} {n} {n} {1} {0} {} {1.000} {}
-E { 7427} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7434} {0} {} {A Well Used Passage} { } {The smell of cooking food overwhelms this part of the tunnel.  Directly to the south the passageway turns warm, and there is evidence of fire and food on the walls and in the air.  To the north the tunnel turns towards the west. } {The Frost Giant Stronghold} {} {Underground} {} {1.000} {}
-E { 7435} {n} {n} {1} {0} {} {1.000} {}
-E { 7429} {s} {s} {4} {0} {} {1.000} {}
-
-R { 7435} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E { 7434} {s} {s} {4} {0} {} {1.000} {}
-E { 7279} {n} {n} {1} {0} {} {1.000} {}
-
-R { 7440} {0} {} {The Golden Gateway} { } {The passage stops here at a massive set of Golden Gates.  They appear to be more doors then gates, for you cannot peer through them, yet they look precisely like a pair of gates.  Murals and paintings decorate the walls and globes of light  hang from the ceiling.  You can exit south, or north through the gates. } {The Frost Giant Stronghold} {} {Underground} {} {1.000} {}
-E { 7271} {s} {s} {4} {0} {} {1.000} {}
