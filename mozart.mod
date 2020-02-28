@@ -1,3 +1,4 @@
+#NOP TESTRAD
 #NOP ==== Teleport triggers for map ====
 #ACTION {^Headfirst!} {#MAP GOTO 2398}
 #ACTION {^Where Now?} {#MAP GOTO 2411}
