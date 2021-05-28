@@ -32,7 +32,7 @@
                 #CASE {"<148>, ~"} {#var rmcol <148>;#var rmsym <148>~ ~};
                 #DEFAULT {#var rmcol <148>;#var rmsym <148>~ ~}
                 }
-            }
+            };
 		#CASE {"Ocean"}			{#var rmcol <148>;#var rmsym <148>~ ~};
 		#CASE {"Ocean2"}		{#var rmcol <148>;#var rmsym <148>~ ^};
 		#CASE {"Ocean3"}		{#var rmcol <148>;#var rmsym <148>^ ~};

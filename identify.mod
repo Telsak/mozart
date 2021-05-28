@@ -42,7 +42,7 @@
   #DELAY 0.75 {give %1 parth}
 }
 
-#NOP: Crude search by $itemwords, then forces a carriage return for formatting
+#NOP : Crude search by $itemwords, then forces a carriage return for formatting
 #ALIAS {find}
 {
   #VAR itemwords NULL;
@@ -50,7 +50,7 @@
   #DELAY 1 {finditem $itemwords}
 }
 
-#NOP: Lets us pick an item ourselves without looking
+#NOP : Lets us pick an item ourselves without looking
 #ALIAS {finditem}
 {
     #VAR item NULL;
@@ -58,7 +58,7 @@
     #SYS {grep -i $item mozart.db}
 }
 
-#NOP: Lets us assign a room vnum to where an item is located!
+#NOP : Lets us assign a room vnum to where an item is located!
 #ALIAS {itemvnum}
 {
   #SYS {./itemparse.py setvnum %1 %2}

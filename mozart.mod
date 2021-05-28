@@ -56,7 +56,7 @@
     #CASE {"nt"} {findroom 1431};
     #CASE {"fg"} {findroom 1739};
     #CASE {"order"} {findroom 1592};
-    #CASE {"gaul"} {findroom 2643}
+    #CASE {"gaul"} {findroom 2643};
     #DEFAULT {
       #SHOWME nev - City of Nevrast;
       #SHOWME rb - Raven's Bluff;
@@ -322,7 +322,7 @@
 #ALIAS {at} {#LOG overwrite .attributes; attr; #DELAY 0.4 {#LOG {off}}}
 #ALIAS {le} {#LOG overwrite .learned; spells; skills; weapon; special; #DELAY 0.4 {#LOG {off}}}
 
-#ALIAS {login} {#session mozart ymca.cnap.hv.se 4500} {5}
+#ALIAS {login} {#session mozart mozartmud.net 4500} {5}
 #ALIAS {logout} {save; rent} {5}
 
 #AC {^You have become more adept at %1!} {learn %1}
@@ -342,9 +342,9 @@
 #MACRO {\e[12~} {#IF {$mapedit > 0} {mapoff} {mapon}}
 #MACRO {\eOl} {#VAR flymode 0;walk}
 
-#CONFIG           {256 COLORS}  {ON}
+#NOP #CONFIG           {256 COLORS}  {ON}
 #CONFIG           {AUTO TAB}  {5000}
-#CONFIG           {BUFFER SIZE}  {20000}
+#CONFIG           {BUFFER SIZE}  {100000}
 #CONFIG           {CHARSET}  {ASCII}
 #CONFIG           {COLOR PATCH}  {OFF}
 #CONFIG           {COMMAND COLOR}  {<078>}

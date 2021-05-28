@@ -1,12 +1,12 @@
 #NOP ==== Read in identified items sub list ====
 #READ mozart.itm
 
-#NOP ==== Read in iddentify module ====
+#NOP ==== Read in iddentify module ==== */
 #READ identify.mod
 
-#NOP ==== Read in map related modules ====
+#NOP ==== Read in map related modules ==== */
 #READ mapper.mod
 #READ terrain.mod
 
-#NOP ==== Read in Mozart specific file ====
+#NOP ==== Read in Mozart specific file ==== */
 #READ mozart.mod
