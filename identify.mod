@@ -6,7 +6,7 @@
 #ALIAS {rmstore} {#SYS rm item_room.vnm}
 
 #NOP : Grab the keywords for the item and begin logging output to temp item file
-#ACTION {You give %1 to parth the appraiser} 
+#ACTION {You give %1 to Parth the Appraiser} 
 {
   #VAR {itemlong} {%1};
   #LOG overwrite .itemlog
