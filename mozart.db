@@ -123,7 +123,7 @@
 123,5636,Mace,unholy-wicked-mace,an unholy mace,4d3,pound,Hit-N-Dam: +2
 124,5635,Axe,great-axe,a great axe,4d6,cleave
 125,ROOMVNUM,Armor,dwarf-mask,a fierce dwarf mask,Face,7,Constitution: +5,Resistance: fire,Darksight
-126,5648,Jewelry,silver-trinket,a silver trinket,Neck,0,Hit-N-Dam: +1,Armor: +10,Mana: +20
+126,3146,Jewelry,silver-trinket,a silver trinket,Neck,0,Hit-N-Dam: +1,Armor: +10,Mana: +20
 127,ROOMVNUM,Dagger,ghast-fang-long-yellowed-fossilized,a ghast fang,2d3,pierce,Weapon Spell: Paralyze at Level 80,Weapon Spell Chance: 2%,Damroll: +1,Curse
 128,5664,Sword,sword-flame-tongue,a flame tongue,2d8,slash,Weapon Spell: Flame Tongue at Level 1,Hit-N-Dam: +1
 129,ROOMVNUM,Clothing,rubber-galoshes,heavy rubber galoshes,Feet,0,Waterwalking: +25,Armor: +10
@@ -292,3 +292,9 @@
 292,ROOMVNUM,Armor,ice-boots,a pair of ice boots,Feet,8,Dexterity: +6,Armor: +10,Strength: +4
 293,ROOMVNUM,Armor,snowy-helmet,a snowy helmet,Head,10,Strength: +4,Hit Points: +20
 294,ROOMVNUM,Jewelry,cypress-charm-wooden,a cypress charm,Neck,0,Mana: +75,Hitroll: -2,Susceptibility: fire,Damroll: +1,Gaze-Reflection
+295,ROOMVNUM,Throwable Dagger,ice-sliver,a sliver of ice,1d8,pierce
+296,ROOMVNUM,Clothing,lightweight-boots,lightweight boots,Feet,0,Dexterity: +7,Movement: +20,Hitroll: +1,Floating
+297,ROOMVNUM,Armor,{echo,silversteel sleeves,Arms,5.,Hit-N-Dam: +1,Armor: +5,Fortitude Saves: +3,It is unclear whether this is a shop or a dwelling at first glance,A battered sign hangs on the south wall,There's more here than meets the eye,You are on a pathway that leads to the many donation rooms of Nevrast,You are in the southern end of the front hall of the Temple of Nevrast,Large steps lead south through the grand temple gate, descending the huge
+,You are on the broad Temple Avenue that splits Nevrast in half going north
+,You are standing in the Temple Square,You are standing at the end of Nevrast Lane,A cheery fire in a wide stone fireplace along the west wall lights up this
+,The area is magically bright,#system {sed -ne "/\"$itemlong/,$ p" ,#system {
