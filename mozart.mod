@@ -7,6 +7,7 @@
 #ACTION {^Under the Outcropping} {#MAP GOTO 5013}
 #ACTION {^Bottom of the Trap} {#MAP GOTO 4649}
 #ACTION {^steps leads to the Temple Basement, a passageway leading to the board rooms.$} {#MAP GOTO 185}
+#ACTION {^roar in fire-pits and a section of the clearing with beaten down grass holds a$} {#MAP GOTO 2561}
 
 #ACTION {^You are too exhausted.} {#MAP undo}
 #ACTION {^Alas, you cannot go that way.} {#IF {$mapedit > 0} {#MAP undo}}
@@ -133,15 +134,15 @@
 
 #NOP ====== Grouping ======
 #ACTION {You are now a member of %1's group.} {#VAR Group 1;#VAR GroupLeader %1}
-#ACTION {You follow %1} {#VAR Follow 1; #VAR FollowTarget %1}
+#ACTION {You now follow %1} {#VAR Follow 1; #VAR FollowTarget %1}
 #ACTION {You stop following $GroupLeader} {#VAR Group 0; #VAR GroupLeader NULL}
 
-#ACTION {$FollowTarget %1 east.} {e}
-#ACTION {$FollowTarget %1 south.} {s}
-#ACTION {$FollowTarget %1 west.} {w}
-#ACTION {$FollowTarget %1 north.} {n}
-#ACTION {$FollowTarget %1 up.} {u}
-#ACTION {$FollowTarget %1 down.} {d}
+#ACTION {$FollowTarget %1 east.} {#map move e}
+#ACTION {$FollowTarget %1 south.} {#map move s}
+#ACTION {$FollowTarget %1 west.} {#map move w}
+#ACTION {$FollowTarget %1 north.} {#map move n}
+#ACTION {$FollowTarget %1 up.} {#map move u}
+#ACTION {$FollowTarget %1 down.} {#map move d}
 
 #ALIAS {north} {n}
 #ALIAS {east} {e}
@@ -157,7 +158,8 @@
 #ALIAS {setmap} {
   #MATH mapwidth {$col - 30};
   #DRAW white tube unicode box 1 1 {$rawSplit} {$mapwidth + 1} \ ;
-  #MAP offset 2 2 {$rawSplit} $mapwidth
+  #MAP offset 2 2 {$rawSplit} $mapwidth;
+  #VAR maptype 1
 }
 
 #ALIAS {statusbar} {default;mapstate;arealine;roomline;mapzone}
@@ -196,8 +198,10 @@
 
 #ALIAS {findsplit} {
   #SCREEN get rows termHeight;
+  #SCREEN get cols termWidth;
   #MATH rawSplit {(($termHeight / 5) * 2)};
-  #SPLIT $rawSplit 1
+  #MATH colSplit {($termWidth - 82)};
+  #SPLIT $rawSplit 1 0 $colSplit
 }
 
 #NOP ====== Rebuffing ======
@@ -292,7 +296,7 @@
 #ACTION {^Your golden aura is snuffed out} {#VAR spell[Alkar] 0}
 #ACTION {^Your golden aura fades away} {#VAR spell[Alkar] 0}
 #ACTION {^You feel disoriented as you lose your darksight.} {#VAR spell[Darksight] 0}
-#TICKER {mana} {#MATH manapercent $curM*10/$maxM} {10}
+#TICKER {mana} {#MATH manapercent $curM*100/$maxM} {10}
 #TICKER {rebuff} {#IF {$manapercent > 5 && $combat == 0 && $standing == 1} {recast}} {10}
 
 #ALIAS {recast}
@@ -338,7 +342,13 @@
 #MACRO {\eOy} {#IF {$mapedit < 1 && $flymode > 0} {#MAP move u} {u}} 
 #MACRO {\eOu} {#IF {$mapedit < 1 && $flymode > 0} {rinfo} {look}}
 
-#MACRO {\e[11~} {#MAP flag asciivnum}
+
+#MACRO {\e[11~} {#MAP FLAG AsciiGraphics;#MAP FLAG AsciiVnums}
+#MACRO {\e[19~} 
+{
+  #IF {$maptype == 1} {#MATH maptype $maptype*-1;#MAP FLAG AsciiGraphics};
+  #ELSEIF {$maptype == -1} {#MATH maptype $maptype*-1;#MAP FLAG UnicodeGraphics}
+}
 #MACRO {\e[12~} {#IF {$mapedit > 0} {mapoff} {mapon}}
 #MACRO {\eOl} {#VAR flymode 0;walk}
 
