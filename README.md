@@ -1,6 +1,7 @@
 # mozart
 
 A simple mapper script for Mozart MUD that's hosted at the University I work at.
+You can connect to Mozart @ mozartmud.net:4500
 This is a tintin++ script (https://tintin.sourceforge.io) and has some specific set paths for file access. Beware!
 
 The script is based of a forum post on the tintin++ boards from 2013.
