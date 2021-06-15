@@ -13,7 +13,7 @@
 }
 
 #NOP : Stop logging, call cleanup alias and most importantly reset the variables
-#ACTION {Parth the appraiser gives you %1.} 
+#ACTION {Parth the Appraiser gives you %1.} 
 {
   #DELAY 0.3 {#LOG {off}}; 
   cleanup 
