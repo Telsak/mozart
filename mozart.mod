@@ -333,8 +333,11 @@
 }
 
 #NOP == Add in manual toggling of which spells you want rebuffed ==
-#NOP #show $buff right now is just temporary
 #NOP Maybe limit myself to 10 spells for display in right window?
+
+#NOP Delay is needed on printbuffs or the script will be caught in an endless loop
+#NOP as it triggers on the #show messages from printbuffs. Delay lets the $affects
+#NOP variable reset before we loop the #show lines.
 
 #EVENT {VARIABLE UPDATED spell} {#DELAY {1.5} {printbuffs}}
 
@@ -366,7 +369,7 @@
     #loop {0} {&buff[]-1} {i}
     {
       #var {colIx} {$spell[*buff[+$i]]};
-      #var {colJx} {$buff[*buff[+$i]]};
+      #var {colJx} {$buff[+$i]};
       #math colKx $colJx+2;
       #show {$txtClr[$colKx] <$txtClr[$colIx]>*buff[+$i]<099>} {$screenHeight-11+$i-&buff[]} {87}
     }
