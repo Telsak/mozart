@@ -1,4 +1,3 @@
-#NOP TESTRAD
 #NOP ==== Teleport triggers for map ====
 #ACTION {^Headfirst!} {#MAP GOTO 2398}
 #ACTION {^Where Now?} {#MAP GOTO 2411}
@@ -48,7 +47,6 @@
 #ALIAS {recall} {c succor;recite recall}
 #MACRO {\e[24~} {#MAP set roomcolor;symbol}
 #ALIAS {ter} {#MAP goto %1;#MAP set roomterrain %2}
-#ALIAS {scry} {remove flame;get scry bag;hold scry;use scry;remove scry;put scry bag;hold flame}
 
 #ALIAS {qr} {#VAR runtarget %1;#DELAY 1 {#VAR runtarget NULL};
   #SWITCH {"$runtarget"} {
@@ -58,13 +56,15 @@
     #CASE {"fg"} {findroom 1739};
     #CASE {"order"} {findroom 1592};
     #CASE {"gaul"} {findroom 2643};
+    #CASE {"beasts"} {findroom 4729};
     #DEFAULT {
       #SHOWME nev - City of Nevrast;
       #SHOWME rb - Raven's Bluff;
       #SHOWME nt - New Thalos;
       #SHOWME fg - Fire Giant Keep;
       #SHOWME gaul - Gaullish Village;
-      #SHOWME order - Eternal Stalemate
+      #SHOWME order - Eternal Stalemate;
+      #SHOWME beasts - Shadow Beasts
     }
   }
 }
@@ -109,9 +109,12 @@
 #ALIAS {sanc} {get purp bag;qua pur}
 #ALIAS {invis} {get roll bag;eat roll}
 
+#ALIAS {cm} {cast 'magic missile'}
+#ALIAS {cw} {cast 'water blast'}
+#ALIAS {web} {cast 'web'}
+
 #HIGHLIGHT {%1 stands up.} {<bdf>}
 #HIGHLIGHT {%1 feet very slowly.} {<bdf>}
-
 
 #ACTION {A purple potion: You can't carry that many items.} {put all.pur bag;get all.pur corpse}
 #ACTION {%*{is dead!$|is destroyed!$}%*} {
@@ -132,17 +135,19 @@
 #ACTION {^You hit the ground with a thud.} {stand}
 #ACTION {^You miss %1 with your stun attempt!} {stand}
 
+#ACTION {You bind your wounds} {#VAR bandage $curH;#SHOW {Bandage: $bandage HP} {$rawSplit+2} {85}}
+
 #NOP ====== Grouping ======
 #ACTION {You are now a member of %1's group.} {#VAR Group 1;#VAR GroupLeader %1}
-#ACTION {You now follow %1} {#VAR Follow 1; #VAR FollowTarget %1}
-#ACTION {You stop following $GroupLeader} {#VAR Group 0; #VAR GroupLeader NULL}
+#ACTION {You now follow %1.} {#VAR Follow 1; #VAR FollowTarget %1}
+#ACTION {You stop following $GroupLeader.} {#VAR Group 0; #VAR GroupLeader NULL}
 
-#ACTION {$FollowTarget %1 east.} {#map move e}
-#ACTION {$FollowTarget %1 south.} {#map move s}
-#ACTION {$FollowTarget %1 west.} {#map move w}
-#ACTION {$FollowTarget %1 north.} {#map move n}
-#ACTION {$FollowTarget %1 up.} {#map move u}
-#ACTION {$FollowTarget %1 down.} {#map move d}
+#ACTION {$FollowTarget %1 east} {#map move e}
+#ACTION {$FollowTarget %1 south} {#map move s}
+#ACTION {$FollowTarget %1 west} {#map move w}
+#ACTION {$FollowTarget %1 north} {#map move n}
+#ACTION {$FollowTarget %1 up} {#map move u}
+#ACTION {$FollowTarget %1 down} {#map move d}
 
 #ALIAS {north} {n}
 #ALIAS {east} {e}
@@ -153,7 +158,7 @@
 
 #NOP ====== Statusbar at top split ======
 #EVENT {MAP UPDATED VTMAP} {statusbar}
-#EVENT {SCREEN RESIZE} {findsplit;#SCREEN get cols col}
+#EVENT {SCREEN RESIZE} {findsplit;#SCREEN get cols col;#SCREEN GET SCROLL_BOT_ROW screenHeight}
 
 #ALIAS {setmap} {
   #MATH mapwidth {$col - 30};
@@ -225,6 +230,7 @@
   #VAR spell[Strength] 0;
   #VAR spell[Alkar] 0;
   #VAR spell[Darksight] 0;
+  #VAR spell[Float] 0;
   #VAR hunger 0;
   #VAR thirst 0;
   #DELAY {0.3} {affe}
@@ -237,9 +243,10 @@
 #ACTION {^You awaken and clamber to your feet.$} {#VAR standing 1}
 
 #NOP == Active Spells ==
-#ACTION {^Affecting Spells:$} {#VAR affects 1; #DELAY 2 {#VAR affects 0}}
+#ACTION {^Affecting Spells:$} {#VAR affects 1; #DELAY 1 {#VAR affects 0}}
 #ACTION {^You feel slightly healthier.} {#VAR spell[ResistPoison] 1}
 #ACTION {^You feel someone protecting you.} {#VAR spell[Armor] 1}
+#ACTION {^You feel a mystical force protecting you.} {#VAR spell[Armor] 1}
 #ACTION {^You are briefly surrounded by a holy aura.} {#VAR spell[AlignmentWard] 1}
 #ACTION {^You are surrounded by a strong force shield.} {#VAR spell[Shield] 1}
 #ACTION {^Your eyes tingle.} {affe}
@@ -250,11 +257,12 @@
 #ACTION {^You feel buoyant.} {#VAR spell[Waterwalking] 1}
 #ACTION {^Your skin turns a little reddish.} {#VAR spell[ResistFire] 1}
 #ACTION {^Your skin turns a little bluish.} {#VAR spell[ResistCold] 1}
-#ACTION {^You feel stronger.} {#VAR spell[Strength] 1}
+#ACTION {^You feel much stronger.} {#VAR spell[Strength] 1}
 #ACTION {^Your skin turns slightly slippery.} {#VAR spell[Freedom] 1}
 #ACTION {^You are surrounded in an aura of soft gold.} {#VAR spell[Alkar] 1}
+#ACTION {^You start to float!} {#VAR spell[Float] 1}
 
-#ACTION {%*{Detect Evil|Detect Good|Bless|Armor|Detect Invisibility|Alignment Ward|Courage|Resist Poison|Detect Magic|Waterwalking|Strength|Freedom|Alkar|Darksight}%*}
+#ACTION {%*{Detect Evil|Detect Good|Bless|Armor|Detect Invisibility|Alignment Ward|Courage|Resist Poison|Detect Magic|Waterwalking|Strength|Freedom|Alkar|Darksight|Float}%*}
 {
   #IF {"%0"=="%*Detect Evil%*" && $affects > 0} {#VAR spell[DetectEvil] 1};
   #IF {"%0"=="%*Detect Good%*" && $affects > 0} {#VAR spell[DetectGood] 1};
@@ -273,6 +281,7 @@
   #IF {"%0"=="%*Alkar%*" && $affects > 0} {#VAR spell[Alkar] 1};
   #IF {"%0"=="%*Waterwalking%*" && $affects > 0} {#VAR spell[Waterwalking] 1};
   #IF {"%0"=="%*Darksight%*" && $affects > 0} {#VAR spell[Darksight] 1};
+  #IF {"%0"=="%*Float%*" && $affects > 0} {#VAR spell[Float] 1};
   #IF {"%0"=="%*Sense Life%*" && $affects > 0} {#VAR spell[SenseLife] 1}
 }
 
@@ -296,29 +305,72 @@
 #ACTION {^Your golden aura is snuffed out} {#VAR spell[Alkar] 0}
 #ACTION {^Your golden aura fades away} {#VAR spell[Alkar] 0}
 #ACTION {^You feel disoriented as you lose your darksight.} {#VAR spell[Darksight] 0}
+#ACTION {^You fall abruptly to the ground.} {#VAR spell[Float] 0}
 #TICKER {mana} {#MATH manapercent $curM*100/$maxM} {10}
-#TICKER {rebuff} {#IF {$manapercent > 5 && $combat == 0 && $standing == 1} {recast}} {10}
+#TICKER {rebuff} {#IF {$manapercent > 15 && $combat == 0 && $standing == 1} {recast}} {20}
 
 #ALIAS {recast}
 {
-  #IF {$spell[Armor] == 0} {cast 'armor'};
-  #ELSEIF {$spell[AlignmentWard] == 0} {cast 'alignment ward'};
-  #ELSEIF {$spell[Bless] == 0} {cast 'bless'};
-  #ELSEIF {$spell[Shield] == 0} {cast 'shield'};
-  #ELSEIF {$spell[DetectInvis] == 0} {cast 'detect invisibility'};
-  #ELSEIF {$spell[DetectGood] == 0} {cast 'detect good'};
-  #ELSEIF {$spell[DetectEvil] == 0} {cast 'detect evil'};
-  #ELSEIF {$spell[Courage] == 0} {cast 'courage'};
-  #ELSEIF {$spell[DetectMagic] == 0} {cast 'detect magic'};
-  #ELSEIF {$spell[ResistPoison] == 0} {cast 'resist poison'};
-  #ELSEIF {$spell[Waterwalking] == 0} {cast 'waterwalking'};
-  #ELSEIF {$spell[ResistFire] == 0} {cast 'resist fire'};
-  #ELSEIF {$spell[Strength] == 0} {cast 'strength'};
-  #ELSEIF {$spell[Freedom] == 0} {cast 'freedom'};
-  #ELSEIF {$spell[ResistCold] == 0} {cast 'resist cold'};
-  #ELSEIF {$spell[Alkar] == 0} {cast 'alkar'};
-  #ELSEIF {$spell[Darksight] == 0} {cast 'darksight'};
-  #ELSEIF {$spell[SenseLife] == 0} {cast 'sense life'}
+  #IF {$spell[Armor] == 0 && $buff[Armor] == 1} {cast 'armor'};
+  #ELSEIF {$spell[AlignmentWard] == 0 && $buff[AlignmentWard] == 1} {cast 'alignment ward'};
+  #ELSEIF {$spell[Bless] == 0 && $buff[Bless] == 1} {cast 'bless'};
+  #ELSEIF {$spell[Shield] == 0 && $buff[Shield] == 1} {cast 'shield'};
+  #ELSEIF {$spell[DetectInvis] == 0 && $buff[DetectInvis] == 1} {cast 'detect invisibility'};
+  #ELSEIF {$spell[DetectGood] == 0 && $buff[DetectGood] == 1} {cast 'detect good'};
+  #ELSEIF {$spell[DetectEvil] == 0 && $buff[DetectEvil] == 1} {cast 'detect evil'};
+  #ELSEIF {$spell[Courage] == 0 && $buff[Courage] == 1} {cast 'courage'};
+  #ELSEIF {$spell[DetectMagic] == 0 && $buff[DetectMagic] == 1} {cast 'detect magic'};
+  #ELSEIF {$spell[ResistPoison] == 0 && $buff[ResistPoison] == 1} {cast 'resist poison'};
+  #ELSEIF {$spell[Waterwalking] == 0 && $buff[Waterwalking] == 1} {cast 'waterwalking'};
+  #ELSEIF {$spell[ResistFire] == 0 && $buff[ResistFire] == 1} {cast 'resist fire'};
+  #ELSEIF {$spell[Strength] == 0 && $buff[Strength] == 1} {cast 'strength'};
+  #ELSEIF {$spell[Freedom] == 0 && $buff[Freedom] == 1} {cast 'freedom'};
+  #ELSEIF {$spell[ResistCold] == 0 && $buff[ResistCold] == 1} {cast 'resist cold'};
+  #ELSEIF {$spell[Alkar] == 0 && $buff[Alkar] == 1} {cast 'alkar'};
+  #ELSEIF {$spell[Darksight] == 0 && $buff[DarkSight] == 1} {cast 'darksight'};
+  #ELSEIF {$spell[Float] == 0 && $buff[Float] == 1} {cast 'float'};
+  #ELSEIF {$spell[SenseLife] == 0 && $buff[SenseLife] == 1} {cast 'sense life'}
+}
+
+#NOP == Add in manual toggling of which spells you want rebuffed ==
+#NOP #show $buff right now is just temporary
+#NOP Maybe limit myself to 10 spells for display in right window?
+
+#EVENT {VARIABLE UPDATED spell} {#DELAY {1.5} {printbuffs}}
+
+#ALIAS {setbuff}
+{
+  #IF {"%0" == ""} {#show $buff};
+  #ELSE 
+  {
+    #IF {$buff[%0] == 1} {#VAR buff[%0] 0};
+    #ELSE {#VAR buff[%0] 1}
+  };
+  printbuffs
+}
+
+#VAR {txtClr}
+{
+  {0}{fbb}
+  {1}{bfb}
+  {2}{ }
+  {3}{ᐅ}
+}
+
+#ALIAS {printbuffs}
+{
+  #IF {&{buff} > 0}
+  {
+    #draw tile $screenHeight-12-&buff[] 85 $screenHeight-11 105;
+    #draw jeweled box $screenHeight-12-&buff[] 85 $screenHeight-11 105;
+    #loop {0} {&buff[]-1} {i}
+    {
+      #var {colIx} {$spell[*buff[+$i]]};
+      #var {colJx} {$buff[*buff[+$i]]};
+      #math colKx $colJx+2;
+      #show {$txtClr[$colKx] <$txtClr[$colIx]>*buff[+$i]<099>} {$screenHeight-11+$i-&buff[]} {87}
+    }
+  }
 }
 
 #NOP ==== Data gathering ==== 
@@ -330,6 +382,26 @@
 #ALIAS {logout} {save; rent} {5}
 
 #AC {^You have become more adept at %1!} {learn %1}
+
+
+#NOP ==== Variables for chat windows ====
+#VAR {goss_win}
+{
+  {1} {} {2} {} {3} {} {4} {} {5} {} {6} {} {7} {} {8} {} {9} {} {10} {}
+}
+
+#VAR {tell_win}
+{
+  {1} {} {2} {} {3} {} {4} {} {5} {} {6} {} {7} {} {8} {} {9} {} {10} {}
+}
+
+#VAR {group_win}
+{
+  {1} {} {2} {} {3} {} {4} {} {5} {} {6} {} {7} {} {8} {} {9} {} {10} {}
+}
+
+
+
 
 #NOP ==== Flymode ====
 #MACRO {\e[15~} {#IF {$flymode < 1} {mapoff;#VAR flymode 1;#VAR return_position $playerpos} {#VAR flymode 0;#MAP goto $return_position}}
@@ -344,6 +416,7 @@
 
 
 #MACRO {\e[11~} {#MAP FLAG AsciiGraphics;#MAP FLAG AsciiVnums}
+#VAR {maptype} {1}
 #MACRO {\e[19~} 
 {
   #IF {$maptype == 1} {#MATH maptype $maptype*-1;#MAP FLAG AsciiGraphics};
