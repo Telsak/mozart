@@ -77,7 +77,9 @@
     zone Unset;
     resetbuffs;
     sleep;
-    stand
+    stand;
+    #screen RAISE {screen resize};
+    draw_gossip
 }
 
 #ALIAS {symbol} {#map set roomsymbol %0; #echo {RoomSymbol = <229>%0}} {5}

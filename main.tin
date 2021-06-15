@@ -10,3 +10,5 @@
 
 #NOP ==== Read in Mozart specific file ==== */
 #READ mozart.mod
+#READ chat.mod
+#READ hunting.mod
