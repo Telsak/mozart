@@ -13,21 +13,42 @@
 #NOP === JEWELRY ===
 
 
+#SUB {the Circlet of Pirotesse} {the Circlet of Pirotesse (3h/2d)}
+#SUB {a pair of jade glasses} {ade glasses (scry)}
+#SUB {a jade earring} {jade earring (1h)}
+#SUB {a necklace of alligator teeth} {necklace of alligator teeth (1d)}
+#SUB {a jade necklace} {jade necklace (1h/1d)}
+#SUB {a pair of iron arm bands.} {iron arm bands (2h)}
+#SUB {a jade bracelet} {jade bracelet (1h/1d)}
+#SUB {a beast chain bracelet} {beast chain bracelet (2h/2d)}
+#SUB {a titan's essence.} {titan's essence (2d)}
+#SUB {the ring of truth} {ring of truth (2h/2d)}
+#SUB {a coral breastplate.} {coral breastplate (1d)}
+#SUB {a scaled mantle} {scaled mantle (2h)}
+#SUB {a pair of crimson wings.} {crimson wings (1h/1d, fly)}
+#SUB {a pair of bone leggings} {bone leggings (1h/1d)}
+#SUB {a pair of amber boots.} {amber boots (1h, I:Para)}
+#SUB {an ankylosaurus shield} {an ankylosaurus shield (1h/1d)}
+#SUB {a bronze head} {a bronze head (2h/2d)}
+
+#SUB {It is in good condition.} {(c:good)}
+#SUB {It is falling apart.} {(c:apart)}
+#SUB {It is in fair condition.} {(c:fair)}
 
 
 #NOP --- Shorter descriptions ---
-#SUB {It glows white!} {(glow)} 
-#HIG {(glow)} {<fff>}
-#SUB {It is blessed!} {(blessed)}
-#HIG {(blessed)} {<bdf>}
-#SUB {It has a soft glowing aura!} {(visible)} 
-#HIG {(visible)} {white}
-#SUB {It glows blue!} {(magic)} 
-#HIG {(magic)} {<efa>}
-#SUB {It glows white!} {(good)} 
-#HIG {(good)} {white}
-#SUB {It glows red!} {(evil)} 
-#HIG {(evil)} {<eaa>}
-#SUB {It is invisible.} {(invis)} 
-#HIG {(invis)} {<ccc>}
-#SUB {It emits a faint humming sound!} {(hum)}
+#SUB {It glows white!} {(G)} 
+#HIG {(G)} {<fff>}
+#SUB {It is blessed!} {(B)}
+#HIG {(B)} {<bdf>}
+#SUB {It has a soft glowing aura!} {(V)} 
+#HIG {(V)} {white}
+#SUB {It glows blue!} {(M)} 
+#HIG {(M)} {<efa>}
+#SUB {It glows red!} {(E)} 
+#HIG {(E)} {<eaa>}
+#SUB {It is invisible.} {(I)} 
+#HIG {(I)} {<ccc>}
+#SUB {It emits a faint humming sound!} {(H)}
+#HIG {(H)} {<cda>}
+

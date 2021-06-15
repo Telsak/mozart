@@ -298,3 +298,26 @@
 ,You are on the broad Temple Avenue that splits Nevrast in half going north
 ,You are standing in the Temple Square,You are standing at the end of Nevrast Lane,A cheery fire in a wide stone fireplace along the west wall lights up this
 ,The area is magically bright,#system {sed -ne "/\"$itemlong/,$ p" ,#system {
+301,ROOMVNUM,Armor,amber-boots,a pair of amber boots,Feet,5.,Hitroll: +1,Immunity: paralysis
+302,ROOMVNUM,Hammer,weyland's-hammer,Weyland's Hammer,wit,crush,Hit-N-Dam: +4,Hammer Mastery: +10,Weapon Spell: Flame Tongue at Level 3,Weapon Spell Chance: 5%
+303,ROOMVNUM,Jewelry,electrum-ring,an electrum ring,Finger,0,Hitroll: +1,Dexterity: +15,Armor: +15,Brilliance: +7
+304,ROOMVNUM,Jewelry,hunter-hunter's-bracelet-matte-black,the Hunter's bracelet,Wrist,0,Hit-N-Dam: +1,Hit Points: +50,Resistance: slash,Berserk: +12,Track: +6
+305,ROOMVNUM,Sword,excalibur-sword-magical,Excalibur,wit,slash,Hit-N-Dam: +5,Wisdom: +12,Armor: +25,Detect-Evil
+306,ROOMVNUM,Potion,holy-grail-mysterious-golden-chalice,the Holy Grail,Hold,0,Hit-N-Dam: +4,Sanctuary,Alignment-Ward
+307,ROOMVNUM,Clothing,river-sleeve,river sleeve,Arms,0,Hit-N-Dam: +1,Dexterity: +3
+308,ROOMVNUM,Clothing,river-leggings,river leggings,Legs,0,Hitroll: +1,Damroll: +2,Armor: +8
+309,ROOMVNUM,Armor,pond-boots,a pair of pond boots,Feet,4.,Armor: +5,Hit Points: +45,Dexterity: +10
+310,ROOMVNUM,Light,glinting-ring-silver,a glinting ring of silver,Finger Hold,0,Armor: +10,Hitroll: +2
+311,ROOMVNUM,Clothing,pond-gloves,a pair of pond gloves,Hands,0,Hit-N-Dam: +2,Armor: +5,Water-Breath
+312,ROOMVNUM,Jewelry,carved-mineral-bracelet,a carved mineral bracelet,Wrist,0,Hit-N-Dam: +1,Movement: -15,Immunity: paralysis
+313,ROOMVNUM,Jewelry,golden-earring,a golden earring,Ears,0,Hitroll: +2,Listen: +6,Dexterity: +12
+314,ROOMVNUM,Other,titan's-essence,a titan's essence,Neck Body Head Legs Hands Arms Shield Waist Wrist Hold,0,Hit Points: +50,Damroll: +2
+315,ROOMVNUM,Jewelry,circlet-pirotesse,the Circlet of Pirotesse,Head,0,Hitroll: +3,Damroll: +2,Detect-Evil, Detect-Good
+316,ROOMVNUM,Armor,iron-arm-bands,a pair of iron arm bands,Arms,6.,Hitroll: +2,Hit Points: +50,Constitution: +15,Geomancy: +6,Abjuration: +6
+317,ROOMVNUM,Jewelry,beast-chain-bracelet-animals-thick,a beast chain bracelet,Wrist,0,Hit-N-Dam: +2,Movement: +20
+318,ROOMVNUM,Jewelry,ring-truth,the ring of truth,Finger,0,Hit-N-Dam: +2,Strength: +4,Mana: +10,Sneak: -25,Divination: +8
+319,ROOMVNUM,Treasure,small-leaf-druidleaf,a druidleaf,Hold,0,Immunity: acid
+320,ROOMVNUM,Jewelry,flower-necklace,a flower necklace,Neck,0,Hit-N-Dam: +1,Constitution: +3
+321,ROOMVNUM,Jewelry,silver-torque-collar-wire,a silver torque,Neck,0,Hitroll: +1,Scrying
+322,ROOMVNUM,Mace,bear-femur-club,a bear femur club,wit,pound,Hit-N-Dam: +2,Necromancy: +6
+323,ROOMVNUM,Armor,bear-pelt-tunic,a bear pelt tunic,Body,10.,Hit-N-Dam: +1,Movement: +15
