@@ -25,6 +25,25 @@ $ tt++ main.tin
 This loads the main script that reads in other necessary files. Ensure you start it this way for the
 mapper to work correctly. Note that the main.tin file ONLY reads in the other modules.
 
+## General
+
+login - autologs into Mozart
+
+setup - initalizes the splits, the screen regions, the chat windows and lots of background stuff
+
+ALT+1 - toggles gossip chat pane
+
+ALT+2 - toggles tells chat pane
+
+ALT+3 - toggles group chat pane
+
+setbuff {SpellName} - adds a spell and toggles it on/off to the auto-recast list. See the $spell variable for possible spells you can add to the buff list. (If you add a spell not in $spell, you break the printbuffs call.
+
+recast - manually triggers the automatic cast of the first non-applied spell in the buff list. This should be going via #TICKERs, but they may not fire correctly.
+
+
+## Map stuff!
+
 mapoff - turns the mapping off and sets rooms to static which means you can move in the map but no
 no new data is being written. Also alters the prompt to let you know the mapper is turned off.
 
