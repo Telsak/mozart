@@ -327,7 +327,7 @@
   #ELSEIF {$spell[Freedom] == 0 && $buff[Freedom] == 1} {cast 'freedom'};
   #ELSEIF {$spell[ResistCold] == 0 && $buff[ResistCold] == 1} {cast 'resist cold'};
   #ELSEIF {$spell[Alkar] == 0 && $buff[Alkar] == 1} {cast 'alkar'};
-  #ELSEIF {$spell[Darksight] == 0 && $buff[DarkSight] == 1} {cast 'darksight'};
+  #ELSEIF {$spell[Darksight] == 0 && $buff[Darksight] == 1} {cast 'darksight'};
   #ELSEIF {$spell[Float] == 0 && $buff[Float] == 1} {cast 'float'};
   #ELSEIF {$spell[SenseLife] == 0 && $buff[SenseLife] == 1} {cast 'sense life'}
 }
@@ -376,6 +376,40 @@
   }
 }
 
+#NOP ==== Tracker of skillups /w learned ====
+#VAR lrnLen 0
+
+#ACTION {[%1] %2 [%3]}
+{
+  #IF {$learninfo == 1} 
+  {
+    #VAR learnN %2;
+    #FORMAT learnN %p $learnN;
+    #LIST outlearn ins -1 { [%3] $learnN};
+    #IF {&outlearn[] > 10} 
+    {
+      #LIST outlearn del 1;
+      #DRAW tile $screenHeight-22 107 $screenHeight-11 111+$lrnLen;
+      #VAR lrnLen 0
+    };
+    check_learn_len;
+    #DRAW tile $screenHeight-22 107 $screenHeight-11 111+$lrnLen;
+    #DRAW jeweled box $screenHeight-22 107 $screenHeight-11 111+$lrnLen-2 $outlearn[%*]
+  }
+}
+
+#alias {check_learn_len} 
+{
+  #FOREACH $outlearn[%*] len
+  {
+    #FORMAT test %L $len;
+    #IF {$test > $lrnLen}
+    {
+      #VAR lrnLen $test
+    }
+  }
+}
+
 #NOP ==== Data gathering ==== 
 #ALIAS {sc} {#LOG overwrite .score; score; #DELAY 0.4 {#LOG {off}}}
 #ALIAS {at} {#LOG overwrite .attributes; attr; #DELAY 0.4 {#LOG {off}}}
@@ -384,7 +418,7 @@
 #ALIAS {login} {#session mozart mozartmud.net 4500} {5}
 #ALIAS {logout} {save; rent} {5}
 
-#AC {^You have become more adept at %1!} {learn %1}
+#AC {^You have become more adept at %1!} {#var learninfo 1;learn %1;#DELAY {1}{#var learninfo 0}}
 
 
 #NOP ==== Variables for chat windows ====
