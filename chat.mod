@@ -98,7 +98,8 @@
 }
 
 #ACTION {~%1 tells you, "%2} {tell_to_win %1 tells you, "%2}
-#ACTION {~%1 gossips, "%2} {gossip_to_win %1 gossips, "%2}
+#ACTION {You tell %1, "%2} {tell_to_win You tell %1, "%2}
+#ACTION {~%1 gossip%2, "%3} {gossip_to_win %1 gossips, "%3}
 #ACTION {*%1*: %2} {group_to_win *%1*: %2}
 
 #ALIAS {gossip_to_win} 
