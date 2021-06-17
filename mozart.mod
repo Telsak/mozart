@@ -268,7 +268,7 @@
 #ACTION {^You feel righteous.} {#VAR spell[bless] 1}
 #ACTION {^You feel courageous.$} {#Var spell[courage] 1}
 #ACTION {^You feel your awareness improve.$} {#VAR spell[sense life] 1}
-#ACTION {^You feel buoyant.} {#VAR spell[water walking] 1}
+#ACTION {^You feel buoyant.} {#VAR spell[waterwalking] 1}
 #ACTION {^Your skin turns a little reddish.} {#VAR spell[resist fire] 1}
 #ACTION {^Your skin turns a little bluish.} {#VAR spell[resist cold] 1}
 #ACTION {^You feel much stronger.} {#VAR spell[strength] 1}
@@ -447,7 +447,9 @@
 #ALIAS {login} {#session mozart mozartmud.net 4500} {5}
 #ALIAS {logout} {save; rent} {5}
 
-#AC {^You have become more adept at %1!} {#var learninfo 1;learn %1;#DELAY {1}{#var learninfo 0}}
+#ACTION {^You have become more adept at %1!} {#var learninfo 1;learn %1;#DELAY {1}{#var learninfo 0}}
+#ACTION {^You are now a master of %1!} {#var learninfo 1;learn %1;#DELAY {1}{#var learninfo 0}}
+
 
 
 #NOP ==== Variables for chat windows ====
