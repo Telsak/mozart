@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -3719,7 +3719,6 @@ R {  839} {0} {} {Grand Plaza} {<fff>(<adf>F<fff>)} {You are standing in the mid
 E {  838} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  840} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  871} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E { 1256} {w} {w} {8} {4} {} {1.000} {} {0.00}
 
 R {  840} {0} {} {The Leering Gargoyle Inn} {Zzz} {You are in the common room of the venerable Leering Gargoyle Inn.  Here, various bar patrons and city dwellers converse pleasantly, while several bartenders and serving maids keep the drinks flowing.  A large, glowing fireplace illuminates the room and you see a well-worn stone staircase leading up.  A door to the west leads to the Grand Plaza Square. } {Raven's Bluff} {} {Inside} {} {1.000} {}
 E {  839} {w} {w} {8} {0} {} {1.000} {} {0.00}
@@ -5456,10 +5455,6 @@ E { 2618} {n} {n} {1} {0} {} {1.000} {} {0.00}
 R { 1255} {0} {} {The Old Forest Road} {} {Thick brambly underbrush blocks your entire field of vision as you push your way along this dark forest path. Angry, black limbed trees close over you, depriving the smaller trees of sunlight. There is no breeze here\; the air smells thick, and humid, and full with decay. } {Amber Forest} {} {Forest} {} {1.000} {}
 E { 1242} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E { 1257} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R { 1256} {0} {} {} {Bluff} {} {} {} {} {} {1.000} {}
-E {  839} {e} {e} {2} {4} {} {1.000} {} {0.00}
-E { 5605} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R { 1257} {0} {} {The Old Forest Road} {} {Thick brambly underbrush blocks your entire field of vision as you push your way along this dark forest path. Angry, black limbed trees close over you, depriving the smaller trees of sunlight. There is no breeze here\; the air smells thick, and humid, and full with decay. } {Amber Forest} {} {Forest} {} {1.000} {}
 E { 1255} {w} {w} {8} {0} {} {1.000} {} {0.00}
@@ -24035,10 +24030,6 @@ R { 5604} {0} {} {Catacombs} { } {You wander through a large maze of tombs found
 E { 5603} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E { 6051} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R { 5605} {0} {} {} {en's } {} {} {} {} {} {1.000} {}
-E { 1256} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E { 7873} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
 R { 5606} {0} {} {The Strange and Dark Woods} { } {The dread of staying here in this god forsaken woods is becoming more and more suffocating.  You desperately search for any sign of exit or improvement in direction.  You think you spot one of your trail markers behind you when you hear an eerie and unnatural moaning! } {Graecia} {} {Forest} {} {1.000} {}
 E { 2373} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
@@ -33477,6 +33468,3 @@ E { 7872} {d} {unlock trapdoor;open trapdoor;d} {32} {0} {} {1.000} {} {0.00}
 
 R { 7872} {0} {} {Underground Cell} { } {Thick milled boards line the walls of this underground cell and many of them are covered with iron rings and shackles.  All of them show signs of struggle, scratches, and streaks of blood.  A large wooden door leads east and a trapdoor leads up from here. } {Unset} {} {Inside} {} {1.000} {}
 E { 7871} {u} {unlock trapdoor;open trapdoor;u} {16} {0} {} {1.000} {} {0.00}
-
-R { 7873} {0} {} {} {Rav} {} {} {} {} {} {1.000} {}
-E { 5605} {e} {e} {2} {0} {} {1.000} {} {0.00}

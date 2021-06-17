@@ -321,3 +321,14 @@
 321,ROOMVNUM,Jewelry,silver-torque-collar-wire,a silver torque,Neck,0,Hitroll: +1,Scrying
 322,ROOMVNUM,Mace,bear-femur-club,a bear femur club,wit,pound,Hit-N-Dam: +2,Necromancy: +6
 323,ROOMVNUM,Armor,bear-pelt-tunic,a bear pelt tunic,Body,10.,Hit-N-Dam: +1,Movement: +15
+324,ROOMVNUM,Armor,tyrannosaurus-skull,a tyrannosaurus skull,Head,15.,Hit-N-Dam: +1,Armor: +10,Frenzy: +2
+325,ROOMVNUM,Armor,battered-iron-gauntlets,a pair of battered iron gauntlets,Hands,10.,Hitroll: -3,Damroll: +1
+326,ROOMVNUM,Armor,battered-iron-girth,a battered iron girth,Waist,10.,Hitroll: -2,Damroll: +1,Armor: +10
+327,ROOMVNUM,Clothing,cat-fur-black-discarded,the fur of a black cat,Neck Waist,0,Dexterity: +3,Resistance: cold,Susceptibility: electricity
+328,ROOMVNUM,Dagger,black-pugio-dagger,a black pugio,wit,stab,Hitroll: +2,Damroll: +1,Backstab: +6
+329,ROOMVNUM,Sword,iron-sword,a heavy iron sword,wit,slash,Damroll: +2
+330,ROOMVNUM,Armor,overalls-heavy-leather,a pair of overalls,Legs,5.,Hitroll: +1,Armor: +8
+331,ROOMVNUM,Armor,common-plate-gauntlets,a pair of plate gauntlets,Hands,10.,Hitroll: +1,Strength: +7,Dexterity: -3,Constitution: +5
+332,ROOMVNUM,Jewelry,mathom-bracelet,a mathom bracelet,Wrist,0,Hit-N-Dam: +1
+333,ROOMVNUM,Armor,fine-banded-mail,fine banded mail,Body,10.,Hitroll: +2,Strength: +13,Constitution: +10,Armor: +10
+334,ROOMVNUM,Jewelry,office-chain,the Mayor's chain of office,Neck,0,Mana: +20,Movement: +50
