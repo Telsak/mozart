@@ -210,27 +210,41 @@
 }
 
 #NOP ====== Rebuffing ======
+#ALIAS {resetbuffs_fun_but_needs_all_spells_defined_sadface}
+{
+  #IF {&spell[] > 0} 
+  {
+    #FOREACH {*spell[]} {rSpell} {#VAR spell[$rSpell] 0};
+  };
+  #VAR hunger 0;
+  #VAR thirst 0;
+  #DELAY {0.3} {affe}
+}
+
+
 #ALIAS {resetbuffs}
 {
-  #VAR spell[DetectEvil] 0;
-  #VAR spell[DetectGood] 0;
-  #VAR spell[DetectInvis] 0;
-  #VAR spell[Bless] 0;
-  #VAR spell[Armor] 0;
-  #VAR spell[AlignmentWard] 0;
-  #VAR spell[Shield] 0;
-  #VAR spell[Courage] 0;
-  #VAR spell[ResistPoison] 0;
-  #VAR spell[DetectMagic] 0;
-  #VAR spell[SenseLife] 0;
-  #VAR spell[Freedom] 0;
-  #VAR spell[Waterwalking] 0;
-  #VAR spell[ResistFire] 0;
-  #VAR spell[ResistCold] 0;
-  #VAR spell[Strength] 0;
-  #VAR spell[Alkar] 0;
-  #VAR spell[Darksight] 0;
-  #VAR spell[Float] 0;
+  #VAR spell[alignment ward] 0;
+  #VAR spell[alkar] 0;
+  #VAR spell[armor] 0;
+  #VAR spell[bless] 0;
+  #VAR spell[courage] 0;
+  #VAR spell[darksight] 0;
+  #VAR spell[detect evil] 0;
+  #VAR spell[detect good] 0;
+  #VAR spell[detect invisibility] 0;
+  #VAR spell[detect magic] 0;
+  #VAR spell[float] 0;
+  #VAR spell[freedom] 0;
+  #VAR spell[resist cold] 0;
+  #VAR spell[resist fire] 0;
+  #VAR spell[resist poison] 0;
+  #VAR spell[sanctuary] 0;
+  #VAR spell[sense life] 0;
+  #VAR spell[shield] 0;
+  #VAR spell[stormguard] 0;
+  #VAR spell[strength] 0;
+  #VAR spell[waterwalking] 0;
   #VAR hunger 0;
   #VAR thirst 0;
   #DELAY {0.3} {affe}
@@ -244,72 +258,86 @@
 
 #NOP == Active Spells ==
 #ACTION {^Affecting Spells:$} {#VAR affects 1; #DELAY 1 {#VAR affects 0}}
-#ACTION {^You feel slightly healthier.} {#VAR spell[ResistPoison] 1}
-#ACTION {^You feel someone protecting you.} {#VAR spell[Armor] 1}
-#ACTION {^You feel a mystical force protecting you.} {#VAR spell[Armor] 1}
-#ACTION {^You are briefly surrounded by a holy aura.} {#VAR spell[AlignmentWard] 1}
-#ACTION {^You are surrounded by a strong force shield.} {#VAR spell[Shield] 1}
+#ACTION {^You feel slightly healthier.} {#VAR spell[resist poison] 1}
+#ACTION {^You feel someone protecting you.} {#VAR spell[armor] 1}
+#ACTION {^You feel a mystical force protecting you.} {#VAR spell[armor] 1}
+#ACTION {^You are briefly surrounded by a holy aura.} {#VAR spell[alignment ward] 1}
+#ACTION {^You are surrounded by a strong force shield.} {#VAR spell[shield] 1}
 #ACTION {^Your eyes tingle.} {affe}
-#ACTION {^Your eyes glow red.} {#VAR spell[Darksight] 1}
-#ACTION {^You feel righteous.} {#VAR spell[Bless] 1}
-#ACTION {^You feel courageous.$} {#Var spell[Courage] 1}
-#ACTION {^You feel your awareness improve.$} {#VAR spell[SenseLife] 1}
-#ACTION {^You feel buoyant.} {#VAR spell[Waterwalking] 1}
-#ACTION {^Your skin turns a little reddish.} {#VAR spell[ResistFire] 1}
-#ACTION {^Your skin turns a little bluish.} {#VAR spell[ResistCold] 1}
-#ACTION {^You feel much stronger.} {#VAR spell[Strength] 1}
-#ACTION {^Your skin turns slightly slippery.} {#VAR spell[Freedom] 1}
-#ACTION {^You are surrounded in an aura of soft gold.} {#VAR spell[Alkar] 1}
-#ACTION {^You start to float!} {#VAR spell[Float] 1}
+#ACTION {^Your eyes glow red.} {#VAR spell[darksight] 1}
+#ACTION {^You feel righteous.} {#VAR spell[bless] 1}
+#ACTION {^You feel courageous.$} {#Var spell[courage] 1}
+#ACTION {^You feel your awareness improve.$} {#VAR spell[sense life] 1}
+#ACTION {^You feel buoyant.} {#VAR spell[water walking] 1}
+#ACTION {^Your skin turns a little reddish.} {#VAR spell[resist fire] 1}
+#ACTION {^Your skin turns a little bluish.} {#VAR spell[resist cold] 1}
+#ACTION {^You feel much stronger.} {#VAR spell[strength] 1}
+#ACTION {^Your skin turns slightly slippery.} {#VAR spell[freedom] 1}
+#ACTION {^You are surrounded in an aura of soft gold.} {#VAR spell[alkar] 1}
+#ACTION {^You start to float!} {#VAR spell[float] 1}
+#ACTION {^You are encased in a grey, storm-like sphere.} {#VAR spell[stormguard] 1}
+#ACTION {^You start glowing.} {#VAR spell[sanctuary] 1}
 
-#ACTION {%*{Detect Evil|Detect Good|Bless|Armor|Detect Invisibility|Alignment Ward|Courage|Resist Poison|Detect Magic|Waterwalking|Strength|Freedom|Alkar|Darksight|Float}%*}
+#ACTION {%*{Detect Evil|Detect Good|Bless|Armor|Detect Invisibility|Alignment Ward|Courage|Resist Poison|Detect Magic|Waterwalking|Strength|Freedom|Alkar|Darksight|Float|Stormguard|Sanctuary}%*}
 {
-  #IF {"%0"=="%*Detect Evil%*" && $affects > 0} {#VAR spell[DetectEvil] 1};
-  #IF {"%0"=="%*Detect Good%*" && $affects > 0} {#VAR spell[DetectGood] 1};
-  #IF {"%0"=="%*Bless%*" && $affects > 0} {#VAR spell[Bless] 1};
-  #IF {"%0"=="%*Armor%*" && $affects > 0} {#VAR spell[Armor] 1};
-  #IF {"%0"=="%*Detect Invisibility%*" && $affects > 0} {#VAR spell[DetectInvis] 1};
-  #IF {"%0"=="%*Alignment Ward%*" && $affects > 0} {#VAR spell[AlignmentWard] 1};
-  #IF {"%0"=="%*Shield%*" && $affects > 0} {#VAR spell[Shield] 1};
-  #IF {"%0"=="%*Courage%*" && $affects > 0} {#VAR spell[Courage] 1};
-  #IF {"%0"=="%*Resist Poison%*" && $affects > 0} {#VAR spell[ResistPoison] 1};
-  #IF {"%0"=="%*Detect Magic%*" && $affects > 0} {#VAR spell[DetectMagic] 1};
-  #IF {"%0"=="%*Resist Fire%*" && $affects > 0} {#VAR spell[ResistFire] 1};
-  #IF {"%0"=="%*Resist Cold%*" && $affects > 0} {#VAR spell[ResistCold] 1};
-  #IF {"%0"=="%*Strength%*" && $affects > 0} {#VAR spell[Strength] 1};
-  #IF {"%0"=="%*Freedom%*" && $affects > 0} {#VAR spell[Freedom] 1};
-  #IF {"%0"=="%*Alkar%*" && $affects > 0} {#VAR spell[Alkar] 1};
-  #IF {"%0"=="%*Waterwalking%*" && $affects > 0} {#VAR spell[Waterwalking] 1};
-  #IF {"%0"=="%*Darksight%*" && $affects > 0} {#VAR spell[Darksight] 1};
-  #IF {"%0"=="%*Float%*" && $affects > 0} {#VAR spell[Float] 1};
-  #IF {"%0"=="%*Sense Life%*" && $affects > 0} {#VAR spell[SenseLife] 1}
+  #IF {"%0"=="%*Detect Evil%*" && $affects > 0} {#VAR spell[detect evil] 1};
+  #IF {"%0"=="%*Detect Good%*" && $affects > 0} {#VAR spell[detect good] 1};
+  #IF {"%0"=="%*Bless%*" && $affects > 0} {#VAR spell[bless] 1};
+  #IF {"%0"=="%*Armor%*" && $affects > 0} {#VAR spell[armor] 1};
+  #IF {"%0"=="%*Detect Invisibility%*" && $affects > 0} {#VAR spell[detect invisibility] 1};
+  #IF {"%0"=="%*Alignment Ward%*" && $affects > 0} {#VAR spell[alignment ward] 1};
+  #IF {"%0"=="%*Shield%*" && $affects > 0} {#VAR spell[shield] 1};
+  #IF {"%0"=="%*Courage%*" && $affects > 0} {#VAR spell[courage] 1};
+  #IF {"%0"=="%*Resist Poison%*" && $affects > 0} {#VAR spell[resist poison] 1};
+  #IF {"%0"=="%*Detect Magic%*" && $affects > 0} {#VAR spell[detect magic] 1};
+  #IF {"%0"=="%*Resist Fire%*" && $affects > 0} {#VAR spell[resist fire] 1};
+  #IF {"%0"=="%*Resist Cold%*" && $affects > 0} {#VAR spell[resist cold] 1};
+  #IF {"%0"=="%*Strength%*" && $affects > 0} {#VAR spell[strength] 1};
+  #IF {"%0"=="%*Freedom%*" && $affects > 0} {#VAR spell[freedom] 1};
+  #IF {"%0"=="%*Alkar%*" && $affects > 0} {#VAR spell[alkar] 1};
+  #IF {"%0"=="%*Waterwalking%*" && $affects > 0} {#VAR spell[waterwalking] 1};
+  #IF {"%0"=="%*Darksight%*" && $affects > 0} {#VAR spell[darksight] 1};
+  #IF {"%0"=="%*Float%*" && $affects > 0} {#VAR spell[float] 1};
+  #IF {"%0"=="%*Stormguard%*" && $affects > 0} {#VAR spell[stormguard] 1};
+  #IF {"%0"=="%*Sanctuary%*" && $affects > 0} {#VAR spell[sanctuary] 1};
+  #IF {"%0"=="%*Sense Life%*" && $affects > 0} {#VAR spell[sense life] 1}
 }
 
 #NOP == Fading Spells ==
-#ACTION {^You feel less protected} {#VAR spell[Armor] 0}
-#ACTION {^The white in your vision fades away} {#VAR spell[DetectGood] 0}
-#ACTION {^Your divine assistance fades} {#VAR spell[Bless] 0}
-#ACTION {^The yellow in your vision fades away} {#VAR spell[DetectInvis] 0}
-#ACTION {^The red in your vision fades away} {#VAR spell[DetectEvil] 0}
-#ACTION {^The blue in your vision fades away} {#VAR spell[DetectMagic] 0}
-#ACTION {^You feel less morally protected} {#VAR spell[AlignmentWard] 0}
-#ACTION {^Your shield of force dissipates} {#VAR spell[Shield] 0}
-#ACTION {^You feel more timid} {#VAR spell[Courage] 0}
-#ACTION {^You feel less resistant to poison} {#VAR spell[ResistPoison] 0}
-#ACTION {^You feel less aware of your surroundings} {#VAR spell[SenseLife] 0}
-#ACTION {^You feel less buoyant} {#VAR spell[Waterwalking] 0}
-#ACTION {^It seems a bit warmer} {#VAR spell[ResistFire] 0}
-#ACTION {^It seems a bit colder} {#VAR spell[ResistCold] 0}
-#ACTION {^You feel much weaker} {#VAR spell[Strength] 0}
-#ACTION {^Your slippery coat melts off of you} {#VAR spell[Freedom] 0}
-#ACTION {^Your golden aura is snuffed out} {#VAR spell[Alkar] 0}
-#ACTION {^Your golden aura fades away} {#VAR spell[Alkar] 0}
-#ACTION {^You feel disoriented as you lose your darksight.} {#VAR spell[Darksight] 0}
-#ACTION {^You fall abruptly to the ground.} {#VAR spell[Float] 0}
+#ACTION {^You feel less protected} {#VAR spell[armor] 0}
+#ACTION {^The white in your vision fades away} {#VAR spell[detect good] 0}
+#ACTION {^Your divine assistance fades} {#VAR spell[bless] 0}
+#ACTION {^The yellow in your vision fades away} {#VAR spell[detect invisibility] 0}
+#ACTION {^The red in your vision fades away} {#VAR spell[detect evil] 0}
+#ACTION {^The blue in your vision fades away} {#VAR spell[detect magic] 0}
+#ACTION {^You feel less morally protected} {#VAR spell[alignment ward] 0}
+#ACTION {^Your shield of force dissipates} {#VAR spell[shield] 0}
+#ACTION {^You feel more timid} {#VAR spell[courage] 0}
+#ACTION {^You feel less resistant to poison} {#VAR spell[resist poison] 0}
+#ACTION {^You feel less aware of your surroundings} {#VAR spell[sense life] 0}
+#ACTION {^You feel less buoyant} {#VAR spell[waterwalking] 0}
+#ACTION {^It seems a bit warmer} {#VAR spell[resist fire] 0}
+#ACTION {^It seems a bit colder} {#VAR spell[resist cold] 0}
+#ACTION {^You feel much weaker} {#VAR spell[strength] 0}
+#ACTION {^Your slippery coat melts off of you} {#VAR spell[freedom] 0}
+#ACTION {^Your golden aura is snuffed out} {#VAR spell[alkar] 0}
+#ACTION {^Your golden aura fades away} {#VAR spell[alkar] 0}
+#ACTION {^You feel disoriented as you lose your darksight.} {#VAR spell[darksight] 0}
+#ACTION {^You fall abruptly to the ground.} {#VAR spell[float] 0}
+#ACTION {^You feel dangerously more exposed to the elements!} {#VAR spell[stormguard] 0}
+#ACTION {^The white aura around your body vanishes!} {#VAR spell[sanctuary] 0}
 #TICKER {mana} {#MATH manapercent $curM*100/$maxM} {10}
 #TICKER {rebuff} {#IF {$manapercent > 15 && $combat == 0 && $standing == 1} {recast}} {20}
 
 #ALIAS {recast}
+{
+  #FOREACH {*spell[]} {rSpell}
+  {
+    #IF {$spell[$rSpell] == 0 && $buff[$rSpell] == 1} {cast '$rSpell';#break}
+  }
+}
+
+#ALIAS {recast2}
 {
   #IF {$spell[Armor] == 0 && $buff[Armor] == 1} {cast 'armor'};
   #ELSEIF {$spell[AlignmentWard] == 0 && $buff[AlignmentWard] == 1} {cast 'alignment ward'};
@@ -329,6 +357,7 @@
   #ELSEIF {$spell[Alkar] == 0 && $buff[Alkar] == 1} {cast 'alkar'};
   #ELSEIF {$spell[Darksight] == 0 && $buff[Darksight] == 1} {cast 'darksight'};
   #ELSEIF {$spell[Float] == 0 && $buff[Float] == 1} {cast 'float'};
+  #ELSEIF {$spell[Stormguard] == 0 && $buff[Stormguard] == 1} {cast 'stormguard'};
   #ELSEIF {$spell[SenseLife] == 0 && $buff[SenseLife] == 1} {cast 'sense life'}
 }
 
