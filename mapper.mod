@@ -9,7 +9,6 @@
 #ALIAS {md} {#MAP del}
 #ALIAS {findnote} {#map find {} {} {} {} {%0}; #path show} {5}
 #ALIAS {findroom} {#map find {%0} {} {} {} {}; #path show} {5}
-#ALIAS {getplayer} {#script playerpos {cat .mozart.plr}} {5}
 #ALIAS {goto} {#map goto %0} {5}
 #ALIAS {listarea} {#map list {} {} {} {%0} {} {}} {5}
 #ALIAS {listnote} {#map list {} {} {} {} {%0} {}} {5}
@@ -63,22 +62,35 @@
 	saveplayer
 }
 
-#ALIAS {saveplayer}{#SYSTEM echo $playerpos > .mozart.plr} {5}
+#ALIAS {checkme} {#var whoami 1;look self;#delay {1} {#var whoami 0}}
+#ACTION {^%1 may be referred to as "%2".}
+{
+  #IF {$whoami == 1}
+  {
+    #FORMAT playername %l %2;
+    #VAR playerfile $playername.db;
+    #READ $playerfile
+  }
+}
+
+
+#ALIAS {saveplayer}{#LINE LOG {$playerfile} {#VAR playerpos {$playerpos}}}
 #ALIAS {setup}
 {
     #var zcol <fff>;
 	#map read mozart.map;
     findsplit;
+    checkme;
 	#map flag vtmap on;
-	getplayer;
-	#map goto $playerpos[1];
+    #map goto 1;
     #CONFIG charset utf-8;
-    mapoff;
     zone Unset;
     resetbuffs;
     sleep;
     stand;
     #screen RAISE {screen resize};
+    #map goto $playerpos;
+    mapoff;
     draw_gossip
 }
 
