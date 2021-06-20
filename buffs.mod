@@ -8,10 +8,15 @@
 #ACTION {^You stop resting, and stand up.$} {#VAR standing 1}
 #ACTION {^You awaken and clamber to your feet.$} {#VAR standing 1}
 
+#SUB {[--        ]} {[LEVEL ME!!]}
+#HIG { [ %1] %2 [LEVEL ME!!]} {cyan}
+#HIG {[ %1] %2 [LEVEL ME!!] } {cyan}
+
 #NOP ==== Active Spells ====
 #ACTION {^Affecting Spells:$} {#VAR affects 1; #DELAY 1 {#VAR affects 0}}
 #ACTION {^You feel slightly healthier.} {#VAR spell[resist poison] 1}
 #ACTION {^You feel someone protecting you.} {#VAR spell[armor] 1}
+#ACTION {^Your skin takes on a rough, bark-like texture.} {#VAR spell[barkskin] 1}
 #ACTION {^You feel a mystical force protecting you.} {#VAR spell[armor] 1}
 #ACTION {^You are briefly surrounded by a holy aura.} {#VAR spell[alignment ward] 1}
 #ACTION {^You are surrounded by a strong force shield.} {#VAR spell[shield] 1}
@@ -34,6 +39,7 @@
 
 #NOP ==== Fading Spells ====
 #ACTION {^You feel less protected} {#VAR spell[armor] 0}
+#ACTION {^Your barklike skin returns to normal.} {#VAR spell[barkskin] 0}
 #ACTION {^The white in your vision fades away} {#VAR spell[detect good] 0}
 #ACTION {^Your divine assistance fades} {#VAR spell[bless] 0}
 #ACTION {^The yellow in your vision fades away} {#VAR spell[detect invisibility] 0}
@@ -53,17 +59,19 @@
 #ACTION {^Your golden aura fades away} {#VAR spell[alkar] 0}
 #ACTION {^You feel disoriented as you lose your darksight.} {#VAR spell[darksight] 0}
 #ACTION {^You fall abruptly to the ground.} {#VAR spell[float] 0}
-#ACTION {^You feel dangerously more exposed to the elements!} {#VAR spell[stormguard] 0}
+#ACTION {^You feel dangerously more exposed to the elements} {#VAR spell[stormguard] 0}
 #ACTION {^The white aura around your body vanishes!} {#VAR spell[sanctuary] 0}
+#ACTION {^The white aura around your body fades.} {#VAR spell[sanctuary] 0}
 #ACTION {^You feel much more foolish!} {#VAR spell[inspiration] 0}
 #ACTION {^Your stomach rumbles.} {#VAR spell[sustenance] 0}
 
 #NOP ==== Affected spells ====
-#ACTION {%*{Detect Evil|Detect Good|Bless|Armor|Detect Invisibility|Alignment Ward|Courage|Resist Poison|Detect Magic|Waterwalking|Strength|Freedom|Alkar|Darksight|Float|Stormguard|Sanctuary|Inspiration|Sustenance}%*}
+#ACTION {%*{Detect Evil|Detect Good|Bless|Armor|Detect Invisibility|Alignment Ward|Courage|Resist Poison|Detect Magic|Waterwalking|Strength|Freedom|Alkar|Darksight|Float|Stormguard|Sanctuary|Inspiration|Sustenance|Barkskin}%*}
 {
   #IF {"%0"=="%*Detect Evil%*" && $affects > 0} {#VAR spell[detect evil] 1};
   #IF {"%0"=="%*Detect Good%*" && $affects > 0} {#VAR spell[detect good] 1};
   #IF {"%0"=="%*Bless%*" && $affects > 0} {#VAR spell[bless] 1};
+  #IF {"%0"=="%*Barkskin%*" && $affects > 0} {#VAR spell[barkskin] 1};
   #IF {"%0"=="%*Armor%*" && $affects > 0} {#VAR spell[armor] 1};
   #IF {"%0"=="%*Detect Invisibility%*" && $affects > 0} {#VAR spell[detect invisibility] 1};
   #IF {"%0"=="%*Alignment Ward%*" && $affects > 0} {#VAR spell[alignment ward] 1};
@@ -92,6 +100,7 @@
   #VAR spell[alignment ward] 0;
   #VAR spell[alkar] 0;
   #VAR spell[armor] 0;
+  #VAR spell[barkskin] 0;
   #VAR spell[bless] 0;
   #VAR spell[courage] 0;
   #VAR spell[darksight] 0;
@@ -121,12 +130,32 @@
 {
   #FOREACH {*spell[]} {rSpell}
   {
-  ¦ #IF {$spell[$rSpell] == 0 && $buff[$rSpell] == 1} {cast '$rSpell';#break}
+    #IF {$spell[$rSpell] == 0 && $buff[$rSpell] == 1} {cast '$rSpell';#break}
   }
 }
 
 #NOP ==== Set, display and save buffs ====
 #EVENT {VARIABLE UPDATED spell} {#DELAY {1.5} {printbuffs}}
+
+#NOP Will toggle all buffs on/off for auto recast.
+#ALIAS {togglebuff}
+{
+  #FOREACH *buff[] buffitem
+  {
+    #IF {$buff[$buffitem] == 1}
+    {
+      #VAR togB 0;
+      #break  
+    };
+    #ELSE
+    {
+      #VAR togB 1
+    }
+  };
+  #FOREACH *buff[] buffitem {#VAR buff[$buffitem] $togB};
+  printbuffs
+}
+
 
 #ALIAS {setbuff}
 {
@@ -152,8 +181,8 @@
 {
   #IF {&{buff} > 0}
   {
-    #DRAW tile $screenHeight-12-&buff[] 85 $screenHeight-11 105;
-    #DRAW jeweled box $screenHeight-12-&buff[] 85 $screenHeight-11 105;
+    #DRAW tile $screenHeight-12-&buff[] 85 $screenHeight-11 110;
+    #DRAW jeweled box $screenHeight-12-&buff[] 85 $screenHeight-11 109;
     #LOOP {0} {&buff[]-1} {i}
     {
       #VAR {colIx} {$spell[*buff[+$i]]};
@@ -169,7 +198,7 @@
   #LOG OVERWRITE {$playerfile};#LOG OFF;
   #FOREACH {*buff[]} {test}
   {
-  ¦ #LINE LOG {$playerfile} {#VAR {buff[$test]} {$buff[$test]}}
+    #LINE LOG {$playerfile} {#VAR {buff[$test]} {$buff[$test]}}
   }
 }
 
@@ -187,15 +216,15 @@
     #VAR learnN %2;
     #FORMAT learnN %p $learnN;
     #LIST outlearn ins -1 { [%3] $learnN};
-    #IF {&outlearn[] > 10}
+    #IF {&outlearn[] > 5}
     {
       #LIST outlearn del 1;
-      #DRAW tile $screenHeight-22 107 $screenHeight-11 111+$lrnLen;
+      #DRAW tile $screenHeight-17 111 $screenHeight-11 116+$lrnLen;
       #VAR lrnLen 0
     };
     check_learn_len;
-    #DRAW tile $screenHeight-22 107 $screenHeight-11 111+$lrnLen;
-    #DRAW jeweled box $screenHeight-22 107 $screenHeight-11 111+$lrnLen-2 $outlearn[%*]
+    #DRAW tile $screenHeight-17 111 $screenHeight-11 116+$lrnLen;
+    #DRAW jeweled box $screenHeight-17 111 $screenHeight-11 116+$lrnLen-3 $outlearn[%*]
   }
 }
 
