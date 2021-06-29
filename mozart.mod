@@ -7,6 +7,7 @@
 #ACTION {^Bottom of the Trap} {#MAP GOTO 4649}
 #ACTION {^steps leads to the Temple Basement, a passageway leading to the board rooms.$} {#MAP GOTO 185}
 #ACTION {^roar in fire-pits and a section of the clearing with beaten down grass holds a$} {#MAP GOTO 2561}
+#ACTION {^   On closer examination, maybe the hole IS large enough to get through}{#MAP GOTO 7876}
 
 #ACTION {^You are too exhausted.} {#MAP undo}
 #ACTION {^Alas, you cannot go that way.} {#IF {$mapedit > 0} {#MAP undo}}
@@ -47,6 +48,8 @@
 #ALIAS {recall} {c succor;recite recall}
 #MACRO {\e[24~} {#MAP set roomcolor;symbol}
 #ALIAS {ter} {#MAP goto %1;#MAP set roomterrain %2}
+
+#SCREEN get cols screenWidth
 
 #ALIAS {qr} {#VAR runtarget %1;#DELAY 1 {#VAR runtarget NULL};
   #SWITCH {"$runtarget"} {
@@ -100,8 +103,12 @@
 
 #ALIAS {check_combat} {
   #SWITCH {"$targH"} {
-    #CASE {"*"} {#VAR combat 0};
-    #DEFAULT {#VAR combat 1}
+    #CASE {"*"} 
+    {
+      #VAR combat 0;
+      #IF {"$autosneak" == "on" && $spell[sneakoutside] == 0} {sneak}
+    };
+    #DEFAULT {#VAR combat 1;#VAR spell[sneakoutside] 0}
   }
 }
 
@@ -135,7 +142,7 @@
 #ACTION {^You hit the ground with a thud.} {stand}
 #ACTION {^You miss %1 with your stun attempt!} {stand}
 
-#ACTION {You bind your wounds} {#VAR bandage $curH;#SHOW {Bandage: $bandage HP} {$rawSplit+2} {85}}
+#ACTION {You bind your wounds} {#VAR bandage $curH;printinfo}
 
 #NOP ====== Grouping ======
 #ACTION {You are now a member of %1's group.} {#VAR Group 1;#VAR GroupLeader %1}
@@ -157,7 +164,7 @@
 #ALIAS {down} {d}
 
 #NOP ====== Statusbar at top split ======
-#EVENT {MAP UPDATED VTMAP} {statusbar}
+#EVENT {MAP UPDATED VTMAP} {statusbar;printinfo}
 #EVENT {SCREEN RESIZE} {findsplit;#SCREEN get cols col;#SCREEN GET SCROLL_BOT_ROW screenHeight}
 
 #ALIAS {setmap} {
@@ -238,9 +245,6 @@
 {
   {1} {} {2} {} {3} {} {4} {} {5} {} {6} {} {7} {} {8} {} {9} {} {10} {}
 }
-
-
-
 
 #NOP ==== Flymode ====
 #MACRO {\e[15~} {#IF {$flymode < 1} {mapoff;#VAR flymode 1;#VAR return_position $playerpos} {#VAR flymode 0;#MAP goto $return_position}}

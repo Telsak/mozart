@@ -81,6 +81,7 @@
 	#map read mozart.map;
     findsplit;
     checkme;
+    attr;score;
 	#map flag vtmap on;
     #map goto 1;
     #CONFIG charset utf-8;
@@ -89,7 +90,7 @@
     sleep;
     stand;
     #screen RAISE {screen resize};
-    #map goto $playerpos;
+    #DELAY {1} {#map goto $playerpos};
     mapoff;
     draw_gossip
 }
