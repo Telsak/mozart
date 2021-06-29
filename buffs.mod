@@ -9,11 +9,14 @@
 #ACTION {^You awaken and clamber to your feet.$} {#VAR standing 1}
 
 #SUB {[--        ]} {[LEVEL ME!!]}
+#SUB {[---       ]} {[LEVEL ME!!]}
+
 #HIG { [ %1] %2 [LEVEL ME!!]} {cyan}
 #HIG {[ %1] %2 [LEVEL ME!!] } {cyan}
 
 #NOP ==== Active Spells ====
 #ACTION {^Affecting Spells:$} {#VAR affects 1; #DELAY 1 {#VAR affects 0}}
+#ACTION {^Your skin turns to a stone-like substance} {#VAR spell[stone skin] 1}
 #ACTION {^You feel slightly healthier.} {#VAR spell[resist poison] 1}
 #ACTION {^You feel someone protecting you.} {#VAR spell[armor] 1}
 #ACTION {^Your skin takes on a rough, bark-like texture.} {#VAR spell[barkskin] 1}
@@ -36,6 +39,8 @@
 #ACTION {^You start glowing.} {#VAR spell[sanctuary] 1}
 #ACTION {^You feel inspired.} {#VAR spell[inspiration] 1}
 #ACTION {^You no longer feel hunger or thirst.}{#VAR spell[sustenance] 1}
+#ACTION {^Ok, you'll try to move silently for a while} {#VAR spell[sneakoutside] 1}
+#ACTION {^Ok, but you'll only be sneaky when outside} {#VAR spell[sneakoutside] 1}
 
 #NOP ==== Fading Spells ====
 #ACTION {^You feel less protected} {#VAR spell[armor] 0}
@@ -58,15 +63,17 @@
 #ACTION {^Your golden aura is snuffed out} {#VAR spell[alkar] 0}
 #ACTION {^Your golden aura fades away} {#VAR spell[alkar] 0}
 #ACTION {^You feel disoriented as you lose your darksight.} {#VAR spell[darksight] 0}
-#ACTION {^You fall abruptly to the ground.} {#VAR spell[float] 0}
+#ACTION {^You fall abruptly to the ground} {#VAR spell[float] 0}
 #ACTION {^You feel dangerously more exposed to the elements} {#VAR spell[stormguard] 0}
 #ACTION {^The white aura around your body vanishes!} {#VAR spell[sanctuary] 0}
 #ACTION {^The white aura around your body fades.} {#VAR spell[sanctuary] 0}
-#ACTION {^You feel much more foolish!} {#VAR spell[inspiration] 0}
+#ACTION {^You feel much more foolish} {#VAR spell[inspiration] 0}
 #ACTION {^Your stomach rumbles.} {#VAR spell[sustenance] 0}
+#ACTION {^Your stone skin returns to normal} {#VAR spell[stone skin] 0}
+
 
 #NOP ==== Affected spells ====
-#ACTION {%*{Detect Evil|Detect Good|Bless|Armor|Detect Invisibility|Alignment Ward|Courage|Resist Poison|Detect Magic|Waterwalking|Strength|Freedom|Alkar|Darksight|Float|Stormguard|Sanctuary|Inspiration|Sustenance|Barkskin}%*}
+#ACTION {%*{Detect Evil|Detect Good|Bless|Armor|Detect Invisibility|Alignment Ward|Courage|Resist Poison|Detect Magic|Waterwalking|Strength|Freedom|Alkar|Darksight|Float|Stormguard|Sanctuary|Inspiration|Sustenance|Barkskin|Sneak, Outside|Stone Skin}%*}
 {
   #IF {"%0"=="%*Detect Evil%*" && $affects > 0} {#VAR spell[detect evil] 1};
   #IF {"%0"=="%*Detect Good%*" && $affects > 0} {#VAR spell[detect good] 1};
@@ -91,6 +98,8 @@
   #IF {"%0"=="%*Sanctuary%*" && $affects > 0} {#VAR spell[sanctuary] 1};
   #IF {"%0"=="%*Inspiration%*" && $affects > 0} {#VAR spell[inspiration] 1};
   #IF {"%0"=="%*Sustenance%*" && $affects > 0} {#VAR spell[sustenance] 1};
+  #IF {"%0"=="%*Sneak, Outside%*" && $affects > 0} {#VAR spell[sneakoutside] 1};
+  #IF {"%0"=="%*Stone Skin%*" && $affects > 0} {#VAR spell[stone skin] 1};
   #IF {"%0"=="%*Sense Life%*" && $affects > 0} {#VAR spell[sense life] 1}
 }
 
@@ -117,10 +126,12 @@
   #VAR spell[sanctuary] 0;
   #VAR spell[sense life] 0;
   #VAR spell[shield] 0;
+  #VAR spell[stone skin] 0;
   #VAR spell[stormguard] 0;
   #VAR spell[strength] 0;
   #VAR spell[waterwalking] 0;
   #VAR spell[sustenance] 0;
+  #VAR spell[sneakoutside] 0;
   #VAR hunger 0;
   #VAR thirst 0;
   #DELAY {0.3} {affe}
@@ -219,12 +230,13 @@
     #IF {&outlearn[] > 5}
     {
       #LIST outlearn del 1;
-      #DRAW tile $screenHeight-17 111 $screenHeight-11 116+$lrnLen;
+      #DRAW tile $screenHeight-20 111 $screenHeight-11 116+$lrnLen-1;
       #VAR lrnLen 0
     };
     check_learn_len;
-    #DRAW tile $screenHeight-17 111 $screenHeight-11 116+$lrnLen;
-    #DRAW jeweled box $screenHeight-17 111 $screenHeight-11 116+$lrnLen-3 $outlearn[%*]
+    #DRAW tile $screenHeight-20 111 $screenHeight-11 116+$lrnLen-1;
+    #DRAW jeweled box $screenHeight-17 111 $screenHeight-11 116+$lrnLen-3 $outlearn[%*];
+    printinfo
   }
 }
 
