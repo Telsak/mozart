@@ -8,6 +8,7 @@
 #ACTION {^steps leads to the Temple Basement, a passageway leading to the board rooms.$} {#MAP GOTO 185}
 #ACTION {^roar in fire-pits and a section of the clearing with beaten down grass holds a$} {#MAP GOTO 2561}
 #ACTION {^   On closer examination, maybe the hole IS large enough to get through}{#MAP GOTO 7876}
+#ACTION {^   A cheery fire in a wide stone fireplace along the west wall lights up this} {#MAP GOTO 202}
 
 #ACTION {^You are too exhausted.} {#MAP undo}
 #ACTION {^Alas, you cannot go that way.} {#IF {$mapedit > 0} {#MAP undo}}
