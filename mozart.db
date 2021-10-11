@@ -24,7 +24,7 @@
 24,3610,Axe,spiked-whittled-club,a whittled spiked club,2d8,cleave,Hit-N-Dam: +2,Constitution: +5
 25,1631,Clothing,orcish-cloak-crude,an orcish cloak,Neck About,0,Hitroll: +1,Armor: +10
 26,ROOMVNUM,Mace,large-misshapen-troll-club,a Troll's Club,5d3,pound,Hitroll: +2,Recuperation: +20,Hit Points: +10,Damroll: +3
-27,ROOMVNUM,Armor,silversteel-helm-helmet,a silversteel helm,Head,7,Hit-N-Dam: +1,Darksight
+27,4429,Armor,silversteel-helm-helmet,a silversteel helm,Head,7,Hit-N-Dam: +1,Darksight
 28,1381,Jewelry,necklace-rock-multicolored-animal-sinew,a rock necklace,Neck,0,Hitroll: +1
 29,ROOMVNUM,Axe,training-battle-axe,a training battle axe,1d7,cleave,Hit-N-Dam: +2,Strength: +6
 30,437,Axe,small-hand-axe,a small hand axe,2d3,chop,Hitroll: +2,Damroll: +1,Axes: +6
@@ -55,7 +55,7 @@
 55,2663,Armor,dwarf-steel-leggings,dwarf steel leggings,Legs,7,Hitroll: +1,Armor: +5
 56,2663,Armor,dwarf-steel-plate,dwarf steel plate,Body,14,Constitution: +7,Armor: +3,Hitroll: +1
 57,2663,Armor,dwarf-steel-gauntlets,dwarf steel gauntlets,Hands,7,Hitroll: +1,Armor: +5
-58,ROOMVNUM,Armor,common-plate-sleeves,a pair of plate sleeves,Arms,9,Hitroll: +1,Dexterity: -2,Strength: +7
+58,3209,Armor,common-plate-sleeves,a pair of plate sleeves,Arms,9,Hitroll: +1,Dexterity: -2,Strength: +7
 59,2663,Throwable Hammer,hammer-dwarven,a dwarven hammer,1d8,crush
 60,2393,Clothing,shadowy-cloak,a shadowy cloak,About,0,Strength: -1,Dexterity: +4,Hitroll: +2
 61,395,Other,hawk-eyes,hawk eyes,Face,0,,Darksight
@@ -64,7 +64,7 @@
 64,4392,Armor,blue-dragon-scale-shirt,a blue dragon scale shirt,Body,10,Armor: +10,Hitroll: +2,Hide: -10
 65,4392,Greatsword,Giant-Two-Handed-Sword,a giant two-handed sword,4d6,slash,Stun: +3,Hit-N-Dam: +2
 66,4392,Armor,hardened-pelt-helm,a animal pelt helm,Head,5,Hit-N-Dam: +1
-67,ROOMVNUM,Armor,silversteel-leg-leggings,silversteel leggings,Legs,10,Hit Points: +20,Bash: +5,Alignment-Ward
+67,4429,Armor,silversteel-leg-leggings,silversteel leggings,Legs,10,Hit Points: +20,Bash: +5,Alignment-Ward
 68,ROOMVNUM,Throwable Dagger,dragon-tooth,a dragon tooth,2d6,pierce,Hit-N-Dam: +3
 69,3015,Sword,bushido-blade,a bushido blade,9d2,slash,Dexterity: +1,Hit-N-Dam: +1
 70,4463,Armor,adamant-buckler,an adamant buckler,Shield,11,Hitroll: +2,Reflex Saves: +5,Armor: +7
@@ -191,8 +191,8 @@
 191,5381,Armor,Mordorean-black-iron-leggings,Mordorean iron leggings,Legs,10,Hitroll: +1,Hit Points: +10,Constitution: +6
 192,5682,Armor,brimstone-bracer-dully-glowing,a brimstone bracer,Wrist,5,Stonereading: +15,Damroll: +1
 193,1586,Sword,wakizashi-blade,a wakizashi,3d7,slash,Parry: +10,Hit-N-Dam: +2,Dexterity: +5
-194,ROOMVNUM,Armor,silversteel-armor,silversteel armor,Body,20,Hit-N-Dam: +1,Armor: +10,Movement: -5,Strength: +10
-195,ROOMVNUM,Armor,silversteel-gloves,silversteel gloves,Hands,5,Resistance: fire,Hit-N-Dam: +1,Strength: +7
+194,4429,Armor,silversteel-armor,silversteel armor,Body,20,Hit-N-Dam: +1,Armor: +10,Movement: -5,Strength: +10
+195,4429,Armor,silversteel-gloves,silversteel gloves,Hands,5,Resistance: fire,Hit-N-Dam: +1,Strength: +7
 196,5308,Armor,ornate-ornately-carved-willow-bracer,an ornate willow bracer,Arms,15,Fortitude Saves: +7,Armor: +15,Damroll: +2
 197,ROOMVNUM,Armor,carved-blackwood-mask,a carved blackwood mask,Face,5,Hit-N-Dam: +1,Sense-Life
 198,6192,Jewelry,large-steel-ring,a large steel ring,Finger,0,Hitall: +5,Hit-N-Dam: +1
@@ -274,30 +274,27 @@
 274,ROOMVNUM,Sword,spider-sword,a Spider Sword,1d23,slash,Weapon Spell: Faerie Fire at Level 3,Immunity: paralysis,Hit-N-Dam: +3
 275,ROOMVNUM,Clothing,ice-mage-cloak,an ice mage's cloak,Neck About,0,Resistance: cold,Mana: +10,Hitroll: +3,Mysticism: +10
 276,ROOMVNUM,Jewelry,jade-crown,a jade crown,Head,0,Constitution: +12,Wisdom: +12,Hit-N-Dam: +1
-277,ROOMVNUM,Clothing,parishioner-sleeves,parishioner's sleeves,Arms,0,Strength: -2,Hitroll: +2,Damroll: +1
-278,ROOMVNUM,Clothing,peasant-cloak,a peasant's cloak,About Waist,0,Armor: +20,Resistance: cold,Hitroll: +2
-279,ROOMVNUM,Jewelry,peasant-ring,a peasant's ring,Finger,0,Palm: +10,Sneak: +3,Plant: +10,Hide: +3,Hitroll: +1
+277,3471,Clothing,parishioner-sleeves,parishioner's sleeves,Arms,0,Strength: -2,Hitroll: +2,Damroll: +1
+278,3466,Clothing,peasant-cloak,a peasant's cloak,About Waist,0,Armor: +20,Resistance: cold,Hitroll: +2
+279,3466,Jewelry,peasant-ring,a peasant's ring,Finger,0,Palm: +10,Sneak: +3,Plant: +10,Hide: +3,Hitroll: +1
 280,ROOMVNUM,Jewelry,ring-tentacles-small-purple,a Ring of Tentacles,Finger,0,Hit-N-Dam: +2,Susceptibility: fire, cold, electricity, acid
-281,ROOMVNUM,Jewelry,ring-golden,a golden ring,Finger,0,Intelligence: +15
-282,ROOMVNUM,Armor,large-studded-iron-helmet,a studded iron helmet,Head,10,Bash: +2,Armor: +10,Movement: -10,Hit-N-Dam: +1
-283,ROOMVNUM,Sword,long-saber,a long, curved saber,1d8,slash,Hit-N-Dam: +2
-284,ROOMVNUM,Pole Arm,ThorKrin-halberd,a ThorKrin's halberd,3d8,cleave
-285,ROOMVNUM,Jewelry,hand-ring,the hand ring,Finger,0,Damroll: +1
-286,ROOMVNUM,Armor,metal-shackle,a shackle,Wrist,6,Immunity: paralysis
-287,ROOMVNUM,Sword,fine-scimitar,a fine scimitar,5d3,slash,Hit-N-Dam: +2
-288,ROOMVNUM,Armor,yeti-leggings,yeti leggings,Legs,6,Damroll: +1,Hydromancy: +5,Movement: -30,Dexterity: -4,Hitroll: +2
-289,ROOMVNUM,Jewelry,twisted-ice-twig,a twisted twig of ice,Hold Face,0,Hitroll: +1
-290,ROOMVNUM,Armor,ice-bracer,an ice bracer,Arms,9,Armor: +15,Hit-N-Dam: +1
-291,ROOMVNUM,Jewelry,ice-loop,a loop of ice,Finger,0,Hit-N-Dam: +1,Intelligence: +5
-292,ROOMVNUM,Armor,ice-boots,a pair of ice boots,Feet,8,Dexterity: +6,Armor: +10,Strength: +4
-293,ROOMVNUM,Armor,snowy-helmet,a snowy helmet,Head,10,Strength: +4,Hit Points: +20
-294,ROOMVNUM,Jewelry,cypress-charm-wooden,a cypress charm,Neck,0,Mana: +75,Hitroll: -2,Susceptibility: fire,Damroll: +1,Gaze-Reflection
-295,ROOMVNUM,Throwable Dagger,ice-sliver,a sliver of ice,1d8,pierce
-296,ROOMVNUM,Clothing,lightweight-boots,lightweight boots,Feet,0,Dexterity: +7,Movement: +20,Hitroll: +1,Floating
-297,ROOMVNUM,Armor,{echo,silversteel sleeves,Arms,5.,Hit-N-Dam: +1,Armor: +5,Fortitude Saves: +3,It is unclear whether this is a shop or a dwelling at first glance,A battered sign hangs on the south wall,There's more here than meets the eye,You are on a pathway that leads to the many donation rooms of Nevrast,You are in the southern end of the front hall of the Temple of Nevrast,Large steps lead south through the grand temple gate, descending the huge
-,You are on the broad Temple Avenue that splits Nevrast in half going north
-,You are standing in the Temple Square,You are standing at the end of Nevrast Lane,A cheery fire in a wide stone fireplace along the west wall lights up this
-,The area is magically bright,#system {sed -ne "/\"$itemlong/,$ p" ,#system {
+281,6631,Jewelry,ring-golden,a golden ring,Finger,0,Intelligence: +15
+282,6742,Armor,large-studded-iron-helmet,a studded iron helmet,Head,10,Bash: +2,Armor: +10,Movement: -10,Hit-N-Dam: +1
+283,6826,Sword,long-saber,a long, curved saber,1d8,slash,Hit-N-Dam: +2
+284,6781,Pole Arm,ThorKrin-halberd,a ThorKrin's halberd,3d8,cleave
+285,7124,Jewelry,hand-ring,the hand ring,Finger,0,Damroll: +1
+286,3198,Armor,metal-shackle,a shackle,Wrist,6,Immunity: paralysis
+287,3197,Sword,fine-scimitar,a fine scimitar,5d3,slash,Hit-N-Dam: +2
+288,5173,Armor,yeti-leggings,yeti leggings,Legs,6,Damroll: +1,Hydromancy: +5,Movement: -30,Dexterity: -4,Hitroll: +2
+289,6240,Jewelry,twisted-ice-twig,a twisted twig of ice,Hold Face,0,Hitroll: +1
+290,5157,Armor,ice-bracer,an ice bracer,Arms,9,Armor: +15,Hit-N-Dam: +1
+291,5157,Jewelry,ice-loop,a loop of ice,Finger,0,Hit-N-Dam: +1,Intelligence: +5
+292,5157,Armor,ice-boots,a pair of ice boots,Feet,8,Dexterity: +6,Armor: +10,Strength: +4
+293,5379,Armor,snowy-helmet,a snowy helmet,Head,10,Strength: +4,Hit Points: +20
+294,7424,Jewelry,cypress-charm-wooden,a cypress charm,Neck,0,Mana: +75,Hitroll: -2,Susceptibility: fire,Damroll: +1,Gaze-Reflection
+295,7427,Throwable Dagger,ice-sliver,a sliver of ice,1d8,pierce
+296,5630,Clothing,lightweight-boots,lightweight boots,Feet,0,Dexterity: +7,Movement: +20,Hitroll: +1,Floating
+297,4429,Armor,silversteel-sleeves,silversteel sleeves,Arms,5,Hit-N-Dam: +1,Armor: +5,Fortitude Saves: +3
 301,ROOMVNUM,Armor,amber-boots,a pair of amber boots,Feet,5.,Hitroll: +1,Immunity: paralysis
 302,ROOMVNUM,Hammer,weyland's-hammer,Weyland's Hammer,wit,crush,Hit-N-Dam: +4,Hammer Mastery: +10,Weapon Spell: Flame Tongue at Level 3,Weapon Spell Chance: 5%
 303,ROOMVNUM,Jewelry,electrum-ring,an electrum ring,Finger,0,Hitroll: +1,Dexterity: +15,Armor: +15,Brilliance: +7
@@ -316,14 +313,14 @@
 316,ROOMVNUM,Armor,iron-arm-bands,a pair of iron arm bands,Arms,6.,Hitroll: +2,Hit Points: +50,Constitution: +15,Geomancy: +6,Abjuration: +6
 317,ROOMVNUM,Jewelry,beast-chain-bracelet-animals-thick,a beast chain bracelet,Wrist,0,Hit-N-Dam: +2,Movement: +20
 318,ROOMVNUM,Jewelry,ring-truth,the ring of truth,Finger,0,Hit-N-Dam: +2,Strength: +4,Mana: +10,Sneak: -25,Divination: +8
-319,ROOMVNUM,Treasure,small-leaf-druidleaf,a druidleaf,Hold,0,Immunity: acid
+319,2288,Treasure,small-leaf-druidleaf,a druidleaf,Hold,0,Immunity: acid
 320,ROOMVNUM,Jewelry,flower-necklace,a flower necklace,Neck,0,Hit-N-Dam: +1,Constitution: +3
-321,ROOMVNUM,Jewelry,silver-torque-collar-wire,a silver torque,Neck,0,Hitroll: +1,Scrying
+321,7844,Jewelry,silver-torque-collar-wire,a silver torque,Neck,0,Hitroll: +1,Scrying
 322,ROOMVNUM,Mace,bear-femur-club,a bear femur club,wit,pound,Hit-N-Dam: +2,Necromancy: +6
 323,ROOMVNUM,Armor,bear-pelt-tunic,a bear pelt tunic,Body,10.,Hit-N-Dam: +1,Movement: +15
 324,ROOMVNUM,Armor,tyrannosaurus-skull,a tyrannosaurus skull,Head,15.,Hit-N-Dam: +1,Armor: +10,Frenzy: +2
 325,ROOMVNUM,Armor,battered-iron-gauntlets,a pair of battered iron gauntlets,Hands,10.,Hitroll: -3,Damroll: +1
-326,ROOMVNUM,Armor,battered-iron-girth,a battered iron girth,Waist,10.,Hitroll: -2,Damroll: +1,Armor: +10
+326,3209,Armor,battered-iron-girth,a battered iron girth,Waist,10.,Hitroll: -2,Damroll: +1,Armor: +10
 327,ROOMVNUM,Clothing,cat-fur-black-discarded,the fur of a black cat,Neck Waist,0,Dexterity: +3,Resistance: cold,Susceptibility: electricity
 328,ROOMVNUM,Dagger,black-pugio-dagger,a black pugio,wit,stab,Hitroll: +2,Damroll: +1,Backstab: +6
 329,ROOMVNUM,Sword,iron-sword,a heavy iron sword,wit,slash,Damroll: +2
@@ -332,3 +329,21 @@
 332,ROOMVNUM,Jewelry,mathom-bracelet,a mathom bracelet,Wrist,0,Hit-N-Dam: +1
 333,ROOMVNUM,Armor,fine-banded-mail,fine banded mail,Body,10.,Hitroll: +2,Strength: +13,Constitution: +10,Armor: +10
 334,ROOMVNUM,Jewelry,office-chain,the Mayor's chain of office,Neck,0,Mana: +20,Movement: +50
+335,1845,Treasure,silver-scepter,a silver scepter,Hold,0,Hit-N-Dam: +2,Hit Points: +15,Recuperation: +7
+336,ROOMVNUM,Liquid Container,chalice-silver,a silver chalice,Hold,0,Mana: +25,Mysticism: +10
+337,6205,Armor,shield-sable-rose-black,the shield of the sable rose,Shield,8.,Hitroll: +1,Armor: +10,Backstab: +2
+338,6205,Sword,long-defending-sword,a defending sword,wit,slash,Hit-N-Dam: +2,Armor: +10,Parry: +5
+339,ROOMVNUM,Clothing,common-small-box-phylactery,a small phylactery,Head Arms,0,Wisdom: +4,Mysticism: +4
+340,ROOMVNUM,Throwable Hammer,heavy-stone-hammer,a stone hammer,wit,crush,Damroll: +1
+341,ROOMVNUM,Armor,common-plate-leggings,a pair of plate leggings,Legs,10.,Hitroll: +1,Strength: +8,Dexterity: -3,Kick: +7
+342,ROOMVNUM,Armor,plate-armor-breastplate,a plate armor breastplate,Body,20.,Hit-N-Dam: +1
+343,ROOMVNUM,Jewelry,leather-braided-bracelet,a braided bracelet,Wrist,0,Hitroll: +2
+344,ROOMVNUM,Clothing,rawhide-leather-belt,a rawhide belt,Waist,0,Strength: +1,Armor: +20,Darksight
+345,2336,Mace,hercules-club,the Club of Hercules,wit,pound,Hitroll: +1,Armor: -10
+343,ROOMVNUM,Throwable Dagger,slim-ivory-dagger-sliver-long,a slim ivory dagger,wit,pierce,Hit-N-Dam: +3,Parry: +10,Pick: +10
+344,ROOMVNUM,Wand,mirror-aphrodite,Aphrodite's mirror,Hold,0,spell-Blindness:lvl-75:charge-5,Intelligence: +15,Wisdom: +15,Compulsion: +4,Gaze-Reflection
+345,ROOMVNUM,Pole Arm,sickle-demeter's-large-sturdy,Demeter's sickle,wit,cleave,Hit-N-Dam: +3,Hit Points: +100,Nature's Blessings: +10,Weapon Spell: Entangle at Character Level,Weapon Spell Charges: +95
+346,ROOMVNUM,Mace,rhea-club,Rhea's club,wit,pound,Hit-N-Dam: +3,Weapon Spell: Calm at Character Level
+347,ROOMVNUM,Potion,flagon-platinum-ambrosia,a flagon of platinum ambrosia,Hold,0
+348,ROOMVNUM,Potion,flagon-silver-ambrosia,a flagon of silver ambrosia,Hold,0
+349,ROOMVNUM,Potion,flagon-crystal-ambrosia,a flagon of crystal ambrosia,Hold,0

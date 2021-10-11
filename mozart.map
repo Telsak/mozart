@@ -8,7 +8,7 @@ CBLOCK <daa>
 CEXITS <ddd>
 CFOG <148>
 CHIDE <000><faa>
-CINVISIBLE <aaa>
+CINVISIBLE <g04>
 CPATHS <fda>
 CROOMS <ccc>
 CSYMBOLS <adc>
@@ -18,7 +18,7 @@ F 8467
 
 G 0
 
-I 841
+I 202
 
 L {ASCII NESW LINE} {NO EXITS} {#}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -1101,13 +1101,13 @@ R {  205} {0} {} {Temple Avenue} {} {Temple Avenue is wide and consists of very 
 E {  200} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  206} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  206} {0} {} {Market Square} {} {You are standing in the Market Square, the famous centerpiece of Nevrast.  A large, peculiar-looking statue is standing in the middle of the square.  Roads lead in every direction\; Temple Avenue goes to the north and south, and Main Street heads to the east and west. } {Nevrast} {Market Square} {City} {} {1.000} {}
+R {  206} {0} {} {Market Square} {} {You are standing in the Market Square, the famous centerpiece of Nevrast.  A large, peculiar-looking statue is standing in the middle of the square.  Roads lead in every direction\; Temple Avenue goes to the north and south, and Main Street heads to the east and west.    The area is magically bright. } {Nevrast} {Market Square} {City} {} {1.000} {}
 E {  205} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  207} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  229} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  253} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  207} {0} {} {The Main Street} {} {You are on the main street crossing through town.  To the north is the General Store, where you can purchase miscellaneous useful gear for your travels\; while to the south lies the Guild of Mapmakers.  Main Street continues to the east, and to the west you see a large crowd and hear the sounds of the marketplace. } {Nevrast} {} {City} {} {1.000} {}
+R {  207} {0} {} {The Main Street} {} {You are on the main street crossing through town.  To the north is the General Store, where you can purchase miscellaneous useful gear for your travels\; while to the south lies the Guild of Mapmakers.  Main Street continues to the east, and to the west you see a large crowd and hear the sounds of the marketplace.    The area is magically bright. } {Nevrast} {} {City} {} {1.000} {}
 E {  206} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  208} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  209} {s} {s} {4} {0} {} {1.000} {} {0.00}
@@ -1119,7 +1119,7 @@ E {  207} {s} {s} {4} {0} {} {1.000} {} {0.00}
 R {  209} {0} {} {Ringletoes' Cartography} {} {The Mapmakers' Guild bustles with activity; scribes scurry about carrying bundles while guild members carefully detail beautiful maps.  Perhaps you should learn more about the Realm outside the safe haven of Nevrast.  A door leads northward onto Main Street.    A pair of large maps hang on the southern wall.  One is elegantly labeled, "The City of Nevrast", and the other, "Surrounding Areas". } {Nevrast} {} {Inside} {} {1.000} {}
 E {  207} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {  210} {0} {} {The Main Street} {} {You are on the main street crossing through the center of Nevrast.  To the north is Zerick's House of Armor.  Main Street continues to the east and west, and in the distance you can see the eastern gate. } {Nevrast} {} {City} {} {1.000} {}
+R {  210} {0} {} {The Main Street} {} {You are on the main street crossing through the center of Nevrast.  To the north is Zerick's House of Armor.  Main Street continues to the east and west, and in the distance you can see the eastern gate.    The area is magically bright. } {Nevrast} {} {City} {} {1.000} {}
 E {  207} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  211} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  212} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -1127,7 +1127,7 @@ E {  212} {e} {e} {2} {0} {} {1.000} {} {0.00}
 R {  211} {0} {} {Zerick's House of Armor} {A} {The armory is stocked with various types of armors from around the world of Mozart.  A selection of this week's specials are on the walls and in the window.  The open doorway leads south to Main Street.  On the wall is a small note. } {Nevrast} {Armor} {Inside} {} {1.000} {}
 E {  210} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  212} {0} {} {The Main Street} {} {You are walking along Main Street.  To the north is the weaponry shoppe and to the south is the Hall of Swordsmen.  To the east you can leave town through the East Gate, and Main Street continues to the west. } {Nevrast} {} {City} {} {1.000} {}
+R {  212} {0} {} {The Main Street} {} {You are walking along Main Street.  To the north is the weaponry shoppe and to the south is the Hall of Swordsmen.  To the east you can leave town through the East Gate, and Main Street continues to the west.    The area is magically bright. } {Nevrast} {} {City} {} {1.000} {}
 E {  210} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  213} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  217} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -1156,29 +1156,29 @@ E {  212} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  218} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  227} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {  218} {0} {} {Outside the East Gate of Nevrast} {} {You are by two small towers that have been built into the city wall and connected with a footbridge that runs across the heavy wooden gate.  To the east the plains stretch out into the distance.  The road continues west into Nevrast. } {Nevrast} {} {City} {} {1.000} {}
+R {  218} {0} {} {Outside the East Gate of Nevrast} {} {You are by two small towers that have been built into the city wall and connected with a footbridge that runs across the heavy wooden gate.  To the east the plains stretch out into the distance.  The road continues west into Nevrast. } {} {} {City} {} {1.000} {}
 E {  217} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  219} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
-R {  219} {0} {} {City Entrance} {} {You stand on the outskirts of a large city: Nevrast, the capital of this land.  The road leads east toward the peace and quiet - and dangers - of a forest\; and to the west it becomes the main street of the town, surrounded by a confusion of shops, bars, and marketplaces. } {Old Forest} {} {Field} {} {1.000} {}
+R {  219} {0} {} {City Entrance} {} {You stand on the outskirts of a large city: Nevrast, the capital of this land.  The road leads east toward the peace and quiet - and dangers - of a forest\; and to the west it becomes the main street of the town, surrounded by a confusion of shops, bars, and marketplaces. } {Nevrast} {} {Field} {} {1.000} {}
 E {  218} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  220} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
-R {  220} {0} {} {The Crossroad} {} {Four roads meet here, and a large signpost labels each of them.  To the west, you can see the smoke and haze of a city.  To the east, the road leads through the outskirts of a forest and into the mountains, while to the south, a less-used path leads directly into the forest.  The plains continue north toward a hilly area. } {Old Forest} {} {Field} {} {1.000} {}
+R {  220} {0} {} {The Crossroad} {} {Four roads meet here, and a large signpost labels each of them.  To the west, you can see the smoke and haze of a city.  To the east, the road leads through the outskirts of a forest and into the mountains, while to the south, a less-used path leads directly into the forest.  The plains continue north toward a hilly area. } {Trader's Outpost} {} {Field} {} {1.000} {}
 E {  219} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  221} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  404} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  452} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  221} {0} {} {The Lane} {} {You are strolling along a pleasant, shady lane.  The road is lined on both sides by tall, stately trees which lend the scene a sense of quiet serenity. You can follow the road north or south. } {NotYetSet} {} {Field} {} {1.000} {}
+R {  221} {0} {} {The Lane} {} {You are strolling along a pleasant, shady lane.  The road is lined on both sides by tall, stately trees which lend the scene a sense of quiet serenity. You can follow the road north or south. } {Trader's Outpost} {} {Field} {} {1.000} {}
 E {  220} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  222} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {  222} {0} {} {The Plains} {} {The well-maintained lane from the south deteriorates into a mere footpath here, leading north toward the foothills of the Stoneforge Mountains. } {NotYetSet} {} {Field} {} {1.000} {}
+R {  222} {0} {} {The Plains} {} {The well-maintained lane from the south deteriorates into a mere footpath here, leading north toward the foothills of the Stoneforge Mountains. } {Trader's Outpost} {} {Field} {} {1.000} {}
 E {  221} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  223} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {  223} {0} {} {} {} {} {NotYetSet} {} {Hills} {} {1.000} {}
+R {  223} {0} {} {The Hills} {} {You are on a path leading north into the foothills of the Stoneforge Mountains. } {Trader's Outpost} {} {Hills} {} {1.000} {}
 E {  222} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  224} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
@@ -1193,7 +1193,7 @@ E {  226} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
 R {  226} {0} {} {Entrance to a Dark Cave} {} {The road from the south terminates into a wide, dark cave to the north. The dirt road is covered with ancient wagon ruts as though the road was once well used, but has since seen little traffic.  An ancient and moss covered plaque is affixed to the mountain side next to the cave mouth. } {Mac Mordain Cadal} {} {Hills} {} {1.000} {}
 E {  225} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {  500} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E {  500} {n} {n} {1} {1} {} {1.000} {} {0.00}
 
 R {  227} {0} {} {Palace Road} {} {A bit further to the north along this lovely white stone road you can see the First Bank of Nevrast, and beyond it the Palace.  South lies the eastern gate, and to the west is the side of the weapons shop. } {Nevrast} {} {City} {} {1.000} {}
 E {  217} {s} {s} {4} {0} {} {1.000} {} {0.00}
@@ -1224,7 +1224,7 @@ E {  234} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  235} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  236} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  234} {0} {} {The Tower of Magic} {} {The entrance to the Tower of Magic is small and poorly lit by a strange orb that swirls on a pedestal, casting shadows all about.  Pictures of noble mages, past and present, line the walls.  A small spiral staircase rises up into the ceiling. } {Nevrast} {} {City} {} {1.000} {}
+R {  234} {0} {} {Alas, you cannot go that way.} {} {} {Trader's Outpost} {} {} {} {1.000} {}
 E {  233} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  425} {u} {u} {16} {0} {} {1.000} {} {0.00}
 
@@ -1351,7 +1351,7 @@ E {  260} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  333} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  335} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  263} {0} {} {Intersection of Smuggler's Road and River Lane} {} {River Lane and Smuggler's Road come to an end here in this small square. The backs of warehouses can be seen over the wall to the east.  Facing you to the south is a small boat ramp. } {Nevrast} {} {City} {} {1.000} {}
+R {  263} {0} {} {Intersection of Smuggler's Road and} {} {River Lane    River Lane and Smuggler's Road come to an end here in this small square. The backs of warehouses can be seen over the wall to the east.  Facing you to the south is a small boat ramp. } {Nevrast} {} {City} {} {1.000} {}
 E {  264} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  331} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  334} {s} {s} {4} {0} {} {1.000} {} {0.00}
@@ -1487,7 +1487,7 @@ E {  295} {n} {open door;n} {1} {0} {} {1.000} {} {0.00}
 R {  295} {0} {} {A Warehouse} {} {Grain sits in carts along the western wall, awaiting unloading into one of the adjacent storage areas.  Barrels of unknown contents line the east wall.  A door to the warehouse stands along the wall in the south, and it has almost rotted off its hinges. } {Nevrast} {} {Inside} {} {1.000} {}
 E {  294} {s} {open door;s} {4} {0} {} {1.000} {} {0.00}
 
-R {  296} {0} {} {Outside the West Gate of Nevrast} {} {You are by two small towers that have been built into the city wall and connected with a footbridge that runs across the heavy wooden gate.  To the west you can see the great west road.  The road continues east into Nevrast. } {Nevrast} {} {City} {} {1.000} {}
+R {  296} {0} {} {Outside the West Gate of Nevrast} {} {You are by two small towers that have been built into the city wall and connected with a footbridge that runs across the heavy wooden gate.  To the west you can see the great west road.  The road continues east into Nevrast. } {Trader's Outpost} {} {City} {} {1.000} {}
 E {  236} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  505} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
@@ -1656,7 +1656,7 @@ E {  335} {w} {w} {8} {0} {} {1.000} {} {0.00}
 R {  338} {0} {} {Weyland's Forge} {r} {Sweltering heat pervades this room along with a clangorous sound.  A forge, glowing brightly red, lies in one corner.  Several anvils of varying sizes lie close to the forge. } {Nevrast} {Repair} {Inside} {} {1.000} {}
 E {  264} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  339} {0} {} {Wall Road} {} {You are at the southwest corner of the city wall.  Wall Road turns smoothly from north to east. } {NotYetSet} {} {City} {} {1.000} {}
+R {  339} {0} {} {Wall Road} {} {You are at the southwest corner of the city wall.  Wall Road turns smoothly from north to east. } {Nevrast} {} {City} {} {1.000} {}
 E {  266} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  341} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
@@ -1664,7 +1664,7 @@ R {  340} {0} {} {Wall Road} {} {The towering city wall to the west hangs over t
 E {  266} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  345} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  341} {0} {} {Wall Road} {} {You are at the northern edge of the southern district of Nevrast.  To the north, Wall Road returns to Nevrast proper; to the west, the city wall continues north and south.  A boarded-up entrance to the east used to access a large building that appears to be abandoned now. } {Nevrast} {} {City} {} {1.000} {}
+R {  341} {0} {} {Wall Road} {} {You are at the northern edge of the southern district of Nevrast.  To the north, Wall Road returns to Nevrast proper\; to the west, the city wall continues north and south.  A boarded-up entrance to the east used to access a large building that appears to be abandoned now. } {Nevrast} {} {City} {} {1.000} {}
 E {  339} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  342} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
@@ -1687,7 +1687,7 @@ R {  346} {0} {} {Inside the South Gate of Nevrast} {} {The mighty southern gate
 E {  345} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  347} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  347} {0} {} {Outside the South Gate of Nevrast} {} {Fields of freshly worked crops, lands left fallow, and freshly tilled acreage line the road leading to the walled city of Nevrast.  The gate to the north rises high up above its rural surroundings.  Two small towers built into the city wall are connected by a footbridge that runs across the heavy wooden gate. } {Nevrast} {} {Field} {} {1.000} {}
+R {  347} {0} {} {Outside the South Gate of Nevrast} {} {Fields of freshly worked crops, lands left fallow, and freshly tilled acreage line the road leading to the walled city of Nevrast.  The gate to the north rises high up above its rural surroundings.  Two small towers built into the city wall are connected by a footbridge that runs across the heavy wooden gate. } {The Southern Road} {} {Field} {} {1.000} {}
 E {  346} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  354} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
@@ -1733,7 +1733,7 @@ E {  359} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  368} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  398} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  358} {0} {} {The Southern Road} {} {This dusty, hard-packed, dirt road leads southwards through rolling fields and meadows.  The occasional man-made structure shows as a blur on the otherwise open view.  North of here the road approaches a large city, its walls tall enough to be visible from this distance. } {The Southern Road} {} {Field} {} {1.000} {}
+R {  358} {0} {} {The Southern Road} {} {This dusty, hard-packed, dirt road leads southwards through rolling fields and meadows.  The occasional man-made structure shows as a blur on the otherwise open view.  North of here the road approaches a large city, its walls tall enough to be visible from this distance.    Fields have begun to line the sides of the road, stretching out into the distance.  A small path leads off the main road, heading westward into one of them. } {The Southern Road} {} {Field} {} {1.000} {}
 E {  356} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  399} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E { 7794} {w} {w} {8} {0} {} {1.000} {} {0.00}
@@ -1941,15 +1941,15 @@ E {  403} {w} {w} {8} {0} {} {1.000} {} {0.00}
 R {  403} {0} {<aec>} {The Inquisitor Guildmaster's Sanctuary} {Inq} {A small black shrine trimmed with silver stands at the heart of the sanctuary.  Black velvet hangings enshroud the walls, soaking up what light the lone tallow candle on the shrine provides.  An overwhelming feeling of darkness overcomes you. } {Nevrast} {Inquisitor} {Inside} {} {1.000} {}
 E {  402} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
-R {  404} {0} {} {Eastern Road} {} {This road leads through the outskirts of a forest, ascending gradually to the east.  Off in the distance you can see the Eastern Mountains; they look very large, and very sinister. } {NotYetSet} {} {Field} {} {1.000} {}
+R {  404} {0} {} {Eastern Road} {} {This road leads through the outskirts of a forest, ascending gradually to the east.  Off in the distance you can see the Eastern Mountains\; they look very large, and very sinister. } {Trader's Outpost} {} {Field} {} {1.000} {}
 E {  220} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  405} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
-R {  405} {0} {} {Eastern Road} {} {You are standing on an east-west road in the outskirts of a forest. Westward lies the plain of Nevrast; further east, the way grows increasingly hilly, and the Eastern Mountains are clearly visible. } {NotYetSet} {} {Field} {} {1.000} {}
+R {  405} {0} {} {Eastern Road} {} {You are standing on an east-west road in the outskirts of a forest. Westward lies the plain of Nevrast\; further east, the way grows increasingly hilly, and the Eastern Mountains are clearly visible. } {Trader's Outpost} {} {Field} {} {1.000} {}
 E {  404} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  406} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
-R {  406} {0} {} {Eastern Road} {} {You stand on a road skirting the northeast edge of a large forest.  To the north, the road begins to climb towards the dark, storm-covered peaks of the Eastern Mountains, and a path leads south into the forest.  To the west, the road descends through the forest towards the plains of Nevrast. } {Eastern Mountains} {} {Field} {} {1.000} {}
+R {  406} {0} {} {Eastern Road} {} {You stand on a road skirting the northeast edge of a large forest.  To the north, the road begins to climb towards the dark, storm-covered peaks of the Eastern Mountains, and a path leads south into the forest.  To the west, the road descends through the forest towards the plains of Nevrast. } {Trader's Outpost} {} {Field} {} {1.000} {}
 E {  405} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  730} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  427} {s} {s} {4} {0} {} {1.000} {} {0.00}
@@ -2039,7 +2039,7 @@ E { 1318} {u} {u} {16} {0} {} {1.000} {} {0.00}
 
 R {  426} {0} {} {} { } {} {} {} {} {} {1.000} {}
 
-R {  427} {0} {} {A Forest Path} {} {A wooden cabin stands on the eastern side of the path.  To the north the path meets up with the eastern path from Nevrast.  A large pine tree grows firmly rooted into the ground to the west.  The base of the tree is almost twenty feet wide and it looks as if its branches could touch the clouds.  The sound of flapping wings can be heard from the top of the tree. } {Trader's Outpost} {} {Field} {} {1.000} {}
+R {  427} {0} {} {A Forest Path} {} {A wooden cabin stands on the eastern side of the path.  To the north the path meets up with the eastern path from Nevrast.  A large pine tree grows firmly rooted into the ground to the west.  The base of the tree is almost twenty feet wide and it looks as if its branches could touch the clouds.  The sound of flapping wings can be heard from the top of the tree. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  406} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  431} {e} {open cabin;e} {2} {0} {} {1.000} {} {0.00}
 E {  432} {s} {s} {4} {0} {} {1.000} {} {0.00}
@@ -2346,7 +2346,7 @@ E {  498} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  497} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R {  500} {0} {} {A Dark Cave} {} {The cave here has rough hewn walls that wear numerous chisel marks from the labor of the dwarves that created it.  To the south, there is a fresh breeze and the sky can still be glimpsed outside the cave mouth.  The floor is mostly stone, but with patches of dirt in places. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
-E {  226} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E {  226} {s} {s} {4} {1} {} {1.000} {} {0.00}
 E { 1381} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
 R {  501} {0} {} {} { } {} {} {} {} {} {1.000} {}
@@ -2364,18 +2364,18 @@ E {  504} {w} {w} {8} {0} {} {1.000} {} {0.00}
 R {  504} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  503} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
-R {  505} {0} {} {The Great West Road} {} {The highway on which you are traveling was once the great road linking Gondor and Arnor, the two great realms of the Dunedain outside Numenor.  Today, it has fallen into disuse and decay, especially in the depopulated lands of Eriador, west of the Misty Mountains.  Running westwards, and angling slightly to the north, the road traverses barren country.  The way is clear, and there is little danger of misadventure or ambush along this section. } {The Great West Road} {} {Field} {} {1.000} {}
+R {  505} {0} {} {} {} {} {Trader's Outpost} {} {} {} {1.000} {}
 E {  296} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  506} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  506} {0} {} {Junction of the Greenway and the West Road} {} {The main route of the old road, built by the Dunedain, runs to the north and to the east from this junction.  The branch northwards is still in reasonably good repair, but the very light traffic of recent years has caused it to be overgrown --- hence its name: Greenway.    The highway going eastwards is missing many cobblestones, but its foundations are resilient and enduring.  A smaller byway continues to the west, towards a wide river. } {The Great West Road} {} {Field} {} {1.000} {}
+R {  506} {0} {} {Alas, you cannot go that way.} {} {} {Unset} {} {} {} {1.000} {}
 E {  505} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  512} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E { 1068} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R {  507} {0} {} {} { } {} {} {} {} {} {1.000} {}
 
-R {  508} {0} {} {The Greenway} {} {The Great Road is called the Greenway between Bree, to the north, and its junction with the extension to Sarn Ford, to the south.  It took on this name after the road fell into disuse, and the surrounding vegetation reclaimed its surface.  Now, a fine carpet of grass and other weeds has worked its way between the paving stones, and patches of moss cover the flat surfaces.  The Greenway follows a straight path north, on its route towards Fornost, the ancient capital of Arnor.  South of here, the road joins with a western extension, and then follows its main route east and south, to Gondor. } {Greenway} {} {Field} {} {1.000} {}
+R {  508} {0} {} {} {} {} {Trader's Outpost} {} {} {} {1.000} {}
 E {  512} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  513} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
@@ -2393,11 +2393,11 @@ R {  512} {4104} {} {} { } {} {} {} {Field} {} {1.000} {}
 E {  508} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  506} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  513} {0} {} {The Overgrown North Road} {} {Tenacious grasses have reclaimed the road surface of the Great North-South Road, between Bree and Sarn Ford.  A stiff breeze blowing from across the downs ripples the blades of grass thrusting up from between the paving stones.  There is very little other vegetation growing in this remote heathland.  The Greenway runs a true course, north and south, over this bleak landscape. } {Greenway} {} {Field} {} {1.000} {}
+R {  513} {0} {} {} {} {} {Trader's Outpost} {} {} {} {1.000} {}
 E {  508} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  515} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {  514} {0} {} {Between the Downs} {} {You are walking along a well-engineered roadway, through a weathered heathland in the heart of Eriador.  On either side of the road, off in the distance, you see low-rising hills.  The road itself is overgrown with grass and weeds, and in the rain your footing becomes tenuous on its slick surface. Birds such as killdeer, kites, and the occasional hawk make this land their home, as do small rodents, snakes, and burrowing animals of every kind.  You can travel north or south along the straight line of the Greenway. } {Greenway} {} {Field} {} {1.000} {}
+R {  514} {0} {} {Between the Downs} {} {} {Trader's Outpost} {} {} {} {1.000} {}
 E {  515} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  517} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
@@ -2405,7 +2405,7 @@ R {  515} {4104} {} {} { } {} {} {} {Field} {} {1.000} {}
 E {  514} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  513} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  516} {0} {} {East of the Barrow Downs} {} {To the west of the Greenway lie the Barrow Downs, artificial mounds set in the rolling heathland, and inhabited by evil wights from Angmar.  To the east of the roadway are the South Downs, extensive hills which occupy most of the territory of the old Kingdom of Cardolan, one of the successor realms after the dissolution of Arnor.  The Greenway runs north to an intersection, and south on its route towards Nevrast. } {Greenway} {} {Field} {} {1.000} {}
+R {  516} {0} {} {East of the Barrow Downs} {} {To the west of the Greenway lie the Barrow Downs, artificial mounds set in the rolling heathland, and inhabited by evil wights from Angmar.  To the east of the roadway are the South Downs, extensive hills which occupy most of the territory of the old Kingdom of Cardolan, one of the successor realms after the dissolution of Arnor.  The Greenway runs north to an intersection, and south on its route towards Nevrast. } {Trader's Outpost} {} {Field} {} {1.000} {}
 E {  517} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  518} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  692} {n} {n} {1} {0} {} {1.000} {} {0.00}
@@ -2414,7 +2414,7 @@ R {  517} {4104} {} {} { } {} {} {} {Field} {} {1.000} {}
 E {  516} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  514} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  518} {0} {} {Onto the Barrow Downs} {} {Named the South Downs, between the Great North-South Road and the Old Forest, is the site of numerous graves.  These raised crypts contain the remains of renowned soldiers of the Numenorean kingdoms, killed long ago in wars long forgotten by all except the elves.  The land is an undulating heath, devoid of trees, and threatening dangers from the malice of living and undead creatures. } {the South Downs} {} {Hills} {} {1.000} {}
+R {  518} {0} {} {} {} {} {Trader's Outpost} {} {} {} {1.000} {}
 E {  516} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  519} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  520} {w} {w} {8} {0} {} {1.000} {} {0.00}
@@ -2422,7 +2422,7 @@ E {  520} {w} {w} {8} {0} {} {1.000} {} {0.00}
 R {  519} {0} {} {A Tall Grave-Mound} {} {The hill on which you are standing is plainly not natural, as its sides are too regularly formed, and it rises too far above the other heights of land on the Downs.  This is a barrow, or grave-mound, erected as the final resting place of a man of the North Kingdom, long, long ago.    The entrance down into the crypt has eroded, and the covering slab over it is no longer entire.  You can slip down through this shaft into the depths of the grave-mound, if you care to look inside. } {the South Downs} {} {Hills} {} {1.000} {}
 E {  518} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {  520} {0} {} {Amidst the Tumuli} {} {In this shallow depression, it is very difficult to take one's bearings. You are closed in by numerous hills and rises, standing on a soggy, wind-swept heath.  Some of these are apparently man-made, and are taller than the natural hills.  Wandering lines of flattened grass, lighter than the surrounding foliage, radiate from this spot.  Apparently, these are animal trails, and you wonder which one it is best to choose. } {the South Downs} {} {Hills} {} {1.000} {}
+R {  520} {0} {} {Amidst the Tumuli} {} {} {Trader's Outpost} {} {} {} {1.000} {}
 E {  518} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  521} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  526} {w} {w} {8} {0} {} {1.000} {} {0.00}
@@ -2440,12 +2440,12 @@ R {  524} {0} {} {East of the Barrow Downs} { } {} {} {} {} {} {1.000} {}
 R {  525} {0} {} {Meeting of the East and North Roads} { } {} {} {} {} {} {1.000} {}
 E {  687} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  526} {0} {} {Surrounded by the Barrow Downs} {} {On every side you see a blasted heathland of rounded hills, known as the Barrow Downs.  You are standing on what you suspect is one right now.  From this vantage point, you can make out the trees of the Old Forest to the west, and little else besides.  You feel indescribably lonely in this forgotten place.  Your feet scrape against a smooth slab of stone on the summit of the hill.  In every direction except west there is a way to climb to another high- point on the Downs\; in that direction there is an impassable ravine. } {the South Downs} {} {Hills} {} {1.000} {}
+R {  526} {0} {} {Alas, you cannot go that way.} {} {} {Trader's Outpost} {} {} {} {1.000} {}
 E {  520} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  533} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  537} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  527} {0} {} {} {} {} {} {} {} {} {1.000} {}
+R {  527} {0} {} {Among the Branches} {} {Branches as thick as cave troll arms extends from the tree trunk.  Foot holes have been carved into the bark to ease the climb for those who cannot fly.  To the north, barely visible through the thick foliage of the tree, is a village with houses, walkways, and even a fountain. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  432} {d} {d} {32} {0} {} {1.000} {} {0.00}
 E {  646} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  714} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -2477,13 +2477,13 @@ E {  583} {e} {e} {2} {0} {} {1.000} {} {0.00}
 R {  536} {0} {} {No way!  You are fighting for your life!} {} {} {the South Downs} {} {Hills} {} {1.000} {}
 E {  533} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  537} {0} {} {} {} {Your floating spell is starting to fade.  H:487/642 M:92/133 V:296/326 XP:1378455 C:*> Desolate Heathland on the Downs    The long grass growing from peat earth throughout the heath of the Barrow Downs makes for wet walking.  Drainage is poor, and water is held close to the surface.  Raised tussocks and hidden rodent holes provide a constant challenge to your balance.  There seem to be a couple of mounds nearby from which you can take your bearings, to the north and to the west. } {the South Downs} {} {Hills} {} {1.000} {}
+R {  537} {0} {} {Desolate Heathland on the Downs} {} {The long grass growing from peat earth throughout the heath of the Barrow Downs makes for wet walking.  Drainage is poor, and water is held close to the surface.  Raised tussocks and hidden rodent holes provide a constant challenge to your balance.  There seem to be a couple of mounds nearby from which you can take your bearings, to the north and to the west. } {Trader's Outpost} {} {Hills} {} {1.000} {}
 E {  526} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  539} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R {  538} {0} {} {} { } {} {} {} {} {} {1.000} {}
 
-R {  539} {0} {} {Exposed Grave-Mound} {} {Farthest west of the intact grave-mounds on the Barrow Downs, this site was erected by the Men of Cardolan, from the time when they took refuge here, and in the Old Forest, from the armies of the Witch King of Angmar.  The tumulus has eroded away, and the crypt lies exposed on the surface.  Under a layer of debris you spy a wight --- the corpse of a Numenorean warrior, animated by the spiteful spirit of a minion of Sauron. } {the South Downs} {} {Field} {} {1.000} {}
+R {  539} {0} {} {Exposed Grave-Mound} {} {Farthest west of the intact grave-mounds on the Barrow Downs, this site was erected by the Men of Cardolan, from the time when they took refuge here, and in the Old Forest, from the armies of the Witch King of Angmar.  The tumulus has eroded away, and the crypt lies exposed on the surface.  Under a layer of debris you spy a wight --- the corpse of a Numenorean warrior, animated by the spiteful spirit of a minion of Sauron. } {Trader's Outpost} {} {Field} {} {1.000} {}
 E {  537} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  540} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  542} {n} {n} {1} {0} {} {1.000} {} {0.00}
@@ -2495,11 +2495,11 @@ E {  541} {e} {e} {2} {0} {} {1.000} {} {0.00}
 R {  541} {0} {} {Lonely Grave-Mound} {} {This barrow is occupied by a captain of the Dunedain of Cardolan, one of the men of a successor state to Arnor which existed for a time before the depredations of Angmar and the Great Plague destroyed all vestiges of the realm.  Once, the Old Forest and the Barrow Downs provided a refuge for these brave elf-friends, but now the region is desolate and forgotten.  The remains of the unfortunate man interred here have now been possessed by a wight out of Angmar. } {the South Downs} {} {Hills} {} {1.000} {}
 E {  540} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  542} {0} {} {Entering the Barrow Downs} {} {Once a refuge for men, and now a region to be avoided, the Barrow Downs have become the dwelling place of wights from Angmar, Sauron's northern stronghold. Interspersed among the natural hills are artificial mounds, and buried beneath these are crypts wherein are entombed warriors from Arnor and its successor state in this region, Cardolan.  A way through the tumuli dotted on the heath can be seen, to the south.  A more inviting hill, clear of the Downs, lies westward. } {the South Downs} {} {Field} {} {1.000} {}
+R {  542} {0} {} {Entering the Barrow Downs} {} {Once a refuge for men, and now a region to be avoided, the Barrow Downs have become the dwelling place of wights from Angmar, Sauron's northern stronghold. Interspersed among the natural hills are artificial mounds, and buried beneath these are crypts wherein are entombed warriors from Arnor and its successor state in this region, Cardolan.  A way through the tumuli dotted on the heath can be seen, to the south.  A more inviting hill, clear of the Downs, lies westward. } {Trader's Outpost} {} {Field} {} {1.000} {}
 E {  539} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  543} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  543} {0} {} {Cottage of Tom Bombadil} {} {You have reached the home of a strange and wondrous being, perhaps the oldest in all the realms.  He is Tom Bombadil --- to all outward appearances a short, gaudily dressed man of expansive manners and merriment in his eye, but in fact the undisputed master of the Old Forest and the South Downs.  His home is a small, plain cottage, which rests on this hill between wood and heath with an air of total belonging. } {the South Downs} {} {Hills} {} {1.000} {}
+R {  543} {0} {} {} {} {} {Trader's Outpost} {} {} {} {1.000} {}
 E {  542} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  544} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  546} {w} {w} {8} {0} {} {1.000} {} {0.00}
@@ -2509,160 +2509,160 @@ E {  543} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R {  545} {0} {} {} { } {} {} {} {} {} {1.000} {}
 
-R {  546} {0} {} {Between the Downs and the Forest} {} {You are on an open, grass-covered hillside, sloping down to the west towards the trees of the Old Forest.  At the top of the hill rests a simple house.  In this place, during the day, the sun shines and the gentle rain falls, and at night the stars glimmer.  None of the dangers of the Forest or of the Barrow Downs to the east seem to be present in this place. } {the South Downs} {} {Hills} {} {1.000} {}
+R {  546} {0} {} {} {} {} {Trader's Outpost} {} {} {} {1.000} {}
 E {  543} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  547} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  547} {0} {} {} {} {} {} {} {Field} {} {1.000} {}
+R {  547} {0} {} {Eastern Edge of the Old Forest} {} {This is the edge of the Old Forest.  The ground slopes up slightly to the east.  The way westward leads into the dreaded wood.  It is difficult to look into those trees and not be afraid.  The howl of wolves can be heard from the forest, but something akin to singing seems to be drifting to your ears from the east. } {Trader's Outpost} {} {Field} {} {1.000} {}
 E {  546} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  548} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  548} {0} {} {East of the Withywindle} {} {The forest is fairly thin here.  The trees are far enough apart so as to let some of the light of the sun through the canopy above.  West of you lies the River Withywindle which flows off to the south.  The forest seems to become even more sparse as one moves eastward.  Eastward may even lead you out of the forest entirely. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  548} {0} {} {East of the Withywindle} {} {The forest is fairly thin here.  The trees are far enough apart so as to let some of the light of the sun through the canopy above.  West of you lies the River Withywindle which flows off to the south.  The forest seems to become even more sparse as one moves eastward.  Eastward may even lead you out of the forest entirely. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  547} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  549} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  549} {0} {} {Old Man Willow} {} {The River Withywindle winds away to the south through thick, tall grasses and reeds.  Eventually it joins the waters of the great Brandywine River that flows through the Shire.  The north-south path you are on ends abruptly to the north.  A large, grey willow has fallen across the path.  Fording the river here does seem to be an option.  The east bank does not appear too steep, and the forest does seem to be less threatening in that direction.  This area along the river is free of underbrush.  The only thing that grows here is a very large willow.  This place is very queer indeed. } {Old Forest} {} {Shore} {} {1.000} {}
+R {  549} {0} {} {Old Man Willow} {} {The River Withywindle winds away to the south through thick, tall grasses and reeds.  Eventually it joins the waters of the great Brandywine River that flows through the Shire.  The north-south path you are on ends abruptly to the north.  A large, grey willow has fallen across the path.  Fording the river here does seem to be an option.  The east bank does not appear too steep, and the forest does seem to be less threatening in that direction.  This area along the river is free of underbrush.  The only thing that grows here is a very large willow.  This place is very queer indeed. } {Trader's Outpost} {} {Shore} {} {1.000} {}
 E {  548} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  550} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  550} {0} {} {Bank of the Withywindle River} {} {Everything is very peaceful here.  This almost seems as though it would be the perfect place for a nap.  YAWN--  The slight rustle of the willows, the gurgling of the river, and the far off buzzing of some bees contribute to the sleepy feeling of this place.  There does not appear to be anything threatening around, but it is always wise to stay on guard. } {Old Forest} {} {Shore} {} {1.000} {}
+R {  550} {0} {} {Bank of the Withywindle River} {} {Everything is very peaceful here.  This almost seems as though it would be the perfect place for a nap.  YAWN--  The slight rustle of the willows, the gurgling of the river, and the far off buzzing of some bees contribute to the sleepy feeling of this place.  There does not appear to be anything threatening around, but it is always wise to stay on guard. } {Trader's Outpost} {} {Shore} {} {1.000} {}
 E {  549} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  551} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  551} {0} {} {Bank of the Withywindle} {} {Here the river is flowing very slowly.  The Withywindle is not wide at this point and could easily be crossed, if not for the steep gully wall on the east bank.  The air here is very moist and warm.  The wind blows gently, and you can almost here someone whispering a lullaby on the breeze.  Here, the Withywindle is lined with great willow trees.  Their branches hang low and sway gracefully in the wind. } {Old Forest} {} {Shore} {} {1.000} {}
+R {  551} {0} {} {Bank of the Withywindle} {} {Here the river is flowing very slowly.  The Withywindle is not wide at this point and could easily be crossed, if not for the steep gully wall on the east bank.  The air here is very moist and warm.  The wind blows gently, and you can almost here someone whispering a lullaby on the breeze.  Here, the Withywindle is lined with great willow trees.  Their branches hang low and sway gracefully in the wind. } {Trader's Outpost} {} {Shore} {} {1.000} {}
 E {  550} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  552} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  552} {0} {} {The Withywindle River} {} {This must be the Withywindle River.  You have heard many stories about this queer stream.  It does not seem quite as threatening as the stories made it out to be, though.  It is almost picturesque.  The sparkling little stream is bordered with tall green grasses and thick reeds.  The east bank of the stream is very steep and is not climbable.  There is a path that runs along side the river to the north and south. } {Old Forest} {} {Shore} {} {1.000} {}
+R {  552} {0} {} {The Withywindle River} {} {This must be the Withywindle River.  You have heard many stories about this queer stream.  It does not seem quite as threatening as the stories made it out to be, though.  It is almost picturesque.  The sparkling little stream is bordered with tall green grasses and thick reeds.  The east bank of the stream is very steep and is not climbable.  There is a path that runs along side the river to the north and south. } {Trader's Outpost} {} {Shore} {} {1.000} {}
 E {  551} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  553} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  553} {0} {} {On Boggy Ground} {} {The ground has become a bog, and the trees have thinned out.  To the east you can see a sparkling stream winding its way through the forest. The stream is a welcome sight, but is the water safe?  You do not believe there is much of anything that is safe about this forest, or any stream that flows through it. } {Old Forest} {} {Swamp} {} {1.000} {}
+R {  553} {0} {} {On Boggy Ground} {} {The ground has become a bog, and the trees have thinned out.  To the east you can see a sparkling stream winding its way through the forest. The stream is a welcome sight, but is the water safe?  You do not believe there is much of anything that is safe about this forest, or any stream that flows through it. } {Trader's Outpost} {} {Swamp} {} {1.000} {}
 E {  552} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  555} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R {  554} {0} {} {} { } {} {} {} {} {} {1.000} {}
 
-R {  555} {0} {} {Path Through the Forest} {} {The land seems to be changing.  You are still deep in the Old Forest, but the land seems to be getting more marshy.  The ground is very moist here, and the moss on the trees seems to be of the variety that one would find in a swamp.  The path bends eastward here.  There are flies buzzing all around, and you think you can almost hear the sound of running water coming from the east. } {Old Forest} {} {Swamp} {} {1.000} {}
+R {  555} {0} {} {Path Through the Forest} {} {The land seems to be changing.  You are still deep in the Old Forest, but the land seems to be getting more marshy.  The ground is very moist here, and the moss on the trees seems to be of the variety that one would find in a swamp.  The path bends eastward here.  There are flies buzzing all around, and you think you can almost hear the sound of running water coming from the east. } {Trader's Outpost} {} {Swamp} {} {1.000} {}
 E {  553} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  556} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {  556} {0} {} {Broken Ground} {} {The trail continues north and south here, but it seems as though there was recently a disturbance of some kind.  There are great ruts and scars in the trail.  The ruts cross the whole width of the trail.  Some of these ruts are very deep.  They are not deep enough to impede your travel, however.  Still, what could have happened? } {Old Forest} {} {Forest} {} {1.000} {}
+R {  556} {0} {} {Broken Ground} {} {The trail continues north and south here, but it seems as though there was recently a disturbance of some kind.  There are great ruts and scars in the trail.  The ruts cross the whole width of the trail.  Some of these ruts are very deep.  They are not deep enough to impede your travel, however.  Still, what could have happened? } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  555} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  557} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {  557} {0} {} {The Forest Trail} {} {The trees are very thick around you, but they seem to be leaving the trail you are following intact.  The trail runs north and south with the great trees crowding in on either side.  There is a sense of security to the trail.  However, the howling of wolves in the distance is making you a bit uncomfortable. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  557} {0} {} {The Forest Trail} {} {The trees are very thick around you, but they seem to be leaving the trail you are following intact.  The trail runs north and south with the great trees crowding in on either side.  There is a sense of security to the trail.  However, the howling of wolves in the distance is making you a bit uncomfortable. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  556} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  558} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {  558} {0} {} {Small Forest Trail} {} {You are standing on a trail that leads almost due south.  The trail disappears altogether to the north.  The forest is very dense on every side.  The branches of the trees hang low over the trail.  In some places the moss almost touches the ground.  You have learned not to trust the trails in this forest, but this one does not seem to be at all devious. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  558} {0} {} {Small Forest Trail} {} {You are standing on a trail that leads almost due south.  The trail disappears altogether to the north.  The forest is very dense on every side.  The branches of the trees hang low over the trail.  In some places the moss almost touches the ground.  You have learned not to trust the trails in this forest, but this one does not seem to be at all devious. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  557} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  559} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  559} {0} {} {The Dark Forest} {} {The darkness is very oppressive here.  From what you can see of these trees in the dim light, you believe them to be some of the oldest ones you have encountered so far.  They are monstrous in size and appear quite intimidating.  You see the beginnings of a trail off to the east.  The forest does not seem to be quite as forbidding in that direction. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  559} {0} {} {} {} {} {Trader's Outpost} {} {} {} {1.000} {}
 E {  558} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  560} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {  560} {0} {} {Heart of the Old Forest} {} {Darkness is a part of the forest here.  No light reaches the forest floor through the thick canopy above.  A sharp chill is in the air here. Everything seems very unnatural.  The darkness almost has substance, it is so thick.  You feel as though if you stared at it long enough it would start to take shape.  This place makes you nervous, and your skin starts to crawl. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  560} {0} {} {Heart of the Old Forest} {} {Darkness is a part of the forest here.  No light reaches the forest floor through the thick canopy above.  A sharp chill is in the air here. Everything seems very unnatural.  The darkness almost has substance, it is so thick.  You feel as though if you stared at it long enough it would start to take shape.  This place makes you nervous, and your skin starts to crawl. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  559} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  561} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {  561} {0} {} {Off the Path} {} {The forest here is dense and dark.  Great trees are pushing and crowding on every side.  The trees limbs are laden with grey and green moss, which hangs nearly to the ground.  Forest noises have faded away and all is quiet.  Nothing stirs.  You still have that nagging feeling that someone or something is watching you. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  561} {0} {} {Off the Path} {} {The forest here is dense and dark.  Great trees are pushing and crowding on every side.  The trees limbs are laden with grey and green moss, which hangs nearly to the ground.  Forest noises have faded away and all is quiet.  Nothing stirs.  You still have that nagging feeling that someone or something is watching you. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  560} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  562} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  562} {0} {} {Lost in the Forest} {} {Totally surrounded by grey-green trees, you wonder if you will ever find an exit to this forest.  The path runs north and south.  The land falls away gently to the east and the brush does not seem too thick in that direction. The path north seems very familiar. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  562} {0} {} {Lost in the Forest} {} {Totally surrounded by grey-green trees, you wonder if you will ever find an exit to this forest.  The path runs north and south.  The land falls away gently to the east and the brush does not seem too thick in that direction. The path north seems very familiar. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  561} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  563} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  563} {0} {} {Lost in the Woods} {} {The path is well worn here and runs to the north and to the west.  The surrounding woods seem to be thinning a bit, but you still have little idea about how far into the forest you have traveled.  Maybe wandering into the Old Forest was not such a good idea.  There are some strange markings on one of the trees here. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  563} {0} {} {Lost in the Woods} {} {The path is well worn here and runs to the north and to the west.  The surrounding woods seem to be thinning a bit, but you still have little idea about how far into the forest you have traveled.  Maybe wandering into the Old Forest was not such a good idea.  There are some strange markings on one of the trees here. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  562} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  564} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  564} {0} {} {Lost in the Woods} {} {Here, the path you are on intersects another path at a right angle. One path runs north and south, the other east and west.  You can sense a great feeling of ill-will directed at you, coming from the north.  You should use great caution when traveling in that direction. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  564} {0} {} {Lost in the Woods} {} {Here, the path you are on intersects another path at a right angle. One path runs north and south, the other east and west.  You can sense a great feeling of ill-will directed at you, coming from the north.  You should use great caution when traveling in that direction. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  563} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  565} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  568} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E { 4708} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {  565} {0} {} {Lost in the Woods} {} {The trees seem almost to taunt you.  Gnarled trunks and branches have transformed into grotesque leering faces.  Everywhere you turn the trees appear to be laughing at you and pressing in towards you.  The path you are on runs north and south with a small side trail running eastward. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  565} {0} {} {Lost in the Woods} {} {The trees seem almost to taunt you.  Gnarled trunks and branches have transformed into grotesque leering faces.  Everywhere you turn the trees appear to be laughing at you and pressing in towards you.  The path you are on runs north and south with a small side trail running eastward. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  564} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  566} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E { 4707} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {  566} {0} {} {Lost in the Woods} {} {The path you are on runs north and east, but you can't shake the feeling that something is wrong.  Why is it that all of these trees seem so familiar? } {Old Forest} {} {Forest} {} {1.000} {}
+R {  566} {0} {} {Lost in the Woods} {} {The path you are on runs north and east, but you can't shake the feeling that something is wrong.  Why is it that all of these trees seem so familiar? } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  565} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  568} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
 R {  567} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  674} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
-R {  568} {0} {} {Lost in the Woods} {} {The forest is starting to look very familiar.  You suspect those sneaky trees might be moving the path you are on in an attempt to lead you in circles.  Here the path runs to the north and to the west.  Neither direction looks very promising.  To the south lies a dangerous looking thicket. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  568} {0} {} {Lost in the Woods} {} {The forest is starting to look very familiar.  You suspect those sneaky trees might be moving the path you are on in an attempt to lead you in circles.  Here the path runs to the north and to the west.  Neither direction looks very promising.  To the south lies a dangerous looking thicket. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  566} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  564} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  569} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  571} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  569} {0} {} {Base of the Hill} {} {The trees here are tall and strong.  Their grey-green trunks climb high above your head.  The canopy is so high that the forest mist almost completely obscures it.  Actually, the forests mist obscures just about everything.  To the south is the only direction in which you can see for any distance.  In that direction you can make out where the trees give way to a tall hill.  The forest seems to thin a little to the west, but it could just be a trick of the trees. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  569} {0} {} {Base of the Hill} {} {The trees here are tall and strong.  Their grey-green trunks climb high above your head.  The canopy is so high that the forest mist almost completely obscures it.  Actually, the forests mist obscures just about everything.  To the south is the only direction in which you can see for any distance.  In that direction you can make out where the trees give way to a tall hill.  The forest seems to thin a little to the west, but it could just be a trick of the trees. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  568} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  570} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  570} {0} {} {On the Hilltop} {} {The hill is quite tall indeed.  It is a relief to be able to climb above the forest canopy.  However, it is very hazy and you cannot see for any great distance.  In the east the edge of the Barrow Downs can be seen and running out of it the Withywindle River which is said to be the source of the Old Forests queerness.  Nothing but trees can be seen in any other direction. } {Old Forest} {} {Hills} {} {1.000} {}
+R {  570} {0} {} {On the Hilltop} {} {The hill is quite tall indeed.  It is a relief to be able to climb above the forest canopy.  However, it is very hazy and you cannot see for any great distance.  In the east the edge of the Barrow Downs can be seen and running out of it the Withywindle River which is said to be the source of the Old Forests queerness.  Nothing but trees can be seen in any other direction. } {Trader's Outpost} {} {Hills} {} {1.000} {}
 E {  569} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  571} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  572} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  575} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  571} {0} {} {In a Thicket} {} {This area is mostly thicket, rough and impassable.  The brambles grab at your ankles, and thorns scrape your shins.  The trees here seem even more oppressive than in other parts of the forest, if that is possible.    The woods to the north seem very confusing.  The green hilltop can be seen rising in the east. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  571} {0} {} {Alas, you cannot go that way.} {} {} {Trader's Outpost} {} {} {} {1.000} {}
 E {  570} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  568} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {  572} {0} {} {East Side of the Hilltop} {} {The green hilltop rises like a bald head out of a bushy crown of trees to the west.  To the east is a deep gorge.  The land in that direction falls away steeply and is impassable.  The forest seems to get darker and thicker to the south. } {Old Forest} {} {Hills} {} {1.000} {}
+R {  572} {0} {} {East Side of the Hilltop} {} {The green hilltop rises like a bald head out of a bushy crown of trees to the west.  To the east is a deep gorge.  The land in that direction falls away steeply and is impassable.  The forest seems to get darker and thicker to the south. } {Trader's Outpost} {} {Hills} {} {1.000} {}
 E {  570} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  574} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R {  573} {0} {} {} { } {} {} {} {} {} {1.000} {}
 
-R {  574} {0} {} {Deep in the Forest} {} {Stumbling over roots and underbrush you find yourself deep in the forest.  It is very dark here and little light manages to penetrate the canopy.  The trees seem to be pressing in towards you.  Trees block the way east and south, but it is still possible to push your way north or west.  The forest looms darkly all around you. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  574} {0} {} {Deep in the Forest} {} {Stumbling over roots and underbrush you find yourself deep in the forest.  It is very dark here and little light manages to penetrate the canopy.  The trees seem to be pressing in towards you.  Trees block the way east and south, but it is still possible to push your way north or west.  The forest looms darkly all around you. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  572} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  575} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  575} {0} {} {Deeper into the Forest} {} {The trees that surround you are becoming even more twisted and gnarled.  All the trunks are grey or green with moss or shaggy growths.  To the north is a green hilltop while to the south there appears to be a clearing in the forest. Eastward seems to lead deeper into the forest. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  575} {0} {} {Deeper into the Forest} {} {The trees that surround you are becoming even more twisted and gnarled.  All the trunks are grey or green with moss or shaggy growths.  To the north is a green hilltop while to the south there appears to be a clearing in the forest. Eastward seems to lead deeper into the forest. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  574} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  576} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  587} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  570} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {  576} {0} {} {The Bonfire Glade} {} {The forest canopy gives way to sky here.  This must be the Bonfire Glade, the place where the hobbits of the Shire burned many trees after the battle at the High Hay.  No tree dares grow here now, only rough grass and many tall plants: stalky and faded hemlocks and wood-parsley, fire-weed seeding into fluffy ashes, and rampant nettles and thistles.  Normally this would seem a dreary place, but it is much more cheerful than the surrounding forest. } {Old Forest} {} {Field} {} {1.000} {}
+R {  576} {0} {} {The Bonfire Glade} {} {The forest canopy gives way to sky here.  This must be the Bonfire Glade, the place where the hobbits of the Shire burned many trees after the battle at the High Hay.  No tree dares grow here now, only rough grass and many tall plants: stalky and faded hemlocks and wood-parsley, fire-weed seeding into fluffy ashes, and rampant nettles and thistles.  Normally this would seem a dreary place, but it is much more cheerful than the surrounding forest. } {Trader's Outpost} {} {Field} {} {1.000} {}
 E {  575} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  577} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  579} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  580} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
-R {  577} {0} {} {West of the Glade} {} {All around you can hear small noises and muted whispers.  Every so often you can almost make out faint laughter or a muffled snicker.  An uneasy feeling begins to overtake you.  The Forest is very thick here and seems impassable to north and west.  The trees are still fairly thick to the south, but is does seems passable.  The Bonfire Glade is back to the east. } {Old Forest} {} {Field} {} {1.000} {}
+R {  577} {0} {} {West of the Glade} {} {All around you can hear small noises and muted whispers.  Every so often you can almost make out faint laughter or a muffled snicker.  An uneasy feeling begins to overtake you.  The Forest is very thick here and seems impassable to north and west.  The trees are still fairly thick to the south, but is does seems passable.  The Bonfire Glade is back to the east. } {Trader's Outpost} {} {Field} {} {1.000} {}
 E {  576} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  578} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  578} {0} {} {Under a Beech} {} {This area of the forest is dominated by a large beech tree which completely blocks the way south.  Most of the vegetation seems to have given way to the enormous beech.  The way eastward is clear for travel.  There are two interesting sets of carvings scrawled into the bark of the great beech. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  578} {0} {} {Under a Beech} {} {This area of the forest is dominated by a large beech tree which completely blocks the way south.  Most of the vegetation seems to have given way to the enormous beech.  The way eastward is clear for travel.  There are two interesting sets of carvings scrawled into the bark of the great beech. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  577} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  579} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E { 3386} {u} {u} {16} {0} {} {1.000} {} {0.00}
 
-R {  579} {0} {} {} {} {} {Old Forest} {} {} {} {1.000} {}
+R {  579} {0} {} {The Old Forest} {} {} {Trader's Outpost} {} {} {} {1.000} {}
 E {  578} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  576} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  581} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
-R {  580} {0} {} {Old Forest} {} {It is very dim in this part of the forest due to the thick canopy. Everything is very still here.  No sound can be heard in the surrounding brush. It is almost too quiet here.  To the west you can almost make out a clearing in the wood. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  580} {0} {} {Old Forest} {} {It is very dim in this part of the forest due to the thick canopy. Everything is very still here.  No sound can be heard in the surrounding brush. It is almost too quiet here.  To the west you can almost make out a clearing in the wood. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  576} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  581} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  581} {0} {} {In the Midst of Trees} {} {Trees, trees, trees.  Trees surround you on every side.  To the north you see trees.  To the south you see trees.  To the east you see trees.  To the west you see trees.  You are really getting sick of this spooky forest and all the unfriendly trees.  Every which way you turn, you are surrounded by trees. You are beginning to wonder why you ever bothered entering this blamed forest. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  581} {0} {} {In the Midst of Trees} {} {Trees, trees, trees.  Trees surround you on every side.  To the north you see trees.  To the south you see trees.  To the east you see trees.  To the west you see trees.  You are really getting sick of this spooky forest and all the unfriendly trees.  Every which way you turn, you are surrounded by trees. You are beginning to wonder why you ever bothered entering this blamed forest. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  580} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  579} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  582} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
-R {  582} {0} {} {Deep in the Woods} {} {This area of the forest is extremely dense and the underbrush is very thick. The scurrying of small feet can be heard deep in the forest behind you.  Of course when you turn around the scurrying ceases and begins again behind you. The forest is too thick to proceed any farther in this direction.  You will have to go back the way you came and find another path if you are to make it through these woods. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  582} {0} {} {Deep in the Woods} {} {This area of the forest is extremely dense and the underbrush is very thick. The scurrying of small feet can be heard deep in the forest behind you.  Of course when you turn around the scurrying ceases and begins again behind you. The forest is too thick to proceed any farther in this direction.  You will have to go back the way you came and find another path if you are to make it through these woods. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  581} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R {  583} {0} {} {} { } {} {} {} {} {} {1.000} {}
@@ -2682,7 +2682,7 @@ E {  584} {w} {w} {8} {0} {} {1.000} {} {0.00}
 R {  586} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  522} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  587} {0} {} {Inside the Forest} {} {There is no visible path through the trees.  It seems you still have to rely on your instincts to guide you through the Old Forest.  To the west you can make out the dark outline of the High Hay, the protective hedge that surrounds the Shire, through the trees.  Looking east you can only see the grey, gnarled and twisted trunks of the trees. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  587} {0} {} {Inside the Forest} {} {There is no visible path through the trees.  It seems you still have to rely on your instincts to guide you through the Old Forest.  To the west you can make out the dark outline of the High Hay, the protective hedge that surrounds the Shire, through the trees.  Looking east you can only see the grey, gnarled and twisted trunks of the trees. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  575} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  605} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
@@ -2757,11 +2757,11 @@ E { 3194} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E { 3195} {n} {open grate;n} {1} {0} {} {1.000} {} {0.00}
 E { 6204} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  605} {0} {} {The Edge of the Old Forest} {} {The path leading to the Old Forest disappears as it enters the trees. A sinister feeling is in the air here.  There is a tangible sense of queerness about this forest.  The trees are thick and obviously very old.  Grey-green moss hangs from the great limbs of these massive trees. A faint rustling can be heard coming from the forest. } {Old Forest} {} {Forest} {} {1.000} {}
+R {  605} {0} {} {The Edge of the Old Forest} {} {The path leading to the Old Forest disappears as it enters the trees. A sinister feeling is in the air here.  There is a tangible sense of queerness about this forest.  The trees are thick and obviously very old.  Grey-green moss hangs from the great limbs of these massive trees. A faint rustling can be heard coming from the forest. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  587} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  606} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  606} {0} {} {Beyond the Hedge} {} {Years ago, the trees made an attack on the hedge in an attempt to expand the forest.  Faint signs of the battle between the Hobbits and the trees can still be seen on the land.  The hobbits cut down hundreds of trees and burned the ground here in a long strip as a warning.  After that encounter the trees gave up their plans for expanding the forest westward, but they have become very unfriendly. } {Shire} {} {Field} {} {1.000} {}
+R {  606} {0} {} {Beyond the Hedge} {} {Years ago, the trees made an attack on the hedge in an attempt to expand the forest.  Faint signs of the battle between the Hobbits and the trees can still be seen on the land.  The hobbits cut down hundreds of trees and burned the ground here in a long strip as a warning.  After that encounter the trees gave up their plans for expanding the forest westward, but they have become very unfriendly. } {Trader's Outpost} {} {Field} {} {1.000} {}
 E {  605} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  643} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
@@ -2912,21 +2912,21 @@ E {  640} {n} {n} {1} {0} {} {1.000} {} {0.00}
 R {  642} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  640} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
-R {  643} {0} {} {At the High Hay} {} {This is the edge of the peaceful Shire.  To the east, beyond the protective cover of the High Hay, lies the Old Forest.  Many strange tales have circulated about the Old Forest over the years.  Queer things, like trees that do not stay still and paths that change direction.  There is an expanse of clear land between the hedge and the Old Forest.  The ground is covered by grasses and flowers that barely reach the knees of the gentle Hobbits that live in the Shire.  The forest looms ominously beyond the peaceful field. } {Shire} {} {Field} {} {1.000} {}
+R {  643} {0} {} {At the High Hay} {} {This is the edge of the peaceful Shire.  To the east, beyond the protective cover of the High Hay, lies the Old Forest.  Many strange tales have circulated about the Old Forest over the years.  Queer things, like trees that do not stay still and paths that change direction.  There is an expanse of clear land between the hedge and the Old Forest.  The ground is covered by grasses and flowers that barely reach the knees of the gentle Hobbits that live in the Shire.  The forest looms ominously beyond the peaceful field. } {Trader's Outpost} {} {Field} {} {1.000} {}
 E {  606} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  644} {s} {open gate;s} {4} {0} {} {1.000} {} {0.00}
 
-R {  644} {0} {} {High Hay} {} {Also called the Hedge, the High Hay is a twenty-mile long natural barrier between Buckland and the Old Forest, protecting the Hobbits of this folkland from the known and unknown dangers of the mysterious woodland on the opposite side.  The High Hay begins at the bridge crossing Baranduin in the north, and is continuous to the outlet of Withywindle into that same river in the south.    There is a gate in the Hedge along this stretch.  Safety lies to the west, along a footpath to the manor of Crickhollow. } {Shire} {} {Hills} {} {1.000} {}
+R {  644} {0} {} {High Hay} {} {Also called the Hedge, the High Hay is a twenty-mile long natural barrier between Buckland and the Old Forest, protecting the Hobbits of this folkland from the known and unknown dangers of the mysterious woodland on the opposite side.  The High Hay begins at the bridge crossing Baranduin in the north, and is continuous to the outlet of Withywindle into that same river in the south.    There is a gate in the Hedge along this stretch.  Safety lies to the west, along a footpath to the manor of Crickhollow. } {Trader's Outpost} {} {Hills} {} {1.000} {}
 E {  643} {n} {open gate;n} {1} {0} {} {1.000} {} {0.00}
 E {  645} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  645} {0} {} {Crickhollow} {} {Approximately in the middle of Buckland, Crickhollow is the name of the small manor house which stands here, belonging to the Brandybucks. A well maintained cart-path travels north to the village of Newbury, and south to the principal settlement in the folkland, Bucklebury. More minor footpaths lead west to Buck Hill and the ferry landing on the river, and east toward the border of Buckland, defined by a long, high hedge extending across the horizon. } {Shire} {} {Hills} {} {1.000} {}
+R {  645} {0} {} {High Hay} {} {} {Trader's Outpost} {} {} {} {1.000} {}
 E {  644} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  652} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  656} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  663} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {  646} {0} {} {} { } {} {} {} {} {} {1.000} {}
+R {  646} {0} {} {A Leafy Intersection} { } {A small platform hangs between two large oak trees.  The platform is nailed to the trees but is also supported by vines that hang down from the canopy.  A small cabin has been carved into the trunk of the eastern tree and a rope bridge connects the platform with another platform to the west.  A makeshift rope ladder leads down to the ground. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  527} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  658} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  713} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -2971,7 +2971,7 @@ E {  659} {w} {w} {8} {0} {} {1.000} {} {0.00}
 R {  657} {0} {} {Brandy Hall} {} {Carved into Buck Hill, Brandy Hall is the home of the Brandybucks, a family of Hobbits descended from the Oldbucks of the Marish.  The head of this family is the Master of Buckland, a position of nominal authority which is respected not only by Bucklanders but by many inhabitants of the Marish on the other side of Baranduin.  The interior of this extensive 'smial' is richly furnished, and bespeaks of the Hobbits' fondness for every creature comfort. } {Shire} {} {Inside} {} {1.000} {}
 E {  656} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {  658} {0} {} {} { } {} {} {} {} {} {1.000} {}
+R {  658} {0} {} {A Wooden Platform} { } {Connected by a rope bridge to another platform to the east, and surrounded by caves carved into the tree trunks, this platform makes up the center of a pixie village.  The western cave stands out from the rest with its larger entrance and the fact that it has a door, which all other caves lack. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  646} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  686} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  709} {w} {w} {8} {0} {} {1.000} {} {0.00}
@@ -2981,7 +2981,7 @@ R {  659} {0} {} {Buck Hill} {} {Up from the left bank of Baranduin steeply rise
 E {  656} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  707} {w} {enter ferry} {8} {0} {} {1.000} {} {0.00}
 
-R {  660} {0} {} {Newbury} {} {Although situated in the northern part of Buckland, and close to the Buckland Gate at the end of the High Hay, the Hobbits of Newbury are more likely to cross into the Shire by the Bucklebury Ferry, and to avoid the uncertainties of the East Road on the 'wrong' side of the Brandywine River.  The villagers go to Bucklebury for most business and social events, travelling along the north-south cart-path extending all along the narrow folkland of Buckland. } {Shire} {} {Hills} {} {1.000} {}
+R {  660} {0} {} {Newbury} {} {Although situated in the northern part of Buckland, and close to the Buckland Gate at the end of the High Hay, the Hobbits of Newbury are more likely to cross into the Shire by the Bucklebury Ferry, and to avoid the uncertainties of the East Road on the 'wrong' side of the Brandywine River.  The villagers go to Bucklebury for most business and social events, travelling along the north-south cart-path extending all along the narrow folkland of Buckland. } {Trader's Outpost} {} {Hills} {} {1.000} {}
 E {  661} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  664} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
@@ -2995,11 +2995,11 @@ R {  663} {4104} {} {} { } {} {Shire} {} {} {} {1.000} {}
 E {  661} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  645} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  664} {0} {} {Buckland Gate} {} {The High Hay, which is the long hedge sealing off Buckland from the Old Forest, begins at the Brandywine Bridge, from the edge of the Great East Road, and sweeps away to the south.  Set into the thick shrubbery is a wooden gate, opening inwards, which allows one to leave Buckland and the Shire.  South from the gate, a cart-path leads to a small village. } {Shire} {} {Hills} {} {1.000} {}
+R {  664} {0} {} {} {} {} {Trader's Outpost} {} {} {} {1.000} {}
 E {  660} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  667} {n} {open gate;n} {1} {0} {} {1.000} {} {0.00}
 
-R {  665} {0} {} {Bree-Side of the Brandywine Bridge} {} {The East Road runs down a gentle slope to the Brandywine Bridge to the west, and up out of the river valley, towards Bree, to the east. In former times, the road was much-travelled, but since the collapse of the Northern Kingdom of Arnor there has been only limited traffic between the Shire and Bree. } {Shire} {} {Shore} {} {1.000} {}
+R {  665} {0} {} {Bree-Side of the Brandywine Bridge} {} {The East Road runs down a gentle slope to the Brandywine Bridge to the west, and up out of the river valley, towards Bree, to the east. In former times, the road was much-travelled, but since the collapse of the Northern Kingdom of Arnor there has been only limited traffic between the Shire and Bree. } {Trader's Outpost} {} {Shore} {} {1.000} {}
 E {  667} {s} {open gate;s} {4} {0} {} {1.000} {} {0.00}
 E {  673} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  694} {w} {w} {8} {0} {} {1.000} {} {0.00}
@@ -3010,7 +3010,7 @@ R {  667} {4104} {<afa>} {} { } {} {Shire} {} {} {} {1.000} {}
 E {  665} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  664} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  668} {0} {} {North of the Old Forest} {} {Your eye is instinctively drawn towards the prospect to the south of the East Road: a thick forest, the verges of which run right to the sloping south shoulder of the roadbed.  This is the Old Forest, a dark, brooding place, yet not a source of actual malice.  Travellers are usually grateful for the mark of civilisation which is the East Road, and use it to avoid the Old Forest by crossing the wood's northern edge, and head either east or west. } {Shire} {} {Forest} {} {1.000} {}
+R {  668} {0} {} {North of the Old Forest} {} {Your eye is instinctively drawn towards the prospect to the south of the East Road: a thick forest, the verges of which run right to the sloping south shoulder of the roadbed.  This is the Old Forest, a dark, brooding place, yet not a source of actual malice.  Travellers are usually grateful for the mark of civilisation which is the East Road, and use it to avoid the Old Forest by crossing the wood's northern edge, and head either east or west. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  669} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  679} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
@@ -3041,7 +3041,7 @@ E {  665} {w} {w} {8} {0} {} {1.000} {} {0.00}
 R {  674} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E {  567} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  675} {0} {} {Along the East Road} {} {The countryside along the roadway is unremarkable.  Low, rolling hills lie to the north.  Some of these are forested, while others support only shrubs and grasses.  To the south-west there are thick woods, and to the south east there are regular mounds dotting a plain.    The East Road extends east towards Bree, and west towards the Shire. } {East Road} {} {Hills} {} {1.000} {}
+R {  675} {0} {} {} {} {} {Trader's Outpost} {} {} {} {1.000} {}
 E {  676} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  683} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
@@ -3061,7 +3061,7 @@ R {  679} {4104} {} {} { } {} {} {} {Forest} {} {1.000} {}
 E {  678} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  668} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  680} {0} {} {North of the Barrow Downs} {} {The East road bends slightly, to avoid a series of low, rounded hills lying to the south.  The road is well-maintained, to accomodate the moderate traffic between Bree and the Shire.  Northward can be seen an extensive coniferous forest.    You may travel eastward towards a junction, or onwards to the west. } {East Road} {} {Forest} {} {1.000} {}
+R {  680} {0} {} {The countryside along the roadway is unremarkable.  Low, rolling} {} {hills lie to the north.  Some of these are forested, while others support only shrubs and grasses.  To the south-west there are thick woods, and to the south east there are regular mounds dotting a plain.    The East Road extends east towards Bree, and west towards the Shire. } {Trader's Outpost} {} {Hills} {} {1.000} {}
 E {  681} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  690} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
@@ -3077,7 +3077,7 @@ R {  683} {4104} {} {} { } {} {} {} {Hills} {} {1.000} {}
 E {  682} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  675} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  684} {0} {} {Meeting of the East and North Roads} {} {Several leagues to the north, at the end of the Great North-South Road, lies Fornost, the principal city of the fallen kingdom of Arnor.  Many more leagues to the south and west, the Road connects to the other Numenorean realm in Middle-Earth: Gondor.  At this junction, the highway crosses the East Road, which begins in the east, near Rivendell in the foothills of the Misty Mountains, and ends at the Grey Havens, on the shores of Belegaer, the Great sea.  You may go south along the Greenway, or west along the East Road. } {East Road} {} {Field} {} {1.000} {}
+R {  684} {0} {} {The East road bends slightly, to avoid a series of low, rounded} {} {hills lying to the south.  The road is well-maintained, to accomodate the moderate traffic between Bree and the Shire.  Northward can be seen an extensive coniferous forest.    You may travel eastward towards a junction, or onwards to the west. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  685} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  691} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E { 7488} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -3086,7 +3086,7 @@ R {  685} {4104} {} {} { } {} {} {} {Field} {} {1.000} {}
 E {  684} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  690} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  686} {0} {} {} { } {} {} {} {} {} {1.000} {}
+R {  686} {0} {} {Butterfly Residence} { } {The residence of the Butterfly family is clean and tidy.  The paintings hang in straight rows on the walls and the windows are spotless.  A low table stands in the center of the room and along the walls are beds and chests filled with clothes. } {Trader's Outpost} {} {Inside} {} {1.000} {}
 E {  658} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
 R {  687} {4104} {} {} { } {} {} {} {} {} {1.000} {}
@@ -3180,23 +3180,24 @@ R {  708} {0} {} {Rushey} {} {Situated in the middle of the Marish, and at the m
 E {  706} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  710} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  709} {0} {} {} { } {} {} {} {} {} {1.000} {}
+R {  709} {0} {} {Inside a Tree Cave} { } {This cave has been carved directly out of the trunk of a gigantic pine tree. The northern and southern walls are covered with a thick layer of fungi and the air bears the scent of spores and yeast.  A bed stands along the northern wall\; it is at least four sizes too large for a sprite.  The floor is covered by drifts of brown hair, but there is less hair at the base of the southern wall. } {Trader's Outpost} {} {Inside} {} {1.000} {}
 E {  658} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7874} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R {  710} {0} {} {Deephallow} {} {Located just north of the point where the Shirebourne flows into the Brandywine River, Deephallow is the southern terminus of the Causeway.  A short road leads to the south to the Mithe, where there is a small landing for water craft  coming down the Shirebourne to dock, and to avoid entering the main course of the great river.  South of the Mithe, across Shirebourne, are the wild Overbourn Marshes.  The Causeway leads north out of Deephallow to Rushey. Another road runs inland, westward along the left bank of Shirebourne. } {Shire} {} {Field} {} {1.000} {}
 E {  708} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  712} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  711} {0} {} {} { } {} {} {} {} {} {1.000} {}
+R {  711} {0} {} {Treehug Residence} { } {Yellow curtains with red roses hang along the windows, waving slowly in a gentle draft.  The floor is covered by a green lawn.  It must have taken the Treehug family weeks to get the dirt up into the tree.  An apple tree grows in the center of the room and next to it stands a hardwood table and five chairs. } {Trader's Outpost} {} {Inside} {} {1.000} {}
 E {  658} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R {  712} {0} {} {Willowbottom} {} {This East Farthing village sits near where the Thistle Brook flows into the Shirebourne.  A small wood lies to the east of Willowbottom, along Thistle Brook.  The more extensive forest of Woody End can be seen northwards.  South is the Shirebourne itself, and to the east is a road leading to Deephallow, a Marish village along Baranduin. } {Shire} {} {Field} {} {1.000} {}
 E {  710} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
-R {  713} {0} {} {} { } {} {} {} {} {} {1.000} {}
+R {  713} {0} {} {The Ranger's Rest} { } {The Ranger's Rest was one of the first carved caves in the pixie village. It was started by a ranger sprite that, after a life of adventure, settled down to make a living as an innkeeper.  Here, travelers and adventurers can rent a room for one or several nights to rest and store their equipment.  Although situated in the pixie tree, some of the rooms were carved out to also fit larger kinds of humanoids such as elves and satyrs.  An opening in the western wall leads out onto a wooden platform. } {Trader's Outpost} {} {Inside} {} {1.000} {}
 E {  646} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  714} {0} {} {} { } {} {} {} {} {} {1.000} {}
+R {  714} {0} {} {The Pixie Storeroom} { } {The inside of this wooden cave is carved directly out of the tree.  In the southern and northern walls are two pairs of plate glass windows.  The walls contain no decorations whatsoever but the floor is covered with boxes of armor and weapons.  Most of it is worn and of poor quality.  An opening in the western wall leads to a wooden landing. } {Trader's Outpost} {} {Inside} {} {1.000} {}
 E {  527} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R {  715} {0} {} {The Yale} {} {This hamlet consists of a handful of hobbit dwellings, built above the ground in the lowland area of the East Farthing.  The Stock Road along which you are traveling leads eastward to the village of Stock proper, and curves away to the south, towards the forest known as Woody End. } {Shire} {} {Field} {} {1.000} {}
@@ -3281,7 +3282,7 @@ R {  735} {0} {} {The Southern Road} {} {Three buildings cluster on the western 
 E {  734} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  736} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  736} {0} {} {The Southern Road} {} {Fields of grain are visible to the southwest while corn has been planted to the southeast.  Several buildings are visible immediately to the west, quite possibly the home of the farmer that planted the fields. } {The Southern Road} {} {Field} {} {1.000} {}
+R {  736} {0} {} {The Southern Road} {} {Fields of grain are visible to the southwest while corn has been planted to the southeast.  Several buildings are visible immediately to the west, quite possibly the home of the farmer that planted the fields.  A large sign sits next to a hard packed trail heading west into the fields. } {The Southern Road} {} {Field} {} {1.000} {}
 E {  735} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  737} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E { 7854} {w} {w} {8} {0} {} {1.000} {} {0.00}
@@ -3372,7 +3373,7 @@ R {  756} {0} {} {The Southern Road} {} {The Southern Road leads north off towar
 E {  755} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  757} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  757} {0} {} {The Southern Road} {} {The Southern Road meanders through cultivated fields.  The smells of growing things and fresh turned loam all but block any feeling you might have of being near to the city. } {The Southern Road} {} {Field} {} {1.000} {}
+R {  757} {0} {} {You fall abruptly to the ground.} {} {H:383/383 M:150/150 V:325/325 XP:712882 C:*> The Southern Road    The Southern Road meanders through cultivated fields.  The smells of growing things and fresh turned loam all but block any feeling you might have of being near to the city. } {The Southern Road} {} {Field} {} {1.000} {}
 E {  756} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  758} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
@@ -3404,31 +3405,31 @@ R {  764} {0} {} {Along the Forest Path} {} {The road has passed into a bright a
 E {  763} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  765} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  765} {0} {} {Along the Forest Path} {} {Great pines and elms tower over the road, blanketing it with a canopy of leaves and leaving a dappled pattern of shade upon the ground.  Birds chirp at you from high above, and the occasional mosquito buzzes by your ear, but the forest is otherwise peaceful and silent save for the soft rustling of the wind. } {The Southern Road} {} {Forest} {} {1.000} {}
+R {  765} {0} {} {Along the Forest Path} {} {Great pines and elms tower over the road, blanketing it with a canopy of leaves and leaving a dappled pattern of shade upon the ground.  Birds chirp at you from high above, and the occasional mosquito buzzes by your ear, but the forest is otherwise peaceful and silent save for the soft rustling of the wind. } {The Northward Road} {} {Forest} {} {1.000} {}
 E {  764} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  766} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  766} {0} {} {Along the Forest Path} {} {Great pines and elms tower over the road, blanketing it with a canopy of leaves and leaving a dappled pattern of shade upon the ground.  Birds chirp at you from high above, and the occasional mosquito buzzes by your ear, but the forest is otherwise peaceful and silent save for the soft rustling of the wind. } {The Southern Road} {} {Forest} {} {1.000} {}
+R {  766} {0} {} {Along the Forest Path} {} {Great pines and elms tower over the road, blanketing it with a canopy of leaves and leaving a dappled pattern of shade upon the ground.  Birds chirp at you from high above, and the occasional mosquito buzzes by your ear, but the forest is otherwise peaceful and silent save for the soft rustling of the wind. } {The Northward Road} {} {Forest} {} {1.000} {}
 E {  765} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  767} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  767} {0} {} {Along the Forest Path} {} {Great pines and elms tower over the road, blanketing it with a canopy of leaves and leaving a dappled pattern of shade upon the ground.  Birds chirp at you from high above, and the occasional mosquito buzzes by your ear, but the forest is otherwise peaceful and silent save for the soft rustling of the wind. } {The Southern Road} {} {Forest} {} {1.000} {}
+R {  767} {0} {} {Along the Forest Path} {} {Great pines and elms tower over the road, blanketing it with a canopy of leaves and leaving a dappled pattern of shade upon the ground.  Birds chirp at you from high above, and the occasional mosquito buzzes by your ear, but the forest is otherwise peaceful and silent save for the soft rustling of the wind. } {The Northward Road} {} {Forest} {} {1.000} {}
 E {  766} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  768} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  768} {0} {} {Along the Forest Path} {} {Moist pine needles and brown, old leaves rustle as you step between the great trees they once adorned.  Dappled sunlight lightly touches the ground, providing just enough light for fungi and small shrubs to exist beneath their giant brothers.  The wind moves softly beneath the canopy, sighing a quiet song as it dances with the leaves of the forest's carpet. } {The Southern Road} {} {Forest} {} {1.000} {}
+R {  768} {0} {} {Along the Forest Path} {} {Moist pine needles and brown, old leaves rustle as you step between the great trees they once adorned.  Dappled sunlight lightly touches the ground, providing just enough light for fungi and small shrubs to exist beneath their giant brothers.  The wind moves softly beneath the canopy, sighing a quiet song as it dances with the leaves of the forest's carpet. } {The Northward Road} {} {Forest} {} {1.000} {}
 E {  767} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  769} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  769} {0} {} {Along the Forest Path} {} {Great pines and elms tower over the road, blanketing it with a canopy of leaves and leaving a dappled pattern of shade upon the ground.  Birds chirp at you from high above, and the occasional mosquito buzzes by your ear, but the forest is otherwise peaceful and silent save for the soft rustling of the wind. } {The Southern Road} {} {Forest} {} {1.000} {}
+R {  769} {0} {} {Along the Forest Path} {} {Great pines and elms tower over the road, blanketing it with a canopy of leaves and leaving a dappled pattern of shade upon the ground.  Birds chirp at you from high above, and the occasional mosquito buzzes by your ear, but the forest is otherwise peaceful and silent save for the soft rustling of the wind. } {The Northward Road} {} {Forest} {} {1.000} {}
 E {  768} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  770} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  770} {0} {} {Along the Forest Path} {} {Great pines and elms tower over the road, blanketing it with a canopy of leaves and leaving a dappled pattern of shade upon the ground.  Birds chirp at you from high above, and the occasional mosquito buzzes by your ear, but the forest is otherwise peaceful and silent save for the soft rustling of the wind. } {The Southern Road} {} {Forest} {} {1.000} {}
+R {  770} {0} {} {Along the Forest Path} {} {Great pines and elms tower over the road, blanketing it with a canopy of leaves and leaving a dappled pattern of shade upon the ground.  Birds chirp at you from high above, and the occasional mosquito buzzes by your ear, but the forest is otherwise peaceful and silent save for the soft rustling of the wind. } {The Northward Road} {} {Forest} {} {1.000} {}
 E {  769} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  771} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  771} {0} {} {Along the Forest Path} {} {Great pines and elms tower over the road, blanketing it with a canopy of leaves and leaving a dappled pattern of shade upon the ground.  Birds chirp at you from high above, and the occasional mosquito buzzes by your ear, but the forest is otherwise peaceful and silent save for the soft rustling of the wind. } {The Southern Road} {} {Forest} {} {1.000} {}
+R {  771} {0} {} {Along the Forest Path} {} {Great pines and elms tower over the road, blanketing it with a canopy of leaves and leaving a dappled pattern of shade upon the ground.  Birds chirp at you from high above, and the occasional mosquito buzzes by your ear, but the forest is otherwise peaceful and silent save for the soft rustling of the wind. } {The Northward Road} {} {Forest} {} {1.000} {}
 E {  770} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  772} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  774} {s} {s} {4} {0} {} {1.000} {} {0.00}
@@ -3442,7 +3443,7 @@ R {  773} {0} {} {} {} {} {} {} {Forest} {} {1.000} {}
 E {  772} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  774} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {  774} {0} {} {Along the Forest Path} {} {Great pines and elms tower over the road, blanketing it with a canopy of leaves and leaving a dappled pattern of shade upon the ground.  Birds chirp at you from high above, and the occasional mosquito buzzes by your ear, but the forest is otherwise peaceful and silent save for the soft rustling of the wind. } {The Southern Road} {} {Forest} {} {1.000} {}
+R {  774} {0} {} {Along the Forest Path} {} {Great pines and elms tower over the road, blanketing it with a canopy of leaves and leaving a dappled pattern of shade upon the ground.  Birds chirp at you from high above, and the occasional mosquito buzzes by your ear, but the forest is otherwise peaceful and silent save for the soft rustling of the wind. } {The Northward Road} {} {Forest} {} {1.000} {}
 E {  773} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  771} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  776} {w} {w} {8} {0} {} {1.000} {} {0.00}
@@ -3470,7 +3471,7 @@ R {  779} {0} {} {In the Newbie Ditch} {} {This shallow depression is littered w
 E {  778} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E { 2157} {d} {dig d;d} {32} {0} {} {1.000} {} {0.00}
 
-R {  780} {0} {} {Along the Forest Path} {} {The road has passed into a bright and open woodland.  Pine needles and last year's leaves cover the ground with a damp blanket from which spring many young plants and the occasional toadstool.  Small scuttling sounds can be heard deep in the underbrush as the forest's creatures take cover while you pass. } {The Southern Road} {} {Forest} {} {1.000} {}
+R {  780} {0} {} {Along the Forest Path} {} {The road has passed into a bright and open woodland.  Pine needles and last year's leaves cover the ground with a damp blanket from which spring many young plants and the occasional toadstool.  Small scuttling sounds can be heard deep in the underbrush as the forest's creatures take cover while you pass. } {The Northward Road} {} {Forest} {} {1.000} {}
 E {  774} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  781} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
@@ -5787,6 +5788,7 @@ E { 1336} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R { 1336} {0} {<ddd>} {A Dead End} {} {The crumbling passage from the east comes to a dead end here.  Footprints in the dusty floor lead up to the western wall, where a round portal is embedded into the rock.  It has hinges on the right side and opens towards you. } {Nevrast} {} {Inside} {} {1.000} {}
 E { 1335} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7921} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R { 1337} {0} {<ddd>} {Thieves' Den} {} {A large portion of the den here has been cleared of beds and furniture, and has been replaced by a short wooden platform.  The platform appears to be used for group activities such as demonstrations or entertainment for the guild. The den expands to the south and west, and a hallway can be seen exiting to the east. } {Nevrast} {} {Inside} {} {1.000} {}
 E { 1334} {w} {w} {8} {0} {} {1.000} {} {0.00}
@@ -6923,6 +6925,7 @@ E { 1603} {n} {n} {1} {0} {} {1.000} {} {0.00}
 R { 1603} {0} {} {An Old Mine} {} {The tunnel and rails stretch to the south and east.  From the south a light breeze can be felt every so often, filtering out some of the stale air.  To the west a faint light shows through where a tunnel once existed, now covered by debris from some sort of cave-in or attempt to seal off part of the mine. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
 E { 1602} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E { 1604} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 2156} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R { 1604} {0} {} {An Old Mine} {} {Large iron rails adorn the floor of the tunnel heading to the north and west.  Dust falls from the ceiling above, pelting anyone unfortunate enough to be caught beneath it.  The walls are rough and marred by chisel marks.  A single notch is carved into each wall, though it has been left empty. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
 E { 1603} {w} {w} {8} {0} {} {1.000} {} {0.00}
@@ -6997,7 +7000,7 @@ E { 1616} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E { 1652} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
 R { 1621} {0} {} {Gates of Orshingal} { } {You stand beneath the thick stone wall of Orshingal.  The portcullis has been lowered, however its metal grating has been rent asunder by some unimaginable force.  The town is eerily quiet beyond the now useless barrier. } {Orshingal} {} {City} {} {1.000} {}
-E { 2532} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 2532} {w} {w} {8} {1} {} {1.000} {} {0.00}
 E { 1623} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
 R { 1622} {0} {} {Makeshift Campsite} { } {Cleared out between two giant rows of thorny hedges, you find a makeshift campsite.  Matted leaves and old fabric make up a few sleeping areas and a stone ringed firepit sits at the center of the clearing.  Small trails lead to the north and south, each winding though a mass of dense underbrush that blocks your view.  The fire circle still has glowing embers, providing a warmth to the campsite. } {Unset} {} {Forest} {} {1.000} {}
@@ -9405,9 +9408,10 @@ R { 2155} {0} {} {An Abandoned Mine Tunnel} {} {The mine tunnel extends to the n
 E { 2154} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E { 2156} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R { 2156} {0} {} {An Abandoned Mine Tunnel} {} {The tunnel and rails stretch to the north and south.  To the south there is a faint glow in the distance along with the apparent source of the fetid air. The overhead beams occasionally creak from the strain, but still appear to be holding. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
+R { 2156} {0} {} {An Abandoned Mine Tunnel} {} {The mine tunnel extends to the north and south along with the iron rails. The air to the south smells as though it were buried in a tomb.  The wooden beams above are well worn from the strain of holding the ceiling, but still appear solid. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
 E { 2155} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E { 3130} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E { 1603} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
 R { 2157} {0} {} {Beneath the Newbie Ditch} {} {Dozens of bodies and partial bodies line the edges and bottom of this hole, many of them quite fresh.  The stench of death is thick in the air, making it hard to breathe.  Crushed and destroyed bits of newbie gear lie half buried among the corpses and mouldering earth, all of it useless. } {Newbie Cemetary} {} {Underground} {} {1.000} {}
 E {  779} {u} {dig u;u} {16} {0} {} {1.000} {} {0.00}
@@ -9422,19 +9426,19 @@ E {  778} {u} {dig u;u} {16} {0} {} {1.000} {} {0.00}
 
 R { 2160} {0} {} {An Ancient Toll Booth} {} {The path dips slightly outside a ruined toll booth, which must have once served to charge travelers on their journeys through the forest.  Now, a hundred years of neglect have left nothing but the walls of the place still standing.  The path it guards leads north and south. } {Enchanted Forest} {} {Forest} {} {1.000} {}
 E { 1780} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E { 2203} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 2161} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E { 2193} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R { 2161} {0} {} {An Ancient Toll Booth} {} {You are standing inside the crumbling walls of an ancient toll booth, put here to charge travelers for the use of the dark road that splits through the forest of Mirkwood.  But this place has stood abandoned for a long while, and is barely more than a heap of stones.  Above, the trees branches sway gently, for the roof has long since collapsed.  A path winds around the building to the east. } {Enchanted Forest} {} {Forest} {} {1.000} {}
-E { 2197} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E { 2199} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 2160} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 2162} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
 R { 2162} {0} {} {Forest Path} {} {Winding through the thick underbrush, travel along this path is slow.  To the east a collapsed building partially blocks.  To the east this meandering path continues.  Thick trees block passage to the north and south, the space between them packed with thick underbrush. } {Enchanted Forest} {} {Forest} {} {1.000} {}
-E { 2202} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E { 4035} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 2161} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 2163} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
 R { 2163} {0} {} {Turn in the Forest Path} {} {With dense stands of trees to the north and east the path turns south and west where at the base of a particularly large tree.  Straightening to the south the path heads towards a castle obscured slightly by the thick forest while also heading west to an abandoned building over taken by vines. } {Old Forest} {} {Forest} {} {1.000} {}
-E { 4033} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 2162} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E { 2164} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R { 2164} {0} {} {Forested Path before the Castle} {} {The trees on either side of this wide path are tall, thick, and dense with underbrush.  This north south path has been cut through the forest, as travel east and west is impossible, and kept clear by a large workforce.  To the south you see the walls of a castle, just beyond a drawbridge and dry moat. } {Castle Python} {} {Forest} {} {1.000} {}
@@ -9447,10 +9451,10 @@ E { 2166} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R { 2166} {0} {} {Outside Castle} {} {A huge dry moat lies directly to the south and across its breadth a drawbridge reaches to welcome people into its cofines.  A path leads north into the thick forest that hides this castle from the nearby city of Nevrast. Travel to the east and west is completely blocked by thick underbrush. } {Castle Python} {} {Field} {} {1.000} {}
 E { 2165} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E { 2167} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E { 2167} {s} {s} {4} {1} {} {1.000} {} {0.00}
 
 R { 2167} {0} {} {Gate House and Drawbridge} {} {This wide drawbridge has been lowered over a deep dry moat\; clearly meant to be flooded in times of defense.  A stone gate house sits at the southern end of the moat\; a place or guards to wait to greet visitors to the castle. } {Castle Python} {} {Field} {} {1.000} {}
-E { 2166} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 2166} {n} {n} {1} {1} {} {1.000} {} {0.00}
 E { 2168} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R { 2168} {0} {} {Courtyard} {} {The expanse of the courtyard spreads out in all directions.  To the north lies the gate house and drawbridge, while the courtyard itself  spreads out in all other directions.  At the edges of the courtyard, a bit away from the gate house, the buildings that make up the inner fortress. } {Castle Python} {} {Field} {} {1.000} {}
@@ -9573,17 +9577,9 @@ R { 2196} {0} {} {A Well-used Path in the Enchanted Forest} {} {The strange soun
 E { 2195} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E { 2198} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R { 2197} {4104} {} {} { } {} {NotYetSet} {} {Forest} {} {1.000} {}
-E { 2161} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E { 2203} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
 R { 2198} {0} {} {A Turn in the Path} {} {The path bends here and continues to the east.  The forest has become very silent.  But as you continue to go deeper into this wood you can see more and more strange but silent figures.  They move without making any sound.  The path still runs north. } {Enchanted Forest} {} {Forest} {} {1.000} {}
 E { 2196} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E { 2200} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R { 2199} {4104} {} {} { } {} {} {} {Forest} {} {1.000} {}
-E { 2202} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E { 2161} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R { 2200} {0} {} {A Turn in the Path} {} {You have arrived at another turn in the path.  You can still see some of the ghostly shapes.  They seem to talk to each other, but you can't hear anything they seem to be saying. } {Enchanted Forest} {} {Forest} {} {1.000} {}
 E { 2198} {w} {w} {8} {0} {} {1.000} {} {0.00}
@@ -9593,14 +9589,6 @@ R { 2201} {0} {} {An Intersection in the Enchanted Forest} {} {You are on a T-cr
 E { 2200} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E { 2206} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E { 2220} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R { 2202} {4104} {} {} { } {} {} {} {Forest} {} {1.000} {}
-E { 2162} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E { 2199} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R { 2203} {4104} {} {} { } {} {} {} {Forest} {} {1.000} {}
-E { 2197} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E { 2160} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R { 2204} {4104} {} {} { } {} {} {} {Field} {} {1.000} {}
 E {  958} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -10981,7 +10969,7 @@ E { 2532} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
 R { 2532} {0} {} {Outside the Gates of Orshingal} { } {The rocky land between the woods to the west and the walls of Orshingal to the east has been cleared for farming.  The fields lie empty of workers and loose livestock can be seen eating the vital crops.  A small but skillfully built stone bridge crosses a ravine in front of the town. } {Orshingal} {} {Field} {} {1.000} {}
 E { 2531} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E { 1621} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 1621} {e} {e} {2} {1} {} {1.000} {} {0.00}
 
 R { 2533} {0} {} {The Northern Road} {} {The Stoneforge Mountains are visible peeking from the northern horizon.  The peaks are visible, rising into the sky seemingly from the middle of the grassy plains.  The Eastern Mountains are visible as well, off in the distance.  The road is hard-packed dirt, marred by deep ruts.  The road runs northwards through open plains and fields while a ways to the south it passes a single dead tree towering over the plains.  To the west a small yet worn path cuts into the grass and heads into the fields away from the road. } {The Northern Road} {} {Field} {} {1.000} {}
 E { 2534} {w} {w} {8} {0} {} {1.000} {} {0.00}
@@ -11575,10 +11563,10 @@ E { 2675} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
 R { 2663} {0} {} {The Great Gate} {} {A pair of great double doors stand here, carved from living rock and flanked by the most delicate of stonework mosaics, announcing to any who would come this way that they have come to the Southern Delve of the Dwarf-Realm of King Kerrin.  On the doors themselves is engraved the seal of Kerrin's house, an Axe that seems to bloom from the earth itself. } {Kerrin} {} {Inside} {} {1.000} {}
 E { 2680} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E { 2664} {n} {open double;n} {1} {0} {} {1.000} {} {0.00}
+E { 2664} {n} {open double;n} {1} {1} {} {1.000} {} {0.00}
 
 R { 2664} {0} {} {The Grand Entry Hall} {} {The grand entry hall to King Kerrin's realm is a large, rectangular room, with a domed ceiling and flared, internal buttresses.  Along either wall are stone statues of Kerrin's ancestors in martial poses, their noble eyes measuring each individual who enters the kingdom.  Lighting is provided by small enchanted gems fitted into specially made sockets high up in the walls.    A pair of large, steel doors lead north, further into the realm; to the south is the Southern Delve. } {Kerrin} {} {Inside} {} {1.000} {}
-E { 2663} {s} {open double;s} {4} {0} {} {1.000} {} {0.00}
+E { 2663} {s} {open double;s} {4} {1} {} {1.000} {} {0.00}
 E { 2686} {n} {open steel;n} {1} {0} {} {1.000} {} {0.00}
 
 R { 2665} {0} {} {A Steep Mountain Path} {} {This path climbs steeply and dangerously up toward the eastern ridge of the mountain.  Loose rocks make climbing a slippery and somewhat unsure thing here, and occasionally a small pebble drops down toward you from above.    To the east and somewhat below you is the Southern Dwarven Road that leads back into civilized lands. } {Dwarven Road} {} {Mountains} {} {1.000} {}
@@ -11950,7 +11938,7 @@ E { 2890} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
 R { 2753} {0} {} {The North Road} {} {You are traveling along a steep stretch of north-south road.  Though the pavement is worn with age, the close fit of the stones suggest that great care was taken with its construction. } {Kerrin} {} {Mountains} {} {1.000} {}
 E { 2754} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E { 2757} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E { 2757} {s} {s} {4} {1} {} {1.000} {} {0.00}
 E { 5117} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
 R { 2754} {4104} {} {} { } {} {Kerrin} {} {Mountains} {} {1.000} {}
@@ -11976,7 +11964,7 @@ R { 2759} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E { 2758} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
 R { 2760} {0} {} {The Northern Delve} {} {A pair of great double doors stand here, carved from living rock and flanked by the most delicate of stonework mosaics, announcing to any who would come this way that they have come to the Northern Delve of the Dwarf-Realm of King Kerrin.    On the doors themselves is engraved the seal of Kerrin's house, an Axe that seems to blook from the earth itself. } {Kerrin} {} {Inside} {} {1.000} {}
-E { 2745} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 2745} {n} {n} {1} {1} {} {1.000} {} {0.00}
 E { 2743} {s} {open door;s} {4} {0} {} {1.000} {} {0.00}
 
 R { 2761} {0} {} {Gemlace Delve} {} {Many small dwarven homes are carved from the heartstone near this beautiful hallway.  The granite walls are laced with veins of sparkling quartz that the dwarves have subtly highlighted with their stonework.  Dwarven lamps hang from the ceilings, their light sparkling off of the golden runes etched onto each door. } {Kerrin} {} {Inside} {} {1.000} {}
@@ -12980,11 +12968,11 @@ E { 6074} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R { 2996} {0} {} {Outside Temple} {} {The most beautiful and majestic building in Little Kyoto, the Shinto monastery, lies to the south.  You can hear the chants of the priests counting beads emanating from within, an endless circle in search of the ultimate meaninglessness of life and death.  You can enter to the south, or you can continue along your way to the east and west. } {Little Kyoto} {} {Field} {} {1.000} {}
 E { 2995} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E { 2997} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E { 2997} {s} {s} {4} {1} {} {1.000} {} {0.00}
 E { 2998} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R { 2997} {0} {} {Entrance to Monastery} {} {You stand just inside the doorway of Little Kyoto's Shinto monastery, the only stone structure in town.  You can't help but to stop for a moment and admire the architecture\; there is a simple beauty in the long green moss that hangs from the pillars.  It seems so peaceful here.  You can continue south into the temple or you can go north to the dirt road. } {Little Kyoto} {} {Inside} {} {1.000} {}
-E { 2996} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 2996} {n} {n} {1} {1} {} {1.000} {} {0.00}
 E { 3016} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R { 2998} {0} {} {Outside Dojo} {} {You stand just outside the dojo of Yamaguchi Sensei, the greatest karate teacher in Little Kyoto.  There must be a class in progress\; the building shakes with the stomping of feet and the air is filled with the distant sounds of the students kiai.  The road continues west a short way and ends at the Shogun's Palace, or you can travel back east. } {Little Kyoto} {} {Field} {} {1.000} {}
@@ -13540,6 +13528,7 @@ E { 3131} {s} {s} {4} {0} {} {1.000} {} {0.00}
 R { 3131} {0} {} {The Top of the Lift} {} {The cavern here has a large hole in the center of the floor and a huge wood and iron frame on top of the hole, like a giant spider.  Attached to the frame is a winch with rather heavy cables leading into the pit below.  Whatever may lie below lies shrouded in shadows. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
 E { 3130} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E { 3132} {d} {d} {32} {0} {} {1.000} {} {0.00}
+E { 7926} {u} {u} {16} {1} {} {1.000} {} {0.00}
 
 R { 3132} {0} {} {At the Bottom of the Huge Winch} { } {Dust motes float about you as your every movement disturbs their rest. Above, you can make out the shape of the giant winch.  You barely suppress a shudder as you think how similar the winch looks to a giant spider minding its web.  This large round chamber has two caves extending away from it to the north and the south.  Dust lies thick over the ground, obscuring whatever may be on the ground here. } {Mac Mordain Cadal} {} {Underground} {} {1.000} {}
 E { 3131} {u} {u} {16} {0} {} {1.000} {} {0.00}
@@ -15568,7 +15557,6 @@ E { 2235} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E { 2234} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R { 3616} {0} {} {Crystal Lake} {} {Small swirls mix the dirt in the water into a grey-brown sludge.  The water is so dirty that mud collects around the base of the few weeds growing at its edges.  To the north a dark and mysterious wharf lurks, docks reaching into the water at this point.  A river exits the lake to the east and pulls the water at a significant pace. } {Unset} {} {Water} {} {1.000} {}
-E { 3999} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E { 3618} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E { 4000} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
@@ -17242,11 +17230,12 @@ E { 3993} {e} {open curtain;e} {2} {0} {} {1.000} {} {0.00}
 R { 3999} {0} {} {East Black Dock} {} {You are on the eastern side of the Black Dock.  West of you is the western half of the dock\; to the north of you is a black cobblestone path.  To the south runs the Crystal River. } {Crystal Lake} {} {City} {} {1.000} {}
 E { 3393} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E { 4002} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E { 3616} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E { 7947} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R { 4000} {0} {} {On the Crystal Lake} {} {You are on the Crystal Lake.  To your surprise, you can't see the bottom of the lake.  The water of the lake is remarkably calm, but still you can hear some strange sounds coming from all directions.  It is a strange thundering sound.  Far to the south you can see the southern shore but it is really far away.  To the north, a long black dock reaches out from a dark city beyond. } {Crystal Lake} {} {Water} {} {1.000} {}
 E { 3616} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E { 4004} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E { 7947} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R { 4001} {0} {} {West Black Dock} {} {You are on the western black dock of Lycanthropia.  The dock continues to the east.  North of here is a darkened street.  To the south the dock pokes out into the a crystal clear lake. } {Crystal Lake} {} {City} {} {1.000} {}
 E { 4002} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -17368,18 +17357,6 @@ E { 1778} {n} {n} {1} {0} {} {1.000} {} {0.00}
 R { 4031} {0} {<aca>} {The Amber Forest} {<aca>( *<088>} {A forest of tall, crimson trees that seem impervious to all attacks upon them.  The only way through are the paths you see before you.  The branches of the trees reach down like arms, as if to grab you from the earth. } {Amber Forest} {} {Forest} {} {1.000} {}
 
 R { 4032} {0} {<268>} {The Crystal Lake Shore} {<268>~ ~<088>} {You are standing at the southern shore of The Crystal Lake.  To the east and west the rocky shoreline extends as far as you can see and to the south a small path enters a large amber forest.  The lake itself is of crystal clear water. } {Amber Forest} {} {Shore} {} {1.000} {}
-
-R { 4033} {4104} {} {} { } {} {} {} {Forest} {} {1.000} {}
-E { 2163} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E { 4034} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R { 4034} {4104} {} {} { } {} {} {} {Forest} {} {1.000} {}
-E { 4033} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E { 4035} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R { 4035} {4104} {} {} { } {} {} {} {Forest} {} {1.000} {}
-E { 4034} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E { 2162} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R { 4036} {0} {} {The Amber Forest} {} {A forest of tall, crimson trees that seem impervious to all attacks upon them.  The only way through are the paths you see before you.  The branches of the trees reach down like arms, as if to grab you from the earth. } {Amber Forest} {} {Forest} {} {1.000} {}
 E { 4015} {n} {n} {1} {0} {} {1.000} {} {0.00}
@@ -18088,6 +18065,7 @@ E { 4250} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R { 4207} {0} {} {The Portal} {<fba>P} {The tunnel leads out into a huge cavern.  In the far southern wall is a door.  It is glowing and a mist is swirling around inside of it.  You first seem to think it's a moongate, but why are there guards here?  Why are they looking at you and the portal funny?  The commander tells you, "Don't enter the Portal, none have returned.  Do as you wish, but we won't stop you." } {Unset} {} {Underground} {} {1.000} {}
 E { 4092} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 7927} {d} {d} {32} {0} {} {1.000} {} {0.00}
 
 R { 4208} {0} {} {Common Room of the Minotaur Temple} {} {Comfortable chairs and benches are scattered throughout this room, similar in size to the refectory.  A large stone hearth at the end of the room is protected by a brass fire screen, and covered with scattered hooks holding implements for mulling wine and toasting bread.  A curving staircase leads up, a large yard can be seen through an entry to the east, and the dining room is to the west. } {Minotaur Temple} {} {Inside} {} {1.000} {}
 E { 4105} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -20177,17 +20155,17 @@ E { 4737} {e} {e} {2} {1} {} {1.000} {} {0.00}
 R { 4706} {0} {} {The Hall of Shadows} {} {Faintly glowing runes and pictographs are etched into every inch of the walls in this tall, domed hall.  The pictographs depict a multitude of  scenes\; torture, violent injury, and madness all appear to be recurring  themes.    The south wall is dominated by a massive silver door, whose bright surface dances with tendrils of malevolent, reddish power.  Emblazoned at the center  of the door is a lidless red eye, its catlike pupil moving back and forth,  searching the hallway with its unearthly, piercing glare.  Opposite the  silver door, a much plainer set of double doors blocks the way north. } {Raven's Bluff Sewers} {} {Inside} {} {1.000} {}
 E { 1933} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R { 4707} {0} {} {Lost in the Woods} {} {The trees here look just like all the other grey-green trees you have encountered in this forest so far:  gnarled trunks, twisted branches, long hanging moss.  The paths lead off in various directions.  To the north you think you may hear faint noises.  The western path leads into a very familiar looking part of the forest. } {Old Forest} {} {Forest} {} {1.000} {}
+R { 4707} {0} {} {Lost in the Woods} {} {The trees here look just like all the other grey-green trees you have encountered in this forest so far:  gnarled trunks, twisted branches, long hanging moss.  The paths lead off in various directions.  To the north you think you may hear faint noises.  The western path leads into a very familiar looking part of the forest. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  565} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E { 4708} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  671} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R { 4708} {0} {} {Lost in the Woods} {} {The path keeps running north and branches off to the west.  You can not help but think that you saw the path northward straighten and become wider.  Even though the northward trail is much more inviting, you still have a feeling of dread about that direction.  The trail north is lined with large trees with low hanging branches. } {Old Forest} {} {Forest} {} {1.000} {}
+R { 4708} {0} {} {Lost in the Woods} {} {The path keeps running north and branches off to the west.  You can not help but think that you saw the path northward straighten and become wider.  Even though the northward trail is much more inviting, you still have a feeling of dread about that direction.  The trail north is lined with large trees with low hanging branches. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  564} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E { 4707} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  670} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R { 4709} {0} {} {Northern part of the Forest} {} {You are beginning to regain some of your direction sense.  You believe you are in a northern part of the Old Forest.  The trees here are thick but seem to be much younger than the ones you were encountering before. There is a great thicket to the north.  However, there does not seem much choice of direction from here.  The only obvious way to go is back south. } {Old Forest} {} {Forest} {} {1.000} {}
+R { 4709} {0} {} {Northern part of the Forest} {} {You are beginning to regain some of your direction sense.  You believe you are in a northern part of the Old Forest.  The trees here are thick but seem to be much younger than the ones you were encountering before. There is a great thicket to the north.  However, there does not seem much choice of direction from here.  The only obvious way to go is back south. } {Trader's Outpost} {} {Forest} {} {1.000} {}
 E {  671} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R { 4710} {0} {<aca>} {Alas, you cannot go that way.} {Trp} {} {Old Forest} {} {} {} {1.000} {}
@@ -23073,11 +23051,11 @@ E { 5414} {n} {unlock iron;open iron;n} {1} {0} {} {1.000} {} {0.00}
 
 R { 5388} {0} {} {Grave Mistake} {} {It seems this grave was dug however its intended occupant was never placed within.  The lose dirt within the hole suggests it was only recently filled back in with little care as to how well packed that was. } {Orshingal} {} {Underground} {} {1.000} {}
 E { 4368} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E { 5389} {d} {d} {32} {0} {} {1.000} {} {0.00}
+E { 5389} {d} {d} {32} {1} {} {1.000} {} {0.00}
 E { 7503} {u} {u} {16} {0} {} {1.000} {} {0.00}
 
 R { 5389} {0} {} {Stairwell to Upper Level} {} {A large shaft has been into the rock here, stairs carved expertly, head up onto the ground level of the fortress..  A large iron chandelier hangs from far above, shining light into the stairwell.  To the east the stairwell opens up into a large hewn chamber.  The solid rock of this shaft is marbled with veins of granite, a few of which almost sparkle with illumination. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 5388} {u} {u} {16} {0} {} {1.000} {} {0.00}
+E { 5388} {u} {u} {16} {1} {} {1.000} {} {0.00}
 E { 5390} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
 R { 5390} {0} {} {Large Hewn Chamber} {} {This large chamber with smooth hewn walls and high ceiling  is lit by several smoky torches.  Several benches and tables are pushed up against the walls forming areas for gathering.  To the east a large wooden door is framed in the rock wall and to the north and south tunnels have been cut into the rock. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
@@ -26002,7 +25980,7 @@ E { 5826} {e} {e} {2} {0} {} {1.000} {} {0.00}
 R { 6073} {0} {} {The Holding Chamber} { } {The room appears to be used as a preparation room for some sort of arcane rituals. Runic symbols are scratched in blood over all the walls, and small cages line the walls.  In one of the cages lies the amputated form of a once living victim.  Whoever lives here must use some sort of barbaric sacrifices to condone some of the horrors you see here. } {Fireant Complex} {} {Underground} {} {1.000} {}
 E { 5824} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
-R { 6074} {1026} {} {Forest Path} { } {A quaint little path through a beautiful forest of light green.  You can hear the birds singing in the breeze, and somewhere in the distance you hear the sound of rushing water.  The path continues south into the Minakami Woods and north to Little Kyoto. } {Little Kyoto} {} {Forest} {} {1.000} {}
+R { 6074} {1024} {} {Forest Path} { } {A quaint little path through a beautiful forest of light green.  You can hear the birds singing in the breeze, and somewhere in the distance you hear the sound of rushing water.  The path continues south into the Minakami Woods and north to Little Kyoto. } {Little Kyoto} {} {Forest} {} {1.000} {}
 E { 2995} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E { 6075} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
@@ -26546,12 +26524,13 @@ R { 6206} {0} {} {A Green Glowing Tunnel} { } {A green glow, barely bright enoug
 E { 6205} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E { 6207} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
-R { 6207} {0} {} {A Twisting Tunnel} { } {The floor of this tunnel slopes steadily downward to the south, while to the west a greenish glow shines down upon the area. The walls are very rough, with few tool marks, as if this were a mostly natural passage. } {Nevrast} {} {Underground} {} {1.000} {}
+R { 6207} {0} {} {A Twisting Tunnel} { } {The floor of this tunnel slopes steadily downward to the south, while to the west a greenish glow shines down upon the area. The walls are very rough, with few tool marks, as if this were a mostly natural passage. } {NotYetSet} {} {Underground} {} {1.000} {}
 E { 6206} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E { 6208} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 6208} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R { 6208} {0} {} {A Twisting Tunnel} { } {The floor of this tunnel slopes steadily downward to the south, while to the west a greenish glow shines down upon the area. The walls are very rough, with few tool marks, as if this were a mostly natural passage. } {Nevrast} {} {Underground} {} {1.000} {}
-E { 6207} {s} {s} {4} {0} {} {1.000} {} {0.00}
+R { 6208} {0} {} {A Twisting Tunnel} { } {The tunnel twists and turns slightly here, but continues running basically north and south, sloping upward to the north.  A strange reek fills the air, somewhat familiar. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 6207} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 7878} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R { 6209} {0} {} {Eternal Passageway} { } {This is one of the many rooms in the Eternal Passageway, twisting tunnels lead off in every direction. } {Little Kyoto} {} {Inside} {} {1.000} {}
 E { 6086} {n} {n} {1} {0} {} {1.000} {} {0.00}
@@ -26793,7 +26772,7 @@ E { 3600} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E { 6286} {d} {open boulder;d} {32} {0} {} {1.000} {} {0.00}
 
 R { 6269} {0} {} {Under the Silver River's Northern Bank} { } {A circular pit, lined with stone and a hard packed floor, is cut into the rocky bank of the river here.  Large boulders, balanced and weighted to easily swing over this pit provide an enclosure above.  To the south a half submerged tunnel traverses under the Silver River. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
-E { 6268} {u} {open boulder u;u} {16} {0} {} {1.000} {} {0.00}
+E { 6268} {u} {open boulder u;u} {16} {1} {} {1.000} {} {0.00}
 E { 6270} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R { 6270} {0} {} {Beneath the Silver River} { } {This half submerged tunnel runs directly under the Silver River.  Water drips constantly from above but finds enough porus ground below to only fill the tunnel up half way.  To the north it climbs up and under the northern bank and to the south it dead ends at the back side of a well balanced boulder, part of the fortress's foundation. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
@@ -26802,7 +26781,7 @@ E { 6276} {s} {open boulder;s} {4} {0} {} {1.000} {} {0.00}
 
 R { 6271} {0} {} {Secret Stairwell} { } {This small shaft cut into the ground has a steep staircase within its confines.  A single torch is mounted on the back wall, but it is extinguished, leaving the room dark.  There is a small opening to the north which appears to be blocked by a stack of large boxes beyond. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 4387} {n} {open boxes;n} {1} {0} {} {1.000} {} {0.00}
-E { 6276} {d} {d} {32} {0} {} {1.000} {} {0.00}
+E { 6276} {d} {d} {32} {1} {} {1.000} {} {0.00}
 
 R { 6272} {0} {} {Rubble Filled Hallway} { } {The hallway here is starting to get cluttered with rubble.  You also notice that to the east the hallway starts to become a natural underground cave. There is a small variation in the rock wall to the south which seems out of place.    There's more here than meets the eye. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 5405} {s} {open panel;s} {4} {0} {} {1.000} {} {0.00}
@@ -26822,7 +26801,7 @@ E { 6276} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
 R { 6276} {0} {} {Secret Shaft} { } {Hewn into the foundation of the fortress above, this shaft leads upwards into a secret chamber within.  Solid stone walls, of large stacked boulders, form the foundation of the walls above.  To the south the tunnel meanders its way under the fortress.    There's more here than meets the eye. } {Hill Giant Fortress} {} {Inside} {} {1.000} {}
 E { 6275} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E { 6271} {u} {u} {16} {0} {} {1.000} {} {0.00}
+E { 6271} {u} {u} {16} {1} {} {1.000} {} {0.00}
 E { 6270} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
 R { 6277} {0} {} {} { } {} {} {} {} {} {1.000} {}
@@ -31842,13 +31821,14 @@ R { 7481} {0} {} {A Meandering Trail} { } {Sounds of activity can be heard to th
 E { 7480} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E { 7482} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R { 7482} {0} {} {Meandering Trail} { } {The towering trees of the Druidic Grove lie directly to the south of this open high-grassed field.  The trail that meanders through the grasses heads west and north from here.  The Barrow Downs, and their rolling tops, lie in view towards the west. } {The Northern Road} {} {Field} {} {1.000} {}
+R { 7482} {0} {} {Meandering Trail} { } {The towering trees of the Druidic Grove lie directly to the south of this open high-grassed field.  The trail that meanders through the grasses heads west and north from here.  The Barrow Downs, and their rolling tops, lie in view towards the west. } {NotYetSet} {} {Field} {} {1.000} {}
 E { 7481} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E { 7483} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R { 7483} {0} {} {} { } {} {} {} {Field} {} {1.000} {}
+R { 7483} {0} {} {Meandering Trail through High-Grassed} { } {Fields    This narrow meandering trail heads straight west towards the Barrow Downs, that can be seen against the horizon, and east into vast fields of flowers and waist high grass.  The Druidic Grove boarders to the south and a small secluded cabin's facade is just visible though the trees that make up the grove. } {NotYetSet} {} {Field} {} {1.000} {}
 E { 7482} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E { 7489} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 7922} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R { 7484} {0} {} {Hole in the Wall} { } {This room within the city wall served as a guard post.  Weapon racks have                 been torn from the walls and armor stands broken and scattered, all showing                  stains of what is likely blood.  A few shredded pieces of leather armor and                  bent blades are mixed in with the debris, but nothing usable. } {Orshingal} {} {Inside} {} {1.000} {}
 E { 3150} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -31883,6 +31863,7 @@ E { 7490} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R { 7492} {0} {} {The Northern Road} { } {Ruts line this hard-packed earthen road.  The road leads north and south through open fields and meadows on either side.  East of here the edge of a mountain range is visible in the distance.  The Stoneforge Mountains lie directly north\; to the northeast is a forest, its tree-tops appearing to rise up out of the plains as it climbs the mountains' foothills. } {The Northern Road} {} {Hills} {} {1.000} {}
 E { 2524} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 7923} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
 R { 7493} {0} {} {Courtyard of the Gods} { } {The crystal path curves north and west around the temple.  Flowering plants of astounding beauty surround a beautiful archway to the south, which glows a pale pink.  To the east a pair of living trees twine together to form another archway.  Tiny insects buzz about, hidden within the surrounding bushes. } {Graecia} {} {Inside} {} {1.000} {}
 E { 5445} {w} {w} {8} {0} {} {1.000} {} {0.00}
@@ -32843,7 +32824,7 @@ E { 7713} {e} {e} {2} {0} {} {1.000} {} {0.00}
 R { 7713} {0} {} {} { } {A dwarven spirit captain glides north.  H:1219/1219 M:189/189 V:634/634 XP:10627071 C:*> Intersection    You are standing in an intersection which has doorways to the north, south, and east.  A wide stone passageway also exits this room to the west. } {Seven Heavens} {} {Underground} {} {1.000} {}
 E { 7712} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E { 7714} {n} {open door north;n} {1} {0} {} {1.000} {} {0.00}
-E { 7759} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7759} {e} {unlock door east;open door east;e} {2} {0} {} {1.000} {} {0.00}
 E { 7760} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R { 7714} {0} {} {Guard Post} { } {You have entered a small stone room which has many tables and chair strewn about. Racks of weapons and armor line the wall and several kegs of alcoholic brew have been stacked in the corners. } {Seven Heavens} {} {Underground} {} {1.000} {}
@@ -33029,7 +33010,7 @@ E { 7757} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E { 7706} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R { 7759} {0} {} {Storage Room} { } {You have entered a small stone storage room.  Various nonperishable foodstuffs and many kegs of ale are piled neatly around this room, and a door exits to the west." } {Seven Heavens} {} {Underground} {} {1.000} {}
-E { 7713} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 7713} {w} {unlock door west;open door west;w} {8} {0} {} {1.000} {} {0.00}
 
 R { 7760} {0} {} {Closet} { } {You have entered a small closet deep within the dwarven fortress of Thakkar. Shelves lined with various types of cleaning and mining equipment are on the walls, and a small wooden doorway exits to the north. } {Seven Heavens} {} {Underground} {} {1.000} {}
 E { 7713} {n} {n} {1} {0} {} {1.000} {} {0.00}
@@ -33480,3 +33461,308 @@ E { 7871} {u} {unlock trapdoor;open trapdoor;u} {16} {0} {} {1.000} {} {0.00}
 
 R { 7873} {0} {} {} {Rav} {} {} {} {} {} {1.000} {}
 E { 5605} {e} {e} {2} {0} {} {1.000} {} {0.00}
+
+R { 7874} {0} {} {Inside a Hollow Branch} { } {The inside of the branch is very neat and tidy, especially for being a monkey's home.  Several paintings of young and old monkeys adorn the walls. The only real pieces of furniture in the room are a dresser, a not so large bed, and a sack of sand hanging from the roof. } {Trader's Outpost} {} {Inside} {} {1.000} {}
+E {  709} {n} {n} {1} {0} {} {1.000} {} {0.00}
+
+R { 7875} {0} {} {Alas, you cannot go that way.} { } {} {NotYetSet} {} {} {} {1.000} {}
+E { 7878} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 7876} {d} {d} {32} {0} {} {1.000} {} {0.00}
+
+R { 7876} {0} {} {} { } {} {NotYetSet} {} {} {} {1.000} {}
+E { 7875} {u} {u} {16} {0} {} {1.000} {} {0.00}
+E { 6208} {n} {n} {1} {1} {} {1.000} {} {0.00}
+E { 7877} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R { 7877} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances.  The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them.  The tunnel floor has been worn smooth by the passage of many feet. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7879} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 7890} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R { 7878} {4104} {} {} { } {} {} {} {} {} {1.000} {}
+E { 7875} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E { 6208} {n} {n} {1} {0} {} {1.000} {} {0.00}
+
+R { 7879} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances.  The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them.  The tunnel floor has been worn smooth by the passage of many feet. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7877} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E { 7880} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R { 7880} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances.  The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them.  The tunnel floor has been worn smooth by the passage of many feet. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7879} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7881} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 7890} {s} {s} {4} {0} {} {1.000} {} {0.00}
+
+R { 7881} {0} {} {Many Tunnels} { } {Water, filled with disgusting obviously non-water things, rushes westward along the floor here. A large pipe has been afixed to the northern wall, near the ceiling, running the length of the passage in either direction. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7880} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E { 7882} {n} {n} {1} {0} {} {1.000} {} {0.00}
+
+R { 7882} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances.  The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them.  The tunnel floor has been worn smooth by the passage of many feet. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7881} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E { 7883} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R { 7883} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances.  The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them.  The tunnel floor has been worn smooth by the passage of many feet. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7882} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7884} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R { 7884} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances.  The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them.  The tunnel floor has been worn smooth by the passage of many feet. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7883} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7885} {s} {s} {4} {0} {} {1.000} {} {0.00}
+
+R { 7885} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances.  The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them.  The tunnel floor has been worn smooth by the passage of many feet. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7884} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 7886} {s} {s} {4} {0} {} {1.000} {} {0.00}
+
+R { 7886} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances.  The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them.  The tunnel floor has been worn smooth by the passage of many feet. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7885} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 7887} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 7888} {s} {s} {4} {0} {} {1.000} {} {0.00}
+
+R { 7887} {0} {} {Caves of the Troglodytes} { } {You seem to have stumbled upon an outpost of troglodytes that live in this region.  In fact, from the sounds and glimpses of movement you see to the west, you might have stumbled upon a troglodyte settlement.  There are several large troglodytes here that will be glad to show you around.  Well, they might be willing to at least carry bits of you around, after they're done taking you apart. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7886} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7911} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R { 7888} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances. The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them. The tunnel floor has been worn smooth by the passage of many feet. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7886} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 7889} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7894} {s} {s} {4} {0} {} {1.000} {} {0.00}
+
+R { 7889} {0} {} {Caves of the Troglodytes} { } {This cave is really nothing more than a slightly larger tunnel than most, but it serves as an outpost for several troglodyte watchmen, who don't seem to think much of your visit. They don't like your light very much. In fact, from their behavior you might even think they don't like you! } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7888} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 7890} {e} {e} {2} {0} {} {1.000} {} {0.00}
+
+R { 7890} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances.  The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them.  The tunnel floor has been worn smooth by the passage of many feet. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7889} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 7877} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7880} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 7891} {s} {s} {4} {0} {} {1.000} {} {0.00}
+
+R { 7891} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances. The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them. The tunnel floor has been worn smooth by the passage of many feet. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7890} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 7892} {e} {e} {2} {0} {} {1.000} {} {0.00}
+
+R { 7892} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances. The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them. The tunnel floor has been worn smooth by the passage of many feet. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7891} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 7893} {e} {e} {2} {0} {} {1.000} {} {0.00}
+
+R { 7893} {0} {} {Spider Cave} { } {This might have been a troglodyte cave at one time, but it is currently inhabited by a couple of really hungry looking cave spiders. It's hard to read their expressions, but they seem to be looking at you in a manner that implies you are going to be lunch. You notice a lot of broken bones on the floor here, and there are some partially drained troglodyte corpses up in the webbing that is suspended from the ceiling. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7892} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R { 7894} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances. The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them. The tunnel floor has been worn smooth by the passage of many feet. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7888} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 7895} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E { 7902} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R { 7895} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances. The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them. The tunnel floor has been worn smooth by the passage of many feet. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7894} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 7896} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R { 7896} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances. The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them. The tunnel floor has been worn smooth by the passage of many feet. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7895} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7897} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E { 7902} {n} {n} {1} {0} {} {1.000} {} {0.00}
+
+R { 7897} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances. The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them. The tunnel floor has been worn smooth by the passage of many feet. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7896} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 7898} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R { 7898} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances. The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them. The tunnel floor has been worn smooth by the passage of many feet. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7897} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7899} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R { 7899} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances. The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them. The tunnel floor has been worn smooth by the passage of many feet. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7898} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7900} {s} {s} {4} {0} {} {1.000} {} {0.00}
+
+R { 7900} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances. The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them. The tunnel floor has been worn smooth by the passage of many feet. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7899} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 7901} {s} {s} {4} {0} {} {1.000} {} {0.00}
+
+R { 7901} {0} {} {Caves of the Troglodytes} { } {You have entered a small, smelly cave. There are bits of junk scattered about the dirty floor, personal things of the cave's occupant - a large and particularly evil looking troglodyte. The conditions he is living in are pitiful, and you turn your nose in disgust at the remains of a rotted tunnel rat that he discards as you enter. Looks like he's found a more appetizing meal. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7900} {n} {n} {1} {0} {} {1.000} {} {0.00}
+
+R { 7902} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances.  The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them.  The tunnel floor has been worn smooth by the passage of many feet. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7894} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7896} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E { 7903} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R { 7903} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances.  The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them.  The tunnel floor has been worn smooth by the passage of many feet. } {Troglodyte Caves} {} {Underground} {} {1.000} {}
+E { 7902} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7904} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 7917} {n} {n} {1} {0} {} {1.000} {} {0.00}
+
+R { 7904} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances.  The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them.  The tunnel floor has been worn smooth by the passage of many feet. } {Troglodyte Caves} {} {Underground} {} {1.000} {}
+E { 7903} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7905} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R { 7905} {0} {} {Caves of the Troglodytes} { } {This is the entrance of a large cave, that extends to the west and then branches out further to the north.  It is likely that you have found the beginning of the main troglodyte community, as they are quite numerous here. From their reaction to you, you'd think they are of the opinion you are invading their privacy or something.  There are two exits - east back into the tunnels, and west, deeper into the caves. } {Troglodyte Caves} {} {Underground} {} {1.000} {}
+E { 7904} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7906} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R { 7906} {0} {} {Caves of the Troglodytes} { } {You are in the southeasternmost arc of a large cave shaped approximately like a torus, with an extremely large column in the center of the cavern.  The diameter of the column, you estimate, is probably about two-thirds of that of the cave itself.  It makes for a very strange tunnel-like effect, but it looks natural though you have no idea what force of nature might have caused it. This is where the troglodytes hone their weapons and repair their armor.  From the looks of things, it appears as if it's a skill they've been working on for some time\; though their tools are limited their armor and weapons are in excellent shape.  Maybe the Repair Guy had some troglodyte blood, who knows? As you enter the cave, the many troglodytes working in here eye your armor and weapons appreciatively. } {Troglodyte Caves} {} {Underground} {} {1.000} {}
+E { 7905} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7907} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 7915} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R { 7907} {0} {} {Caves of the Troglodytes} { } {This is the northeastern cave of a linked set of four caves, which could also be characterized as a single cave with an awfully big column in the center.  From what you can tell, the cave is shaped more or less like a torus. In this section of the cave, female troglodytes are working on extracting those vital vitamins and minerals from recent kills, by crushing the bones into a powder which gets mixed into an occasional meal.  There are a couple of young troglodytes running around here, annoying those working.  All this activity ceases when you enter, and they turn to the task of defending their home.  In addition to the exits along the cave to the west and south, there is also a passage leading north. } {Troglodyte Caves} {} {Underground} {} {1.000} {}
+E { 7906} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E { 7908} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 7918} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R { 7908} {0} {} {Caves of the Troglodytes} { } {This cave appears to the nursery.  Normally, the troglodyte young and their guardians are here, playing games and learning new skills.  The cave is entirely unlit normally, and the presence of your light source appears to be the brightest thing some of the little troglodytes have ever seen.  Again, it strikes you that you might be trespassing.  There is a larger cave off to the south, and there are also caverns to the north and east. } {Troglodyte Caves} {} {Underground} {} {1.000} {}
+E { 7907} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E { 7909} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7914} {n} {n} {1} {0} {} {1.000} {} {0.00}
+
+R { 7909} {0} {} {Caves of the Troglodytes} { } {This is a smaller cave than any of the others in this area.  It appears to be a hidden twin stronghold to the one directly east of here, from which the cave you are currently in is not clearly visible.  Ordinarily, this position would be occupied by troglodytes watching over the other strong-point to the east, preparing to reinforce them in case of any trouble. } {Troglodyte Caves} {} {Underground} {} {1.000} {}
+E { 7908} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 7910} {e} {e} {2} {0} {} {1.000} {} {0.00}
+
+R { 7910} {0} {} {Caves of the Troglodytes} { } {It's yet another troglodyte stronghold.  From the density of these things, you'd have to think the troglodyte people were constantly under attack.  Who each to the north, south, and east.  There is a funny, slightly unpleasant smell coming from the north. } {Troglodyte Caves} {} {Underground} {} {1.000} {}
+E { 7909} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 7911} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7913} {n} {n} {1} {0} {} {1.000} {} {0.00}
+
+R { 7911} {0} {} {Caves of the Troglodytes} { } {This cave is apparently home to a bunch of real slobs.  Not surprisingly, it is adolescent troglodytes that live here.  There are pieces of broken bone and little bits of metal and glass scattered about the floor, as well as the ""valuables"" of the cave's residents.  You can hear the sounds of metal hitting metal coming from the north, and there are also exits to the west and east. } {Troglodyte Caves} {} {Underground} {} {1.000} {}
+E { 7910} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 7887} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7912} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 7917} {s} {s} {4} {0} {} {1.000} {} {0.00}
+
+R { 7912} {0} {} {Caves of the Troglodytes} { } {This cave is clearly a practice area for young troglodytes to hone their skills of maiming and killing.  The cave wall is an impressive dark brown - dried blood from the less successful of those tutored here.  Apparently they play-fight awfully rough.  The broken weapons and scraps of armor lying about } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7911} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E { 7913} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R { 7913} {0} {} {Caves of the Troglodytes} { } {You can smell some delicious tunnel rat stewing here, a cave that is quite apparently the cooking area for the troglodytes living around here.  There are a few pots and pans here, though they are barely recognizable as such.  The small fire under the pot from which that yummy rat smell is being emitted is barely enough to see by, but you can see some troglodyte matrons slaving over the cookery.  They seem to think you'd make a nice addition to the meal they're preparing.  There is an exit to the south, and you hear what might be the clatter of weapons coming from the east. } {NotYetSet} {} {Underground} {} {1.000} {}
+E { 7912} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7910} {s} {s} {4} {0} {} {1.000} {} {0.00}
+
+R { 7914} {0} {} {Caves of the Troglodytes} { } {You are in the female troglodytes sleeping quarters - as nice a place as you think you've ever seen, for a cave.  It looks like the place has been cleaned with a toothbrush - even the dirt on the cave floor looks clean.  The rocks are shiny and sparkle at you, hinting at worth in their glittering cleanliness, even though you know they are without value.  There are ordinarily several female troglodytes here, in serious discussion. } {Troglodyte Caves} {} {Underground} {} {1.000} {}
+E { 7908} {s} {s} {4} {0} {} {1.000} {} {0.00}
+
+R { 7915} {0} {} {Caves of the Troglodytes} { } {The cave you are in resembles a tunnel more than anything, and might be labeled as such if it weren't so wide.  In fact, you are in a wide cavern with an extremely large column of natural stone in the middle, which blocks the view of the other side of the cavern from your current position.  This part of the cave is a practice area for adult troglodytes, as there are scraps of metal and wood scattered about the floor in silent testimony to past rites of supremacy. } {Troglodyte Caves} {} {Underground} {} {1.000} {}
+E { 7906} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7916} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E { 7918} {n} {n} {1} {0} {} {1.000} {} {0.00}
+
+R { 7916} {0} {} {Cave of the Troglodytes} { } {You are in a wide cavern with an extremely large column of natural stone in the middle, which blocks the view of the other side of the cavern from your current position.  This part of the cave is a practice area for adult troglodytes, as there are scraps of metal and wood scattered about the floor in silent testimony to past rites of supremacy. } {Troglodyte Caves} {} {Underground} {} {1.000} {}
+E { 7915} {n} {n} {1} {0} {} {1.000} {} {0.00}
+
+R { 7917} {0} {} {Many Tunnels} { } {This is a twisty underground tunnel with many exits and entrances.  The ground is more or less even, but the passage walls are so similar in kind that it is impossible to differentiate one passage from another by them.  There are exits leading in all four compass directions.  The tunnel floor has been worn smooth by the passage of many feet. } {Troglodyte Caves} {} {Underground} {} {1.000} {}
+E { 7903} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E { 7911} {n} {n} {1} {0} {} {1.000} {} {0.00}
+
+R { 7918} {0} {} {Caves of the Troglodytes} { } {You are now in the northwest arc of a large, torus shaped cave.  This is likely the place where the soldiers work out their strategy and formations, as you can see a bunch of rocks set on a stone ""table"" (really just a large, flat rock), ostensibly the staging grounds for mock battles and strategic plots by troglodytes here for many a year, given how smooth the top has now been worn. There are also several crude drawings on the wall, though what they are of, it is hard to say for sure.  The cave continues to the south and east, and there is also a large cave to the north. } {Troglodyte Caves} {} {Underground} {} {1.000} {}
+E { 7915} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E { 7907} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 7919} {n} {n} {1} {0} {} {1.000} {} {0.00}
+
+R { 7919} {0} {} {Caves of the Troglodytes} { } {This is the chief's "private" cave.  Apparently being the leader of these people has some privileges, at least.  The caves furnishings are only slightly more ornate here than anywhere else, though, so apparently the job isn't exactly loaded with perks.  The chief is here, talking with his top fighters about prospects of battle.  They turn to you, knowing now the battle they had been anticipating is already upon them.  There is an exit to the south. } {Troglodyte Caves} {} {Underground} {} {1.000} {}
+E { 7918} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E { 7920} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R { 7920} {0} {} {Caves of the Troglodytes} { } {This cave is apparently the place where the troglodyte chief receives his guests.  There is a large case filled with trophies from past victories of the troglodyte clan.  Among the trophies, you spot a battered Golden Shield, the skull of a cave fisher, with some dents and a big hole just over the right eye, a small crystal sphere, and dull grey helmet with a plume that was once probably white.  The mementos here range from the unexpected to the astounding. You are impressed by the ability of such a seemingly limited people to have defeated such a large and varied set of opponents.  You can exit east. } {Troglodyte Caves} {} {Underground} {} {1.000} {}
+E { 7919} {e} {e} {2} {0} {} {1.000} {} {0.00}
+
+R { 7921} {0} {} {An Empty Crypt} { } {Stone coffins line both the north and south walls of this crypt with a small shrine to the family on the eastern wall.  All of the coffins are open and empty.  Dust has collected in this crypt, but you notice fresh footprints tracking about.  The ceiling tiles overhead are set in rows, but there is a curious ceiling tile that appears to be slightly misaligned from the others. } {Nevrast} {} {Underground} {} {1.000} {}
+E { 1336} {e} {e} {2} {0} {} {1.000} {} {0.00}
+
+R { 7922} {0} {} {Secluded Cabin} { } {The log walls of this cabin have some holes in the chinking in a few places and the rough sawn wood plank floor has lots of wear and tear on its surface. A single window in the southern wall looks into the  forest of the Druidic Grove and a stone fireplace and chimney sit against the western wall.  A thick wooden slab door leads north out of the cabin. } {NotYetSet} {} {Inside} {} {1.000} {}
+E { 7483} {n} {n} {1} {0} {} {1.000} {} {0.00}
+
+R { 7923} {0} {} {Near a Mine Entrance} { } {Directly to the north of this winding path through the foothills of the Stoneforge mountains an abandoned mine entrance, mostly filled in with boulders, echos with the wailing of something deep within.  The trail contineus to the south and west from here but one's attention is constantly drawn to the north. } {The Northern Road} {} {Hills} {} {1.000} {}
+E { 7492} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 7924} {s} {s} {4} {0} {} {1.000} {} {0.00}
+
+R { 7924} {0} {} {Rock Face on the Foothills Trail} { } {A sheer rocky face of a cliff blocks travel to the south here.  A winding trail heads north into the foothills of the Stoneforge Mountains while a small series of carved foot holes can be seen climbing the cliff upwards.  To the southwest the city of Nevrast lies past a large burial barrow that protrudes out of the ground. } {The Northern Road} {} {Hills} {} {1.000} {}
+E { 7923} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E { 7925} {u} {u} {16} {0} {} {1.000} {} {0.00}
+
+R { 7925} {0} {} {Atop a Rocky Outcropping} { } {The vista of the Stoneforge mountains to the north is stunning in its beauty from this vantage point.  A winding Trail that meanders westward can be seen below and the city of Nevrast can be seen off in the distance to the southwest. Directly to the east the trail stops at a sheer rock face and a strange wooden and iron structure sticks out of the rocky ground. } {The Northern Road} {} {Hills} {} {1.000} {}
+E { 7924} {d} {d} {32} {0} {} {1.000} {} {0.00}
+E { 7926} {e} {e} {2} {0} {} {1.000} {} {0.00}
+
+R { 7926} {0} {} {Next to a Strange Wooden Structure} { } {A large rope extends through a small hole set into a hatchway framed into the flat rocky surface of this plateau.  A series of wooden beams and iron braces secure this oversized rope to a series of pullies and and winches.  This wooden framework,  that descends beyond the hatch, resembles a spider.  To the west the plateau continues and to the southwest the city of Nevrast sparkles against the flatlands that lead up to it's walls. } {The Northern Road} {} {Inside} {} {1.000} {}
+E { 7925} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 3131} {d} {d} {32} {1} {} {1.000} {} {0.00}
+
+R { 7927} {0} {} {} { } {} {} {} {} {} {1.000} {}
+E { 4207} {u} {u} {16} {0} {} {1.000} {} {0.00}
+E { 7928} {d} {d} {32} {0} {} {1.000} {} {0.00}
+
+R { 7928} {0} {} {} { } {} {Unset} {} {} {} {1.000} {}
+E { 7927} {u} {u} {16} {0} {} {1.000} {} {0.00}
+E { 7929} {d} {d} {32} {0} {} {1.000} {} {0.00}
+
+R { 7929} {0} {} {Sir Loke flies down.} { } {You follow Sir Loke. The Dark Doorway    A door way of pure nothingness stands before you, its lack of definition fools your senses.  It is if the very existance you breathe in doesn't exist beyond the door in front of which you stand.  You can travel upwards into pure darkness or east, into the black abyss. } {Unset} {} {Inside} {} {1.000} {}
+E { 7928} {u} {u} {16} {0} {} {1.000} {} {0.00}
+E { 7930} {d} {d} {32} {0} {} {1.000} {} {0.00}
+
+R { 7930} {0} {} {} { } {} {Unset} {} {} {} {1.000} {}
+E { 7929} {u} {u} {16} {0} {} {1.000} {} {0.00}
+E { 7931} {e} {e} {2} {0} {} {1.000} {} {0.00}
+
+R { 7931} {0} {} {Sir Loke flies east.} { } {You follow Sir Loke. The Doorway to the Unknown    This space is hard to discern, its edges are shouded in darkness and its overall size is hard to grasp.  A giant set of double doors, carved out of pure obsidian, block travel to the east, while a simple gateway of iron and rust block your travel towards the west. } {Unset} {} {Inside} {} {1.000} {}
+E { 7930} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 7932} {e} {e} {2} {0} {} {1.000} {} {0.00}
+
+R { 7932} {0} {} {} { } {} {Unset} {} {} {} {1.000} {}
+E { 7931} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 7933} {e} {e} {2} {0} {} {1.000} {} {0.00}
+
+R { 7933} {0} {} {Sir Loke flies east.} { } {You follow Sir Loke. The Mini Maze    Rambling tunnels with oft dead ends trick your mind and senses until you find yourself standing before a simple gateway with an unremarkable door blocking the blackness and despair that beckon towards the west, through a set of substantial doors. } {Unset} {} {Inside} {} {1.000} {}
+E { 7932} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 7934} {e} {e} {2} {0} {} {1.000} {} {0.00}
+
+R { 7934} {0} {} {} { } {} {Unset} {} {} {} {1.000} {}
+E { 7933} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 7935} {e} {e} {2} {0} {} {1.000} {} {0.00}
+
+R { 7935} {0} {} {Sir Loke flies east.} { } {You follow Sir Loke. The Guardians of the Maze    The twisting tunnels of the maze come to a sudden end here, blocked by a mysterious door in the southern tunnel wall and a shaft that plummets into the depths below without fanfare nor ornamentation.  To the west lies a simple door set into the nearby maze entrance. } {Unset} {} {Inside} {} {1.000} {}
+E { 7934} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 7936} {e} {e} {2} {0} {} {1.000} {} {0.00}
+
+R { 7936} {0} {} {} { } {} {Unset} {} {} {} {1.000} {}
+E { 7935} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 7937} {d} {d} {32} {0} {} {1.000} {} {0.00}
+
+R { 7937} {0} {} {Sir Loke flies down.} { } {You follow Sir Loke. Almost Vertical Shaft    This tunnel, cut into solid rock, slices through the ground like a pit into nothingness.  You struggle to keep from falling into the abyss below, each movement you make careful, to avoid simply falling. } {Unset} {} {Underground} {} {1.000} {}
+E { 7936} {u} {u} {16} {0} {} {1.000} {} {0.00}
+E { 7938} {d} {d} {32} {0} {} {1.000} {} {0.00}
+
+R { 7938} {0} {} {Ok.} { } {The earth trembles beneath your feet! } {Unset} {} {} {} {1.000} {}
+E { 7937} {u} {u} {16} {0} {} {1.000} {} {0.00}
+E { 7939} {d} {d} {32} {0} {} {1.000} {} {0.00}
+
+R { 7939} {0} {} {Sir Loke flies down.} { } {You follow Sir Loke. Through the Darkness    This tunnel has become a shaft cut through the very world itself.  Hand and foot holds are gone, and a surface to travel along has turned into walls confining your assent into the world or your climb to the surface. } {Unset} {} {Underground} {} {1.000} {}
+E { 7938} {u} {u} {16} {0} {} {1.000} {} {0.00}
+E { 7940} {d} {d} {32} {0} {} {1.000} {} {0.00}
+
+R { 7940} {0} {} {} { } {} {Unset} {} {} {} {1.000} {}
+E { 7939} {u} {u} {16} {0} {} {1.000} {} {0.00}
+E { 7941} {d} {d} {32} {0} {} {1.000} {} {0.00}
+
+R { 7941} {0} {} {Sir Loke flies down.} { } {You follow Sir Loke. Near the Beginning of Nothing    The shaft cut straight into the world ends here.  A shimmering blackness to the east chills the tunnel in which you stand while hope for escape lies upwards, into the rock of the world above. } {Unset} {} {Underground} {} {1.000} {}
+E { 7940} {u} {u} {16} {0} {} {1.000} {} {0.00}
+E { 7942} {d} {d} {32} {0} {} {1.000} {} {0.00}
+
+R { 7942} {0} {} {} { } {} {Unset} {} {} {} {1.000} {}
+E { 7941} {u} {u} {16} {0} {} {1.000} {} {0.00}
+E { 7943} {e} {e} {2} {0} {} {1.000} {} {0.00}
+
+R { 7943} {0} {} {Sir Loke flies east.} { } {You follow Sir Loke. The Abysmal Walk    Existence itself opens up into a space of almost boundless edges, its swirling darkness pelts against you.  Towards the west you can travel into a tunnel of darkness and towards the east a tower cast in shadow rises from the murky existence that obscures the ground beneath you. } {Unset} {} {Inside} {} {1.000} {}
+E { 7942} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 7944} {e} {e} {2} {0} {} {1.000} {} {0.00}
+
+R { 7944} {0} {} {} { } {} {Unset} {} {} {} {1.000} {}
+E { 7943} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 7945} {e} {e} {2} {0} {} {1.000} {} {0.00}
+
+R { 7945} {0} {} {Sir Loke flies east.} { } {You follow Sir Loke. The Tower of Nothingness    A shimmering tower of darkness rises out of existence before you.  A gateway of nothingness leads into the tower to the east while a pathway leads through the abysmal existence towards the west.  Shadows sting and swirl with coldness around your being and thoughts. } {Unset} {} {Inside} {} {1.000} {}
+E { 7944} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E { 7946} {e} {e} {2} {0} {} {1.000} {} {0.00}
+
+R { 7946} {0} {} {} { } {} {Unset} {} {} {} {1.000} {}
+E { 7945} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R { 7947} {0} {} {On the Crystal Lake} { } {You are on the Crystal Lake.  To your surprise, you can't see the bottom of the lake.  The water of the lake is remarkably calm, but still you can hear some strange sounds coming from all directions.  It is a strange thundering sound.  Far to the south you can see the southern shoreline and to the north a long black dock reaches out from a dark city. } {Crystal Lake} {} {Water} {} {1.000} {}
+E { 4000} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E { 3999} {n} {n} {1} {0} {} {1.000} {} {0.00}
