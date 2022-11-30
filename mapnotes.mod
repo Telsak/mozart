@@ -26,7 +26,7 @@
 
 #ALIAS {show_legend_info} 
 {
-  #IF {&notes_l[] > 0}
+  #IF {&notes_l[] > 1}
   {
     #DRAW White BOX 3 4 4+&notes_l[] 25 $notes_l[];
   }
