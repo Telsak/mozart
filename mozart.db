@@ -347,3 +347,4 @@
 347,ROOMVNUM,Potion,flagon-platinum-ambrosia,a flagon of platinum ambrosia,Hold,0
 348,ROOMVNUM,Potion,flagon-silver-ambrosia,a flagon of silver ambrosia,Hold,0
 349,ROOMVNUM,Potion,flagon-crystal-ambrosia,a flagon of crystal ambrosia,Hold,0
+350,ROOMVNUM,Jewelry,gypsy-medallion,a gypsy medallion,Neck,0,Hit-N-Dam: +1,Abjuration: +4,Life-Protection

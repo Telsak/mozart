@@ -164,8 +164,8 @@
 #ALIAS {up} {u}
 #ALIAS {down} {d}
 
-#NOP ====== Statusbar at top split ======
-#EVENT {MAP UPDATED VTMAP} {statusbar;printinfo}
+#NOP ====== Statusbar at top split & Map Legend ======
+#EVENT {MAP UPDATED VTMAP} {statusbar;printinfo;getnotes;loopnotes}
 #EVENT {SCREEN RESIZE} {findsplit;#SCREEN get cols col;#SCREEN GET SCROLL_BOT_ROW screenHeight}
 
 #ALIAS {setmap} {

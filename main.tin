@@ -7,6 +7,7 @@
 #NOP ==== Read in map related modules ==== */
 #READ mapper.mod
 #READ terrain.mod
+#READ mapnotes.mod
 
 #NOP ==== Read in Mozart specific file ==== */
 #READ mozart.mod

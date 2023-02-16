@@ -1,7 +1,9 @@
 #MATH {n_x} {$col / 2 - 3}
 #MATH {n_y} {$rawSplit / 2}
 
-#ALIAS {getnotes} {#MAP list {roomnote}{{\w+}}{distance}{$n_y}{variable}{note}}
+#ALIAS {setlegend} {#VAR l_y %1; #MATH {l_x} {2 * $l_y}}
+
+#ALIAS {getnotes} {#MAP list {roomnote}{{\w+}}{distance}{$rawSplit}{variable}{note}}
 
 #ALIAS {loopnotes} 
 {
@@ -10,10 +12,10 @@
   #FOREACH {*note[%*]} attr #IF 
   {
     $note[$attr][z] == 0 && 
-    $note[$attr][x] > -$num && 
-    $note[$attr][x] < $num && 
-    $note[$attr][y] > -$num && 
-    $note[$attr][y] < $num
+    $note[$attr][x] > -$l_x && 
+    $note[$attr][x] < $l_x && 
+    $note[$attr][y] > -$l_y && 
+    $note[$attr][y] < $l_y
   } 
   {
     #MAP GET {roomnote} {notetext} {$attr};
@@ -32,8 +34,3 @@
   }
 }
 
-#EVENT {MAP UPDATED VTMAP} 
-{
-  getnotes;
-  loopnotes;
-}
