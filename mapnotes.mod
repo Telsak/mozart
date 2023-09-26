@@ -1,7 +1,7 @@
 #MATH {n_x} {$col / 2 - 3}
 #MATH {n_y} {$rawSplit / 2}
 
-#ALIAS {setlegend} {#VAR l_y %1; #MATH {l_x} {2 * $l_y}}
+#ALIAS {setlegend} {#VAR l_y %1; #MATH {l_x} {1 * $l_y}}
 
 #ALIAS {getnotes} {#MAP list {roomnote}{{\w+}}{distance}{$rawSplit}{variable}{note}}
 
