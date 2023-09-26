@@ -1101,7 +1101,7 @@ R {  205} {0} {} {Temple Avenue} {} {Temple Avenue is wide and consists of very 
 E {  200} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  206} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  206} {0} {} {Market Square} {} {You are standing in the Market Square, the famous centerpiece of Nevrast.  A large, peculiar-looking statue is standing in the middle of the square.  Roads lead in every direction\; Temple Avenue goes to the north and south, and Main Street heads to the east and west.    The area is magically bright. } {Nevrast} {Market Square} {City} {} {1.000} {}
+R {  206} {0} {} {Market Square} {} {You are standing in the Market Square, the famous centerpiece of Nevrast.  A large, peculiar-looking statue is standing in the middle of the square.  Roads lead in every direction\; Temple Avenue goes to the north and south, and Main Street heads to the east and west.    The area is magically bright. } {Nevrast} {} {City} {} {1.000} {}
 E {  205} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  207} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  229} {w} {w} {8} {0} {} {1.000} {} {0.00}
