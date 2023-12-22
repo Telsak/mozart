@@ -15,7 +15,7 @@ char-sheet/*
 
 terrain.old
 box
-backup/*
+backup
 chat.box
 boxfil
 .mozart.mod.swp

@@ -1,6 +1,8 @@
-#MATH {n_x} {$col / 2 - 3}
-#MATH {n_y} {$rawSplit / 2}
+#NOP #MATH {n_x} {$col / 2 - 3}
+#NOP #MATH {n_y} {$rawSplit / 2}
 
+#NOP setlegend sets the distance between the player and how far notes 
+#NOP will be included in the legend
 #ALIAS {setlegend} {#VAR l_y %1; #MATH {l_x} {1 * $l_y}}
 
 #ALIAS {getnotes} {#MAP list {roomnote}{{\w+}}{distance}{$rawSplit}{variable}{note}}
